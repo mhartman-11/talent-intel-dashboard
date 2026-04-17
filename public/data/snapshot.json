@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-04-16T21:27:30.878489Z",
+  "generated_at": "2026-04-17T03:08:43.319512Z",
   "next_ingest_at": null,
-  "total_events": 10,
+  "total_events": 39,
   "events_7d": 0,
   "sources": [
     {
@@ -10,8 +10,8 @@
       "url": "https://techcrunch.com/tag/layoffs/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-04-16T21:27:30.942287Z",
-      "last_attempted": "2026-04-16T21:27:30.942287Z",
+      "last_ok": "2026-04-17T03:08:43.408383Z",
+      "last_attempted": "2026-04-17T03:08:43.408383Z",
       "record_count": 10,
       "ok": true,
       "errors": []
@@ -22,8 +22,8 @@
       "url": "https://news.ycombinator.com",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-04-16T21:27:31.369020Z",
-      "last_attempted": "2026-04-16T21:27:31.369020Z",
+      "last_ok": "2026-04-17T03:08:43.841506Z",
+      "last_attempted": "2026-04-17T03:08:43.841506Z",
       "record_count": 0,
       "ok": true,
       "errors": [
@@ -32,21 +32,15 @@
     },
     {
       "source": "fred",
-      "display_name": "FRED (St. Louis Fed)",
-      "url": "https://fred.stlouisfed.org",
-      "tos_posture": "public_csv",
+      "display_name": "BLS Macro Labor Data",
+      "url": "https://www.bls.gov/developers/",
+      "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": null,
-      "last_attempted": "2026-04-16T21:27:32.025868Z",
-      "record_count": 0,
-      "ok": false,
-      "errors": [
-        "UNRATE: [Errno 54] Connection reset by peer",
-        "JTSJOR: [Errno 54] Connection reset by peer",
-        "JTSQUR: [Errno 54] Connection reset by peer",
-        "JTSLDL: [Errno 54] Connection reset by peer",
-        "CES0500000003: [Errno 54] Connection reset by peer"
-      ]
+      "last_ok": "2026-04-17T03:08:44.471339Z",
+      "last_attempted": "2026-04-17T03:08:44.471339Z",
+      "record_count": 29,
+      "ok": true,
+      "errors": []
     }
   ],
   "recent_signals": [
@@ -139,6 +133,38 @@
       ]
     },
     {
+      "id": "7890c66204dbe2c2",
+      "ts": "2026-03-01T00:00:00Z",
+      "source": "fred",
+      "source_url": "https://fred.stlouisfed.org/series/LNS14000000",
+      "type": "macro",
+      "company": null,
+      "magnitude": 4.3,
+      "unit": "pp",
+      "raw_text": "US Unemployment Rate (%): 4.3",
+      "tags": [
+        "macro",
+        "fred",
+        "lns14000000"
+      ]
+    },
+    {
+      "id": "1723dc274ef0bd6e",
+      "ts": "2026-03-01T00:00:00Z",
+      "source": "fred",
+      "source_url": "https://fred.stlouisfed.org/series/CES0500000003",
+      "type": "macro",
+      "company": null,
+      "magnitude": 37.38,
+      "unit": "pp",
+      "raw_text": "Private Sector Avg Hourly Earnings ($): 37.38",
+      "tags": [
+        "macro",
+        "fred",
+        "ces0500000003"
+      ]
+    },
+    {
       "id": "f8dbd4b0c995074a",
       "ts": "2026-02-26T15:10:45Z",
       "source": "layoffs_fyi",
@@ -202,6 +228,86 @@
       "tags": [
         "layoff",
         "technology"
+      ]
+    },
+    {
+      "id": "7b4cc8a9c6e19d71",
+      "ts": "2026-02-01T00:00:00Z",
+      "source": "fred",
+      "source_url": "https://fred.stlouisfed.org/series/LNS14000000",
+      "type": "macro",
+      "company": null,
+      "magnitude": 4.4,
+      "unit": "pp",
+      "raw_text": "US Unemployment Rate (%): 4.4",
+      "tags": [
+        "macro",
+        "fred",
+        "lns14000000"
+      ]
+    },
+    {
+      "id": "05930ee69af0a9bb",
+      "ts": "2026-02-01T00:00:00Z",
+      "source": "fred",
+      "source_url": "https://fred.stlouisfed.org/series/JTS000000000000000JOR",
+      "type": "macro",
+      "company": null,
+      "magnitude": 4.2,
+      "unit": "pp",
+      "raw_text": "JOLTS: Job Openings Rate (%): 4.2",
+      "tags": [
+        "macro",
+        "fred",
+        "jts000000000000000jor"
+      ]
+    },
+    {
+      "id": "e194652b3d26d4ce",
+      "ts": "2026-02-01T00:00:00Z",
+      "source": "fred",
+      "source_url": "https://fred.stlouisfed.org/series/JTS000000000000000QUR",
+      "type": "macro",
+      "company": null,
+      "magnitude": 1.9,
+      "unit": "pp",
+      "raw_text": "JOLTS: Quits Rate (%): 1.9",
+      "tags": [
+        "macro",
+        "fred",
+        "jts000000000000000qur"
+      ]
+    },
+    {
+      "id": "3bc70029f8884c59",
+      "ts": "2026-02-01T00:00:00Z",
+      "source": "fred",
+      "source_url": "https://fred.stlouisfed.org/series/JTS000000000000000LDR",
+      "type": "macro",
+      "company": null,
+      "magnitude": 1.1,
+      "unit": "pp",
+      "raw_text": "JOLTS: Layoffs & Discharges Rate (%): 1.1",
+      "tags": [
+        "macro",
+        "fred",
+        "jts000000000000000ldr"
+      ]
+    },
+    {
+      "id": "992fc07e0702c1f9",
+      "ts": "2026-02-01T00:00:00Z",
+      "source": "fred",
+      "source_url": "https://fred.stlouisfed.org/series/CES0500000003",
+      "type": "macro",
+      "company": null,
+      "magnitude": 37.29,
+      "unit": "pp",
+      "raw_text": "Private Sector Avg Hourly Earnings ($): 37.29",
+      "tags": [
+        "macro",
+        "fred",
+        "ces0500000003"
       ]
     },
     {
@@ -269,10 +375,362 @@
         "layoff",
         "other"
       ]
+    },
+    {
+      "id": "cdb9cbf9227d33e2",
+      "ts": "2026-01-01T00:00:00Z",
+      "source": "fred",
+      "source_url": "https://fred.stlouisfed.org/series/LNS14000000",
+      "type": "macro",
+      "company": null,
+      "magnitude": 4.3,
+      "unit": "pp",
+      "raw_text": "US Unemployment Rate (%): 4.3",
+      "tags": [
+        "macro",
+        "fred",
+        "lns14000000"
+      ]
+    },
+    {
+      "id": "52f59eff56f6b337",
+      "ts": "2026-01-01T00:00:00Z",
+      "source": "fred",
+      "source_url": "https://fred.stlouisfed.org/series/JTS000000000000000JOR",
+      "type": "macro",
+      "company": null,
+      "magnitude": 4.4,
+      "unit": "pp",
+      "raw_text": "JOLTS: Job Openings Rate (%): 4.4",
+      "tags": [
+        "macro",
+        "fred",
+        "jts000000000000000jor"
+      ]
+    },
+    {
+      "id": "1cbc2add2877ef7d",
+      "ts": "2026-01-01T00:00:00Z",
+      "source": "fred",
+      "source_url": "https://fred.stlouisfed.org/series/JTS000000000000000QUR",
+      "type": "macro",
+      "company": null,
+      "magnitude": 2.0,
+      "unit": "pp",
+      "raw_text": "JOLTS: Quits Rate (%): 2.0",
+      "tags": [
+        "macro",
+        "fred",
+        "jts000000000000000qur"
+      ]
+    },
+    {
+      "id": "f40ec78bcb9e1be4",
+      "ts": "2026-01-01T00:00:00Z",
+      "source": "fred",
+      "source_url": "https://fred.stlouisfed.org/series/JTS000000000000000LDR",
+      "type": "macro",
+      "company": null,
+      "magnitude": 1.0,
+      "unit": "pp",
+      "raw_text": "JOLTS: Layoffs & Discharges Rate (%): 1.0",
+      "tags": [
+        "macro",
+        "fred",
+        "jts000000000000000ldr"
+      ]
+    },
+    {
+      "id": "1528e574506b8619",
+      "ts": "2026-01-01T00:00:00Z",
+      "source": "fred",
+      "source_url": "https://fred.stlouisfed.org/series/CES0500000003",
+      "type": "macro",
+      "company": null,
+      "magnitude": 37.15,
+      "unit": "pp",
+      "raw_text": "Private Sector Avg Hourly Earnings ($): 37.15",
+      "tags": [
+        "macro",
+        "fred",
+        "ces0500000003"
+      ]
+    },
+    {
+      "id": "8abc8b5b2bf062c6",
+      "ts": "2025-12-01T00:00:00Z",
+      "source": "fred",
+      "source_url": "https://fred.stlouisfed.org/series/LNS14000000",
+      "type": "macro",
+      "company": null,
+      "magnitude": 4.4,
+      "unit": "pp",
+      "raw_text": "US Unemployment Rate (%): 4.4",
+      "tags": [
+        "macro",
+        "fred",
+        "lns14000000"
+      ]
+    },
+    {
+      "id": "d6b732343cbe08ce",
+      "ts": "2025-12-01T00:00:00Z",
+      "source": "fred",
+      "source_url": "https://fred.stlouisfed.org/series/JTS000000000000000JOR",
+      "type": "macro",
+      "company": null,
+      "magnitude": 4.0,
+      "unit": "pp",
+      "raw_text": "JOLTS: Job Openings Rate (%): 4.0",
+      "tags": [
+        "macro",
+        "fred",
+        "jts000000000000000jor"
+      ]
+    },
+    {
+      "id": "87aa1fe2c3d6e087",
+      "ts": "2025-12-01T00:00:00Z",
+      "source": "fred",
+      "source_url": "https://fred.stlouisfed.org/series/JTS000000000000000QUR",
+      "type": "macro",
+      "company": null,
+      "magnitude": 2.0,
+      "unit": "pp",
+      "raw_text": "JOLTS: Quits Rate (%): 2.0",
+      "tags": [
+        "macro",
+        "fred",
+        "jts000000000000000qur"
+      ]
+    },
+    {
+      "id": "ff975d2cdec891ea",
+      "ts": "2025-12-01T00:00:00Z",
+      "source": "fred",
+      "source_url": "https://fred.stlouisfed.org/series/JTS000000000000000LDR",
+      "type": "macro",
+      "company": null,
+      "magnitude": 1.1,
+      "unit": "pp",
+      "raw_text": "JOLTS: Layoffs & Discharges Rate (%): 1.1",
+      "tags": [
+        "macro",
+        "fred",
+        "jts000000000000000ldr"
+      ]
+    },
+    {
+      "id": "6fe6ffdaa98dd723",
+      "ts": "2025-12-01T00:00:00Z",
+      "source": "fred",
+      "source_url": "https://fred.stlouisfed.org/series/CES0500000003",
+      "type": "macro",
+      "company": null,
+      "magnitude": 37.02,
+      "unit": "pp",
+      "raw_text": "Private Sector Avg Hourly Earnings ($): 37.02",
+      "tags": [
+        "macro",
+        "fred",
+        "ces0500000003"
+      ]
+    },
+    {
+      "id": "774885d94d02e2ac",
+      "ts": "2025-11-01T00:00:00Z",
+      "source": "fred",
+      "source_url": "https://fred.stlouisfed.org/series/LNS14000000",
+      "type": "macro",
+      "company": null,
+      "magnitude": 4.5,
+      "unit": "pp",
+      "raw_text": "US Unemployment Rate (%): 4.5",
+      "tags": [
+        "macro",
+        "fred",
+        "lns14000000"
+      ]
+    },
+    {
+      "id": "d827cef618a7a36d",
+      "ts": "2025-11-01T00:00:00Z",
+      "source": "fred",
+      "source_url": "https://fred.stlouisfed.org/series/JTS000000000000000JOR",
+      "type": "macro",
+      "company": null,
+      "magnitude": 4.1,
+      "unit": "pp",
+      "raw_text": "JOLTS: Job Openings Rate (%): 4.1",
+      "tags": [
+        "macro",
+        "fred",
+        "jts000000000000000jor"
+      ]
+    },
+    {
+      "id": "5248a186c71f3cff",
+      "ts": "2025-11-01T00:00:00Z",
+      "source": "fred",
+      "source_url": "https://fred.stlouisfed.org/series/JTS000000000000000QUR",
+      "type": "macro",
+      "company": null,
+      "magnitude": 2.0,
+      "unit": "pp",
+      "raw_text": "JOLTS: Quits Rate (%): 2.0",
+      "tags": [
+        "macro",
+        "fred",
+        "jts000000000000000qur"
+      ]
+    },
+    {
+      "id": "f6d443a0e8b2796b",
+      "ts": "2025-11-01T00:00:00Z",
+      "source": "fred",
+      "source_url": "https://fred.stlouisfed.org/series/JTS000000000000000LDR",
+      "type": "macro",
+      "company": null,
+      "magnitude": 1.0,
+      "unit": "pp",
+      "raw_text": "JOLTS: Layoffs & Discharges Rate (%): 1.0",
+      "tags": [
+        "macro",
+        "fred",
+        "jts000000000000000ldr"
+      ]
+    },
+    {
+      "id": "61169fa15a046008",
+      "ts": "2025-11-01T00:00:00Z",
+      "source": "fred",
+      "source_url": "https://fred.stlouisfed.org/series/CES0500000003",
+      "type": "macro",
+      "company": null,
+      "magnitude": 37.0,
+      "unit": "pp",
+      "raw_text": "Private Sector Avg Hourly Earnings ($): 37.0",
+      "tags": [
+        "macro",
+        "fred",
+        "ces0500000003"
+      ]
+    },
+    {
+      "id": "4578971b63d23345",
+      "ts": "2025-10-01T00:00:00Z",
+      "source": "fred",
+      "source_url": "https://fred.stlouisfed.org/series/JTS000000000000000JOR",
+      "type": "macro",
+      "company": null,
+      "magnitude": 4.3,
+      "unit": "pp",
+      "raw_text": "JOLTS: Job Openings Rate (%): 4.3",
+      "tags": [
+        "macro",
+        "fred",
+        "jts000000000000000jor"
+      ]
+    },
+    {
+      "id": "c5e63f03c6fa19ed",
+      "ts": "2025-10-01T00:00:00Z",
+      "source": "fred",
+      "source_url": "https://fred.stlouisfed.org/series/JTS000000000000000QUR",
+      "type": "macro",
+      "company": null,
+      "magnitude": 1.9,
+      "unit": "pp",
+      "raw_text": "JOLTS: Quits Rate (%): 1.9",
+      "tags": [
+        "macro",
+        "fred",
+        "jts000000000000000qur"
+      ]
+    },
+    {
+      "id": "a98e6059602f9f89",
+      "ts": "2025-10-01T00:00:00Z",
+      "source": "fred",
+      "source_url": "https://fred.stlouisfed.org/series/JTS000000000000000LDR",
+      "type": "macro",
+      "company": null,
+      "magnitude": 1.2,
+      "unit": "pp",
+      "raw_text": "JOLTS: Layoffs & Discharges Rate (%): 1.2",
+      "tags": [
+        "macro",
+        "fred",
+        "jts000000000000000ldr"
+      ]
+    },
+    {
+      "id": "ec96d6fbc5f4688c",
+      "ts": "2025-10-01T00:00:00Z",
+      "source": "fred",
+      "source_url": "https://fred.stlouisfed.org/series/CES0500000003",
+      "type": "macro",
+      "company": null,
+      "magnitude": 36.85,
+      "unit": "pp",
+      "raw_text": "Private Sector Avg Hourly Earnings ($): 36.85",
+      "tags": [
+        "macro",
+        "fred",
+        "ces0500000003"
+      ]
+    },
+    {
+      "id": "45ef66ea0f2a8a82",
+      "ts": "2025-09-01T00:00:00Z",
+      "source": "fred",
+      "source_url": "https://fred.stlouisfed.org/series/JTS000000000000000JOR",
+      "type": "macro",
+      "company": null,
+      "magnitude": 4.3,
+      "unit": "pp",
+      "raw_text": "JOLTS: Job Openings Rate (%): 4.3",
+      "tags": [
+        "macro",
+        "fred",
+        "jts000000000000000jor"
+      ]
+    },
+    {
+      "id": "d9d1c4099227a225",
+      "ts": "2025-09-01T00:00:00Z",
+      "source": "fred",
+      "source_url": "https://fred.stlouisfed.org/series/JTS000000000000000QUR",
+      "type": "macro",
+      "company": null,
+      "magnitude": 1.9,
+      "unit": "pp",
+      "raw_text": "JOLTS: Quits Rate (%): 1.9",
+      "tags": [
+        "macro",
+        "fred",
+        "jts000000000000000qur"
+      ]
+    },
+    {
+      "id": "ce621731f4ec1ffe",
+      "ts": "2025-09-01T00:00:00Z",
+      "source": "fred",
+      "source_url": "https://fred.stlouisfed.org/series/JTS000000000000000LDR",
+      "type": "macro",
+      "company": null,
+      "magnitude": 1.1,
+      "unit": "pp",
+      "raw_text": "JOLTS: Layoffs & Discharges Rate (%): 1.1",
+      "tags": [
+        "macro",
+        "fred",
+        "jts000000000000000ldr"
+      ]
     }
   ],
   "sector_matrix": {
-    "generated_at": "2026-04-16T21:27:30.878489Z",
+    "generated_at": "2026-04-17T03:08:43.319512Z",
     "cells": [
       {
         "sector": "Technology",
