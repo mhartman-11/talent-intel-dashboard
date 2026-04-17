@@ -77,10 +77,7 @@ jobs:
 
       - name: Deploy to Cloudflare Pages
         if: steps.data_changed.outputs.changed == 'true' || github.event_name == 'workflow_dispatch'
-        uses: cloudflare/pages-action@v1
-        with:
-          apiToken: ${{ secrets.CF_PAGES_TOKEN }}
-          accountId: ${{ secrets.CF_ACCOUNT_ID }}
-          projectName: talent-intel-dashboard
-          directory: out
-          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
+        run: npx wrangler pages deploy out --project-name=talent-intel-dashboard
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CF_PAGES_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
