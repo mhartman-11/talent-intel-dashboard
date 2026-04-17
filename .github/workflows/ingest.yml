@@ -1,0 +1,86 @@
+name: Ingest + Build + Deploy
+
+on:
+  schedule:
+    # High-velocity sources: every 6 hours
+    - cron: "0 */6 * * *"
+    # Macro sources: daily at 09:00 UTC
+    - cron: "0 9 * * *"
+  # Manual trigger for testing
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Dry run (fetch but don't write files)"
+        required: false
+        default: "false"
+        type: boolean
+
+permissions:
+  contents: write  # needed to commit data files back to repo
+
+jobs:
+  ingest-build-deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Install Python deps
+        run: pip install -r requirements.txt
+
+      - name: Run ingest
+        run: |
+          DRY_RUN_FLAG=""
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
+            DRY_RUN_FLAG="--dry-run"
+          fi
+          python -m ingest.run $DRY_RUN_FLAG
+
+      - name: Check for data changes
+        id: data_changed
+        run: |
+          git diff --quiet public/data/ && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Commit updated data
+        if: steps.data_changed.outputs.changed == 'true' && github.event.inputs.dry_run != 'true'
+        run: |
+          git config user.name "talent-intel-bot"
+          git config user.email "bot@hartmanai.com"
+          git add public/data/
+          git commit -m "chore: ingest data update [$(date -u '+%Y-%m-%dT%H:%M')]" --no-verify
+          git push
+
+      - name: Set up Node
+        if: steps.data_changed.outputs.changed == 'true' || github.event_name == 'workflow_dispatch'
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install Node deps
+        if: steps.data_changed.outputs.changed == 'true' || github.event_name == 'workflow_dispatch'
+        run: npm ci
+
+      - name: Build Next.js static export
+        if: steps.data_changed.outputs.changed == 'true' || github.event_name == 'workflow_dispatch'
+        run: npm run build
+        env:
+          NODE_ENV: production
+
+      - name: Deploy to Cloudflare Pages
+        if: steps.data_changed.outputs.changed == 'true' || github.event_name == 'workflow_dispatch'
+        uses: cloudflare/pages-action@v1
+        with:
+          apiToken: ${{ secrets.CF_PAGES_TOKEN }}
+          accountId: ${{ secrets.CF_ACCOUNT_ID }}
+          projectName: talent-intel-dashboard
+          directory: out
+          gitHubToken: ${{ secrets.GITHUB_TOKEN }}

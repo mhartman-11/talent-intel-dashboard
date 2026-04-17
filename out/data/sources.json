@@ -1,0 +1,41 @@
+{
+  "generated_at": "2026-04-16T12:00:00Z",
+  "sources": [
+    {
+      "source": "layoffs_fyi",
+      "display_name": "layoffs.fyi",
+      "url": "https://layoffs.fyi",
+      "tos_posture": "public_csv",
+      "cadence_hours": 6,
+      "last_ok": null,
+      "last_attempted": null,
+      "record_count": 0,
+      "ok": false,
+      "errors": ["Pending first ingest run"]
+    },
+    {
+      "source": "hn_whoishiring",
+      "display_name": "HN Who is Hiring",
+      "url": "https://news.ycombinator.com",
+      "tos_posture": "public_api",
+      "cadence_hours": 24,
+      "last_ok": null,
+      "last_attempted": null,
+      "record_count": 0,
+      "ok": false,
+      "errors": ["Pending first ingest run"]
+    },
+    {
+      "source": "fred",
+      "display_name": "FRED (St. Louis Fed)",
+      "url": "https://fred.stlouisfed.org",
+      "tos_posture": "public_api",
+      "cadence_hours": 24,
+      "last_ok": null,
+      "last_attempted": null,
+      "record_count": 0,
+      "ok": false,
+      "errors": ["Pending first ingest run"]
+    }
+  ]
+}
