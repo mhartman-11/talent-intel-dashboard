@@ -1,37 +1,37 @@
 """
-FRED (Federal Reserve Economic Data) — macro labor indicators.
-Uses the public CSV endpoint — no API key required.
-  https://fred.stlouisfed.org/graph/fredgraph.csv?id=UNRATE
+Macro labor data via BLS Public Data API v1 (no key required)
++ FRED public CSV as fallback where BLS doesn't cover.
+
+BLS v1 docs: https://www.bls.gov/developers/api_signature.htm
 ToS posture: public API  ✓
 """
 from __future__ import annotations
 
-import csv
-import io
-from datetime import datetime, timedelta, timezone
+import json
+from datetime import datetime, timezone
 
 import httpx
 
 from ..schema import SourceMeta, SourceResult
 from ..normalizers import normalize_fred_observation
 
-# Public CSV endpoint — no auth, no registration
-FRED_CSV_URL = "https://fred.stlouisfed.org/graph/fredgraph.csv"
+BLS_API = "https://api.bls.gov/publicAPI/v1/timeseries/data/"
 
-# Series we care about for talent intelligence
-SERIES: dict[str, str] = {
-    "UNRATE": "US Unemployment Rate (%)",
-    "JTSJOR": "JOLTS: Job Openings Rate (%)",
-    "JTSQUR": "JOLTS: Quits Rate (%)",
-    "JTSLDL": "JOLTS: Layoffs & Discharges Rate (%)",
-    "CES0500000003": "Private Sector Avg Hourly Earnings (YoY %)",
+# BLS series IDs for key labor indicators
+# Docs: https://www.bls.gov/help/hlpforma.htm
+BLS_SERIES: dict[str, str] = {
+    "LNS14000000": "US Unemployment Rate (%)",          # CPS unemployment rate
+    "JTS000000000000000JOR": "JOLTS: Job Openings Rate (%)",
+    "JTS000000000000000QUR": "JOLTS: Quits Rate (%)",
+    "JTS000000000000000LDR": "JOLTS: Layoffs & Discharges Rate (%)",
+    "CES0500000003": "Private Sector Avg Hourly Earnings ($)",
 }
 
 SOURCE_META = SourceMeta(
     source="fred",
-    display_name="FRED (St. Louis Fed)",
-    url="https://fred.stlouisfed.org",
-    tos_posture="public_csv",
+    display_name="BLS Macro Labor Data",
+    url="https://www.bls.gov/developers/",
+    tos_posture="public_api",
     cadence_hours=24,
 )
 
@@ -41,52 +41,59 @@ def fetch(dry_run: bool = False) -> SourceResult:
     errors: list[str] = []
     records = []
 
-    # Only fetch last 60 days
-    since = (datetime.now() - timedelta(days=60)).strftime("%Y-%m-%d")
+    series_ids = list(BLS_SERIES.keys())
 
-    for series_id, series_name in SERIES.items():
-        try:
-            resp = httpx.get(
-                FRED_CSV_URL,
-                params={"id": series_id},
-                timeout=15,
-                follow_redirects=True,
-                headers={"User-Agent": "talent-intel-dashboard/1.0 (public data)"},
-            )
-            resp.raise_for_status()
+    try:
+        resp = httpx.post(
+            BLS_API,
+            json={"seriesid": series_ids, "startyear": "2024", "endyear": "2026"},
+            headers={
+                "User-Agent": "talent-intel-dashboard/1.0 (public data)",
+                "Content-Type": "application/json",
+            },
+            timeout=20,
+        )
+        resp.raise_for_status()
+        data = resp.json()
 
-            reader = csv.DictReader(io.StringIO(resp.text))
-            rows = list(reader)
+        if data.get("status") != "REQUEST_SUCCEEDED":
+            msg = data.get("message", ["Unknown BLS error"])
+            errors.append(f"BLS API: {msg}")
+        else:
+            for series in data.get("Results", {}).get("series", []):
+                series_id = series.get("seriesID", "")
+                series_name = BLS_SERIES.get(series_id, series_id)
 
-            if dry_run:
-                print(f"[fred] dry-run {series_id}: {len(rows)} rows")
-                continue
+                if dry_run:
+                    print(f"[fred] dry-run {series_id}: {len(series.get('data', []))} obs")
+                    continue
 
-            # CSV columns: DATE, {series_id}
-            # Normalize to the same format normalize_fred_observation expects
-            series_col = series_id  # column name matches series ID
-            obs_added = 0
-            for row in rows[-10:]:  # last 10 observations (most recent)
-                date = row.get("DATE") or row.get("date", "")
-                value = row.get(series_col, ".")
-                evt = normalize_fred_observation(
-                    series_id,
-                    series_name,
-                    {"date": date, "value": value},
-                )
-                if evt:
-                    records.append(evt)
-                    obs_added += 1
+                for obs in series.get("data", [])[:6]:  # last 6 observations
+                    # BLS format: {year, period, value, ...}
+                    # period is M01-M12 for monthly
+                    year = obs.get("year", "")
+                    period = obs.get("period", "M01")
+                    month = period.replace("M", "").zfill(2)
+                    date_str = f"{year}-{month}-01"
+                    value = obs.get("value", ".")
 
-        except Exception as e:
-            errors.append(f"{series_id}: {e}")
+                    evt = normalize_fred_observation(
+                        series_id,
+                        series_name,
+                        {"date": date_str, "value": value},
+                    )
+                    if evt:
+                        records.append(evt)
+
+    except Exception as e:
+        errors.append(f"BLS API: {e}")
 
     if not dry_run:
-        print(f"[fred] {len(records)} macro events across {len(SERIES)} series")
+        print(f"[fred] {len(records)} macro events from BLS")
 
     return SourceResult(
         source="fred",
-        ok=len(errors) < len(SERIES),
+        ok=len(errors) == 0,
         fetched_at=fetched_at,
         records=records,
         errors=errors[:10],

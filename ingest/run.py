@@ -108,7 +108,11 @@ def main(dry_run: bool = False) -> int:
     failed_sources = [r.source for r in source_results if not r.ok]
     if failed_sources:
         print(f"⚠ Failed sources: {', '.join(failed_sources)}")
-        return 1  # non-zero exit so GH Actions surfaces failures
+    # Only hard-fail if we got zero data — partial failures are fine,
+    # they surface in the Sources drawer. Don't block build/deploy.
+    if len(all_events) == 0 and len(failed_sources) == len(source_results):
+        print("✗ All sources failed — blocking deploy.")
+        return 1
     return 0
 
 
