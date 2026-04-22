@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-04-22T02:48:46.048622Z",
+  "generated_at": "2026-04-22T07:53:05.781984Z",
   "next_ingest_at": null,
   "total_events": 39,
-  "events_7d": 0,
+  "events_7d": 1,
   "sources": [
     {
       "source": "layoffs_fyi",
@@ -10,8 +10,8 @@
       "url": "https://techcrunch.com/tag/layoffs/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-04-22T02:48:46.136619Z",
-      "last_attempted": "2026-04-22T02:48:46.136619Z",
+      "last_ok": "2026-04-22T07:53:05.871519Z",
+      "last_attempted": "2026-04-22T07:53:05.871519Z",
       "record_count": 10,
       "ok": true,
       "errors": []
@@ -22,8 +22,8 @@
       "url": "https://news.ycombinator.com",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-04-22T02:48:46.822221Z",
-      "last_attempted": "2026-04-22T02:48:46.822221Z",
+      "last_ok": "2026-04-22T07:53:06.524652Z",
+      "last_attempted": "2026-04-22T07:53:06.524652Z",
       "record_count": 0,
       "ok": true,
       "errors": [
@@ -36,14 +36,36 @@
       "url": "https://www.bls.gov/developers/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-04-22T02:48:47.508902Z",
-      "last_attempted": "2026-04-22T02:48:47.508902Z",
+      "last_ok": "2026-04-22T07:53:07.103658Z",
+      "last_attempted": "2026-04-22T07:53:07.103658Z",
       "record_count": 29,
       "ok": true,
       "errors": []
     }
   ],
   "recent_signals": [
+    {
+      "id": "1ae746ea8e50c1b6",
+      "ts": "2026-04-22T00:37:33Z",
+      "source": "layoffs_fyi",
+      "source_url": "https://techcrunch.com/2026/04/21/redwood-materials-lays-off-10-in-restructuring-to-chase-energy-storage-business/",
+      "type": "layoff",
+      "company": {
+        "name": "Redwood Materials lays off 10% in restructuring to chase energy storage business",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Redwood Materials lays off 10% in restructuring to chase energy storage business",
+      "tags": [
+        "layoff",
+        "technology"
+      ]
+    },
     {
       "id": "13962f992bd8aad5",
       "ts": "2026-04-09T21:17:30Z",
@@ -352,28 +374,6 @@
       "tags": [
         "layoff",
         "technology"
-      ]
-    },
-    {
-      "id": "1084938e31225ffa",
-      "ts": "2026-01-23T00:27:28Z",
-      "source": "layoffs_fyi",
-      "source_url": "https://techcrunch.com/2026/01/22/vimeo-starts-layoffs-after-acquisition-by-bending-spoons/",
-      "type": "layoff",
-      "company": {
-        "name": "Vimeo starts layoffs after acquisition by Bending Spoons",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Vimeo starts layoffs after acquisition by Bending Spoons",
-      "tags": [
-        "layoff",
-        "other"
       ]
     },
     {
@@ -730,16 +730,16 @@
     }
   ],
   "sector_matrix": {
-    "generated_at": "2026-04-22T02:48:46.048622Z",
+    "generated_at": "2026-04-22T07:53:05.781984Z",
     "cells": [
       {
         "sector": "Technology",
         "signal_type": "layoff",
-        "count_7d": 0,
-        "count_30d": 1,
+        "count_7d": 1,
+        "count_30d": 2,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": -0.23
+        "z_score": 0.53
       },
       {
         "sector": "Technology",
