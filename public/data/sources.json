@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-22T19:18:59.644472+00:00",
+  "generated_at": "2026-04-22T22:50:35.367180+00:00",
   "sources": [
     {
       "source": "layoffs_fyi",
@@ -7,8 +7,8 @@
       "url": "https://techcrunch.com/tag/layoffs/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-04-22T19:18:58.010535Z",
-      "last_attempted": "2026-04-22T19:18:58.010535Z",
+      "last_ok": "2026-04-22T22:50:32.319140Z",
+      "last_attempted": "2026-04-22T22:50:32.319140Z",
       "record_count": 10,
       "ok": true,
       "errors": []
@@ -19,13 +19,11 @@
       "url": "https://news.ycombinator.com",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-04-22T19:18:58.392795Z",
-      "last_attempted": "2026-04-22T19:18:58.392795Z",
-      "record_count": 0,
+      "last_ok": "2026-04-22T22:50:32.715554Z",
+      "last_attempted": "2026-04-22T22:50:32.715554Z",
+      "record_count": 461,
       "ok": true,
-      "errors": [
-        "Could not find latest Who is Hiring thread"
-      ]
+      "errors": []
     },
     {
       "source": "fred",
@@ -33,9 +31,33 @@
       "url": "https://www.bls.gov/developers/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-04-22T19:18:58.954066Z",
-      "last_attempted": "2026-04-22T19:18:58.954066Z",
+      "last_ok": "2026-04-22T22:50:33.786827Z",
+      "last_attempted": "2026-04-22T22:50:33.786827Z",
       "record_count": 29,
+      "ok": true,
+      "errors": []
+    },
+    {
+      "source": "org_moves",
+      "display_name": "Org & Exec Moves",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar",
+      "tos_posture": "public_api",
+      "cadence_hours": 6,
+      "last_ok": "2026-04-22T22:50:34.118626Z",
+      "last_attempted": "2026-04-22T22:50:34.118626Z",
+      "record_count": 41,
+      "ok": true,
+      "errors": []
+    },
+    {
+      "source": "comp",
+      "display_name": "BLS Wage & Compensation Data",
+      "url": "https://www.bls.gov/ces/",
+      "tos_posture": "public_api",
+      "cadence_hours": 24,
+      "last_ok": "2026-04-22T22:50:34.969478Z",
+      "last_attempted": "2026-04-22T22:50:34.969478Z",
+      "record_count": 48,
       "ok": true,
       "errors": []
     }

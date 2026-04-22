@@ -59,8 +59,15 @@ def _parse_entry(entry: object, feed_name: str) -> Event | None:
     sector = classify_sector(full_text)
     region = extract_region(full_text)
 
-    # Best-effort company name from title
-    company_name = title.split(" Lay")[0].split(" Cut")[0].split(" slash")[0].strip()
+    # Best-effort company name from title (case-insensitive split on action verbs)
+    import re as _re
+    _split_pat = _re.compile(
+        r'\s+(?:lay|laid|lays|cut|cuts|slash|slashes|reduc|eliminat|restructur|'
+        r'to\s+lay|to\s+cut|announces?\s+layoff|is\s+laying|will\s+lay)',
+        _re.IGNORECASE,
+    )
+    m = _split_pat.search(title)
+    company_name = title[: m.start()].strip() if m else title.split(":")[0].strip()
     if len(company_name) > 80 or len(company_name) < 2:
         company_name = "Unknown"
 

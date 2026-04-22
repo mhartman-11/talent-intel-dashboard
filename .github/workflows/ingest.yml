@@ -44,39 +44,35 @@ jobs:
           fi
           python -m ingest.run $DRY_RUN_FLAG
 
-      - name: Check for data changes
-        id: data_changed
-        run: |
-          git diff --quiet public/data/ && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
-
       - name: Commit updated data
-        if: steps.data_changed.outputs.changed == 'true' && github.event.inputs.dry_run != 'true'
+        if: github.event.inputs.dry_run != 'true'
         run: |
           git config user.name "talent-intel-bot"
           git config user.email "bot@hartmanai.com"
           git add public/data/
-          git commit -m "chore: ingest data update [$(date -u '+%Y-%m-%dT%H:%M')]" --no-verify
-          git push
+          # Only commit if there are staged changes
+          git diff --cached --quiet || git commit -m "chore: ingest data update [$(date -u '+%Y-%m-%dT%H:%M')]" --no-verify
+          git push || true
 
       - name: Set up Node
-        if: steps.data_changed.outputs.changed == 'true' || github.event_name == 'workflow_dispatch'
+        if: github.event.inputs.dry_run != 'true'
         uses: actions/setup-node@v4
         with:
           node-version: "20"
           cache: "npm"
 
       - name: Install Node deps
-        if: steps.data_changed.outputs.changed == 'true' || github.event_name == 'workflow_dispatch'
+        if: github.event.inputs.dry_run != 'true'
         run: npm ci
 
       - name: Build Next.js static export
-        if: steps.data_changed.outputs.changed == 'true' || github.event_name == 'workflow_dispatch'
+        if: github.event.inputs.dry_run != 'true'
         run: npm run build
         env:
           NODE_ENV: production
 
       - name: Deploy to Cloudflare Pages
-        if: steps.data_changed.outputs.changed == 'true' || github.event_name == 'workflow_dispatch'
+        if: github.event.inputs.dry_run != 'true'
         run: npx wrangler pages deploy out --project-name=talent-intel-dashboard
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CF_PAGES_TOKEN }}

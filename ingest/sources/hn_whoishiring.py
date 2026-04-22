@@ -1,6 +1,6 @@
 """
 Hacker News "Who is Hiring?" monthly thread.
-Uses the official HN Algolia search API — public, no auth required.
+Uses HN Firebase API to find the thread, then HN Algolia for comments.
 ToS posture: public API  ✓
 """
 from __future__ import annotations
@@ -12,9 +12,9 @@ import httpx
 from ..schema import SourceMeta, SourceResult
 from ..normalizers import normalize_hn_hiring_comment
 
-# HN Algolia API: search comments in "Ask HN: Who is Hiring?" threads
-# Docs: https://hn.algolia.com/api
-HN_ALGOLIA_URL = "https://hn.algolia.com/api/v1/search_by_date"
+HN_ALGOLIA_URL = "https://hn.algolia.com/api/v1/search"
+HN_FIREBASE_USER = "https://hacker-news.firebaseio.com/v0/user/whoishiring/submitted.json"
+HN_FIREBASE_ITEM = "https://hacker-news.firebaseio.com/v0/item/{}.json"
 
 SOURCE_META = SourceMeta(
     source="hn_whoishiring",
@@ -26,21 +26,41 @@ SOURCE_META = SourceMeta(
 
 
 def _get_latest_thread_id() -> str | None:
-    """Find the most recent 'Ask HN: Who is Hiring?' post ID."""
+    """Find the most recent 'Ask HN: Who is Hiring?' post via Firebase API."""
+    try:
+        # whoishiring user posts the monthly thread — get their submission list
+        resp = httpx.get(HN_FIREBASE_USER, timeout=15)
+        resp.raise_for_status()
+        item_ids: list[int] = resp.json() or []
+
+        # Walk the newest submissions until we find a "Who is Hiring" story
+        for item_id in item_ids[:10]:
+            item_resp = httpx.get(
+                HN_FIREBASE_ITEM.format(item_id),
+                timeout=10,
+            )
+            item_resp.raise_for_status()
+            item = item_resp.json() or {}
+            title = item.get("title") or ""
+            if "who is hiring" in title.lower() and item.get("type") == "story":
+                return str(item_id)
+    except Exception as exc:
+        print(f"[hn_whoishiring] Firebase lookup failed: {exc}")
+
+    # Algolia fallback
     try:
         resp = httpx.get(
             "https://hn.algolia.com/api/v1/search",
             params={
                 "query": "Ask HN: Who is Hiring?",
-                "tags": "story,ask_hn",
+                "tags": "story",
                 "hitsPerPage": 5,
             },
             timeout=10,
         )
         resp.raise_for_status()
-        hits = resp.json().get("hits", [])
-        for hit in hits:
-            if "Who is Hiring" in (hit.get("title") or ""):
+        for hit in resp.json().get("hits", []):
+            if "who is hiring" in (hit.get("title") or "").lower():
                 return str(hit.get("objectID") or hit.get("story_id"))
     except Exception:
         pass
@@ -54,21 +74,24 @@ def fetch(dry_run: bool = False) -> SourceResult:
     thread_id = _get_latest_thread_id()
     if not thread_id:
         errors.append("Could not find latest Who is Hiring thread")
-        # Fall back to a direct search for recent hiring comments
-        params = {
-            "query": "",
-            "tags": "comment,ask_hn",
-            "hitsPerPage": 200,
-        }
-    else:
-        params = {
-            "query": "",
-            "tags": f"comment,story_{thread_id}",
-            "hitsPerPage": 200,
-        }
+        return SourceResult(
+            source="hn_whoishiring",
+            ok=False,
+            fetched_at=fetched_at,
+            errors=errors,
+        )
+
+    print(f"[hn_whoishiring] thread_id={thread_id}")
 
     try:
-        resp = httpx.get(HN_ALGOLIA_URL, params=params, timeout=15)
+        resp = httpx.get(
+            HN_ALGOLIA_URL,
+            params={
+                "tags": f"comment,story_{thread_id}",
+                "hitsPerPage": 500,
+            },
+            timeout=20,
+        )
         resp.raise_for_status()
         data = resp.json()
     except Exception as e:
@@ -93,7 +116,7 @@ def fetch(dry_run: bool = False) -> SourceResult:
         except Exception as e:
             errors.append(f"comment parse error: {e}")
 
-    print(f"[hn_whoishiring] {len(records)} hiring posts parsed from thread {thread_id}")
+    print(f"[hn_whoishiring] {len(records)} hiring posts from thread {thread_id}")
     return SourceResult(
         source="hn_whoishiring",
         ok=True,

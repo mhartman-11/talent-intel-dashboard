@@ -225,7 +225,7 @@ def _extract_company_from_hn(text: str) -> str:
 # ─── FRED series observation → Event ──────────────────────────────────────────
 
 
-def normalize_fred_observation(series_id: str, series_name: str, obs: dict) -> Optional[Event]:
+def normalize_fred_observation(series_id: str, series_name: str, obs: dict, event_type: str = "macro") -> Optional[Event]:
     """
     FRED observation dict: {date: "YYYY-MM-DD", value: "3.7", realtime_start, realtime_end}
     """
@@ -249,10 +249,10 @@ def normalize_fred_observation(series_id: str, series_name: str, obs: dict) -> O
         ts=ts,
         source="fred",
         source_url=f"https://fred.stlouisfed.org/series/{series_id}",
-        type="macro",
+        type=event_type,  # type: ignore[arg-type]
         company=None,
         magnitude=value,
         unit="pp",
         raw_text=f"{series_name}: {value}",
-        tags=["macro", "fred", series_id.lower()],
+        tags=[event_type, "fred", series_id.lower()],
     )

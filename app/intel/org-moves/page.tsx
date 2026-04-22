@@ -11,12 +11,10 @@ export default function OrgMovesPage() {
       color={COLORS.violet}
       stream={stream}
       sources={[
-        "SEC EDGAR API — 8-K Item 5.02 (exec changes)",
-        "SEC EDGAR API — Form D (funding rounds)",
-        "TechCrunch RSS",
-        "Crunchbase News RSS",
+        "SEC EDGAR EFTS — 8-K Item 5.02 (exec changes)",
+        "TechCrunch Venture RSS (funding rounds)",
       ]}
-      description="Executive changes sourced from SEC 8-K Item 5.02 mandatory disclosures. Funding events from Form D SEC filings and RSS. All primary sources are public record."
+      description="Executive appointment and departure filings from SEC 8-K Item 5.02 mandatory disclosures. Funding events from TechCrunch Venture RSS. All primary sources are public record."
     />
   );
 }
