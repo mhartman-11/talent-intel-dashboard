@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-04-23T02:51:31.344723Z",
+  "generated_at": "2026-04-23T07:59:59.930797Z",
   "next_ingest_at": null,
-  "total_events": 589,
+  "total_events": 559,
   "events_7d": 7,
   "sources": [
     {
@@ -10,8 +10,8 @@
       "url": "https://techcrunch.com/tag/layoffs/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-04-23T02:51:31.433710Z",
-      "last_attempted": "2026-04-23T02:51:31.433710Z",
+      "last_ok": "2026-04-23T08:00:00.027166Z",
+      "last_attempted": "2026-04-23T08:00:00.027166Z",
       "record_count": 10,
       "ok": true,
       "errors": []
@@ -22,8 +22,8 @@
       "url": "https://news.ycombinator.com",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-04-23T02:51:31.788395Z",
-      "last_attempted": "2026-04-23T02:51:31.788395Z",
+      "last_ok": "2026-04-23T08:00:00.655931Z",
+      "last_attempted": "2026-04-23T08:00:00.655931Z",
       "record_count": 461,
       "ok": true,
       "errors": []
@@ -34,8 +34,8 @@
       "url": "https://www.bls.gov/developers/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-04-23T02:51:32.879853Z",
-      "last_attempted": "2026-04-23T02:51:32.879853Z",
+      "last_ok": "2026-04-23T08:00:01.948863Z",
+      "last_attempted": "2026-04-23T08:00:01.948863Z",
       "record_count": 29,
       "ok": true,
       "errors": []
@@ -46,11 +46,13 @@
       "url": "https://www.sec.gov/cgi-bin/browse-edgar",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-04-23T02:51:33.121121Z",
-      "last_attempted": "2026-04-23T02:51:33.121121Z",
-      "record_count": 41,
+      "last_ok": "2026-04-23T08:00:03.000693Z",
+      "last_attempted": "2026-04-23T08:00:03.000693Z",
+      "record_count": 11,
       "ok": true,
-      "errors": []
+      "errors": [
+        "SEC EDGAR EFTS: Server error '500 Internal Server Error' for url 'https://efts.sec.gov/LATEST/search-index?q=%225.02%22&forms=8-K&dateRange=custom&startdt=2026-01-01&hits.hits.total.value=1'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500"
+      ]
     },
     {
       "source": "comp",
@@ -58,8 +60,8 @@
       "url": "https://www.bls.gov/ces/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-04-23T02:51:34.809948Z",
-      "last_attempted": "2026-04-23T02:51:34.809948Z",
+      "last_ok": "2026-04-23T08:00:03.275812Z",
+      "last_attempted": "2026-04-23T08:00:03.275812Z",
       "record_count": 48,
       "ok": true,
       "errors": []
@@ -2371,7 +2373,7 @@
     }
   ],
   "sector_matrix": {
-    "generated_at": "2026-04-23T02:51:31.344723Z",
+    "generated_at": "2026-04-23T07:59:59.930797Z",
     "cells": [
       {
         "sector": "Technology",
