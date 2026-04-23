@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-04-23T13:50:56.837035Z",
+  "generated_at": "2026-04-23T19:15:24.813830Z",
   "next_ingest_at": null,
-  "total_events": 589,
+  "total_events": 590,
   "events_7d": 7,
   "sources": [
     {
@@ -10,9 +10,9 @@
       "url": "https://techcrunch.com/tag/layoffs/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-04-23T13:50:56.897847Z",
-      "last_attempted": "2026-04-23T13:50:56.897847Z",
-      "record_count": 10,
+      "last_ok": "2026-04-23T19:15:25.021501Z",
+      "last_attempted": "2026-04-23T19:15:25.021501Z",
+      "record_count": 11,
       "ok": true,
       "errors": []
     },
@@ -22,8 +22,8 @@
       "url": "https://news.ycombinator.com",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-04-23T13:50:57.211839Z",
-      "last_attempted": "2026-04-23T13:50:57.211839Z",
+      "last_ok": "2026-04-23T19:15:25.464641Z",
+      "last_attempted": "2026-04-23T19:15:25.464641Z",
       "record_count": 461,
       "ok": true,
       "errors": []
@@ -34,8 +34,8 @@
       "url": "https://www.bls.gov/developers/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-04-23T13:50:57.988939Z",
-      "last_attempted": "2026-04-23T13:50:57.988939Z",
+      "last_ok": "2026-04-23T19:15:26.529709Z",
+      "last_attempted": "2026-04-23T19:15:26.529709Z",
       "record_count": 29,
       "ok": true,
       "errors": []
@@ -46,8 +46,8 @@
       "url": "https://www.sec.gov/cgi-bin/browse-edgar",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-04-23T13:50:58.229997Z",
-      "last_attempted": "2026-04-23T13:50:58.229997Z",
+      "last_ok": "2026-04-23T19:15:27.178896Z",
+      "last_attempted": "2026-04-23T19:15:27.178896Z",
       "record_count": 41,
       "ok": true,
       "errors": []
@@ -58,14 +58,36 @@
       "url": "https://www.bls.gov/ces/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-04-23T13:50:58.381540Z",
-      "last_attempted": "2026-04-23T13:50:58.381540Z",
+      "last_ok": "2026-04-23T19:15:28.512867Z",
+      "last_attempted": "2026-04-23T19:15:28.512867Z",
       "record_count": 48,
       "ok": true,
       "errors": []
     }
   ],
   "recent_signals": [
+    {
+      "id": "657fc03ab02325b2",
+      "ts": "2026-04-23T18:08:16Z",
+      "source": "layoffs_fyi",
+      "source_url": "https://techcrunch.com/2026/04/23/meta-job-cuts-10-percent-8000-employees/",
+      "type": "layoff",
+      "company": {
+        "name": "Meta",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": 8000.0,
+      "unit": "people",
+      "raw_text": "Meta to cut 10% of jobs, or 8,000 employees, report says",
+      "tags": [
+        "layoff",
+        "other"
+      ]
+    },
     {
       "id": "6d22b20acdc6d450",
       "ts": "2026-04-22T21:07:33Z",
@@ -2345,33 +2367,10 @@
         "hn",
         "technology"
       ]
-    },
-    {
-      "id": "4f6c03c1b581ac80",
-      "ts": "2026-04-07T10:26:43Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=47673019",
-      "type": "posting",
-      "company": {
-        "name": "MinimalistechOS (minimalistechos.polsia.app)",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "MinimalistechOS (minimalistechos.polsia.app) | Senior Agentic AI Engineers | Remote | Staffing We staff Claude Code &#x2F; agentic AI engineers for Series A-C companies. Unlike traditional recruiters, we vet for production agent systems experience\u2014not just prompt engineering. Looking for engineers w",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
     }
   ],
   "sector_matrix": {
-    "generated_at": "2026-04-23T13:50:56.837035Z",
+    "generated_at": "2026-04-23T19:15:24.813830Z",
     "cells": [
       {
         "sector": "Technology",
