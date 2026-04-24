@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-04-24T13:41:47.315142Z",
+  "generated_at": "2026-04-24T18:59:48.384083Z",
   "next_ingest_at": null,
-  "total_events": 592,
-  "events_7d": 8,
+  "total_events": 593,
+  "events_7d": 10,
   "sources": [
     {
       "source": "layoffs_fyi",
@@ -10,8 +10,8 @@
       "url": "https://techcrunch.com/tag/layoffs/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-04-24T13:41:47.396621Z",
-      "last_attempted": "2026-04-24T13:41:47.396621Z",
+      "last_ok": "2026-04-24T18:59:48.497316Z",
+      "last_attempted": "2026-04-24T18:59:48.497316Z",
       "record_count": 11,
       "ok": true,
       "errors": []
@@ -22,8 +22,8 @@
       "url": "https://news.ycombinator.com",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-04-24T13:41:47.662402Z",
-      "last_attempted": "2026-04-24T13:41:47.662402Z",
+      "last_ok": "2026-04-24T18:59:49.152447Z",
+      "last_attempted": "2026-04-24T18:59:49.152447Z",
       "record_count": 461,
       "ok": true,
       "errors": []
@@ -34,8 +34,8 @@
       "url": "https://www.bls.gov/developers/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-04-24T13:41:48.496682Z",
-      "last_attempted": "2026-04-24T13:41:48.496682Z",
+      "last_ok": "2026-04-24T18:59:50.173865Z",
+      "last_attempted": "2026-04-24T18:59:50.173865Z",
       "record_count": 29,
       "ok": true,
       "errors": []
@@ -46,9 +46,9 @@
       "url": "https://www.sec.gov/cgi-bin/browse-edgar",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-04-24T13:41:48.755270Z",
-      "last_attempted": "2026-04-24T13:41:48.755270Z",
-      "record_count": 43,
+      "last_ok": "2026-04-24T18:59:50.725452Z",
+      "last_attempted": "2026-04-24T18:59:50.725452Z",
+      "record_count": 44,
       "ok": true,
       "errors": []
     },
@@ -58,14 +58,59 @@
       "url": "https://www.bls.gov/ces/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-04-24T13:41:49.284359Z",
-      "last_attempted": "2026-04-24T13:41:49.284359Z",
+      "last_ok": "2026-04-24T18:59:54.582859Z",
+      "last_attempted": "2026-04-24T18:59:54.582859Z",
       "record_count": 48,
       "ok": true,
       "errors": []
     }
   ],
   "recent_signals": [
+    {
+      "id": "92c6ebe7b7dffa78",
+      "ts": "2026-04-24T14:00:00Z",
+      "source": "org_moves",
+      "source_url": "https://techcrunch.com/2026/04/24/uber-cto-praveen-neppalli-naga-joins-stacked-strictlyvc-sf-lineup-for-april-30-event/",
+      "type": "exec_move",
+      "company": {
+        "name": "Unknown",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": "CA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Uber CTO Praveen Neppalli Naga joins stacked StrictlyVC SF lineup for April 30 event",
+      "tags": [
+        "exec_move",
+        "technology",
+        "CA"
+      ]
+    },
+    {
+      "id": "09b994469c0460e0",
+      "ts": "2026-04-24T14:00:00Z",
+      "source": "org_moves",
+      "source_url": "https://techcrunch.com/video/tim-cook-is-stepping-down-what-happens-to-apple-now/",
+      "type": "exec_move",
+      "company": {
+        "name": "Tim Cook is stepping down. What\u00a0happens\u00a0to Apple\u00a0now?",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Tim Cook is stepping down. What\u00a0happens\u00a0to Apple\u00a0now?",
+      "tags": [
+        "exec_move",
+        "technology"
+      ]
+    },
     {
       "id": "397a7985d4576acd",
       "ts": "2026-04-24T00:11:25Z",
@@ -1578,28 +1623,6 @@
       ]
     },
     {
-      "id": "7107e530f55ecf40",
-      "ts": "2026-04-09T13:00:00Z",
-      "source": "org_moves",
-      "source_url": "https://techcrunch.com/2026/04/09/collide-capital-raises-95m-fund-to-back-fintech-future-of-work-startups/",
-      "type": "funding",
-      "company": {
-        "name": "Collide Capital",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Collide Capital raises $95M fund to back fintech, future-of-work startups",
-      "tags": [
-        "funding",
-        "technology"
-      ]
-    },
-    {
       "id": "269ab6c73f9499b0",
       "ts": "2026-04-09T12:31:25Z",
       "source": "hn_whoishiring",
@@ -2341,33 +2364,10 @@
         "technology",
         "WA"
       ]
-    },
-    {
-      "id": "28416b0004b3eb90",
-      "ts": "2026-04-07T13:12:41Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=47674848",
-      "type": "posting",
-      "company": {
-        "name": "Unknown",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Whats the deal with giving my passport number and uploading my passport document?",
-      "tags": [
-        "hiring",
-        "hn",
-        "media"
-      ]
     }
   ],
   "sector_matrix": {
-    "generated_at": "2026-04-24T13:41:47.315142Z",
+    "generated_at": "2026-04-24T18:59:48.384083Z",
     "cells": [
       {
         "sector": "Technology",
@@ -2390,20 +2390,20 @@
       {
         "sector": "Technology",
         "signal_type": "exec_move",
-        "count_7d": 0,
-        "count_30d": 1,
+        "count_7d": 2,
+        "count_30d": 3,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": -0.23
+        "z_score": 1.3
       },
       {
         "sector": "Technology",
         "signal_type": "funding",
         "count_7d": 1,
-        "count_30d": 8,
+        "count_30d": 7,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": -0.63
+        "z_score": -0.5
       },
       {
         "sector": "Technology",
