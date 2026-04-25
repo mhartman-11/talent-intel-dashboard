@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-04-25T13:10:47.400165Z",
+  "generated_at": "2026-04-25T18:57:28.948530Z",
   "next_ingest_at": null,
-  "total_events": 595,
-  "events_7d": 12,
+  "total_events": 596,
+  "events_7d": 13,
   "sources": [
     {
       "source": "layoffs_fyi",
@@ -10,8 +10,8 @@
       "url": "https://techcrunch.com/tag/layoffs/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-04-25T13:10:47.480911Z",
-      "last_attempted": "2026-04-25T13:10:47.480911Z",
+      "last_ok": "2026-04-25T18:57:29.039296Z",
+      "last_attempted": "2026-04-25T18:57:29.039296Z",
       "record_count": 11,
       "ok": true,
       "errors": []
@@ -22,8 +22,8 @@
       "url": "https://news.ycombinator.com",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-04-25T13:10:48.017099Z",
-      "last_attempted": "2026-04-25T13:10:48.017099Z",
+      "last_ok": "2026-04-25T18:57:29.413823Z",
+      "last_attempted": "2026-04-25T18:57:29.413823Z",
       "record_count": 461,
       "ok": true,
       "errors": []
@@ -34,8 +34,8 @@
       "url": "https://www.bls.gov/developers/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-04-25T13:10:48.857585Z",
-      "last_attempted": "2026-04-25T13:10:48.857585Z",
+      "last_ok": "2026-04-25T18:57:30.315831Z",
+      "last_attempted": "2026-04-25T18:57:30.315831Z",
       "record_count": 29,
       "ok": true,
       "errors": []
@@ -46,9 +46,9 @@
       "url": "https://www.sec.gov/cgi-bin/browse-edgar",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-04-25T13:10:49.116383Z",
-      "last_attempted": "2026-04-25T13:10:49.116383Z",
-      "record_count": 46,
+      "last_ok": "2026-04-25T18:57:30.574652Z",
+      "last_attempted": "2026-04-25T18:57:30.574652Z",
+      "record_count": 47,
       "ok": true,
       "errors": []
     },
@@ -58,14 +58,36 @@
       "url": "https://www.bls.gov/ces/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-04-25T13:10:51.011344Z",
-      "last_attempted": "2026-04-25T13:10:51.011344Z",
+      "last_ok": "2026-04-25T18:57:31.018387Z",
+      "last_attempted": "2026-04-25T18:57:31.018387Z",
       "record_count": 48,
       "ok": true,
       "errors": []
     }
   ],
   "recent_signals": [
+    {
+      "id": "a1a6282e5a8007b4",
+      "ts": "2026-04-25T14:57:26Z",
+      "source": "org_moves",
+      "source_url": "https://techcrunch.com/2026/04/25/indias-snabbit-seeks-fresh-funding-at-a-400m-valuation-sources-say/",
+      "type": "funding",
+      "company": {
+        "name": "India\u2019s Snabbit seeks fresh funding at a $400M valuation, sources say",
+        "ticker": null,
+        "industry": null,
+        "sector": "Finance",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "India\u2019s Snabbit seeks fresh funding at a $400M valuation, sources say",
+      "tags": [
+        "funding",
+        "finance"
+      ]
+    },
     {
       "id": "07148a4094a40ca4",
       "ts": "2026-04-24T23:32:11Z",
@@ -2338,33 +2360,10 @@
         "hn",
         "technology"
       ]
-    },
-    {
-      "id": "1a1757769cd58e09",
-      "ts": "2026-04-07T14:57:30Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=47676433",
-      "type": "posting",
-      "company": {
-        "name": "Better Stack",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Better Stack | https:&#x2F;&#x2F;betterstack.com&#x2F; | &#x2F;^Full-?stack Engineer$&#x2F;i | Remote (North America &amp; Europe) We are software builders at :heart: CEO is a software engineer, COO is a software engineer, and you guessed it, CTO is an engineer, too. We are engineers, making the too",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
     }
   ],
   "sector_matrix": {
-    "generated_at": "2026-04-25T13:10:47.400165Z",
+    "generated_at": "2026-04-25T18:57:28.948530Z",
     "cells": [
       {
         "sector": "Technology",
@@ -2441,11 +2440,11 @@
       {
         "sector": "Finance",
         "signal_type": "funding",
-        "count_7d": 3,
-        "count_30d": 4,
+        "count_7d": 4,
+        "count_30d": 5,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 2.07
+        "z_score": 2.62
       },
       {
         "sector": "Finance",
