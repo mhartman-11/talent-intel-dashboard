@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-04-27T14:00:43.617283Z",
+  "generated_at": "2026-04-27T19:27:37.909229Z",
   "next_ingest_at": null,
-  "total_events": 593,
-  "events_7d": 11,
+  "total_events": 594,
+  "events_7d": 13,
   "sources": [
     {
       "source": "layoffs_fyi",
@@ -10,8 +10,8 @@
       "url": "https://techcrunch.com/tag/layoffs/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-04-27T14:00:43.717573Z",
-      "last_attempted": "2026-04-27T14:00:43.717573Z",
+      "last_ok": "2026-04-27T19:27:38.013386Z",
+      "last_attempted": "2026-04-27T19:27:38.013386Z",
       "record_count": 11,
       "ok": true,
       "errors": []
@@ -22,9 +22,9 @@
       "url": "https://news.ycombinator.com",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-04-27T14:00:44.078617Z",
-      "last_attempted": "2026-04-27T14:00:44.078617Z",
-      "record_count": 460,
+      "last_ok": "2026-04-27T19:27:38.405697Z",
+      "last_attempted": "2026-04-27T19:27:38.405697Z",
+      "record_count": 462,
       "ok": true,
       "errors": []
     },
@@ -34,8 +34,8 @@
       "url": "https://www.bls.gov/developers/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-04-27T14:00:44.859473Z",
-      "last_attempted": "2026-04-27T14:00:44.859473Z",
+      "last_ok": "2026-04-27T19:27:39.366056Z",
+      "last_attempted": "2026-04-27T19:27:39.366056Z",
       "record_count": 29,
       "ok": true,
       "errors": []
@@ -46,9 +46,9 @@
       "url": "https://www.sec.gov/cgi-bin/browse-edgar",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-04-27T14:00:45.145155Z",
-      "last_attempted": "2026-04-27T14:00:45.145155Z",
-      "record_count": 45,
+      "last_ok": "2026-04-27T19:27:40.073977Z",
+      "last_attempted": "2026-04-27T19:27:40.073977Z",
+      "record_count": 44,
       "ok": true,
       "errors": []
     },
@@ -58,14 +58,60 @@
       "url": "https://www.bls.gov/ces/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-04-27T14:00:46.806701Z",
-      "last_attempted": "2026-04-27T14:00:46.806701Z",
+      "last_ok": "2026-04-27T19:27:41.265754Z",
+      "last_attempted": "2026-04-27T19:27:41.265754Z",
       "record_count": 48,
       "ok": true,
       "errors": []
     }
   ],
   "recent_signals": [
+    {
+      "id": "025afaddb6a7fb2e",
+      "ts": "2026-04-27T15:42:17Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=47923082",
+      "type": "posting",
+      "company": {
+        "name": "Unknown",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "I prefer to go gor full stack engineer, I can cover all the job areas but full stack enables front, back, and cloud and ci&#x2F;cd and infrastructure as code. Taking ownership or work in a team that is good.",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology"
+      ]
+    },
+    {
+      "id": "73eb656f4edf8d0c",
+      "ts": "2026-04-27T15:41:37Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=47923073",
+      "type": "posting",
+      "company": {
+        "name": "Unknown",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "I prefer to go gor full stack engineer, I can cover all the job areas but full stack enables front, back, and cloud and ci&#x2F;cd for me.",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology"
+      ]
+    },
     {
       "id": "a1a6282e5a8007b4",
       "ts": "2026-04-25T14:57:26Z",
@@ -693,29 +739,6 @@
         "hiring",
         "hn",
         "healthcare"
-      ]
-    },
-    {
-      "id": "cf3efcaeab489e94",
-      "ts": "2026-04-14T15:30:49Z",
-      "source": "org_moves",
-      "source_url": "https://techcrunch.com/2026/04/14/join-the-first-strictlyvc-of-2026-in-sf-with-leaders-from-tdk-ventures-and-replits-co-founder/",
-      "type": "funding",
-      "company": {
-        "name": "Unknown",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": "CA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "In just a couple weeks, StrictlyVC San Francisco brings leaders from TDK Ventures, Replit, and more together",
-      "tags": [
-        "funding",
-        "technology",
-        "CA"
       ]
     },
     {
@@ -2339,33 +2362,10 @@
         "hn",
         "technology"
       ]
-    },
-    {
-      "id": "4668e0937dcca957",
-      "ts": "2026-04-07T14:49:15Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=47676303",
-      "type": "posting",
-      "company": {
-        "name": "AI engineer and Fullstack Engineer We are vysr GmbH, an early",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "AI engineer and Fullstack Engineer We are vysr GmbH, an early-stage startup on a mission to reinvent performance management for asset\u2011intensive industries. Using AI\u2011powered performance mining, we identify improvement potential, recommend high\u2011impact actions, and help organizations run asset manageme",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
     }
   ],
   "sector_matrix": {
-    "generated_at": "2026-04-27T14:00:43.617283Z",
+    "generated_at": "2026-04-27T19:27:37.909229Z",
     "cells": [
       {
         "sector": "Technology",
@@ -2379,11 +2379,11 @@
       {
         "sector": "Technology",
         "signal_type": "posting",
-        "count_7d": 0,
-        "count_30d": 358,
+        "count_7d": 2,
+        "count_30d": 360,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": -9.14
+        "z_score": -8.95
       },
       {
         "sector": "Technology",
@@ -2398,10 +2398,10 @@
         "sector": "Technology",
         "signal_type": "funding",
         "count_7d": 2,
-        "count_30d": 7,
+        "count_30d": 6,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 0.29
+        "z_score": 0.51
       },
       {
         "sector": "Technology",
