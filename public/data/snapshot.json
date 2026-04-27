@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-04-26T18:59:26.277684Z",
+  "generated_at": "2026-04-27T03:22:49.656107Z",
   "next_ingest_at": null,
-  "total_events": 595,
-  "events_7d": 12,
+  "total_events": 594,
+  "events_7d": 11,
   "sources": [
     {
       "source": "layoffs_fyi",
@@ -10,8 +10,8 @@
       "url": "https://techcrunch.com/tag/layoffs/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-04-26T18:59:26.352730Z",
-      "last_attempted": "2026-04-26T18:59:26.352730Z",
+      "last_ok": "2026-04-27T03:22:49.758994Z",
+      "last_attempted": "2026-04-27T03:22:49.758994Z",
       "record_count": 11,
       "ok": true,
       "errors": []
@@ -22,8 +22,8 @@
       "url": "https://news.ycombinator.com",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-04-26T18:59:26.797687Z",
-      "last_attempted": "2026-04-26T18:59:26.797687Z",
+      "last_ok": "2026-04-27T03:22:50.115899Z",
+      "last_attempted": "2026-04-27T03:22:50.115899Z",
       "record_count": 461,
       "ok": true,
       "errors": []
@@ -34,8 +34,8 @@
       "url": "https://www.bls.gov/developers/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-04-26T18:59:28.451415Z",
-      "last_attempted": "2026-04-26T18:59:28.451415Z",
+      "last_ok": "2026-04-27T03:22:50.903773Z",
+      "last_attempted": "2026-04-27T03:22:50.903773Z",
       "record_count": 29,
       "ok": true,
       "errors": []
@@ -46,9 +46,9 @@
       "url": "https://www.sec.gov/cgi-bin/browse-edgar",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-04-26T18:59:29.064181Z",
-      "last_attempted": "2026-04-26T18:59:29.064181Z",
-      "record_count": 46,
+      "last_ok": "2026-04-27T03:22:51.291807Z",
+      "last_attempted": "2026-04-27T03:22:51.291807Z",
+      "record_count": 45,
       "ok": true,
       "errors": []
     },
@@ -58,8 +58,8 @@
       "url": "https://www.bls.gov/ces/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-04-26T18:59:29.726916Z",
-      "last_attempted": "2026-04-26T18:59:29.726916Z",
+      "last_ok": "2026-04-27T03:22:52.083551Z",
+      "last_attempted": "2026-04-27T03:22:52.083551Z",
       "record_count": 48,
       "ok": true,
       "errors": []
@@ -1017,28 +1017,6 @@
       "tags": [
         "hiring",
         "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "c7b1735fa786ed4c",
-      "ts": "2026-04-13T15:22:29Z",
-      "source": "org_moves",
-      "source_url": "https://techcrunch.com/2026/04/13/vercel-ceo-guillermo-rauch-signals-ipo-readiness-as-ai-agents-fuel-revenue-surge/",
-      "type": "exec_move",
-      "company": {
-        "name": "Vercel CEO Guillermo Rauch signals IPO readiness as AI agents fuel revenue surge",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Vercel CEO Guillermo Rauch signals IPO readiness as AI agents fuel revenue surge",
-      "tags": [
-        "exec_move",
         "technology"
       ]
     },
@@ -2361,10 +2339,33 @@
         "hn",
         "technology"
       ]
+    },
+    {
+      "id": "4668e0937dcca957",
+      "ts": "2026-04-07T14:49:15Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=47676303",
+      "type": "posting",
+      "company": {
+        "name": "AI engineer and Fullstack Engineer We are vysr GmbH, an early",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "AI engineer and Fullstack Engineer We are vysr GmbH, an early-stage startup on a mission to reinvent performance management for asset\u2011intensive industries. Using AI\u2011powered performance mining, we identify improvement potential, recommend high\u2011impact actions, and help organizations run asset manageme",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology"
+      ]
     }
   ],
   "sector_matrix": {
-    "generated_at": "2026-04-26T18:59:26.277684Z",
+    "generated_at": "2026-04-27T03:22:49.656107Z",
     "cells": [
       {
         "sector": "Technology",
@@ -2378,20 +2379,20 @@
       {
         "sector": "Technology",
         "signal_type": "posting",
-        "count_7d": 1,
+        "count_7d": 0,
         "count_30d": 358,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": -9.03
+        "z_score": -9.14
       },
       {
         "sector": "Technology",
         "signal_type": "exec_move",
         "count_7d": 2,
-        "count_30d": 3,
+        "count_30d": 2,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 1.3
+        "z_score": 1.53
       },
       {
         "sector": "Technology",
