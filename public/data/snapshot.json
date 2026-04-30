@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-30T14:03:02.415060Z",
+  "generated_at": "2026-04-30T19:26:53.584516Z",
   "next_ingest_at": null,
   "total_events": 593,
   "events_7d": 15,
@@ -10,8 +10,8 @@
       "url": "https://techcrunch.com/tag/layoffs/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-04-30T14:03:02.477749Z",
-      "last_attempted": "2026-04-30T14:03:02.477749Z",
+      "last_ok": "2026-04-30T19:26:53.685716Z",
+      "last_attempted": "2026-04-30T19:26:53.685716Z",
       "record_count": 11,
       "ok": true,
       "errors": []
@@ -22,8 +22,8 @@
       "url": "https://news.ycombinator.com",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-04-30T14:03:02.883880Z",
-      "last_attempted": "2026-04-30T14:03:02.883880Z",
+      "last_ok": "2026-04-30T19:26:54.292314Z",
+      "last_attempted": "2026-04-30T19:26:54.292314Z",
       "record_count": 461,
       "ok": true,
       "errors": []
@@ -34,8 +34,8 @@
       "url": "https://www.bls.gov/developers/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-04-30T14:03:03.691213Z",
-      "last_attempted": "2026-04-30T14:03:03.691213Z",
+      "last_ok": "2026-04-30T19:26:55.365109Z",
+      "last_attempted": "2026-04-30T19:26:55.365109Z",
       "record_count": 29,
       "ok": true,
       "errors": []
@@ -46,8 +46,8 @@
       "url": "https://www.sec.gov/cgi-bin/browse-edgar",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-04-30T14:03:04.022114Z",
-      "last_attempted": "2026-04-30T14:03:04.022114Z",
+      "last_ok": "2026-04-30T19:26:55.989218Z",
+      "last_attempted": "2026-04-30T19:26:55.989218Z",
       "record_count": 44,
       "ok": true,
       "errors": []
@@ -58,14 +58,36 @@
       "url": "https://www.bls.gov/ces/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-04-30T14:03:04.202928Z",
-      "last_attempted": "2026-04-30T14:03:04.202928Z",
+      "last_ok": "2026-04-30T19:26:57.551992Z",
+      "last_attempted": "2026-04-30T19:26:57.551992Z",
       "record_count": 48,
       "ok": true,
       "errors": []
     }
   ],
   "recent_signals": [
+    {
+      "id": "57a25bf9d99ef83e",
+      "ts": "2026-04-30T15:29:49Z",
+      "source": "org_moves",
+      "source_url": "https://techcrunch.com/2026/04/30/spacex-backer-137-ventures-raises-700m-for-two-growth-stage-funds/",
+      "type": "funding",
+      "company": {
+        "name": "SpaceX backer 137 Ventures",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "SpaceX backer 137 Ventures raises $700M for two growth-stage funds",
+      "tags": [
+        "funding",
+        "technology"
+      ]
+    },
     {
       "id": "0e8f9f920891ed75",
       "ts": "2026-04-30T00:07:15Z",
@@ -486,28 +508,6 @@
       "tags": [
         "funding",
         "other"
-      ]
-    },
-    {
-      "id": "4ad4c1440210dba8",
-      "ts": "2026-04-17T02:55:06Z",
-      "source": "org_moves",
-      "source_url": "https://techcrunch.com/2026/04/16/new-leaders-new-fund-sequoia-has-raised-7b-to-expand-its-ai-bets/",
-      "type": "funding",
-      "company": {
-        "name": "New leaders, new fund",
-        "ticker": null,
-        "industry": null,
-        "sector": "Finance",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "New leaders, new fund: Sequoia has raised $7B to expand its AI bets",
-      "tags": [
-        "funding",
-        "finance"
       ]
     },
     {
@@ -2365,7 +2365,7 @@
     }
   ],
   "sector_matrix": {
-    "generated_at": "2026-04-30T14:03:02.415060Z",
+    "generated_at": "2026-04-30T19:26:53.584516Z",
     "cells": [
       {
         "sector": "Technology",
@@ -2397,11 +2397,11 @@
       {
         "sector": "Technology",
         "signal_type": "funding",
-        "count_7d": 3,
-        "count_30d": 3,
+        "count_7d": 4,
+        "count_30d": 4,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 2.3
+        "z_score": 3.07
       },
       {
         "sector": "Technology",
@@ -2443,10 +2443,10 @@
         "sector": "Finance",
         "signal_type": "funding",
         "count_7d": 4,
-        "count_30d": 6,
+        "count_30d": 5,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 2.2
+        "z_score": 2.62
       },
       {
         "sector": "Finance",
