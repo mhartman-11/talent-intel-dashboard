@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-04-30T19:26:53.584516Z",
+  "generated_at": "2026-05-01T03:38:39.930028Z",
   "next_ingest_at": null,
   "total_events": 593,
-  "events_7d": 15,
+  "events_7d": 13,
   "sources": [
     {
       "source": "layoffs_fyi",
@@ -10,8 +10,8 @@
       "url": "https://techcrunch.com/tag/layoffs/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-04-30T19:26:53.685716Z",
-      "last_attempted": "2026-04-30T19:26:53.685716Z",
+      "last_ok": "2026-05-01T03:38:40.014156Z",
+      "last_attempted": "2026-05-01T03:38:40.014156Z",
       "record_count": 11,
       "ok": true,
       "errors": []
@@ -22,8 +22,8 @@
       "url": "https://news.ycombinator.com",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-04-30T19:26:54.292314Z",
-      "last_attempted": "2026-04-30T19:26:54.292314Z",
+      "last_ok": "2026-05-01T03:38:40.279338Z",
+      "last_attempted": "2026-05-01T03:38:40.279338Z",
       "record_count": 461,
       "ok": true,
       "errors": []
@@ -34,8 +34,8 @@
       "url": "https://www.bls.gov/developers/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-04-30T19:26:55.365109Z",
-      "last_attempted": "2026-04-30T19:26:55.365109Z",
+      "last_ok": "2026-05-01T03:38:41.262861Z",
+      "last_attempted": "2026-05-01T03:38:41.262861Z",
       "record_count": 29,
       "ok": true,
       "errors": []
@@ -46,8 +46,8 @@
       "url": "https://www.sec.gov/cgi-bin/browse-edgar",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-04-30T19:26:55.989218Z",
-      "last_attempted": "2026-04-30T19:26:55.989218Z",
+      "last_ok": "2026-05-01T03:38:41.476683Z",
+      "last_attempted": "2026-05-01T03:38:41.476683Z",
       "record_count": 44,
       "ok": true,
       "errors": []
@@ -58,14 +58,36 @@
       "url": "https://www.bls.gov/ces/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-04-30T19:26:57.551992Z",
-      "last_attempted": "2026-04-30T19:26:57.551992Z",
+      "last_ok": "2026-05-01T03:38:41.940684Z",
+      "last_attempted": "2026-05-01T03:38:41.940684Z",
       "record_count": 48,
       "ok": true,
       "errors": []
     }
   ],
   "recent_signals": [
+    {
+      "id": "9447340f52671ab0",
+      "ts": "2026-04-30T23:07:56Z",
+      "source": "org_moves",
+      "source_url": "https://techcrunch.com/2026/04/30/anthropic-potential-900b-valuation-round-could-happen-within-two-weeks/",
+      "type": "funding",
+      "company": {
+        "name": "Sources",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Sources: Anthropic potential $900B+ valuation round could happen within 2 weeks",
+      "tags": [
+        "funding",
+        "technology"
+      ]
+    },
     {
       "id": "57a25bf9d99ef83e",
       "ts": "2026-04-30T15:29:49Z",
@@ -486,28 +508,6 @@
         "hiring",
         "hn",
         "technology"
-      ]
-    },
-    {
-      "id": "d1ddcb55aa38e057",
-      "ts": "2026-04-18T20:00:00Z",
-      "source": "org_moves",
-      "source_url": "https://techcrunch.com/2026/04/18/vc-ron-conway-says-he-has-a-rare-form-of-cancer/",
-      "type": "funding",
-      "company": {
-        "name": "VC Ron Conway says he has a \u2018rare form of cancer\u2019",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "VC Ron Conway says he has a \u2018rare form of cancer\u2019",
-      "tags": [
-        "funding",
-        "other"
       ]
     },
     {
@@ -2365,16 +2365,16 @@
     }
   ],
   "sector_matrix": {
-    "generated_at": "2026-04-30T19:26:53.584516Z",
+    "generated_at": "2026-05-01T03:38:39.930028Z",
     "cells": [
       {
         "sector": "Technology",
         "signal_type": "layoff",
-        "count_7d": 1,
+        "count_7d": 0,
         "count_30d": 3,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 0.3
+        "z_score": -0.7
       },
       {
         "sector": "Technology",
@@ -2398,10 +2398,10 @@
         "sector": "Technology",
         "signal_type": "funding",
         "count_7d": 4,
-        "count_30d": 4,
+        "count_30d": 5,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 3.07
+        "z_score": 2.62
       },
       {
         "sector": "Technology",
@@ -2442,11 +2442,11 @@
       {
         "sector": "Finance",
         "signal_type": "funding",
-        "count_7d": 4,
+        "count_7d": 3,
         "count_30d": 5,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 2.62
+        "z_score": 1.7
       },
       {
         "sector": "Finance",
