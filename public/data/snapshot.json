@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-02T07:48:22.093477Z",
+  "generated_at": "2026-05-02T09:55:58.071826Z",
   "next_ingest_at": null,
-  "total_events": 389,
-  "events_7d": 264,
+  "total_events": 398,
+  "events_7d": 273,
   "sources": [
     {
       "source": "layoffs_fyi",
@@ -10,8 +10,8 @@
       "url": "https://techcrunch.com/tag/layoffs/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-05-02T07:48:22.156125Z",
-      "last_attempted": "2026-05-02T07:48:22.156125Z",
+      "last_ok": "2026-05-02T09:55:58.153962Z",
+      "last_attempted": "2026-05-02T09:55:58.153962Z",
       "record_count": 11,
       "ok": true,
       "errors": []
@@ -22,9 +22,9 @@
       "url": "https://news.ycombinator.com",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-02T07:48:22.605177Z",
-      "last_attempted": "2026-05-02T07:48:22.605177Z",
-      "record_count": 255,
+      "last_ok": "2026-05-02T09:55:58.661703Z",
+      "last_attempted": "2026-05-02T09:55:58.661703Z",
+      "record_count": 264,
       "ok": true,
       "errors": []
     },
@@ -34,8 +34,8 @@
       "url": "https://www.bls.gov/developers/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-02T07:48:23.565709Z",
-      "last_attempted": "2026-05-02T07:48:23.565709Z",
+      "last_ok": "2026-05-02T09:55:59.510284Z",
+      "last_attempted": "2026-05-02T09:55:59.510284Z",
       "record_count": 29,
       "ok": true,
       "errors": []
@@ -46,8 +46,8 @@
       "url": "https://www.sec.gov/cgi-bin/browse-edgar",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-05-02T07:48:24.189759Z",
-      "last_attempted": "2026-05-02T07:48:24.189759Z",
+      "last_ok": "2026-05-02T09:55:59.851730Z",
+      "last_attempted": "2026-05-02T09:55:59.851730Z",
       "record_count": 46,
       "ok": true,
       "errors": []
@@ -58,14 +58,222 @@
       "url": "https://www.bls.gov/ces/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-02T07:48:25.481542Z",
-      "last_attempted": "2026-05-02T07:48:25.481542Z",
+      "last_ok": "2026-05-02T09:56:00.505987Z",
+      "last_attempted": "2026-05-02T09:56:00.505987Z",
       "record_count": 48,
       "ok": true,
       "errors": []
     }
   ],
   "recent_signals": [
+    {
+      "id": "2f1d026f2db1380b",
+      "ts": "2026-05-02T09:36:01Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=47984875",
+      "type": "posting",
+      "company": {
+        "name": "Unknown",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Hey Lukas, would you be open for the remote position? I follow the Sweden time so i guess so that won&#x27;t be any issue. Let&#x27;s have chat and connect to discsuss it further.",
+      "tags": [
+        "hiring",
+        "hn",
+        "other"
+      ]
+    },
+    {
+      "id": "089c44a0bc161abc",
+      "ts": "2026-05-02T09:08:32Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=47984737",
+      "type": "posting",
+      "company": {
+        "name": "Unknown",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "I&#x27;d love to apply but it&#x27;s only open to US workers, think about changing REMOTE to REMOTE (US)",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology"
+      ]
+    },
+    {
+      "id": "50e717801f7eed32",
+      "ts": "2026-05-02T09:03:54Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=47984711",
+      "type": "posting",
+      "company": {
+        "name": "Stellar",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": "OK",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Stellar | Amsterdam, the Netherlands | Onsite (2 days remote OK) | \u20ac70-100k + equity | https:&#x2F;&#x2F;stellarcs.ai Hey, I&#x27;m one of Stellar&#x27;s founders. We&#x27;re building AI for large contact centers, our primary product is voice. Contact centers are the last place where companies actua",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology",
+        "OK"
+      ]
+    },
+    {
+      "id": "16026a2394d2ef90",
+      "ts": "2026-05-02T08:55:18Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=47984681",
+      "type": "posting",
+      "company": {
+        "name": "Mitte ( https:&#x2F;&#x2F;mitte.ai )",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Mitte ( https:&#x2F;&#x2F;mitte.ai ) | Berlin | ONSITE | Full-Time Mitte is an AI creative suite. We&#x27;ve built our own media agent and we&#x27;re hiring engineers who want this to be the best work of their career. Founded by an ex-Superhuman lead engineer. Lean startup and unix philosophy run de",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology"
+      ]
+    },
+    {
+      "id": "d63eee619fb8ba22",
+      "ts": "2026-05-02T08:51:22Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=47984660",
+      "type": "posting",
+      "company": {
+        "name": "Promptwatch",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Promptwatch | https:&#x2F;&#x2F;promptwatch.com | Amsterdam, Netherlands | HYBRID&#x2F;ON-SITE | Full-time | https:&#x2F;&#x2F;promptwatch.com ==================== Promptwatch helps companies track and improve their visibility in AI search &#x2F;ChatGPT, Google AI mode and any other AI app. (GEO). W",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology"
+      ]
+    },
+    {
+      "id": "d4e9419a6d1cb5f5",
+      "ts": "2026-05-02T08:42:55Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=47984616",
+      "type": "posting",
+      "company": {
+        "name": "Unknown",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Hey, How&#x27;s your thought about the potential business partnership for a tech partner? we do follow CEST time and having a full stack developer to help you with your offering. Plus having another experts available under the one roof which may help you to support at initial level while you are rei",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology"
+      ]
+    },
+    {
+      "id": "3f7e76da0399d313",
+      "ts": "2026-05-02T08:34:01Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=47984572",
+      "type": "posting",
+      "company": {
+        "name": "Unknown",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Hi Jarl, Its asad you can find my work at github.com&#x2F;asadrizvi64 and email me on asad.haider.rizvi64@gmail.com, been working on a similar frameworks for multi-tenancy Agentic systems. Would love to chat more about it!",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology"
+      ]
+    },
+    {
+      "id": "fe65c7d34b1e07c8",
+      "ts": "2026-05-02T08:19:40Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=47984496",
+      "type": "posting",
+      "company": {
+        "name": "Unknown",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Hi! I must say I&#x27;m really interested in what you are building there and I&#x27;d love to be a part of it. I can&#x27;t apply for now but, if that&#x27;s okay, I&#x27;d like to connect with you on LinkedIn in order to keep an eye on your enterprise. As for me, I have a strong background in front",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology"
+      ]
+    },
+    {
+      "id": "aa092ad34afeb355",
+      "ts": "2026-05-02T07:54:31Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=47984358",
+      "type": "posting",
+      "company": {
+        "name": "I&#x27;m a big PostHog fan",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "I&#x27;m a big PostHog fan - can GMT+10 be written off as just bad latency?",
+      "tags": [
+        "hiring",
+        "hn",
+        "other"
+      ]
+    },
     {
       "id": "54dc2f00ad092ca7",
       "ts": "2026-05-02T07:08:21Z",
@@ -382,7 +590,7 @@
       },
       "magnitude": null,
       "unit": "jobs",
-      "raw_text": "Prophet Town LLC | Various Software Engineering Roles | US \u2013 Remote and Hybrid | English fluency required | Full-time | $150K-$260K annual total comp (multiple) We are a people-first, boutique tech agency creating on-demand teams and software solutions for long-standing clients. These clients trust ",
+      "raw_text": "Prophet Town LLC | Various Software Engineering Roles | US \u2013 Remote and Hybrid | English fluency required | Full-time | $150K-$260K annual total comp (multiple) We are a people-first, boutique tech agency creating on-demand teams and software solutions for long-standing clients, who trust us to prac",
       "tags": [
         "hiring",
         "hn",
@@ -2180,220 +2388,10 @@
         "hn",
         "technology"
       ]
-    },
-    {
-      "id": "3b0df94ed5808102",
-      "ts": "2026-05-01T19:21:10Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=47978984",
-      "type": "posting",
-      "company": {
-        "name": "Sheer Health ( https:&#x2F;&#x2F;www.sheerhealth.com )",
-        "ticker": null,
-        "industry": null,
-        "sector": "Healthcare",
-        "hq_region": "NY",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Sheer Health ( https:&#x2F;&#x2F;www.sheerhealth.com ) | New York, NY | Full-Time | ONSITE If you or a loved one has ever suffered from confusing&#x2F;egregious medical bills or insurance communications, this is your chance to give the power back to others in a similar situation. Our mission is to d",
-      "tags": [
-        "hiring",
-        "hn",
-        "healthcare",
-        "NY"
-      ]
-    },
-    {
-      "id": "29a8fbecdeb0493c",
-      "ts": "2026-05-01T19:19:07Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=47978953",
-      "type": "posting",
-      "company": {
-        "name": "Unknown",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Hey! Thanks for reaching out and for sharing. Appreciate the honesty on being more frontend than design. That can still be interesting for us, especially if you care about craft, motion, interaction, and building polished experiences. Send me your LinkedIn, GitHub, and anything you\u2019ve built that you",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "3e8d50dc2b2e1d7e",
-      "ts": "2026-05-01T19:18:56Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=47978952",
-      "type": "posting",
-      "company": {
-        "name": "BillionToOne (YC S17, NASDAQ: BLLN)",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": "CA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "BillionToOne (YC S17, NASDAQ: BLLN) | Menlo Park, CA | Onsite We&#x27;re a molecular diagnostics company. YC made a video of us recently: https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=kkv5rZhrLkc . Our software team creates products that help detect prenatal genetic conditions non-invasively and un",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology",
-        "CA"
-      ]
-    },
-    {
-      "id": "7999e7b3c52e5ee5",
-      "ts": "2026-05-01T19:17:50Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=47978937",
-      "type": "posting",
-      "company": {
-        "name": "Railway",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Railway | Infra Eng-Storage, Infra Eng-Observability, Product Design | REMOTE (Worldwide) | https:&#x2F;&#x2F;railway.com&#x2F;careers Do you feel scared and alone when opening the AWS console? Do you wish you could just tell Claude to manage your infra, and it would just work? Do you dream of a fut",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "e0a76ec6e39e3fad",
-      "ts": "2026-05-01T19:17:14Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=47978926",
-      "type": "posting",
-      "company": {
-        "name": "Dialogue",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Dialogue | dialogue.co | many roles in dev, design, product | Montreal or Toronto | 3-days in office We offer virtual care services to Canadians. More details here https:&#x2F;&#x2F;alexissmirnov.substack.com&#x2F;p&#x2F;help-wanted",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "5113aca9f924a52e",
-      "ts": "2026-05-01T19:16:56Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=47978920",
-      "type": "posting",
-      "company": {
-        "name": "Hey HN! Air Space Intelligence ( https:&#x2F;&#x2F;www.airspace",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Hey HN! Air Space Intelligence ( https:&#x2F;&#x2F;www.airspace-intelligence.com ) is hiring. We are a frontier AI and product company for the critical industries and defense, backed by a16z. We\u2019re rebuilding America\u2019s air traffic control system from scratch. What we do in the next two years will de",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "3c2576bde39dc778",
-      "ts": "2026-05-01T19:16:17Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=47978910",
-      "type": "posting",
-      "company": {
-        "name": "Espresso AI",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": "CA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Espresso AI | Staff ML, Staff Infra, FDE | Brooklyn or San Francisco | Full time We&#x27;re using LLMs to build neural optimizers, neural scheduling systems, and neural workload tuners. (If you&#x27;re ex-Google, you can think of it like Borg powered by LLMs.) Today we use ML to make data warehouses",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology",
-        "CA"
-      ]
-    },
-    {
-      "id": "a62105b5c7f5f72d",
-      "ts": "2026-05-01T19:11:13Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=47978842",
-      "type": "posting",
-      "company": {
-        "name": "Unknown",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Heya, I\u2019m applying for this role, but I wanted to add something. I\u2019m a big fantasy fan. I used to read Chinese&#x2F;Korean webnovels, Japanese light novels, manhwas, and I\u2019ve now moved more into epic fantasy. I recently completed the Cosmere and gonna start red rising soon(after I get a job lol) I\u2019v",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "23a3040795638961",
-      "ts": "2026-05-01T19:10:55Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=47978833",
-      "type": "posting",
-      "company": {
-        "name": "VersaFeed.com",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "VersaFeed.com | DIRECTOR OF BUSINESS DEVELOPMENT | REMOTE (USA ONLY) | Full-time YES, THIS IS A SALES&#x2F;BIZDEV JOB ON HACKER NEWS. WE LIKE TECHNICAL PEOPLE, WHAT CAN I SAY. About us : VersaFeed is an adtech and data feed company for large ecommerce operations. We transform messy product data from",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
     }
   ],
   "sector_matrix": {
-    "generated_at": "2026-05-02T07:48:22.093477Z",
+    "generated_at": "2026-05-02T09:55:58.071826Z",
     "cells": [
       {
         "sector": "Technology",
@@ -2407,11 +2405,11 @@
       {
         "sector": "Technology",
         "signal_type": "posting",
-        "count_7d": 186,
-        "count_30d": 186,
+        "count_7d": 193,
+        "count_30d": 193,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 21.65
+        "z_score": 22.05
       },
       {
         "sector": "Technology",
