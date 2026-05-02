@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-02T13:18:02.818503Z",
+  "generated_at": "2026-05-02T19:03:53.306784Z",
   "next_ingest_at": null,
-  "total_events": 409,
-  "events_7d": 284,
+  "total_events": 425,
+  "events_7d": 299,
   "sources": [
     {
       "source": "layoffs_fyi",
@@ -10,8 +10,8 @@
       "url": "https://techcrunch.com/tag/layoffs/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-05-02T13:18:02.989453Z",
-      "last_attempted": "2026-05-02T13:18:02.989453Z",
+      "last_ok": "2026-05-02T19:03:53.517762Z",
+      "last_attempted": "2026-05-02T19:03:53.517762Z",
       "record_count": 11,
       "ok": true,
       "errors": []
@@ -22,9 +22,9 @@
       "url": "https://news.ycombinator.com",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-02T13:18:03.466215Z",
-      "last_attempted": "2026-05-02T13:18:03.466215Z",
-      "record_count": 275,
+      "last_ok": "2026-05-02T19:03:53.852388Z",
+      "last_attempted": "2026-05-02T19:03:53.852388Z",
+      "record_count": 291,
       "ok": true,
       "errors": []
     },
@@ -34,8 +34,8 @@
       "url": "https://www.bls.gov/developers/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-02T13:18:04.172698Z",
-      "last_attempted": "2026-05-02T13:18:04.172698Z",
+      "last_ok": "2026-05-02T19:03:54.626969Z",
+      "last_attempted": "2026-05-02T19:03:54.626969Z",
       "record_count": 29,
       "ok": true,
       "errors": []
@@ -46,8 +46,8 @@
       "url": "https://www.sec.gov/cgi-bin/browse-edgar",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-05-02T13:18:04.391383Z",
-      "last_attempted": "2026-05-02T13:18:04.391383Z",
+      "last_ok": "2026-05-02T19:03:54.916868Z",
+      "last_attempted": "2026-05-02T19:03:54.916868Z",
       "record_count": 46,
       "ok": true,
       "errors": []
@@ -58,14 +58,384 @@
       "url": "https://www.bls.gov/ces/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-02T13:18:04.841783Z",
-      "last_attempted": "2026-05-02T13:18:04.841783Z",
+      "last_ok": "2026-05-02T19:03:57.310509Z",
+      "last_attempted": "2026-05-02T19:03:57.310509Z",
       "record_count": 48,
       "ok": true,
       "errors": []
     }
   ],
   "recent_signals": [
+    {
+      "id": "2f43124630b0c0b1",
+      "ts": "2026-05-02T18:55:28Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=47989286",
+      "type": "posting",
+      "company": {
+        "name": "do your own reasearch is better",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "do your own reasearch is better",
+      "tags": [
+        "hiring",
+        "hn",
+        "other"
+      ]
+    },
+    {
+      "id": "0c9dd7c50b56420b",
+      "ts": "2026-05-02T18:02:18Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=47988764",
+      "type": "posting",
+      "company": {
+        "name": "Senior Backend Engineer (Architecture &amp; AI Systems)",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Senior Backend Engineer (Architecture &amp; AI Systems) | Vienna &#x2F; Remote (Europe only!) | Full-time | Salary + equity Early-stage startup building an AI platform that helps architecture and engineering teams reuse knowledge from past projects (documents, drawings, revisions) to reduce costly r",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology"
+      ]
+    },
+    {
+      "id": "e87b327e212f682d",
+      "ts": "2026-05-02T17:31:19Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=47988496",
+      "type": "posting",
+      "company": {
+        "name": "Unknown",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Seeking a remote job? Get an AI engineer certificate first https:&#x2F;&#x2F;gophercert.com?utm_source=hn",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology"
+      ]
+    },
+    {
+      "id": "6d3576f7ed131696",
+      "ts": "2026-05-02T17:29:30Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=47988482",
+      "type": "posting",
+      "company": {
+        "name": "Yidi&#x27;s Consulting",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": "NY",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Yidi&#x27;s Consulting | Senior Full-Stack Engineer | REMOTE (LATAM&#x2F;EU time zones welcome) | Contract-to-hire | $40&#x2F;hr | yidisconsulting.com We&#x27;re a 4-person boutique consulting shop in Albany, NY building custom web apps for healthcare, legal, and education clients. Looking for a sen",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology",
+        "NY"
+      ]
+    },
+    {
+      "id": "c9f4ee580d87ecc9",
+      "ts": "2026-05-02T17:04:51Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=47988194",
+      "type": "posting",
+      "company": {
+        "name": "FunnelStory",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "FunnelStory | Principal Engineer, AI Systems | Remote (India) | Full-Time | funnelstory.ai FunnelStory builds a queryable context graph over enterprise data \u2014 the infrastructure layer that lets AI agents reason over live customer intelligence. We&#x27;ve built a federated query engine purpose-built ",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology"
+      ]
+    },
+    {
+      "id": "4b7f88aa5a68213b",
+      "ts": "2026-05-02T15:53:13Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=47987473",
+      "type": "posting",
+      "company": {
+        "name": "Unknown",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Here are the listings this thread that allow remote work https:&#x2F;&#x2F;www.whoishiringjobs.com&#x2F;?workMode=remote (salary and other filters also included)",
+      "tags": [
+        "hiring",
+        "hn",
+        "other"
+      ]
+    },
+    {
+      "id": "a8fdd6cca3a8c1e9",
+      "ts": "2026-05-02T15:53:11Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=47987471",
+      "type": "posting",
+      "company": {
+        "name": "Unknown",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Just wanted to let you know that I think your posting on the page is great. Communicating so clearly what the application process will look like and what your expectations are of the applicant is really appreciated. I haven&#x27;t seen that done a lot in Vienna.",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology"
+      ]
+    },
+    {
+      "id": "69209235a885dfcb",
+      "ts": "2026-05-02T15:51:51Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=47987456",
+      "type": "posting",
+      "company": {
+        "name": "RINSE",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": "CA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "RINSE | REMOTE or San Francisco, Los Angeles, Chicago, Boston, New York City, New Jersey, Seattle, Austin, Toronto, or Washington DC - INTERNATIONAL OK | QA Engineer | Full-Time | Salary: $40k-$100k USD | https:&#x2F;&#x2F;www.rinse.com Rinse provides dry cleaning and laundry delivery services to cu",
+      "tags": [
+        "hiring",
+        "hn",
+        "other",
+        "CA"
+      ]
+    },
+    {
+      "id": "3f2764051751199c",
+      "ts": "2026-05-02T15:32:18Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=47987290",
+      "type": "posting",
+      "company": {
+        "name": "I can\u2019t find it, I searched in the search bar in threads",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "I can\u2019t find it, I searched in the search bar in threads",
+      "tags": [
+        "hiring",
+        "hn",
+        "other"
+      ]
+    },
+    {
+      "id": "11583c9ff451838f",
+      "ts": "2026-05-02T15:19:26Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=47987183",
+      "type": "posting",
+      "company": {
+        "name": "Unknown",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "they mention Remote work here but everything on their site points to them preferring in office work. If you are considering them something to keep in mind",
+      "tags": [
+        "hiring",
+        "hn",
+        "other"
+      ]
+    },
+    {
+      "id": "ecd18ad6aca917e2",
+      "ts": "2026-05-02T15:00:30Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=47986996",
+      "type": "posting",
+      "company": {
+        "name": "Unknown",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "There is a separate thread on the first of every month titled who would like to be hired where you can post your resume. This thread is for companies hiring. Good luck!",
+      "tags": [
+        "hiring",
+        "hn",
+        "other"
+      ]
+    },
+    {
+      "id": "da49d0ef3b903fd3",
+      "ts": "2026-05-02T14:43:16Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=47986820",
+      "type": "posting",
+      "company": {
+        "name": "Unknown",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Hello, I hope you\u2019re doing well. I\u2019m currently looking for a job and exploring new opportunities. Full Stack Developer with 7+ years of experience (React.js, Next.js, Node.js, TypeScript, Laravel). If there are any relevant openings, please consider my profile. Please suggest where i can apply, not ",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology"
+      ]
+    },
+    {
+      "id": "5e6dcd150acd6397",
+      "ts": "2026-05-02T14:13:26Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=47986567",
+      "type": "posting",
+      "company": {
+        "name": "Unknown",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Hevy | Lead React Native Engineer | Barcelona, Spain | Hybrid | Relocation Hevy is a multiplatform weight lifting tracker that lets athletes log their workouts, track progress and be part of a community of gym athletes. We are a bootstrapped fitness and technology company operating out of Barcelona,",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology"
+      ]
+    },
+    {
+      "id": "8e6911a4a879e1df",
+      "ts": "2026-05-02T14:12:46Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=47986563",
+      "type": "posting",
+      "company": {
+        "name": "Radar Labs",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Radar Labs | Software Engineers (SRE, data platform, backend, full-stack, mobile) | Remote (US), NYC | Full Time | https:&#x2F;&#x2F;radar.com - Radar is the geo-location dev tool - Doing 1B+ API calls per day - Our main languages are Rust and TypeScript, we also use mobile and offline pipeline lang",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology"
+      ]
+    },
+    {
+      "id": "e16c411d3fbfd766",
+      "ts": "2026-05-02T13:45:31Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=47986366",
+      "type": "posting",
+      "company": {
+        "name": "Any reason why you haven&#x27;t found anyone yet?",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Any reason why you haven&#x27;t found anyone yet?",
+      "tags": [
+        "hiring",
+        "hn",
+        "other"
+      ]
+    },
+    {
+      "id": "22a0a6388df69367",
+      "ts": "2026-05-02T13:39:02Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=47986311",
+      "type": "posting",
+      "company": {
+        "name": "Octozi",
+        "ticker": null,
+        "industry": null,
+        "sector": "Healthcare",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Octozi | Founding Engineer | NYC (Hybrid) | Full-time | https:&#x2F;&#x2F;www.octozi.com&#x2F; Octozi is a revenue-generating seed-stage company building AI agents for clinical development workflows. Bringing a drug to market can take a decade and cost up to $2B, keeping treatments expensive and del",
+      "tags": [
+        "hiring",
+        "hn",
+        "healthcare"
+      ]
+    },
     {
       "id": "f22aaa6f1b62b08a",
       "ts": "2026-05-02T13:01:59Z",
@@ -2012,383 +2382,10 @@
         "hn",
         "technology"
       ]
-    },
-    {
-      "id": "fcf0fea05fc59f3b",
-      "ts": "2026-05-01T20:36:03Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=47979955",
-      "type": "posting",
-      "company": {
-        "name": "Yassi",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": "IL",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Yassi|Senior Fullstack Engineer (Golang, Node.js&#x2F;React, AWS) 3 days in-office Chicago YASSI provides real-time access to vehicle title, lien, and registration data directly from U.S. state motor vehicle agencies. Unlike traditional bulk data providers, YASSI retrieves each vehicle record live a",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology",
-        "IL"
-      ]
-    },
-    {
-      "id": "34bda7b8e8c21b34",
-      "ts": "2026-05-01T20:35:19Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=47979947",
-      "type": "posting",
-      "company": {
-        "name": "Missive",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Missive | Senior Backend Developer | REMOTE | Full-time Missive brings inbox collaboration to teams that run on email. This isn\u2019t your typical SaaS; it\u2019s a full-fledged app users live in all day. We integrate with dozens of APIs and servers, process 10M+ emails, 100M+ requests per day serving thousa",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "7f4739069bd6b33b",
-      "ts": "2026-05-01T20:34:10Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=47979930",
-      "type": "posting",
-      "company": {
-        "name": "Unknown",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "As others have said, awesome project. I hope you are super successful. Somewhat limited applicant pool with it being based in Singapore sadly. Also, debug.com is a killer domain name, I&#x27;d love to hear how you got hold of that one.",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "021fb68c8c833631",
-      "ts": "2026-05-01T20:34:05Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=47979929",
-      "type": "posting",
-      "company": {
-        "name": "Olli Health",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": "CA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Olli Health | REMOTE (US&#x2F;CA) w&#x2F; Quarterly Travel | Full-Time | ollihealth.ai Hi HN - Several of our critical founding hires came through this forum, and we\u2019re hiring again for 4 additional roles. Olli Health Built by home health experts and seasoned product managers and engineers from Amaz",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology",
-        "CA"
-      ]
-    },
-    {
-      "id": "088c3e54e5ce688d",
-      "ts": "2026-05-01T20:31:32Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=47979897",
-      "type": "posting",
-      "company": {
-        "name": "IPinfo.io",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "IPinfo.io | Various Roles | Remote (Anywhere) | Fulltime &#x2F; Partime &#x2F; Contract | https:&#x2F;&#x2F;ipinfo.io IPinfo is a leading provider of IP address data, including geolocation, VPN and residential proxy detection, mobile carrier data, and over 20 other context tags. Our API handles over",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "a94c5e00c4b13591",
-      "ts": "2026-05-01T20:24:44Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=47979818",
-      "type": "posting",
-      "company": {
-        "name": "Higharc",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Higharc | REMOTE | Full-time | https:&#x2F;&#x2F;higharc.com Thousands of homes have been built with Higharc since 2022. We\u2019re changing the way homebuilders design, sell, estimate, and build, resulting in better, more affordable homes. I\u2019m starting a new Labs team to expand our platform and explore ",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "8da1031ff9458c2f",
-      "ts": "2026-05-01T20:07:28Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=47979591",
-      "type": "posting",
-      "company": {
-        "name": "Unknown",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "this is sterile technique. males mate females causing eggs to not hatch thus reducing population",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "4497c92a001fc7fa",
-      "ts": "2026-05-01T20:04:51Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=47979550",
-      "type": "posting",
-      "company": {
-        "name": "ParadeDB (YC S23, https:&#x2F;&#x2F;paradedb.com )",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": "CA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "ParadeDB (YC S23, https:&#x2F;&#x2F;paradedb.com ) | Database Internals Engineers | Remote or hybrid in San Francisco | Full-time ParadeDB is a Postgres extension that delivers state-of-the-art search in Postgres. Our customers, including Alibaba Cloud, BILT Rewards, Modern Treasury (YC S18) and man",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology",
-        "CA"
-      ]
-    },
-    {
-      "id": "078563829d1e58b3",
-      "ts": "2026-05-01T20:03:07Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=47979526",
-      "type": "posting",
-      "company": {
-        "name": "Temporal Technologies",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Temporal Technologies | Multiple positions in United States - WORK FROM HOME | FULL-TIME | Temporal offers an entirely new way to build scalable and reliable applications. Temporal enables developers to focus on writing important business logic, and not on managing state or worrying about the underl",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "61aa091b6d5fa3c7",
-      "ts": "2026-05-01T19:57:28Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=47979455",
-      "type": "posting",
-      "company": {
-        "name": "Senior ML Engineer",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": "FL",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Senior ML Engineer | Ping Data Intelligence | REMOTE or ONSITE (Miami, FL) | Full-Time | https:&#x2F;&#x2F;www.pingintel.com Ping Data Intelligence is a dynamic startup based in Miami, FL, revolutionizing the property insurance sector with cutting-edge web technologies and ML-powered tools. Despite ",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology",
-        "FL"
-      ]
-    },
-    {
-      "id": "466272f590078132",
-      "ts": "2026-05-01T19:56:35Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=47979443",
-      "type": "posting",
-      "company": {
-        "name": "Unknown",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "We didn&#x27;t want to get too wordy with a post like this. But to be honest, if you are knowledgeable enough to spot that kind of gap, you might be a perfect fit for what we are working on ;)",
-      "tags": [
-        "hiring",
-        "hn",
-        "other"
-      ]
-    },
-    {
-      "id": "915cafa846e195af",
-      "ts": "2026-05-01T19:52:42Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=47979394",
-      "type": "posting",
-      "company": {
-        "name": "Rootly",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Rootly | Multiple Roles | Toronto, ON (Hybrid) + Remote | Full-time Rootly builds AI-native incident management (on-call, incident response, status pages, retrospectives, and AI SRE) in one platform. Used by Cisco, NVIDIA, Figma, Replit, Wealthsimple, Clay, Webflow, and thousands of other engineerin",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "9bb02d3db34772bc",
-      "ts": "2026-05-01T19:51:49Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=47979383",
-      "type": "posting",
-      "company": {
-        "name": "Unknown",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "SwingVision is the AI tennis &amp; pickleball app that provides automated stats, highlights, and line calling using just your phone. Our mission is to democratize the pro sports experience for all athletes. All positions are in Berkeley, California: - Head of Marketing: https:&#x2F;&#x2F;app.deel.co",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "2e0ffb7a054d9801",
-      "ts": "2026-05-01T19:51:26Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=47979377",
-      "type": "posting",
-      "company": {
-        "name": "Charge Robotics",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Charge Robotics | Multiple Roles | Full-time | Onsite | SF Bay Area Hi HN! We\u2019re a YC-backed, Series-A startup building robots that build large-scale solar farms. Check out a video of our first system here! https:&#x2F;&#x2F;youtu.be&#x2F;ZZ2fP1Y5Z2E It turns out that construction companies literall",
-      "tags": [
-        "hiring",
-        "hn",
-        "other"
-      ]
-    },
-    {
-      "id": "40478c656c031dcf",
-      "ts": "2026-05-01T19:48:20Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=47979344",
-      "type": "posting",
-      "company": {
-        "name": "Fixly",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Fixly | Senior Software Engineer (Backend, Node.js) | Poland | Remote | 2 days in office per month | Polish language required | Contract Fixly is one of the largest service marketplaces in Poland, connecting customers directly with local service providers - from handymen and electricians to accounta",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "f1811fe8c3e0e10d",
-      "ts": "2026-05-01T19:44:36Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=47979300",
-      "type": "posting",
-      "company": {
-        "name": "Coop ( https:&#x2F;&#x2F;smart.coop.farm )",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": "TX",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Coop ( https:&#x2F;&#x2F;smart.coop.farm )| 2nd Founding Engineer | iOS Heavy Engineer | Hybrid onsite | Austin, TX | Full-time, Part-time My name is AJ Forsythe and I&#x27;m the Founder &#x2F; Chief Chicken Tender at Coop! We&#x27;re an Austin TX based company on a mission to build the world\u2019s larg",
-      "tags": [
-        "hiring",
-        "hn",
-        "other",
-        "TX"
-      ]
     }
   ],
   "sector_matrix": {
-    "generated_at": "2026-05-02T13:18:02.818503Z",
+    "generated_at": "2026-05-02T19:03:53.306784Z",
     "cells": [
       {
         "sector": "Technology",
@@ -2402,11 +2399,11 @@
       {
         "sector": "Technology",
         "signal_type": "posting",
-        "count_7d": 204,
-        "count_30d": 204,
+        "count_7d": 212,
+        "count_30d": 212,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 22.67
+        "z_score": 23.11
       },
       {
         "sector": "Technology",
@@ -2465,11 +2462,11 @@
       {
         "sector": "Finance",
         "signal_type": "funding",
-        "count_7d": 3,
+        "count_7d": 2,
         "count_30d": 6,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 1.35
+        "z_score": 0.51
       },
       {
         "sector": "Finance",
@@ -2492,11 +2489,11 @@
       {
         "sector": "Healthcare",
         "signal_type": "posting",
-        "count_7d": 7,
-        "count_30d": 7,
+        "count_7d": 8,
+        "count_30d": 8,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 4.2
+        "z_score": 4.49
       },
       {
         "sector": "Healthcare",
