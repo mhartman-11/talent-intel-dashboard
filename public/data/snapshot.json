@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-02T09:55:58.071826Z",
+  "generated_at": "2026-05-02T13:18:02.818503Z",
   "next_ingest_at": null,
-  "total_events": 398,
-  "events_7d": 273,
+  "total_events": 409,
+  "events_7d": 284,
   "sources": [
     {
       "source": "layoffs_fyi",
@@ -10,8 +10,8 @@
       "url": "https://techcrunch.com/tag/layoffs/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-05-02T09:55:58.153962Z",
-      "last_attempted": "2026-05-02T09:55:58.153962Z",
+      "last_ok": "2026-05-02T13:18:02.989453Z",
+      "last_attempted": "2026-05-02T13:18:02.989453Z",
       "record_count": 11,
       "ok": true,
       "errors": []
@@ -22,9 +22,9 @@
       "url": "https://news.ycombinator.com",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-02T09:55:58.661703Z",
-      "last_attempted": "2026-05-02T09:55:58.661703Z",
-      "record_count": 264,
+      "last_ok": "2026-05-02T13:18:03.466215Z",
+      "last_attempted": "2026-05-02T13:18:03.466215Z",
+      "record_count": 275,
       "ok": true,
       "errors": []
     },
@@ -34,8 +34,8 @@
       "url": "https://www.bls.gov/developers/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-02T09:55:59.510284Z",
-      "last_attempted": "2026-05-02T09:55:59.510284Z",
+      "last_ok": "2026-05-02T13:18:04.172698Z",
+      "last_attempted": "2026-05-02T13:18:04.172698Z",
       "record_count": 29,
       "ok": true,
       "errors": []
@@ -46,8 +46,8 @@
       "url": "https://www.sec.gov/cgi-bin/browse-edgar",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-05-02T09:55:59.851730Z",
-      "last_attempted": "2026-05-02T09:55:59.851730Z",
+      "last_ok": "2026-05-02T13:18:04.391383Z",
+      "last_attempted": "2026-05-02T13:18:04.391383Z",
       "record_count": 46,
       "ok": true,
       "errors": []
@@ -58,14 +58,269 @@
       "url": "https://www.bls.gov/ces/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-02T09:56:00.505987Z",
-      "last_attempted": "2026-05-02T09:56:00.505987Z",
+      "last_ok": "2026-05-02T13:18:04.841783Z",
+      "last_attempted": "2026-05-02T13:18:04.841783Z",
       "record_count": 48,
       "ok": true,
       "errors": []
     }
   ],
   "recent_signals": [
+    {
+      "id": "f22aaa6f1b62b08a",
+      "ts": "2026-05-02T13:01:59Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=47986051",
+      "type": "posting",
+      "company": {
+        "name": "I&#x27;m a full",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "I&#x27;m a full-stack developer with 3 years of experience building web apps and SaaS products. I&#x27;ve worked with early-stage startups and solo founders to take ideas from zero to a working product. I&#x27;m comfortable owning entire features end-to-end \u2014 from architecture decisions to deploymen",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology"
+      ]
+    },
+    {
+      "id": "c6287e83a2dd7655",
+      "ts": "2026-05-02T12:47:21Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=47985950",
+      "type": "posting",
+      "company": {
+        "name": "Unknown",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Hi, what an exciting company culture and challenge. I\u2019m a product designer who enjoys working on complex, systems-driven problems and staying close to implementation. My background in enterprise SaaS and design systems aligns well with the role. Applied for the Product Design role.",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology"
+      ]
+    },
+    {
+      "id": "d59ba03357a1048c",
+      "ts": "2026-05-02T12:21:01Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=47985782",
+      "type": "posting",
+      "company": {
+        "name": "Unknown",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Siia | Flutter mobile engineer, Software Engineer | Remote within 2&#x2F;3 hrs timezone of CEST | Based on location of candidate We are building a uniqe edtech device for use in schools based on Android and are looking for a software engineer with experience in one or both of Flutter and Kotlin. We ",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology"
+      ]
+    },
+    {
+      "id": "46d02ac69f2da55d",
+      "ts": "2026-05-02T12:15:07Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=47985738",
+      "type": "posting",
+      "company": {
+        "name": "FusionAuth",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": "CO",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "FusionAuth | Senior Java Engineer, Account Executive, Solutions Engineer | Varies between REMOTE (in USA, also in Europe but only for the account exec&#x2F;solutions engineer positions) and ONSITE in Denver, CO, USA, details in each job desc | Salary ranges for the Senior Java Engineer it is 140k-18",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology",
+        "CO"
+      ]
+    },
+    {
+      "id": "ad73cab74f31ba8e",
+      "ts": "2026-05-02T12:14:57Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=47985734",
+      "type": "posting",
+      "company": {
+        "name": "Deducta",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Deducta | Senior Frontend Product Engineer | London, UK | Hybrid (3 days&#x2F;week in office) | \u00a3150k+ cash&#x2F;equity We\u2019re a data intelligence platform for global enterprises. We are well funded, growing fast, and solving the most pressing data challenges for some of the largest and most recogniz",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology"
+      ]
+    },
+    {
+      "id": "cc6fc32b9c4850af",
+      "ts": "2026-05-02T12:00:41Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=47985652",
+      "type": "posting",
+      "company": {
+        "name": "Unknown",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "I am surely sending you an email. I live in a small village (eastern Himalayas, India) after giving up on city life, run a piggery and chicken farm along with ~ 6 hours of software work. I am intrigued by products like these which gives &quot;hands-on&quot; a new meaning. Being a new farmer-engineer",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology"
+      ]
+    },
+    {
+      "id": "6d02927066838d9f",
+      "ts": "2026-05-02T11:21:46Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=47985407",
+      "type": "posting",
+      "company": {
+        "name": "Axis Communications",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Axis Communications | Software Engineer - Video Management &amp; Agentic Engineering | Link\u00f6ping, Sweden (Onsite) Join a newly formed R&amp;D team at Axis focused on rethinking how software is built using AI coding agents. Build next-generation video management software for cloud and on-prem environ",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology"
+      ]
+    },
+    {
+      "id": "2f7b5b3dd51a726f",
+      "ts": "2026-05-02T10:41:35Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=47985200",
+      "type": "posting",
+      "company": {
+        "name": "Kraken Tech",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": "NY",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Kraken Tech | Senior Software Engineer - AI Foundations | London, Paris, Berlin, Tokyo, New York, Tel Aviv, Remote | Full Time | https:&#x2F;&#x2F;kraken.tech Help us use technology to make a big green dent in the universe! Kraken powers some of the most innovative global developments in energy. We\u2019",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology",
+        "NY"
+      ]
+    },
+    {
+      "id": "0f633b2cff87388f",
+      "ts": "2026-05-02T10:40:46Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=47985197",
+      "type": "posting",
+      "company": {
+        "name": "Latitude AI",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Latitude AI | Software Engineer | Pittsburgh, Palo Alto, Dearborn, Remote (US) | Full-time | lat.ai We make automated driving software. As an independent company owned by Ford we need to ship a consumer-facing product at scale &amp; reliability not common for our space. Yet we have the freedom to mo",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology"
+      ]
+    },
+    {
+      "id": "f33970117678d1f1",
+      "ts": "2026-05-02T10:40:02Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=47985190",
+      "type": "posting",
+      "company": {
+        "name": "Thanks for the suggestion! We&#x27;re currently focusing on building our in",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Thanks for the suggestion! We&#x27;re currently focusing on building our in-house team with direct hires. We believe it&#x27;s the best way for us to maintain culture and move quickly at this stage. Appreciate the offer though \u2014 we&#x27;ll keep it in mind for the future.",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology"
+      ]
+    },
+    {
+      "id": "13c1d5c61ebdbdaf",
+      "ts": "2026-05-02T10:07:26Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=47985003",
+      "type": "posting",
+      "company": {
+        "name": "Unknown",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "How&#x27;s your thoughts about the collaborate with a tech company? where you can find mutliple engineers and team at one place? which is a risk free decision to hire an inhouse team and pay whether their is work or not. Indeed doing that can suggest find a right partner and pay only for the resourc",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology"
+      ]
+    },
     {
       "id": "2f1d026f2db1380b",
       "ts": "2026-05-02T09:36:01Z",
@@ -2130,268 +2385,10 @@
         "other",
         "TX"
       ]
-    },
-    {
-      "id": "a140cf0b317d61ab",
-      "ts": "2026-05-01T19:44:29Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=47979298",
-      "type": "posting",
-      "company": {
-        "name": "OpenRent",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "OpenRent | London, UK | Full-Time | ONSITE+PART REMOTE | https:&#x2F;&#x2F;www.openrent.co.uk What sucked the last time you rented a house or flat? Come and fix it. OpenRent is a force for good in an industry tarnished by rip-off agencies. Enabled by an unrelenting focus on technology, we let more p",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "2ab07fda75bd83ec",
-      "ts": "2026-05-01T19:43:31Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=47979286",
-      "type": "posting",
-      "company": {
-        "name": "Cogram (YC W22, https:&#x2F;&#x2F;cogram.com )",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Cogram (YC W22, https:&#x2F;&#x2F;cogram.com ) | Multiple Roles | Remote or hybrid (US&#x2F;EU&#x2F;UK) | Full-time Cogram builds AI agents for architects and engineers. Our tools automate project management and streamline CAD&#x2F;BIM for leading firms around the world. We have engaged customers us",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "5a6e4ab495486d36",
-      "ts": "2026-05-01T19:40:39Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=47979250",
-      "type": "posting",
-      "company": {
-        "name": "Unknown",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": "CA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Gen-Alpha Transistor | Member of Technical Staff (Silicon FDE) | Full-Time | Hybrid (San Francisco Bay Area) | https:&#x2F;&#x2F;generation-alpha-transistor.com&#x2F; Generation Alpha Transistor (Gen-Alpha) is a San Francisco based start-up, building AI tools for chip designers. It&#x27;s a space th",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology",
-        "CA"
-      ]
-    },
-    {
-      "id": "624d5b34c5027da8",
-      "ts": "2026-05-01T19:40:32Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=47979247",
-      "type": "posting",
-      "company": {
-        "name": "Yuzu Health (yuzu.health, Series A)",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": "NY",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Yuzu Health (yuzu.health, Series A) | Location: New York City (Flatiron) | ONSITE Pitch: Yuzu is not a wrapper, point solution, or integration on top of something. Our platform makes it easy for anyone to create their own health plan from scratch. That means our tech handles everything from the memb",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology",
-        "NY"
-      ]
-    },
-    {
-      "id": "5449308407d48b11",
-      "ts": "2026-05-01T19:37:49Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=47979213",
-      "type": "posting",
-      "company": {
-        "name": "Proven Software",
-        "ticker": null,
-        "industry": null,
-        "sector": "Healthcare",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Proven Software | QA Analyst | REMOTE (US) Full-Time | $85k-$110k We&#x27;ve hired three developers from HN and now we&#x27;re looking for a QA Analyst to join the team. Proven is a start-up software company delivering a modern electronic medical record (EMR) to behavioral health and physical therap",
-      "tags": [
-        "hiring",
-        "hn",
-        "healthcare"
-      ]
-    },
-    {
-      "id": "78baa3290286da32",
-      "ts": "2026-05-01T19:33:01Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=47979161",
-      "type": "posting",
-      "company": {
-        "name": "Unknown",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": "GA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Wick | Applied AI Product Engineer | REMOTE | Contract (to hire) We&#x27;re a funded, Atlanta-based audience intelligence platform \u2014 we sit between enterprise teams&#x27; raw market data (surveys, engagement, research) and their AI stack, giving models the market context they need to reason accurate",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology",
-        "GA"
-      ]
-    },
-    {
-      "id": "6e49df605a2f7b8a",
-      "ts": "2026-05-01T19:32:39Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=47979152",
-      "type": "posting",
-      "company": {
-        "name": "FYI https:&#x2F;&#x2F;aws.amazon.com&#x2F;blogs&#x2F;containers&#x2F;announcing",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "FYI https:&#x2F;&#x2F;aws.amazon.com&#x2F;blogs&#x2F;containers&#x2F;announcing-the-end-o... which you mention twice in your listing.",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "5da71ff76ff9b1bf",
-      "ts": "2026-05-01T19:29:25Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=47979113",
-      "type": "posting",
-      "company": {
-        "name": "I&#x27;m a senior level dev looking at the senior role, but it says 2",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "I&#x27;m a senior level dev looking at the senior role, but it says 2-3 years of python experience at minimum. I don&#x27;t have that, so I thought I&#x27;d look at the mid-level role which says &quot;3-6 years developing database-driven web applications with (preferably) Python&quot; but then &quot",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "8edd10de12d512e8",
-      "ts": "2026-05-01T19:28:27Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=47979095",
-      "type": "posting",
-      "company": {
-        "name": "AxisCare",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": "CT",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "AxisCare | Senior + Mid-Level Software Engineers | Remote (US&#x2F;Canada, ET&#x2F;CT&#x2F;MT) | https:&#x2F;&#x2F;axiscare.com&#x2F;careers We build the market-leading SaaS platform for the home care industry: scheduling, billing, payroll, CRM, and clinical documentation for agencies across all 50 ",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology",
-        "CT"
-      ]
-    },
-    {
-      "id": "79e745e85dbee9f9",
-      "ts": "2026-05-01T19:23:47Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=47979026",
-      "type": "posting",
-      "company": {
-        "name": "Unknown",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": "CA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Eve | Founding Engineer | San Francisco, CA | https:&#x2F;&#x2F;www.helloeve.co&#x2F; Company: We are building an executive voice engine (Eve). This is a multi-agent AI system that learns how a leader thinks and produces content indistinguishable from what they&#x27;d write. Think: a specialized ver",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology",
-        "CA"
-      ]
-    },
-    {
-      "id": "81e9f37b58b7995b",
-      "ts": "2026-05-01T19:21:35Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=47978989",
-      "type": "posting",
-      "company": {
-        "name": "Redbook Software",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Redbook Software | Staff Software Engineer | REMOTE (U.S.) | $200k-$250k Redbook is the new software of reference for cattle feed yards. We&#x27;re digitizing the $90B cattle industry, the largest in agriculture. We have built the only cloud-based product in the industry that connects field operatio",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
     }
   ],
   "sector_matrix": {
-    "generated_at": "2026-05-02T09:55:58.071826Z",
+    "generated_at": "2026-05-02T13:18:02.818503Z",
     "cells": [
       {
         "sector": "Technology",
@@ -2405,11 +2402,11 @@
       {
         "sector": "Technology",
         "signal_type": "posting",
-        "count_7d": 193,
-        "count_30d": 193,
+        "count_7d": 204,
+        "count_30d": 204,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 22.05
+        "z_score": 22.67
       },
       {
         "sector": "Technology",
