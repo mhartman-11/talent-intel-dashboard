@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-03T10:00:53.779518Z",
+  "generated_at": "2026-05-03T13:16:57.882174Z",
   "next_ingest_at": null,
-  "total_events": 434,
-  "events_7d": 308,
+  "total_events": 437,
+  "events_7d": 311,
   "sources": [
     {
       "source": "layoffs_fyi",
@@ -10,8 +10,8 @@
       "url": "https://techcrunch.com/tag/layoffs/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-05-03T10:00:53.867581Z",
-      "last_attempted": "2026-05-03T10:00:53.867581Z",
+      "last_ok": "2026-05-03T13:16:57.944939Z",
+      "last_attempted": "2026-05-03T13:16:57.944939Z",
       "record_count": 11,
       "ok": true,
       "errors": []
@@ -22,9 +22,9 @@
       "url": "https://news.ycombinator.com",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-03T10:00:54.456169Z",
-      "last_attempted": "2026-05-03T10:00:54.456169Z",
-      "record_count": 300,
+      "last_ok": "2026-05-03T13:16:58.427941Z",
+      "last_attempted": "2026-05-03T13:16:58.427941Z",
+      "record_count": 303,
       "ok": true,
       "errors": []
     },
@@ -34,8 +34,8 @@
       "url": "https://www.bls.gov/developers/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-03T10:00:55.406148Z",
-      "last_attempted": "2026-05-03T10:00:55.406148Z",
+      "last_ok": "2026-05-03T13:16:59.189772Z",
+      "last_attempted": "2026-05-03T13:16:59.189772Z",
       "record_count": 29,
       "ok": true,
       "errors": []
@@ -46,8 +46,8 @@
       "url": "https://www.sec.gov/cgi-bin/browse-edgar",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-05-03T10:00:56.083146Z",
-      "last_attempted": "2026-05-03T10:00:56.083146Z",
+      "last_ok": "2026-05-03T13:16:59.449178Z",
+      "last_attempted": "2026-05-03T13:16:59.449178Z",
       "record_count": 46,
       "ok": true,
       "errors": []
@@ -58,14 +58,83 @@
       "url": "https://www.bls.gov/ces/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-03T10:00:57.831356Z",
-      "last_attempted": "2026-05-03T10:00:57.831356Z",
+      "last_ok": "2026-05-03T13:17:01.196147Z",
+      "last_attempted": "2026-05-03T13:17:01.196147Z",
       "record_count": 48,
       "ok": true,
       "errors": []
     }
   ],
   "recent_signals": [
+    {
+      "id": "ff79678ffc6a7ff1",
+      "ts": "2026-05-03T13:13:09Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=47996637",
+      "type": "posting",
+      "company": {
+        "name": "Is this role open to non",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Is this role open to non-EU citizens as well?",
+      "tags": [
+        "hiring",
+        "hn",
+        "other"
+      ]
+    },
+    {
+      "id": "006a7dcbd47453b4",
+      "ts": "2026-05-03T11:21:03Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=47995819",
+      "type": "posting",
+      "company": {
+        "name": "Unknown",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Hi, I&#x27;m very interested in this position but living in Europe, is there any chance I could still apply for this? Thanks.",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology"
+      ]
+    },
+    {
+      "id": "2e39fc949781f0d6",
+      "ts": "2026-05-03T10:53:25Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=47995637",
+      "type": "posting",
+      "company": {
+        "name": "hey oliver, the email isnt working i think",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "hey oliver, the email isnt working i think",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology"
+      ]
+    },
     {
       "id": "93bbe237cde5fab5",
       "ts": "2026-05-03T01:14:12Z",
@@ -2311,80 +2380,10 @@
         "technology",
         "TX"
       ]
-    },
-    {
-      "id": "b02e80b66f270a3d",
-      "ts": "2026-05-01T21:21:10Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=47980511",
-      "type": "posting",
-      "company": {
-        "name": "Surge AI ( https:&#x2F;&#x2F;surgehq.ai&#x2F;careers )",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Surge AI ( https:&#x2F;&#x2F;surgehq.ai&#x2F;careers ) | Software Engineers (full-stack &#x2F; product) and Strategic Project Lead, and many more https:&#x2F;&#x2F;surgehq.ai&#x2F;careers | Full-time | ONSITE SF or NYC | Remote Our mission at Surge is to build the human infrastructure behind the nex",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "bb2a427f3b1c26ba",
-      "ts": "2026-05-01T21:19:39Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=47980487",
-      "type": "posting",
-      "company": {
-        "name": "Hyperspell",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": "CA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Hyperspell | YC F25 | San Francisco, ONSITE | $150k-220k + generous equity and benefits | hyperspell.com I&#x27;m Manu, founder of Hyperspell. 14 Years ago I found my first job in tech through Who&#x27;s Hiring. I take this job board seriously :) Hyperspell is building Context &amp; Memory for AI ag",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology",
-        "CA"
-      ]
-    },
-    {
-      "id": "557662dea43c5b8b",
-      "ts": "2026-05-01T21:18:40Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=47980469",
-      "type": "posting",
-      "company": {
-        "name": "CivAI",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "CivAI | Onsite (Berkeley) | Full Time | https:&#x2F;&#x2F;civai.org&#x2F; CivAI is a non-profit that educates policymakers and the public about AI risks using live software demonstrations. As a member of technical staff, you will be responsible for conceiving of, and building end-to-end, the softwar",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
     }
   ],
   "sector_matrix": {
-    "generated_at": "2026-05-03T10:00:53.779518Z",
+    "generated_at": "2026-05-03T13:16:57.882174Z",
     "cells": [
       {
         "sector": "Technology",
@@ -2398,11 +2397,11 @@
       {
         "sector": "Technology",
         "signal_type": "posting",
-        "count_7d": 216,
-        "count_30d": 216,
+        "count_7d": 218,
+        "count_30d": 218,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 23.33
+        "z_score": 23.43
       },
       {
         "sector": "Technology",
