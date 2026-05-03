@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-02T19:03:53.306784Z",
+  "generated_at": "2026-05-03T03:31:08.963185Z",
   "next_ingest_at": null,
-  "total_events": 425,
-  "events_7d": 299,
+  "total_events": 434,
+  "events_7d": 308,
   "sources": [
     {
       "source": "layoffs_fyi",
@@ -10,8 +10,8 @@
       "url": "https://techcrunch.com/tag/layoffs/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-05-02T19:03:53.517762Z",
-      "last_attempted": "2026-05-02T19:03:53.517762Z",
+      "last_ok": "2026-05-03T03:31:09.056329Z",
+      "last_attempted": "2026-05-03T03:31:09.056329Z",
       "record_count": 11,
       "ok": true,
       "errors": []
@@ -22,9 +22,9 @@
       "url": "https://news.ycombinator.com",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-02T19:03:53.852388Z",
-      "last_attempted": "2026-05-02T19:03:53.852388Z",
-      "record_count": 291,
+      "last_ok": "2026-05-03T03:31:09.479234Z",
+      "last_attempted": "2026-05-03T03:31:09.479234Z",
+      "record_count": 300,
       "ok": true,
       "errors": []
     },
@@ -34,8 +34,8 @@
       "url": "https://www.bls.gov/developers/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-02T19:03:54.626969Z",
-      "last_attempted": "2026-05-02T19:03:54.626969Z",
+      "last_ok": "2026-05-03T03:31:10.152555Z",
+      "last_attempted": "2026-05-03T03:31:10.152555Z",
       "record_count": 29,
       "ok": true,
       "errors": []
@@ -46,8 +46,8 @@
       "url": "https://www.sec.gov/cgi-bin/browse-edgar",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-05-02T19:03:54.916868Z",
-      "last_attempted": "2026-05-02T19:03:54.916868Z",
+      "last_ok": "2026-05-03T03:31:10.407166Z",
+      "last_attempted": "2026-05-03T03:31:10.407166Z",
       "record_count": 46,
       "ok": true,
       "errors": []
@@ -58,14 +58,245 @@
       "url": "https://www.bls.gov/ces/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-02T19:03:57.310509Z",
-      "last_attempted": "2026-05-02T19:03:57.310509Z",
+      "last_ok": "2026-05-03T03:31:14.572001Z",
+      "last_attempted": "2026-05-03T03:31:14.572001Z",
       "record_count": 48,
       "ok": true,
       "errors": []
     }
   ],
   "recent_signals": [
+    {
+      "id": "93bbe237cde5fab5",
+      "ts": "2026-05-03T01:14:12Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=47992274",
+      "type": "posting",
+      "company": {
+        "name": "Unknown",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Hiya. We don&#x27;t currently have the ability to hire someone from India, sorry. I think the only place we&#x27;re looking to hire outside the USA is the EU or UK, per the job postings.",
+      "tags": [
+        "hiring",
+        "hn",
+        "other"
+      ]
+    },
+    {
+      "id": "bc7fcea3cd6d35d3",
+      "ts": "2026-05-02T23:10:58Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=47991525",
+      "type": "posting",
+      "company": {
+        "name": "Hi Dani, I tried to email you at the pm.me address regarding the Multi",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Hi Dani, I tried to email you at the pm.me address regarding the Multi-Agent B2B contract, but it bounced back (&quot;address couldn&#x27;t be found&quot;). I am an AI Architect specializing in local-LLM agentic workflows (recently open-sourced an autonomous QA agent using MCP). Is there another ema",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology"
+      ]
+    },
+    {
+      "id": "d5ec187ccc650d9a",
+      "ts": "2026-05-02T22:29:28Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=47991238",
+      "type": "posting",
+      "company": {
+        "name": "Zero Motorcycles",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": "CA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Zero Motorcycles | Engineering Manager (Firmware), Software Engineer (Cloud) | Scotts Valley, CA (Hybrid) | https:&#x2F;&#x2F;zeromotorcycles.com&#x2F; We build electric motorcycles. Our bikes work well on their own today. We\u2019re building a connected system across the bike, cloud, and field tools so ",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology",
+        "CA"
+      ]
+    },
+    {
+      "id": "9f0b941215a3fd51",
+      "ts": "2026-05-02T21:43:59Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=47990866",
+      "type": "posting",
+      "company": {
+        "name": "Unknown",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "your career page is full of expectations but not even a single word about the salary range. why keep this secret and give ppl a suprise later on?",
+      "tags": [
+        "hiring",
+        "hn",
+        "other"
+      ]
+    },
+    {
+      "id": "b957b65d562bfe67",
+      "ts": "2026-05-02T21:37:37Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=47990819",
+      "type": "posting",
+      "company": {
+        "name": "Unknown",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "fix -&gt; gerad@gladly.ai",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology"
+      ]
+    },
+    {
+      "id": "27bb703218f3a3f5",
+      "ts": "2026-05-02T21:31:40Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=47990758",
+      "type": "posting",
+      "company": {
+        "name": "Their actual jobs link: https:&#x2F;&#x2F;covu.bamboohr.com&#x2F;careers",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Their actual jobs link: https:&#x2F;&#x2F;covu.bamboohr.com&#x2F;careers",
+      "tags": [
+        "hiring",
+        "hn",
+        "other"
+      ]
+    },
+    {
+      "id": "8fc29466a18d09b9",
+      "ts": "2026-05-02T21:18:29Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=47990642",
+      "type": "posting",
+      "company": {
+        "name": "can someone working US timezones from India apply?",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "can someone working US timezones from India apply?",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology"
+      ]
+    },
+    {
+      "id": "b0504c95ddb957aa",
+      "ts": "2026-05-02T20:24:28Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=47990116",
+      "type": "posting",
+      "company": {
+        "name": "Unknown",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "The same account posts both threads. It&#x27;s not hard to find. https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=47975570",
+      "tags": [
+        "hiring",
+        "hn",
+        "media"
+      ]
+    },
+    {
+      "id": "71d46da2a1bb1dcd",
+      "ts": "2026-05-02T19:26:37Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=47989585",
+      "type": "posting",
+      "company": {
+        "name": "Unknown",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Hiya, I think you want to post here: https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=47975570 This post is for folks who are hiring, and it seems like you want to be hired.",
+      "tags": [
+        "hiring",
+        "hn",
+        "media"
+      ]
+    },
+    {
+      "id": "c289cf66070c2ea5",
+      "ts": "2026-05-02T19:22:40Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=47989541",
+      "type": "posting",
+      "company": {
+        "name": "Unknown",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Location: Rawalpindi, Pakistan Remote: Yes Willing to relocate: No Technologies: React, TypeScript, Node.js, Express.js, PostgreSQL, MongoDB, Flutter, OpenCV, Tailwind CSS, Bootstrap Portfolio: https:&#x2F;&#x2F;fatima-usman-dev-aovrrer.gamma.site&#x2F; Email: fatimaausman8@gmail.com Frontend&#x2F;F",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology"
+      ]
+    },
     {
       "id": "2f43124630b0c0b1",
       "ts": "2026-05-02T18:55:28Z",
@@ -106,29 +337,6 @@
       "magnitude": null,
       "unit": "jobs",
       "raw_text": "Senior Backend Engineer (Architecture &amp; AI Systems) | Vienna &#x2F; Remote (Europe only!) | Full-time | Salary + equity Early-stage startup building an AI platform that helps architecture and engineering teams reuse knowledge from past projects (documents, drawings, revisions) to reduce costly r",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "e87b327e212f682d",
-      "ts": "2026-05-02T17:31:19Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=47988496",
-      "type": "posting",
-      "company": {
-        "name": "Unknown",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Seeking a remote job? Get an AI engineer certificate first https:&#x2F;&#x2F;gophercert.com?utm_source=hn",
       "tags": [
         "hiring",
         "hn",
@@ -2173,219 +2381,10 @@
         "hn",
         "technology"
       ]
-    },
-    {
-      "id": "bd33dac19acd2c40",
-      "ts": "2026-05-01T21:11:56Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=47980397",
-      "type": "posting",
-      "company": {
-        "name": "PostHog",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "PostHog | Full-Time | Product engineers, backend engineers, Technical Account Managers, sales leader | REMOTE (all remote) | Hiring GMT-8 to GMT+2 PostHog makes dev tools that help product engineers build successful products. * we have a public handbook (posthog.com&#x2F;handbook) if you want to lea",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "b43d02d9424ce31d",
-      "ts": "2026-05-01T21:09:05Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=47980362",
-      "type": "posting",
-      "company": {
-        "name": "everyone codes",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "everyone codes | Software Developer who enjoys teaching | Vienna, Austria (HYBRID) | Part-Time | everyonecodes.io Hey HN! everyone codes is a non-profit that offers high quality programming courses to career switchers, for free (we&#x27;re sponsored by the government, but highly independent). We&#x2",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "1568331d620c894a",
-      "ts": "2026-05-01T21:08:49Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=47980358",
-      "type": "posting",
-      "company": {
-        "name": "Any internships available?",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Any internships available?",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "3a08edf8d9f49216",
-      "ts": "2026-05-01T21:03:44Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=47980297",
-      "type": "posting",
-      "company": {
-        "name": "Unknown",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": "IL",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "yeet | Chicago, IL &#x2F; Remote | Full-Time Building a dynamic runtime on top of the Linux BPF sub-system. Looking for extremely talented &#x2F; passionate Rust developers &#x2F; Backend Engineers with a deep interest in Linux internals, Distributed Systems, Dev Tools, Great Developer Experiences a",
-      "tags": [
-        "hiring",
-        "hn",
-        "other",
-        "IL"
-      ]
-    },
-    {
-      "id": "c2f448cc954409c4",
-      "ts": "2026-05-01T20:59:05Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=47980238",
-      "type": "posting",
-      "company": {
-        "name": "I mean this is pretty amazing.",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "I mean this is pretty amazing.",
-      "tags": [
-        "hiring",
-        "hn",
-        "other"
-      ]
-    },
-    {
-      "id": "2054f787ad08c1b3",
-      "ts": "2026-05-01T20:55:01Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=47980180",
-      "type": "posting",
-      "company": {
-        "name": "Yardstik",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": "MN",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Yardstik | Staff Software Engineer | Minneapolis, MN (hybrid) | $160,000 - $220,000 Yardstik is a start-up software company with a mission of building trust and safety into the Internet Economy. The world of background screening, certification, and training has lacked innovation and we\u2019re here to ch",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology",
-        "MN"
-      ]
-    },
-    {
-      "id": "f39d9217e4cf7303",
-      "ts": "2026-05-01T20:45:52Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=47980060",
-      "type": "posting",
-      "company": {
-        "name": "Nova Credit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Nova Credit | Remote (US, Canada) We&#x27;re building a unified platform for credit and financial data to power financial inclusion globally. Our mission is to unlock economic opportunities for consumers historically excluded from traditional credit systems by transforming diverse data into actionab",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "4caaa4762e97217c",
-      "ts": "2026-05-01T20:43:55Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=47980045",
-      "type": "posting",
-      "company": {
-        "name": "Works US hours, but global remote is fine.",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Works US hours, but global remote is fine.",
-      "tags": [
-        "hiring",
-        "hn",
-        "other"
-      ]
-    },
-    {
-      "id": "f6140da660b92e68",
-      "ts": "2026-05-01T20:39:11Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=47979994",
-      "type": "posting",
-      "company": {
-        "name": "Unknown",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "ML6 | Machine Learning Engineer, Data Engineer | Python, TensorFlow, PyTorch, GCP, AWS, Azure | Full-time | Amsterdam, Berlin, Munich, Eindhoven, Ghent (EU) On-site&#x2F;hybrid We are a Machine Learning consulting company that builds end-to-end Machine Learning solutions. By applying the latest AI r",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
     }
   ],
   "sector_matrix": {
-    "generated_at": "2026-05-02T19:03:53.306784Z",
+    "generated_at": "2026-05-03T03:31:08.963185Z",
     "cells": [
       {
         "sector": "Technology",
@@ -2399,11 +2398,11 @@
       {
         "sector": "Technology",
         "signal_type": "posting",
-        "count_7d": 212,
-        "count_30d": 212,
+        "count_7d": 216,
+        "count_30d": 216,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 23.11
+        "z_score": 23.33
       },
       {
         "sector": "Technology",
@@ -2669,11 +2668,11 @@
       {
         "sector": "Media",
         "signal_type": "posting",
-        "count_7d": 2,
-        "count_30d": 2,
+        "count_7d": 4,
+        "count_30d": 4,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 1.53
+        "z_score": 3.07
       },
       {
         "sector": "Media",
