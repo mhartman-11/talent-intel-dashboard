@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-03T13:16:57.882174Z",
+  "generated_at": "2026-05-03T19:04:06.954142Z",
   "next_ingest_at": null,
-  "total_events": 437,
-  "events_7d": 311,
+  "total_events": 446,
+  "events_7d": 320,
   "sources": [
     {
       "source": "layoffs_fyi",
@@ -10,8 +10,8 @@
       "url": "https://techcrunch.com/tag/layoffs/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-05-03T13:16:57.944939Z",
-      "last_attempted": "2026-05-03T13:16:57.944939Z",
+      "last_ok": "2026-05-03T19:04:07.025875Z",
+      "last_attempted": "2026-05-03T19:04:07.025875Z",
       "record_count": 11,
       "ok": true,
       "errors": []
@@ -22,9 +22,9 @@
       "url": "https://news.ycombinator.com",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-03T13:16:58.427941Z",
-      "last_attempted": "2026-05-03T13:16:58.427941Z",
-      "record_count": 303,
+      "last_ok": "2026-05-03T19:04:07.449761Z",
+      "last_attempted": "2026-05-03T19:04:07.449761Z",
+      "record_count": 312,
       "ok": true,
       "errors": []
     },
@@ -34,8 +34,8 @@
       "url": "https://www.bls.gov/developers/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-03T13:16:59.189772Z",
-      "last_attempted": "2026-05-03T13:16:59.189772Z",
+      "last_ok": "2026-05-03T19:04:08.336083Z",
+      "last_attempted": "2026-05-03T19:04:08.336083Z",
       "record_count": 29,
       "ok": true,
       "errors": []
@@ -46,8 +46,8 @@
       "url": "https://www.sec.gov/cgi-bin/browse-edgar",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-05-03T13:16:59.449178Z",
-      "last_attempted": "2026-05-03T13:16:59.449178Z",
+      "last_ok": "2026-05-03T19:04:09.004379Z",
+      "last_attempted": "2026-05-03T19:04:09.004379Z",
       "record_count": 46,
       "ok": true,
       "errors": []
@@ -58,14 +58,222 @@
       "url": "https://www.bls.gov/ces/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-03T13:17:01.196147Z",
-      "last_attempted": "2026-05-03T13:17:01.196147Z",
+      "last_ok": "2026-05-03T19:04:11.588149Z",
+      "last_attempted": "2026-05-03T19:04:11.588149Z",
       "record_count": 48,
       "ok": true,
       "errors": []
     }
   ],
   "recent_signals": [
+    {
+      "id": "6ff4ca13904b7845",
+      "ts": "2026-05-03T18:51:22Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=48000122",
+      "type": "posting",
+      "company": {
+        "name": "TrakPro",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "TrakPro | Senior Rails Engineer | REMOTE (overlap with Ireland 9\u20135 GMT) | \u20ac48\u201360k&#x2F;yr We&#x27;re a construction payment management SaaS based in Ireland. Main contractors and subcontractors use us to track subcontracts, payment applications, and retentions \u2014 replacing the spreadsheets they curre",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology"
+      ]
+    },
+    {
+      "id": "faf992e55913e9ae",
+      "ts": "2026-05-03T18:28:34Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=47999884",
+      "type": "posting",
+      "company": {
+        "name": "Kepler",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": "NY",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Kepler | Full Stack Engineer | New York, NY | ONSITE | $230K-$260K + equity We&#x27;re building the trust layer for AI in high-stakes industries. https:&#x2F;&#x2F;kepler.ai LLMs hallucinate, so they can&#x27;t be the thing producing your numbers. In Kepler, the LLM orchestrates (decides what data t",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology",
+        "NY"
+      ]
+    },
+    {
+      "id": "bb677f7a6f7dab18",
+      "ts": "2026-05-03T18:14:27Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=47999750",
+      "type": "posting",
+      "company": {
+        "name": "MixRank (YC S11)",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "MixRank (YC S11) | Software Engineers | 100% REMOTE (Global) | Full-Time MixRank processes petabytes of data every month from web crawling. We have hundreds of customers using our data products including Google, Amazon, Facebook, Intel, and Adobe, across industries including Finance, Recruiting, Sal",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology"
+      ]
+    },
+    {
+      "id": "68817167fbd53d1e",
+      "ts": "2026-05-03T17:54:54Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=47999550",
+      "type": "posting",
+      "company": {
+        "name": "Unknown",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Hi there! Thanks for reaching out and thank you for the introduction. We are looking for an internal hire with this posting. Cheers!",
+      "tags": [
+        "hiring",
+        "hn",
+        "other"
+      ]
+    },
+    {
+      "id": "7587b666667f4760",
+      "ts": "2026-05-03T17:36:19Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=47999366",
+      "type": "posting",
+      "company": {
+        "name": "Unknown",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Are all remotes open to global remote? Additionally, do you offer visa sponsorship for Prague?",
+      "tags": [
+        "hiring",
+        "hn",
+        "other"
+      ]
+    },
+    {
+      "id": "a1bbaf65fe137abf",
+      "ts": "2026-05-03T15:35:57Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=47997984",
+      "type": "posting",
+      "company": {
+        "name": "Unknown",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Hey, i just sent an email over! My recent stack and domain match this perfectly. Looking forward to chatting.",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology"
+      ]
+    },
+    {
+      "id": "010c786d7aec3764",
+      "ts": "2026-05-03T15:18:26Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=47997815",
+      "type": "posting",
+      "company": {
+        "name": "Have prev. experience building a fintech product serving non",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Have prev. experience building a fintech product serving non-profits in the US. This position is the dream role for me. Would it be possible to directly hop on a call? Can share my resume with you in private.",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology"
+      ]
+    },
+    {
+      "id": "b174545e49272f55",
+      "ts": "2026-05-03T14:36:55Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=47997362",
+      "type": "posting",
+      "company": {
+        "name": "Unknown",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Hey there, I&#x27;m in the region and work in the exact same space as a software developer. Are you looking for full-time applicants only, or are you open to contractor arrangements? I&#x27;m not actively looking to switch roles but I&#x27;m genuinely interested in the problem space and would be hap",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology"
+      ]
+    },
+    {
+      "id": "6c1232802574c7d9",
+      "ts": "2026-05-03T13:39:34Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=47996843",
+      "type": "posting",
+      "company": {
+        "name": "AI Model Assessment Specialist",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "AI Model Assessment Specialist | REMOTE | Contract | $22 - $70&#x2F;hr We are scaling up our AI training operations and looking to bring on a large number of contractors (up to 1,000 openings) to help evaluate, stress-test, and refine next-generation AI models. The Role: Essentially, high-level RLHF",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology"
+      ]
+    },
     {
       "id": "ff79678ffc6a7ff1",
       "ts": "2026-05-03T13:13:09Z",
@@ -2170,220 +2378,10 @@
         "hn",
         "other"
       ]
-    },
-    {
-      "id": "985e0e3fa622a872",
-      "ts": "2026-05-01T22:08:47Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=47981052",
-      "type": "posting",
-      "company": {
-        "name": "Infisical",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Infisical | Full-Time | Senior Fullstack Engineers | Remote, Americas ( https:&#x2F;&#x2F;infisical.com&#x2F; ) Secure Secrets, Certificates, and AI Agents. Infisical is the all-in-one platform to securely manage application secrets, certificates, SSH keys, and privileged access across classic and A",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "469c1406eb98cb6b",
-      "ts": "2026-05-01T21:51:26Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=47980891",
-      "type": "posting",
-      "company": {
-        "name": "Startup working on AI Healthcare solutions (plus some random experiments)",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Startup working on AI Healthcare solutions (plus some random experiments) | REMOTE(US, Pacific time zone) | Full time and project based Full time engineering role (Remote, US person required; Pacific time zone) Stack: C#, Python, Gemini API on Windows, lots of legacy systems&#x2F;constrained enterpr",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "078cc4de5948b4ee",
-      "ts": "2026-05-01T21:46:45Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=47980841",
-      "type": "posting",
-      "company": {
-        "name": "Matchie.io",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Matchie.io | Multiple Roles | Remote + Hybrid | $80k\u2013$220k+ We&#x27;re Matchie \u2014 a fast-growing AI-powered global jobs marketplace. We&#x27;ve recently closed our seed round and are scaling aggressively. We&#x27;re hiring across Engineering, Sales, Marketing, HR, Operations, Finance, and more. Trans",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "69f912fd6cd1a20c",
-      "ts": "2026-05-01T21:42:20Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=47980786",
-      "type": "posting",
-      "company": {
-        "name": "Comity Inc.",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": "IL",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Comity Inc. | Hybrid (NY, Chicago, or Bay Area) and REMOTE | We are expanding our team with several full-time roles: * Quantitative Researcher for Monetization * Quantitative Researcher for Portfolio Optimization * Quantitative Researcher for Congestion Revenue Rights (CRRs) * Power Market Researche",
-      "tags": [
-        "hiring",
-        "hn",
-        "other",
-        "IL"
-      ]
-    },
-    {
-      "id": "9405d328c8749d75",
-      "ts": "2026-05-01T21:40:29Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=47980760",
-      "type": "posting",
-      "company": {
-        "name": "Column ( https:&#x2F;&#x2F;column.com&#x2F; )",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": "CA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Column ( https:&#x2F;&#x2F;column.com&#x2F; ) | San Francisco, CA (ONSITE) | Full Time | Software Eng (Infrastructure), Software Eng (Backend), Software Eng (Product) Column is building the infrastructure that powers the US dollar globally. We&#x27;re a software first company, but also own a nationa",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology",
-        "CA"
-      ]
-    },
-    {
-      "id": "115d274ecc7e0a7d",
-      "ts": "2026-05-01T21:36:39Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=47980720",
-      "type": "posting",
-      "company": {
-        "name": "Unknown",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "There\u2019s a note that there are \u201cmandated certifications\u201d with the federal government required for hire - is that a security clearance, or something simpler?",
-      "tags": [
-        "hiring",
-        "hn",
-        "other"
-      ]
-    },
-    {
-      "id": "9d3f31ed1e2902b9",
-      "ts": "2026-05-01T21:28:09Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=47980614",
-      "type": "posting",
-      "company": {
-        "name": "Unknown",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "heya, sent a request on LinkedIn, I do care about craft and an amazing experience, that&#x27;s what keep me going. You can checkout more about me on notion: https:&#x2F;&#x2F;beaded-desk-2c0.notion.site&#x2F;Portfolio-23ea526e5bbc40... Thank you :)",
-      "tags": [
-        "hiring",
-        "hn",
-        "other"
-      ]
-    },
-    {
-      "id": "7c4e9aaab90fc202",
-      "ts": "2026-05-01T21:26:42Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=47980592",
-      "type": "posting",
-      "company": {
-        "name": "Fuck mosquitoes, go get em",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Fuck mosquitoes, go get em",
-      "tags": [
-        "hiring",
-        "hn",
-        "other"
-      ]
-    },
-    {
-      "id": "f6f594ad6df82afd",
-      "ts": "2026-05-01T21:25:35Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=47980578",
-      "type": "posting",
-      "company": {
-        "name": "AveryIQ",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": "TX",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "AveryIQ | Austin, TX | Engineering &amp; Sales | averyiq.com AveryIQ is a completely vertical, all-in-one agentic property management firm. We are building our own software that can answer tenant questions, do payments and accounting, and handle repairs. We run operations for many multifamily rental",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology",
-        "TX"
-      ]
     }
   ],
   "sector_matrix": {
-    "generated_at": "2026-05-03T13:16:57.882174Z",
+    "generated_at": "2026-05-03T19:04:06.954142Z",
     "cells": [
       {
         "sector": "Technology",
@@ -2397,11 +2395,11 @@
       {
         "sector": "Technology",
         "signal_type": "posting",
-        "count_7d": 218,
-        "count_30d": 218,
+        "count_7d": 225,
+        "count_30d": 225,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 23.43
+        "z_score": 23.81
       },
       {
         "sector": "Technology",
