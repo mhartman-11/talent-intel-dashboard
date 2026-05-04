@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-04T08:33:36.066686Z",
+  "generated_at": "2026-05-04T11:01:40.064935Z",
   "next_ingest_at": null,
-  "total_events": 467,
-  "events_7d": 342,
+  "total_events": 471,
+  "events_7d": 346,
   "sources": [
     {
       "source": "layoffs_fyi",
@@ -10,8 +10,8 @@
       "url": "https://techcrunch.com/tag/layoffs/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-05-04T08:33:36.218752Z",
-      "last_attempted": "2026-05-04T08:33:36.218752Z",
+      "last_ok": "2026-05-04T11:01:40.161770Z",
+      "last_attempted": "2026-05-04T11:01:40.161770Z",
       "record_count": 11,
       "ok": true,
       "errors": []
@@ -22,9 +22,9 @@
       "url": "https://news.ycombinator.com",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-04T08:33:36.659631Z",
-      "last_attempted": "2026-05-04T08:33:36.659631Z",
-      "record_count": 334,
+      "last_ok": "2026-05-04T11:01:40.709093Z",
+      "last_attempted": "2026-05-04T11:01:40.709093Z",
+      "record_count": 338,
       "ok": true,
       "errors": []
     },
@@ -34,8 +34,8 @@
       "url": "https://www.bls.gov/developers/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-04T08:33:37.574024Z",
-      "last_attempted": "2026-05-04T08:33:37.574024Z",
+      "last_ok": "2026-05-04T11:01:41.533954Z",
+      "last_attempted": "2026-05-04T11:01:41.533954Z",
       "record_count": 29,
       "ok": true,
       "errors": []
@@ -46,8 +46,8 @@
       "url": "https://www.sec.gov/cgi-bin/browse-edgar",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-05-04T08:33:38.183483Z",
-      "last_attempted": "2026-05-04T08:33:38.183483Z",
+      "last_ok": "2026-05-04T11:01:41.982953Z",
+      "last_attempted": "2026-05-04T11:01:41.982953Z",
       "record_count": 45,
       "ok": true,
       "errors": []
@@ -58,14 +58,106 @@
       "url": "https://www.bls.gov/ces/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-04T08:33:42.509950Z",
-      "last_attempted": "2026-05-04T08:33:42.509950Z",
+      "last_ok": "2026-05-04T11:01:42.397198Z",
+      "last_attempted": "2026-05-04T11:01:42.397198Z",
       "record_count": 48,
       "ok": true,
       "errors": []
     }
   ],
   "recent_signals": [
+    {
+      "id": "b476156d5eddfb06",
+      "ts": "2026-05-04T10:16:35Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=48006726",
+      "type": "posting",
+      "company": {
+        "name": "Northbeam Studio",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Northbeam Studio | Remote | Automation Consultant We build done-for-you Zapier, Make.com, and n8n automations for startups and growing teams. If you&#x27;re hiring for ops, admin, or data entry roles, there&#x27;s a good chance we can automate 60-80% of what that hire would do \u2014 at a fraction of the",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology"
+      ]
+    },
+    {
+      "id": "483815d43eff05c3",
+      "ts": "2026-05-04T10:10:13Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=48006671",
+      "type": "posting",
+      "company": {
+        "name": "PetsApp",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "PetsApp \u2013 The future of pet care | Remote (UK) | https:&#x2F;&#x2F;petsapp.com Open roles: Support Engineer \u00a330k\u2013\u00a355k | Full-time We&#x27;re building an AI-powered clinic assistant that handles bookings, messaging, and workflows for veterinary clinics. Our support function isn&#x27;t a ticket queue ",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology"
+      ]
+    },
+    {
+      "id": "8457b39361778a2e",
+      "ts": "2026-05-04T09:34:59Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=48006425",
+      "type": "posting",
+      "company": {
+        "name": "Logenta.ai",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Logenta.ai | CTO | Remote (EU) We&#x27;re building an agentic data analytics companion for intralogistics. Looking for a hands-on CTO who can design and ship an agent-based system end-to-end. You&#x27;re comfortable building an agent harness, write clean typed Python, and have experience with tools ",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology"
+      ]
+    },
+    {
+      "id": "45e91cde8f1312ba",
+      "ts": "2026-05-04T09:00:23Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=48006232",
+      "type": "posting",
+      "company": {
+        "name": "Unknown",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "telli (YC F24) is hiring across engineering&#x2F;design&#x2F;sales&#x2F;marketing [on-site Berlin] - https:&#x2F;&#x2F;hi.telli.com&#x2F;join-us",
+      "tags": [
+        "hiring",
+        "hn",
+        "other"
+      ]
+    },
     {
       "id": "9503c2be4a49c2ad",
       "ts": "2026-05-04T08:13:41Z",
@@ -405,7 +497,7 @@
       },
       "magnitude": null,
       "unit": "jobs",
-      "raw_text": "Flow Traders | Research Engineer | Hong Kong (onsite) | Full Time | Visa | Relocation Flow Traders is a leading proprietary trading firm with an entrepreneurial and innovative Tech culture at the heart of its business. We are looking for Research Engineers in our Hong Kong office. Join us build and ",
+      "raw_text": "Flow Traders | Research Engineer | Hong Kong&#x2F; London (onsite) | Full Time | Visa | Relocation Flow Traders is a leading proprietary trading firm with an entrepreneurial and innovative Tech culture at the heart of its business. We are looking for Research Engineers in our Hong Kong office. Join ",
       "tags": [
         "hiring",
         "hn",
@@ -2284,102 +2376,10 @@
         "hn",
         "other"
       ]
-    },
-    {
-      "id": "97b56d0d08a53542",
-      "ts": "2026-05-02T01:49:46Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=47982533",
-      "type": "posting",
-      "company": {
-        "name": "Looks amazing. Very meaningful work.",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Looks amazing. Very meaningful work.",
-      "tags": [
-        "hiring",
-        "hn",
-        "other"
-      ]
-    },
-    {
-      "id": "a2baa57cabb8ba5e",
-      "ts": "2026-05-02T01:28:11Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=47982405",
-      "type": "posting",
-      "company": {
-        "name": "the fragment of a word you are thinking of means &quot;two&quot;",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "the fragment of a word you are thinking of means &quot;two&quot;",
-      "tags": [
-        "hiring",
-        "hn",
-        "other"
-      ]
-    },
-    {
-      "id": "341cfc1c71d52013",
-      "ts": "2026-05-02T01:25:09Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=47982383",
-      "type": "posting",
-      "company": {
-        "name": "Unknown",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "-------------- NYC ONSITE https:&#x2F;&#x2F;xn--xp5a.anterior.app&#x2F; --------------",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "e5fe0e048f315617",
-      "ts": "2026-05-02T01:22:28Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=47982361",
-      "type": "posting",
-      "company": {
-        "name": "Enveritas (YC S18, non",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Enveritas (YC S18, non-profit) | Backend Software Engineer | Remote (Global) | https:&#x2F;&#x2F;enveritas.org&#x2F;jobs&#x2F; Enveritas is a 501(c)(3) nonprofit working on sustainability issues facing smallholder coffee farmers. We collect field data in 25+ countries and build systems for analyzing",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
     }
   ],
   "sector_matrix": {
-    "generated_at": "2026-05-04T08:33:36.066686Z",
+    "generated_at": "2026-05-04T11:01:40.064935Z",
     "cells": [
       {
         "sector": "Technology",
@@ -2393,11 +2393,11 @@
       {
         "sector": "Technology",
         "signal_type": "posting",
-        "count_7d": 239,
-        "count_30d": 239,
+        "count_7d": 242,
+        "count_30d": 242,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 24.54
+        "z_score": 24.69
       },
       {
         "sector": "Technology",
