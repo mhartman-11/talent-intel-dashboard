@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-04T11:01:40.064935Z",
+  "generated_at": "2026-05-04T14:07:40.892685Z",
   "next_ingest_at": null,
-  "total_events": 471,
-  "events_7d": 346,
+  "total_events": 479,
+  "events_7d": 354,
   "sources": [
     {
       "source": "layoffs_fyi",
@@ -10,8 +10,8 @@
       "url": "https://techcrunch.com/tag/layoffs/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-05-04T11:01:40.161770Z",
-      "last_attempted": "2026-05-04T11:01:40.161770Z",
+      "last_ok": "2026-05-04T14:07:40.973144Z",
+      "last_attempted": "2026-05-04T14:07:40.973144Z",
       "record_count": 11,
       "ok": true,
       "errors": []
@@ -22,9 +22,9 @@
       "url": "https://news.ycombinator.com",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-04T11:01:40.709093Z",
-      "last_attempted": "2026-05-04T11:01:40.709093Z",
-      "record_count": 338,
+      "last_ok": "2026-05-04T14:07:41.521997Z",
+      "last_attempted": "2026-05-04T14:07:41.521997Z",
+      "record_count": 346,
       "ok": true,
       "errors": []
     },
@@ -34,8 +34,8 @@
       "url": "https://www.bls.gov/developers/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-04T11:01:41.533954Z",
-      "last_attempted": "2026-05-04T11:01:41.533954Z",
+      "last_ok": "2026-05-04T14:07:46.650070Z",
+      "last_attempted": "2026-05-04T14:07:46.650070Z",
       "record_count": 29,
       "ok": true,
       "errors": []
@@ -46,8 +46,8 @@
       "url": "https://www.sec.gov/cgi-bin/browse-edgar",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-05-04T11:01:41.982953Z",
-      "last_attempted": "2026-05-04T11:01:41.982953Z",
+      "last_ok": "2026-05-04T14:07:48.134167Z",
+      "last_attempted": "2026-05-04T14:07:48.134167Z",
       "record_count": 45,
       "ok": true,
       "errors": []
@@ -58,14 +58,199 @@
       "url": "https://www.bls.gov/ces/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-04T11:01:42.397198Z",
-      "last_attempted": "2026-05-04T11:01:42.397198Z",
+      "last_ok": "2026-05-04T14:07:49.120072Z",
+      "last_attempted": "2026-05-04T14:07:49.120072Z",
       "record_count": 48,
       "ok": true,
       "errors": []
     }
   ],
   "recent_signals": [
+    {
+      "id": "6a87890dfbc17302",
+      "ts": "2026-05-04T13:56:37Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=48008854",
+      "type": "posting",
+      "company": {
+        "name": "Transfyr",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": "MA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Transfyr | Full Stack Software Engineer | Cambridge, MA | Full-time | ONSITE Transfyr is building physical AI for science, and the world\u2019s largest commercial dataset on real-world scientific execution. We are looking for a full stack engineer who can work at the hardware&#x2F;software interface, to ",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology",
+        "MA"
+      ]
+    },
+    {
+      "id": "48f5bb226f527a71",
+      "ts": "2026-05-04T13:56:23Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=48008852",
+      "type": "posting",
+      "company": {
+        "name": "Category Labs",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Category Labs | https:&#x2F;&#x2F;www.category.xyz&#x2F; | Remote and NYC | Full Time | $200K USD+ Category Labs (formerly known as Monad Labs) is a team of systems engineers and researchers on a mission to design and build at the frontier of decentralized technology. We strive to design and build s",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology"
+      ]
+    },
+    {
+      "id": "83d11c8c120287f9",
+      "ts": "2026-05-04T13:53:24Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=48008806",
+      "type": "posting",
+      "company": {
+        "name": "Acrylic Robotics",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Acrylic Robotics | ML Lead | Montreal, QC | Onsite&#x2F;Hybrid | Full-time Acrylic Robotics is a creative tech company focused on changing how people design and create art. We build software that learns a person&#x27;s taste in art, ML design tools that turn it into a concept, and robots that create",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology"
+      ]
+    },
+    {
+      "id": "2a7bf0d6b876739b",
+      "ts": "2026-05-04T13:43:44Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=48008674",
+      "type": "posting",
+      "company": {
+        "name": "Ashby",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Ashby | YC 19 | REMOTE | Hiring Product Engineers | Sr: $153k-$220k, Staff: $190k-$275k Ashby is the all-in-one recruiting platform powering hiring at the world\u2019s most innovative companies. If you cmd+f \u201cAshby\u201d you\u2019ll see that we\u2019re powering many of job postings in this thread! * Grew our engineerin",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology"
+      ]
+    },
+    {
+      "id": "44a55e6b0f24d8e5",
+      "ts": "2026-05-04T13:22:17Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=48008420",
+      "type": "posting",
+      "company": {
+        "name": "Unknown",
+        "ticker": null,
+        "industry": null,
+        "sector": "Finance",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Fold | Remote (US Only) | Senior Back End Engineer | Full-time Fold is a publicly listed bitcoin financial services company building the tools people need to earn, buy, sell and live on Bitcoin. We&#x27;re looking for a Senior BE Engineer to help build the financial infrastructure behind our product",
+      "tags": [
+        "hiring",
+        "hn",
+        "finance"
+      ]
+    },
+    {
+      "id": "348c2dcd3c7079a6",
+      "ts": "2026-05-04T13:09:11Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=48008275",
+      "type": "posting",
+      "company": {
+        "name": "tiun ( https:&#x2F;&#x2F;tiun.io )",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "tiun ( https:&#x2F;&#x2F;tiun.io ) | Senior Marketing Engineer | Z\u00fcrich or Remote (Europe) | FULL-TIME tiun is the commercial backend for SaaS, AI, and digital products: auth, payments, and customer data in one system, replacing the Stripe + Auth0 + Postgres + analytics stack. We&#x27;re hiring a Se",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology"
+      ]
+    },
+    {
+      "id": "e38e5413ffffb76f",
+      "ts": "2026-05-04T12:33:58Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=48007895",
+      "type": "posting",
+      "company": {
+        "name": "Unknown",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Sounds very interesting. Have you ever considered hiring outside of US. I&#x27;d love to apply for the C#&#x2F;F# based roles, but can only work as a remote consultant (B2B). Ping me if that is a possibility. I have been working in .NET for 15 years professionally and 5 years fully remote.",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology"
+      ]
+    },
+    {
+      "id": "97ed385d559fa20e",
+      "ts": "2026-05-04T11:45:26Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=48007478",
+      "type": "posting",
+      "company": {
+        "name": "Unknown",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Hi, I don&#x27;t see any contact form or email address on northbeamstudio.gumroad.com I have an idea you might be interested in.",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology"
+      ]
+    },
     {
       "id": "b476156d5eddfb06",
       "ts": "2026-05-04T10:16:35Z",
@@ -2192,194 +2377,10 @@
         "technology",
         "WA"
       ]
-    },
-    {
-      "id": "44d9e840dcfe0380",
-      "ts": "2026-05-02T03:46:16Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=47983116",
-      "type": "posting",
-      "company": {
-        "name": "Unknown",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "What\u2019s not in the values is honesty, integrity, and transparency. Don\u2019t waste your time folks.",
-      "tags": [
-        "hiring",
-        "hn",
-        "other"
-      ]
-    },
-    {
-      "id": "ceb437cdf7fe56b7",
-      "ts": "2026-05-02T03:31:00Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=47983050",
-      "type": "posting",
-      "company": {
-        "name": "Marker Learning",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Marker Learning - Founding Full Stack Engineer \u2013 Remote (USA) \u2013 180-250k I have dyslexia. I was one of the lucky ones. Diagnosed at eight, I got accommodations and support before things spiraled. Most kids aren&#x27;t so lucky. The path from initial concern to diagnosis can take years and cost famil",
-      "tags": [
-        "hiring",
-        "hn",
-        "other"
-      ]
-    },
-    {
-      "id": "41d80be086308b29",
-      "ts": "2026-05-02T03:19:15Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=47982988",
-      "type": "posting",
-      "company": {
-        "name": "Preferred Networks",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Preferred Networks | Tokyo or Remote in Japan | Full-time | https:&#x2F;&#x2F;www.preferred.jp&#x2F;en Preferred Networks is an AI company based in Tokyo working across the stack, from AI chips and computing infrastructure to LLMs and products. You may already know us indirectly if you&#x27;ve used ",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "294796bd60b78643",
-      "ts": "2026-05-02T02:21:58Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=47982730",
-      "type": "posting",
-      "company": {
-        "name": "Hammock ( https:&#x2F;&#x2F;usehammock.co&#x2F; )",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Hammock ( https:&#x2F;&#x2F;usehammock.co&#x2F; ) | Backend Engineer, Full Stack Engineer | NYC (4 days in-person, 1 flexible) | Full-Time | $150-225k Hammock is building the first HSA&#x2F;FSA that actually works for modern life \u2014 letting people spend pre-tax dollars on everyday wellness like the g",
-      "tags": [
-        "hiring",
-        "hn",
-        "other"
-      ]
-    },
-    {
-      "id": "66ec9f670c94d8e2",
-      "ts": "2026-05-02T02:17:45Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=47982703",
-      "type": "posting",
-      "company": {
-        "name": "Prophet Town LLC",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Prophet Town LLC | Various Software Engineering Roles | US \u2013 Remote and Hybrid | English fluency required | Full-time | $150K-$260K annual total comp (multiple) We are a people-first, boutique tech agency creating on-demand teams and software solutions for long-standing clients, who trust us to prac",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "a54ee9b3602935f0",
-      "ts": "2026-05-02T02:00:57Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=47982610",
-      "type": "posting",
-      "company": {
-        "name": "Psiphon",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Psiphon | iOS &#x2F; Flutter Developer | Toronto (Hybrid) | Full-time Psiphon is a VPN app used by millions of people to access the open internet in regions where it&#x27;s restricted. Small team, software that matters. We&#x27;re building the next-gen client app in Flutter (iOS, Android, macOS, Win",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "7d60836faacd1ae1",
-      "ts": "2026-05-02T01:56:11Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=47982580",
-      "type": "posting",
-      "company": {
-        "name": "Given the last couple of years accidents, I hope you can improve safety here!",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Given the last couple of years accidents, I hope you can improve safety here!",
-      "tags": [
-        "hiring",
-        "hn",
-        "other"
-      ]
-    },
-    {
-      "id": "928213a70dfe232e",
-      "ts": "2026-05-02T01:54:55Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=47982567",
-      "type": "posting",
-      "company": {
-        "name": "MintMCP",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "MintMCP | Founding Engineer &#x2F; Founding GTM | SF Bay Area (ONSITE) MintMCP helps enterprises safely roll out agents to the entire organization (e.g, governance around MCP tools and agents like Claude Code &#x2F; Codex &#x2F; Cowork). We&#x27;re building an MCP gateway with abstractions useful fo",
-      "tags": [
-        "hiring",
-        "hn",
-        "other"
-      ]
     }
   ],
   "sector_matrix": {
-    "generated_at": "2026-05-04T11:01:40.064935Z",
+    "generated_at": "2026-05-04T14:07:40.892685Z",
     "cells": [
       {
         "sector": "Technology",
@@ -2393,11 +2394,11 @@
       {
         "sector": "Technology",
         "signal_type": "posting",
-        "count_7d": 242,
-        "count_30d": 242,
+        "count_7d": 249,
+        "count_30d": 249,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 24.69
+        "z_score": 25.04
       },
       {
         "sector": "Technology",
@@ -2438,11 +2439,11 @@
       {
         "sector": "Finance",
         "signal_type": "posting",
-        "count_7d": 10,
-        "count_30d": 10,
+        "count_7d": 11,
+        "count_30d": 11,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 5.02
+        "z_score": 5.26
       },
       {
         "sector": "Finance",
