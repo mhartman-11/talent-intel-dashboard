@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-06T03:26:25.764979Z",
+  "generated_at": "2026-05-06T08:30:25.870099Z",
   "next_ingest_at": null,
-  "total_events": 556,
-  "events_7d": 435,
+  "total_events": 558,
+  "events_7d": 437,
   "sources": [
     {
       "source": "layoffs_fyi",
@@ -10,8 +10,8 @@
       "url": "https://techcrunch.com/tag/layoffs/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-05-06T03:26:25.844868Z",
-      "last_attempted": "2026-05-06T03:26:25.844868Z",
+      "last_ok": "2026-05-06T08:30:25.962442Z",
+      "last_attempted": "2026-05-06T08:30:25.962442Z",
       "record_count": 11,
       "ok": true,
       "errors": []
@@ -22,9 +22,9 @@
       "url": "https://news.ycombinator.com",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-06T03:26:26.377450Z",
-      "last_attempted": "2026-05-06T03:26:26.377450Z",
-      "record_count": 425,
+      "last_ok": "2026-05-06T08:30:26.605615Z",
+      "last_attempted": "2026-05-06T08:30:26.605615Z",
+      "record_count": 427,
       "ok": true,
       "errors": []
     },
@@ -34,8 +34,8 @@
       "url": "https://www.bls.gov/developers/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-06T03:26:27.384554Z",
-      "last_attempted": "2026-05-06T03:26:27.384554Z",
+      "last_ok": "2026-05-06T08:30:27.620157Z",
+      "last_attempted": "2026-05-06T08:30:27.620157Z",
       "record_count": 29,
       "ok": true,
       "errors": []
@@ -46,8 +46,8 @@
       "url": "https://www.sec.gov/cgi-bin/browse-edgar",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-05-06T03:26:27.887052Z",
-      "last_attempted": "2026-05-06T03:26:27.887052Z",
+      "last_ok": "2026-05-06T08:30:28.457283Z",
+      "last_attempted": "2026-05-06T08:30:28.457283Z",
       "record_count": 43,
       "ok": true,
       "errors": []
@@ -58,14 +58,61 @@
       "url": "https://www.bls.gov/ces/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-06T03:26:28.153639Z",
-      "last_attempted": "2026-05-06T03:26:28.153639Z",
+      "last_ok": "2026-05-06T08:30:30.163995Z",
+      "last_attempted": "2026-05-06T08:30:30.163995Z",
       "record_count": 48,
       "ok": true,
       "errors": []
     }
   ],
   "recent_signals": [
+    {
+      "id": "5b04124684e48d2e",
+      "ts": "2026-05-06T06:02:32Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=48032792",
+      "type": "posting",
+      "company": {
+        "name": "Are you open for applications from abroad? Or only within Germany?",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Are you open for applications from abroad? Or only within Germany?",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology"
+      ]
+    },
+    {
+      "id": "be58d4aa10490e59",
+      "ts": "2026-05-06T04:47:29Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=48032288",
+      "type": "posting",
+      "company": {
+        "name": "Aerofex",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": "CA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Aerofex | Senior Flight Software Integration Engineer (Ardupilot &#x2F; Simulink) | Remote &#x2F; Los Angeles | Contract Aerofex is a rapidly-growing aerospace startup developing next-generation thrust vectoring and VTOL propulsion technology for manned and unmanned platforms. We are seeking an expe",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology",
+        "CA"
+      ]
+    },
     {
       "id": "beb6f8669a151bc9",
       "ts": "2026-05-05T23:48:18Z",
@@ -2330,56 +2377,10 @@
         "hn",
         "technology"
       ]
-    },
-    {
-      "id": "8457b39361778a2e",
-      "ts": "2026-05-04T09:34:59Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48006425",
-      "type": "posting",
-      "company": {
-        "name": "Logenta.ai",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Logenta.ai | CTO | Remote (EU) We&#x27;re building an agentic data analytics companion for intralogistics. Looking for a hands-on founder&#x2F;CTO who can design and ship an agent-based system end-to-end. You&#x27;re comfortable building an agent harness, write clean typed Python, and have experienc",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "45e91cde8f1312ba",
-      "ts": "2026-05-04T09:00:23Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48006232",
-      "type": "posting",
-      "company": {
-        "name": "Unknown",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "telli (YC F24) is hiring across engineering&#x2F;design&#x2F;sales&#x2F;marketing [on-site Berlin] - https:&#x2F;&#x2F;hi.telli.com&#x2F;join-us",
-      "tags": [
-        "hiring",
-        "hn",
-        "other"
-      ]
     }
   ],
   "sector_matrix": {
-    "generated_at": "2026-05-06T03:26:25.764979Z",
+    "generated_at": "2026-05-06T08:30:25.870099Z",
     "cells": [
       {
         "sector": "Technology",
@@ -2393,11 +2394,11 @@
       {
         "sector": "Technology",
         "signal_type": "posting",
-        "count_7d": 307,
-        "count_30d": 307,
+        "count_7d": 309,
+        "count_30d": 309,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 27.81
+        "z_score": 27.9
       },
       {
         "sector": "Technology",
