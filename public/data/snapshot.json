@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-05T19:25:44.960800Z",
+  "generated_at": "2026-05-06T03:26:25.764979Z",
   "next_ingest_at": null,
-  "total_events": 545,
-  "events_7d": 424,
+  "total_events": 556,
+  "events_7d": 435,
   "sources": [
     {
       "source": "layoffs_fyi",
@@ -10,8 +10,8 @@
       "url": "https://techcrunch.com/tag/layoffs/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-05-05T19:25:45.020506Z",
-      "last_attempted": "2026-05-05T19:25:45.020506Z",
+      "last_ok": "2026-05-06T03:26:25.844868Z",
+      "last_attempted": "2026-05-06T03:26:25.844868Z",
       "record_count": 11,
       "ok": true,
       "errors": []
@@ -22,9 +22,9 @@
       "url": "https://news.ycombinator.com",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-05T19:25:45.625141Z",
-      "last_attempted": "2026-05-05T19:25:45.625141Z",
-      "record_count": 414,
+      "last_ok": "2026-05-06T03:26:26.377450Z",
+      "last_attempted": "2026-05-06T03:26:26.377450Z",
+      "record_count": 425,
       "ok": true,
       "errors": []
     },
@@ -34,8 +34,8 @@
       "url": "https://www.bls.gov/developers/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-05T19:25:46.663343Z",
-      "last_attempted": "2026-05-05T19:25:46.663343Z",
+      "last_ok": "2026-05-06T03:26:27.384554Z",
+      "last_attempted": "2026-05-06T03:26:27.384554Z",
       "record_count": 29,
       "ok": true,
       "errors": []
@@ -46,8 +46,8 @@
       "url": "https://www.sec.gov/cgi-bin/browse-edgar",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-05-05T19:25:47.211896Z",
-      "last_attempted": "2026-05-05T19:25:47.211896Z",
+      "last_ok": "2026-05-06T03:26:27.887052Z",
+      "last_attempted": "2026-05-06T03:26:27.887052Z",
       "record_count": 43,
       "ok": true,
       "errors": []
@@ -58,14 +58,315 @@
       "url": "https://www.bls.gov/ces/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-05T19:25:50.214600Z",
-      "last_attempted": "2026-05-05T19:25:50.214600Z",
+      "last_ok": "2026-05-06T03:26:28.153639Z",
+      "last_attempted": "2026-05-06T03:26:28.153639Z",
       "record_count": 48,
       "ok": true,
       "errors": []
     }
   ],
   "recent_signals": [
+    {
+      "id": "beb6f8669a151bc9",
+      "ts": "2026-05-05T23:48:18Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=48030333",
+      "type": "posting",
+      "company": {
+        "name": "Rad AI Multiple roles",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": "CA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Rad AI Multiple roles | On-site San Francisco | Full-time | https:&#x2F;&#x2F;www.radai.com&#x2F; We&#x27;re rapidly staffing-up our new office in San Francisco at 2nd &amp; Market! Empowering physicians with best-in-class AI radiology solutions to save time, reduce burnout, and improve patient care",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology",
+        "CA"
+      ]
+    },
+    {
+      "id": "8daeb0349423846b",
+      "ts": "2026-05-05T23:46:23Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=48030310",
+      "type": "posting",
+      "company": {
+        "name": "Lucas Hage",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Lucas Hage | Software Engineer (Backend &#x2F; Full Stack) | Remote | Open to contract or full-time 5+ years building backend systems and cloud infrastructure. Currently at Flora Energia (S\u00e3o Paulo), previously at Colab and Terramagna. Stack: TypeScript &#x2F; NestJS \u00b7 Python \u00b7 Rust \u00b7 PostgreSQL \u00b7 R",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology"
+      ]
+    },
+    {
+      "id": "4c8c86110a8cc393",
+      "ts": "2026-05-05T23:11:07Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=48029980",
+      "type": "posting",
+      "company": {
+        "name": "Unknown",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "How do you (or any other similar poster) expect candidates to lookup this job post? When it comes to engineering, please mention specific tech, like you mentioned in the follow-up comment. People lookup for specific tech keywords, be it programming languages or frameworks, not just &quot;Engineer&qu",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology"
+      ]
+    },
+    {
+      "id": "737573c5d5e0d1b9",
+      "ts": "2026-05-05T22:02:45Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=48029264",
+      "type": "posting",
+      "company": {
+        "name": "Unknown",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": "DC",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Hi, do you have an email contact to reach out to in regards to your Washington, DC location and remote roles?",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology",
+        "DC"
+      ]
+    },
+    {
+      "id": "d1e640386fa2a4e7",
+      "ts": "2026-05-05T21:56:34Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=48029186",
+      "type": "posting",
+      "company": {
+        "name": "the app",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "the app-est of them all",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology"
+      ]
+    },
+    {
+      "id": "70c687fc44dd5a6c",
+      "ts": "2026-05-05T21:55:48Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=48029175",
+      "type": "posting",
+      "company": {
+        "name": "which gentube is it (com, app, ai)",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "which gentube is it (com, app, ai)",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology"
+      ]
+    },
+    {
+      "id": "1ec37afcf8e82b33",
+      "ts": "2026-05-05T21:43:29Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=48029025",
+      "type": "posting",
+      "company": {
+        "name": "Are you open to remote outside the US? I&#x27;m in Europe",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Are you open to remote outside the US? I&#x27;m in Europe",
+      "tags": [
+        "hiring",
+        "hn",
+        "other"
+      ]
+    },
+    {
+      "id": "1e36f799eed24850",
+      "ts": "2026-05-05T21:40:40Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=48028990",
+      "type": "posting",
+      "company": {
+        "name": "gentube",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "gentube | founding engineer | Toronto, Canada (eh) | full-time we crossed 100M+ creates with a handful of interns. Now we&#x27;re building the founding team. what you&#x27;ll own: - Drive create latency to near-zero, end-to-end - Cut cost per generation - Keep pipelines stable under load - Ship cont",
+      "tags": [
+        "hiring",
+        "hn",
+        "other"
+      ]
+    },
+    {
+      "id": "3146235bcc777ed1",
+      "ts": "2026-05-05T21:15:56Z",
+      "source": "org_moves",
+      "source_url": "https://techcrunch.com/2026/05/05/as-crypto-cools-a16zcrypto-raises-a-2-2b-fund/",
+      "type": "funding",
+      "company": {
+        "name": "As crypto cools, a16z crypto",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "As crypto cools, a16z crypto raises a $2.2B fund",
+      "tags": [
+        "funding",
+        "technology"
+      ]
+    },
+    {
+      "id": "fe5b5385bd1e2837",
+      "ts": "2026-05-05T20:47:14Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=48028290",
+      "type": "posting",
+      "company": {
+        "name": "Unknown",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "This is probably more accurately described as a &quot;hybrid&quot; position, rather than &quot;remote&quot;, as it does require at least occasional on-site presence.",
+      "tags": [
+        "hiring",
+        "hn",
+        "other"
+      ]
+    },
+    {
+      "id": "608e7f829d6878d8",
+      "ts": "2026-05-05T20:14:31Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=48027873",
+      "type": "posting",
+      "company": {
+        "name": "Unknown",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": "MA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Global Partners \u2014 Senior Director, Data Engineering Location: Waltham, MA \u2014 Pay Range $182,300.00 - $291,500.00 Fortune 500 energy company (fuel distribution, terminals, retail). Hiring a Senior Director, Data Engineering to lead our data platform (Snowflake, dbt, Dagster, DataHub), team, and strate",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology",
+        "MA"
+      ]
+    },
+    {
+      "id": "859152082ee5bf0b",
+      "ts": "2026-05-05T20:14:17Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=48027869",
+      "type": "posting",
+      "company": {
+        "name": "Capital Technology Group (CTG)",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Capital Technology Group (CTG) | Senior AI&#x2F;ML Engineer | Remote (US Only) | $150K\u2013$200K We build and deploy production systems for federal clients\u2014focused on modernizing government software. Looking for a Senior AI&#x2F;ML Engineer who can take models from prototype to production in AWS. What y",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology"
+      ]
+    },
+    {
+      "id": "1abd17879d55c137",
+      "ts": "2026-05-05T19:32:22Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=48027372",
+      "type": "posting",
+      "company": {
+        "name": "Qualcomm",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Qualcomm | Staff Engineer | On-site | San Diego Qualcomm is hiring! Looking for a Python developer to join our engineering org. You&#x27;ll build mission-critical tooling to support Qualcomm&#x27;s product delivery and release pipeline. Reach out to learn more! https:&#x2F;&#x2F;lnkd.in&#x2F;gTmCiXe",
+      "tags": [
+        "hiring",
+        "hn",
+        "other"
+      ]
+    },
     {
       "id": "c509d81440278767",
       "ts": "2026-05-05T18:31:45Z",
@@ -1005,7 +1306,7 @@
       },
       "magnitude": null,
       "unit": "jobs",
-      "raw_text": "Anvil | Founding Computational Geometry Engineer + Full-Stack Engineer | Greater Boston | HYBRID | Full-time | $140k-$180k + 0.5-2.5% equity We&#x27;re a seed stage (VC backend) company building a vertically integrated design and manufacturing platform for precision mechanical parts. We are developi",
+      "raw_text": "Anvil | Various Roles | Greater Boston | HYBRID | Full-time | $140k-$180k + 0.5-2.5% equity We&#x27;re a seed stage (VC backend) company building a vertically integrated design and manufacturing platform for precision mechanical parts. We are developing our own CAD&#x2F;CAM software running on top o",
       "tags": [
         "hiring",
         "hn",
@@ -2008,29 +2309,6 @@
       ]
     },
     {
-      "id": "b476156d5eddfb06",
-      "ts": "2026-05-04T10:16:35Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48006726",
-      "type": "posting",
-      "company": {
-        "name": "Northbeam Studio",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Northbeam Studio | Remote | Automation Consultant We build done-for-you Zapier, Make.com, and n8n automations for startups and growing teams. If you&#x27;re hiring for ops, admin, or data entry roles, there&#x27;s a good chance we can automate 60-80% of what that hire would do \u2014 at a fraction of the",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
       "id": "483815d43eff05c3",
       "ts": "2026-05-04T10:10:13Z",
       "source": "hn_whoishiring",
@@ -2098,286 +2376,10 @@
         "hn",
         "other"
       ]
-    },
-    {
-      "id": "9503c2be4a49c2ad",
-      "ts": "2026-05-04T08:13:41Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48005990",
-      "type": "posting",
-      "company": {
-        "name": "N26 SE",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "N26 SE | SREs, EMs, Lead Backend Engineer | Berlin, Barcelona| https:&#x2F;&#x2F;www.n26.com | Full-time N26 has reimagined banking for today\u2019s digital world. Technology and design empower everything we do and it\u2019s how we are building the global banking platform the world loves to use. We&#x27;ve el",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "560c995b47cec05d",
-      "ts": "2026-05-04T08:09:56Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48005962",
-      "type": "posting",
-      "company": {
-        "name": "Sounds pretty fun! Applied",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Sounds pretty fun! Applied",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "a78d1dd19e3b68ce",
-      "ts": "2026-05-04T08:08:05Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48005948",
-      "type": "posting",
-      "company": {
-        "name": "Unknown",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "heya, this looks kinda interesting, Do let me know if you are looking for frontend developer for freelance&#x2F;contract work, now or in near future.",
-      "tags": [
-        "hiring",
-        "hn",
-        "other"
-      ]
-    },
-    {
-      "id": "470f47cd19aeba08",
-      "ts": "2026-05-04T08:03:34Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48005926",
-      "type": "posting",
-      "company": {
-        "name": "EggAI",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "EggAI | Tech Lead, AI Engineer, Senior&#x2F;Lead Infra engineer&#x2F;devops | REMOTE (EU, Switzerland, Norway) | Full-time or Contract Multiple roles open. We are a small boutique consultancy and are quite experienced. A lot of us have extensive consultant experience. You will join a small, highly s",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "ac7e76731271dd98",
-      "ts": "2026-05-04T07:43:24Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48005795",
-      "type": "posting",
-      "company": {
-        "name": "Sundogs",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Sundogs | SWE, Data &amp; ML | Remote CET &#x2F; EST | Contract or Full time We&#x27;re Sundogs, an early-stage startup (15 people) founded by ex-Googlers. We use AI and human creative expertise to transform video advertising. We&#x27;re looking for a Senior Software Engineer, Data &amp; ML (Python)",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "b9cc14bab4015e51",
-      "ts": "2026-05-04T07:38:41Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48005772",
-      "type": "posting",
-      "company": {
-        "name": "you have a good internet there? i know starlink hasn&#x27;t launched here yet",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "you have a good internet there? i know starlink hasn&#x27;t launched here yet",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "0d641473dccf5c04",
-      "ts": "2026-05-04T07:11:16Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48005595",
-      "type": "posting",
-      "company": {
-        "name": "Unknown",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "I applied and had a meeting with your HR ~2 weeks ago, but haven&#x27;t heard back since then.",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "d5cded1da94f3521",
-      "ts": "2026-05-04T07:05:39Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48005552",
-      "type": "posting",
-      "company": {
-        "name": "ThreatMark",
-        "ticker": null,
-        "industry": null,
-        "sector": "Finance",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "ThreatMark | Security, Machine Learning | REMOTE(World) &#x2F; Brno, Czech Republic | Equity ThreatMark protects &gt;50M end users from finacial fraud and saves &gt; $100M every year in losses. We are working with top banks in EU and US to protect their end users. We develop large-behavioral models ",
-      "tags": [
-        "hiring",
-        "hn",
-        "finance"
-      ]
-    },
-    {
-      "id": "d191f0228525ddc6",
-      "ts": "2026-05-04T06:30:14Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48005313",
-      "type": "posting",
-      "company": {
-        "name": "Unknown",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "I noticed there is a requirement to travel so wanted to ask whether you would accept an engineer&#x2F;founder (of a very useful fully featured e2e testing product) from India who works US hours? I built this https:&#x2F;&#x2F;dev.to&#x2F;prtwari&#x2F;test-for-browser-from-browser-4if9 . Built in 2 y",
-      "tags": [
-        "hiring",
-        "hn",
-        "other"
-      ]
-    },
-    {
-      "id": "60d3a6b3f7dd7474",
-      "ts": "2026-05-04T06:25:03Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48005277",
-      "type": "posting",
-      "company": {
-        "name": "Deepline",
-        "ticker": null,
-        "industry": null,
-        "sector": "Finance",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Deepline | NYC (ONSITE) | Founding Full-stack Engineers and Forward Deployed Engineers | $160k\u2013$220k + meaningful equity User interfaces are dead. Knowledge workers will exclusively work through agent interfaces like Claude Code&#x2F;Cowork. We&#x27;ve built the interface layer to enable that. One A",
-      "tags": [
-        "hiring",
-        "hn",
-        "finance"
-      ]
-    },
-    {
-      "id": "d9a835297484f121",
-      "ts": "2026-05-04T06:22:07Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48005262",
-      "type": "posting",
-      "company": {
-        "name": "Unknown",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "you posted on wrong thread. you want this https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=47975570",
-      "tags": [
-        "hiring",
-        "hn",
-        "media"
-      ]
-    },
-    {
-      "id": "47d0c231e53d76b1",
-      "ts": "2026-05-04T04:40:20Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48004707",
-      "type": "posting",
-      "company": {
-        "name": "Aptira",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Aptira | Fully Remote AUS&#x2F;NZ | Full-time | Senior SRE We&#x27;re an Australian consulting company currently building out a multi region baremetal Kubernetes cluster for a client experiencing explosive growth and looking for SREs to help keep it running. At the base: Kata Containers, Kyverno, Ci",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
     }
   ],
   "sector_matrix": {
-    "generated_at": "2026-05-05T19:25:44.960800Z",
+    "generated_at": "2026-05-06T03:26:25.764979Z",
     "cells": [
       {
         "sector": "Technology",
@@ -2391,29 +2393,29 @@
       {
         "sector": "Technology",
         "signal_type": "posting",
-        "count_7d": 300,
-        "count_30d": 300,
+        "count_7d": 307,
+        "count_30d": 307,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 27.49
+        "z_score": 27.81
       },
       {
         "sector": "Technology",
         "signal_type": "exec_move",
         "count_7d": 0,
-        "count_30d": 1,
+        "count_30d": 0,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": -0.23
+        "z_score": null
       },
       {
         "sector": "Technology",
         "signal_type": "funding",
-        "count_7d": 5,
-        "count_30d": 6,
+        "count_7d": 6,
+        "count_30d": 7,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 3.04
+        "z_score": 3.42
       },
       {
         "sector": "Technology",
@@ -2454,11 +2456,11 @@
       {
         "sector": "Finance",
         "signal_type": "funding",
-        "count_7d": 2,
+        "count_7d": 1,
         "count_30d": 4,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 1.07
+        "z_score": 0.07
       },
       {
         "sector": "Finance",
