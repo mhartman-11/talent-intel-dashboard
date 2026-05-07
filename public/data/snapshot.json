@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-07T11:05:56.985348Z",
+  "generated_at": "2026-05-07T14:19:27.289511Z",
   "next_ingest_at": null,
-  "total_events": 582,
-  "events_7d": 461,
+  "total_events": 585,
+  "events_7d": 464,
   "sources": [
     {
       "source": "layoffs_fyi",
@@ -10,8 +10,8 @@
       "url": "https://techcrunch.com/tag/layoffs/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-05-07T11:05:57.209611Z",
-      "last_attempted": "2026-05-07T11:05:57.209611Z",
+      "last_ok": "2026-05-07T14:19:27.430165Z",
+      "last_attempted": "2026-05-07T14:19:27.430165Z",
       "record_count": 11,
       "ok": true,
       "errors": []
@@ -22,9 +22,9 @@
       "url": "https://news.ycombinator.com",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-07T11:05:57.843496Z",
-      "last_attempted": "2026-05-07T11:05:57.843496Z",
-      "record_count": 452,
+      "last_ok": "2026-05-07T14:19:27.759772Z",
+      "last_attempted": "2026-05-07T14:19:27.759772Z",
+      "record_count": 455,
       "ok": true,
       "errors": []
     },
@@ -34,8 +34,8 @@
       "url": "https://www.bls.gov/developers/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-07T11:05:58.933209Z",
-      "last_attempted": "2026-05-07T11:05:58.933209Z",
+      "last_ok": "2026-05-07T14:19:28.955866Z",
+      "last_attempted": "2026-05-07T14:19:28.955866Z",
       "record_count": 29,
       "ok": true,
       "errors": []
@@ -46,8 +46,8 @@
       "url": "https://www.sec.gov/cgi-bin/browse-edgar",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-05-07T11:05:59.568049Z",
-      "last_attempted": "2026-05-07T11:05:59.568049Z",
+      "last_ok": "2026-05-07T14:19:29.255300Z",
+      "last_attempted": "2026-05-07T14:19:29.255300Z",
       "record_count": 42,
       "ok": true,
       "errors": []
@@ -58,14 +58,83 @@
       "url": "https://www.bls.gov/ces/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-07T11:06:00.730826Z",
-      "last_attempted": "2026-05-07T11:06:00.730826Z",
+      "last_ok": "2026-05-07T14:19:29.618596Z",
+      "last_attempted": "2026-05-07T14:19:29.618596Z",
       "record_count": 48,
       "ok": true,
       "errors": []
     }
   ],
   "recent_signals": [
+    {
+      "id": "69d4397e7c33eaf2",
+      "ts": "2026-05-07T13:50:23Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=48049449",
+      "type": "posting",
+      "company": {
+        "name": "Appreciate it.. Will reach out",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Appreciate it.. Will reach out",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology"
+      ]
+    },
+    {
+      "id": "311586920431aed0",
+      "ts": "2026-05-07T11:57:05Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=48048304",
+      "type": "posting",
+      "company": {
+        "name": "Any change of being open to Remote from India",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Any change of being open to Remote from India",
+      "tags": [
+        "hiring",
+        "hn",
+        "other"
+      ]
+    },
+    {
+      "id": "1011e5e5ec006ec9",
+      "ts": "2026-05-07T11:55:16Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=48048287",
+      "type": "posting",
+      "company": {
+        "name": "Can you share your email for sending out resume for Data Engineer.",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Can you share your email for sending out resume for Data Engineer.",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology"
+      ]
+    },
     {
       "id": "375c4a46cd0de02b",
       "ts": "2026-05-07T10:39:02Z",
@@ -2304,79 +2373,10 @@
         "hn",
         "other"
       ]
-    },
-    {
-      "id": "cb13027cfe6583c1",
-      "ts": "2026-05-04T18:30:57Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48012864",
-      "type": "posting",
-      "company": {
-        "name": "Yes you are! Thanks for asking.",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Yes you are! Thanks for asking.",
-      "tags": [
-        "hiring",
-        "hn",
-        "other"
-      ]
-    },
-    {
-      "id": "8b86234cfe9dbd0c",
-      "ts": "2026-05-04T18:29:39Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48012844",
-      "type": "posting",
-      "company": {
-        "name": "i work NYC hours from India. am i eligible for the challenge and interview?",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "i work NYC hours from India. am i eligible for the challenge and interview?",
-      "tags": [
-        "hiring",
-        "hn",
-        "other"
-      ]
-    },
-    {
-      "id": "6d96389b56342806",
-      "ts": "2026-05-04T18:29:04Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48012834",
-      "type": "posting",
-      "company": {
-        "name": "Unknown",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "hey Jon , have sent you a mail for Staff Frontend last month, still waiting for a reply",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
     }
   ],
   "sector_matrix": {
-    "generated_at": "2026-05-07T11:05:56.985348Z",
+    "generated_at": "2026-05-07T14:19:27.289511Z",
     "cells": [
       {
         "sector": "Technology",
@@ -2390,11 +2390,11 @@
       {
         "sector": "Technology",
         "signal_type": "posting",
-        "count_7d": 327,
-        "count_30d": 327,
+        "count_7d": 329,
+        "count_30d": 329,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 28.7
+        "z_score": 28.79
       },
       {
         "sector": "Technology",
