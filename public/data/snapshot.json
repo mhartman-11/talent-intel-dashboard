@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-07T14:19:27.289511Z",
+  "generated_at": "2026-05-07T19:45:27.596733Z",
   "next_ingest_at": null,
-  "total_events": 585,
-  "events_7d": 464,
+  "total_events": 588,
+  "events_7d": 467,
   "sources": [
     {
       "source": "layoffs_fyi",
@@ -10,8 +10,8 @@
       "url": "https://techcrunch.com/tag/layoffs/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-05-07T14:19:27.430165Z",
-      "last_attempted": "2026-05-07T14:19:27.430165Z",
+      "last_ok": "2026-05-07T19:45:27.679570Z",
+      "last_attempted": "2026-05-07T19:45:27.679570Z",
       "record_count": 11,
       "ok": true,
       "errors": []
@@ -22,9 +22,9 @@
       "url": "https://news.ycombinator.com",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-07T14:19:27.759772Z",
-      "last_attempted": "2026-05-07T14:19:27.759772Z",
-      "record_count": 455,
+      "last_ok": "2026-05-07T19:45:28.114621Z",
+      "last_attempted": "2026-05-07T19:45:28.114621Z",
+      "record_count": 458,
       "ok": true,
       "errors": []
     },
@@ -34,8 +34,8 @@
       "url": "https://www.bls.gov/developers/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-07T14:19:28.955866Z",
-      "last_attempted": "2026-05-07T14:19:28.955866Z",
+      "last_ok": "2026-05-07T19:45:29.017696Z",
+      "last_attempted": "2026-05-07T19:45:29.017696Z",
       "record_count": 29,
       "ok": true,
       "errors": []
@@ -46,8 +46,8 @@
       "url": "https://www.sec.gov/cgi-bin/browse-edgar",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-05-07T14:19:29.255300Z",
-      "last_attempted": "2026-05-07T14:19:29.255300Z",
+      "last_ok": "2026-05-07T19:45:29.403843Z",
+      "last_attempted": "2026-05-07T19:45:29.403843Z",
       "record_count": 42,
       "ok": true,
       "errors": []
@@ -58,14 +58,106 @@
       "url": "https://www.bls.gov/ces/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-07T14:19:29.618596Z",
-      "last_attempted": "2026-05-07T14:19:29.618596Z",
+      "last_ok": "2026-05-07T19:45:30.881672Z",
+      "last_attempted": "2026-05-07T19:45:30.881672Z",
       "record_count": 48,
       "ok": true,
       "errors": []
     }
   ],
   "recent_signals": [
+    {
+      "id": "d98650ceda875ed5",
+      "ts": "2026-05-07T18:30:35Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=48052996",
+      "type": "posting",
+      "company": {
+        "name": "Elucid",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": "MA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Elucid | Principal Platform Engineer | Boston, MA | ONSITE (hybrid) | $170k\u2013$205k | https:&#x2F;&#x2F;elucid.applytojob.com&#x2F;apply&#x2F;BHpChxSggM&#x2F;Principal-Pla... Elucid builds FDA-cleared AI software that analyzes cardiac CT scans to characterize plaque and predict heart attack and stroke",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology",
+        "MA"
+      ]
+    },
+    {
+      "id": "6feffcdfb0d4a44e",
+      "ts": "2026-05-07T18:09:57Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=48052750",
+      "type": "posting",
+      "company": {
+        "name": "Hive (S14) (www.hive.co)",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Hive (S14) (www.hive.co) | Engineering roles | Remote within Canada + USA | Full-time We power marketing for 1,500+ live event brands across North America \u2014 festivals, venues, promoters, tours. 40M+ emails and SMS a month, billions of customer data points, real-time integrations with Ticketmaster, E",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology"
+      ]
+    },
+    {
+      "id": "5b36d4883f949b4e",
+      "ts": "2026-05-07T18:02:59Z",
+      "source": "org_moves",
+      "source_url": "https://techcrunch.com/2026/05/07/kalshi-doubles-valuation-in-5-months-hitting-22-billion/",
+      "type": "funding",
+      "company": {
+        "name": "Kalshi doubles valuation in 5 months, hitting $22B",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Kalshi doubles valuation in 5 months, hitting $22B",
+      "tags": [
+        "funding",
+        "technology"
+      ]
+    },
+    {
+      "id": "99e4bb10ce07e478",
+      "ts": "2026-05-07T17:09:08Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=48051915",
+      "type": "posting",
+      "company": {
+        "name": "Estuary",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Estuary | US-Based &#x2F; Remote | Full-time \u2013 https:&#x2F;&#x2F;estuary.dev&#x2F; Estuary is a VC-backed, post\u2013Series A startup powering right-time data replication and transform \u2014 from sub-second CDC replication to terabyte-scale OLAP data flows. We\u2019re open-source, developer-first, and focused on ",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology"
+      ]
+    },
     {
       "id": "69d4397e7c33eaf2",
       "ts": "2026-05-07T13:50:23Z",
@@ -2153,17 +2245,17 @@
         "name": "Kanmon",
         "ticker": null,
         "industry": null,
-        "sector": "Finance",
+        "sector": "Technology",
         "hq_region": null,
         "size_band": "unknown"
       },
       "magnitude": null,
       "unit": "jobs",
-      "raw_text": "Kanmon | Senior FullStack Engineer | Hybrid (San Mateo) or REMOTE Kanmon is built around B2B finance and it&#x27;s one of the largest and most broken markets in the world. SMBs are 44% of US GDP and extend over $5 trillion in trade credit to each other every year yet modern financial infrastructure ",
+      "raw_text": "Kanmon | Senior FullStack Engineer | Hybrid (San Mateo) | If remote, please be prepared for an in person technical interview. For remote talent, must be US based. Kanmon is built around B2B finance and it&#x27;s one of the largest and most broken markets in the world. SMBs are 44% of US GDP and exte",
       "tags": [
         "hiring",
         "hn",
-        "finance"
+        "technology"
       ]
     },
     {
@@ -2281,102 +2373,10 @@
         "hn",
         "media"
       ]
-    },
-    {
-      "id": "23e4609fbbc1a04a",
-      "ts": "2026-05-04T19:34:09Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48013821",
-      "type": "posting",
-      "company": {
-        "name": "Fullstory",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": "GA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Fullstory | REMOTE (US), Atlanta USA, &amp; Bogot\u00e1 Colombia | https:&#x2F;&#x2F;www.fullstory.com&#x2F; Fullstory offers privacy-preserving session replay and analytics for websites and mobile apps. Our session replays are nothing short of magical, and the combination with our automatic analytics cr",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology",
-        "GA"
-      ]
-    },
-    {
-      "id": "cdf086f87589c1c7",
-      "ts": "2026-05-04T19:26:06Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48013724",
-      "type": "posting",
-      "company": {
-        "name": "Email bounced back for me too.",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Email bounced back for me too.",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "975852349347c907",
-      "ts": "2026-05-04T19:12:15Z",
-      "source": "org_moves",
-      "source_url": "https://techcrunch.com/2026/05/04/katie-haun-raises-1-billion-for-new-venture-funds/",
-      "type": "funding",
-      "company": {
-        "name": "Katie Haun",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Katie Haun raises $1B for new venture funds",
-      "tags": [
-        "funding",
-        "technology"
-      ]
-    },
-    {
-      "id": "6702b9d7b83569ba",
-      "ts": "2026-05-04T19:08:39Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48013457",
-      "type": "posting",
-      "company": {
-        "name": "Simple Ventures",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Simple Ventures | Toronto, Canada | ONSITE (3-4 days&#x2F;wk) | Full-time Simple Ventures is a Canadian venture studio that builds new companies from day zero - we source ideas, validate them with real users, build MVPs, and hand off to CEOs to scale the ones we bet on. We&#x27;re backed by the foun",
-      "tags": [
-        "hiring",
-        "hn",
-        "other"
-      ]
     }
   ],
   "sector_matrix": {
-    "generated_at": "2026-05-07T14:19:27.289511Z",
+    "generated_at": "2026-05-07T19:45:27.596733Z",
     "cells": [
       {
         "sector": "Technology",
@@ -2390,11 +2390,11 @@
       {
         "sector": "Technology",
         "signal_type": "posting",
-        "count_7d": 329,
-        "count_30d": 329,
+        "count_7d": 333,
+        "count_30d": 333,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 28.79
+        "z_score": 28.96
       },
       {
         "sector": "Technology",
@@ -2409,10 +2409,10 @@
         "sector": "Technology",
         "signal_type": "funding",
         "count_7d": 6,
-        "count_30d": 7,
+        "count_30d": 8,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 3.42
+        "z_score": 3.03
       },
       {
         "sector": "Technology",
@@ -2435,11 +2435,11 @@
       {
         "sector": "Finance",
         "signal_type": "posting",
-        "count_7d": 12,
-        "count_30d": 12,
+        "count_7d": 11,
+        "count_30d": 11,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 5.5
+        "z_score": 5.26
       },
       {
         "sector": "Finance",
@@ -2454,10 +2454,10 @@
         "sector": "Finance",
         "signal_type": "funding",
         "count_7d": 2,
-        "count_30d": 3,
+        "count_30d": 2,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 1.3
+        "z_score": 1.53
       },
       {
         "sector": "Finance",
