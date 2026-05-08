@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-08T07:45:44.481328Z",
+  "generated_at": "2026-05-08T10:20:28.653896Z",
   "next_ingest_at": null,
-  "total_events": 597,
-  "events_7d": 475,
+  "total_events": 598,
+  "events_7d": 476,
   "sources": [
     {
       "source": "layoffs_fyi",
@@ -10,8 +10,8 @@
       "url": "https://techcrunch.com/tag/layoffs/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-05-08T07:45:44.655889Z",
-      "last_attempted": "2026-05-08T07:45:44.655889Z",
+      "last_ok": "2026-05-08T10:20:28.761679Z",
+      "last_attempted": "2026-05-08T10:20:28.761679Z",
       "record_count": 11,
       "ok": true,
       "errors": []
@@ -22,9 +22,9 @@
       "url": "https://news.ycombinator.com",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-08T07:45:45.051879Z",
-      "last_attempted": "2026-05-08T07:45:45.051879Z",
-      "record_count": 467,
+      "last_ok": "2026-05-08T10:20:29.286176Z",
+      "last_attempted": "2026-05-08T10:20:29.286176Z",
+      "record_count": 468,
       "ok": true,
       "errors": []
     },
@@ -34,8 +34,8 @@
       "url": "https://www.bls.gov/developers/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-08T07:45:46.243007Z",
-      "last_attempted": "2026-05-08T07:45:46.243007Z",
+      "last_ok": "2026-05-08T10:20:30.113811Z",
+      "last_attempted": "2026-05-08T10:20:30.113811Z",
       "record_count": 29,
       "ok": true,
       "errors": []
@@ -46,8 +46,8 @@
       "url": "https://www.sec.gov/cgi-bin/browse-edgar",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-05-08T07:45:46.570232Z",
-      "last_attempted": "2026-05-08T07:45:46.570232Z",
+      "last_ok": "2026-05-08T10:20:30.686586Z",
+      "last_attempted": "2026-05-08T10:20:30.686586Z",
       "record_count": 42,
       "ok": true,
       "errors": []
@@ -58,14 +58,37 @@
       "url": "https://www.bls.gov/ces/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-08T07:45:47.653768Z",
-      "last_attempted": "2026-05-08T07:45:47.653768Z",
+      "last_ok": "2026-05-08T10:20:33.536092Z",
+      "last_attempted": "2026-05-08T10:20:33.536092Z",
       "record_count": 48,
       "ok": true,
       "errors": []
     }
   ],
   "recent_signals": [
+    {
+      "id": "5a992244d7ece1b6",
+      "ts": "2026-05-08T08:47:09Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=48060420",
+      "type": "posting",
+      "company": {
+        "name": "Great opportunity, I Just submitted my application.",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Great opportunity, I Just submitted my application.",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology"
+      ]
+    },
     {
       "id": "227e7a4107f413d7",
       "ts": "2026-05-08T07:20:58Z",
@@ -2349,34 +2372,10 @@
         "hn",
         "technology"
       ]
-    },
-    {
-      "id": "d1e002f1cc19b23d",
-      "ts": "2026-05-04T20:28:19Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48014519",
-      "type": "posting",
-      "company": {
-        "name": "Anvil",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": "MA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Anvil | Various Roles | Greater Boston | HYBRID | Full-time | $140k-$180k + 0.5-2.5% equity We&#x27;re a seed stage (VC backend) company building a vertically integrated design and manufacturing platform for precision mechanical parts. We are developing our own CAD&#x2F;CAM software running on top o",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology",
-        "MA"
-      ]
     }
   ],
   "sector_matrix": {
-    "generated_at": "2026-05-08T07:45:44.481328Z",
+    "generated_at": "2026-05-08T10:20:28.653896Z",
     "cells": [
       {
         "sector": "Technology",
@@ -2390,11 +2389,11 @@
       {
         "sector": "Technology",
         "signal_type": "posting",
-        "count_7d": 341,
-        "count_30d": 341,
+        "count_7d": 342,
+        "count_30d": 342,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 29.31
+        "z_score": 29.35
       },
       {
         "sector": "Technology",
