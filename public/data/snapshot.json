@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-08T13:55:55.492362Z",
+  "generated_at": "2026-05-08T19:22:55.796562Z",
   "next_ingest_at": null,
-  "total_events": 604,
-  "events_7d": 481,
+  "total_events": 605,
+  "events_7d": 326,
   "sources": [
     {
       "source": "layoffs_fyi",
@@ -10,9 +10,9 @@
       "url": "https://techcrunch.com/tag/layoffs/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-05-08T13:55:56.052113Z",
-      "last_attempted": "2026-05-08T13:55:56.052113Z",
-      "record_count": 11,
+      "last_ok": "2026-05-08T19:22:55.889310Z",
+      "last_attempted": "2026-05-08T19:22:55.889310Z",
+      "record_count": 12,
       "ok": true,
       "errors": []
     },
@@ -22,9 +22,9 @@
       "url": "https://news.ycombinator.com",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-08T13:55:56.530165Z",
-      "last_attempted": "2026-05-08T13:55:56.530165Z",
-      "record_count": 473,
+      "last_ok": "2026-05-08T19:22:56.386286Z",
+      "last_attempted": "2026-05-08T19:22:56.386286Z",
+      "record_count": 474,
       "ok": true,
       "errors": []
     },
@@ -34,8 +34,8 @@
       "url": "https://www.bls.gov/developers/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-08T13:55:57.423599Z",
-      "last_attempted": "2026-05-08T13:55:57.423599Z",
+      "last_ok": "2026-05-08T19:22:57.227895Z",
+      "last_attempted": "2026-05-08T19:22:57.227895Z",
       "record_count": 30,
       "ok": true,
       "errors": []
@@ -46,9 +46,9 @@
       "url": "https://www.sec.gov/cgi-bin/browse-edgar",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-05-08T13:55:58.090860Z",
-      "last_attempted": "2026-05-08T13:55:58.090860Z",
-      "record_count": 42,
+      "last_ok": "2026-05-08T19:22:57.488539Z",
+      "last_attempted": "2026-05-08T19:22:57.488539Z",
+      "record_count": 41,
       "ok": true,
       "errors": []
     },
@@ -58,14 +58,196 @@
       "url": "https://www.bls.gov/ces/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-08T13:55:59.231711Z",
-      "last_attempted": "2026-05-08T13:55:59.231711Z",
+      "last_ok": "2026-05-08T19:22:58.475987Z",
+      "last_attempted": "2026-05-08T19:22:58.475987Z",
       "record_count": 48,
       "ok": true,
       "errors": []
     }
   ],
   "recent_signals": [
+    {
+      "id": "07936d10f6b63592",
+      "ts": "2026-05-08T18:38:20Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=48067034",
+      "type": "posting",
+      "company": {
+        "name": "Walmart Global Tech (International Digital Experiences)",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": "CA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Walmart Global Tech (International Digital Experiences) | Frontend Software Engineer | Sunnyvale, CA (Onsite) What you\u2019ll do - Build modern, scalable UIs with React, modular CSS, Redux, React Query, and GraphQL - Improve and refactor existing codebases with a focus on simplicity and performance - Pa",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology",
+        "CA"
+      ]
+    },
+    {
+      "id": "987376071ffdb812",
+      "ts": "2026-05-08T18:33:21Z",
+      "source": "layoffs_fyi",
+      "source_url": "https://techcrunch.com/2026/05/08/cloudflare-says-ai-made-1100-jobs-obsolete-even-as-revenue-hit-a-record-high/",
+      "type": "layoff",
+      "company": {
+        "name": "Cloudflare says AI made 1,100 jobs obsolete, even as revenue hit a record high",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": 1100.0,
+      "unit": "people",
+      "raw_text": "Cloudflare says AI made 1,100 jobs obsolete, even as revenue hit a record high",
+      "tags": [
+        "layoff",
+        "technology"
+      ]
+    },
+    {
+      "id": "d14b4216e095e99d",
+      "ts": "2026-05-08T17:46:08Z",
+      "source": "org_moves",
+      "source_url": "https://techcrunch.com/2026/05/08/mother-ventures-is-looking-at-moms-as-the-economic-engine/",
+      "type": "funding",
+      "company": {
+        "name": "Mother Ventures is looking at moms as the \u2018economic engine\u2019",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Mother Ventures is looking at moms as the \u2018economic engine\u2019",
+      "tags": [
+        "funding",
+        "technology"
+      ]
+    },
+    {
+      "id": "e64b20e16bfb7d5d",
+      "ts": "2026-05-08T17:36:09Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=48066300",
+      "type": "posting",
+      "company": {
+        "name": "Turquoise",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Turquoise| Platform Operations Engineers| Remote, USA Turquoise a series C healthtech company is recruiting for two platform engineers to join the newly created platform operations team. You can expect to work closely with our Data Engineering team based in Europe, drive observability, define the me",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology"
+      ]
+    },
+    {
+      "id": "52db2f9afa26faf0",
+      "ts": "2026-05-08T16:15:16Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=48065174",
+      "type": "posting",
+      "company": {
+        "name": "Unknown",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Please save yourself the time and don&#x27;t spend a lot of time applying. Just random generic rejection messages , they are not what they pretend to be.",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology"
+      ]
+    },
+    {
+      "id": "91ad43bffa18ec93",
+      "ts": "2026-05-08T15:15:28Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=48064366",
+      "type": "posting",
+      "company": {
+        "name": "As an engineer in Canada, I&#x27;m quite frustrated by US",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "As an engineer in Canada, I&#x27;m quite frustrated by US-only when it&#x27;s a remote job and we have the same time zones and culture. It&#x27;s so easy to employ Canadians either as a contractor or through a proxy like Rippling. I think it&#x27;s easier than employing people in the US. Is there a ",
+      "tags": [
+        "hiring",
+        "hn",
+        "other"
+      ]
+    },
+    {
+      "id": "9ae19b1c4cfcb698",
+      "ts": "2026-05-08T14:41:53Z",
+      "source": "layoffs_fyi",
+      "source_url": "https://techcrunch.com/2026/05/08/truecaller-slashes-70-jobs-amid-declining-ad-sales/",
+      "type": "layoff",
+      "company": {
+        "name": "Truecaller",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": 70.0,
+      "unit": "people",
+      "raw_text": "Truecaller slashes 70 jobs amid declining ad sales",
+      "tags": [
+        "layoff",
+        "other"
+      ]
+    },
+    {
+      "id": "762aaa9c5c944428",
+      "ts": "2026-05-08T13:57:37Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=48063223",
+      "type": "posting",
+      "company": {
+        "name": "Loved the carrers page opening a terminal. Too many interview steps though.",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Loved the carrers page opening a terminal. Too many interview steps though.",
+      "tags": [
+        "hiring",
+        "hn",
+        "other"
+      ]
+    },
     {
       "id": "bb11685946dbf460",
       "ts": "2026-05-08T13:21:21Z",
@@ -396,7 +578,7 @@
       "source_url": "https://news.ycombinator.com/item?id=48054246",
       "type": "posting",
       "company": {
-        "name": "Steel",
+        "name": "Steel.dev",
         "ticker": null,
         "industry": null,
         "sector": "Technology",
@@ -405,7 +587,7 @@
       },
       "magnitude": null,
       "unit": "jobs",
-      "raw_text": "Steel | Applied AI Engineer + Infrastructure Engineer | Toronto, ON | ONSITE | $160k-$240k USD base + equity Steel is open-source browser infrastructure for AI agents and apps. We make it easy for developers to ship products that interact with the web - without spending 80% of their time on browser ",
+      "raw_text": "Steel.dev | Applied AI Engineer + Infrastructure Engineer | Toronto, ON | ONSITE | $160k-$240k USD base + equity Steel is open-source browser infrastructure for AI agents and apps. We make it easy for developers to ship products that interact with the web - without spending 80% of their time on brow",
       "tags": [
         "hiring",
         "hn",
@@ -2186,214 +2368,28 @@
         "hn",
         "technology"
       ]
-    },
-    {
-      "id": "b5461104de7b223b",
-      "ts": "2026-05-05T03:17:44Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48017676",
-      "type": "posting",
-      "company": {
-        "name": "Dablam",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Dablam | BDR engineer | Remote or on-site in NYC or London, UK| full-time or part-time Dablam is a reputation management company that works with top companies to shape their communication, product stories and their impact in the real world. We work with product companies, brands and campaigns for pr",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "e7de15ff19b74e4e",
-      "ts": "2026-05-05T02:45:30Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48017525",
-      "type": "posting",
-      "company": {
-        "name": "Happy Returns",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Happy Returns | Engineering Manager | Remote, USA | Full-time Happy Returns is solving one of e-commerce\u2019s biggest pain points: returns. We combine proprietary returns software with reverse logistics, including box-free consolidated returns, to make returns better for shoppers, retailers, and the pl",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "ae64a22c844ffb3a",
-      "ts": "2026-05-05T02:39:38Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48017490",
-      "type": "posting",
-      "company": {
-        "name": "Unknown",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "At SentiLink, we stop identity fraud at scale. Our products protect banks, fintechs, marketplaces, and leading financial institutions from synthetic identity fraud, identity theft, and emerging threats \u2014 analyzing millions of applications while keeping real users moving fast. We\u2019ve seen tremendous t",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "d38f2745e37cf8e7",
-      "ts": "2026-05-05T01:12:21Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48016906",
-      "type": "posting",
-      "company": {
-        "name": "Unknown",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "We have Airtel and Jio airfiber. Jio is with Mimosa c6x antenna and it&#x27;s great.",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "5e2d0296ebc8da9e",
-      "ts": "2026-05-04T23:31:14Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48016314",
-      "type": "posting",
-      "company": {
-        "name": "Freeform ( http:&#x2F;&#x2F;freeform.co )",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": "CA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Freeform ( http:&#x2F;&#x2F;freeform.co ) | Software Engineers | Full-time | Onsite | Hawthorne, CA (Los Angeles County) Freeform builds AI-native manufacturing systems that unify software, hardware, and physics to produce industrial-scale parts at the speed of human ideation. By treating manufactur",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology",
-        "CA"
-      ]
-    },
-    {
-      "id": "304299ff5c14371f",
-      "ts": "2026-05-04T23:25:17Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48016274",
-      "type": "posting",
-      "company": {
-        "name": "FranklinCovey",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "FranklinCovey | https:&#x2F;&#x2F;www.franklincovey.com&#x2F; | Senior Software Engineer | Remote (US) | Full-time We&#x27;re in the business of leveling up managers and making workplaces great, in search of a senior software engineer who&#x27;s looking to join a team and do good work architecting, ",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "9029a72022fc0294",
-      "ts": "2026-05-04T23:19:47Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48016223",
-      "type": "posting",
-      "company": {
-        "name": "Recover Systems",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": "OR",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Recover Systems | Founding Engineer | Onsite in Portland, Maine | 130-160k + meaningful equity from first option pool Recover is building the infrastructure for all restoration work, streamlining how remediation contractors run jobs while we handle the red tape and headaches. Recover is a platform b",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology",
-        "OR"
-      ]
-    },
-    {
-      "id": "832b4c50572a58b8",
-      "ts": "2026-05-04T23:00:20Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48016075",
-      "type": "posting",
-      "company": {
-        "name": "Job req on Lever says that this is hybrid and not remote.",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Job req on Lever says that this is hybrid and not remote.",
-      "tags": [
-        "hiring",
-        "hn",
-        "other"
-      ]
     }
   ],
   "sector_matrix": {
-    "generated_at": "2026-05-08T13:55:55.492362Z",
+    "generated_at": "2026-05-08T19:22:55.796562Z",
     "cells": [
       {
         "sector": "Technology",
         "signal_type": "layoff",
-        "count_7d": 1,
-        "count_30d": 4,
-        "magnitude_7d": null,
+        "count_7d": 2,
+        "count_30d": 5,
+        "magnitude_7d": 1100.0,
         "magnitude_30d": null,
-        "z_score": 0.07
+        "z_score": 0.77
       },
       {
         "sector": "Technology",
         "signal_type": "posting",
-        "count_7d": 346,
+        "count_7d": 223,
         "count_30d": 346,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 29.52
+        "z_score": 15.83
       },
       {
         "sector": "Technology",
@@ -2408,10 +2404,10 @@
         "sector": "Technology",
         "signal_type": "funding",
         "count_7d": 5,
-        "count_30d": 8,
+        "count_30d": 9,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 2.29
+        "z_score": 2.0
       },
       {
         "sector": "Technology",
@@ -2434,11 +2430,11 @@
       {
         "sector": "Finance",
         "signal_type": "posting",
-        "count_7d": 11,
+        "count_7d": 4,
         "count_30d": 11,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 5.26
+        "z_score": 0.89
       },
       {
         "sector": "Finance",
@@ -2479,11 +2475,11 @@
       {
         "sector": "Healthcare",
         "signal_type": "posting",
-        "count_7d": 9,
+        "count_7d": 4,
         "count_30d": 9,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 4.76
+        "z_score": 1.31
       },
       {
         "sector": "Healthcare",
@@ -2524,69 +2520,6 @@
       {
         "sector": "CPG",
         "signal_type": "posting",
-        "count_7d": 1,
-        "count_30d": 1,
-        "magnitude_7d": null,
-        "magnitude_30d": null,
-        "z_score": 0.77
-      },
-      {
-        "sector": "CPG",
-        "signal_type": "exec_move",
-        "count_7d": 0,
-        "count_30d": 0,
-        "magnitude_7d": null,
-        "magnitude_30d": null,
-        "z_score": null
-      },
-      {
-        "sector": "CPG",
-        "signal_type": "funding",
-        "count_7d": 0,
-        "count_30d": 0,
-        "magnitude_7d": null,
-        "magnitude_30d": null,
-        "z_score": null
-      },
-      {
-        "sector": "CPG",
-        "signal_type": "macro",
-        "count_7d": 0,
-        "count_30d": 0,
-        "magnitude_7d": null,
-        "magnitude_30d": null,
-        "z_score": null
-      },
-      {
-        "sector": "Manufacturing",
-        "signal_type": "layoff",
-        "count_7d": 0,
-        "count_30d": 0,
-        "magnitude_7d": null,
-        "magnitude_30d": null,
-        "z_score": null
-      },
-      {
-        "sector": "Manufacturing",
-        "signal_type": "posting",
-        "count_7d": 2,
-        "count_30d": 2,
-        "magnitude_7d": null,
-        "magnitude_30d": null,
-        "z_score": 1.53
-      },
-      {
-        "sector": "Manufacturing",
-        "signal_type": "exec_move",
-        "count_7d": 0,
-        "count_30d": 0,
-        "magnitude_7d": null,
-        "magnitude_30d": null,
-        "z_score": null
-      },
-      {
-        "sector": "Manufacturing",
-        "signal_type": "funding",
         "count_7d": 0,
         "count_30d": 1,
         "magnitude_7d": null,
@@ -2594,6 +2527,69 @@
         "z_score": -0.23
       },
       {
+        "sector": "CPG",
+        "signal_type": "exec_move",
+        "count_7d": 0,
+        "count_30d": 0,
+        "magnitude_7d": null,
+        "magnitude_30d": null,
+        "z_score": null
+      },
+      {
+        "sector": "CPG",
+        "signal_type": "funding",
+        "count_7d": 0,
+        "count_30d": 0,
+        "magnitude_7d": null,
+        "magnitude_30d": null,
+        "z_score": null
+      },
+      {
+        "sector": "CPG",
+        "signal_type": "macro",
+        "count_7d": 0,
+        "count_30d": 0,
+        "magnitude_7d": null,
+        "magnitude_30d": null,
+        "z_score": null
+      },
+      {
+        "sector": "Manufacturing",
+        "signal_type": "layoff",
+        "count_7d": 0,
+        "count_30d": 0,
+        "magnitude_7d": null,
+        "magnitude_30d": null,
+        "z_score": null
+      },
+      {
+        "sector": "Manufacturing",
+        "signal_type": "posting",
+        "count_7d": 0,
+        "count_30d": 2,
+        "magnitude_7d": null,
+        "magnitude_30d": null,
+        "z_score": -0.47
+      },
+      {
+        "sector": "Manufacturing",
+        "signal_type": "exec_move",
+        "count_7d": 0,
+        "count_30d": 0,
+        "magnitude_7d": null,
+        "magnitude_30d": null,
+        "z_score": null
+      },
+      {
+        "sector": "Manufacturing",
+        "signal_type": "funding",
+        "count_7d": 0,
+        "count_30d": 0,
+        "magnitude_7d": null,
+        "magnitude_30d": null,
+        "z_score": null
+      },
+      {
         "sector": "Manufacturing",
         "signal_type": "macro",
         "count_7d": 0,
@@ -2659,11 +2655,11 @@
       {
         "sector": "Media",
         "signal_type": "posting",
-        "count_7d": 7,
+        "count_7d": 6,
         "count_30d": 7,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 4.2
+        "z_score": 3.42
       },
       {
         "sector": "Media",
