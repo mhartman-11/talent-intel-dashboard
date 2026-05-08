@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-08T03:23:48.757872Z",
+  "generated_at": "2026-05-08T07:45:44.481328Z",
   "next_ingest_at": null,
-  "total_events": 594,
-  "events_7d": 472,
+  "total_events": 597,
+  "events_7d": 475,
   "sources": [
     {
       "source": "layoffs_fyi",
@@ -10,8 +10,8 @@
       "url": "https://techcrunch.com/tag/layoffs/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-05-08T03:23:48.844716Z",
-      "last_attempted": "2026-05-08T03:23:48.844716Z",
+      "last_ok": "2026-05-08T07:45:44.655889Z",
+      "last_attempted": "2026-05-08T07:45:44.655889Z",
       "record_count": 11,
       "ok": true,
       "errors": []
@@ -22,9 +22,9 @@
       "url": "https://news.ycombinator.com",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-08T03:23:49.366528Z",
-      "last_attempted": "2026-05-08T03:23:49.366528Z",
-      "record_count": 464,
+      "last_ok": "2026-05-08T07:45:45.051879Z",
+      "last_attempted": "2026-05-08T07:45:45.051879Z",
+      "record_count": 467,
       "ok": true,
       "errors": []
     },
@@ -34,8 +34,8 @@
       "url": "https://www.bls.gov/developers/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-08T03:23:50.417596Z",
-      "last_attempted": "2026-05-08T03:23:50.417596Z",
+      "last_ok": "2026-05-08T07:45:46.243007Z",
+      "last_attempted": "2026-05-08T07:45:46.243007Z",
       "record_count": 29,
       "ok": true,
       "errors": []
@@ -46,8 +46,8 @@
       "url": "https://www.sec.gov/cgi-bin/browse-edgar",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-05-08T03:23:50.851297Z",
-      "last_attempted": "2026-05-08T03:23:50.851297Z",
+      "last_ok": "2026-05-08T07:45:46.570232Z",
+      "last_attempted": "2026-05-08T07:45:46.570232Z",
       "record_count": 42,
       "ok": true,
       "errors": []
@@ -58,14 +58,83 @@
       "url": "https://www.bls.gov/ces/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-08T03:23:52.470364Z",
-      "last_attempted": "2026-05-08T03:23:52.470364Z",
+      "last_ok": "2026-05-08T07:45:47.653768Z",
+      "last_attempted": "2026-05-08T07:45:47.653768Z",
       "record_count": 48,
       "ok": true,
       "errors": []
     }
   ],
   "recent_signals": [
+    {
+      "id": "227e7a4107f413d7",
+      "ts": "2026-05-08T07:20:58Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=48059780",
+      "type": "posting",
+      "company": {
+        "name": "Unknown",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Atleast you got a response; I have applied thrice over here, but they never bothered to even send an automated rejection.",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology"
+      ]
+    },
+    {
+      "id": "d770b189e52c3bb2",
+      "ts": "2026-05-08T07:02:43Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=48059654",
+      "type": "posting",
+      "company": {
+        "name": "HME Technologies",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "HME Technologies | AI Operations Lead | REMOTE | Full-Time | $40k-$75k base + Bonus HME Technologies ( https:&#x2F;&#x2F;hmetech.com&#x2F; ) is a small, profitable media and affiliate marketing company. We build audiences, sell sponsorships, and run a growing portfolio of content properties across Y",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology"
+      ]
+    },
+    {
+      "id": "a2dd3f475c3dad78",
+      "ts": "2026-05-08T05:34:08Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=48058971",
+      "type": "posting",
+      "company": {
+        "name": "I hope you realize that you post a non",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "I hope you realize that you post a non-working link to the careers* page EVERY month.",
+      "tags": [
+        "hiring",
+        "hn",
+        "other"
+      ]
+    },
     {
       "id": "319ce111bdbf41df",
       "ts": "2026-05-08T00:45:34Z",
@@ -2304,79 +2373,10 @@
         "technology",
         "MA"
       ]
-    },
-    {
-      "id": "74ee945d064c5817",
-      "ts": "2026-05-04T20:26:14Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48014497",
-      "type": "posting",
-      "company": {
-        "name": "Understood. Just sent an email.",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Understood. Just sent an email.",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "e406dee81fff6d9a",
-      "ts": "2026-05-04T20:18:35Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48014410",
-      "type": "posting",
-      "company": {
-        "name": "Hi I cannot see Applied AI engineer role in the link you shared, is that closed?",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Hi I cannot see Applied AI engineer role in the link you shared, is that closed?",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "18acd49ea2d86767",
-      "ts": "2026-05-04T20:08:23Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48014273",
-      "type": "posting",
-      "company": {
-        "name": "Unknown",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Sweet! How strict are you about YoE? I have 3 YoE and previously a Founding Engineer at a startup. Asking because on the careers page, I only see Staff&#x2F;Principal&#x2F;Tech Lead roles. I am very product obsessed. I care a lot about building the right thing and building it the right way, not just",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
     }
   ],
   "sector_matrix": {
-    "generated_at": "2026-05-08T03:23:48.757872Z",
+    "generated_at": "2026-05-08T07:45:44.481328Z",
     "cells": [
       {
         "sector": "Technology",
@@ -2390,11 +2390,11 @@
       {
         "sector": "Technology",
         "signal_type": "posting",
-        "count_7d": 339,
-        "count_30d": 339,
+        "count_7d": 341,
+        "count_30d": 341,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 29.22
+        "z_score": 29.31
       },
       {
         "sector": "Technology",
