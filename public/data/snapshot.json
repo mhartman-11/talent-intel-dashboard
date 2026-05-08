@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-08T10:20:28.653896Z",
+  "generated_at": "2026-05-08T13:55:55.492362Z",
   "next_ingest_at": null,
-  "total_events": 598,
-  "events_7d": 476,
+  "total_events": 604,
+  "events_7d": 481,
   "sources": [
     {
       "source": "layoffs_fyi",
@@ -10,8 +10,8 @@
       "url": "https://techcrunch.com/tag/layoffs/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-05-08T10:20:28.761679Z",
-      "last_attempted": "2026-05-08T10:20:28.761679Z",
+      "last_ok": "2026-05-08T13:55:56.052113Z",
+      "last_attempted": "2026-05-08T13:55:56.052113Z",
       "record_count": 11,
       "ok": true,
       "errors": []
@@ -22,9 +22,9 @@
       "url": "https://news.ycombinator.com",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-08T10:20:29.286176Z",
-      "last_attempted": "2026-05-08T10:20:29.286176Z",
-      "record_count": 468,
+      "last_ok": "2026-05-08T13:55:56.530165Z",
+      "last_attempted": "2026-05-08T13:55:56.530165Z",
+      "record_count": 473,
       "ok": true,
       "errors": []
     },
@@ -34,9 +34,9 @@
       "url": "https://www.bls.gov/developers/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-08T10:20:30.113811Z",
-      "last_attempted": "2026-05-08T10:20:30.113811Z",
-      "record_count": 29,
+      "last_ok": "2026-05-08T13:55:57.423599Z",
+      "last_attempted": "2026-05-08T13:55:57.423599Z",
+      "record_count": 30,
       "ok": true,
       "errors": []
     },
@@ -46,8 +46,8 @@
       "url": "https://www.sec.gov/cgi-bin/browse-edgar",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-05-08T10:20:30.686586Z",
-      "last_attempted": "2026-05-08T10:20:30.686586Z",
+      "last_ok": "2026-05-08T13:55:58.090860Z",
+      "last_attempted": "2026-05-08T13:55:58.090860Z",
       "record_count": 42,
       "ok": true,
       "errors": []
@@ -58,14 +58,129 @@
       "url": "https://www.bls.gov/ces/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-08T10:20:33.536092Z",
-      "last_attempted": "2026-05-08T10:20:33.536092Z",
+      "last_ok": "2026-05-08T13:55:59.231711Z",
+      "last_attempted": "2026-05-08T13:55:59.231711Z",
       "record_count": 48,
       "ok": true,
       "errors": []
     }
   ],
   "recent_signals": [
+    {
+      "id": "bb11685946dbf460",
+      "ts": "2026-05-08T13:21:21Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=48062730",
+      "type": "posting",
+      "company": {
+        "name": "Unknown",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Oh that was only after the one that did amount to an interview. I otherwise had to reach out to people individually to hear anything at all. I also applied there some three or so times, and didn&#x27;t get those either.",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology"
+      ]
+    },
+    {
+      "id": "d696cd16b6ab814d",
+      "ts": "2026-05-08T13:17:11Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=48062670",
+      "type": "posting",
+      "company": {
+        "name": "We The Flywheel",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "We The Flywheel | Ho Chi Minh City (Hybrid) | Part-time | https:&#x2F;&#x2F;wetheflywheel.com We are a global media network, digital consultancy, and product studio focused on helping companies grow through technology and reach audiences at scale. We\u2019re opening up a role for an Entry-Level Agentic E",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology"
+      ]
+    },
+    {
+      "id": "d1533ec8ff320ddb",
+      "ts": "2026-05-08T13:05:20Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=48062510",
+      "type": "posting",
+      "company": {
+        "name": "Unknown",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "This seems right down our alley. Our team is currently working on several AI and robotics projects, including some extremely custom robotics ones. We would love to take this up.",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology"
+      ]
+    },
+    {
+      "id": "90b66dc0aa780053",
+      "ts": "2026-05-08T11:30:25Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=48061634",
+      "type": "posting",
+      "company": {
+        "name": "Unknown",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Would you be also accepting a profiles from vendor? or it&#x27;s individual roles you have posted?",
+      "tags": [
+        "hiring",
+        "hn",
+        "other"
+      ]
+    },
+    {
+      "id": "914ae4485837f015",
+      "ts": "2026-05-08T10:38:41Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=48061232",
+      "type": "posting",
+      "company": {
+        "name": "HelpMyCash",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "HelpMyCash | Senior AWS DevOps&#x2F;SRE contractor | Remote EU&#x2F;CET | Freelance + paid on-call HelpMyCash is a Barcelona-based financial comparison platform. We&#x27;re looking for a senior freelance DevOps&#x2F;SRE to act as the operational safety net for a mature AWS production platform. This ",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology"
+      ]
+    },
     {
       "id": "5a992244d7ece1b6",
       "ts": "2026-05-08T08:47:09Z",
@@ -2257,125 +2372,10 @@
         "hn",
         "other"
       ]
-    },
-    {
-      "id": "7b8e9a933a7a8a40",
-      "ts": "2026-05-04T22:45:09Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48015952",
-      "type": "posting",
-      "company": {
-        "name": "Unknown",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "As a member of that group of 1300+, I&#x27;m wondering if there&#x27;s something specific you&#x27;re looking for which no one has addressed?",
-      "tags": [
-        "hiring",
-        "hn",
-        "other"
-      ]
-    },
-    {
-      "id": "d466c2c464fa7554",
-      "ts": "2026-05-04T22:39:03Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48015893",
-      "type": "posting",
-      "company": {
-        "name": "Better Stack",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Better Stack | https:&#x2F;&#x2F;betterstack.com&#x2F; | &#x2F;^Full-?stack Engineer$&#x2F;i | Remote (North America &amp; Europe) We are software builders at :heart: CEO is a software engineer, COO is a software engineer, and you guessed it, CTO is an engineer, too. We are engineers, making the too",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "6790d61f1decd509",
-      "ts": "2026-05-04T21:49:08Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48015477",
-      "type": "posting",
-      "company": {
-        "name": "Clad (YC W23)",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Clad (YC W23) | Software Engineer | NYC | withclad.com Clad is software for building physical infrastructure. We help contractors automate their back office so they can scale their business. We&#x27;re a 7 person team in person in NYC, raised $2.7M, have &gt;4 years of runway, and are growing faster",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "ce7a4cedb21e12e3",
-      "ts": "2026-05-04T21:35:11Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48015318",
-      "type": "posting",
-      "company": {
-        "name": "Unknown",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "You&#x27;re more than welcome to apply, and we&#x27;ll have a record of your resume&#x2F;cv and interest if you do. And, we do engage talent from abroad, and even have a client in Europe (Norway). But, just to set expectations, we&#x27;re strongly focused on filling in-USA roles at the moment.",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "e5e682942045b371",
-      "ts": "2026-05-04T21:03:39Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48014971",
-      "type": "posting",
-      "company": {
-        "name": "Applied to the Software Engineer III",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Applied to the Software Engineer III - Cloud Platform role!",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
     }
   ],
   "sector_matrix": {
-    "generated_at": "2026-05-08T10:20:28.653896Z",
+    "generated_at": "2026-05-08T13:55:55.492362Z",
     "cells": [
       {
         "sector": "Technology",
@@ -2389,11 +2389,11 @@
       {
         "sector": "Technology",
         "signal_type": "posting",
-        "count_7d": 342,
-        "count_30d": 342,
+        "count_7d": 346,
+        "count_30d": 346,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 29.35
+        "z_score": 29.52
       },
       {
         "sector": "Technology",
