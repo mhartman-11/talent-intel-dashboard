@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-09T10:02:39.326821Z",
+  "generated_at": "2026-05-09T13:23:03.872226Z",
   "next_ingest_at": null,
   "total_events": 604,
-  "events_7d": 232,
+  "events_7d": 222,
   "sources": [
     {
       "source": "layoffs_fyi",
@@ -10,8 +10,8 @@
       "url": "https://techcrunch.com/tag/layoffs/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-05-09T10:02:39.430602Z",
-      "last_attempted": "2026-05-09T10:02:39.430602Z",
+      "last_ok": "2026-05-09T13:23:03.949753Z",
+      "last_attempted": "2026-05-09T13:23:03.949753Z",
       "record_count": 11,
       "ok": true,
       "errors": []
@@ -22,8 +22,8 @@
       "url": "https://news.ycombinator.com",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-09T10:02:40.312230Z",
-      "last_attempted": "2026-05-09T10:02:40.312230Z",
+      "last_ok": "2026-05-09T13:23:04.844834Z",
+      "last_attempted": "2026-05-09T13:23:04.844834Z",
       "record_count": 474,
       "ok": true,
       "errors": []
@@ -34,8 +34,8 @@
       "url": "https://www.bls.gov/developers/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-09T10:02:41.238011Z",
-      "last_attempted": "2026-05-09T10:02:41.238011Z",
+      "last_ok": "2026-05-09T13:23:05.767466Z",
+      "last_attempted": "2026-05-09T13:23:05.767466Z",
       "record_count": 30,
       "ok": true,
       "errors": []
@@ -46,8 +46,8 @@
       "url": "https://www.sec.gov/cgi-bin/browse-edgar",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-05-09T10:02:41.872455Z",
-      "last_attempted": "2026-05-09T10:02:41.872455Z",
+      "last_ok": "2026-05-09T13:23:06.415628Z",
+      "last_attempted": "2026-05-09T13:23:06.415628Z",
       "record_count": 41,
       "ok": true,
       "errors": []
@@ -58,14 +58,37 @@
       "url": "https://www.bls.gov/ces/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-09T10:02:46.432313Z",
-      "last_attempted": "2026-05-09T10:02:46.432313Z",
+      "last_ok": "2026-05-09T13:23:07.056501Z",
+      "last_attempted": "2026-05-09T13:23:07.056501Z",
       "record_count": 48,
       "ok": true,
       "errors": []
     }
   ],
   "recent_signals": [
+    {
+      "id": "30ac5e2b92aceb99",
+      "ts": "2026-05-09T10:39:09Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=48073819",
+      "type": "posting",
+      "company": {
+        "name": "Unknown",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "I was interested into fullstack or backend. Everything was fine, but need a video? And it&#x27;s a required field.",
+      "tags": [
+        "hiring",
+        "hn",
+        "other"
+      ]
+    },
     {
       "id": "bb5994b352671b0f",
       "ts": "2026-05-09T01:51:46Z",
@@ -2347,33 +2370,10 @@
         "technology",
         "NY"
       ]
-    },
-    {
-      "id": "868c8848818760d2",
-      "ts": "2026-05-05T09:22:56Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48020015",
-      "type": "posting",
-      "company": {
-        "name": "Unknown",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Right now we&#x27;re focused on finding more experienced hires so this one won&#x27;t be quite right by the sounds of your experience.",
-      "tags": [
-        "hiring",
-        "hn",
-        "other"
-      ]
     }
   ],
   "sector_matrix": {
-    "generated_at": "2026-05-09T10:02:39.326821Z",
+    "generated_at": "2026-05-09T13:23:03.872226Z",
     "cells": [
       {
         "sector": "Technology",
@@ -2387,11 +2387,11 @@
       {
         "sector": "Technology",
         "signal_type": "posting",
-        "count_7d": 163,
-        "count_30d": 348,
+        "count_7d": 152,
+        "count_30d": 347,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 9.08
+        "z_score": 7.89
       },
       {
         "sector": "Technology",
