@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-09T07:59:54.996230Z",
+  "generated_at": "2026-05-09T10:02:39.326821Z",
   "next_ingest_at": null,
   "total_events": 604,
-  "events_7d": 241,
+  "events_7d": 232,
   "sources": [
     {
       "source": "layoffs_fyi",
@@ -10,8 +10,8 @@
       "url": "https://techcrunch.com/tag/layoffs/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-05-09T07:59:55.078097Z",
-      "last_attempted": "2026-05-09T07:59:55.078097Z",
+      "last_ok": "2026-05-09T10:02:39.430602Z",
+      "last_attempted": "2026-05-09T10:02:39.430602Z",
       "record_count": 11,
       "ok": true,
       "errors": []
@@ -22,8 +22,8 @@
       "url": "https://news.ycombinator.com",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-09T07:59:55.610275Z",
-      "last_attempted": "2026-05-09T07:59:55.610275Z",
+      "last_ok": "2026-05-09T10:02:40.312230Z",
+      "last_attempted": "2026-05-09T10:02:40.312230Z",
       "record_count": 474,
       "ok": true,
       "errors": []
@@ -34,8 +34,8 @@
       "url": "https://www.bls.gov/developers/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-09T07:59:56.427605Z",
-      "last_attempted": "2026-05-09T07:59:56.427605Z",
+      "last_ok": "2026-05-09T10:02:41.238011Z",
+      "last_attempted": "2026-05-09T10:02:41.238011Z",
       "record_count": 30,
       "ok": true,
       "errors": []
@@ -46,8 +46,8 @@
       "url": "https://www.sec.gov/cgi-bin/browse-edgar",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-05-09T07:59:56.672050Z",
-      "last_attempted": "2026-05-09T07:59:56.672050Z",
+      "last_ok": "2026-05-09T10:02:41.872455Z",
+      "last_attempted": "2026-05-09T10:02:41.872455Z",
       "record_count": 41,
       "ok": true,
       "errors": []
@@ -58,8 +58,8 @@
       "url": "https://www.bls.gov/ces/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-09T07:59:58.226834Z",
-      "last_attempted": "2026-05-09T07:59:58.226834Z",
+      "last_ok": "2026-05-09T10:02:46.432313Z",
+      "last_attempted": "2026-05-09T10:02:46.432313Z",
       "record_count": 48,
       "ok": true,
       "errors": []
@@ -135,29 +135,6 @@
         "hn",
         "technology",
         "CO"
-      ]
-    },
-    {
-      "id": "e58302796d9f7117",
-      "ts": "2026-05-08T21:01:56Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48068729",
-      "type": "posting",
-      "company": {
-        "name": "Unknown",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "I&#x27;m a ML Engineer with a year of experience in delivering fast agentic pipelines and AI solutions to clients all around the world, feel free to check my website! https:&#x2F;&#x2F;kev187038.github.io Location: Cyprus Remote: yes Willing to relocate: No Technologies: RAG, Agentic AI Pydantic, La",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
       ]
     },
     {
@@ -2370,10 +2347,33 @@
         "technology",
         "NY"
       ]
+    },
+    {
+      "id": "868c8848818760d2",
+      "ts": "2026-05-05T09:22:56Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=48020015",
+      "type": "posting",
+      "company": {
+        "name": "Unknown",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Right now we&#x27;re focused on finding more experienced hires so this one won&#x27;t be quite right by the sounds of your experience.",
+      "tags": [
+        "hiring",
+        "hn",
+        "other"
+      ]
     }
   ],
   "sector_matrix": {
-    "generated_at": "2026-05-09T07:59:54.996230Z",
+    "generated_at": "2026-05-09T10:02:39.326821Z",
     "cells": [
       {
         "sector": "Technology",
@@ -2387,11 +2387,11 @@
       {
         "sector": "Technology",
         "signal_type": "posting",
-        "count_7d": 171,
+        "count_7d": 163,
         "count_30d": 348,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 9.97
+        "z_score": 9.08
       },
       {
         "sector": "Technology",
