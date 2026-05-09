@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-08T19:22:55.796562Z",
+  "generated_at": "2026-05-09T03:22:07.784971Z",
   "next_ingest_at": null,
-  "total_events": 605,
-  "events_7d": 326,
+  "total_events": 604,
+  "events_7d": 253,
   "sources": [
     {
       "source": "layoffs_fyi",
@@ -10,9 +10,9 @@
       "url": "https://techcrunch.com/tag/layoffs/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-05-08T19:22:55.889310Z",
-      "last_attempted": "2026-05-08T19:22:55.889310Z",
-      "record_count": 12,
+      "last_ok": "2026-05-09T03:22:07.877571Z",
+      "last_attempted": "2026-05-09T03:22:07.877571Z",
+      "record_count": 11,
       "ok": true,
       "errors": []
     },
@@ -22,8 +22,8 @@
       "url": "https://news.ycombinator.com",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-08T19:22:56.386286Z",
-      "last_attempted": "2026-05-08T19:22:56.386286Z",
+      "last_ok": "2026-05-09T03:22:08.247386Z",
+      "last_attempted": "2026-05-09T03:22:08.247386Z",
       "record_count": 474,
       "ok": true,
       "errors": []
@@ -34,8 +34,8 @@
       "url": "https://www.bls.gov/developers/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-08T19:22:57.227895Z",
-      "last_attempted": "2026-05-08T19:22:57.227895Z",
+      "last_ok": "2026-05-09T03:22:09.431611Z",
+      "last_attempted": "2026-05-09T03:22:09.431611Z",
       "record_count": 30,
       "ok": true,
       "errors": []
@@ -46,8 +46,8 @@
       "url": "https://www.sec.gov/cgi-bin/browse-edgar",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-05-08T19:22:57.488539Z",
-      "last_attempted": "2026-05-08T19:22:57.488539Z",
+      "last_ok": "2026-05-09T03:22:09.684208Z",
+      "last_attempted": "2026-05-09T03:22:09.684208Z",
       "record_count": 41,
       "ok": true,
       "errors": []
@@ -58,14 +58,131 @@
       "url": "https://www.bls.gov/ces/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-08T19:22:58.475987Z",
-      "last_attempted": "2026-05-08T19:22:58.475987Z",
+      "last_ok": "2026-05-09T03:22:11.102200Z",
+      "last_attempted": "2026-05-09T03:22:11.102200Z",
       "record_count": 48,
       "ok": true,
       "errors": []
     }
   ],
   "recent_signals": [
+    {
+      "id": "bb5994b352671b0f",
+      "ts": "2026-05-09T01:51:46Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=48070967",
+      "type": "posting",
+      "company": {
+        "name": "SEEKING FREELANCER",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "SEEKING FREELANCER | Tiger Tracks (REMOTE, US&#x2F;EU timezones) | Founding AI Engineer | Contract-to-hire We&#x27;re a performance marketing agency (Inc. 5000 #123, ex-Google founders) hiring our first dedicated AI engineer as a contractor. What you&#x27;d build: landing page conversion analyzers, ",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology"
+      ]
+    },
+    {
+      "id": "fab6b898323a1209",
+      "ts": "2026-05-08T23:37:55Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=48070114",
+      "type": "posting",
+      "company": {
+        "name": "Parabola",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": "CA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Parabola | Site Reliability Engineer | San Francisco, CA (Hybrid) | Full-time Parabola is a no-code data workflow automation tool that helps operations teams move, transform, and automate their data without writing code. LLMs are a core part of our product \u2014 we use them to help users build and reaso",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology",
+        "CA"
+      ]
+    },
+    {
+      "id": "d2761880b419f5e5",
+      "ts": "2026-05-08T22:19:01Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=48069453",
+      "type": "posting",
+      "company": {
+        "name": "Atom Computing",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": "CO",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Atom Computing | Senior Infrastructure Engineer + Principal Software Engineer + Software Engineering Manager | Boulder, CO (Hybrid) | Full-time Atom Computing is developing large-scale quantum computers using arrays of optically-trapped neutral atoms. We are building cutting-edge systems for on-prem",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology",
+        "CO"
+      ]
+    },
+    {
+      "id": "e58302796d9f7117",
+      "ts": "2026-05-08T21:01:56Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=48068729",
+      "type": "posting",
+      "company": {
+        "name": "Unknown",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "I&#x27;m a ML Engineer with a year of experience in delivering fast agentic pipelines and AI solutions to clients all around the world, feel free to check my website! https:&#x2F;&#x2F;kev187038.github.io Location: Cyprus Remote: yes Willing to relocate: No Technologies: RAG, Agentic AI Pydantic, La",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology"
+      ]
+    },
+    {
+      "id": "a65dc5e245f41e8f",
+      "ts": "2026-05-08T19:31:06Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=48067640",
+      "type": "posting",
+      "company": {
+        "name": "Campus",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Campus | Software Engineers, Product Managers &amp; Data Scientists | Hybrid in NYC Campus is a Series B Edtech startup with a mission to maximize access to a world class education backed by investors such as General Catalyst, Founders Fund, Bloomberg Beta and 8VC. We\u2019re hiring technical talent acro",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology"
+      ]
+    },
     {
       "id": "07936d10f6b63592",
       "ts": "2026-05-08T18:38:20Z",
@@ -2253,125 +2370,10 @@
         "technology",
         "NY"
       ]
-    },
-    {
-      "id": "868c8848818760d2",
-      "ts": "2026-05-05T09:22:56Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48020015",
-      "type": "posting",
-      "company": {
-        "name": "Unknown",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Right now we&#x27;re focused on finding more experienced hires so this one won&#x27;t be quite right by the sounds of your experience.",
-      "tags": [
-        "hiring",
-        "hn",
-        "other"
-      ]
-    },
-    {
-      "id": "d930a20856daf369",
-      "ts": "2026-05-05T09:11:46Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48019941",
-      "type": "posting",
-      "company": {
-        "name": "&#x2F;\\AFull",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "&#x2F;\\AFull-?stack Engineer\\Z&#x2F;i ?",
-      "tags": [
-        "hiring",
-        "hn",
-        "other"
-      ]
-    },
-    {
-      "id": "317254d5c580dba4",
-      "ts": "2026-05-05T08:36:17Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48019625",
-      "type": "posting",
-      "company": {
-        "name": "Lago (YCS21)",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Lago (YCS21) | Hiring for Multiple roles in Product and Engineering across EUROPE and USA ( https:&#x2F;&#x2F;jobs.ashbyhq.com&#x2F;lago ) Lago is the leading open-source billing platform for usage-based pricing. We power billing for companies like PayPal, CoreWeave, Mistral AI, and Synthesia \u2014 hand",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "2cf416bc23e26c83",
-      "ts": "2026-05-05T08:18:18Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48019489",
-      "type": "posting",
-      "company": {
-        "name": "Matcha",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Matcha | REMOTE (Europe &#x2F; UK &#x2F; Canada &#x2F; US) | Full-time | https:&#x2F;&#x2F;matcha.fm Repeat founder building something new and putting together a founding team. This for high ownership, ideally for people with prior startup experience or previous founder &#x2F; founding team: Full-St",
-      "tags": [
-        "hiring",
-        "hn",
-        "other"
-      ]
-    },
-    {
-      "id": "cd41c4bf820e8a5e",
-      "ts": "2026-05-05T07:35:25Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48019220",
-      "type": "posting",
-      "company": {
-        "name": "how to reach out for application? can&#x27;t see an email",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "how to reach out for application? can&#x27;t see an email",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
     }
   ],
   "sector_matrix": {
-    "generated_at": "2026-05-08T19:22:55.796562Z",
+    "generated_at": "2026-05-09T03:22:07.784971Z",
     "cells": [
       {
         "sector": "Technology",
@@ -2385,11 +2387,11 @@
       {
         "sector": "Technology",
         "signal_type": "posting",
-        "count_7d": 223,
-        "count_30d": 346,
+        "count_7d": 178,
+        "count_30d": 348,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 15.83
+        "z_score": 10.74
       },
       {
         "sector": "Technology",
@@ -2431,10 +2433,10 @@
         "sector": "Finance",
         "signal_type": "posting",
         "count_7d": 4,
-        "count_30d": 11,
+        "count_30d": 9,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 0.89
+        "z_score": 1.31
       },
       {
         "sector": "Finance",
@@ -2448,11 +2450,11 @@
       {
         "sector": "Finance",
         "signal_type": "funding",
-        "count_7d": 2,
+        "count_7d": 1,
         "count_30d": 2,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 1.53
+        "z_score": 0.53
       },
       {
         "sector": "Finance",
@@ -2475,11 +2477,11 @@
       {
         "sector": "Healthcare",
         "signal_type": "posting",
-        "count_7d": 4,
+        "count_7d": 2,
         "count_30d": 9,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 1.31
+        "z_score": -0.07
       },
       {
         "sector": "Healthcare",
@@ -2655,11 +2657,11 @@
       {
         "sector": "Media",
         "signal_type": "posting",
-        "count_7d": 6,
+        "count_7d": 5,
         "count_30d": 7,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 3.42
+        "z_score": 2.63
       },
       {
         "sector": "Media",
