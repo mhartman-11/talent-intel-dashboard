@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-09T13:23:03.872226Z",
+  "generated_at": "2026-05-09T19:06:07.769498Z",
   "next_ingest_at": null,
-  "total_events": 604,
-  "events_7d": 222,
+  "total_events": 603,
+  "events_7d": 208,
   "sources": [
     {
       "source": "layoffs_fyi",
@@ -10,8 +10,8 @@
       "url": "https://techcrunch.com/tag/layoffs/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-05-09T13:23:03.949753Z",
-      "last_attempted": "2026-05-09T13:23:03.949753Z",
+      "last_ok": "2026-05-09T19:06:07.856906Z",
+      "last_attempted": "2026-05-09T19:06:07.856906Z",
       "record_count": 11,
       "ok": true,
       "errors": []
@@ -22,8 +22,8 @@
       "url": "https://news.ycombinator.com",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-09T13:23:04.844834Z",
-      "last_attempted": "2026-05-09T13:23:04.844834Z",
+      "last_ok": "2026-05-09T19:06:08.446095Z",
+      "last_attempted": "2026-05-09T19:06:08.446095Z",
       "record_count": 474,
       "ok": true,
       "errors": []
@@ -34,8 +34,8 @@
       "url": "https://www.bls.gov/developers/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-09T13:23:05.767466Z",
-      "last_attempted": "2026-05-09T13:23:05.767466Z",
+      "last_ok": "2026-05-09T19:06:09.455832Z",
+      "last_attempted": "2026-05-09T19:06:09.455832Z",
       "record_count": 30,
       "ok": true,
       "errors": []
@@ -46,9 +46,9 @@
       "url": "https://www.sec.gov/cgi-bin/browse-edgar",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-05-09T13:23:06.415628Z",
-      "last_attempted": "2026-05-09T13:23:06.415628Z",
-      "record_count": 41,
+      "last_ok": "2026-05-09T19:06:10.274289Z",
+      "last_attempted": "2026-05-09T19:06:10.274289Z",
+      "record_count": 40,
       "ok": true,
       "errors": []
     },
@@ -58,14 +58,37 @@
       "url": "https://www.bls.gov/ces/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-09T13:23:07.056501Z",
-      "last_attempted": "2026-05-09T13:23:07.056501Z",
+      "last_ok": "2026-05-09T19:06:14.504040Z",
+      "last_attempted": "2026-05-09T19:06:14.504040Z",
       "record_count": 48,
       "ok": true,
       "errors": []
     }
   ],
   "recent_signals": [
+    {
+      "id": "d0e89aa878579ddb",
+      "ts": "2026-05-09T16:54:51Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=48076368",
+      "type": "posting",
+      "company": {
+        "name": "Nice opportunities, but unfortunately not global remote :&#x27;)",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Nice opportunities, but unfortunately not global remote :&#x27;)",
+      "tags": [
+        "hiring",
+        "hn",
+        "other"
+      ]
+    },
     {
       "id": "30ac5e2b92aceb99",
       "ts": "2026-05-09T10:39:09Z",
@@ -2346,34 +2369,10 @@
         "hn",
         "technology"
       ]
-    },
-    {
-      "id": "8748ff08ecc435fe",
-      "ts": "2026-05-05T10:00:57Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48020288",
-      "type": "posting",
-      "company": {
-        "name": "Gigs (YC W21)",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": "NY",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Gigs (YC W21) | Multiple US &amp; EU Locations | Hybrid | (SF, NY, Berlin, London) | Full-time At Gigs, we&#x27;re building the operating system for mobile services - a platform that enables tech companies to seamlessly embed connectivity into their products. Klarna Mobile, OnePay Wireless and Revol",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology",
-        "NY"
-      ]
     }
   ],
   "sector_matrix": {
-    "generated_at": "2026-05-09T13:23:03.872226Z",
+    "generated_at": "2026-05-09T19:06:07.769498Z",
     "cells": [
       {
         "sector": "Technology",
@@ -2387,11 +2386,11 @@
       {
         "sector": "Technology",
         "signal_type": "posting",
-        "count_7d": 152,
-        "count_30d": 347,
+        "count_7d": 145,
+        "count_30d": 346,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 7.89
+        "z_score": 7.15
       },
       {
         "sector": "Technology",
@@ -2406,10 +2405,10 @@
         "sector": "Technology",
         "signal_type": "funding",
         "count_7d": 5,
-        "count_30d": 9,
+        "count_30d": 8,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 2.0
+        "z_score": 2.29
       },
       {
         "sector": "Technology",
@@ -2477,11 +2476,11 @@
       {
         "sector": "Healthcare",
         "signal_type": "posting",
-        "count_7d": 2,
+        "count_7d": 1,
         "count_30d": 9,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": -0.07
+        "z_score": -0.76
       },
       {
         "sector": "Healthcare",
