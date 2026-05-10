@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-10T13:24:12.160009Z",
+  "generated_at": "2026-05-10T19:08:42.264509Z",
   "next_ingest_at": null,
   "total_events": 603,
-  "events_7d": 196,
+  "events_7d": 188,
   "sources": [
     {
       "source": "layoffs_fyi",
@@ -10,8 +10,8 @@
       "url": "https://techcrunch.com/tag/layoffs/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-05-10T13:24:12.237714Z",
-      "last_attempted": "2026-05-10T13:24:12.237714Z",
+      "last_ok": "2026-05-10T19:08:42.351137Z",
+      "last_attempted": "2026-05-10T19:08:42.351137Z",
       "record_count": 11,
       "ok": true,
       "errors": []
@@ -22,8 +22,8 @@
       "url": "https://news.ycombinator.com",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-10T13:24:12.857900Z",
-      "last_attempted": "2026-05-10T13:24:12.857900Z",
+      "last_ok": "2026-05-10T19:08:42.942510Z",
+      "last_attempted": "2026-05-10T19:08:42.942510Z",
       "record_count": 474,
       "ok": true,
       "errors": []
@@ -34,8 +34,8 @@
       "url": "https://www.bls.gov/developers/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-10T13:24:13.804168Z",
-      "last_attempted": "2026-05-10T13:24:13.804168Z",
+      "last_ok": "2026-05-10T19:08:43.955417Z",
+      "last_attempted": "2026-05-10T19:08:43.955417Z",
       "record_count": 30,
       "ok": true,
       "errors": []
@@ -46,8 +46,8 @@
       "url": "https://www.sec.gov/cgi-bin/browse-edgar",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-05-10T13:24:14.510051Z",
-      "last_attempted": "2026-05-10T13:24:14.510051Z",
+      "last_ok": "2026-05-10T19:08:44.259463Z",
+      "last_attempted": "2026-05-10T19:08:44.259463Z",
       "record_count": 40,
       "ok": true,
       "errors": []
@@ -58,14 +58,37 @@
       "url": "https://www.bls.gov/ces/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-10T13:24:15.412364Z",
-      "last_attempted": "2026-05-10T13:24:15.412364Z",
+      "last_ok": "2026-05-10T19:08:44.690668Z",
+      "last_attempted": "2026-05-10T19:08:44.690668Z",
       "record_count": 48,
       "ok": true,
       "errors": []
     }
   ],
   "recent_signals": [
+    {
+      "id": "d1c02d17efc9bc66",
+      "ts": "2026-05-10T16:16:29Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=48085189",
+      "type": "posting",
+      "company": {
+        "name": "you&#x27;d expect people to manually fill 4",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "you&#x27;d expect people to manually fill 4-5 tabs of data after literally giving you their resume for &quot;auto-fill&quot;?",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology"
+      ]
+    },
     {
       "id": "73d8009ab7894416",
       "ts": "2026-05-09T20:31:10Z",
@@ -2346,33 +2369,10 @@
         "hn",
         "technology"
       ]
-    },
-    {
-      "id": "f58bb3b1996e92d4",
-      "ts": "2026-05-05T10:07:34Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48020352",
-      "type": "posting",
-      "company": {
-        "name": "Unknown",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "G-Research | London, UK | On-site | https:&#x2F;&#x2F;www.gresearch.com&#x2F; We\u2019re a quantitative research and technology firm bringing together world-class researchers and engineers to tackle complex problems in financial markets. Our engineers play a central role, building the systems and platfor",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
     }
   ],
   "sector_matrix": {
-    "generated_at": "2026-05-10T13:24:12.160009Z",
+    "generated_at": "2026-05-10T19:08:42.264509Z",
     "cells": [
       {
         "sector": "Technology",
@@ -2386,11 +2386,11 @@
       {
         "sector": "Technology",
         "signal_type": "posting",
-        "count_7d": 139,
+        "count_7d": 133,
         "count_30d": 346,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 6.48
+        "z_score": 5.82
       },
       {
         "sector": "Technology",
