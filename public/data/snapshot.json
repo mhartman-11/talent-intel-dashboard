@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-09T19:06:07.769498Z",
+  "generated_at": "2026-05-10T03:33:53.250812Z",
   "next_ingest_at": null,
   "total_events": 603,
-  "events_7d": 208,
+  "events_7d": 199,
   "sources": [
     {
       "source": "layoffs_fyi",
@@ -10,8 +10,8 @@
       "url": "https://techcrunch.com/tag/layoffs/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-05-09T19:06:07.856906Z",
-      "last_attempted": "2026-05-09T19:06:07.856906Z",
+      "last_ok": "2026-05-10T03:33:53.368729Z",
+      "last_attempted": "2026-05-10T03:33:53.368729Z",
       "record_count": 11,
       "ok": true,
       "errors": []
@@ -22,8 +22,8 @@
       "url": "https://news.ycombinator.com",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-09T19:06:08.446095Z",
-      "last_attempted": "2026-05-09T19:06:08.446095Z",
+      "last_ok": "2026-05-10T03:33:53.713426Z",
+      "last_attempted": "2026-05-10T03:33:53.713426Z",
       "record_count": 474,
       "ok": true,
       "errors": []
@@ -34,8 +34,8 @@
       "url": "https://www.bls.gov/developers/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-09T19:06:09.455832Z",
-      "last_attempted": "2026-05-09T19:06:09.455832Z",
+      "last_ok": "2026-05-10T03:33:54.479217Z",
+      "last_attempted": "2026-05-10T03:33:54.479217Z",
       "record_count": 30,
       "ok": true,
       "errors": []
@@ -46,8 +46,8 @@
       "url": "https://www.sec.gov/cgi-bin/browse-edgar",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-05-09T19:06:10.274289Z",
-      "last_attempted": "2026-05-09T19:06:10.274289Z",
+      "last_ok": "2026-05-10T03:33:54.956624Z",
+      "last_attempted": "2026-05-10T03:33:54.956624Z",
       "record_count": 40,
       "ok": true,
       "errors": []
@@ -58,14 +58,37 @@
       "url": "https://www.bls.gov/ces/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-09T19:06:14.504040Z",
-      "last_attempted": "2026-05-09T19:06:14.504040Z",
+      "last_ok": "2026-05-10T03:33:56.033373Z",
+      "last_attempted": "2026-05-10T03:33:56.033373Z",
       "record_count": 48,
       "ok": true,
       "errors": []
     }
   ],
   "recent_signals": [
+    {
+      "id": "73d8009ab7894416",
+      "ts": "2026-05-09T20:31:10Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=48077968",
+      "type": "posting",
+      "company": {
+        "name": "Unknown",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Would you consider someone with minimal open source contribution? I was with Coinbase until last week, working on cool AI offerings, developing scalable infrastructure. If yes, happy to send my resume for your review + talk about few interesting thing I shipped end to end.",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology"
+      ]
+    },
     {
       "id": "d0e89aa878579ddb",
       "ts": "2026-05-09T16:54:51Z",
@@ -2346,51 +2369,28 @@
         "hn",
         "technology"
       ]
-    },
-    {
-      "id": "a51b890c0f398f0a",
-      "ts": "2026-05-05T10:06:08Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48020326",
-      "type": "posting",
-      "company": {
-        "name": "Unknown",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "It started with a founder&#x27;s preference and also some desire to make a point (the point being that PHP makes an extremely solid foundation for web application development) and continued with it revealing itself as a useful attitude, skill and maturity filter when hiring.",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
     }
   ],
   "sector_matrix": {
-    "generated_at": "2026-05-09T19:06:07.769498Z",
+    "generated_at": "2026-05-10T03:33:53.250812Z",
     "cells": [
       {
         "sector": "Technology",
         "signal_type": "layoff",
         "count_7d": 2,
-        "count_30d": 5,
+        "count_30d": 4,
         "magnitude_7d": 1100.0,
         "magnitude_30d": null,
-        "z_score": 0.77
+        "z_score": 1.07
       },
       {
         "sector": "Technology",
         "signal_type": "posting",
-        "count_7d": 145,
+        "count_7d": 141,
         "count_30d": 346,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 7.15
+        "z_score": 6.71
       },
       {
         "sector": "Technology",
@@ -2656,11 +2656,11 @@
       {
         "sector": "Media",
         "signal_type": "posting",
-        "count_7d": 5,
+        "count_7d": 3,
         "count_30d": 7,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 2.63
+        "z_score": 1.07
       },
       {
         "sector": "Media",
