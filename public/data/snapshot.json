@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-11T15:15:31.224717Z",
+  "generated_at": "2026-05-11T19:51:24.221371Z",
   "next_ingest_at": null,
-  "total_events": 603,
-  "events_7d": 162,
+  "total_events": 602,
+  "events_7d": 141,
   "sources": [
     {
       "source": "layoffs_fyi",
@@ -10,8 +10,8 @@
       "url": "https://techcrunch.com/tag/layoffs/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-05-11T15:15:31.475085Z",
-      "last_attempted": "2026-05-11T15:15:31.475085Z",
+      "last_ok": "2026-05-11T19:51:24.314577Z",
+      "last_attempted": "2026-05-11T19:51:24.314577Z",
       "record_count": 11,
       "ok": true,
       "errors": []
@@ -22,8 +22,8 @@
       "url": "https://news.ycombinator.com",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-11T15:15:31.928024Z",
-      "last_attempted": "2026-05-11T15:15:31.928024Z",
+      "last_ok": "2026-05-11T19:51:24.740564Z",
+      "last_attempted": "2026-05-11T19:51:24.740564Z",
       "record_count": 474,
       "ok": true,
       "errors": []
@@ -34,8 +34,8 @@
       "url": "https://www.bls.gov/developers/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-11T15:15:32.756361Z",
-      "last_attempted": "2026-05-11T15:15:32.756361Z",
+      "last_ok": "2026-05-11T19:51:25.837740Z",
+      "last_attempted": "2026-05-11T19:51:25.837740Z",
       "record_count": 30,
       "ok": true,
       "errors": []
@@ -46,9 +46,9 @@
       "url": "https://www.sec.gov/cgi-bin/browse-edgar",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-05-11T15:15:33.268224Z",
-      "last_attempted": "2026-05-11T15:15:33.268224Z",
-      "record_count": 40,
+      "last_ok": "2026-05-11T19:51:26.483396Z",
+      "last_attempted": "2026-05-11T19:51:26.483396Z",
+      "record_count": 39,
       "ok": true,
       "errors": []
     },
@@ -58,14 +58,84 @@
       "url": "https://www.bls.gov/ces/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-11T15:15:34.610616Z",
-      "last_attempted": "2026-05-11T15:15:34.610616Z",
+      "last_ok": "2026-05-11T19:51:26.762313Z",
+      "last_attempted": "2026-05-11T19:51:26.762313Z",
       "record_count": 48,
       "ok": true,
       "errors": []
     }
   ],
   "recent_signals": [
+    {
+      "id": "31ae04de6e8ea6ca",
+      "ts": "2026-05-11T19:49:00Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=48099785",
+      "type": "posting",
+      "company": {
+        "name": "MemberPress",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "MemberPress | AI Engineer | Remote | Full Time | www.memberpress.com We\u2019re looking for a sharp AI engineer with real experience shipping production LLM systems. We need you to own the AI core of a new product \u2014 building inference pipelines, writing evals, keeping costs in check, and making the syste",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology"
+      ]
+    },
+    {
+      "id": "5fa5f90e6c37b7b6",
+      "ts": "2026-05-11T19:00:57Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=48099220",
+      "type": "posting",
+      "company": {
+        "name": "Unknown",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Not hiring, but actively helping healthcare AI startups navigate compliance challenges. If anyone here is working on health AI and running into HIPAA compliance walls (PHI handling, audit requirements, BAAs with vendors), happy to share what I&#x27;ve learned from consulting with 12+ startups in thi",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology"
+      ]
+    },
+    {
+      "id": "d69163fa88642895",
+      "ts": "2026-05-11T18:57:27Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=48099184",
+      "type": "posting",
+      "company": {
+        "name": "Oaktree Capital",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": "CA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Oaktree Capital | Senior Software Engineer | Los Angeles, CA (HYBRID) &#x2F; Hyderabad, India | 1 LA + 2 Hyderabad I&#x27;m Julien \u2014 I lead Product Engineering at Oaktree. My background is tech, not finance: startups, Meta, data infrastructure companies. I&#x27;m hands-on and building a flat, small ",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology",
+        "CA"
+      ]
+    },
     {
       "id": "9d1c1f13e5cb94da",
       "ts": "2026-05-11T14:04:19Z",
@@ -2301,79 +2371,10 @@
         "hn",
         "technology"
       ]
-    },
-    {
-      "id": "c31e915733c77e49",
-      "ts": "2026-05-05T16:11:54Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48024495",
-      "type": "posting",
-      "company": {
-        "name": "Unknown",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Role looks super interesting and would love to work for Space tech, even though I have no specific experience in the domain.",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "0352b29b9d28d9e1",
-      "ts": "2026-05-05T16:09:22Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48024454",
-      "type": "posting",
-      "company": {
-        "name": "User of your tool here",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "User of your tool here - I think matcha is awesome. Wildly useful and would consider paying even though it just got released. Applied for Design and Full-stack roles :)",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "e97601664cf04996",
-      "ts": "2026-05-05T15:23:53Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48023815",
-      "type": "posting",
-      "company": {
-        "name": "I have a new role open on my team: Staff Engineer",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "I have a new role open on my team: Staff Engineer \u2013 GenAI. We\u2019re building an enterprise-grade Agentic AI platform that helps teams build, integrate, and operationalize GenAI solutions quickly, with minimal friction. The challenge is making it work in the real world: enterprise architecture, security",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
     }
   ],
   "sector_matrix": {
-    "generated_at": "2026-05-11T15:15:31.224717Z",
+    "generated_at": "2026-05-11T19:51:24.221371Z",
     "cells": [
       {
         "sector": "Technology",
@@ -2387,11 +2388,11 @@
       {
         "sector": "Technology",
         "signal_type": "posting",
-        "count_7d": 112,
-        "count_30d": 343,
+        "count_7d": 100,
+        "count_30d": 344,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 3.57
+        "z_score": 2.2
       },
       {
         "sector": "Technology",
@@ -2405,11 +2406,11 @@
       {
         "sector": "Technology",
         "signal_type": "funding",
-        "count_7d": 5,
-        "count_30d": 8,
+        "count_7d": 4,
+        "count_30d": 7,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 2.29
+        "z_score": 1.85
       },
       {
         "sector": "Technology",
@@ -2478,10 +2479,10 @@
         "sector": "Healthcare",
         "signal_type": "posting",
         "count_7d": 1,
-        "count_30d": 10,
+        "count_30d": 9,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": -0.87
+        "z_score": -0.76
       },
       {
         "sector": "Healthcare",
@@ -2657,11 +2658,11 @@
       {
         "sector": "Media",
         "signal_type": "posting",
-        "count_7d": 2,
+        "count_7d": 0,
         "count_30d": 7,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 0.29
+        "z_score": -1.28
       },
       {
         "sector": "Media",
