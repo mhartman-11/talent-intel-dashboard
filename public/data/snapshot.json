@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-11T12:06:23.154445Z",
+  "generated_at": "2026-05-11T15:15:31.224717Z",
   "next_ingest_at": null,
   "total_events": 603,
-  "events_7d": 172,
+  "events_7d": 162,
   "sources": [
     {
       "source": "layoffs_fyi",
@@ -10,8 +10,8 @@
       "url": "https://techcrunch.com/tag/layoffs/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-05-11T12:06:23.230668Z",
-      "last_attempted": "2026-05-11T12:06:23.230668Z",
+      "last_ok": "2026-05-11T15:15:31.475085Z",
+      "last_attempted": "2026-05-11T15:15:31.475085Z",
       "record_count": 11,
       "ok": true,
       "errors": []
@@ -22,8 +22,8 @@
       "url": "https://news.ycombinator.com",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-11T12:06:23.792124Z",
-      "last_attempted": "2026-05-11T12:06:23.792124Z",
+      "last_ok": "2026-05-11T15:15:31.928024Z",
+      "last_attempted": "2026-05-11T15:15:31.928024Z",
       "record_count": 474,
       "ok": true,
       "errors": []
@@ -34,8 +34,8 @@
       "url": "https://www.bls.gov/developers/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-11T12:06:24.717248Z",
-      "last_attempted": "2026-05-11T12:06:24.717248Z",
+      "last_ok": "2026-05-11T15:15:32.756361Z",
+      "last_attempted": "2026-05-11T15:15:32.756361Z",
       "record_count": 30,
       "ok": true,
       "errors": []
@@ -46,8 +46,8 @@
       "url": "https://www.sec.gov/cgi-bin/browse-edgar",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-05-11T12:06:25.140935Z",
-      "last_attempted": "2026-05-11T12:06:25.140935Z",
+      "last_ok": "2026-05-11T15:15:33.268224Z",
+      "last_attempted": "2026-05-11T15:15:33.268224Z",
       "record_count": 40,
       "ok": true,
       "errors": []
@@ -58,8 +58,8 @@
       "url": "https://www.bls.gov/ces/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-11T12:06:26.949904Z",
-      "last_attempted": "2026-05-11T12:06:26.949904Z",
+      "last_ok": "2026-05-11T15:15:34.610616Z",
+      "last_attempted": "2026-05-11T15:15:34.610616Z",
       "record_count": 48,
       "ok": true,
       "errors": []
@@ -67,13 +67,36 @@
   ],
   "recent_signals": [
     {
-      "id": "bfa952e748879002",
-      "ts": "2026-05-11T12:04:23Z",
+      "id": "9d1c1f13e5cb94da",
+      "ts": "2026-05-11T14:04:19Z",
       "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48093921",
+      "source_url": "https://news.ycombinator.com/item?id=48095175",
       "type": "posting",
       "company": {
-        "name": "Unknown",
+        "name": "Oxidian",
+        "ticker": null,
+        "industry": null,
+        "sector": "Finance",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Oxidian | https:&#x2F;&#x2F;www.oxidian.com | Remote (EU only) We&#x27;re doing to government software what challenger banks did to banking. We build critical systems for scientists and researchers, making sure public money is well invested. Our work involves high-performance Python for petabyte-sca",
+      "tags": [
+        "hiring",
+        "hn",
+        "finance"
+      ]
+    },
+    {
+      "id": "87b8d4bc033ea9fb",
+      "ts": "2026-05-11T13:47:54Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=48094962",
+      "type": "posting",
+      "company": {
+        "name": "KeyMe Locksmiths",
         "ticker": null,
         "industry": null,
         "sector": "Technology",
@@ -82,7 +105,7 @@
       },
       "magnitude": null,
       "unit": "jobs",
-      "raw_text": "Location: Taiwan (UTC+8) Remote: Remote (EU friendly, limited US&#x2F;Canada hours) Willing to relocate: No Languages: Ruby, JavaScript (ES6+), TypeScript, HTML&#x2F;CSS Frameworks: Ruby on Rails, StimulusJS, Tailwind CSS, Bootstrap Tools&#x2F;DevOps: PostgreSQL, Git&#x2F;GitHub, Gemini CLI, Heroku,",
+      "raw_text": "KeyMe Locksmiths | IT Sysadmin | Remote | key.me Fully automated self-service key duplicating kiosks can be found in over 7,000+ locations across the country in major retailers such as WalMart, Kroger, 7-Eleven, Menards, and many others. We&#x27;re hiring an IT Support Sysadmin to help manage and au",
       "tags": [
         "hiring",
         "hn",
@@ -2347,33 +2370,10 @@
         "hn",
         "technology"
       ]
-    },
-    {
-      "id": "e9f61d88cb6cadde",
-      "ts": "2026-05-05T14:57:11Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48023405",
-      "type": "posting",
-      "company": {
-        "name": "BrightCore",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "BrightCore | Founding Engineer | Dublin, Ireland (Hybrid, 2 days&#x2F;wk) | Full-time | \u20ac58\u201365k + 1.0\u20131.5% equity We&#x27;re a 3-cofounder gym&#x2F;fitness SaaS , closing a pre-seed. Hiring our first engineer to own: - NestJS&#x2F;Postgres backend (~70%) - Coral, our WhatsApp AI agent for member ret",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
     }
   ],
   "sector_matrix": {
-    "generated_at": "2026-05-11T12:06:23.154445Z",
+    "generated_at": "2026-05-11T15:15:31.224717Z",
     "cells": [
       {
         "sector": "Technology",
@@ -2387,11 +2387,11 @@
       {
         "sector": "Technology",
         "signal_type": "posting",
-        "count_7d": 122,
-        "count_30d": 344,
+        "count_7d": 112,
+        "count_30d": 343,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 4.66
+        "z_score": 3.57
       },
       {
         "sector": "Technology",
@@ -2433,10 +2433,10 @@
         "sector": "Finance",
         "signal_type": "posting",
         "count_7d": 2,
-        "count_30d": 8,
+        "count_30d": 9,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 0.1
+        "z_score": -0.07
       },
       {
         "sector": "Finance",
