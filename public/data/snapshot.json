@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-12T14:31:01.240372Z",
+  "generated_at": "2026-05-12T19:56:57.985202Z",
   "next_ingest_at": null,
   "total_events": 603,
-  "events_7d": 114,
+  "events_7d": 105,
   "sources": [
     {
       "source": "layoffs_fyi",
@@ -10,8 +10,8 @@
       "url": "https://techcrunch.com/tag/layoffs/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-05-12T14:31:01.322488Z",
-      "last_attempted": "2026-05-12T14:31:01.322488Z",
+      "last_ok": "2026-05-12T19:56:58.077695Z",
+      "last_attempted": "2026-05-12T19:56:58.077695Z",
       "record_count": 12,
       "ok": true,
       "errors": []
@@ -22,8 +22,8 @@
       "url": "https://news.ycombinator.com",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-12T14:31:01.803710Z",
-      "last_attempted": "2026-05-12T14:31:01.803710Z",
+      "last_ok": "2026-05-12T19:56:58.435018Z",
+      "last_attempted": "2026-05-12T19:56:58.435018Z",
       "record_count": 474,
       "ok": true,
       "errors": []
@@ -34,8 +34,8 @@
       "url": "https://www.bls.gov/developers/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-12T14:31:02.815965Z",
-      "last_attempted": "2026-05-12T14:31:02.815965Z",
+      "last_ok": "2026-05-12T19:56:59.351235Z",
+      "last_attempted": "2026-05-12T19:56:59.351235Z",
       "record_count": 30,
       "ok": true,
       "errors": []
@@ -46,8 +46,8 @@
       "url": "https://www.sec.gov/cgi-bin/browse-edgar",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-05-12T14:31:03.091416Z",
-      "last_attempted": "2026-05-12T14:31:03.091416Z",
+      "last_ok": "2026-05-12T19:56:59.607946Z",
+      "last_attempted": "2026-05-12T19:56:59.607946Z",
       "record_count": 39,
       "ok": true,
       "errors": []
@@ -58,14 +58,81 @@
       "url": "https://www.bls.gov/ces/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-12T14:31:05.392112Z",
-      "last_attempted": "2026-05-12T14:31:05.392112Z",
+      "last_ok": "2026-05-12T19:57:00.630461Z",
+      "last_attempted": "2026-05-12T19:57:00.630461Z",
       "record_count": 48,
       "ok": true,
       "errors": []
     }
   ],
   "recent_signals": [
+    {
+      "id": "303a9ef6bd0268f6",
+      "ts": "2026-05-12T19:14:47Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=48113023",
+      "type": "posting",
+      "company": {
+        "name": "Forage",
+        "ticker": null,
+        "industry": null,
+        "sector": "Finance",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Forage | Senior Mobile Engineer (React Native) | Hybrid NYC (2-3 days in office) | Full-time | $185,000 - $200,000 per year base | joinforage.com Forage is a payments company building the infrastructure for SNAP EBT online. About 1 in 8 Americans (over 40 million people) use SNAP to buy groceries, a",
+      "tags": [
+        "hiring",
+        "hn",
+        "finance"
+      ]
+    },
+    {
+      "id": "71d47152a522ddfc",
+      "ts": "2026-05-12T18:45:05Z",
+      "source": "org_moves",
+      "source_url": "https://techcrunch.com/2026/05/12/kevin-hartzs-a-just-closed-its-third-fund-with-450-million/",
+      "type": "funding",
+      "company": {
+        "name": "Kevin Hartz\u2019s A* just closed its third fund with $450 million",
+        "ticker": null,
+        "industry": null,
+        "sector": "Finance",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Kevin Hartz\u2019s A* just closed its third fund with $450 million",
+      "tags": [
+        "funding",
+        "finance"
+      ]
+    },
+    {
+      "id": "3636b5944d66c7e9",
+      "ts": "2026-05-12T17:36:34Z",
+      "source": "org_moves",
+      "source_url": "https://techcrunch.com/2026/05/12/anthropic-warns-investors-against-secondary-platforms-offering-access-to-its-shares/",
+      "type": "funding",
+      "company": {
+        "name": "Unknown",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Anthropic warns investors against secondary platforms offering access to its shares",
+      "tags": [
+        "funding",
+        "technology"
+      ]
+    },
     {
       "id": "85e0e8af3955d480",
       "ts": "2026-05-12T09:33:19Z",
@@ -381,7 +448,7 @@
       },
       "magnitude": null,
       "unit": "jobs",
-      "raw_text": "KeyMe Locksmiths | IT Sysadmin | Remote | key.me Fully automated self-service key duplicating kiosks can be found in over 7,000+ locations across the country in major retailers such as WalMart, Kroger, 7-Eleven, Menards, and many others. We&#x27;re hiring an IT Support Sysadmin to help manage and au",
+      "raw_text": "KeyMe Locksmiths | IT Support, Linux &#x2F; MacOS &#x2F; Windows | Remote | key.me Fully automated self-service key duplicating kiosks can be found in over 7,000+ locations across the country in major retailers such as WalMart, Kroger, 7-Eleven, Menards, and many others. We&#x27;re hiring an IT Supp",
       "tags": [
         "hiring",
         "hn",
@@ -2301,78 +2368,10 @@
         "hn",
         "other"
       ]
-    },
-    {
-      "id": "1e36f799eed24850",
-      "ts": "2026-05-05T21:40:40Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48028990",
-      "type": "posting",
-      "company": {
-        "name": "gentube",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "gentube | founding engineer | Toronto, Canada (eh) | full-time we crossed 100M+ creates with a handful of interns. Now we&#x27;re building the founding team. what you&#x27;ll own: - Drive create latency to near-zero, end-to-end - Cut cost per generation - Keep pipelines stable under load - Ship cont",
-      "tags": [
-        "hiring",
-        "hn",
-        "other"
-      ]
-    },
-    {
-      "id": "3146235bcc777ed1",
-      "ts": "2026-05-05T21:15:56Z",
-      "source": "org_moves",
-      "source_url": "https://techcrunch.com/2026/05/05/as-crypto-cools-a16zcrypto-raises-a-2-2b-fund/",
-      "type": "funding",
-      "company": {
-        "name": "As crypto cools, a16z crypto",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "As crypto cools, a16z crypto raises a $2.2B fund",
-      "tags": [
-        "funding",
-        "technology"
-      ]
-    },
-    {
-      "id": "fe5b5385bd1e2837",
-      "ts": "2026-05-05T20:47:14Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48028290",
-      "type": "posting",
-      "company": {
-        "name": "Unknown",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "This is probably more accurately described as a &quot;hybrid&quot; position, rather than &quot;remote&quot;, as it does require at least occasional on-site presence.",
-      "tags": [
-        "hiring",
-        "hn",
-        "other"
-      ]
     }
   ],
   "sector_matrix": {
-    "generated_at": "2026-05-12T14:31:01.240372Z",
+    "generated_at": "2026-05-12T19:56:57.985202Z",
     "cells": [
       {
         "sector": "Technology",
@@ -2386,11 +2385,11 @@
       {
         "sector": "Technology",
         "signal_type": "posting",
-        "count_7d": 73,
-        "count_30d": 340,
+        "count_7d": 66,
+        "count_30d": 339,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": -0.71
+        "z_score": -1.47
       },
       {
         "sector": "Technology",
@@ -2404,11 +2403,11 @@
       {
         "sector": "Technology",
         "signal_type": "funding",
-        "count_7d": 5,
+        "count_7d": 6,
         "count_30d": 7,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 2.63
+        "z_score": 3.42
       },
       {
         "sector": "Technology",
@@ -2431,11 +2430,11 @@
       {
         "sector": "Finance",
         "signal_type": "posting",
-        "count_7d": 1,
-        "count_30d": 9,
+        "count_7d": 2,
+        "count_30d": 10,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": -0.76
+        "z_score": -0.22
       },
       {
         "sector": "Finance",
@@ -2449,11 +2448,11 @@
       {
         "sector": "Finance",
         "signal_type": "funding",
-        "count_7d": 1,
+        "count_7d": 2,
         "count_30d": 2,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 0.53
+        "z_score": 1.53
       },
       {
         "sector": "Finance",
