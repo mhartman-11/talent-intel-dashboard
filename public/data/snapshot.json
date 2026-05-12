@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-11T19:51:24.221371Z",
+  "generated_at": "2026-05-12T03:32:03.058705Z",
   "next_ingest_at": null,
-  "total_events": 602,
-  "events_7d": 141,
+  "total_events": 603,
+  "events_7d": 125,
   "sources": [
     {
       "source": "layoffs_fyi",
@@ -10,9 +10,9 @@
       "url": "https://techcrunch.com/tag/layoffs/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-05-11T19:51:24.314577Z",
-      "last_attempted": "2026-05-11T19:51:24.314577Z",
-      "record_count": 11,
+      "last_ok": "2026-05-12T03:32:03.162061Z",
+      "last_attempted": "2026-05-12T03:32:03.162061Z",
+      "record_count": 12,
       "ok": true,
       "errors": []
     },
@@ -22,8 +22,8 @@
       "url": "https://news.ycombinator.com",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-11T19:51:24.740564Z",
-      "last_attempted": "2026-05-11T19:51:24.740564Z",
+      "last_ok": "2026-05-12T03:32:03.732299Z",
+      "last_attempted": "2026-05-12T03:32:03.732299Z",
       "record_count": 474,
       "ok": true,
       "errors": []
@@ -34,8 +34,8 @@
       "url": "https://www.bls.gov/developers/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-11T19:51:25.837740Z",
-      "last_attempted": "2026-05-11T19:51:25.837740Z",
+      "last_ok": "2026-05-12T03:32:04.484157Z",
+      "last_attempted": "2026-05-12T03:32:04.484157Z",
       "record_count": 30,
       "ok": true,
       "errors": []
@@ -46,8 +46,8 @@
       "url": "https://www.sec.gov/cgi-bin/browse-edgar",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-05-11T19:51:26.483396Z",
-      "last_attempted": "2026-05-11T19:51:26.483396Z",
+      "last_ok": "2026-05-12T03:32:04.805734Z",
+      "last_attempted": "2026-05-12T03:32:04.805734Z",
       "record_count": 39,
       "ok": true,
       "errors": []
@@ -58,14 +58,128 @@
       "url": "https://www.bls.gov/ces/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-11T19:51:26.762313Z",
-      "last_attempted": "2026-05-11T19:51:26.762313Z",
+      "last_ok": "2026-05-12T03:32:06.687892Z",
+      "last_attempted": "2026-05-12T03:32:06.687892Z",
       "record_count": 48,
       "ok": true,
       "errors": []
     }
   ],
   "recent_signals": [
+    {
+      "id": "bbc5240d867b3485",
+      "ts": "2026-05-12T00:09:01Z",
+      "source": "org_moves",
+      "source_url": "https://techcrunch.com/2026/05/11/riding-an-ai-rally-robinhood-preps-second-retail-venture-ipo/",
+      "type": "funding",
+      "company": {
+        "name": "Riding an AI rally, Robinhood preps second retail venture IPO",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Riding an AI rally, Robinhood preps second retail venture IPO",
+      "tags": [
+        "funding",
+        "technology"
+      ]
+    },
+    {
+      "id": "7dba0c99e960a878",
+      "ts": "2026-05-11T23:32:00Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=48102189",
+      "type": "posting",
+      "company": {
+        "name": "Revieve",
+        "ticker": null,
+        "industry": null,
+        "sector": "CPG",
+        "hq_region": "AR",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Revieve | Product Engineer | Remote (Helsinki HQ) | Full-time | Contractor&#x2F;Vendor Revieve builds AI-powered personalization for 120+ beauty brands across 40+ countries \u2014 think skin analysis, AR try-on, and recommendation engines used by some of the world&#x27;s largest retailers. We&#x27;re pro",
+      "tags": [
+        "hiring",
+        "hn",
+        "cpg",
+        "AR"
+      ]
+    },
+    {
+      "id": "87fa4912aa93f742",
+      "ts": "2026-05-11T23:04:10Z",
+      "source": "layoffs_fyi",
+      "source_url": "https://techcrunch.com/2026/05/11/gm-just-laid-off-hundreds-of-it-workers-to-hire-those-with-stronger-ai-skills/",
+      "type": "layoff",
+      "company": {
+        "name": "GM just",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "GM just laid off hundreds of IT workers to hire those with stronger AI skills",
+      "tags": [
+        "layoff",
+        "technology"
+      ]
+    },
+    {
+      "id": "ab32fbd8493be745",
+      "ts": "2026-05-11T21:28:41Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=48100909",
+      "type": "posting",
+      "company": {
+        "name": "Unknown",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Hi, is there a way to get in touch to learn more of this role and others listed on your website? Also, what&#x27;s the salary range?",
+      "tags": [
+        "hiring",
+        "hn",
+        "other"
+      ]
+    },
+    {
+      "id": "97ca5aa5d481ae23",
+      "ts": "2026-05-11T20:56:11Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=48100555",
+      "type": "posting",
+      "company": {
+        "name": "Unknown",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Quite questionable to see the same job post over years. No new reviews anywhere tho&#x27;.",
+      "tags": [
+        "hiring",
+        "hn",
+        "other"
+      ]
+    },
     {
       "id": "31ae04de6e8ea6ca",
       "ts": "2026-05-11T19:49:00Z",
@@ -2256,143 +2370,28 @@
         "hn",
         "technology"
       ]
-    },
-    {
-      "id": "289254fc6a3569c0",
-      "ts": "2026-05-05T18:00:36Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48026144",
-      "type": "posting",
-      "company": {
-        "name": "Unknown",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "BetterDB ( https:&#x2F;&#x2F;betterdb.com ) ( https:&#x2F;&#x2F;github.com&#x2F;BetterDB-inc ) | Founding Engineer | Remote | Full-time BetterDB is building the tooling ecosystem for Valkey, the high-performance Redis fork backed by AWS, Google, and Oracle. We&#x27;re starting with observability \u2014 h",
-      "tags": [
-        "hiring",
-        "hn",
-        "other"
-      ]
-    },
-    {
-      "id": "57be53928a8b7084",
-      "ts": "2026-05-05T17:39:32Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48025838",
-      "type": "posting",
-      "company": {
-        "name": "Hello Is 5+ years the hard requirement? I am not able to attempt the test.",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Hello Is 5+ years the hard requirement? I am not able to attempt the test.",
-      "tags": [
-        "hiring",
-        "hn",
-        "other"
-      ]
-    },
-    {
-      "id": "aa49b8bd57092770",
-      "ts": "2026-05-05T17:04:10Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48025305",
-      "type": "posting",
-      "company": {
-        "name": "Thank you for asking! That depends on the role",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Thank you for asking! That depends on the role - some of them have specific subject matter requirements listed in the job descriptions (for instance a deep knowledge of computational geometry), though not all.",
-      "tags": [
-        "hiring",
-        "hn",
-        "other"
-      ]
-    },
-    {
-      "id": "8967f0baf2a99246",
-      "ts": "2026-05-05T16:56:03Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48025161",
-      "type": "posting",
-      "company": {
-        "name": "oops. Yep thank you. Will delete here.",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "oops. Yep thank you. Will delete here.",
-      "tags": [
-        "hiring",
-        "hn",
-        "other"
-      ]
-    },
-    {
-      "id": "18f009e4c2bc462f",
-      "ts": "2026-05-05T16:50:22Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48025080",
-      "type": "posting",
-      "company": {
-        "name": "Unknown",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Great thread, really appreciate seeing clear hiring info like this, especially with remote&#x2F;onsite details upfront. Makes it much easier for people to actually apply instead of guessing.",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
     }
   ],
   "sector_matrix": {
-    "generated_at": "2026-05-11T19:51:24.221371Z",
+    "generated_at": "2026-05-12T03:32:03.058705Z",
     "cells": [
       {
         "sector": "Technology",
         "signal_type": "layoff",
-        "count_7d": 2,
-        "count_30d": 4,
+        "count_7d": 3,
+        "count_30d": 5,
         "magnitude_7d": 1100.0,
         "magnitude_30d": null,
-        "z_score": 1.07
+        "z_score": 1.7
       },
       {
         "sector": "Technology",
         "signal_type": "posting",
-        "count_7d": 100,
-        "count_30d": 344,
+        "count_7d": 81,
+        "count_30d": 341,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 2.2
+        "z_score": 0.16
       },
       {
         "sector": "Technology",
@@ -2406,11 +2405,11 @@
       {
         "sector": "Technology",
         "signal_type": "funding",
-        "count_7d": 4,
+        "count_7d": 5,
         "count_30d": 7,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 1.85
+        "z_score": 2.63
       },
       {
         "sector": "Technology",
@@ -2523,11 +2522,11 @@
       {
         "sector": "CPG",
         "signal_type": "posting",
-        "count_7d": 0,
-        "count_30d": 1,
+        "count_7d": 1,
+        "count_30d": 2,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": -0.23
+        "z_score": 0.53
       },
       {
         "sector": "CPG",
