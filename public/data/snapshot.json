@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-12T08:44:00.655067Z",
+  "generated_at": "2026-05-12T11:17:02.479072Z",
   "next_ingest_at": null,
   "total_events": 603,
-  "events_7d": 125,
+  "events_7d": 120,
   "sources": [
     {
       "source": "layoffs_fyi",
@@ -10,8 +10,8 @@
       "url": "https://techcrunch.com/tag/layoffs/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-05-12T08:44:00.740681Z",
-      "last_attempted": "2026-05-12T08:44:00.740681Z",
+      "last_ok": "2026-05-12T11:17:02.566677Z",
+      "last_attempted": "2026-05-12T11:17:02.566677Z",
       "record_count": 12,
       "ok": true,
       "errors": []
@@ -22,8 +22,8 @@
       "url": "https://news.ycombinator.com",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-12T08:44:01.213333Z",
-      "last_attempted": "2026-05-12T08:44:01.213333Z",
+      "last_ok": "2026-05-12T11:17:02.949637Z",
+      "last_attempted": "2026-05-12T11:17:02.949637Z",
       "record_count": 474,
       "ok": true,
       "errors": []
@@ -34,8 +34,8 @@
       "url": "https://www.bls.gov/developers/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-12T08:44:03.531546Z",
-      "last_attempted": "2026-05-12T08:44:03.531546Z",
+      "last_ok": "2026-05-12T11:17:03.805577Z",
+      "last_attempted": "2026-05-12T11:17:03.805577Z",
       "record_count": 30,
       "ok": true,
       "errors": []
@@ -46,8 +46,8 @@
       "url": "https://www.sec.gov/cgi-bin/browse-edgar",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-05-12T08:44:04.240301Z",
-      "last_attempted": "2026-05-12T08:44:04.240301Z",
+      "last_ok": "2026-05-12T11:17:04.138066Z",
+      "last_attempted": "2026-05-12T11:17:04.138066Z",
       "record_count": 39,
       "ok": true,
       "errors": []
@@ -58,14 +58,37 @@
       "url": "https://www.bls.gov/ces/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-12T08:44:06.431732Z",
-      "last_attempted": "2026-05-12T08:44:06.431732Z",
+      "last_ok": "2026-05-12T11:17:05.654336Z",
+      "last_attempted": "2026-05-12T11:17:05.654336Z",
       "record_count": 48,
       "ok": true,
       "errors": []
     }
   ],
   "recent_signals": [
+    {
+      "id": "85e0e8af3955d480",
+      "ts": "2026-05-12T09:33:19Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=48106033",
+      "type": "posting",
+      "company": {
+        "name": "Unknown",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "The application link is broken and IIRC that\u2019s been the case for this job post each time it\u2019s posted. Generic rejection letter also\u2026 IMO not worth applying.",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology"
+      ]
+    },
     {
       "id": "8e4561c79e7ab218",
       "ts": "2026-05-12T08:42:00Z",
@@ -2346,34 +2369,10 @@
         "hn",
         "other"
       ]
-    },
-    {
-      "id": "608e7f829d6878d8",
-      "ts": "2026-05-05T20:14:31Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48027873",
-      "type": "posting",
-      "company": {
-        "name": "Unknown",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": "MA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Global Partners \u2014 Senior Director, Data Engineering Location: Waltham, MA \u2014 Pay Range $182,300.00 - $291,500.00 Fortune 500 energy company (fuel distribution, terminals, retail). Hiring a Senior Director, Data Engineering to lead our data platform (Snowflake, dbt, Dagster, DataHub), team, and strate",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology",
-        "MA"
-      ]
     }
   ],
   "sector_matrix": {
-    "generated_at": "2026-05-12T08:44:00.655067Z",
+    "generated_at": "2026-05-12T11:17:02.479072Z",
     "cells": [
       {
         "sector": "Technology",
@@ -2387,11 +2386,11 @@
       {
         "sector": "Technology",
         "signal_type": "posting",
-        "count_7d": 80,
+        "count_7d": 77,
         "count_30d": 340,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 0.07
+        "z_score": -0.26
       },
       {
         "sector": "Technology",
