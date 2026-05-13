@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-12T19:56:57.985202Z",
+  "generated_at": "2026-05-13T03:39:25.660838Z",
   "next_ingest_at": null,
-  "total_events": 603,
-  "events_7d": 105,
+  "total_events": 602,
+  "events_7d": 96,
   "sources": [
     {
       "source": "layoffs_fyi",
@@ -10,8 +10,8 @@
       "url": "https://techcrunch.com/tag/layoffs/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-05-12T19:56:58.077695Z",
-      "last_attempted": "2026-05-12T19:56:58.077695Z",
+      "last_ok": "2026-05-13T03:39:25.745892Z",
+      "last_attempted": "2026-05-13T03:39:25.745892Z",
       "record_count": 12,
       "ok": true,
       "errors": []
@@ -22,8 +22,8 @@
       "url": "https://news.ycombinator.com",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-12T19:56:58.435018Z",
-      "last_attempted": "2026-05-12T19:56:58.435018Z",
+      "last_ok": "2026-05-13T03:39:26.302589Z",
+      "last_attempted": "2026-05-13T03:39:26.302589Z",
       "record_count": 474,
       "ok": true,
       "errors": []
@@ -34,8 +34,8 @@
       "url": "https://www.bls.gov/developers/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-12T19:56:59.351235Z",
-      "last_attempted": "2026-05-12T19:56:59.351235Z",
+      "last_ok": "2026-05-13T03:39:27.354921Z",
+      "last_attempted": "2026-05-13T03:39:27.354921Z",
       "record_count": 30,
       "ok": true,
       "errors": []
@@ -46,9 +46,9 @@
       "url": "https://www.sec.gov/cgi-bin/browse-edgar",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-05-12T19:56:59.607946Z",
-      "last_attempted": "2026-05-12T19:56:59.607946Z",
-      "record_count": 39,
+      "last_ok": "2026-05-13T03:39:27.745794Z",
+      "last_attempted": "2026-05-13T03:39:27.745794Z",
+      "record_count": 38,
       "ok": true,
       "errors": []
     },
@@ -58,14 +58,83 @@
       "url": "https://www.bls.gov/ces/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-12T19:57:00.630461Z",
-      "last_attempted": "2026-05-12T19:57:00.630461Z",
+      "last_ok": "2026-05-13T03:39:28.347490Z",
+      "last_attempted": "2026-05-13T03:39:28.347490Z",
       "record_count": 48,
       "ok": true,
       "errors": []
     }
   ],
   "recent_signals": [
+    {
+      "id": "0f5269844931a3d2",
+      "ts": "2026-05-12T23:27:39Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=48115916",
+      "type": "posting",
+      "company": {
+        "name": "Great to hear, will submit my application soon :)",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Great to hear, will submit my application soon :)",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology"
+      ]
+    },
+    {
+      "id": "65850501f8e40d11",
+      "ts": "2026-05-12T23:13:18Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=48115827",
+      "type": "posting",
+      "company": {
+        "name": "Unknown",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Update here, May 13, we&#x27;re still taking submissions. I have done at least a quick scan personally through all the resumes that were submitted in the Google Form through May 11 (or, tried at least -- _several_ of you have permissions issues on the link you sent, esp. if Google Docs are involved)",
+      "tags": [
+        "hiring",
+        "hn",
+        "other"
+      ]
+    },
+    {
+      "id": "45901612f10a6781",
+      "ts": "2026-05-12T22:54:29Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=48115663",
+      "type": "posting",
+      "company": {
+        "name": "Unknown",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "I mean, feel free to throw your name in our system by submitting, but yeah, the vast majority of our work is directly for our clients, and right now in May 2026, most of our clients are states side and most like at least _the idea_ that they could fly somebody on our staff out for an onsite with the",
+      "tags": [
+        "hiring",
+        "hn",
+        "other"
+      ]
+    },
     {
       "id": "303a9ef6bd0268f6",
       "ts": "2026-05-12T19:14:47Z",
@@ -96,29 +165,7 @@
       "source_url": "https://techcrunch.com/2026/05/12/kevin-hartzs-a-just-closed-its-third-fund-with-450-million/",
       "type": "funding",
       "company": {
-        "name": "Kevin Hartz\u2019s A* just closed its third fund with $450 million",
-        "ticker": null,
-        "industry": null,
-        "sector": "Finance",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Kevin Hartz\u2019s A* just closed its third fund with $450 million",
-      "tags": [
-        "funding",
-        "finance"
-      ]
-    },
-    {
-      "id": "3636b5944d66c7e9",
-      "ts": "2026-05-12T17:36:34Z",
-      "source": "org_moves",
-      "source_url": "https://techcrunch.com/2026/05/12/anthropic-warns-investors-against-secondary-platforms-offering-access-to-its-shares/",
-      "type": "funding",
-      "company": {
-        "name": "Unknown",
+        "name": "Kevin Hartz\u2019s A* just closed its third fund with $450M",
         "ticker": null,
         "industry": null,
         "sector": "Technology",
@@ -127,7 +174,7 @@
       },
       "magnitude": null,
       "unit": null,
-      "raw_text": "Anthropic warns investors against secondary platforms offering access to its shares",
+      "raw_text": "Kevin Hartz\u2019s A* just closed its third fund with $450M",
       "tags": [
         "funding",
         "technology"
@@ -2322,56 +2369,10 @@
         "hn",
         "technology"
       ]
-    },
-    {
-      "id": "70c687fc44dd5a6c",
-      "ts": "2026-05-05T21:55:48Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48029175",
-      "type": "posting",
-      "company": {
-        "name": "which gentube is it (com, app, ai)",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "which gentube is it (com, app, ai)",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "1ec37afcf8e82b33",
-      "ts": "2026-05-05T21:43:29Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48029025",
-      "type": "posting",
-      "company": {
-        "name": "Are you open to remote outside the US? I&#x27;m in Europe",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Are you open to remote outside the US? I&#x27;m in Europe",
-      "tags": [
-        "hiring",
-        "hn",
-        "other"
-      ]
     }
   ],
   "sector_matrix": {
-    "generated_at": "2026-05-12T19:56:57.985202Z",
+    "generated_at": "2026-05-13T03:39:25.660838Z",
     "cells": [
       {
         "sector": "Technology",
@@ -2385,11 +2386,11 @@
       {
         "sector": "Technology",
         "signal_type": "posting",
-        "count_7d": 66,
-        "count_30d": 339,
+        "count_7d": 60,
+        "count_30d": 338,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": -1.47
+        "z_score": -2.12
       },
       {
         "sector": "Technology",
@@ -2403,11 +2404,11 @@
       {
         "sector": "Technology",
         "signal_type": "funding",
-        "count_7d": 6,
+        "count_7d": 5,
         "count_30d": 7,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 3.42
+        "z_score": 2.63
       },
       {
         "sector": "Technology",
@@ -2448,11 +2449,11 @@
       {
         "sector": "Finance",
         "signal_type": "funding",
-        "count_7d": 2,
-        "count_30d": 2,
+        "count_7d": 1,
+        "count_30d": 1,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 1.53
+        "z_score": 0.77
       },
       {
         "sector": "Finance",
@@ -2476,10 +2477,10 @@
         "sector": "Healthcare",
         "signal_type": "posting",
         "count_7d": 1,
-        "count_30d": 9,
+        "count_30d": 8,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": -0.76
+        "z_score": -0.63
       },
       {
         "sector": "Healthcare",
