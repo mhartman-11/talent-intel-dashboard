@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-13T14:40:24.305756Z",
+  "generated_at": "2026-05-13T19:58:43.807513Z",
   "next_ingest_at": null,
   "total_events": 602,
-  "events_7d": 89,
+  "events_7d": 80,
   "sources": [
     {
       "source": "layoffs_fyi",
@@ -10,8 +10,8 @@
       "url": "https://techcrunch.com/tag/layoffs/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-05-13T14:40:24.498246Z",
-      "last_attempted": "2026-05-13T14:40:24.498246Z",
+      "last_ok": "2026-05-13T19:58:43.898460Z",
+      "last_attempted": "2026-05-13T19:58:43.898460Z",
       "record_count": 12,
       "ok": true,
       "errors": []
@@ -22,8 +22,8 @@
       "url": "https://news.ycombinator.com",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-13T14:40:25.160304Z",
-      "last_attempted": "2026-05-13T14:40:25.160304Z",
+      "last_ok": "2026-05-13T19:58:44.255524Z",
+      "last_attempted": "2026-05-13T19:58:44.255524Z",
       "record_count": 473,
       "ok": true,
       "errors": []
@@ -34,8 +34,8 @@
       "url": "https://www.bls.gov/developers/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-13T14:40:26.196312Z",
-      "last_attempted": "2026-05-13T14:40:26.196312Z",
+      "last_ok": "2026-05-13T19:58:46.854806Z",
+      "last_attempted": "2026-05-13T19:58:46.854806Z",
       "record_count": 30,
       "ok": true,
       "errors": []
@@ -46,8 +46,8 @@
       "url": "https://www.sec.gov/cgi-bin/browse-edgar",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-05-13T14:40:26.807866Z",
-      "last_attempted": "2026-05-13T14:40:26.807866Z",
+      "last_ok": "2026-05-13T19:58:47.144026Z",
+      "last_attempted": "2026-05-13T19:58:47.144026Z",
       "record_count": 39,
       "ok": true,
       "errors": []
@@ -58,14 +58,37 @@
       "url": "https://www.bls.gov/ces/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-13T14:40:27.600321Z",
-      "last_attempted": "2026-05-13T14:40:27.600321Z",
+      "last_ok": "2026-05-13T19:58:48.932984Z",
+      "last_attempted": "2026-05-13T19:58:48.932984Z",
       "record_count": 48,
       "ok": true,
       "errors": []
     }
   ],
   "recent_signals": [
+    {
+      "id": "cf1eb4e366572db4",
+      "ts": "2026-05-13T15:20:48Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=48123123",
+      "type": "posting",
+      "company": {
+        "name": "Furtim Modus",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Furtim Modus | Hiring Java Developer (Full-Time) | NYC (HYBRID) | $125K-$200K + equity | https:&#x2F;&#x2F;www.furtimmodus.com&#x2F;software-engineer We are currently seeking a talented and driven Java Developer to join our team full-time. This is an exciting opportunity to contribute your skills an",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology"
+      ]
+    },
     {
       "id": "bc5eef25762b2a32",
       "ts": "2026-05-13T14:00:00Z",
@@ -2342,34 +2365,10 @@
         "hn",
         "technology"
       ]
-    },
-    {
-      "id": "be58d4aa10490e59",
-      "ts": "2026-05-06T04:47:29Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48032288",
-      "type": "posting",
-      "company": {
-        "name": "Aerofex",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": "CA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Aerofex | Senior Flight Software Integration Engineer (Ardupilot &#x2F; Simulink) | Remote &#x2F; Los Angeles | Contract Aerofex is a rapidly-growing aerospace startup developing next-generation thrust vectoring and VTOL propulsion technology for manned and unmanned platforms. We are seeking an expe",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology",
-        "CA"
-      ]
     }
   ],
   "sector_matrix": {
-    "generated_at": "2026-05-13T14:40:24.305756Z",
+    "generated_at": "2026-05-13T19:58:43.807513Z",
     "cells": [
       {
         "sector": "Technology",
@@ -2383,11 +2382,11 @@
       {
         "sector": "Technology",
         "signal_type": "posting",
-        "count_7d": 54,
+        "count_7d": 47,
         "count_30d": 336,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": -2.76
+        "z_score": -3.55
       },
       {
         "sector": "Technology",
@@ -2401,11 +2400,11 @@
       {
         "sector": "Technology",
         "signal_type": "funding",
-        "count_7d": 5,
+        "count_7d": 4,
         "count_30d": 7,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 2.63
+        "z_score": 1.85
       },
       {
         "sector": "Technology",
