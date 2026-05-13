@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-13T11:28:09.583172Z",
+  "generated_at": "2026-05-13T14:40:24.305756Z",
   "next_ingest_at": null,
-  "total_events": 601,
-  "events_7d": 90,
+  "total_events": 602,
+  "events_7d": 89,
   "sources": [
     {
       "source": "layoffs_fyi",
@@ -10,8 +10,8 @@
       "url": "https://techcrunch.com/tag/layoffs/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-05-13T11:28:09.674473Z",
-      "last_attempted": "2026-05-13T11:28:09.674473Z",
+      "last_ok": "2026-05-13T14:40:24.498246Z",
+      "last_attempted": "2026-05-13T14:40:24.498246Z",
       "record_count": 12,
       "ok": true,
       "errors": []
@@ -22,8 +22,8 @@
       "url": "https://news.ycombinator.com",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-13T11:28:10.086095Z",
-      "last_attempted": "2026-05-13T11:28:10.086095Z",
+      "last_ok": "2026-05-13T14:40:25.160304Z",
+      "last_attempted": "2026-05-13T14:40:25.160304Z",
       "record_count": 473,
       "ok": true,
       "errors": []
@@ -34,8 +34,8 @@
       "url": "https://www.bls.gov/developers/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-13T11:28:11.054006Z",
-      "last_attempted": "2026-05-13T11:28:11.054006Z",
+      "last_ok": "2026-05-13T14:40:26.196312Z",
+      "last_attempted": "2026-05-13T14:40:26.196312Z",
       "record_count": 30,
       "ok": true,
       "errors": []
@@ -46,9 +46,9 @@
       "url": "https://www.sec.gov/cgi-bin/browse-edgar",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-05-13T11:28:11.332086Z",
-      "last_attempted": "2026-05-13T11:28:11.332086Z",
-      "record_count": 38,
+      "last_ok": "2026-05-13T14:40:26.807866Z",
+      "last_attempted": "2026-05-13T14:40:26.807866Z",
+      "record_count": 39,
       "ok": true,
       "errors": []
     },
@@ -58,14 +58,82 @@
       "url": "https://www.bls.gov/ces/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-13T11:28:13.133319Z",
-      "last_attempted": "2026-05-13T11:28:13.133319Z",
+      "last_ok": "2026-05-13T14:40:27.600321Z",
+      "last_attempted": "2026-05-13T14:40:27.600321Z",
       "record_count": 48,
       "ok": true,
       "errors": []
     }
   ],
   "recent_signals": [
+    {
+      "id": "bc5eef25762b2a32",
+      "ts": "2026-05-13T14:00:00Z",
+      "source": "org_moves",
+      "source_url": "https://techcrunch.com/2026/05/13/introducing-the-6-stages-of-techcrunch-disrupt-2026-built-for-todays-tougher-startup-market/",
+      "type": "exec_move",
+      "company": {
+        "name": "Unknown",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Introducing the 6 stages at TechCrunch Disrupt 2026 \u2014 built for today\u2019s tougher startup market",
+      "tags": [
+        "exec_move",
+        "technology"
+      ]
+    },
+    {
+      "id": "d6aa725942997bed",
+      "ts": "2026-05-13T13:34:59Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=48121719",
+      "type": "posting",
+      "company": {
+        "name": "SalesJack",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "SalesJack | Solutions Engineer | Toronto, ON, Canada | HYBRID | FULL-TIME SalesJack is a sales software platform (CRM, Prospecting Service) for independent businesses in the construction supply industry. We are growing quickly and profitably. Our engineering team is growing in Canada. As a Solutions",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology"
+      ]
+    },
+    {
+      "id": "6f68984936090955",
+      "ts": "2026-05-13T12:46:52Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=48121203",
+      "type": "posting",
+      "company": {
+        "name": "Cool job. Wish I was an EU citizen.",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Cool job. Wish I was an EU citizen.",
+      "tags": [
+        "hiring",
+        "hn",
+        "other"
+      ]
+    },
     {
       "id": "027207a103b579a3",
       "ts": "2026-05-13T07:30:03Z",
@@ -2298,81 +2366,10 @@
         "technology",
         "CA"
       ]
-    },
-    {
-      "id": "beb6f8669a151bc9",
-      "ts": "2026-05-05T23:48:18Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48030333",
-      "type": "posting",
-      "company": {
-        "name": "Rad AI Multiple roles",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": "CA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Rad AI Multiple roles | On-site San Francisco | Full-time | https:&#x2F;&#x2F;www.radai.com&#x2F; We&#x27;re rapidly staffing-up our new office in San Francisco at 2nd &amp; Market! Empowering physicians with best-in-class AI radiology solutions to save time, reduce burnout, and improve patient care",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology",
-        "CA"
-      ]
-    },
-    {
-      "id": "4c8c86110a8cc393",
-      "ts": "2026-05-05T23:11:07Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48029980",
-      "type": "posting",
-      "company": {
-        "name": "Unknown",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "How do you (or any other similar poster) expect candidates to lookup this job post? When it comes to engineering, please mention specific tech, like you mentioned in the follow-up comment. People lookup for specific tech keywords, be it programming languages or frameworks, not just &quot;Engineer&qu",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "737573c5d5e0d1b9",
-      "ts": "2026-05-05T22:02:45Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48029264",
-      "type": "posting",
-      "company": {
-        "name": "Unknown",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": "DC",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Hi, do you have an email contact to reach out to in regards to your Washington, DC location and remote roles?",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology",
-        "DC"
-      ]
     }
   ],
   "sector_matrix": {
-    "generated_at": "2026-05-13T11:28:09.583172Z",
+    "generated_at": "2026-05-13T14:40:24.305756Z",
     "cells": [
       {
         "sector": "Technology",
@@ -2386,20 +2383,20 @@
       {
         "sector": "Technology",
         "signal_type": "posting",
-        "count_7d": 55,
-        "count_30d": 337,
+        "count_7d": 54,
+        "count_30d": 336,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": -2.67
+        "z_score": -2.76
       },
       {
         "sector": "Technology",
         "signal_type": "exec_move",
-        "count_7d": 0,
-        "count_30d": 0,
+        "count_7d": 1,
+        "count_30d": 1,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": null
+        "z_score": 0.77
       },
       {
         "sector": "Technology",
