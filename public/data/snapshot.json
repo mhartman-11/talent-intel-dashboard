@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-13T03:39:25.660838Z",
+  "generated_at": "2026-05-13T08:47:52.280666Z",
   "next_ingest_at": null,
-  "total_events": 602,
-  "events_7d": 96,
+  "total_events": 601,
+  "events_7d": 94,
   "sources": [
     {
       "source": "layoffs_fyi",
@@ -10,8 +10,8 @@
       "url": "https://techcrunch.com/tag/layoffs/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-05-13T03:39:25.745892Z",
-      "last_attempted": "2026-05-13T03:39:25.745892Z",
+      "last_ok": "2026-05-13T08:47:52.363817Z",
+      "last_attempted": "2026-05-13T08:47:52.363817Z",
       "record_count": 12,
       "ok": true,
       "errors": []
@@ -22,9 +22,9 @@
       "url": "https://news.ycombinator.com",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-13T03:39:26.302589Z",
-      "last_attempted": "2026-05-13T03:39:26.302589Z",
-      "record_count": 474,
+      "last_ok": "2026-05-13T08:47:52.889838Z",
+      "last_attempted": "2026-05-13T08:47:52.889838Z",
+      "record_count": 473,
       "ok": true,
       "errors": []
     },
@@ -34,8 +34,8 @@
       "url": "https://www.bls.gov/developers/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-13T03:39:27.354921Z",
-      "last_attempted": "2026-05-13T03:39:27.354921Z",
+      "last_ok": "2026-05-13T08:47:53.743861Z",
+      "last_attempted": "2026-05-13T08:47:53.743861Z",
       "record_count": 30,
       "ok": true,
       "errors": []
@@ -46,8 +46,8 @@
       "url": "https://www.sec.gov/cgi-bin/browse-edgar",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-05-13T03:39:27.745794Z",
-      "last_attempted": "2026-05-13T03:39:27.745794Z",
+      "last_ok": "2026-05-13T08:47:54.180697Z",
+      "last_attempted": "2026-05-13T08:47:54.180697Z",
       "record_count": 38,
       "ok": true,
       "errors": []
@@ -58,14 +58,37 @@
       "url": "https://www.bls.gov/ces/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-13T03:39:28.347490Z",
-      "last_attempted": "2026-05-13T03:39:28.347490Z",
+      "last_ok": "2026-05-13T08:47:54.338327Z",
+      "last_attempted": "2026-05-13T08:47:54.338327Z",
       "record_count": 48,
       "ok": true,
       "errors": []
     }
   ],
   "recent_signals": [
+    {
+      "id": "027207a103b579a3",
+      "ts": "2026-05-13T07:30:03Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=48118887",
+      "type": "posting",
+      "company": {
+        "name": "Can you share details about the role or the team?",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Can you share details about the role or the team?",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology"
+      ]
+    },
     {
       "id": "0f5269844931a3d2",
       "ts": "2026-05-12T23:27:39Z",
@@ -2346,33 +2369,10 @@
         "technology",
         "DC"
       ]
-    },
-    {
-      "id": "d1e640386fa2a4e7",
-      "ts": "2026-05-05T21:56:34Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48029186",
-      "type": "posting",
-      "company": {
-        "name": "the app",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "the app-est of them all",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
     }
   ],
   "sector_matrix": {
-    "generated_at": "2026-05-13T03:39:25.660838Z",
+    "generated_at": "2026-05-13T08:47:52.280666Z",
     "cells": [
       {
         "sector": "Technology",
@@ -2386,11 +2386,11 @@
       {
         "sector": "Technology",
         "signal_type": "posting",
-        "count_7d": 60,
-        "count_30d": 338,
+        "count_7d": 59,
+        "count_30d": 337,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": -2.12
+        "z_score": -2.21
       },
       {
         "sector": "Technology",
