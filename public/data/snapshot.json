@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-14T11:11:12.684041Z",
+  "generated_at": "2026-05-14T14:20:55.389398Z",
   "next_ingest_at": null,
-  "total_events": 601,
+  "total_events": 602,
   "events_7d": 72,
   "sources": [
     {
@@ -10,8 +10,8 @@
       "url": "https://techcrunch.com/tag/layoffs/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-05-14T11:11:12.742368Z",
-      "last_attempted": "2026-05-14T11:11:12.742368Z",
+      "last_ok": "2026-05-14T14:20:55.479038Z",
+      "last_attempted": "2026-05-14T14:20:55.479038Z",
       "record_count": 12,
       "ok": true,
       "errors": []
@@ -22,8 +22,8 @@
       "url": "https://news.ycombinator.com",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-14T11:11:13.069428Z",
-      "last_attempted": "2026-05-14T11:11:13.069428Z",
+      "last_ok": "2026-05-14T14:20:55.942791Z",
+      "last_attempted": "2026-05-14T14:20:55.942791Z",
       "record_count": 472,
       "ok": true,
       "errors": []
@@ -34,8 +34,8 @@
       "url": "https://www.bls.gov/developers/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-14T11:11:13.974433Z",
-      "last_attempted": "2026-05-14T11:11:13.974433Z",
+      "last_ok": "2026-05-14T14:20:56.663314Z",
+      "last_attempted": "2026-05-14T14:20:56.663314Z",
       "record_count": 30,
       "ok": true,
       "errors": []
@@ -46,9 +46,9 @@
       "url": "https://www.sec.gov/cgi-bin/browse-edgar",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-05-14T11:11:14.189669Z",
-      "last_attempted": "2026-05-14T11:11:14.189669Z",
-      "record_count": 39,
+      "last_ok": "2026-05-14T14:20:56.884764Z",
+      "last_attempted": "2026-05-14T14:20:56.884764Z",
+      "record_count": 40,
       "ok": true,
       "errors": []
     },
@@ -58,14 +58,81 @@
       "url": "https://www.bls.gov/ces/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-14T11:11:15.720296Z",
-      "last_attempted": "2026-05-14T11:11:15.720296Z",
+      "last_ok": "2026-05-14T14:20:58.784265Z",
+      "last_attempted": "2026-05-14T14:20:58.784265Z",
       "record_count": 48,
       "ok": true,
       "errors": []
     }
   ],
   "recent_signals": [
+    {
+      "id": "7db80d47b03b1e1e",
+      "ts": "2026-05-14T14:01:14Z",
+      "source": "layoffs_fyi",
+      "source_url": "https://techcrunch.com/2026/05/14/cisco-cuts-nearly-4000-jobs-to-spend-more-on-ai-reports-record-quarterly-revenue/",
+      "type": "layoff",
+      "company": {
+        "name": "Cisco",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": 4000.0,
+      "unit": "people",
+      "raw_text": "Cisco cuts nearly 4,000 jobs to spend more on AI, reports \u2018record quarterly revenue\u2019",
+      "tags": [
+        "layoff",
+        "technology"
+      ]
+    },
+    {
+      "id": "418e61b69a894411",
+      "ts": "2026-05-14T14:00:00Z",
+      "source": "org_moves",
+      "source_url": "https://techcrunch.com/2026/05/14/two-weeks-left-startup-battlefield-200-applications-close-may-27/",
+      "type": "funding",
+      "company": {
+        "name": "Two\u00a0weeks\u00a0left",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Two\u00a0weeks\u00a0left: Startup Battlefield 200 applications close May 27",
+      "tags": [
+        "funding",
+        "technology"
+      ]
+    },
+    {
+      "id": "fc25f44ca5a87752",
+      "ts": "2026-05-14T11:54:39Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=48134127",
+      "type": "posting",
+      "company": {
+        "name": "Senior full stack Developer (.NET, Angular, Azure) We&#x27;re a US",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Senior full stack Developer (.NET, Angular, Azure) We&#x27;re a US-based boutique software company building custom ERP&#x2F;CRM systems for clients across healthcare, food manufacturing, fintech, and e-commerce. We&#x27;re looking for a Senior Full Stack Developer with Tech stack: .NET Core,MSSQL,An",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology"
+      ]
+    },
     {
       "id": "1efe72b7d0c6ccb8",
       "ts": "2026-05-14T10:48:51Z",
@@ -2296,97 +2363,28 @@
         "hn",
         "technology"
       ]
-    },
-    {
-      "id": "c58d2a3277e46732",
-      "ts": "2026-05-06T10:48:22Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48034721",
-      "type": "posting",
-      "company": {
-        "name": "Stream",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Stream | Amsterdam (NL), Skopje (North Macedonia)| Remote possible | Full Time | Visa Sponsorship We power real-time Chat, Video, Activity Feeds, and AI Moderation for apps like Strava, Bumble, eBay, and Patreon - billions of API requests per month, millions of concurrent users. We&#x27;re looking f",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "54af989469a0c5d8",
-      "ts": "2026-05-06T10:47:44Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48034718",
-      "type": "posting",
-      "company": {
-        "name": "Amodo Design ( https:&#x2F;&#x2F;amododesign.com&#x2F; )",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Amodo Design ( https:&#x2F;&#x2F;amododesign.com&#x2F; ) | Sheffield, UK | Software Engineer | Onsite or Hybrid We are hiring software engineers who enjoy solving important real-world problems and working close to hardware; who learn new domains quickly and prefer practical solutions over over-engin",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "08cdc340137e1c9b",
-      "ts": "2026-05-06T10:08:07Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48034442",
-      "type": "posting",
-      "company": {
-        "name": "Holepuch",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Holepuch|Remote, Worldwide|Senior Node.js Software Engineer At Holepunch, we are redefining the internet\u2019s architecture. Our open-source P2P platform, Pear, enables developers to deploy applications directly from their machine to users, creating scalable, decentralized applications without tradition",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
     }
   ],
   "sector_matrix": {
-    "generated_at": "2026-05-14T11:11:12.684041Z",
+    "generated_at": "2026-05-14T14:20:55.389398Z",
     "cells": [
       {
         "sector": "Technology",
         "signal_type": "layoff",
-        "count_7d": 2,
-        "count_30d": 5,
-        "magnitude_7d": 1100.0,
+        "count_7d": 3,
+        "count_30d": 6,
+        "magnitude_7d": 5100.0,
         "magnitude_30d": null,
-        "z_score": 0.77
+        "z_score": 1.35
       },
       {
         "sector": "Technology",
         "signal_type": "posting",
-        "count_7d": 43,
+        "count_7d": 42,
         "count_30d": 335,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": -3.98
+        "z_score": -4.09
       },
       {
         "sector": "Technology",
@@ -2400,11 +2398,11 @@
       {
         "sector": "Technology",
         "signal_type": "funding",
-        "count_7d": 4,
-        "count_30d": 7,
+        "count_7d": 5,
+        "count_30d": 8,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 1.85
+        "z_score": 2.29
       },
       {
         "sector": "Technology",
