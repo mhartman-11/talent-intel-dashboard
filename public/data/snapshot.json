@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-14T08:40:46.116524Z",
+  "generated_at": "2026-05-14T11:11:12.684041Z",
   "next_ingest_at": null,
   "total_events": 601,
-  "events_7d": 75,
+  "events_7d": 72,
   "sources": [
     {
       "source": "layoffs_fyi",
@@ -10,8 +10,8 @@
       "url": "https://techcrunch.com/tag/layoffs/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-05-14T08:40:46.212481Z",
-      "last_attempted": "2026-05-14T08:40:46.212481Z",
+      "last_ok": "2026-05-14T11:11:12.742368Z",
+      "last_attempted": "2026-05-14T11:11:12.742368Z",
       "record_count": 12,
       "ok": true,
       "errors": []
@@ -22,8 +22,8 @@
       "url": "https://news.ycombinator.com",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-14T08:40:46.878908Z",
-      "last_attempted": "2026-05-14T08:40:46.878908Z",
+      "last_ok": "2026-05-14T11:11:13.069428Z",
+      "last_attempted": "2026-05-14T11:11:13.069428Z",
       "record_count": 472,
       "ok": true,
       "errors": []
@@ -34,8 +34,8 @@
       "url": "https://www.bls.gov/developers/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-14T08:40:47.834552Z",
-      "last_attempted": "2026-05-14T08:40:47.834552Z",
+      "last_ok": "2026-05-14T11:11:13.974433Z",
+      "last_attempted": "2026-05-14T11:11:13.974433Z",
       "record_count": 30,
       "ok": true,
       "errors": []
@@ -46,8 +46,8 @@
       "url": "https://www.sec.gov/cgi-bin/browse-edgar",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-05-14T08:40:48.275874Z",
-      "last_attempted": "2026-05-14T08:40:48.275874Z",
+      "last_ok": "2026-05-14T11:11:14.189669Z",
+      "last_attempted": "2026-05-14T11:11:14.189669Z",
       "record_count": 39,
       "ok": true,
       "errors": []
@@ -58,14 +58,37 @@
       "url": "https://www.bls.gov/ces/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-14T08:40:52.266302Z",
-      "last_attempted": "2026-05-14T08:40:52.266302Z",
+      "last_ok": "2026-05-14T11:11:15.720296Z",
+      "last_attempted": "2026-05-14T11:11:15.720296Z",
       "record_count": 48,
       "ok": true,
       "errors": []
     }
   ],
   "recent_signals": [
+    {
+      "id": "1efe72b7d0c6ccb8",
+      "ts": "2026-05-14T10:48:51Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=48133591",
+      "type": "posting",
+      "company": {
+        "name": "Clutch https:&#x2F;&#x2F;www.clutchapp.io",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Clutch https:&#x2F;&#x2F;www.clutchapp.io - building future of padel with AI cameras | Full-time | Head of AI (Computer Vision &#x2F; MLOps) | Remote (worldwide) | \u20ac70-100k + equity We are Clutch, building an automated videographer and coaching experience for padel players. We are small but quickly-",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology"
+      ]
+    },
     {
       "id": "0340a4014a30b7f5",
       "ts": "2026-05-14T00:05:20Z",
@@ -2342,33 +2365,10 @@
         "hn",
         "technology"
       ]
-    },
-    {
-      "id": "99628e1b627436d2",
-      "ts": "2026-05-06T09:53:12Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48034343",
-      "type": "posting",
-      "company": {
-        "name": "Unknown",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "As an avid fantasy reader and writer, this is my dream job. Building a tool that helps other writers create immersive stories and worlds! Just sent in my application and also sent you a request on Linkedin. Looking forward to connecting and discussing how I could potentially contribute to your produ",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
     }
   ],
   "sector_matrix": {
-    "generated_at": "2026-05-14T08:40:46.116524Z",
+    "generated_at": "2026-05-14T11:11:12.684041Z",
     "cells": [
       {
         "sector": "Technology",
@@ -2382,11 +2382,11 @@
       {
         "sector": "Technology",
         "signal_type": "posting",
-        "count_7d": 44,
+        "count_7d": 43,
         "count_30d": 335,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": -3.86
+        "z_score": -3.98
       },
       {
         "sector": "Technology",
