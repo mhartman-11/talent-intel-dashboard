@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-15T14:12:32.536612Z",
+  "generated_at": "2026-05-15T19:42:20.877546Z",
   "next_ingest_at": null,
   "total_events": 603,
-  "events_7d": 59,
+  "events_7d": 55,
   "sources": [
     {
       "source": "layoffs_fyi",
@@ -10,8 +10,8 @@
       "url": "https://techcrunch.com/tag/layoffs/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-05-15T14:12:32.746780Z",
-      "last_attempted": "2026-05-15T14:12:32.746780Z",
+      "last_ok": "2026-05-15T19:42:20.979554Z",
+      "last_attempted": "2026-05-15T19:42:20.979554Z",
       "record_count": 12,
       "ok": true,
       "errors": []
@@ -22,8 +22,8 @@
       "url": "https://news.ycombinator.com",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-15T14:12:33.284480Z",
-      "last_attempted": "2026-05-15T14:12:33.284480Z",
+      "last_ok": "2026-05-15T19:42:21.399392Z",
+      "last_attempted": "2026-05-15T19:42:21.399392Z",
       "record_count": 471,
       "ok": true,
       "errors": []
@@ -34,8 +34,8 @@
       "url": "https://www.bls.gov/developers/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-15T14:12:34.317349Z",
-      "last_attempted": "2026-05-15T14:12:34.317349Z",
+      "last_ok": "2026-05-15T19:42:22.645886Z",
+      "last_attempted": "2026-05-15T19:42:22.645886Z",
       "record_count": 30,
       "ok": true,
       "errors": []
@@ -46,8 +46,8 @@
       "url": "https://www.sec.gov/cgi-bin/browse-edgar",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-05-15T14:12:34.795589Z",
-      "last_attempted": "2026-05-15T14:12:34.795589Z",
+      "last_ok": "2026-05-15T19:42:23.330723Z",
+      "last_attempted": "2026-05-15T19:42:23.330723Z",
       "record_count": 42,
       "ok": true,
       "errors": []
@@ -58,8 +58,8 @@
       "url": "https://www.bls.gov/ces/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-15T14:12:37.856619Z",
-      "last_attempted": "2026-05-15T14:12:37.856619Z",
+      "last_ok": "2026-05-15T19:42:24.875180Z",
+      "last_attempted": "2026-05-15T19:42:24.875180Z",
       "record_count": 48,
       "ok": true,
       "errors": []
@@ -67,13 +67,105 @@
   ],
   "recent_signals": [
     {
+      "id": "23950d7ae2bca29a",
+      "ts": "2026-05-15T16:11:56Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=48150391",
+      "type": "posting",
+      "company": {
+        "name": "Unknown",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Good to know that devs from outside the US still have a chance; I will send in my application as well.",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology"
+      ]
+    },
+    {
+      "id": "ed7fde0d6a590533",
+      "ts": "2026-05-15T15:20:26Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=48149841",
+      "type": "posting",
+      "company": {
+        "name": "Unknown",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Emailed you \u2014 this looks close to my work around Python&#x2F;TypeScript automation, data pipelines, AI agents, and noisy business-data analysis. Portfolio: https:&#x2F;&#x2F;arseniy-abramidze.vercel.app&#x2F;",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology"
+      ]
+    },
+    {
+      "id": "988c3138e0d6dddb",
+      "ts": "2026-05-15T15:09:57Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=48149699",
+      "type": "posting",
+      "company": {
+        "name": "How hybrid is &quot;hybrid&quot; exactly?",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "How hybrid is &quot;hybrid&quot; exactly?",
+      "tags": [
+        "hiring",
+        "hn",
+        "other"
+      ]
+    },
+    {
+      "id": "0675a448bbe69967",
+      "ts": "2026-05-15T14:45:24Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=48149341",
+      "type": "posting",
+      "company": {
+        "name": "Unknown",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "This is very close to what I\u2019m building with JARVIS \u2014 a local AI assistant with deterministic command routing, validation boundaries, visible state, and tool execution. I\u2019m Europe-based, so NYC 5x&#x2F;week probably makes it hard, but if you\u2019re open to a remote&#x2F;contract AI systems engineer for ",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology"
+      ]
+    },
+    {
       "id": "864f19193a1513c9",
       "ts": "2026-05-15T13:00:00Z",
       "source": "org_moves",
       "source_url": "https://techcrunch.com/2026/05/15/meridian-ventures-launched-35m-fund-to-back-mba-deferred-founders/",
       "type": "funding",
       "company": {
-        "name": "Meridian Ventures launched $35M fund to back MBA-deferred founders",
+        "name": "Meridian Ventures launched a $35M fund with a focus on MBA-deferred founders",
         "ticker": null,
         "industry": null,
         "sector": "Technology",
@@ -82,7 +174,7 @@
       },
       "magnitude": null,
       "unit": null,
-      "raw_text": "Meridian Ventures launched $35M fund to back MBA-deferred founders",
+      "raw_text": "Meridian Ventures launched a $35M fund with a focus on MBA-deferred founders",
       "tags": [
         "funding",
         "technology"
@@ -2266,122 +2358,28 @@
         "hn",
         "technology"
       ]
-    },
-    {
-      "id": "d423b6b43e6f69a1",
-      "ts": "2026-05-06T18:48:24Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48040028",
-      "type": "posting",
-      "company": {
-        "name": "Post Up",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Post Up | Full time | Senior Backend Engineer | Onsite | Vancouver, BC (Hybrid) | Salary: $120-$130k CAD | https:&#x2F;&#x2F;www.postup.pro I&#x27;m Wilson, co-founder of Post Up. We&#x27;re building the Databricks for content production. Our orchestration engine coordinates pipelines end to end and",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "5e147012fa957563",
-      "ts": "2026-05-06T18:06:43Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48039478",
-      "type": "posting",
-      "company": {
-        "name": "Instinct Science ( https:&#x2F;&#x2F;instinct.vet )",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Instinct Science ( https:&#x2F;&#x2F;instinct.vet ) | Multiple Roles | REMOTE (US) | Full-time We&#x27;re the AI platform for veterinary medicine \u2014 cloud-native EMR, AI scribing (ScribbleVet, acquired early 2026), clinical decision support, and Plumb&#x27;s drug reference. Instinct is the operating ",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "6d249ade4409ed18",
-      "ts": "2026-05-06T18:05:58Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48039466",
-      "type": "posting",
-      "company": {
-        "name": "Graphics&#x2F;Multimedia Editor for The Upshot at The New York Times",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": "NY",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Graphics&#x2F;Multimedia Editor for The Upshot at The New York Times | Full-time | NYC or DC We&#x27;re looking for a visual journalist and graphics developer to report, write, design and code data-driven stories and visualizations. We&#x27;re looking for someone who can produce inventive explanator",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology",
-        "NY"
-      ]
-    },
-    {
-      "id": "ac2672ce029cf920",
-      "ts": "2026-05-06T17:54:53Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48039294",
-      "type": "posting",
-      "company": {
-        "name": "Ria Money Transfer",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": "CO",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Ria Money Transfer | https:&#x2F;&#x2F;www.riamoneytransfer.com&#x2F;en-us&#x2F; | Hybrid Denver, CO | Full-time Currently looking for a AI-first full time product engineer to help us on a transform our digital product! Looking for someone with backend experience that is interested in having more pr",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology",
-        "CO"
-      ]
     }
   ],
   "sector_matrix": {
-    "generated_at": "2026-05-15T14:12:32.536612Z",
+    "generated_at": "2026-05-15T19:42:20.877546Z",
     "cells": [
       {
         "sector": "Technology",
         "signal_type": "layoff",
-        "count_7d": 3,
+        "count_7d": 2,
         "count_30d": 6,
-        "magnitude_7d": 5100.0,
+        "magnitude_7d": 4000.0,
         "magnitude_30d": null,
-        "z_score": 1.35
+        "z_score": 0.51
       },
       {
         "sector": "Technology",
         "signal_type": "posting",
-        "count_7d": 27,
-        "count_30d": 332,
+        "count_7d": 26,
+        "count_30d": 331,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": -5.73
+        "z_score": -5.83
       },
       {
         "sector": "Technology",
@@ -2395,11 +2393,11 @@
       {
         "sector": "Technology",
         "signal_type": "funding",
-        "count_7d": 7,
+        "count_7d": 6,
         "count_30d": 10,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 3.06
+        "z_score": 2.4
       },
       {
         "sector": "Technology",
