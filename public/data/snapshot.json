@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-14T19:49:38.723129Z",
+  "generated_at": "2026-05-15T03:42:10.215540Z",
   "next_ingest_at": null,
-  "total_events": 601,
-  "events_7d": 72,
+  "total_events": 602,
+  "events_7d": 67,
   "sources": [
     {
       "source": "layoffs_fyi",
@@ -10,8 +10,8 @@
       "url": "https://techcrunch.com/tag/layoffs/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-05-14T19:49:38.784223Z",
-      "last_attempted": "2026-05-14T19:49:38.784223Z",
+      "last_ok": "2026-05-15T03:42:10.312936Z",
+      "last_attempted": "2026-05-15T03:42:10.312936Z",
       "record_count": 12,
       "ok": true,
       "errors": []
@@ -22,8 +22,8 @@
       "url": "https://news.ycombinator.com",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-14T19:49:39.795715Z",
-      "last_attempted": "2026-05-14T19:49:39.795715Z",
+      "last_ok": "2026-05-15T03:42:10.894401Z",
+      "last_attempted": "2026-05-15T03:42:10.894401Z",
       "record_count": 471,
       "ok": true,
       "errors": []
@@ -34,8 +34,8 @@
       "url": "https://www.bls.gov/developers/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-14T19:49:40.871740Z",
-      "last_attempted": "2026-05-14T19:49:40.871740Z",
+      "last_ok": "2026-05-15T03:42:11.874064Z",
+      "last_attempted": "2026-05-15T03:42:11.874064Z",
       "record_count": 30,
       "ok": true,
       "errors": []
@@ -46,9 +46,9 @@
       "url": "https://www.sec.gov/cgi-bin/browse-edgar",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-05-14T19:49:41.339569Z",
-      "last_attempted": "2026-05-14T19:49:41.339569Z",
-      "record_count": 40,
+      "last_ok": "2026-05-15T03:42:12.547188Z",
+      "last_attempted": "2026-05-15T03:42:12.547188Z",
+      "record_count": 41,
       "ok": true,
       "errors": []
     },
@@ -58,14 +58,36 @@
       "url": "https://www.bls.gov/ces/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-14T19:49:42.847632Z",
-      "last_attempted": "2026-05-14T19:49:42.847632Z",
+      "last_ok": "2026-05-15T03:42:15.968066Z",
+      "last_attempted": "2026-05-15T03:42:15.968066Z",
       "record_count": 48,
       "ok": true,
       "errors": []
     }
   ],
   "recent_signals": [
+    {
+      "id": "824b84ffaf9f3455",
+      "ts": "2026-05-14T20:23:03Z",
+      "source": "org_moves",
+      "source_url": "https://techcrunch.com/2026/05/14/cerebras-ipo-makes-billions-for-benchmark-but-vc-eric-vishria-almost-didnt-take-the-meeting/",
+      "type": "funding",
+      "company": {
+        "name": "Unknown",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Cerebras IPO makes billions for Benchmark but VC Eric\u00a0Vishria almost didn\u2019t take the meeting",
+      "tags": [
+        "funding",
+        "technology"
+      ]
+    },
     {
       "id": "2f8c18adbc87697f",
       "ts": "2026-05-14T16:47:04Z",
@@ -2339,33 +2361,10 @@
         "hn",
         "technology"
       ]
-    },
-    {
-      "id": "928052e5d41c529e",
-      "ts": "2026-05-06T15:23:08Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48037311",
-      "type": "posting",
-      "company": {
-        "name": "*Labor Solutions (YC",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "*Labor Solutions (YC-style) | Senior Software Engineer | Remote (India) | Full-time* We run a worker wellbeing and compliance platform used by global buyers and their supply chain sites across Asia. We&#x27;re in the middle of a meaningful migration and platform buildout \u2014 you&#x27;d be joining at a",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
     }
   ],
   "sector_matrix": {
-    "generated_at": "2026-05-14T19:49:38.723129Z",
+    "generated_at": "2026-05-15T03:42:10.215540Z",
     "cells": [
       {
         "sector": "Technology",
@@ -2379,11 +2378,11 @@
       {
         "sector": "Technology",
         "signal_type": "posting",
-        "count_7d": 40,
+        "count_7d": 34,
         "count_30d": 333,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": -4.28
+        "z_score": -4.96
       },
       {
         "sector": "Technology",
@@ -2397,11 +2396,11 @@
       {
         "sector": "Technology",
         "signal_type": "funding",
-        "count_7d": 5,
-        "count_30d": 8,
+        "count_7d": 6,
+        "count_30d": 9,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 2.29
+        "z_score": 2.69
       },
       {
         "sector": "Technology",
