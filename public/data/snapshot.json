@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-15T11:16:52.851967Z",
+  "generated_at": "2026-05-15T14:12:32.536612Z",
   "next_ingest_at": null,
-  "total_events": 602,
-  "events_7d": 62,
+  "total_events": 603,
+  "events_7d": 59,
   "sources": [
     {
       "source": "layoffs_fyi",
@@ -10,8 +10,8 @@
       "url": "https://techcrunch.com/tag/layoffs/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-05-15T11:16:52.947612Z",
-      "last_attempted": "2026-05-15T11:16:52.947612Z",
+      "last_ok": "2026-05-15T14:12:32.746780Z",
+      "last_attempted": "2026-05-15T14:12:32.746780Z",
       "record_count": 12,
       "ok": true,
       "errors": []
@@ -22,8 +22,8 @@
       "url": "https://news.ycombinator.com",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-15T11:16:53.298843Z",
-      "last_attempted": "2026-05-15T11:16:53.298843Z",
+      "last_ok": "2026-05-15T14:12:33.284480Z",
+      "last_attempted": "2026-05-15T14:12:33.284480Z",
       "record_count": 471,
       "ok": true,
       "errors": []
@@ -34,8 +34,8 @@
       "url": "https://www.bls.gov/developers/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-15T11:16:54.048763Z",
-      "last_attempted": "2026-05-15T11:16:54.048763Z",
+      "last_ok": "2026-05-15T14:12:34.317349Z",
+      "last_attempted": "2026-05-15T14:12:34.317349Z",
       "record_count": 30,
       "ok": true,
       "errors": []
@@ -46,9 +46,9 @@
       "url": "https://www.sec.gov/cgi-bin/browse-edgar",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-05-15T11:16:54.297706Z",
-      "last_attempted": "2026-05-15T11:16:54.297706Z",
-      "record_count": 41,
+      "last_ok": "2026-05-15T14:12:34.795589Z",
+      "last_attempted": "2026-05-15T14:12:34.795589Z",
+      "record_count": 42,
       "ok": true,
       "errors": []
     },
@@ -58,14 +58,59 @@
       "url": "https://www.bls.gov/ces/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-15T11:16:58.008246Z",
-      "last_attempted": "2026-05-15T11:16:58.008246Z",
+      "last_ok": "2026-05-15T14:12:37.856619Z",
+      "last_attempted": "2026-05-15T14:12:37.856619Z",
       "record_count": 48,
       "ok": true,
       "errors": []
     }
   ],
   "recent_signals": [
+    {
+      "id": "864f19193a1513c9",
+      "ts": "2026-05-15T13:00:00Z",
+      "source": "org_moves",
+      "source_url": "https://techcrunch.com/2026/05/15/meridian-ventures-launched-35m-fund-to-back-mba-deferred-founders/",
+      "type": "funding",
+      "company": {
+        "name": "Meridian Ventures launched $35M fund to back MBA-deferred founders",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Meridian Ventures launched $35M fund to back MBA-deferred founders",
+      "tags": [
+        "funding",
+        "technology"
+      ]
+    },
+    {
+      "id": "6ffe92914551670c",
+      "ts": "2026-05-15T12:06:57Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=48147597",
+      "type": "posting",
+      "company": {
+        "name": "Woosmap",
+        "ticker": null,
+        "industry": null,
+        "sector": "Retail",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Woosmap | https:&#x2F;&#x2F;www.woosmap.com&#x2F; | Backend Engineer (Mid-level &amp; Senior) | HYBRID (London, Paris, Montpellier) or REMOTE (UTC-1 to UTC+2) | Full-time We run location APIs. Geocoding, routing, store locator, address autocomplete, etc. at enterprise scale. When a checkout page res",
+      "tags": [
+        "hiring",
+        "hn",
+        "retail"
+      ]
+    },
     {
       "id": "824b84ffaf9f3455",
       "ts": "2026-05-14T20:23:03Z",
@@ -2315,56 +2360,10 @@
         "technology",
         "CO"
       ]
-    },
-    {
-      "id": "c110eb59bcd9bf98",
-      "ts": "2026-05-06T17:11:28Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48038719",
-      "type": "posting",
-      "company": {
-        "name": "Seems like it is fully on",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Seems like it is fully on-side position.",
-      "tags": [
-        "hiring",
-        "hn",
-        "other"
-      ]
-    },
-    {
-      "id": "876a5672a63776ad",
-      "ts": "2026-05-06T15:24:55Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48037337",
-      "type": "posting",
-      "company": {
-        "name": "Brandfetch ( https:&#x2F;&#x2F;brandfetch.com )",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Brandfetch ( https:&#x2F;&#x2F;brandfetch.com ) | Senior Backend Engineer | Remote | Full-time Brandfetch is the internet\u2019s canonical source for logos and brand assets. Think GitHub for brand identity: a brand repo that auto-indexes public assets, lets brand owners \u201ccommit\u201d changes once, then propag",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
     }
   ],
   "sector_matrix": {
-    "generated_at": "2026-05-15T11:16:52.851967Z",
+    "generated_at": "2026-05-15T14:12:32.536612Z",
     "cells": [
       {
         "sector": "Technology",
@@ -2378,11 +2377,11 @@
       {
         "sector": "Technology",
         "signal_type": "posting",
-        "count_7d": 30,
-        "count_30d": 333,
+        "count_7d": 27,
+        "count_30d": 332,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": -5.41
+        "z_score": -5.73
       },
       {
         "sector": "Technology",
@@ -2396,11 +2395,11 @@
       {
         "sector": "Technology",
         "signal_type": "funding",
-        "count_7d": 6,
-        "count_30d": 9,
+        "count_7d": 7,
+        "count_30d": 10,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 2.69
+        "z_score": 3.06
       },
       {
         "sector": "Technology",
@@ -2603,11 +2602,11 @@
       {
         "sector": "Retail",
         "signal_type": "posting",
-        "count_7d": 0,
-        "count_30d": 0,
+        "count_7d": 1,
+        "count_30d": 1,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": null
+        "z_score": 0.77
       },
       {
         "sector": "Retail",
