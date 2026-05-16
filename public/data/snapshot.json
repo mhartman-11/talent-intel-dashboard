@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-15T19:42:20.877546Z",
+  "generated_at": "2026-05-16T03:26:50.891577Z",
   "next_ingest_at": null,
-  "total_events": 603,
-  "events_7d": 55,
+  "total_events": 601,
+  "events_7d": 54,
   "sources": [
     {
       "source": "layoffs_fyi",
@@ -10,8 +10,8 @@
       "url": "https://techcrunch.com/tag/layoffs/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-05-15T19:42:20.979554Z",
-      "last_attempted": "2026-05-15T19:42:20.979554Z",
+      "last_ok": "2026-05-16T03:26:50.982059Z",
+      "last_attempted": "2026-05-16T03:26:50.982059Z",
       "record_count": 12,
       "ok": true,
       "errors": []
@@ -22,9 +22,9 @@
       "url": "https://news.ycombinator.com",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-15T19:42:21.399392Z",
-      "last_attempted": "2026-05-15T19:42:21.399392Z",
-      "record_count": 471,
+      "last_ok": "2026-05-16T03:26:51.312939Z",
+      "last_attempted": "2026-05-16T03:26:51.312939Z",
+      "record_count": 470,
       "ok": true,
       "errors": []
     },
@@ -34,8 +34,8 @@
       "url": "https://www.bls.gov/developers/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-15T19:42:22.645886Z",
-      "last_attempted": "2026-05-15T19:42:22.645886Z",
+      "last_ok": "2026-05-16T03:26:52.184717Z",
+      "last_attempted": "2026-05-16T03:26:52.184717Z",
       "record_count": 30,
       "ok": true,
       "errors": []
@@ -46,9 +46,9 @@
       "url": "https://www.sec.gov/cgi-bin/browse-edgar",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-05-15T19:42:23.330723Z",
-      "last_attempted": "2026-05-15T19:42:23.330723Z",
-      "record_count": 42,
+      "last_ok": "2026-05-16T03:26:52.487629Z",
+      "last_attempted": "2026-05-16T03:26:52.487629Z",
+      "record_count": 41,
       "ok": true,
       "errors": []
     },
@@ -58,14 +58,60 @@
       "url": "https://www.bls.gov/ces/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-15T19:42:24.875180Z",
-      "last_attempted": "2026-05-15T19:42:24.875180Z",
+      "last_ok": "2026-05-16T03:26:54.157841Z",
+      "last_attempted": "2026-05-16T03:26:54.157841Z",
       "record_count": 48,
       "ok": true,
       "errors": []
     }
   ],
   "recent_signals": [
+    {
+      "id": "7d63555f39826f8d",
+      "ts": "2026-05-16T01:35:33Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=48155996",
+      "type": "posting",
+      "company": {
+        "name": "Unknown",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Hi. That&#x27;s interesting. how do I contact you? We are in a tangent of this space, and would love to understand better how health providers understand&#x2F;think about hipaa et al. send me an email at gabriel dot barros domain: myme.health",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology"
+      ]
+    },
+    {
+      "id": "a7c9be0f5008739d",
+      "ts": "2026-05-16T00:55:41Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=48155783",
+      "type": "posting",
+      "company": {
+        "name": "Unknown",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "I have a few people to send this to, but no pay range makes me uncomfortable to even forward this. good luck.",
+      "tags": [
+        "hiring",
+        "hn",
+        "other"
+      ]
+    },
     {
       "id": "23950d7ae2bca29a",
       "ts": "2026-05-15T16:11:56Z",
@@ -2313,55 +2359,10 @@
         "hn",
         "technology"
       ]
-    },
-    {
-      "id": "a138ca8329b9a7bc",
-      "ts": "2026-05-06T19:10:09Z",
-      "source": "org_moves",
-      "source_url": "https://techcrunch.com/2026/05/06/robinhoods-venture-fund-ipo-attracted-150000-retail-investors-ceo-says/",
-      "type": "funding",
-      "company": {
-        "name": "Robinhood\u2019s venture fund IPO attracted 150,000+ retail investors, CEO says",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Robinhood\u2019s venture fund IPO attracted 150,000+ retail investors, CEO says",
-      "tags": [
-        "funding",
-        "technology"
-      ]
-    },
-    {
-      "id": "fc9f51d5fce6a234",
-      "ts": "2026-05-06T18:50:07Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48040051",
-      "type": "posting",
-      "company": {
-        "name": "I am happy to contribute.",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "I am happy to contribute.",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
     }
   ],
   "sector_matrix": {
-    "generated_at": "2026-05-15T19:42:20.877546Z",
+    "generated_at": "2026-05-16T03:26:50.891577Z",
     "cells": [
       {
         "sector": "Technology",
@@ -2375,11 +2376,11 @@
       {
         "sector": "Technology",
         "signal_type": "posting",
-        "count_7d": 26,
-        "count_30d": 331,
+        "count_7d": 24,
+        "count_30d": 330,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": -5.83
+        "z_score": -6.04
       },
       {
         "sector": "Technology",
@@ -2394,10 +2395,10 @@
         "sector": "Technology",
         "signal_type": "funding",
         "count_7d": 6,
-        "count_30d": 10,
+        "count_30d": 9,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 2.4
+        "z_score": 2.69
       },
       {
         "sector": "Technology",
