@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-16T10:10:32.826244Z",
+  "generated_at": "2026-05-16T13:27:38.316116Z",
   "next_ingest_at": null,
   "total_events": 601,
   "events_7d": 56,
@@ -10,8 +10,8 @@
       "url": "https://techcrunch.com/tag/layoffs/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-05-16T10:10:32.922438Z",
-      "last_attempted": "2026-05-16T10:10:32.922438Z",
+      "last_ok": "2026-05-16T13:27:38.400872Z",
+      "last_attempted": "2026-05-16T13:27:38.400872Z",
       "record_count": 12,
       "ok": true,
       "errors": []
@@ -22,8 +22,8 @@
       "url": "https://news.ycombinator.com",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-16T10:10:33.236766Z",
-      "last_attempted": "2026-05-16T10:10:33.236766Z",
+      "last_ok": "2026-05-16T13:27:38.940658Z",
+      "last_attempted": "2026-05-16T13:27:38.940658Z",
       "record_count": 470,
       "ok": true,
       "errors": []
@@ -34,8 +34,8 @@
       "url": "https://www.bls.gov/developers/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-16T10:10:34.047602Z",
-      "last_attempted": "2026-05-16T10:10:34.047602Z",
+      "last_ok": "2026-05-16T13:27:39.785991Z",
+      "last_attempted": "2026-05-16T13:27:39.785991Z",
       "record_count": 30,
       "ok": true,
       "errors": []
@@ -46,8 +46,8 @@
       "url": "https://www.sec.gov/cgi-bin/browse-edgar",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-05-16T10:10:34.417593Z",
-      "last_attempted": "2026-05-16T10:10:34.417593Z",
+      "last_ok": "2026-05-16T13:27:40.024070Z",
+      "last_attempted": "2026-05-16T13:27:40.024070Z",
       "record_count": 41,
       "ok": true,
       "errors": []
@@ -58,14 +58,37 @@
       "url": "https://www.bls.gov/ces/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-16T10:10:38.421153Z",
-      "last_attempted": "2026-05-16T10:10:38.421153Z",
+      "last_ok": "2026-05-16T13:27:41.437604Z",
+      "last_attempted": "2026-05-16T13:27:41.437604Z",
       "record_count": 48,
       "ok": true,
       "errors": []
     }
   ],
   "recent_signals": [
+    {
+      "id": "ca28c0209f359be9",
+      "ts": "2026-05-16T11:03:56Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=48159036",
+      "type": "posting",
+      "company": {
+        "name": "Unknown",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Hey, EM at a US based startup remotely working from UAE. Can I apply for the remote position?",
+      "tags": [
+        "hiring",
+        "hn",
+        "technology"
+      ]
+    },
     {
       "id": "691c33aab8558f6a",
       "ts": "2026-05-16T09:26:55Z",
@@ -2337,33 +2360,10 @@
         "hn",
         "technology"
       ]
-    },
-    {
-      "id": "d0e8822af6e760ef",
-      "ts": "2026-05-06T20:45:55Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48041564",
-      "type": "posting",
-      "company": {
-        "name": "Unknown",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "FYI, this place says they value transparency but have an explicit policy against providing feedback after interviews. (They did take my documentation PR after the fact.) Attempting to network with people here led them to promise me at least a response (since these roles were still open, and have bee",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
     }
   ],
   "sector_matrix": {
-    "generated_at": "2026-05-16T10:10:32.826244Z",
+    "generated_at": "2026-05-16T13:27:38.316116Z",
     "cells": [
       {
         "sector": "Technology",
@@ -2377,11 +2377,11 @@
       {
         "sector": "Technology",
         "signal_type": "posting",
-        "count_7d": 25,
+        "count_7d": 26,
         "count_30d": 330,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": -5.93
+        "z_score": -5.81
       },
       {
         "sector": "Technology",
