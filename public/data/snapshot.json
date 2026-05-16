@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-16T03:26:50.891577Z",
+  "generated_at": "2026-05-16T08:08:00.664671Z",
   "next_ingest_at": null,
   "total_events": 601,
-  "events_7d": 54,
+  "events_7d": 55,
   "sources": [
     {
       "source": "layoffs_fyi",
@@ -10,8 +10,8 @@
       "url": "https://techcrunch.com/tag/layoffs/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-05-16T03:26:50.982059Z",
-      "last_attempted": "2026-05-16T03:26:50.982059Z",
+      "last_ok": "2026-05-16T08:08:00.750671Z",
+      "last_attempted": "2026-05-16T08:08:00.750671Z",
       "record_count": 12,
       "ok": true,
       "errors": []
@@ -22,8 +22,8 @@
       "url": "https://news.ycombinator.com",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-16T03:26:51.312939Z",
-      "last_attempted": "2026-05-16T03:26:51.312939Z",
+      "last_ok": "2026-05-16T08:08:01.251319Z",
+      "last_attempted": "2026-05-16T08:08:01.251319Z",
       "record_count": 470,
       "ok": true,
       "errors": []
@@ -34,8 +34,8 @@
       "url": "https://www.bls.gov/developers/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-16T03:26:52.184717Z",
-      "last_attempted": "2026-05-16T03:26:52.184717Z",
+      "last_ok": "2026-05-16T08:08:01.964010Z",
+      "last_attempted": "2026-05-16T08:08:01.964010Z",
       "record_count": 30,
       "ok": true,
       "errors": []
@@ -46,8 +46,8 @@
       "url": "https://www.sec.gov/cgi-bin/browse-edgar",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-05-16T03:26:52.487629Z",
-      "last_attempted": "2026-05-16T03:26:52.487629Z",
+      "last_ok": "2026-05-16T08:08:02.235200Z",
+      "last_attempted": "2026-05-16T08:08:02.235200Z",
       "record_count": 41,
       "ok": true,
       "errors": []
@@ -58,14 +58,37 @@
       "url": "https://www.bls.gov/ces/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-16T03:26:54.157841Z",
-      "last_attempted": "2026-05-16T03:26:54.157841Z",
+      "last_ok": "2026-05-16T08:08:04.714479Z",
+      "last_attempted": "2026-05-16T08:08:04.714479Z",
       "record_count": 48,
       "ok": true,
       "errors": []
     }
   ],
   "recent_signals": [
+    {
+      "id": "e11bbc2d34906b06",
+      "ts": "2026-05-16T08:06:39Z",
+      "source": "hn_whoishiring",
+      "source_url": "https://news.ycombinator.com/item?id=48157945",
+      "type": "posting",
+      "company": {
+        "name": "isn&#x27;t that a pedagogy university?!",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "isn&#x27;t that a pedagogy university?!",
+      "tags": [
+        "hiring",
+        "hn",
+        "other"
+      ]
+    },
     {
       "id": "7d63555f39826f8d",
       "ts": "2026-05-16T01:35:33Z",
@@ -2336,33 +2359,10 @@
         "funding",
         "finance"
       ]
-    },
-    {
-      "id": "238491ec6fd97c4a",
-      "ts": "2026-05-06T19:32:07Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48040612",
-      "type": "posting",
-      "company": {
-        "name": "Unknown",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "At Tether ( https:&#x2F;&#x2F;tether.io&#x2F; ) we&#x27;re hiring! We envision a world where technology enables financial freedom, educational empowerment, energy sustainability, and data sovereignty. All of our roles are fully remote, worldwide. Apply now: - Mobile Developer (React Native): https:&",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
     }
   ],
   "sector_matrix": {
-    "generated_at": "2026-05-16T03:26:50.891577Z",
+    "generated_at": "2026-05-16T08:08:00.664671Z",
     "cells": [
       {
         "sector": "Technology",
@@ -2467,10 +2467,10 @@
         "sector": "Healthcare",
         "signal_type": "posting",
         "count_7d": 1,
-        "count_30d": 8,
+        "count_30d": 7,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": -0.63
+        "z_score": -0.5
       },
       {
         "sector": "Healthcare",
