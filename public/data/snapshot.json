@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-16T13:27:38.316116Z",
+  "generated_at": "2026-05-16T19:08:34.749925Z",
   "next_ingest_at": null,
-  "total_events": 601,
+  "total_events": 602,
   "events_7d": 56,
   "sources": [
     {
@@ -10,8 +10,8 @@
       "url": "https://techcrunch.com/tag/layoffs/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-05-16T13:27:38.400872Z",
-      "last_attempted": "2026-05-16T13:27:38.400872Z",
+      "last_ok": "2026-05-16T19:08:34.834998Z",
+      "last_attempted": "2026-05-16T19:08:34.834998Z",
       "record_count": 12,
       "ok": true,
       "errors": []
@@ -22,8 +22,8 @@
       "url": "https://news.ycombinator.com",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-16T13:27:38.940658Z",
-      "last_attempted": "2026-05-16T13:27:38.940658Z",
+      "last_ok": "2026-05-16T19:08:35.936973Z",
+      "last_attempted": "2026-05-16T19:08:35.936973Z",
       "record_count": 470,
       "ok": true,
       "errors": []
@@ -34,8 +34,8 @@
       "url": "https://www.bls.gov/developers/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-16T13:27:39.785991Z",
-      "last_attempted": "2026-05-16T13:27:39.785991Z",
+      "last_ok": "2026-05-16T19:08:36.904947Z",
+      "last_attempted": "2026-05-16T19:08:36.904947Z",
       "record_count": 30,
       "ok": true,
       "errors": []
@@ -46,9 +46,9 @@
       "url": "https://www.sec.gov/cgi-bin/browse-edgar",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-05-16T13:27:40.024070Z",
-      "last_attempted": "2026-05-16T13:27:40.024070Z",
-      "record_count": 41,
+      "last_ok": "2026-05-16T19:08:38.052545Z",
+      "last_attempted": "2026-05-16T19:08:38.052545Z",
+      "record_count": 42,
       "ok": true,
       "errors": []
     },
@@ -58,14 +58,36 @@
       "url": "https://www.bls.gov/ces/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-16T13:27:41.437604Z",
-      "last_attempted": "2026-05-16T13:27:41.437604Z",
+      "last_ok": "2026-05-16T19:08:38.470907Z",
+      "last_attempted": "2026-05-16T19:08:38.470907Z",
       "record_count": 48,
       "ok": true,
       "errors": []
     }
   ],
   "recent_signals": [
+    {
+      "id": "6e307d1c50065453",
+      "ts": "2026-05-16T15:00:00Z",
+      "source": "org_moves",
+      "source_url": "https://techcrunch.com/2026/05/16/60b-ai-chip-darling-cerebras-almost-died-early-on-burning-8m-a-month/",
+      "type": "funding",
+      "company": {
+        "name": "$60B AI chip darling Cerebras almost died early on, burning $8M a month",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "$60B AI chip darling Cerebras almost died early on, burning $8M a month",
+      "tags": [
+        "funding",
+        "technology"
+      ]
+    },
     {
       "id": "ca28c0209f359be9",
       "ts": "2026-05-16T11:03:56Z",
@@ -2337,33 +2359,10 @@
         "hn",
         "technology"
       ]
-    },
-    {
-      "id": "7420bd07dc9ab702",
-      "ts": "2026-05-06T21:40:00Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48042228",
-      "type": "posting",
-      "company": {
-        "name": "ChainSecurity",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "ChainSecurity | Blockchain Security Engineer | Full-time | INTERNS , HYBRID&#x2F;REMOTE, Zurich, Switzerland | VISA possible | https:&#x2F;&#x2F;chainsecurity.com&#x2F; ChainSecurity is a young and innovative cybersecurity company that operates in the blockchain and cryptocurrency space. Our mission",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
     }
   ],
   "sector_matrix": {
-    "generated_at": "2026-05-16T13:27:38.316116Z",
+    "generated_at": "2026-05-16T19:08:34.749925Z",
     "cells": [
       {
         "sector": "Technology",
@@ -2395,11 +2394,11 @@
       {
         "sector": "Technology",
         "signal_type": "funding",
-        "count_7d": 6,
-        "count_30d": 9,
+        "count_7d": 7,
+        "count_30d": 10,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 2.69
+        "z_score": 3.06
       },
       {
         "sector": "Technology",
