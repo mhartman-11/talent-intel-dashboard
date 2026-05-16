@@ -66,7 +66,6 @@ def fetch(dry_run: bool = False) -> SourceResult:
 
                 if dry_run:
                     print(f"[fred] dry-run {series_id}: {len(series.get('data', []))} obs")
-                    continue
 
                 for obs in series.get("data", [])[:6]:  # last 6 observations
                     # BLS format: {year, period, value, ...}

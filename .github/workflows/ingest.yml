@@ -6,6 +6,12 @@ on:
     - cron: "0 */6 * * *"
     # Macro sources: daily at 09:00 UTC
     - cron: "0 9 * * *"
+  # Auto-deploy on merge to main
+  push:
+    branches: [main]
+    paths-ignore:
+      - "public/data/**"  # avoid loop with bot's own data commits
+      - "out/**"
   # Manual trigger for testing
   workflow_dispatch:
     inputs:

@@ -1,20 +1,61 @@
 {
-  "generated_at": "2026-05-16T19:08:34.749925Z",
+  "generated_at": "2026-05-15T19:44:27.681949Z",
   "next_ingest_at": null,
-  "total_events": 602,
-  "events_7d": 56,
+  "total_events": 1021,
+  "events_7d": 248,
   "sources": [
     {
-      "source": "layoffs_fyi",
-      "display_name": "Layoff Signals (TC + trueup)",
-      "url": "https://techcrunch.com/tag/layoffs/",
-      "tos_posture": "public_rss",
+      "source": "greenhouse",
+      "display_name": "Greenhouse Public Job Boards",
+      "url": "https://boards-api.greenhouse.io",
+      "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-05-16T19:08:34.834998Z",
-      "last_attempted": "2026-05-16T19:08:34.834998Z",
-      "record_count": 12,
+      "last_ok": "2026-05-15T19:39:18.379910Z",
+      "last_attempted": "2026-05-15T19:39:18.379910Z",
+      "record_count": 2628,
       "ok": true,
-      "errors": []
+      "errors": [
+        "Coinbase (coinbase): GET https://boards-api.greenhouse.io/v1/boards/coinbase/jobs failed: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/coinbase/jobs?content=true'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+        "DoorDash (doordash): GET https://boards-api.greenhouse.io/v1/boards/doordash/jobs failed: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/doordash/jobs?content=true'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+        "HashiCorp (hashicorp): GET https://boards-api.greenhouse.io/v1/boards/hashicorp/jobs failed: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/hashicorp/jobs?content=true'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+        "OpenAI (openai): GET https://boards-api.greenhouse.io/v1/boards/openai/jobs failed: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/openai/jobs?content=true'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+        "Snowflake (snowflake): GET https://boards-api.greenhouse.io/v1/boards/snowflake/jobs failed: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/snowflake/jobs?content=true'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+        "Databricks (databricks11): GET https://boards-api.greenhouse.io/v1/boards/databricks11/jobs failed: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/databricks11/jobs?content=true'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+        "Plaid (plaid): GET https://boards-api.greenhouse.io/v1/boards/plaid/jobs failed: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/plaid/jobs?content=true'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+        "Hims & Hers (himsandhers): GET https://boards-api.greenhouse.io/v1/boards/himsandhers/jobs failed: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/himsandhers/jobs?content=true'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+        "Warby Parker (warbyparker): GET https://boards-api.greenhouse.io/v1/boards/warbyparker/jobs failed: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/warbyparker/jobs?content=true'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+      ]
+    },
+    {
+      "source": "lever",
+      "display_name": "Lever Public Postings",
+      "url": "https://api.lever.co/v0/postings",
+      "tos_posture": "public_api",
+      "cadence_hours": 6,
+      "last_ok": "2026-05-15T19:39:49.030872Z",
+      "last_attempted": "2026-05-15T19:39:49.030872Z",
+      "record_count": 203,
+      "ok": true,
+      "errors": [
+        "Scale AI (scaleai): GET https://api.lever.co/v0/postings/scaleai failed: Client error '404 Not Found' for url 'https://api.lever.co/v0/postings/scaleai?mode=json'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+        "Notion (notion): GET https://api.lever.co/v0/postings/notion failed: Client error '404 Not Found' for url 'https://api.lever.co/v0/postings/notion?mode=json'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+        "Brex (brex): GET https://api.lever.co/v0/postings/brex failed: Client error '404 Not Found' for url 'https://api.lever.co/v0/postings/brex?mode=json'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+        "Ramp (ramp): GET https://api.lever.co/v0/postings/ramp failed: Client error '404 Not Found' for url 'https://api.lever.co/v0/postings/ramp?mode=json'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+      ]
+    },
+    {
+      "source": "ashby",
+      "display_name": "Ashby Public Job Boards",
+      "url": "https://api.ashbyhq.com/posting-api",
+      "tos_posture": "public_api",
+      "cadence_hours": 6,
+      "last_ok": "2026-05-15T19:40:00.914577Z",
+      "last_attempted": "2026-05-15T19:40:00.914577Z",
+      "record_count": 172,
+      "ok": true,
+      "errors": [
+        "Replicate (replicate): GET https://api.ashbyhq.com/posting-api/job-board/replicate failed: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/replicate'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+      ]
     },
     {
       "source": "hn_whoishiring",
@@ -22,33 +63,86 @@
       "url": "https://news.ycombinator.com",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-16T19:08:35.936973Z",
-      "last_attempted": "2026-05-16T19:08:35.936973Z",
-      "record_count": 470,
+      "last_ok": "2026-05-15T19:40:03.936235Z",
+      "last_attempted": "2026-05-15T19:40:03.936235Z",
+      "record_count": 471,
       "ok": true,
       "errors": []
     },
     {
-      "source": "fred",
-      "display_name": "BLS Macro Labor Data",
-      "url": "https://www.bls.gov/developers/",
-      "tos_posture": "public_api",
-      "cadence_hours": 24,
-      "last_ok": "2026-05-16T19:08:36.904947Z",
-      "last_attempted": "2026-05-16T19:08:36.904947Z",
-      "record_count": 30,
+      "source": "layoffs_fyi",
+      "display_name": "Layoff Signals (TC + trueup)",
+      "url": "https://techcrunch.com/tag/layoffs/",
+      "tos_posture": "public_rss",
+      "cadence_hours": 6,
+      "last_ok": "2026-05-15T19:40:07.482517Z",
+      "last_attempted": "2026-05-15T19:40:07.482517Z",
+      "record_count": 12,
       "ok": true,
       "errors": []
+    },
+    {
+      "source": "state_warn",
+      "display_name": "State WARN Notices",
+      "url": "https://www.dol.gov/agencies/eta/layoffs/warn",
+      "tos_posture": "public_csv",
+      "cadence_hours": 24,
+      "last_ok": null,
+      "last_attempted": "2026-05-15T19:40:08.097743Z",
+      "record_count": 0,
+      "ok": false,
+      "errors": [
+        "WA (https://media.esd.wa.gov/esdwa/Default/ESDWAGOV/newsroom/Layoff-and-other-business-decisions/WARN-Public-Notice-Master-List.csv): GET https://media.esd.wa.gov/esdwa/Default/ESDWAGOV/newsroom/Layoff-and-other-business-decisions/WARN-Public-Notice-Master-List.csv failed: Client error '404 Not Found' for url 'https://esd.wa.gov/esdwa/Default/ESDWAGOV/newsroom/Layoff-and-other-business-decisions/WARN-Public-Notice-Master-List.csv'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+        "NY (https://dol.ny.gov/system/files/documents/2025/01/warn-notice-database.csv): GET https://dol.ny.gov/system/files/documents/2025/01/warn-notice-database.csv failed: Client error '404 Not Found' for url 'https://dol.ny.gov/system/files/documents/2025/01/warn-notice-database.csv'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+      ]
     },
     {
       "source": "org_moves",
-      "display_name": "Org & Exec Moves",
-      "url": "https://www.sec.gov/cgi-bin/browse-edgar",
+      "display_name": "Org & Exec Moves (TechCrunch)",
+      "url": "https://techcrunch.com/category/venture/feed/",
+      "tos_posture": "public_rss",
+      "cadence_hours": 6,
+      "last_ok": "2026-05-15T19:40:15.974721Z",
+      "last_attempted": "2026-05-15T19:40:15.974721Z",
+      "record_count": 9,
+      "ok": true,
+      "errors": []
+    },
+    {
+      "source": "sec_edgar",
+      "display_name": "SEC EDGAR (8-K Item 5.02 + Form D)",
+      "url": "https://efts.sec.gov/LATEST/search-index",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-05-16T19:08:38.052545Z",
-      "last_attempted": "2026-05-16T19:08:38.052545Z",
-      "record_count": 42,
+      "last_ok": "2026-05-15T19:40:16.175414Z",
+      "last_attempted": "2026-05-15T19:40:16.175414Z",
+      "record_count": 160,
+      "ok": true,
+      "errors": []
+    },
+    {
+      "source": "dol_lca",
+      "display_name": "USCIS H-1B Employer Data Hub",
+      "url": "https://www.uscis.gov/tools/reports-and-studies/h-1b-employer-data-hub",
+      "tos_posture": "public_csv",
+      "cadence_hours": 24,
+      "last_ok": null,
+      "last_attempted": "2026-05-15T19:40:18.263237Z",
+      "record_count": 0,
+      "ok": false,
+      "errors": [
+        "https://www.uscis.gov/sites/default/files/document/data/h1b_datahubexport-2024.csv: GET https://www.uscis.gov/sites/default/files/document/data/h1b_datahubexport-2024.csv failed: Client error '404 Not Found' for url 'https://www.uscis.gov/sites/default/files/document/data/h1b_datahubexport-2024.csv'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+      ]
+    },
+    {
+      "source": "bls_oews",
+      "display_name": "BLS OEWS \u2014 Occupational Wages",
+      "url": "https://www.bls.gov/oes/",
+      "tos_posture": "public_api",
+      "cadence_hours": 24,
+      "last_ok": "2026-05-15T19:40:21.753281Z",
+      "last_attempted": "2026-05-15T19:40:21.753281Z",
+      "record_count": 24,
       "ok": true,
       "errors": []
     },
@@ -58,22 +152,1074 @@
       "url": "https://www.bls.gov/ces/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-16T19:08:38.470907Z",
-      "last_attempted": "2026-05-16T19:08:38.470907Z",
+      "last_ok": "2026-05-15T19:40:22.299868Z",
+      "last_attempted": "2026-05-15T19:40:22.299868Z",
       "record_count": 48,
       "ok": true,
       "errors": []
+    },
+    {
+      "source": "fred",
+      "display_name": "BLS Macro Labor Data",
+      "url": "https://www.bls.gov/developers/",
+      "tos_posture": "public_api",
+      "cadence_hours": 24,
+      "last_ok": "2026-05-15T19:40:22.653130Z",
+      "last_attempted": "2026-05-15T19:40:22.653130Z",
+      "record_count": 30,
+      "ok": true,
+      "errors": []
+    },
+    {
+      "source": "reddit",
+      "display_name": "Reddit Community Sentiment",
+      "url": "https://www.reddit.com",
+      "tos_posture": "public_api",
+      "cadence_hours": 12,
+      "last_ok": null,
+      "last_attempted": "2026-05-15T19:40:22.938329Z",
+      "record_count": 0,
+      "ok": false,
+      "errors": [
+        "r/layoffs: GET https://www.reddit.com/r/layoffs/new.json failed: Client error '403 Blocked' for url 'https://www.reddit.com/r/layoffs/new.json?limit=50'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
+        "r/recruiting: GET https://www.reddit.com/r/recruiting/new.json failed: Client error '403 Blocked' for url 'https://www.reddit.com/r/recruiting/new.json?limit=50'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
+        "r/cscareerquestions: GET https://www.reddit.com/r/cscareerquestions/new.json failed: Client error '403 Blocked' for url 'https://www.reddit.com/r/cscareerquestions/new.json?limit=50'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
+        "r/jobs: GET https://www.reddit.com/r/jobs/new.json failed: Client error '403 Blocked' for url 'https://www.reddit.com/r/jobs/new.json?limit=50'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
+        "r/recruitinghell: GET https://www.reddit.com/r/recruitinghell/new.json failed: Client error '403 Blocked' for url 'https://www.reddit.com/r/recruitinghell/new.json?limit=50'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
+        "r/ITCareerQuestions: GET https://www.reddit.com/r/ITCareerQuestions/new.json failed: Client error '403 Blocked' for url 'https://www.reddit.com/r/ITCareerQuestions/new.json?limit=50'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      ]
+    },
+    {
+      "source": "wikipedia_pv",
+      "display_name": "Wikipedia Pageviews",
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews",
+      "tos_posture": "public_api",
+      "cadence_hours": 24,
+      "last_ok": "2026-05-15T19:40:35.925195Z",
+      "last_attempted": "2026-05-15T19:40:35.925195Z",
+      "record_count": 34,
+      "ok": true,
+      "errors": []
+    },
+    {
+      "source": "wayback",
+      "display_name": "Wayback Careers-Page Snapshots",
+      "url": "https://web.archive.org/cdx/search/cdx",
+      "tos_posture": "public_api",
+      "cadence_hours": 24,
+      "last_ok": "2026-05-15T19:40:41.681340Z",
+      "last_attempted": "2026-05-15T19:40:41.681340Z",
+      "record_count": 3,
+      "ok": true,
+      "errors": [
+        "Stripe: GET https://web.archive.org/cdx/search/cdx failed: Server error '503 Service Unavailable' for url 'https://web.archive.org/cdx/search/cdx?url=stripe.com%2Fcareers&from=20260214&to=20260515&output=json&limit=200&fl=timestamp&collapse=timestamp%3A8'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503",
+        "Coinbase: GET https://web.archive.org/cdx/search/cdx failed: The read operation timed out",
+        "Robinhood: GET https://web.archive.org/cdx/search/cdx failed: Server error '503 Service Unavailable' for url 'https://web.archive.org/cdx/search/cdx?url=robinhood.com%2Fcareers&from=20260214&to=20260515&output=json&limit=200&fl=timestamp&collapse=timestamp%3A8'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503",
+        "Reddit: GET https://web.archive.org/cdx/search/cdx failed: The read operation timed out",
+        "Instacart: GET https://web.archive.org/cdx/search/cdx failed: [Errno 61] Connection refused",
+        "Pinterest: GET https://web.archive.org/cdx/search/cdx failed: [Errno 61] Connection refused",
+        "Discord: GET https://web.archive.org/cdx/search/cdx failed: [Errno 61] Connection refused",
+        "GitLab: GET https://web.archive.org/cdx/search/cdx failed: [Errno 61] Connection refused",
+        "HashiCorp: GET https://web.archive.org/cdx/search/cdx failed: [Errno 61] Connection refused",
+        "Cloudflare: GET https://web.archive.org/cdx/search/cdx failed: [Errno 61] Connection refused"
+      ]
     }
   ],
   "recent_signals": [
     {
-      "id": "6e307d1c50065453",
-      "ts": "2026-05-16T15:00:00Z",
-      "source": "org_moves",
-      "source_url": "https://techcrunch.com/2026/05/16/60b-ai-chip-darling-cerebras-almost-died-early-on-burning-8m-a-month/",
-      "type": "funding",
+      "id": "d3df2c955d39d5cb",
+      "ts": "2026-05-15T19:40:41.681216Z",
+      "source": "wikipedia_pv",
+      "source_url": "https://en.wikipedia.org/wiki/Spotify",
+      "type": "macro",
       "company": {
-        "name": "$60B AI chip darling Cerebras almost died early on, burning $8M a month",
+        "name": "Spotify",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": 8166.7,
+      "unit": "pageviews/day",
+      "raw_text": "Spotify \u2014 avg 7d pageviews 8167 vs 23d baseline 4968 (z=2.66)",
+      "tags": [
+        "attention",
+        "wikipedia",
+        "media"
+      ],
+      "extras": {
+        "avg_7d": 8166.7,
+        "avg_baseline": 4968.1,
+        "z_score": 2.66,
+        "is_spike": true
+      }
+    },
+    {
+      "id": "cfe8c4a9d2d267ec",
+      "ts": "2026-05-15T19:40:41.513293Z",
+      "source": "wikipedia_pv",
+      "source_url": "https://en.wikipedia.org/wiki/Glossier",
+      "type": "macro",
+      "company": {
+        "name": "Glossier",
+        "ticker": null,
+        "industry": null,
+        "sector": "CPG",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": 152.7,
+      "unit": "pageviews/day",
+      "raw_text": "Glossier \u2014 avg 7d pageviews 153 vs 23d baseline 151 (z=0.08)",
+      "tags": [
+        "attention",
+        "wikipedia",
+        "cpg"
+      ],
+      "extras": {
+        "avg_7d": 152.7,
+        "avg_baseline": 150.8,
+        "z_score": 0.08,
+        "is_spike": false
+      }
+    },
+    {
+      "id": "e40e3e62cf2c00cc",
+      "ts": "2026-05-15T19:40:41.351262Z",
+      "source": "wikipedia_pv",
+      "source_url": "https://en.wikipedia.org/wiki/Allbirds",
+      "type": "macro",
+      "company": {
+        "name": "Allbirds",
+        "ticker": null,
+        "industry": null,
+        "sector": "Retail",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": 575.9,
+      "unit": "pageviews/day",
+      "raw_text": "Allbirds \u2014 avg 7d pageviews 576 vs 23d baseline 3386 (z=-0.46)",
+      "tags": [
+        "attention",
+        "wikipedia",
+        "retail"
+      ],
+      "extras": {
+        "avg_7d": 575.9,
+        "avg_baseline": 3385.6,
+        "z_score": -0.46,
+        "is_spike": false
+      }
+    },
+    {
+      "id": "d0c7fc00e2f018bf",
+      "ts": "2026-05-15T19:40:41.185031Z",
+      "source": "wikipedia_pv",
+      "source_url": "https://en.wikipedia.org/wiki/Warby_Parker",
+      "type": "macro",
+      "company": {
+        "name": "Warby Parker",
+        "ticker": null,
+        "industry": null,
+        "sector": "Retail",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": 293.0,
+      "unit": "pageviews/day",
+      "raw_text": "Warby Parker \u2014 avg 7d pageviews 293 vs 23d baseline 254 (z=0.88)",
+      "tags": [
+        "attention",
+        "wikipedia",
+        "retail"
+      ],
+      "extras": {
+        "avg_7d": 293,
+        "avg_baseline": 254.3,
+        "z_score": 0.88,
+        "is_spike": false
+      }
+    },
+    {
+      "id": "af1a86c0c0d071f3",
+      "ts": "2026-05-15T19:40:41.016274Z",
+      "source": "wikipedia_pv",
+      "source_url": "https://en.wikipedia.org/wiki/Oscar_Health",
+      "type": "macro",
+      "company": {
+        "name": "Oscar Health",
+        "ticker": null,
+        "industry": null,
+        "sector": "Healthcare",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": 249.6,
+      "unit": "pageviews/day",
+      "raw_text": "Oscar Health \u2014 avg 7d pageviews 250 vs 23d baseline 238 (z=0.25)",
+      "tags": [
+        "attention",
+        "wikipedia",
+        "healthcare"
+      ],
+      "extras": {
+        "avg_7d": 249.6,
+        "avg_baseline": 237.7,
+        "z_score": 0.25,
+        "is_spike": false
+      }
+    },
+    {
+      "id": "26b59244005d50ca",
+      "ts": "2026-05-15T19:40:40.852984Z",
+      "source": "wikipedia_pv",
+      "source_url": "https://en.wikipedia.org/wiki/Hims_&_Hers",
+      "type": "macro",
+      "company": {
+        "name": "Hims & Hers",
+        "ticker": null,
+        "industry": null,
+        "sector": "Healthcare",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": 3.4,
+      "unit": "pageviews/day",
+      "raw_text": "Hims & Hers \u2014 avg 7d pageviews 3 vs 23d baseline 3 (z=0.09)",
+      "tags": [
+        "attention",
+        "wikipedia",
+        "healthcare"
+      ],
+      "extras": {
+        "avg_7d": 3.4,
+        "avg_baseline": 3.2,
+        "z_score": 0.09,
+        "is_spike": false
+      }
+    },
+    {
+      "id": "5677caebc42e369c",
+      "ts": "2026-05-15T19:40:40.682459Z",
+      "source": "wikipedia_pv",
+      "source_url": "https://en.wikipedia.org/wiki/Cursor",
+      "type": "macro",
+      "company": {
+        "name": "Cursor",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": 78.4,
+      "unit": "pageviews/day",
+      "raw_text": "Cursor \u2014 avg 7d pageviews 78 vs 23d baseline 149 (z=-0.68)",
+      "tags": [
+        "attention",
+        "wikipedia",
+        "technology"
+      ],
+      "extras": {
+        "avg_7d": 78.4,
+        "avg_baseline": 149.0,
+        "z_score": -0.68,
+        "is_spike": false
+      }
+    },
+    {
+      "id": "592fed9ca34857cb",
+      "ts": "2026-05-15T19:40:40.510880Z",
+      "source": "wikipedia_pv",
+      "source_url": "https://en.wikipedia.org/wiki/Perplexity_AI",
+      "type": "macro",
+      "company": {
+        "name": "Perplexity AI",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": 3595.6,
+      "unit": "pageviews/day",
+      "raw_text": "Perplexity AI \u2014 avg 7d pageviews 3596 vs 23d baseline 3774 (z=-0.41)",
+      "tags": [
+        "attention",
+        "wikipedia",
+        "technology"
+      ],
+      "extras": {
+        "avg_7d": 3595.6,
+        "avg_baseline": 3774.3,
+        "z_score": -0.41,
+        "is_spike": false
+      }
+    },
+    {
+      "id": "f28558f4786ed88d",
+      "ts": "2026-05-15T19:40:40.343163Z",
+      "source": "wikipedia_pv",
+      "source_url": "https://en.wikipedia.org/wiki/Replicate",
+      "type": "macro",
+      "company": {
+        "name": "Replicate",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": 13.0,
+      "unit": "pageviews/day",
+      "raw_text": "Replicate \u2014 avg 7d pageviews 13 vs 23d baseline 10 (z=0.65)",
+      "tags": [
+        "attention",
+        "wikipedia",
+        "technology"
+      ],
+      "extras": {
+        "avg_7d": 13,
+        "avg_baseline": 10.5,
+        "z_score": 0.65,
+        "is_spike": false
+      }
+    },
+    {
+      "id": "3c7ac40aefd746a2",
+      "ts": "2026-05-15T19:40:40.194351Z",
+      "source": "wikipedia_pv",
+      "source_url": "https://en.wikipedia.org/wiki/Vercel",
+      "type": "macro",
+      "company": {
+        "name": "Vercel",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": 914.1,
+      "unit": "pageviews/day",
+      "raw_text": "Vercel \u2014 avg 7d pageviews 914 vs 23d baseline 1038 (z=-0.18)",
+      "tags": [
+        "attention",
+        "wikipedia",
+        "technology"
+      ],
+      "extras": {
+        "avg_7d": 914.1,
+        "avg_baseline": 1037.7,
+        "z_score": -0.18,
+        "is_spike": false
+      }
+    },
+    {
+      "id": "a70cf5cad2b400ff",
+      "ts": "2026-05-15T19:40:40.043638Z",
+      "source": "wikipedia_pv",
+      "source_url": "https://en.wikipedia.org/wiki/Linear",
+      "type": "macro",
+      "company": {
+        "name": "Linear",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": 56.6,
+      "unit": "pageviews/day",
+      "raw_text": "Linear \u2014 avg 7d pageviews 57 vs 23d baseline 69 (z=-0.53)",
+      "tags": [
+        "attention",
+        "wikipedia",
+        "technology"
+      ],
+      "extras": {
+        "avg_7d": 56.6,
+        "avg_baseline": 68.8,
+        "z_score": -0.53,
+        "is_spike": false
+      }
+    },
+    {
+      "id": "2b8b651529418e59",
+      "ts": "2026-05-15T19:40:39.867100Z",
+      "source": "wikipedia_pv",
+      "source_url": "https://en.wikipedia.org/wiki/Mercury",
+      "type": "macro",
+      "company": {
+        "name": "Mercury",
+        "ticker": null,
+        "industry": null,
+        "sector": "Finance",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": 285.3,
+      "unit": "pageviews/day",
+      "raw_text": "Mercury \u2014 avg 7d pageviews 285 vs 23d baseline 341 (z=-1.34)",
+      "tags": [
+        "attention",
+        "wikipedia",
+        "finance"
+      ],
+      "extras": {
+        "avg_7d": 285.3,
+        "avg_baseline": 341.0,
+        "z_score": -1.34,
+        "is_spike": false
+      }
+    },
+    {
+      "id": "0df8bb03ba86d9ae",
+      "ts": "2026-05-15T19:40:39.700802Z",
+      "source": "wikipedia_pv",
+      "source_url": "https://en.wikipedia.org/wiki/Ramp",
+      "type": "macro",
+      "company": {
+        "name": "Ramp",
+        "ticker": null,
+        "industry": null,
+        "sector": "Finance",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": 21.9,
+      "unit": "pageviews/day",
+      "raw_text": "Ramp \u2014 avg 7d pageviews 22 vs 23d baseline 24 (z=-0.32)",
+      "tags": [
+        "attention",
+        "wikipedia",
+        "finance"
+      ],
+      "extras": {
+        "avg_7d": 21.9,
+        "avg_baseline": 24.4,
+        "z_score": -0.32,
+        "is_spike": false
+      }
+    },
+    {
+      "id": "738f1f4b7b12cd36",
+      "ts": "2026-05-15T19:40:39.541558Z",
+      "source": "wikipedia_pv",
+      "source_url": "https://en.wikipedia.org/wiki/Plaid",
+      "type": "macro",
+      "company": {
+        "name": "Plaid",
+        "ticker": null,
+        "industry": null,
+        "sector": "Finance",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": 114.0,
+      "unit": "pageviews/day",
+      "raw_text": "Plaid \u2014 avg 7d pageviews 114 vs 23d baseline 79 (z=2.15)",
+      "tags": [
+        "attention",
+        "wikipedia",
+        "finance"
+      ],
+      "extras": {
+        "avg_7d": 114,
+        "avg_baseline": 78.6,
+        "z_score": 2.15,
+        "is_spike": true
+      }
+    },
+    {
+      "id": "710c0c8532597b36",
+      "ts": "2026-05-15T19:40:39.370464Z",
+      "source": "wikipedia_pv",
+      "source_url": "https://en.wikipedia.org/wiki/Brex",
+      "type": "macro",
+      "company": {
+        "name": "Brex",
+        "ticker": null,
+        "industry": null,
+        "sector": "Finance",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": 221.7,
+      "unit": "pageviews/day",
+      "raw_text": "Brex \u2014 avg 7d pageviews 222 vs 23d baseline 225 (z=-0.07)",
+      "tags": [
+        "attention",
+        "wikipedia",
+        "finance"
+      ],
+      "extras": {
+        "avg_7d": 221.7,
+        "avg_baseline": 225.0,
+        "z_score": -0.07,
+        "is_spike": false
+      }
+    },
+    {
+      "id": "bb9e0d957e799c0c",
+      "ts": "2026-05-15T19:40:39.212415Z",
+      "source": "wikipedia_pv",
+      "source_url": "https://en.wikipedia.org/wiki/Databricks",
+      "type": "macro",
+      "company": {
+        "name": "Databricks",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": 1346.3,
+      "unit": "pageviews/day",
+      "raw_text": "Databricks \u2014 avg 7d pageviews 1346 vs 23d baseline 1352 (z=-0.02)",
+      "tags": [
+        "attention",
+        "wikipedia",
+        "technology"
+      ],
+      "extras": {
+        "avg_7d": 1346.3,
+        "avg_baseline": 1352.3,
+        "z_score": -0.02,
+        "is_spike": false
+      }
+    },
+    {
+      "id": "264177b09f6a20bb",
+      "ts": "2026-05-15T19:40:39.041079Z",
+      "source": "wikipedia_pv",
+      "source_url": "https://en.wikipedia.org/wiki/Snowflake",
+      "type": "macro",
+      "company": {
+        "name": "Snowflake",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": 223.1,
+      "unit": "pageviews/day",
+      "raw_text": "Snowflake \u2014 avg 7d pageviews 223 vs 23d baseline 253 (z=-0.47)",
+      "tags": [
+        "attention",
+        "wikipedia",
+        "technology"
+      ],
+      "extras": {
+        "avg_7d": 223.1,
+        "avg_baseline": 253.3,
+        "z_score": -0.47,
+        "is_spike": false
+      }
+    },
+    {
+      "id": "dfd7b05e06a33b2c",
+      "ts": "2026-05-15T19:40:38.862330Z",
+      "source": "wikipedia_pv",
+      "source_url": "https://en.wikipedia.org/wiki/Figma",
+      "type": "macro",
+      "company": {
+        "name": "Figma",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": 1151.0,
+      "unit": "pageviews/day",
+      "raw_text": "Figma \u2014 avg 7d pageviews 1151 vs 23d baseline 1431 (z=-0.99)",
+      "tags": [
+        "attention",
+        "wikipedia",
+        "technology"
+      ],
+      "extras": {
+        "avg_7d": 1151,
+        "avg_baseline": 1430.9,
+        "z_score": -0.99,
+        "is_spike": false
+      }
+    },
+    {
+      "id": "bc0d98161369ca13",
+      "ts": "2026-05-15T19:40:38.684692Z",
+      "source": "wikipedia_pv",
+      "source_url": "https://en.wikipedia.org/wiki/Notion",
+      "type": "macro",
+      "company": {
+        "name": "Notion",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": 46.6,
+      "unit": "pageviews/day",
+      "raw_text": "Notion \u2014 avg 7d pageviews 47 vs 23d baseline 42 (z=0.37)",
+      "tags": [
+        "attention",
+        "wikipedia",
+        "technology"
+      ],
+      "extras": {
+        "avg_7d": 46.6,
+        "avg_baseline": 42.2,
+        "z_score": 0.37,
+        "is_spike": false
+      }
+    },
+    {
+      "id": "090298abb57d9f6d",
+      "ts": "2026-05-15T19:40:38.512204Z",
+      "source": "wikipedia_pv",
+      "source_url": "https://en.wikipedia.org/wiki/Scale_AI",
+      "type": "macro",
+      "company": {
+        "name": "Scale AI",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": 1318.3,
+      "unit": "pageviews/day",
+      "raw_text": "Scale AI \u2014 avg 7d pageviews 1318 vs 23d baseline 1532 (z=-0.26)",
+      "tags": [
+        "attention",
+        "wikipedia",
+        "technology"
+      ],
+      "extras": {
+        "avg_7d": 1318.3,
+        "avg_baseline": 1532.3,
+        "z_score": -0.26,
+        "is_spike": false
+      }
+    },
+    {
+      "id": "c263a83ce3e7533c",
+      "ts": "2026-05-15T19:40:38.347265Z",
+      "source": "wikipedia_pv",
+      "source_url": "https://en.wikipedia.org/wiki/OpenAI",
+      "type": "macro",
+      "company": {
+        "name": "OpenAI",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": 9762.7,
+      "unit": "pageviews/day",
+      "raw_text": "OpenAI \u2014 avg 7d pageviews 9763 vs 23d baseline 10728 (z=-0.41)",
+      "tags": [
+        "attention",
+        "wikipedia",
+        "technology"
+      ],
+      "extras": {
+        "avg_7d": 9762.7,
+        "avg_baseline": 10728.0,
+        "z_score": -0.41,
+        "is_spike": false
+      }
+    },
+    {
+      "id": "204604742f1afcef",
+      "ts": "2026-05-15T19:40:38.185252Z",
+      "source": "wikipedia_pv",
+      "source_url": "https://en.wikipedia.org/wiki/Anthropic",
+      "type": "macro",
+      "company": {
+        "name": "Anthropic",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": 15478.9,
+      "unit": "pageviews/day",
+      "raw_text": "Anthropic \u2014 avg 7d pageviews 15479 vs 23d baseline 17568 (z=-0.82)",
+      "tags": [
+        "attention",
+        "wikipedia",
+        "technology"
+      ],
+      "extras": {
+        "avg_7d": 15478.9,
+        "avg_baseline": 17568.1,
+        "z_score": -0.82,
+        "is_spike": false
+      }
+    },
+    {
+      "id": "4ec47bf7cd3a5f8e",
+      "ts": "2026-05-15T19:40:38.021562Z",
+      "source": "wikipedia_pv",
+      "source_url": "https://en.wikipedia.org/wiki/Cloudflare",
+      "type": "macro",
+      "company": {
+        "name": "Cloudflare",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": 2330.3,
+      "unit": "pageviews/day",
+      "raw_text": "Cloudflare \u2014 avg 7d pageviews 2330 vs 23d baseline 1725 (z=1.31)",
+      "tags": [
+        "attention",
+        "wikipedia",
+        "technology"
+      ],
+      "extras": {
+        "avg_7d": 2330.3,
+        "avg_baseline": 1725.0,
+        "z_score": 1.31,
+        "is_spike": false
+      }
+    },
+    {
+      "id": "24d65e90ae54aeb0",
+      "ts": "2026-05-15T19:40:37.843543Z",
+      "source": "wikipedia_pv",
+      "source_url": "https://en.wikipedia.org/wiki/HashiCorp",
+      "type": "macro",
+      "company": {
+        "name": "HashiCorp",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": 329.9,
+      "unit": "pageviews/day",
+      "raw_text": "HashiCorp \u2014 avg 7d pageviews 330 vs 23d baseline 466 (z=-0.42)",
+      "tags": [
+        "attention",
+        "wikipedia",
+        "technology"
+      ],
+      "extras": {
+        "avg_7d": 329.9,
+        "avg_baseline": 466.3,
+        "z_score": -0.42,
+        "is_spike": false
+      }
+    },
+    {
+      "id": "90e6114d85098078",
+      "ts": "2026-05-15T19:40:37.667952Z",
+      "source": "wikipedia_pv",
+      "source_url": "https://en.wikipedia.org/wiki/GitLab",
+      "type": "macro",
+      "company": {
+        "name": "GitLab",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": 1388.4,
+      "unit": "pageviews/day",
+      "raw_text": "GitLab \u2014 avg 7d pageviews 1388 vs 23d baseline 1269 (z=0.23)",
+      "tags": [
+        "attention",
+        "wikipedia",
+        "technology"
+      ],
+      "extras": {
+        "avg_7d": 1388.4,
+        "avg_baseline": 1269,
+        "z_score": 0.23,
+        "is_spike": false
+      }
+    },
+    {
+      "id": "00e4c1cfaf1a25e4",
+      "ts": "2026-05-15T19:40:37.466281Z",
+      "source": "wikipedia_pv",
+      "source_url": "https://en.wikipedia.org/wiki/Discord",
+      "type": "macro",
+      "company": {
+        "name": "Discord",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": 4303.1,
+      "unit": "pageviews/day",
+      "raw_text": "Discord \u2014 avg 7d pageviews 4303 vs 23d baseline 3878 (z=1.47)",
+      "tags": [
+        "attention",
+        "wikipedia",
+        "technology"
+      ],
+      "extras": {
+        "avg_7d": 4303.1,
+        "avg_baseline": 3878.3,
+        "z_score": 1.47,
+        "is_spike": false
+      }
+    },
+    {
+      "id": "7f5d56d140d99523",
+      "ts": "2026-05-15T19:40:37.306758Z",
+      "source": "wikipedia_pv",
+      "source_url": "https://en.wikipedia.org/wiki/Pinterest",
+      "type": "macro",
+      "company": {
+        "name": "Pinterest",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": 4209.1,
+      "unit": "pageviews/day",
+      "raw_text": "Pinterest \u2014 avg 7d pageviews 4209 vs 23d baseline 4697 (z=-1.69)",
+      "tags": [
+        "attention",
+        "wikipedia",
+        "technology"
+      ],
+      "extras": {
+        "avg_7d": 4209.1,
+        "avg_baseline": 4697.3,
+        "z_score": -1.69,
+        "is_spike": false
+      }
+    },
+    {
+      "id": "22d87f7490df5dcf",
+      "ts": "2026-05-15T19:40:37.126057Z",
+      "source": "wikipedia_pv",
+      "source_url": "https://en.wikipedia.org/wiki/Instacart",
+      "type": "macro",
+      "company": {
+        "name": "Instacart",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": 568.0,
+      "unit": "pageviews/day",
+      "raw_text": "Instacart \u2014 avg 7d pageviews 568 vs 23d baseline 622 (z=-0.52)",
+      "tags": [
+        "attention",
+        "wikipedia",
+        "technology"
+      ],
+      "extras": {
+        "avg_7d": 568,
+        "avg_baseline": 622.0,
+        "z_score": -0.52,
+        "is_spike": false
+      }
+    },
+    {
+      "id": "2c08d98ddf8f4271",
+      "ts": "2026-05-15T19:40:36.957273Z",
+      "source": "wikipedia_pv",
+      "source_url": "https://en.wikipedia.org/wiki/DoorDash",
+      "type": "macro",
+      "company": {
+        "name": "DoorDash",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": 1261.1,
+      "unit": "pageviews/day",
+      "raw_text": "DoorDash \u2014 avg 7d pageviews 1261 vs 23d baseline 1328 (z=-0.18)",
+      "tags": [
+        "attention",
+        "wikipedia",
+        "technology"
+      ],
+      "extras": {
+        "avg_7d": 1261.1,
+        "avg_baseline": 1328.1,
+        "z_score": -0.18,
+        "is_spike": false
+      }
+    },
+    {
+      "id": "c1f7cd3730a05310",
+      "ts": "2026-05-15T19:40:36.788947Z",
+      "source": "wikipedia_pv",
+      "source_url": "https://en.wikipedia.org/wiki/Reddit",
+      "type": "macro",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": 7827.4,
+      "unit": "pageviews/day",
+      "raw_text": "Reddit \u2014 avg 7d pageviews 7827 vs 23d baseline 7533 (z=0.31)",
+      "tags": [
+        "attention",
+        "wikipedia",
+        "media"
+      ],
+      "extras": {
+        "avg_7d": 7827.4,
+        "avg_baseline": 7533.1,
+        "z_score": 0.31,
+        "is_spike": false
+      }
+    },
+    {
+      "id": "ba918930eea29531",
+      "ts": "2026-05-15T19:40:36.614299Z",
+      "source": "wikipedia_pv",
+      "source_url": "https://en.wikipedia.org/wiki/Robinhood",
+      "type": "macro",
+      "company": {
+        "name": "Robinhood",
+        "ticker": null,
+        "industry": null,
+        "sector": "Finance",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": 9.1,
+      "unit": "pageviews/day",
+      "raw_text": "Robinhood \u2014 avg 7d pageviews 9 vs 23d baseline 16 (z=-0.18)",
+      "tags": [
+        "attention",
+        "wikipedia",
+        "finance"
+      ],
+      "extras": {
+        "avg_7d": 9.1,
+        "avg_baseline": 16.0,
+        "z_score": -0.18,
+        "is_spike": false
+      }
+    },
+    {
+      "id": "544116fc2fb2853d",
+      "ts": "2026-05-15T19:40:36.454111Z",
+      "source": "wikipedia_pv",
+      "source_url": "https://en.wikipedia.org/wiki/Coinbase",
+      "type": "macro",
+      "company": {
+        "name": "Coinbase",
+        "ticker": null,
+        "industry": null,
+        "sector": "Finance",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": 936.9,
+      "unit": "pageviews/day",
+      "raw_text": "Coinbase \u2014 avg 7d pageviews 937 vs 23d baseline 877 (z=0.17)",
+      "tags": [
+        "attention",
+        "wikipedia",
+        "finance"
+      ],
+      "extras": {
+        "avg_7d": 936.9,
+        "avg_baseline": 877.2,
+        "z_score": 0.17,
+        "is_spike": false
+      }
+    },
+    {
+      "id": "f21346c256ff0254",
+      "ts": "2026-05-15T19:40:36.259157Z",
+      "source": "wikipedia_pv",
+      "source_url": "https://en.wikipedia.org/wiki/Airbnb",
+      "type": "macro",
+      "company": {
+        "name": "Airbnb",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": 1764.0,
+      "unit": "pageviews/day",
+      "raw_text": "Airbnb \u2014 avg 7d pageviews 1764 vs 23d baseline 1807 (z=-0.20)",
+      "tags": [
+        "attention",
+        "wikipedia",
+        "technology"
+      ],
+      "extras": {
+        "avg_7d": 1764,
+        "avg_baseline": 1807.4,
+        "z_score": -0.2,
+        "is_spike": false
+      }
+    },
+    {
+      "id": "ac3c8b84920a2219",
+      "ts": "2026-05-15T19:40:36.094827Z",
+      "source": "wikipedia_pv",
+      "source_url": "https://en.wikipedia.org/wiki/Stripe",
+      "type": "macro",
+      "company": {
+        "name": "Stripe",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": 80.1,
+      "unit": "pageviews/day",
+      "raw_text": "Stripe \u2014 avg 7d pageviews 80 vs 23d baseline 64 (z=1.02)",
+      "tags": [
+        "attention",
+        "wikipedia",
+        "technology"
+      ],
+      "extras": {
+        "avg_7d": 80.1,
+        "avg_baseline": 63.9,
+        "z_score": 1.02,
+        "is_spike": false
+      }
+    },
+    {
+      "id": "b17c3707fac2690b",
+      "ts": "2026-05-15T15:16:44-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/gitlab/jobs/8539465002",
+      "type": "posting",
+      "company": {
+        "name": "GitLab",
         "ticker": null,
         "industry": null,
         "sector": "Technology",
@@ -81,21 +1227,144 @@
         "size_band": "unknown"
       },
       "magnitude": null,
-      "unit": null,
-      "raw_text": "$60B AI chip darling Cerebras almost died early on, burning $8M a month",
+      "unit": "jobs",
+      "raw_text": "GitLab | Business Development Representative, DoD | Remote, US",
       "tags": [
-        "funding",
+        "hiring",
+        "greenhouse",
         "technology"
-      ]
+      ],
+      "extras": {
+        "role": "Business Development Representative, DoD",
+        "location": "Remote, US",
+        "seniority": "mid",
+        "remote": "remote"
+      }
     },
     {
-      "id": "ca28c0209f359be9",
-      "ts": "2026-05-16T11:03:56Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48159036",
+      "id": "d7a3b7fcf5766bc7",
+      "ts": "2026-05-15T14:32:47-04:00",
+      "source": "greenhouse",
+      "source_url": "http://www.hioscar.com/careers/7852515?gh_jid=7852515",
       "type": "posting",
       "company": {
-        "name": "Unknown",
+        "name": "Oscar Health",
+        "ticker": null,
+        "industry": null,
+        "sector": "Healthcare",
+        "hq_region": "NY",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Oscar Health | Associate, Insurance Product & Benefit Execution | New York, New York, United States",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "healthcare",
+        "NY"
+      ],
+      "extras": {
+        "role": "Associate, Insurance Product & Benefit Execution",
+        "location": "New York, New York, United States",
+        "seniority": "junior",
+        "remote": "remote"
+      }
+    },
+    {
+      "id": "45d99819e4576de2",
+      "ts": "2026-05-15T14:10:06-04:00",
+      "source": "greenhouse",
+      "source_url": "https://boards.greenhouse.io/glossier/jobs/7930299?gh_jid=7930299",
+      "type": "posting",
+      "company": {
+        "name": "Glossier",
+        "ticker": null,
+        "industry": null,
+        "sector": "CPG",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Glossier | Key Lead, London | London, UK",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "cpg"
+      ],
+      "extras": {
+        "role": "Key Lead, London",
+        "location": "London, UK",
+        "seniority": "lead"
+      }
+    },
+    {
+      "id": "852b7869168b67ef",
+      "ts": "2026-05-15T13:31:23-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/mercury/jobs/5976613004",
+      "type": "posting",
+      "company": {
+        "name": "Mercury",
+        "ticker": null,
+        "industry": null,
+        "sector": "Finance",
+        "hq_region": "UT",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Mercury | Community Reinvestment Act (CRA) Officer | Salt Lake City, UT",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "finance",
+        "UT"
+      ],
+      "extras": {
+        "role": "Community Reinvestment Act (CRA) Officer",
+        "location": "Salt Lake City, UT",
+        "seniority": "mid"
+      }
+    },
+    {
+      "id": "214043484a532a01",
+      "ts": "2026-05-15T13:15:52-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7616791",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": "NY",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Agency Development Partnerships Lead I | New York City, NY",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "NY"
+      ],
+      "extras": {
+        "role": "Agency Development Partnerships Lead I",
+        "location": "New York City, NY",
+        "seniority": "lead"
+      }
+    },
+    {
+      "id": "1326bcfd27ff6800",
+      "ts": "2026-05-15T13:12:56-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/discord/jobs/8552176002",
+      "type": "posting",
+      "company": {
+        "name": "Discord",
         "ticker": null,
         "industry": null,
         "sector": "Technology",
@@ -104,21 +1373,29 @@
       },
       "magnitude": null,
       "unit": "jobs",
-      "raw_text": "Hey, EM at a US based startup remotely working from UAE. Can I apply for the remote position?",
+      "raw_text": "Discord | Engineering Manager, Core Product | Remote (US)",
       "tags": [
         "hiring",
-        "hn",
-        "technology"
-      ]
+        "greenhouse",
+        "technology",
+        "Engineering Management"
+      ],
+      "extras": {
+        "role": "Engineering Manager, Core Product",
+        "location": "Remote (US)",
+        "function": "Engineering Management",
+        "soc": "11-9041",
+        "seniority": "manager"
+      }
     },
     {
-      "id": "691c33aab8558f6a",
-      "ts": "2026-05-16T09:26:55Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48158484",
+      "id": "e969364adcf54f5c",
+      "ts": "2026-05-15T13:01:43-04:00",
+      "source": "greenhouse",
+      "source_url": "https://boards.greenhouse.io/cloudflare/jobs/6199146?gh_jid=6199146",
       "type": "posting",
       "company": {
-        "name": "Unknown",
+        "name": "Cloudflare",
         "ticker": null,
         "industry": null,
         "sector": "Technology",
@@ -127,44 +1404,29 @@
       },
       "magnitude": null,
       "unit": "jobs",
-      "raw_text": "Do you have an email where people can reach out to? Not everyone has a Linkedin account and you might be narrowing down the potential pool of candidates.",
+      "raw_text": "Cloudflare | Senior Named Account Executive, Montreal | Distributed",
       "tags": [
         "hiring",
-        "hn",
-        "technology"
-      ]
+        "greenhouse",
+        "technology",
+        "Sales"
+      ],
+      "extras": {
+        "role": "Senior Named Account Executive, Montreal",
+        "location": "Distributed",
+        "function": "Sales",
+        "soc": "41-3091",
+        "seniority": "senior"
+      }
     },
     {
-      "id": "e11bbc2d34906b06",
-      "ts": "2026-05-16T08:06:39Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48157945",
+      "id": "5d30a81fe243e3c6",
+      "ts": "2026-05-15T12:33:46-04:00",
+      "source": "greenhouse",
+      "source_url": "https://instacart.careers/job/?gh_jid=7642778",
       "type": "posting",
       "company": {
-        "name": "isn&#x27;t that a pedagogy university?!",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "isn&#x27;t that a pedagogy university?!",
-      "tags": [
-        "hiring",
-        "hn",
-        "other"
-      ]
-    },
-    {
-      "id": "7d63555f39826f8d",
-      "ts": "2026-05-16T01:35:33Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48155996",
-      "type": "posting",
-      "company": {
-        "name": "Unknown",
+        "name": "Instacart",
         "ticker": null,
         "industry": null,
         "sector": "Technology",
@@ -173,35 +1435,115 @@
       },
       "magnitude": null,
       "unit": "jobs",
-      "raw_text": "Hi. That&#x27;s interesting. how do I contact you? We are in a tangent of this space, and would love to understand better how health providers understand&#x2F;think about hipaa et al. send me an email at gabriel dot barros domain: myme.health",
+      "raw_text": "Instacart | Account Manager | Canada - Remote (ON Only)",
       "tags": [
         "hiring",
-        "hn",
-        "technology"
-      ]
+        "greenhouse",
+        "technology",
+        "Customer Success"
+      ],
+      "extras": {
+        "role": "Account Manager",
+        "location": "Canada - Remote (ON Only)",
+        "function": "Customer Success",
+        "soc": "13-1161",
+        "seniority": "manager",
+        "remote": "remote"
+      }
     },
     {
-      "id": "a7c9be0f5008739d",
-      "ts": "2026-05-16T00:55:41Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48155783",
+      "id": "bc6ab999bc77bd09",
+      "ts": "2026-05-15T16:28:35.982000Z",
+      "source": "ashby",
+      "source_url": "https://jobs.ashbyhq.com/perplexity/4eeb7b0f-9370-40e8-94de-faf3e4312ed0",
       "type": "posting",
       "company": {
-        "name": "Unknown",
+        "name": "Perplexity AI",
         "ticker": null,
         "industry": null,
-        "sector": "Other",
+        "sector": "Technology",
+        "hq_region": "NY",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Perplexity AI | Design Director, Brand & Marketing | New York City | Design",
+      "tags": [
+        "hiring",
+        "ashby",
+        "technology",
+        "NY",
+        "Engineering Management"
+      ],
+      "extras": {
+        "role": "Design Director, Brand & Marketing",
+        "location": "New York City",
+        "department": "Design",
+        "employment_type": "FullTime",
+        "function": "Engineering Management",
+        "soc": "11-9041",
+        "seniority": "director"
+      }
+    },
+    {
+      "id": "26d067e42e6e8ab3",
+      "ts": "2026-05-15T12:25:03-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/anthropic/jobs/5220336008",
+      "type": "posting",
+      "company": {
+        "name": "Anthropic",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
         "hq_region": null,
         "size_band": "unknown"
       },
       "magnitude": null,
       "unit": "jobs",
-      "raw_text": "I have a few people to send this to, but no pay range makes me uncomfortable to even forward this. good luck.",
+      "raw_text": "Anthropic | Account Executive, SMB - EMEA | Dublin, IE",
       "tags": [
         "hiring",
-        "hn",
-        "other"
-      ]
+        "greenhouse",
+        "technology",
+        "Sales"
+      ],
+      "extras": {
+        "role": "Account Executive, SMB - EMEA",
+        "location": "Dublin, IE",
+        "function": "Sales",
+        "soc": "41-3091",
+        "seniority": "mid"
+      }
+    },
+    {
+      "id": "90745336304065c6",
+      "ts": "2026-05-15T12:12:17-04:00",
+      "source": "greenhouse",
+      "source_url": "https://boards.greenhouse.io/robinhood/jobs/7922396?t=gh_src=&gh_jid=7922396",
+      "type": "posting",
+      "company": {
+        "name": "Robinhood",
+        "ticker": null,
+        "industry": null,
+        "sector": "Finance",
+        "hq_region": "CA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Robinhood | Community Manager, Social | Menlo Park, CA; New York, NY",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "finance",
+        "CA"
+      ],
+      "extras": {
+        "role": "Community Manager, Social",
+        "location": "Menlo Park, CA; New York, NY",
+        "seniority": "manager"
+      }
     },
     {
       "id": "23950d7ae2bca29a",
@@ -213,7 +1555,7 @@
         "name": "Unknown",
         "ticker": null,
         "industry": null,
-        "sector": "Technology",
+        "sector": "Other",
         "hq_region": null,
         "size_band": "unknown"
       },
@@ -223,17 +1565,18 @@
       "tags": [
         "hiring",
         "hn",
-        "technology"
-      ]
+        "other"
+      ],
+      "extras": {}
     },
     {
-      "id": "ed7fde0d6a590533",
-      "ts": "2026-05-15T15:20:26Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48149841",
+      "id": "7ca1aa21044d05e9",
+      "ts": "2026-05-15T12:02:59-04:00",
+      "source": "greenhouse",
+      "source_url": "https://careers.airbnb.com/positions/7531247?gh_jid=7531247",
       "type": "posting",
       "company": {
-        "name": "Unknown",
+        "name": "Airbnb",
         "ticker": null,
         "industry": null,
         "sector": "Technology",
@@ -242,12 +1585,17 @@
       },
       "magnitude": null,
       "unit": "jobs",
-      "raw_text": "Emailed you \u2014 this looks close to my work around Python&#x2F;TypeScript automation, data pipelines, AI agents, and noisy business-data analysis. Portfolio: https:&#x2F;&#x2F;arseniy-abramidze.vercel.app&#x2F;",
+      "raw_text": "Airbnb | Manager, Field Operations, Southeast | United States",
       "tags": [
         "hiring",
-        "hn",
+        "greenhouse",
         "technology"
-      ]
+      ],
+      "extras": {
+        "role": "Manager, Field Operations, Southeast",
+        "location": "United States",
+        "seniority": "manager"
+      }
     },
     {
       "id": "988c3138e0d6dddb",
@@ -270,16 +1618,51 @@
         "hiring",
         "hn",
         "other"
-      ]
+      ],
+      "extras": {}
     },
     {
-      "id": "0675a448bbe69967",
-      "ts": "2026-05-15T14:45:24Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48149341",
+      "id": "70cfd7bdaddc80ac",
+      "ts": "2026-05-15T13:17:26.508000Z",
+      "source": "lever",
+      "source_url": "https://jobs.lever.co/spotify/351ad979-231f-4bee-ae49-8ff55b64f605",
       "type": "posting",
       "company": {
-        "name": "Unknown",
+        "name": "Spotify",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": "NY",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Spotify | Senior Machine Learning Engineer, Zeitgeist, Personalization | New York, NY | Personalization",
+      "tags": [
+        "hiring",
+        "lever",
+        "media",
+        "NY",
+        "Data / ML"
+      ],
+      "extras": {
+        "role": "Senior Machine Learning Engineer, Zeitgeist, Personalization",
+        "location": "New York, NY",
+        "team": "Personalization",
+        "commitment": "Permanent",
+        "function": "Data / ML",
+        "soc": "15-2051",
+        "seniority": "senior"
+      }
+    },
+    {
+      "id": "514033385697f5f1",
+      "ts": "2026-05-15T08:39:32-04:00",
+      "source": "greenhouse",
+      "source_url": "https://stripe.com/jobs/search?gh_jid=7908925",
+      "type": "posting",
+      "company": {
+        "name": "Stripe",
         "ticker": null,
         "industry": null,
         "sector": "Technology",
@@ -288,34 +1671,20 @@
       },
       "magnitude": null,
       "unit": "jobs",
-      "raw_text": "This is very close to what I\u2019m building with JARVIS \u2014 a local AI assistant with deterministic command routing, validation boundaries, visible state, and tool execution. I\u2019m Europe-based, so NYC 5x&#x2F;week probably makes it hard, but if you\u2019re open to a remote&#x2F;contract AI systems engineer for ",
+      "raw_text": "Stripe | Account Executive (New Business - Portuguese Market) | Madrid",
       "tags": [
         "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "864f19193a1513c9",
-      "ts": "2026-05-15T13:00:00Z",
-      "source": "org_moves",
-      "source_url": "https://techcrunch.com/2026/05/15/meridian-ventures-launched-35m-fund-to-back-mba-deferred-founders/",
-      "type": "funding",
-      "company": {
-        "name": "Meridian Ventures launched a $35M fund with a focus on MBA-deferred founders",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Meridian Ventures launched a $35M fund with a focus on MBA-deferred founders",
-      "tags": [
-        "funding",
-        "technology"
-      ]
+        "greenhouse",
+        "technology",
+        "Sales"
+      ],
+      "extras": {
+        "role": "Account Executive (New Business - Portuguese Market)",
+        "location": "Madrid",
+        "function": "Sales",
+        "soc": "41-3091",
+        "seniority": "mid"
+      }
     },
     {
       "id": "6ffe92914551670c",
@@ -327,18 +1696,289 @@
         "name": "Woosmap",
         "ticker": null,
         "industry": null,
-        "sector": "Retail",
+        "sector": "Other",
         "hq_region": null,
         "size_band": "unknown"
       },
       "magnitude": null,
       "unit": "jobs",
-      "raw_text": "Woosmap | https:&#x2F;&#x2F;www.woosmap.com&#x2F; | Backend Engineer (Mid-level &amp; Senior) | HYBRID (London, Paris, Montpellier) or REMOTE (UTC-1 to UTC+2) | Full-time We run location APIs. Geocoding, routing, store locator, address autocomplete, etc. at enterprise scale. When a checkout page res",
+      "raw_text": "Woosmap | https:&#x2F;&#x2F;www.woosmap.com&#x2F; | Backend Engineer (Mid-level &amp; Senior) | HYBRID (London, Paris, Montpellier) or REMOTE (UTC-1 to UTC+2) | Full-time We run location APIs. Geocoding, routing, store locator, address autocomplete, etc. at enterprise scale. When a checkout page resolves your address, or a courier finds you first try: that&#x27;s us. Stack: Python, Go, Rust, TypeScript, Valkey, Postgres, OpenSearch, Docker, AWS, Datadog. We are a small team, owning and driving c",
       "tags": [
         "hiring",
         "hn",
-        "retail"
-      ]
+        "other"
+      ],
+      "extras": {}
+    },
+    {
+      "id": "cb68c5a9391c43d3",
+      "ts": "2026-05-15T06:39:07-04:00",
+      "source": "greenhouse",
+      "source_url": "https://boards.greenhouse.io/figma/jobs/5995989004?gh_jid=5995989004",
+      "type": "posting",
+      "company": {
+        "name": "Figma",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Figma | Enterprise Support Specialist (Bengaluru, India) | Bengaluru, India",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "Support"
+      ],
+      "extras": {
+        "role": "Enterprise Support Specialist (Bengaluru, India)",
+        "location": "Bengaluru, India",
+        "function": "Support",
+        "soc": "43-4051",
+        "seniority": "mid"
+      }
+    },
+    {
+      "id": "e4a794867a1291b1",
+      "ts": "2026-05-15T05:21:51-04:00",
+      "source": "greenhouse",
+      "source_url": "https://www.pinterestcareers.com/jobs/?gh_jid=7903938",
+      "type": "posting",
+      "company": {
+        "name": "Pinterest",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Pinterest | Client Account Manager II, Mid-Market | Dublin, IE",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "Customer Success"
+      ],
+      "extras": {
+        "role": "Client Account Manager II, Mid-Market",
+        "location": "Dublin, IE",
+        "function": "Customer Success",
+        "soc": "13-1161",
+        "seniority": "manager"
+      }
+    },
+    {
+      "id": "6f1ef9643bbd0e1f",
+      "ts": "2026-05-15T01:05:23.764000Z",
+      "source": "ashby",
+      "source_url": "https://jobs.ashbyhq.com/cursor/040ac0f8-dba7-4d13-8171-b902e925f334",
+      "type": "posting",
+      "company": {
+        "name": "Cursor",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Cursor | Regional Director, Field Engineering - Verticals | Remote | Solutions",
+      "tags": [
+        "hiring",
+        "ashby",
+        "technology",
+        "Engineering Management"
+      ],
+      "extras": {
+        "role": "Regional Director, Field Engineering - Verticals",
+        "location": "Remote",
+        "department": "Solutions",
+        "employment_type": "FullTime",
+        "function": "Engineering Management",
+        "soc": "11-9041",
+        "seniority": "director",
+        "remote": "remote"
+      }
+    },
+    {
+      "id": "f8e24c1737e4419b",
+      "ts": "2026-05-15T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=719220&type=&dateb=&owner=include&count=40",
+      "type": "exec_move",
+      "company": {
+        "name": "S&T BANCORP INC ",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "S&T BANCORP INC  \u2014 SEC filing 0000719220-26-000078 (exec_move) on 2026-05-15",
+      "tags": [
+        "exec_move",
+        "sec_8k",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0000719220-26-000078",
+        "cik": "0000719220",
+        "file_date": "2026-05-15"
+      }
+    },
+    {
+      "id": "ec2e9004405be21b",
+      "ts": "2026-05-15T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1829280&type=&dateb=&owner=include&count=40",
+      "type": "exec_move",
+      "company": {
+        "name": "Forian Inc. ",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Forian Inc.  \u2014 SEC filing 0001140361-26-021514 (exec_move) on 2026-05-15",
+      "tags": [
+        "exec_move",
+        "sec_8k",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0001140361-26-021514",
+        "cik": "0001829280",
+        "file_date": "2026-05-15"
+      }
+    },
+    {
+      "id": "35da15f621a0ca01",
+      "ts": "2026-05-15T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1803737&type=&dateb=&owner=include&count=40",
+      "type": "exec_move",
+      "company": {
+        "name": "Enhabit, Inc. ",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Enhabit, Inc.  \u2014 SEC filing 0001193125-26-225491 (exec_move) on 2026-05-15",
+      "tags": [
+        "exec_move",
+        "sec_8k",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0001193125-26-225491",
+        "cik": "0001803737",
+        "file_date": "2026-05-15"
+      }
+    },
+    {
+      "id": "36e7ff858229b21b",
+      "ts": "2026-05-14T18:53:07-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/anthropic/jobs/5215121008",
+      "type": "posting",
+      "company": {
+        "name": "Anthropic",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": "CA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Anthropic | Data Center OFE Strategic Sourcing Lead | San Francisco, CA | New York City, NY",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "CA"
+      ],
+      "extras": {
+        "role": "Data Center OFE Strategic Sourcing Lead",
+        "location": "San Francisco, CA | New York City, NY",
+        "seniority": "lead"
+      }
+    },
+    {
+      "id": "dc56d9c52c428372",
+      "ts": "2026-05-14T18:36:49-04:00",
+      "source": "greenhouse",
+      "source_url": "http://www.hioscar.com/careers/7927607?gh_jid=7927607",
+      "type": "posting",
+      "company": {
+        "name": "Oscar Health",
+        "ticker": null,
+        "industry": null,
+        "sector": "Healthcare",
+        "hq_region": "GA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Oscar Health | Associate, Member and Provider Optimization | Atlanta, Georgia, United States",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "healthcare",
+        "GA"
+      ],
+      "extras": {
+        "role": "Associate, Member and Provider Optimization",
+        "location": "Atlanta, Georgia, United States",
+        "seniority": "junior",
+        "salary_min": 87188.0,
+        "salary_max": 114434.0,
+        "remote": "remote"
+      }
+    },
+    {
+      "id": "bb7e48481e8e0f29",
+      "ts": "2026-05-14T16:51:15-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/mercury/jobs/5780305004",
+      "type": "posting",
+      "company": {
+        "name": "Mercury",
+        "ticker": null,
+        "industry": null,
+        "sector": "Finance",
+        "hq_region": "CA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Mercury | Senior Legal Program Manager | San Francisco, CA, New York, NY, Portland, OR, or Remote within Canada or United States",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "finance",
+        "CA"
+      ],
+      "extras": {
+        "role": "Senior Legal Program Manager",
+        "location": "San Francisco, CA, New York, NY, Portland, OR, or Remote within Canada or United States",
+        "seniority": "senior"
+      }
     },
     {
       "id": "824b84ffaf9f3455",
@@ -350,7 +1990,7 @@
         "name": "Unknown",
         "ticker": null,
         "industry": null,
-        "sector": "Technology",
+        "sector": "Other",
         "hq_region": null,
         "size_band": "unknown"
       },
@@ -359,8 +1999,230 @@
       "raw_text": "Cerebras IPO makes billions for Benchmark but VC Eric\u00a0Vishria almost didn\u2019t take the meeting",
       "tags": [
         "funding",
-        "technology"
-      ]
+        "other"
+      ],
+      "extras": {}
+    },
+    {
+      "id": "9faab6fbbf547bd1",
+      "ts": "2026-05-14T15:54:59-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/discord/jobs/8400845002",
+      "type": "posting",
+      "company": {
+        "name": "Discord",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": "CA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Discord | Principal Software Engineer - Infrastructure | San Francisco Bay Area",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "CA",
+        "Software Engineering"
+      ],
+      "extras": {
+        "role": "Principal Software Engineer - Infrastructure",
+        "location": "San Francisco Bay Area",
+        "function": "Software Engineering",
+        "soc": "15-1252",
+        "seniority": "principal"
+      }
+    },
+    {
+      "id": "ccb17b13a723e274",
+      "ts": "2026-05-14T15:44:28-04:00",
+      "source": "greenhouse",
+      "source_url": "https://boards.greenhouse.io/cloudflare/jobs/7921646?gh_jid=7921646",
+      "type": "posting",
+      "company": {
+        "name": "Cloudflare",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Cloudflare | Senior Commercial Account Executive (San Francisco or Austin) | Hybrid",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "Sales"
+      ],
+      "extras": {
+        "role": "Senior Commercial Account Executive (San Francisco or Austin)",
+        "location": "Hybrid",
+        "function": "Sales",
+        "soc": "41-3091",
+        "seniority": "senior"
+      }
+    },
+    {
+      "id": "14f99032fdd53eba",
+      "ts": "2026-05-14T14:21:45-04:00",
+      "source": "greenhouse",
+      "source_url": "https://boards.greenhouse.io/figma/jobs/5994499004?gh_jid=5994499004",
+      "type": "posting",
+      "company": {
+        "name": "Figma",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Figma | Regional Marketing Manager (Singapore) | Singapore",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "Marketing"
+      ],
+      "extras": {
+        "role": "Regional Marketing Manager (Singapore)",
+        "location": "Singapore",
+        "function": "Marketing",
+        "soc": "11-2011",
+        "seniority": "manager",
+        "remote": "onsite"
+      }
+    },
+    {
+      "id": "d4755b1b139646de",
+      "ts": "2026-05-14T13:55:30-04:00",
+      "source": "greenhouse",
+      "source_url": "https://careers.airbnb.com/positions/7917632?gh_jid=7917632",
+      "type": "posting",
+      "company": {
+        "name": "Airbnb",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": "CA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Airbnb | Audiovisual Infrastructure Engineer | San Francisco, CA",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "CA",
+        "DevOps / SRE"
+      ],
+      "extras": {
+        "role": "Audiovisual Infrastructure Engineer",
+        "location": "San Francisco, CA",
+        "function": "DevOps / SRE",
+        "soc": "15-1244",
+        "seniority": "mid"
+      }
+    },
+    {
+      "id": "69fb42f5c6b593ea",
+      "ts": "2026-05-14T13:36:33-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7617155",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": "NY",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | 3rd Party Partnerships Manager - Commerce | New York City, NY",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "NY"
+      ],
+      "extras": {
+        "role": "3rd Party Partnerships Manager - Commerce",
+        "location": "New York City, NY",
+        "seniority": "manager",
+        "remote": "remote",
+        "stack": [
+          "go"
+        ]
+      }
+    },
+    {
+      "id": "3cd316e3de012af3",
+      "ts": "2026-05-14T13:08:51-04:00",
+      "source": "greenhouse",
+      "source_url": "https://stripe.com/jobs/search?gh_jid=7546284",
+      "type": "posting",
+      "company": {
+        "name": "Stripe",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": "CA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Stripe | Account Executive, AI Sales | San Francisco, CA",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "CA",
+        "Sales"
+      ],
+      "extras": {
+        "role": "Account Executive, AI Sales",
+        "location": "San Francisco, CA",
+        "function": "Sales",
+        "soc": "41-3091",
+        "seniority": "mid"
+      }
+    },
+    {
+      "id": "bb538b78800655ef",
+      "ts": "2026-05-14T12:58:19-04:00",
+      "source": "greenhouse",
+      "source_url": "https://boards.greenhouse.io/robinhood/jobs/7804768?t=gh_src=&gh_jid=7804768",
+      "type": "posting",
+      "company": {
+        "name": "Robinhood",
+        "ticker": null,
+        "industry": null,
+        "sector": "Finance",
+        "hq_region": "CO",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Robinhood | Account Operations Lead | Denver, CO; Westlake, TX",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "finance",
+        "CO"
+      ],
+      "extras": {
+        "role": "Account Operations Lead",
+        "location": "Denver, CO; Westlake, TX",
+        "seniority": "lead"
+      }
     },
     {
       "id": "2f8c18adbc87697f",
@@ -378,12 +2240,13 @@
       },
       "magnitude": null,
       "unit": "jobs",
-      "raw_text": "Coder | https:&#x2F;&#x2F;coder.com&#x2F; | Multiple roles | Multiple locations | Full-time Coder is an AI software development company leading the future of autonomous coding. We empower teams to build software faster, more securely, and at scale through the collaboration of AI coding agents and hu",
+      "raw_text": "Coder | https:&#x2F;&#x2F;coder.com&#x2F; | Multiple roles | Multiple locations | Full-time Coder is an AI software development company leading the future of autonomous coding. We empower teams to build software faster, more securely, and at scale through the collaboration of AI coding agents and human developers. Our mission is to make agentic AI a safe, trusted, and integral part of every software development lifecycle. Coder\u2019s self-hosted Agentic Development Environment (ADE) is the foundatio",
       "tags": [
         "hiring",
         "hn",
         "technology"
-      ]
+      ],
+      "extras": {}
     },
     {
       "id": "e9898099b6c6994e",
@@ -406,7 +2269,37 @@
         "hiring",
         "hn",
         "other"
-      ]
+      ],
+      "extras": {}
+    },
+    {
+      "id": "4dd07f0dcc3d2750",
+      "ts": "2026-05-14T12:34:53-04:00",
+      "source": "greenhouse",
+      "source_url": "https://www.pinterestcareers.com/jobs/?gh_jid=7714127",
+      "type": "posting",
+      "company": {
+        "name": "Pinterest",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": "CA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Pinterest | AI Solutions Engineer | San Francisco, CA, US; Remote, US",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "CA"
+      ],
+      "extras": {
+        "role": "AI Solutions Engineer",
+        "location": "San Francisco, CA, US; Remote, US",
+        "seniority": "mid"
+      }
     },
     {
       "id": "7416080978576140",
@@ -418,7 +2311,7 @@
         "name": "email to reach out for application?",
         "ticker": null,
         "industry": null,
-        "sector": "Technology",
+        "sector": "Other",
         "hq_region": null,
         "size_band": "unknown"
       },
@@ -428,8 +2321,74 @@
       "tags": [
         "hiring",
         "hn",
+        "other"
+      ],
+      "extras": {}
+    },
+    {
+      "id": "b01bf39f425063b6",
+      "ts": "2026-05-14T15:54:24.911000Z",
+      "source": "ashby",
+      "source_url": "https://jobs.ashbyhq.com/cursor/413e0e15-4b48-4c9c-be9d-85dc46ff60c2",
+      "type": "posting",
+      "company": {
+        "name": "Cursor",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Cursor | Head of APAC Field Marketing | Singapore | Marketing",
+      "tags": [
+        "hiring",
+        "ashby",
         "technology"
-      ]
+      ],
+      "extras": {
+        "role": "Head of APAC Field Marketing",
+        "location": "Singapore",
+        "department": "Marketing",
+        "employment_type": "FullTime",
+        "seniority": "mid",
+        "remote": "remote",
+        "stack": [
+          "go"
+        ]
+      }
+    },
+    {
+      "id": "1ced3b23f2e4b384",
+      "ts": "2026-05-14T11:30:18-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/gitlab/jobs/8521684002",
+      "type": "posting",
+      "company": {
+        "name": "GitLab",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "GitLab | Candidate Experience Specialist, Contractor | Remote, Singapore",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "Engineering Management"
+      ],
+      "extras": {
+        "role": "Candidate Experience Specialist, Contractor",
+        "location": "Remote, Singapore",
+        "function": "Engineering Management",
+        "soc": "11-9041",
+        "seniority": "mid"
+      }
     },
     {
       "id": "4cfb6b3db8852dc5",
@@ -452,29 +2411,8 @@
         "hiring",
         "hn",
         "other"
-      ]
-    },
-    {
-      "id": "16e4e7513ef53bee",
-      "ts": "2026-05-14T15:20:18Z",
-      "source": "org_moves",
-      "source_url": "https://techcrunch.com/2026/05/14/khosla-ventures-is-betting-10m-on-ian-crosby-whose-last-startup-bench-imploded/",
-      "type": "funding",
-      "company": {
-        "name": "Unknown",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Khosla Ventures is betting $10M on Ian Crosby, whose first startup, Bench, imploded",
-      "tags": [
-        "funding",
-        "technology"
-      ]
+      ],
+      "extras": {}
     },
     {
       "id": "7db80d47b03b1e1e",
@@ -496,29 +2434,41 @@
       "tags": [
         "layoff",
         "technology"
-      ]
+      ],
+      "extras": {}
     },
     {
-      "id": "418e61b69a894411",
-      "ts": "2026-05-14T14:00:00Z",
-      "source": "org_moves",
-      "source_url": "https://techcrunch.com/2026/05/14/two-weeks-left-startup-battlefield-200-applications-close-may-27/",
-      "type": "funding",
+      "id": "ea3918361229740a",
+      "ts": "2026-05-14T12:51:24.435000Z",
+      "source": "lever",
+      "source_url": "https://jobs.lever.co/spotify/5d1bd148-6d08-462b-8ce6-cf4428ad93ce",
+      "type": "posting",
       "company": {
-        "name": "Two\u00a0weeks\u00a0left",
+        "name": "Spotify",
         "ticker": null,
         "industry": null,
-        "sector": "Technology",
+        "sector": "Media",
         "hq_region": null,
         "size_band": "unknown"
       },
       "magnitude": null,
-      "unit": null,
-      "raw_text": "Two\u00a0weeks\u00a0left: Startup Battlefield 200 applications close May 27",
+      "unit": "jobs",
+      "raw_text": "Spotify | Director of Sales - Backstage | Toronto | Platform",
       "tags": [
-        "funding",
-        "technology"
-      ]
+        "hiring",
+        "lever",
+        "media",
+        "Engineering Management"
+      ],
+      "extras": {
+        "role": "Director of Sales - Backstage",
+        "location": "Toronto",
+        "team": "Platform",
+        "commitment": "",
+        "function": "Engineering Management",
+        "soc": "11-9041",
+        "seniority": "director"
+      }
     },
     {
       "id": "1efe72b7d0c6ccb8",
@@ -530,18 +2480,19 @@
         "name": "Clutch https:&#x2F;&#x2F;www.clutchapp.io",
         "ticker": null,
         "industry": null,
-        "sector": "Technology",
+        "sector": "Other",
         "hq_region": null,
         "size_band": "unknown"
       },
       "magnitude": null,
       "unit": "jobs",
-      "raw_text": "Clutch https:&#x2F;&#x2F;www.clutchapp.io - building future of padel with AI cameras | Full-time | Head of AI (Computer Vision &#x2F; MLOps) | Remote (worldwide) | \u20ac70-100k + equity We are Clutch, building an automated videographer and coaching experience for padel players. We are small but quickly-",
+      "raw_text": "Clutch https:&#x2F;&#x2F;www.clutchapp.io - building future of padel with AI cameras | Full-time | Head of AI (Computer Vision &#x2F; MLOps) | Remote (worldwide) | \u20ac70-100k + equity We are Clutch, building an automated videographer and coaching experience for padel players. We are small but quickly-growing startup with cameras in over 100 clubs around the world. We are hiring for a key position of Head of AI. Requirements: 5+ years of experience deploying AI models to production; strong hands-on",
       "tags": [
         "hiring",
         "hn",
-        "technology"
-      ]
+        "other"
+      ],
+      "extras": {}
     },
     {
       "id": "0340a4014a30b7f5",
@@ -553,301 +2504,84 @@
         "name": "Founding AI, Data Science Lead (Possible Co",
         "ticker": null,
         "industry": null,
-        "sector": "Technology",
+        "sector": "Other",
         "hq_region": null,
         "size_band": "unknown"
       },
       "magnitude": null,
       "unit": "jobs",
-      "raw_text": "Founding AI, Data Science Lead (Possible Co-Founder Track) Pre-seed consumer health and wellness company. Product is live. IP track ready. Raising pre-seed this year. We&#x27;re building proprietary intelligence on top of longitudinal biological and lifestyle data. Near-term infrastructure. Consumer",
+      "raw_text": "Founding AI, Data Science Lead (Possible Co-Founder Track) Pre-seed consumer health and wellness company. Product is live. IP track ready. Raising pre-seed this year. We&#x27;re building proprietary intelligence on top of longitudinal biological and lifestyle data. Near-term infrastructure. Consumer company with AI infrastructure goals. What you&#x27;ll do You&#x27;ll be a visionary alongside the founder. Design and ship the models that power the product. Build the data pipelines, evaluation fra",
       "tags": [
         "hiring",
         "hn",
-        "technology"
-      ]
+        "other"
+      ],
+      "extras": {}
     },
     {
-      "id": "a32550593092aa85",
-      "ts": "2026-05-13T20:26:23Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48127030",
-      "type": "posting",
-      "company": {
-        "name": "Stealth Startup",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Stealth Startup | Founding Engineer | NYC (in-person 5x&#x2F;week) | Full-Time The mission We\u2019re building a best-in-class multi-modal AI agent product (voice + SMS + email) with the potential to disrupt deeply entrenched software businesses and unify a fragmented industry. We\u2019re a tiny team with rea",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "cf1eb4e366572db4",
-      "ts": "2026-05-13T15:20:48Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48123123",
-      "type": "posting",
-      "company": {
-        "name": "Furtim Modus",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Furtim Modus | Hiring Java Developer (Full-Time) | NYC (HYBRID) | $125K-$200K + equity | https:&#x2F;&#x2F;www.furtimmodus.com&#x2F;software-engineer We are currently seeking a talented and driven Java Developer to join our team full-time. This is an exciting opportunity to contribute your skills an",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "bc5eef25762b2a32",
-      "ts": "2026-05-13T14:00:00Z",
-      "source": "org_moves",
-      "source_url": "https://techcrunch.com/2026/05/13/introducing-the-6-stages-of-techcrunch-disrupt-2026-built-for-todays-tougher-startup-market/",
+      "id": "9b88bd5daf57a917",
+      "ts": "2026-05-14T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=310354&type=&dateb=&owner=include&count=40",
       "type": "exec_move",
       "company": {
-        "name": "Unknown",
+        "name": "STANDEX INTERNATIONAL CORP/DE/ ",
         "ticker": null,
         "industry": null,
-        "sector": "Technology",
+        "sector": "Other",
         "hq_region": null,
         "size_band": "unknown"
       },
       "magnitude": null,
       "unit": null,
-      "raw_text": "Introducing the 6 stages at TechCrunch Disrupt 2026 \u2014 built for today\u2019s tougher startup market",
+      "raw_text": "STANDEX INTERNATIONAL CORP/DE/  \u2014 SEC filing 0001437749-26-016900 (exec_move) on 2026-05-14",
       "tags": [
         "exec_move",
-        "technology"
-      ]
+        "sec_8k",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0001437749-26-016900",
+        "cik": "0000310354",
+        "file_date": "2026-05-14"
+      }
     },
     {
-      "id": "d6aa725942997bed",
-      "ts": "2026-05-13T13:34:59Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48121719",
-      "type": "posting",
+      "id": "e014f55857589b12",
+      "ts": "2026-05-14T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1802156&type=&dateb=&owner=include&count=40",
+      "type": "exec_move",
       "company": {
-        "name": "SalesJack",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "SalesJack | Solutions Engineer | Toronto, ON, Canada | HYBRID | FULL-TIME SalesJack is a sales software platform (CRM, Prospecting Service) for independent businesses in the construction supply industry. We are growing quickly and profitably. Our engineering team is growing in Canada. As a Solutions",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "6f68984936090955",
-      "ts": "2026-05-13T12:46:52Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48121203",
-      "type": "posting",
-      "company": {
-        "name": "Cool job. Wish I was an EU citizen.",
+        "name": "Xponential Fitness, Inc. ",
         "ticker": null,
         "industry": null,
         "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Cool job. Wish I was an EU citizen.",
-      "tags": [
-        "hiring",
-        "hn",
-        "other"
-      ]
-    },
-    {
-      "id": "027207a103b579a3",
-      "ts": "2026-05-13T07:30:03Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48118887",
-      "type": "posting",
-      "company": {
-        "name": "Can you share details about the role or the team?",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Can you share details about the role or the team?",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "0f5269844931a3d2",
-      "ts": "2026-05-12T23:27:39Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48115916",
-      "type": "posting",
-      "company": {
-        "name": "Great to hear, will submit my application soon :)",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Great to hear, will submit my application soon :)",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "65850501f8e40d11",
-      "ts": "2026-05-12T23:13:18Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48115827",
-      "type": "posting",
-      "company": {
-        "name": "Unknown",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Update here, May 13, we&#x27;re still taking submissions. I have done at least a quick scan personally through all the resumes that were submitted in the Google Form through May 11 (or, tried at least -- _several_ of you have permissions issues on the link you sent, esp. if Google Docs are involved)",
-      "tags": [
-        "hiring",
-        "hn",
-        "other"
-      ]
-    },
-    {
-      "id": "45901612f10a6781",
-      "ts": "2026-05-12T22:54:29Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48115663",
-      "type": "posting",
-      "company": {
-        "name": "Unknown",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "I mean, feel free to throw your name in our system by submitting, but yeah, the vast majority of our work is directly for our clients, and right now in May 2026, most of our clients are states side and most like at least _the idea_ that they could fly somebody on our staff out for an onsite with the",
-      "tags": [
-        "hiring",
-        "hn",
-        "other"
-      ]
-    },
-    {
-      "id": "303a9ef6bd0268f6",
-      "ts": "2026-05-12T19:14:47Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48113023",
-      "type": "posting",
-      "company": {
-        "name": "Forage",
-        "ticker": null,
-        "industry": null,
-        "sector": "Finance",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Forage | Senior Mobile Engineer (React Native) | Hybrid NYC (2-3 days in office) | Full-time | $185,000 - $200,000 per year base | joinforage.com Forage is a payments company building the infrastructure for SNAP EBT online. About 1 in 8 Americans (over 40 million people) use SNAP to buy groceries, a",
-      "tags": [
-        "hiring",
-        "hn",
-        "finance"
-      ]
-    },
-    {
-      "id": "71d47152a522ddfc",
-      "ts": "2026-05-12T18:45:05Z",
-      "source": "org_moves",
-      "source_url": "https://techcrunch.com/2026/05/12/kevin-hartzs-a-just-closed-its-third-fund-with-450-million/",
-      "type": "funding",
-      "company": {
-        "name": "Kevin Hartz\u2019s A* just closed its third fund with $450M",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
         "hq_region": null,
         "size_band": "unknown"
       },
       "magnitude": null,
       "unit": null,
-      "raw_text": "Kevin Hartz\u2019s A* just closed its third fund with $450M",
+      "raw_text": "Xponential Fitness, Inc.  \u2014 SEC filing 0001193125-26-222943 (exec_move) on 2026-05-14",
       "tags": [
-        "funding",
-        "technology"
-      ]
+        "exec_move",
+        "sec_8k",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0001193125-26-222943",
+        "cik": "0001802156",
+        "file_date": "2026-05-14"
+      }
     },
     {
-      "id": "85e0e8af3955d480",
-      "ts": "2026-05-12T09:33:19Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48106033",
-      "type": "posting",
+      "id": "267a4a0b090a17a3",
+      "ts": "2026-05-14T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1372299&type=&dateb=&owner=include&count=40",
+      "type": "exec_move",
       "company": {
-        "name": "Unknown",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "The application link is broken and IIRC that\u2019s been the case for this job post each time it\u2019s posted. Generic rejection letter also\u2026 IMO not worth applying.",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "8e4561c79e7ab218",
-      "ts": "2026-05-12T08:42:00Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48105752",
-      "type": "posting",
-      "company": {
-        "name": "Unknown",
+        "name": "Ocugen, Inc. ",
         "ticker": null,
         "industry": null,
         "sector": "Manufacturing",
@@ -855,1289 +2589,111 @@
         "size_band": "unknown"
       },
       "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Hi, I\u2019m definitely not qualified for this job position but I am interested if you have any entry positions, recently graduated with an aerospace engineering degree and would love to learn more!",
+      "unit": null,
+      "raw_text": "Ocugen, Inc.  \u2014 SEC filing 0001104659-26-061241 (exec_move) on 2026-05-14",
       "tags": [
-        "hiring",
-        "hn",
+        "exec_move",
+        "sec_8k",
         "manufacturing"
-      ]
+      ],
+      "extras": {
+        "adsh": "0001104659-26-061241",
+        "cik": "0001372299",
+        "file_date": "2026-05-14"
+      }
     },
     {
-      "id": "a4acfb5c64f4a8f0",
-      "ts": "2026-05-12T08:02:13Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48105492",
-      "type": "posting",
-      "company": {
-        "name": "Is someone from India willing to work CET eligible?",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Is someone from India willing to work CET eligible?",
-      "tags": [
-        "hiring",
-        "hn",
-        "other"
-      ]
-    },
-    {
-      "id": "8f26c09e024710c2",
-      "ts": "2026-05-12T03:58:06Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48104036",
-      "type": "posting",
-      "company": {
-        "name": "Unknown",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "contain: ~&#x2F;sovereign&#x2F;citadel $ # blake3 = &quot;1.5&quot; ~&#x2F;sovereign&#x2F;citadel $ cargo check --workspace error: failed to load manifest for workspace member `&#x2F;data&#x2F;data&#x2F;com.termux&#x2F;files&#x2F;home&#x2F;sovereign&#x2F;citadel&#x2F;crates&#x2F;citadel-pqc` referen",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "bbc5240d867b3485",
-      "ts": "2026-05-12T00:09:01Z",
-      "source": "org_moves",
-      "source_url": "https://techcrunch.com/2026/05/11/riding-an-ai-rally-robinhood-preps-second-retail-venture-ipo/",
+      "id": "f4fc2310adfe9322",
+      "ts": "2026-05-14T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2130593&type=&dateb=&owner=include&count=40",
       "type": "funding",
       "company": {
-        "name": "Riding an AI rally, Robinhood preps second retail venture IPO",
+        "name": "Seidler Equity Partners IX, L.P. ",
         "ticker": null,
         "industry": null,
-        "sector": "Technology",
+        "sector": "Other",
         "hq_region": null,
         "size_band": "unknown"
       },
       "magnitude": null,
       "unit": null,
-      "raw_text": "Riding an AI rally, Robinhood preps second retail venture IPO",
+      "raw_text": "Seidler Equity Partners IX, L.P.  \u2014 SEC filing 0002130593-26-000001 (funding) on 2026-05-14",
       "tags": [
         "funding",
-        "technology"
-      ]
-    },
-    {
-      "id": "7dba0c99e960a878",
-      "ts": "2026-05-11T23:32:00Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48102189",
-      "type": "posting",
-      "company": {
-        "name": "Revieve",
-        "ticker": null,
-        "industry": null,
-        "sector": "CPG",
-        "hq_region": "AR",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Revieve | Product Engineer | Remote (Helsinki HQ) | Full-time | Contractor&#x2F;Vendor Revieve builds AI-powered personalization for 120+ beauty brands across 40+ countries \u2014 think skin analysis, AR try-on, and recommendation engines used by some of the world&#x27;s largest retailers. We&#x27;re pro",
-      "tags": [
-        "hiring",
-        "hn",
-        "cpg",
-        "AR"
-      ]
-    },
-    {
-      "id": "87fa4912aa93f742",
-      "ts": "2026-05-11T23:04:10Z",
-      "source": "layoffs_fyi",
-      "source_url": "https://techcrunch.com/2026/05/11/gm-just-laid-off-hundreds-of-it-workers-to-hire-those-with-stronger-ai-skills/",
-      "type": "layoff",
-      "company": {
-        "name": "GM just",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "GM just laid off hundreds of IT workers to hire those with stronger AI skills",
-      "tags": [
-        "layoff",
-        "technology"
-      ]
-    },
-    {
-      "id": "ab32fbd8493be745",
-      "ts": "2026-05-11T21:28:41Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48100909",
-      "type": "posting",
-      "company": {
-        "name": "Unknown",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Hi, is there a way to get in touch to learn more of this role and others listed on your website? Also, what&#x27;s the salary range?",
-      "tags": [
-        "hiring",
-        "hn",
+        "form_d",
         "other"
-      ]
+      ],
+      "extras": {
+        "adsh": "0002130593-26-000001",
+        "cik": "0002130593",
+        "file_date": "2026-05-14"
+      }
     },
     {
-      "id": "97ca5aa5d481ae23",
-      "ts": "2026-05-11T20:56:11Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48100555",
-      "type": "posting",
-      "company": {
-        "name": "Unknown",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Quite questionable to see the same job post over years. No new reviews anywhere tho&#x27;.",
-      "tags": [
-        "hiring",
-        "hn",
-        "other"
-      ]
-    },
-    {
-      "id": "31ae04de6e8ea6ca",
-      "ts": "2026-05-11T19:49:00Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48099785",
-      "type": "posting",
-      "company": {
-        "name": "MemberPress",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "MemberPress | AI Engineer | Remote | Full Time | www.memberpress.com We\u2019re looking for a sharp AI engineer with real experience shipping production LLM systems. We need you to own the AI core of a new product \u2014 building inference pipelines, writing evals, keeping costs in check, and making the syste",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "5fa5f90e6c37b7b6",
-      "ts": "2026-05-11T19:00:57Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48099220",
-      "type": "posting",
-      "company": {
-        "name": "Unknown",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Not hiring, but actively helping healthcare AI startups navigate compliance challenges. If anyone here is working on health AI and running into HIPAA compliance walls (PHI handling, audit requirements, BAAs with vendors), happy to share what I&#x27;ve learned from consulting with 12+ startups in thi",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "d69163fa88642895",
-      "ts": "2026-05-11T18:57:27Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48099184",
-      "type": "posting",
-      "company": {
-        "name": "Oaktree Capital",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": "CA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Oaktree Capital | Senior Software Engineer | Los Angeles, CA (HYBRID) &#x2F; Hyderabad, India | 1 LA + 2 Hyderabad I&#x27;m Julien \u2014 I lead Product Engineering at Oaktree. My background is tech, not finance: startups, Meta, data infrastructure companies. I&#x27;m hands-on and building a flat, small ",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology",
-        "CA"
-      ]
-    },
-    {
-      "id": "9d1c1f13e5cb94da",
-      "ts": "2026-05-11T14:04:19Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48095175",
-      "type": "posting",
-      "company": {
-        "name": "Oxidian",
-        "ticker": null,
-        "industry": null,
-        "sector": "Finance",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Oxidian | https:&#x2F;&#x2F;www.oxidian.com | Remote (EU only) We&#x27;re doing to government software what challenger banks did to banking. We build critical systems for scientists and researchers, making sure public money is well invested. Our work involves high-performance Python for petabyte-sca",
-      "tags": [
-        "hiring",
-        "hn",
-        "finance"
-      ]
-    },
-    {
-      "id": "87b8d4bc033ea9fb",
-      "ts": "2026-05-11T13:47:54Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48094962",
-      "type": "posting",
-      "company": {
-        "name": "KeyMe Locksmiths",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "KeyMe Locksmiths | IT Support, Linux &#x2F; MacOS &#x2F; Windows | Remote | key.me Fully automated self-service key duplicating kiosks can be found in over 7,000+ locations across the country in major retailers such as WalMart, Kroger, 7-Eleven, Menards, and many others. We&#x27;re hiring an IT Supp",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "5ab61f1c0f815dbe",
-      "ts": "2026-05-11T11:15:19Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48093518",
-      "type": "posting",
-      "company": {
-        "name": "Unknown",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "$24K - $48K for a Mid? :o",
-      "tags": [
-        "hiring",
-        "hn",
-        "other"
-      ]
-    },
-    {
-      "id": "e18f992c280223d8",
-      "ts": "2026-05-11T07:55:20Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48092239",
-      "type": "posting",
-      "company": {
-        "name": "Unknown",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "I am a qualified candidate and would like to apply for this position, however, before doing so, I have an inquiry. My country&#x27;s laws allow me to work for a US based company on contract basis, the major qualification drawback I have based on the position description is the timezone. I am on a di",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "cd61d3a699f16ade",
-      "ts": "2026-05-11T06:03:02Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48091504",
-      "type": "posting",
-      "company": {
-        "name": "Unknown",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Hey, I am interested. Here is my resume https:&#x2F;&#x2F;drive.google.com&#x2F;file&#x2F;d&#x2F;1aA9M2Nfi2w-GcBy5Jg0zRPQhnPt...",
-      "tags": [
-        "hiring",
-        "hn",
-        "other"
-      ]
-    },
-    {
-      "id": "3ab94c9bc5d7f865",
-      "ts": "2026-05-11T05:52:34Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48091448",
-      "type": "posting",
-      "company": {
-        "name": "Emergences Labs (emergences.ai)",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Emergences Labs (emergences.ai) | AI &#x2F; Systems Engineer \u2014 NeoHuman | REMOTE (US) | Full-time | $120K-$150K + equity | Visa sponsorship available We&#x27;re a small, research-driven, VC-backed team building NeoHuman: a desktop-first system that observes how people actually use AI tools, files, a",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "7c90578068c29712",
-      "ts": "2026-05-10T23:08:10Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48089084",
-      "type": "posting",
-      "company": {
-        "name": "Doubling",
-        "ticker": null,
-        "industry": null,
-        "sector": "Healthcare",
-        "hq_region": "IL",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Doubling | Design Engineer | Chicago or Bay Area preferred | REMOTE (US) also considered | CONTRACT (1099), 10-20 hrs&#x2F;week Doubling is building a new mobile product in the health and wellness space. Small founding team, mission-driven, 0-to-1 stage. We&#x27;re looking for a Design Engineer to o",
-      "tags": [
-        "hiring",
-        "hn",
-        "healthcare",
-        "IL"
-      ]
-    },
-    {
-      "id": "41b11dd8f6ef0f1f",
-      "ts": "2026-05-10T22:17:22Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48088713",
-      "type": "posting",
-      "company": {
-        "name": "Unknown",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "I am really interested in this position, I am looking for SDE role in medical domain and this seems like the perfect match!",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "c198969f49e2daf0",
-      "ts": "2026-05-10T19:52:10Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48087214",
-      "type": "posting",
-      "company": {
-        "name": "India(Guna,Madhya Pradesh), remote",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "India(Guna,Madhya Pradesh), remote",
-      "tags": [
-        "hiring",
-        "hn",
-        "other"
-      ]
-    },
-    {
-      "id": "d1c02d17efc9bc66",
-      "ts": "2026-05-10T16:16:29Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48085189",
-      "type": "posting",
-      "company": {
-        "name": "you&#x27;d expect people to manually fill 4",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "you&#x27;d expect people to manually fill 4-5 tabs of data after literally giving you their resume for &quot;auto-fill&quot;?",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "73d8009ab7894416",
-      "ts": "2026-05-09T20:31:10Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48077968",
-      "type": "posting",
-      "company": {
-        "name": "Unknown",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Would you consider someone with minimal open source contribution? I was with Coinbase until last week, working on cool AI offerings, developing scalable infrastructure. If yes, happy to send my resume for your review + talk about few interesting thing I shipped end to end.",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "d0e89aa878579ddb",
-      "ts": "2026-05-09T16:54:51Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48076368",
-      "type": "posting",
-      "company": {
-        "name": "Nice opportunities, but unfortunately not global remote :&#x27;)",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Nice opportunities, but unfortunately not global remote :&#x27;)",
-      "tags": [
-        "hiring",
-        "hn",
-        "other"
-      ]
-    },
-    {
-      "id": "30ac5e2b92aceb99",
-      "ts": "2026-05-09T10:39:09Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48073819",
-      "type": "posting",
-      "company": {
-        "name": "Unknown",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "I was interested into fullstack or backend. Everything was fine, but need a video? And it&#x27;s a required field.",
-      "tags": [
-        "hiring",
-        "hn",
-        "other"
-      ]
-    },
-    {
-      "id": "bb5994b352671b0f",
-      "ts": "2026-05-09T01:51:46Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48070967",
-      "type": "posting",
-      "company": {
-        "name": "SEEKING FREELANCER",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "SEEKING FREELANCER | Tiger Tracks (REMOTE, US&#x2F;EU timezones) | Founding AI Engineer | Contract-to-hire We&#x27;re a performance marketing agency (Inc. 5000 #123, ex-Google founders) hiring our first dedicated AI engineer as a contractor. What you&#x27;d build: landing page conversion analyzers, ",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "fab6b898323a1209",
-      "ts": "2026-05-08T23:37:55Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48070114",
-      "type": "posting",
-      "company": {
-        "name": "Parabola",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": "CA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Parabola | Site Reliability Engineer | San Francisco, CA (Hybrid) | Full-time Parabola is a no-code data workflow automation tool that helps operations teams move, transform, and automate their data without writing code. LLMs are a core part of our product \u2014 we use them to help users build and reaso",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology",
-        "CA"
-      ]
-    },
-    {
-      "id": "d2761880b419f5e5",
-      "ts": "2026-05-08T22:19:01Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48069453",
-      "type": "posting",
-      "company": {
-        "name": "Atom Computing",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": "CO",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Atom Computing | Senior Infrastructure Engineer + Principal Software Engineer + Software Engineering Manager | Boulder, CO (Hybrid) | Full-time Atom Computing is developing large-scale quantum computers using arrays of optically-trapped neutral atoms. We are building cutting-edge systems for on-prem",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology",
-        "CO"
-      ]
-    },
-    {
-      "id": "a65dc5e245f41e8f",
-      "ts": "2026-05-08T19:31:06Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48067640",
-      "type": "posting",
-      "company": {
-        "name": "Campus",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Campus | Software Engineers, Product Managers &amp; Data Scientists | Hybrid in NYC Campus is a Series B Edtech startup with a mission to maximize access to a world class education backed by investors such as General Catalyst, Founders Fund, Bloomberg Beta and 8VC. We\u2019re hiring technical talent acro",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "07936d10f6b63592",
-      "ts": "2026-05-08T18:38:20Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48067034",
-      "type": "posting",
-      "company": {
-        "name": "Walmart Global Tech (International Digital Experiences)",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": "CA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Walmart Global Tech (International Digital Experiences) | Frontend Software Engineer | Sunnyvale, CA (Onsite) What you\u2019ll do - Build modern, scalable UIs with React, modular CSS, Redux, React Query, and GraphQL - Improve and refactor existing codebases with a focus on simplicity and performance - Pa",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology",
-        "CA"
-      ]
-    },
-    {
-      "id": "987376071ffdb812",
-      "ts": "2026-05-08T18:33:21Z",
-      "source": "layoffs_fyi",
-      "source_url": "https://techcrunch.com/2026/05/08/cloudflare-says-ai-made-1100-jobs-obsolete-even-as-revenue-hit-a-record-high/",
-      "type": "layoff",
-      "company": {
-        "name": "Cloudflare says AI made 1,100 jobs obsolete, even as revenue hit a record high",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": 1100.0,
-      "unit": "people",
-      "raw_text": "Cloudflare says AI made 1,100 jobs obsolete, even as revenue hit a record high",
-      "tags": [
-        "layoff",
-        "technology"
-      ]
-    },
-    {
-      "id": "d14b4216e095e99d",
-      "ts": "2026-05-08T17:46:08Z",
-      "source": "org_moves",
-      "source_url": "https://techcrunch.com/2026/05/08/mother-ventures-is-looking-at-moms-as-the-economic-engine/",
+      "id": "d5a00660e0190e18",
+      "ts": "2026-05-14T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1470484&type=&dateb=&owner=include&count=40",
       "type": "funding",
       "company": {
-        "name": "Mother Ventures is looking at moms as the \u2018economic engine\u2019",
+        "name": "Summit Street US Equity Value Fund, L.P. ",
         "ticker": null,
         "industry": null,
-        "sector": "Technology",
+        "sector": "Other",
         "hq_region": null,
         "size_band": "unknown"
       },
       "magnitude": null,
       "unit": null,
-      "raw_text": "Mother Ventures is looking at moms as the \u2018economic engine\u2019",
+      "raw_text": "Summit Street US Equity Value Fund, L.P.  \u2014 SEC filing 0001470484-26-000001 (funding) on 2026-05-14",
       "tags": [
         "funding",
-        "technology"
-      ]
-    },
-    {
-      "id": "e64b20e16bfb7d5d",
-      "ts": "2026-05-08T17:36:09Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48066300",
-      "type": "posting",
-      "company": {
-        "name": "Turquoise",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Turquoise| Platform Operations Engineers| Remote, USA Turquoise a series C healthtech company is recruiting for two platform engineers to join the newly created platform operations team. You can expect to work closely with our Data Engineering team based in Europe, drive observability, define the me",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "52db2f9afa26faf0",
-      "ts": "2026-05-08T16:15:16Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48065174",
-      "type": "posting",
-      "company": {
-        "name": "Unknown",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Please save yourself the time and don&#x27;t spend a lot of time applying. Just random generic rejection messages , they are not what they pretend to be.",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "91ad43bffa18ec93",
-      "ts": "2026-05-08T15:15:28Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48064366",
-      "type": "posting",
-      "company": {
-        "name": "As an engineer in Canada, I&#x27;m quite frustrated by US",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "As an engineer in Canada, I&#x27;m quite frustrated by US-only when it&#x27;s a remote job and we have the same time zones and culture. It&#x27;s so easy to employ Canadians either as a contractor or through a proxy like Rippling. I think it&#x27;s easier than employing people in the US. Is there a ",
-      "tags": [
-        "hiring",
-        "hn",
+        "form_d",
         "other"
-      ]
+      ],
+      "extras": {
+        "adsh": "0001470484-26-000001",
+        "cik": "0001470484",
+        "file_date": "2026-05-14"
+      }
     },
     {
-      "id": "9ae19b1c4cfcb698",
-      "ts": "2026-05-08T14:41:53Z",
-      "source": "layoffs_fyi",
-      "source_url": "https://techcrunch.com/2026/05/08/truecaller-slashes-70-jobs-amid-declining-ad-sales/",
-      "type": "layoff",
-      "company": {
-        "name": "Truecaller",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": 70.0,
-      "unit": "people",
-      "raw_text": "Truecaller slashes 70 jobs amid declining ad sales",
-      "tags": [
-        "layoff",
-        "other"
-      ]
-    },
-    {
-      "id": "762aaa9c5c944428",
-      "ts": "2026-05-08T13:57:37Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48063223",
-      "type": "posting",
-      "company": {
-        "name": "Loved the carrers page opening a terminal. Too many interview steps though.",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Loved the carrers page opening a terminal. Too many interview steps though.",
-      "tags": [
-        "hiring",
-        "hn",
-        "other"
-      ]
-    },
-    {
-      "id": "bb11685946dbf460",
-      "ts": "2026-05-08T13:21:21Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48062730",
-      "type": "posting",
-      "company": {
-        "name": "Unknown",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Oh that was only after the one that did amount to an interview. I otherwise had to reach out to people individually to hear anything at all. I also applied there some three or so times, and didn&#x27;t get those either.",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "d696cd16b6ab814d",
-      "ts": "2026-05-08T13:17:11Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48062670",
-      "type": "posting",
-      "company": {
-        "name": "We The Flywheel",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "We The Flywheel | Ho Chi Minh City (Hybrid) | Part-time | https:&#x2F;&#x2F;wetheflywheel.com We are a global media network, digital consultancy, and product studio focused on helping companies grow through technology and reach audiences at scale. We\u2019re opening up a role for an Entry-Level Agentic E",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "d1533ec8ff320ddb",
-      "ts": "2026-05-08T13:05:20Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48062510",
-      "type": "posting",
-      "company": {
-        "name": "Unknown",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "This seems right down our alley. Our team is currently working on several AI and robotics projects, including some extremely custom robotics ones. We would love to take this up.",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "90b66dc0aa780053",
-      "ts": "2026-05-08T11:30:25Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48061634",
-      "type": "posting",
-      "company": {
-        "name": "Unknown",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Would you be also accepting a profiles from vendor? or it&#x27;s individual roles you have posted?",
-      "tags": [
-        "hiring",
-        "hn",
-        "other"
-      ]
-    },
-    {
-      "id": "914ae4485837f015",
-      "ts": "2026-05-08T10:38:41Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48061232",
-      "type": "posting",
-      "company": {
-        "name": "HelpMyCash",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "HelpMyCash | Senior AWS DevOps&#x2F;SRE contractor | Remote EU&#x2F;CET | Freelance + paid on-call HelpMyCash is a Barcelona-based financial comparison platform. We&#x27;re looking for a senior freelance DevOps&#x2F;SRE to act as the operational safety net for a mature AWS production platform. This ",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "5a992244d7ece1b6",
-      "ts": "2026-05-08T08:47:09Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48060420",
-      "type": "posting",
-      "company": {
-        "name": "Great opportunity, I Just submitted my application.",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Great opportunity, I Just submitted my application.",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "227e7a4107f413d7",
-      "ts": "2026-05-08T07:20:58Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48059780",
-      "type": "posting",
-      "company": {
-        "name": "Unknown",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Atleast you got a response; I have applied thrice over here, but they never bothered to even send an automated rejection.",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "d770b189e52c3bb2",
-      "ts": "2026-05-08T07:02:43Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48059654",
-      "type": "posting",
-      "company": {
-        "name": "HME Technologies",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "HME Technologies | AI Operations Lead | REMOTE | Full-Time | $40k-$75k base + Bonus HME Technologies ( https:&#x2F;&#x2F;hmetech.com&#x2F; ) is a small, profitable media and affiliate marketing company. We build audiences, sell sponsorships, and run a growing portfolio of content properties across Y",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "a2dd3f475c3dad78",
-      "ts": "2026-05-08T05:34:08Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48058971",
-      "type": "posting",
-      "company": {
-        "name": "I hope you realize that you post a non",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "I hope you realize that you post a non-working link to the careers* page EVERY month.",
-      "tags": [
-        "hiring",
-        "hn",
-        "other"
-      ]
-    },
-    {
-      "id": "319ce111bdbf41df",
-      "ts": "2026-05-08T00:45:34Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48057052",
-      "type": "posting",
-      "company": {
-        "name": "Unknown",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "You have Canada + USA in the title, however the senior product software developer role&#x27;s application asks for Canadian work eligibility. Is this role eligible for Canada and USA or just Canada?",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "90754cc91fb91597",
-      "ts": "2026-05-08T00:42:45Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48057031",
-      "type": "posting",
-      "company": {
-        "name": "This sounds like a dream position for me. Sent you an email!",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "This sounds like a dream position for me. Sent you an email!",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "1e11917e03b2bb1b",
-      "ts": "2026-05-07T21:50:57Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48055606",
-      "type": "posting",
-      "company": {
-        "name": "Gridmatic",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": "CA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Gridmatic | Product engineer + data engineer | 175-235k + equity | Cupertino, CA (hybrid) Hi HN! We\u2019re an energy + AI startup that applies modern deep learning and optimization to improve the use of renewables and grid-scale batteries to deliver cheap, clean energy to commercial&#x2F;industrial cust",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology",
-        "CA"
-      ]
-    },
-    {
-      "id": "32f5642c62ec0db3",
-      "ts": "2026-05-07T21:49:53Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48055591",
-      "type": "posting",
-      "company": {
-        "name": "Tech Mahindra",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Tech Mahindra | Full-time, all levels | India, USA, Canada, Mexico | techmahindra.com Tech Mahindra\u2019s Cloud Advisory division is hiring engineers and technical leaders to help enterprises modernize and operate at scale on AWS, Azure, and GCP. We value folks with a strong software development backgro",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "ebdb2bb15a36f5a8",
-      "ts": "2026-05-07T20:15:38Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48054295",
-      "type": "posting",
-      "company": {
-        "name": "LinkedIn job no longer accepting applications. Is that right?",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "LinkedIn job no longer accepting applications. Is that right?",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "287e37944ccbdc22",
-      "ts": "2026-05-07T20:11:33Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48054246",
-      "type": "posting",
-      "company": {
-        "name": "Steel.dev",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Steel.dev | Applied AI Engineer + Infrastructure Engineer | Toronto, ON | ONSITE | $160k-$240k USD base + equity Steel is open-source browser infrastructure for AI agents and apps. We make it easy for developers to ship products that interact with the web - without spending 80% of their time on brow",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "d98650ceda875ed5",
-      "ts": "2026-05-07T18:30:35Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48052996",
-      "type": "posting",
-      "company": {
-        "name": "Elucid",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": "MA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Elucid | Principal Platform Engineer | Boston, MA | ONSITE (hybrid) | $170k\u2013$205k | https:&#x2F;&#x2F;elucid.applytojob.com&#x2F;apply&#x2F;BHpChxSggM&#x2F;Principal-Pla... Elucid builds FDA-cleared AI software that analyzes cardiac CT scans to characterize plaque and predict heart attack and stroke",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology",
-        "MA"
-      ]
-    },
-    {
-      "id": "6feffcdfb0d4a44e",
-      "ts": "2026-05-07T18:09:57Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48052750",
-      "type": "posting",
-      "company": {
-        "name": "Hive (S14) (www.hive.co)",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Hive (S14) (www.hive.co) | Engineering roles | Remote within Canada + USA | Full-time We power marketing for 1,500+ live event brands across North America \u2014 festivals, venues, promoters, tours. 40M+ emails and SMS a month, billions of customer data points, real-time integrations with Ticketmaster, E",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "5b36d4883f949b4e",
-      "ts": "2026-05-07T18:02:59Z",
-      "source": "org_moves",
-      "source_url": "https://techcrunch.com/2026/05/07/kalshi-doubles-valuation-in-5-months-hitting-22-billion/",
+      "id": "e5c7ba4f61409427",
+      "ts": "2026-05-14T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2023337&type=&dateb=&owner=include&count=40",
       "type": "funding",
       "company": {
-        "name": "Kalshi doubles valuation in 5 months, hitting $22B",
+        "name": "EMT IV LLC ",
         "ticker": null,
         "industry": null,
-        "sector": "Technology",
+        "sector": "Other",
         "hq_region": null,
         "size_band": "unknown"
       },
       "magnitude": null,
       "unit": null,
-      "raw_text": "Kalshi doubles valuation in 5 months, hitting $22B",
+      "raw_text": "EMT IV LLC  \u2014 SEC filing 0002023337-26-000001 (funding) on 2026-05-14",
       "tags": [
         "funding",
-        "technology"
-      ]
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002023337-26-000001",
+        "cik": "0002023337",
+        "file_date": "2026-05-14"
+      }
     },
     {
-      "id": "99e4bb10ce07e478",
-      "ts": "2026-05-07T17:09:08Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48051915",
-      "type": "posting",
+      "id": "0d3ca4a849db8319",
+      "ts": "2026-05-14T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1537914&type=&dateb=&owner=include&count=40",
+      "type": "funding",
       "company": {
-        "name": "Estuary",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Estuary | US-Based &#x2F; Remote | Full-time \u2013 https:&#x2F;&#x2F;estuary.dev&#x2F; Estuary is a VC-backed, post\u2013Series A startup powering right-time data replication and transform \u2014 from sub-second CDC replication to terabyte-scale OLAP data flows. We\u2019re open-source, developer-first, and focused on ",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "69d4397e7c33eaf2",
-      "ts": "2026-05-07T13:50:23Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48049449",
-      "type": "posting",
-      "company": {
-        "name": "Appreciate it.. Will reach out",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Appreciate it.. Will reach out",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "311586920431aed0",
-      "ts": "2026-05-07T11:57:05Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48048304",
-      "type": "posting",
-      "company": {
-        "name": "Any change of being open to Remote from India",
+        "name": "Solius Labs, Inc. ",
         "ticker": null,
         "industry": null,
         "sector": "Other",
@@ -2145,91 +2701,55 @@
         "size_band": "unknown"
       },
       "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Any change of being open to Remote from India",
+      "unit": null,
+      "raw_text": "Solius Labs, Inc.  \u2014 SEC filing 0001537914-26-000002 (funding) on 2026-05-14",
       "tags": [
-        "hiring",
-        "hn",
+        "funding",
+        "form_d",
         "other"
-      ]
+      ],
+      "extras": {
+        "adsh": "0001537914-26-000002",
+        "cik": "0001537914",
+        "file_date": "2026-05-14"
+      }
     },
     {
-      "id": "1011e5e5ec006ec9",
-      "ts": "2026-05-07T11:55:16Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48048287",
-      "type": "posting",
+      "id": "75e9fb6f4c9b9657",
+      "ts": "2026-05-14T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2133007&type=&dateb=&owner=include&count=40",
+      "type": "funding",
       "company": {
-        "name": "Can you share your email for sending out resume for Data Engineer.",
+        "name": "BRIDGE STREET 11 HOTEL INVESTORS, LLC ",
         "ticker": null,
         "industry": null,
-        "sector": "Technology",
+        "sector": "Manufacturing",
         "hq_region": null,
         "size_band": "unknown"
       },
       "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Can you share your email for sending out resume for Data Engineer.",
+      "unit": null,
+      "raw_text": "BRIDGE STREET 11 HOTEL INVESTORS, LLC  \u2014 SEC filing 0002133007-26-000001 (funding) on 2026-05-14",
       "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
+        "funding",
+        "form_d",
+        "manufacturing"
+      ],
+      "extras": {
+        "adsh": "0002133007-26-000001",
+        "cik": "0002133007",
+        "file_date": "2026-05-14"
+      }
     },
     {
-      "id": "375c4a46cd0de02b",
-      "ts": "2026-05-07T10:39:02Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48047780",
-      "type": "posting",
+      "id": "fd1424f09c555ec4",
+      "ts": "2026-05-14T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2133965&type=&dateb=&owner=include&count=40",
+      "type": "funding",
       "company": {
-        "name": "Unknown",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Hi, the form is closed, however, the role looks interested and I would love to be considered. I am local to San Diego, currently a MSCS student at UCSD with 2+ years of industry experience in ML Systems and Fintech. You can find more about my experience at https:&#x2F;&#x2F;kubershahi.github.io&#x2F",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "35ae111d447ce4ae",
-      "ts": "2026-05-07T10:36:20Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48047765",
-      "type": "posting",
-      "company": {
-        "name": "Highly interested with lead mobile or mobile dev position! Sent an application.",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Highly interested with lead mobile or mobile dev position! Sent an application.",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "6d6bea792a0b085b",
-      "ts": "2026-05-07T10:30:40Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48047720",
-      "type": "posting",
-      "company": {
-        "name": "Would you consider full remote with once a month in office?",
+        "name": "FIG Nuclear SPV II LP ",
         "ticker": null,
         "industry": null,
         "sector": "Other",
@@ -2237,22 +2757,27 @@
         "size_band": "unknown"
       },
       "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Would you consider full remote with once a month in office?",
+      "unit": null,
+      "raw_text": "FIG Nuclear SPV II LP  \u2014 SEC filing 0000950142-26-001393 (funding) on 2026-05-14",
       "tags": [
-        "hiring",
-        "hn",
+        "funding",
+        "form_d",
         "other"
-      ]
+      ],
+      "extras": {
+        "adsh": "0000950142-26-001393",
+        "cik": "0002133965",
+        "file_date": "2026-05-14"
+      }
     },
     {
-      "id": "ae42f3dcc2bdef85",
-      "ts": "2026-05-07T08:42:33Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48046984",
-      "type": "posting",
+      "id": "6b5c0b0a0a8dbede",
+      "ts": "2026-05-14T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2132575&type=&dateb=&owner=include&count=40",
+      "type": "funding",
       "company": {
-        "name": "hey thanks :) just replied you",
+        "name": "TPG Peppertree Fund XI-A, L.P. ",
         "ticker": null,
         "industry": null,
         "sector": "Other",
@@ -2260,45 +2785,27 @@
         "size_band": "unknown"
       },
       "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "hey thanks :) just replied you",
+      "unit": null,
+      "raw_text": "TPG Peppertree Fund XI-A, L.P.  \u2014 SEC filing 0002132575-26-000001 (funding) on 2026-05-14",
       "tags": [
-        "hiring",
-        "hn",
+        "funding",
+        "form_d",
         "other"
-      ]
+      ],
+      "extras": {
+        "adsh": "0002132575-26-000001",
+        "cik": "0002132575",
+        "file_date": "2026-05-14"
+      }
     },
     {
-      "id": "971d7b21ea5c4ba1",
-      "ts": "2026-05-07T02:02:32Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48044543",
-      "type": "posting",
+      "id": "566871935f4d7468",
+      "ts": "2026-05-14T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1830811&type=&dateb=&owner=include&count=40",
+      "type": "funding",
       "company": {
-        "name": "Liquid Blade",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Liquid Blade | Technical Lead (Fractional) | REMOTE | Success-Fee &#x2F; Milestone-based Assembling a small team for phased deployment of high-density GPU infrastructure. We have vertically integrated EPC&#x2F;renewables and specialized construction partners already in place. Current needs: Validati",
-      "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
-    },
-    {
-      "id": "5c573fcb1b48acdd",
-      "ts": "2026-05-07T00:58:07Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48044108",
-      "type": "posting",
-      "company": {
-        "name": "Unknown",
+        "name": "Frontier Community Bancshares, Inc. ",
         "ticker": null,
         "industry": null,
         "sector": "Other",
@@ -2306,103 +2813,378 @@
         "size_band": "unknown"
       },
       "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "This post says the deadline to submit is 12pm on May 11th, but the Github pages shows Sunday as the submission deadline and that the winner is selected on Monday. Just checking to make sure! Thanks",
+      "unit": null,
+      "raw_text": "Frontier Community Bancshares, Inc.  \u2014 SEC filing 0001830811-26-000003 (funding) on 2026-05-14",
       "tags": [
-        "hiring",
-        "hn",
+        "funding",
+        "form_d",
         "other"
-      ]
+      ],
+      "extras": {
+        "adsh": "0001830811-26-000003",
+        "cik": "0001830811",
+        "file_date": "2026-05-14"
+      }
     },
     {
-      "id": "85fce116ca0f7bb0",
-      "ts": "2026-05-07T00:19:53Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48043765",
-      "type": "posting",
+      "id": "62f6f21e014aba4e",
+      "ts": "2026-05-14T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2130542&type=&dateb=&owner=include&count=40",
+      "type": "funding",
       "company": {
-        "name": "Sentinel Defense Technologies",
+        "name": "LRE SAVANNAH CO-INVEST LLC ",
         "ticker": null,
         "industry": null,
-        "sector": "Technology",
+        "sector": "Other",
         "hq_region": null,
         "size_band": "unknown"
       },
       "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Sentinel Defense Technologies | Remote (Global) | Equity \u2192 Pre-Seed Closing We build real-time civilian threat intelligence for conflict zones \u2014 and we just landed our first operational pilot. Multi-model AI pipeline (Gemini 3 Pro &#x2F; Flash) ingests OSINT from verified sources, runs it through a ",
+      "unit": null,
+      "raw_text": "LRE SAVANNAH CO-INVEST LLC  \u2014 SEC filing 0002130542-26-000001 (funding) on 2026-05-14",
       "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002130542-26-000001",
+        "cik": "0002130542",
+        "file_date": "2026-05-14"
+      }
     },
     {
-      "id": "e2b8fb23da206c90",
-      "ts": "2026-05-06T22:30:27Z",
-      "source": "hn_whoishiring",
-      "source_url": "https://news.ycombinator.com/item?id=48042760",
-      "type": "posting",
+      "id": "346aeded5ceeea97",
+      "ts": "2026-05-14T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2134406&type=&dateb=&owner=include&count=40",
+      "type": "funding",
       "company": {
-        "name": "I&#x27;m trying to sign up but the confirmation mail never arrives.",
+        "name": "ACE5 LLC ",
         "ticker": null,
         "industry": null,
-        "sector": "Technology",
+        "sector": "Other",
         "hq_region": null,
         "size_band": "unknown"
       },
       "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "I&#x27;m trying to sign up but the confirmation mail never arrives.",
+      "unit": null,
+      "raw_text": "ACE5 LLC  \u2014 SEC filing 0002134406-26-000001 (funding) on 2026-05-14",
       "tags": [
-        "hiring",
-        "hn",
-        "technology"
-      ]
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002134406-26-000001",
+        "cik": "0002134406",
+        "file_date": "2026-05-14"
+      }
+    },
+    {
+      "id": "b060aa6190e10793",
+      "ts": "2026-05-14T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2133277&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "SG 5Q Investment, LLC ",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "SG 5Q Investment, LLC  \u2014 SEC filing 0001437749-26-017120 (funding) on 2026-05-14",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0001437749-26-017120",
+        "cik": "0002133277",
+        "file_date": "2026-05-14"
+      }
+    },
+    {
+      "id": "64a54e6c67240732",
+      "ts": "2026-05-14T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2060680&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "Angeles Direct Equity Fund 3 LP ",
+        "ticker": null,
+        "industry": null,
+        "sector": "Manufacturing",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Angeles Direct Equity Fund 3 LP  \u2014 SEC filing 0000905148-26-002266 (funding) on 2026-05-14",
+      "tags": [
+        "funding",
+        "form_d",
+        "manufacturing"
+      ],
+      "extras": {
+        "adsh": "0000905148-26-002266",
+        "cik": "0002060680",
+        "file_date": "2026-05-14"
+      }
+    },
+    {
+      "id": "640fce424f23e641",
+      "ts": "2026-05-14T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2023525&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "EMT XI LLC ",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "EMT XI LLC  \u2014 SEC filing 0002023525-26-000001 (funding) on 2026-05-14",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002023525-26-000001",
+        "cik": "0002023525",
+        "file_date": "2026-05-14"
+      }
+    },
+    {
+      "id": "a7e1505820d8ba7e",
+      "ts": "2026-05-14T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2062964&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "Third Point Investment IV Master LP ",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Third Point Investment IV Master LP  \u2014 SEC filing 0002062964-26-000001 (funding) on 2026-05-14",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002062964-26-000001",
+        "cik": "0002062964",
+        "file_date": "2026-05-14"
+      }
+    },
+    {
+      "id": "89d9888bbc1fb941",
+      "ts": "2026-05-14T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2134764&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "Fellowship WL Investors, LLC ",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Fellowship WL Investors, LLC  \u2014 SEC filing 0002134764-26-000001 (funding) on 2026-05-14",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002134764-26-000001",
+        "cik": "0002134764",
+        "file_date": "2026-05-14"
+      }
+    },
+    {
+      "id": "b99f2b3ddca1d2c9",
+      "ts": "2026-05-14T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1903508&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "Public Policy Holding Company, Inc. ",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Public Policy Holding Company, Inc.  \u2014 SEC filing 0001903508-26-000004 (funding) on 2026-05-14",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0001903508-26-000004",
+        "cik": "0001903508",
+        "file_date": "2026-05-14"
+      }
+    },
+    {
+      "id": "49e890888722718f",
+      "ts": "2026-05-14T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1673234&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "Oakridge Dairy LLC ",
+        "ticker": null,
+        "industry": null,
+        "sector": "Manufacturing",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Oakridge Dairy LLC  \u2014 SEC filing 0001673234-26-000001 (funding) on 2026-05-14",
+      "tags": [
+        "funding",
+        "form_d",
+        "manufacturing"
+      ],
+      "extras": {
+        "adsh": "0001673234-26-000001",
+        "cik": "0001673234",
+        "file_date": "2026-05-14"
+      }
+    },
+    {
+      "id": "f59fc0d600939236",
+      "ts": "2026-05-14T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2135329&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "Level 5 Stone Ridge Centerville Ohio LLC ",
+        "ticker": null,
+        "industry": null,
+        "sector": "Manufacturing",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Level 5 Stone Ridge Centerville Ohio LLC  \u2014 SEC filing 0002135329-26-000001 (funding) on 2026-05-14",
+      "tags": [
+        "funding",
+        "form_d",
+        "manufacturing"
+      ],
+      "extras": {
+        "adsh": "0002135329-26-000001",
+        "cik": "0002135329",
+        "file_date": "2026-05-14"
+      }
     }
   ],
   "sector_matrix": {
-    "generated_at": "2026-05-16T19:08:34.749925Z",
+    "generated_at": "2026-05-15T19:44:27.681949Z",
     "cells": [
       {
         "sector": "Technology",
         "signal_type": "layoff",
         "count_7d": 2,
-        "count_30d": 6,
+        "count_30d": 3,
         "magnitude_7d": 4000.0,
-        "magnitude_30d": null,
-        "z_score": 0.51
+        "magnitude_30d": 12000.0,
+        "z_score": 1.3
       },
       {
         "sector": "Technology",
         "signal_type": "posting",
-        "count_7d": 26,
-        "count_30d": 330,
+        "count_7d": 56,
+        "count_30d": 282,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": -5.81
+        "z_score": -1.21
       },
       {
         "sector": "Technology",
         "signal_type": "exec_move",
-        "count_7d": 1,
-        "count_30d": 1,
+        "count_7d": 0,
+        "count_30d": 0,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 0.77
+        "z_score": null
       },
       {
         "sector": "Technology",
         "signal_type": "funding",
-        "count_7d": 7,
-        "count_30d": 10,
+        "count_7d": 0,
+        "count_30d": 0,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 3.06
+        "z_score": null
       },
       {
         "sector": "Technology",
         "signal_type": "macro",
+        "count_7d": 21,
+        "count_30d": 21,
+        "magnitude_7d": 50219.0,
+        "magnitude_30d": 50219.0,
+        "z_score": 7.27
+      },
+      {
+        "sector": "Finance",
+        "signal_type": "layoff",
+        "count_7d": 0,
+        "count_30d": 1,
+        "magnitude_7d": null,
+        "magnitude_30d": 14.0,
+        "z_score": null
+      },
+      {
+        "sector": "Finance",
+        "signal_type": "posting",
+        "count_7d": 12,
+        "count_30d": 34,
+        "magnitude_7d": null,
+        "magnitude_30d": null,
+        "z_score": 1.44
+      },
+      {
+        "sector": "Finance",
+        "signal_type": "exec_move",
+        "count_7d": 0,
+        "count_30d": 3,
+        "magnitude_7d": null,
+        "magnitude_30d": null,
+        "z_score": -0.7
+      },
+      {
+        "sector": "Finance",
+        "signal_type": "funding",
         "count_7d": 0,
         "count_30d": 0,
         "magnitude_7d": null,
@@ -2411,6 +3193,15 @@
       },
       {
         "sector": "Finance",
+        "signal_type": "macro",
+        "count_7d": 6,
+        "count_30d": 6,
+        "magnitude_7d": 1589.0,
+        "magnitude_30d": 1589.0,
+        "z_score": 3.89
+      },
+      {
+        "sector": "Healthcare",
         "signal_type": "layoff",
         "count_7d": 0,
         "count_30d": 0,
@@ -2419,61 +3210,61 @@
         "z_score": null
       },
       {
-        "sector": "Finance",
+        "sector": "Healthcare",
+        "signal_type": "posting",
+        "count_7d": 5,
+        "count_30d": 27,
+        "magnitude_7d": null,
+        "magnitude_30d": null,
+        "z_score": -0.52
+      },
+      {
+        "sector": "Healthcare",
+        "signal_type": "exec_move",
+        "count_7d": 0,
+        "count_30d": 1,
+        "magnitude_7d": null,
+        "magnitude_30d": null,
+        "z_score": null
+      },
+      {
+        "sector": "Healthcare",
+        "signal_type": "funding",
+        "count_7d": 0,
+        "count_30d": 0,
+        "magnitude_7d": null,
+        "magnitude_30d": null,
+        "z_score": null
+      },
+      {
+        "sector": "Healthcare",
+        "signal_type": "macro",
+        "count_7d": 2,
+        "count_30d": 2,
+        "magnitude_7d": 253.0,
+        "magnitude_30d": 253.0,
+        "z_score": null
+      },
+      {
+        "sector": "CPG",
+        "signal_type": "layoff",
+        "count_7d": 0,
+        "count_30d": 0,
+        "magnitude_7d": null,
+        "magnitude_30d": null,
+        "z_score": null
+      },
+      {
+        "sector": "CPG",
         "signal_type": "posting",
         "count_7d": 2,
-        "count_30d": 10,
-        "magnitude_7d": null,
-        "magnitude_30d": null,
-        "z_score": -0.22
-      },
-      {
-        "sector": "Finance",
-        "signal_type": "exec_move",
-        "count_7d": 0,
-        "count_30d": 0,
-        "magnitude_7d": null,
-        "magnitude_30d": null,
-        "z_score": null
-      },
-      {
-        "sector": "Finance",
-        "signal_type": "funding",
-        "count_7d": 0,
-        "count_30d": 1,
-        "magnitude_7d": null,
-        "magnitude_30d": null,
-        "z_score": -0.23
-      },
-      {
-        "sector": "Finance",
-        "signal_type": "macro",
-        "count_7d": 0,
-        "count_30d": 0,
-        "magnitude_7d": null,
-        "magnitude_30d": null,
-        "z_score": null
-      },
-      {
-        "sector": "Healthcare",
-        "signal_type": "layoff",
-        "count_7d": 0,
-        "count_30d": 0,
-        "magnitude_7d": null,
-        "magnitude_30d": null,
-        "z_score": null
-      },
-      {
-        "sector": "Healthcare",
-        "signal_type": "posting",
-        "count_7d": 1,
         "count_30d": 7,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": -0.5
+        "z_score": 0.29
       },
       {
-        "sector": "Healthcare",
+        "sector": "CPG",
         "signal_type": "exec_move",
         "count_7d": 0,
         "count_30d": 0,
@@ -2482,7 +3273,7 @@
         "z_score": null
       },
       {
-        "sector": "Healthcare",
+        "sector": "CPG",
         "signal_type": "funding",
         "count_7d": 0,
         "count_30d": 0,
@@ -2491,16 +3282,16 @@
         "z_score": null
       },
       {
-        "sector": "Healthcare",
+        "sector": "CPG",
         "signal_type": "macro",
-        "count_7d": 0,
-        "count_30d": 0,
-        "magnitude_7d": null,
-        "magnitude_30d": null,
+        "count_7d": 1,
+        "count_30d": 1,
+        "magnitude_7d": 153.0,
+        "magnitude_30d": 153.0,
         "z_score": null
       },
       {
-        "sector": "CPG",
+        "sector": "Manufacturing",
         "signal_type": "layoff",
         "count_7d": 0,
         "count_30d": 0,
@@ -2509,34 +3300,34 @@
         "z_score": null
       },
       {
-        "sector": "CPG",
+        "sector": "Manufacturing",
         "signal_type": "posting",
+        "count_7d": 2,
+        "count_30d": 25,
+        "magnitude_7d": null,
+        "magnitude_30d": null,
+        "z_score": -1.59
+      },
+      {
+        "sector": "Manufacturing",
+        "signal_type": "exec_move",
         "count_7d": 1,
         "count_30d": 2,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 0.53
-      },
-      {
-        "sector": "CPG",
-        "signal_type": "exec_move",
-        "count_7d": 0,
-        "count_30d": 0,
-        "magnitude_7d": null,
-        "magnitude_30d": null,
         "z_score": null
       },
       {
-        "sector": "CPG",
+        "sector": "Manufacturing",
         "signal_type": "funding",
-        "count_7d": 0,
-        "count_30d": 0,
+        "count_7d": 10,
+        "count_30d": 10,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": null
+        "z_score": 5.02
       },
       {
-        "sector": "CPG",
+        "sector": "Manufacturing",
         "signal_type": "macro",
         "count_7d": 0,
         "count_30d": 0,
@@ -2545,7 +3336,7 @@
         "z_score": null
       },
       {
-        "sector": "Manufacturing",
+        "sector": "Retail",
         "signal_type": "layoff",
         "count_7d": 0,
         "count_30d": 0,
@@ -2554,16 +3345,16 @@
         "z_score": null
       },
       {
-        "sector": "Manufacturing",
+        "sector": "Retail",
         "signal_type": "posting",
-        "count_7d": 1,
+        "count_7d": 0,
         "count_30d": 3,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 0.3
+        "z_score": -0.7
       },
       {
-        "sector": "Manufacturing",
+        "sector": "Retail",
         "signal_type": "exec_move",
         "count_7d": 0,
         "count_30d": 0,
@@ -2572,7 +3363,7 @@
         "z_score": null
       },
       {
-        "sector": "Manufacturing",
+        "sector": "Retail",
         "signal_type": "funding",
         "count_7d": 0,
         "count_30d": 0,
@@ -2581,16 +3372,16 @@
         "z_score": null
       },
       {
-        "sector": "Manufacturing",
+        "sector": "Retail",
         "signal_type": "macro",
-        "count_7d": 0,
-        "count_30d": 0,
-        "magnitude_7d": null,
-        "magnitude_30d": null,
+        "count_7d": 2,
+        "count_30d": 2,
+        "magnitude_7d": 869.0,
+        "magnitude_30d": 869.0,
         "z_score": null
       },
       {
-        "sector": "Retail",
+        "sector": "Media",
         "signal_type": "layoff",
         "count_7d": 0,
         "count_30d": 0,
@@ -2599,66 +3390,21 @@
         "z_score": null
       },
       {
-        "sector": "Retail",
+        "sector": "Media",
         "signal_type": "posting",
-        "count_7d": 1,
+        "count_7d": 9,
+        "count_30d": 26,
+        "magnitude_7d": null,
+        "magnitude_30d": null,
+        "z_score": 1.19
+      },
+      {
+        "sector": "Media",
+        "signal_type": "exec_move",
+        "count_7d": 0,
         "count_30d": 1,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 0.77
-      },
-      {
-        "sector": "Retail",
-        "signal_type": "exec_move",
-        "count_7d": 0,
-        "count_30d": 0,
-        "magnitude_7d": null,
-        "magnitude_30d": null,
-        "z_score": null
-      },
-      {
-        "sector": "Retail",
-        "signal_type": "funding",
-        "count_7d": 0,
-        "count_30d": 0,
-        "magnitude_7d": null,
-        "magnitude_30d": null,
-        "z_score": null
-      },
-      {
-        "sector": "Retail",
-        "signal_type": "macro",
-        "count_7d": 0,
-        "count_30d": 0,
-        "magnitude_7d": null,
-        "magnitude_30d": null,
-        "z_score": null
-      },
-      {
-        "sector": "Media",
-        "signal_type": "layoff",
-        "count_7d": 0,
-        "count_30d": 0,
-        "magnitude_7d": null,
-        "magnitude_30d": null,
-        "z_score": null
-      },
-      {
-        "sector": "Media",
-        "signal_type": "posting",
-        "count_7d": 0,
-        "count_30d": 7,
-        "magnitude_7d": null,
-        "magnitude_30d": null,
-        "z_score": -1.28
-      },
-      {
-        "sector": "Media",
-        "signal_type": "exec_move",
-        "count_7d": 0,
-        "count_30d": 0,
-        "magnitude_7d": null,
-        "magnitude_30d": null,
         "z_score": null
       },
       {
@@ -2673,10 +3419,10 @@
       {
         "sector": "Media",
         "signal_type": "macro",
-        "count_7d": 0,
-        "count_30d": 0,
-        "magnitude_7d": null,
-        "magnitude_30d": null,
+        "count_7d": 2,
+        "count_30d": 2,
+        "magnitude_7d": 15994.0,
+        "magnitude_30d": 15994.0,
         "z_score": null
       }
     ]

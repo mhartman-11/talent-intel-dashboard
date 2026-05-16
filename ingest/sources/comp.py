@@ -66,7 +66,6 @@ def fetch(dry_run: bool = False) -> SourceResult:
 
                 if dry_run:
                     print(f"[comp] dry-run {series_id}: {len(series.get('data', []))} obs")
-                    continue
 
                 for obs in series.get("data", [])[:6]:
                     year = obs.get("year", "")
