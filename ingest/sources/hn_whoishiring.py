@@ -105,7 +105,6 @@ def fetch(dry_run: bool = False) -> SourceResult:
     hits = data.get("hits", [])
     if dry_run:
         print(f"[hn_whoishiring] dry-run — {len(hits)} hits in thread {thread_id}")
-        return SourceResult(source="hn_whoishiring", ok=True, fetched_at=fetched_at)
 
     records = []
     for hit in hits:

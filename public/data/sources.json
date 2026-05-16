@@ -1,17 +1,58 @@
 {
-  "generated_at": "2026-05-15T14:12:38.267989+00:00",
+  "generated_at": "2026-05-15T19:44:27.804881+00:00",
   "sources": [
     {
-      "source": "layoffs_fyi",
-      "display_name": "Layoff Signals (TC + trueup)",
-      "url": "https://techcrunch.com/tag/layoffs/",
-      "tos_posture": "public_rss",
+      "source": "greenhouse",
+      "display_name": "Greenhouse Public Job Boards",
+      "url": "https://boards-api.greenhouse.io",
+      "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-05-15T14:12:32.746780Z",
-      "last_attempted": "2026-05-15T14:12:32.746780Z",
-      "record_count": 12,
+      "last_ok": "2026-05-15T19:39:18.379910Z",
+      "last_attempted": "2026-05-15T19:39:18.379910Z",
+      "record_count": 2628,
       "ok": true,
-      "errors": []
+      "errors": [
+        "Coinbase (coinbase): GET https://boards-api.greenhouse.io/v1/boards/coinbase/jobs failed: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/coinbase/jobs?content=true'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+        "DoorDash (doordash): GET https://boards-api.greenhouse.io/v1/boards/doordash/jobs failed: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/doordash/jobs?content=true'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+        "HashiCorp (hashicorp): GET https://boards-api.greenhouse.io/v1/boards/hashicorp/jobs failed: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/hashicorp/jobs?content=true'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+        "OpenAI (openai): GET https://boards-api.greenhouse.io/v1/boards/openai/jobs failed: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/openai/jobs?content=true'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+        "Snowflake (snowflake): GET https://boards-api.greenhouse.io/v1/boards/snowflake/jobs failed: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/snowflake/jobs?content=true'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+        "Databricks (databricks11): GET https://boards-api.greenhouse.io/v1/boards/databricks11/jobs failed: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/databricks11/jobs?content=true'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+        "Plaid (plaid): GET https://boards-api.greenhouse.io/v1/boards/plaid/jobs failed: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/plaid/jobs?content=true'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+        "Hims & Hers (himsandhers): GET https://boards-api.greenhouse.io/v1/boards/himsandhers/jobs failed: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/himsandhers/jobs?content=true'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+        "Warby Parker (warbyparker): GET https://boards-api.greenhouse.io/v1/boards/warbyparker/jobs failed: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/warbyparker/jobs?content=true'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+      ]
+    },
+    {
+      "source": "lever",
+      "display_name": "Lever Public Postings",
+      "url": "https://api.lever.co/v0/postings",
+      "tos_posture": "public_api",
+      "cadence_hours": 6,
+      "last_ok": "2026-05-15T19:39:49.030872Z",
+      "last_attempted": "2026-05-15T19:39:49.030872Z",
+      "record_count": 203,
+      "ok": true,
+      "errors": [
+        "Scale AI (scaleai): GET https://api.lever.co/v0/postings/scaleai failed: Client error '404 Not Found' for url 'https://api.lever.co/v0/postings/scaleai?mode=json'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+        "Notion (notion): GET https://api.lever.co/v0/postings/notion failed: Client error '404 Not Found' for url 'https://api.lever.co/v0/postings/notion?mode=json'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+        "Brex (brex): GET https://api.lever.co/v0/postings/brex failed: Client error '404 Not Found' for url 'https://api.lever.co/v0/postings/brex?mode=json'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+        "Ramp (ramp): GET https://api.lever.co/v0/postings/ramp failed: Client error '404 Not Found' for url 'https://api.lever.co/v0/postings/ramp?mode=json'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+      ]
+    },
+    {
+      "source": "ashby",
+      "display_name": "Ashby Public Job Boards",
+      "url": "https://api.ashbyhq.com/posting-api",
+      "tos_posture": "public_api",
+      "cadence_hours": 6,
+      "last_ok": "2026-05-15T19:40:00.914577Z",
+      "last_attempted": "2026-05-15T19:40:00.914577Z",
+      "record_count": 172,
+      "ok": true,
+      "errors": [
+        "Replicate (replicate): GET https://api.ashbyhq.com/posting-api/job-board/replicate failed: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/replicate'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+      ]
     },
     {
       "source": "hn_whoishiring",
@@ -19,33 +60,86 @@
       "url": "https://news.ycombinator.com",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-15T14:12:33.284480Z",
-      "last_attempted": "2026-05-15T14:12:33.284480Z",
+      "last_ok": "2026-05-15T19:40:03.936235Z",
+      "last_attempted": "2026-05-15T19:40:03.936235Z",
       "record_count": 471,
       "ok": true,
       "errors": []
     },
     {
-      "source": "fred",
-      "display_name": "BLS Macro Labor Data",
-      "url": "https://www.bls.gov/developers/",
-      "tos_posture": "public_api",
-      "cadence_hours": 24,
-      "last_ok": "2026-05-15T14:12:34.317349Z",
-      "last_attempted": "2026-05-15T14:12:34.317349Z",
-      "record_count": 30,
+      "source": "layoffs_fyi",
+      "display_name": "Layoff Signals (TC + trueup)",
+      "url": "https://techcrunch.com/tag/layoffs/",
+      "tos_posture": "public_rss",
+      "cadence_hours": 6,
+      "last_ok": "2026-05-15T19:40:07.482517Z",
+      "last_attempted": "2026-05-15T19:40:07.482517Z",
+      "record_count": 12,
       "ok": true,
       "errors": []
     },
     {
+      "source": "state_warn",
+      "display_name": "State WARN Notices",
+      "url": "https://www.dol.gov/agencies/eta/layoffs/warn",
+      "tos_posture": "public_csv",
+      "cadence_hours": 24,
+      "last_ok": null,
+      "last_attempted": "2026-05-15T19:40:08.097743Z",
+      "record_count": 0,
+      "ok": false,
+      "errors": [
+        "WA (https://media.esd.wa.gov/esdwa/Default/ESDWAGOV/newsroom/Layoff-and-other-business-decisions/WARN-Public-Notice-Master-List.csv): GET https://media.esd.wa.gov/esdwa/Default/ESDWAGOV/newsroom/Layoff-and-other-business-decisions/WARN-Public-Notice-Master-List.csv failed: Client error '404 Not Found' for url 'https://esd.wa.gov/esdwa/Default/ESDWAGOV/newsroom/Layoff-and-other-business-decisions/WARN-Public-Notice-Master-List.csv'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+        "NY (https://dol.ny.gov/system/files/documents/2025/01/warn-notice-database.csv): GET https://dol.ny.gov/system/files/documents/2025/01/warn-notice-database.csv failed: Client error '404 Not Found' for url 'https://dol.ny.gov/system/files/documents/2025/01/warn-notice-database.csv'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+      ]
+    },
+    {
       "source": "org_moves",
-      "display_name": "Org & Exec Moves",
-      "url": "https://www.sec.gov/cgi-bin/browse-edgar",
+      "display_name": "Org & Exec Moves (TechCrunch)",
+      "url": "https://techcrunch.com/category/venture/feed/",
+      "tos_posture": "public_rss",
+      "cadence_hours": 6,
+      "last_ok": "2026-05-15T19:40:15.974721Z",
+      "last_attempted": "2026-05-15T19:40:15.974721Z",
+      "record_count": 9,
+      "ok": true,
+      "errors": []
+    },
+    {
+      "source": "sec_edgar",
+      "display_name": "SEC EDGAR (8-K Item 5.02 + Form D)",
+      "url": "https://efts.sec.gov/LATEST/search-index",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-05-15T14:12:34.795589Z",
-      "last_attempted": "2026-05-15T14:12:34.795589Z",
-      "record_count": 42,
+      "last_ok": "2026-05-15T19:40:16.175414Z",
+      "last_attempted": "2026-05-15T19:40:16.175414Z",
+      "record_count": 160,
+      "ok": true,
+      "errors": []
+    },
+    {
+      "source": "dol_lca",
+      "display_name": "USCIS H-1B Employer Data Hub",
+      "url": "https://www.uscis.gov/tools/reports-and-studies/h-1b-employer-data-hub",
+      "tos_posture": "public_csv",
+      "cadence_hours": 24,
+      "last_ok": null,
+      "last_attempted": "2026-05-15T19:40:18.263237Z",
+      "record_count": 0,
+      "ok": false,
+      "errors": [
+        "https://www.uscis.gov/sites/default/files/document/data/h1b_datahubexport-2024.csv: GET https://www.uscis.gov/sites/default/files/document/data/h1b_datahubexport-2024.csv failed: Client error '404 Not Found' for url 'https://www.uscis.gov/sites/default/files/document/data/h1b_datahubexport-2024.csv'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+      ]
+    },
+    {
+      "source": "bls_oews",
+      "display_name": "BLS OEWS \u2014 Occupational Wages",
+      "url": "https://www.bls.gov/oes/",
+      "tos_posture": "public_api",
+      "cadence_hours": 24,
+      "last_ok": "2026-05-15T19:40:21.753281Z",
+      "last_attempted": "2026-05-15T19:40:21.753281Z",
+      "record_count": 24,
       "ok": true,
       "errors": []
     },
@@ -55,11 +149,77 @@
       "url": "https://www.bls.gov/ces/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-15T14:12:37.856619Z",
-      "last_attempted": "2026-05-15T14:12:37.856619Z",
+      "last_ok": "2026-05-15T19:40:22.299868Z",
+      "last_attempted": "2026-05-15T19:40:22.299868Z",
       "record_count": 48,
       "ok": true,
       "errors": []
+    },
+    {
+      "source": "fred",
+      "display_name": "BLS Macro Labor Data",
+      "url": "https://www.bls.gov/developers/",
+      "tos_posture": "public_api",
+      "cadence_hours": 24,
+      "last_ok": "2026-05-15T19:40:22.653130Z",
+      "last_attempted": "2026-05-15T19:40:22.653130Z",
+      "record_count": 30,
+      "ok": true,
+      "errors": []
+    },
+    {
+      "source": "reddit",
+      "display_name": "Reddit Community Sentiment",
+      "url": "https://www.reddit.com",
+      "tos_posture": "public_api",
+      "cadence_hours": 12,
+      "last_ok": null,
+      "last_attempted": "2026-05-15T19:40:22.938329Z",
+      "record_count": 0,
+      "ok": false,
+      "errors": [
+        "r/layoffs: GET https://www.reddit.com/r/layoffs/new.json failed: Client error '403 Blocked' for url 'https://www.reddit.com/r/layoffs/new.json?limit=50'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
+        "r/recruiting: GET https://www.reddit.com/r/recruiting/new.json failed: Client error '403 Blocked' for url 'https://www.reddit.com/r/recruiting/new.json?limit=50'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
+        "r/cscareerquestions: GET https://www.reddit.com/r/cscareerquestions/new.json failed: Client error '403 Blocked' for url 'https://www.reddit.com/r/cscareerquestions/new.json?limit=50'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
+        "r/jobs: GET https://www.reddit.com/r/jobs/new.json failed: Client error '403 Blocked' for url 'https://www.reddit.com/r/jobs/new.json?limit=50'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
+        "r/recruitinghell: GET https://www.reddit.com/r/recruitinghell/new.json failed: Client error '403 Blocked' for url 'https://www.reddit.com/r/recruitinghell/new.json?limit=50'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
+        "r/ITCareerQuestions: GET https://www.reddit.com/r/ITCareerQuestions/new.json failed: Client error '403 Blocked' for url 'https://www.reddit.com/r/ITCareerQuestions/new.json?limit=50'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      ]
+    },
+    {
+      "source": "wikipedia_pv",
+      "display_name": "Wikipedia Pageviews",
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews",
+      "tos_posture": "public_api",
+      "cadence_hours": 24,
+      "last_ok": "2026-05-15T19:40:35.925195Z",
+      "last_attempted": "2026-05-15T19:40:35.925195Z",
+      "record_count": 34,
+      "ok": true,
+      "errors": []
+    },
+    {
+      "source": "wayback",
+      "display_name": "Wayback Careers-Page Snapshots",
+      "url": "https://web.archive.org/cdx/search/cdx",
+      "tos_posture": "public_api",
+      "cadence_hours": 24,
+      "last_ok": "2026-05-15T19:40:41.681340Z",
+      "last_attempted": "2026-05-15T19:40:41.681340Z",
+      "record_count": 3,
+      "ok": true,
+      "errors": [
+        "Stripe: GET https://web.archive.org/cdx/search/cdx failed: Server error '503 Service Unavailable' for url 'https://web.archive.org/cdx/search/cdx?url=stripe.com%2Fcareers&from=20260214&to=20260515&output=json&limit=200&fl=timestamp&collapse=timestamp%3A8'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503",
+        "Coinbase: GET https://web.archive.org/cdx/search/cdx failed: The read operation timed out",
+        "Robinhood: GET https://web.archive.org/cdx/search/cdx failed: Server error '503 Service Unavailable' for url 'https://web.archive.org/cdx/search/cdx?url=robinhood.com%2Fcareers&from=20260214&to=20260515&output=json&limit=200&fl=timestamp&collapse=timestamp%3A8'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503",
+        "Reddit: GET https://web.archive.org/cdx/search/cdx failed: The read operation timed out",
+        "Instacart: GET https://web.archive.org/cdx/search/cdx failed: [Errno 61] Connection refused",
+        "Pinterest: GET https://web.archive.org/cdx/search/cdx failed: [Errno 61] Connection refused",
+        "Discord: GET https://web.archive.org/cdx/search/cdx failed: [Errno 61] Connection refused",
+        "GitLab: GET https://web.archive.org/cdx/search/cdx failed: [Errno 61] Connection refused",
+        "HashiCorp: GET https://web.archive.org/cdx/search/cdx failed: [Errno 61] Connection refused",
+        "Cloudflare: GET https://web.archive.org/cdx/search/cdx failed: [Errno 61] Connection refused"
+      ]
     }
   ]
 }

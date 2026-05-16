@@ -14,7 +14,13 @@ import feedparser
 import httpx
 
 from ..schema import Company, Event, SourceMeta, SourceResult
-from ..normalizers import classify_sector, extract_headcount, extract_region, make_id
+from ..normalizers import (
+    classify_sector,
+    extract_company_from_headline,
+    extract_headcount,
+    extract_region,
+    make_id,
+)
 
 FEEDS = [
     {
@@ -56,20 +62,9 @@ def _parse_entry(entry: object, feed_name: str) -> Event | None:
         return None
 
     magnitude = extract_headcount(full_text)
-    sector = classify_sector(full_text)
     region = extract_region(full_text)
-
-    # Best-effort company name from title (case-insensitive split on action verbs)
-    import re as _re
-    _split_pat = _re.compile(
-        r'\s+(?:lay|laid|lays|cut|cuts|slash|slashes|reduc|eliminat|restructur|'
-        r'to\s+lay|to\s+cut|announces?\s+layoff|is\s+laying|will\s+lay)',
-        _re.IGNORECASE,
-    )
-    m = _split_pat.search(title)
-    company_name = title[: m.start()].strip() if m else title.split(":")[0].strip()
-    if len(company_name) > 80 or len(company_name) < 2:
-        company_name = "Unknown"
+    company_name = extract_company_from_headline(title) or "Unknown"
+    sector = classify_sector(full_text, company_name=company_name)
 
     return Event(
         id=make_id("layoffs_fyi", link or full_text[:60]),
@@ -103,10 +98,8 @@ def fetch(dry_run: bool = False) -> SourceResult:
             resp.raise_for_status()
             parsed = feedparser.parse(resp.text)
             entries = parsed.entries
-
             if dry_run:
                 print(f"[layoffs_fyi] dry-run {name}: {len(entries)} entries")
-                continue
 
             for entry in entries:
                 try:

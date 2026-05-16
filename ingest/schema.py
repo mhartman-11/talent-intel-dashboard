@@ -5,7 +5,7 @@ Every source normalizes to Event. Aggregators produce SectorMatrix + SourceMeta.
 from __future__ import annotations
 
 from datetime import datetime
-from typing import Literal, Optional
+from typing import Any, Literal, Optional
 from pydantic import BaseModel, Field
 
 
@@ -58,6 +58,7 @@ class Event(BaseModel):
     unit: Optional[str] = None          # "people" | "USD" | "pp" | "jobs"
     raw_text: str
     tags: list[str] = Field(default_factory=list)
+    extras: dict[str, Any] = Field(default_factory=dict)  # source-specific structured fields
 
 
 # ─── Source result wrapper ─────────────────────────────────────────────────────

@@ -33,6 +33,36 @@ export interface Company {
   size_band: SizeBand;
 }
 
+export type Seniority =
+  | "intern"
+  | "junior"
+  | "mid"
+  | "senior"
+  | "staff"
+  | "principal"
+  | "lead"
+  | "manager"
+  | "director"
+  | "vp"
+  | "c_level";
+
+export type RemoteMode = "remote" | "hybrid" | "onsite";
+
+export interface RoleExtras {
+  role?: string;
+  function?: string;
+  soc?: string;
+  seniority?: Seniority;
+  salary_min?: number;
+  salary_max?: number;
+  remote?: RemoteMode;
+  stack?: string[];
+  location?: string;
+  team?: string;
+  department?: string;
+  employment_type?: string;
+}
+
 export interface Event {
   id: string;
   ts: string; // ISO 8601
@@ -44,6 +74,7 @@ export interface Event {
   unit?: string;
   raw_text: string;
   tags: string[];
+  extras?: RoleExtras & Record<string, unknown>;
 }
 
 export interface SectorSignal {
