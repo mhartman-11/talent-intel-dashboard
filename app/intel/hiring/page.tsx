@@ -7,17 +7,16 @@ export default function HiringPage() {
   return (
     <StreamPage
       title="Hiring Velocity"
-      overline="Job Postings · HN Who's Hiring"
+      overline="Job Postings · Public ATS Feeds"
       color={COLORS.orange}
       stream={stream}
       sources={[
         "Greenhouse (public job boards)",
         "Lever (public job boards)",
         "Ashby (public job boards)",
-        "Workable (public job boards)",
-        "HN Who is Hiring (Algolia API)",
+        "USCIS H-1B Employer Data Hub",
       ]}
-      description="Hiring signals pulled from public-facing job boards that companies opt into. HN Who is Hiring thread parsed monthly via the official HN Algolia API."
+      description="Hiring signals from public ATS job-board APIs (Greenhouse, Lever, Ashby) for tracked companies, plus USCIS H-1B sponsorship volume by employer."
     />
   );
 }

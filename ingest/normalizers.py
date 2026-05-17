@@ -385,64 +385,6 @@ def normalize_layoffs_fyi_row(row: dict) -> Event:
     )
 
 
-# --- HN Who is Hiring comment -> Event -------------------------------------
-
-
-def normalize_hn_hiring_comment(comment: dict) -> Optional[Event]:
-    """HN item comment dict from algolia API."""
-    text = comment.get("comment_text") or comment.get("text") or ""
-    if not text or len(text) < 20:
-        return None
-
-    clean = re.sub(r"<[^>]+>", " ", text).strip()
-    clean = re.sub(r"\s+", " ", clean)[:500]
-
-    ts_raw = comment.get("created_at") or comment.get("created_at_i")
-    if isinstance(ts_raw, (int, float)):
-        ts = datetime.fromtimestamp(ts_raw, tz=timezone.utc)
-    elif isinstance(ts_raw, str):
-        try:
-            ts = datetime.fromisoformat(ts_raw.replace("Z", "+00:00"))
-        except ValueError:
-            ts = datetime.now(timezone.utc)
-    else:
-        ts = datetime.now(timezone.utc)
-
-    company_name = _extract_company_from_hn(clean)
-    sector = classify_sector(clean, company_name=company_name)
-    region = extract_region(clean)
-    native_id = str(comment.get("objectID") or comment.get("id") or clean[:40])
-
-    return Event(
-        id=make_id("hn_whoishiring", native_id),
-        ts=ts,
-        source="hn_whoishiring",
-        source_url=f"https://news.ycombinator.com/item?id={native_id}",
-        type="posting",
-        company=Company(
-            name=company_name,
-            sector=sector,
-            hq_region=region,
-        ),
-        magnitude=None,
-        unit="jobs",
-        raw_text=clean,
-        tags=["hiring", "hn", sector.lower(), *([region] if region else [])],
-    )
-
-
-def _extract_company_from_hn(text: str) -> str:
-    """HN posts use 'Company | Role | Location | ...' format."""
-    parts = re.split(r"\s*[|\-–]\s*", text)
-    if parts:
-        candidate = parts[0].strip()
-        # Strip leading bracket-tags like [YC W23]
-        candidate = re.sub(r"^\[[^\]]+\]\s*", "", candidate)
-        if 2 <= len(candidate) <= 80:
-            return candidate
-    return "Unknown"
-
-
 # --- FRED series observation -> Event --------------------------------------
 
 

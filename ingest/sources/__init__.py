@@ -5,7 +5,6 @@ from .comp import fetch as fetch_comp, SOURCE_META as COMP_META
 from .dol_lca import fetch as fetch_dol_lca, SOURCE_META as DOL_LCA_META
 from .fred import fetch as fetch_fred, SOURCE_META as FRED_META
 from .greenhouse import fetch as fetch_greenhouse, SOURCE_META as GREENHOUSE_META
-from .hn_whoishiring import fetch as fetch_hn_whoishiring, SOURCE_META as HN_META
 from .layoffs_fyi import fetch as fetch_layoffs_fyi, SOURCE_META as LAYOFFS_FYI_META
 from .lever import fetch as fetch_lever, SOURCE_META as LEVER_META
 from .org_moves import fetch as fetch_org_moves, SOURCE_META as ORG_MOVES_META
@@ -20,7 +19,6 @@ ALL_SOURCES = [
     ("greenhouse", fetch_greenhouse, GREENHOUSE_META),
     ("lever", fetch_lever, LEVER_META),
     ("ashby", fetch_ashby, ASHBY_META),
-    ("hn_whoishiring", fetch_hn_whoishiring, HN_META),
     # Layoff signals
     ("layoffs_fyi", fetch_layoffs_fyi, LAYOFFS_FYI_META),
     ("state_warn", fetch_state_warn, STATE_WARN_META),

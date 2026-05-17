@@ -14,7 +14,6 @@ from ingest.normalizers import (
     make_id,
     normalize_company_name,
     normalize_fred_observation,
-    normalize_hn_hiring_comment,
     normalize_layoffs_fyi_row,
 )
 from ingest.schema import Company, Event
@@ -208,38 +207,6 @@ def test_normalize_layoffs_fyi_bad_date():
     row = {**GOLDEN_ROW, "Date": "not-a-date"}
     evt = normalize_layoffs_fyi_row(row)
     assert evt.ts is not None
-
-
-# --- normalize_hn_hiring_comment -------------------------------------------
-
-GOLDEN_HN = {
-    "objectID": "38123456",
-    "created_at": "2024-04-01T14:00:00Z",
-    "comment_text": "Stripe | Senior Software Engineer | Remote, US | Full-time | infra hiring",
-}
-
-
-def test_normalize_hn_basic():
-    evt = normalize_hn_hiring_comment(GOLDEN_HN)
-    assert evt is not None
-    assert evt.source == "hn_whoishiring"
-    assert evt.type == "posting"
-    assert evt.company is not None
-    assert "Stripe" in evt.company.name
-    assert evt.ts == datetime(2024, 4, 1, 14, 0, 0, tzinfo=timezone.utc)
-
-
-def test_normalize_hn_strips_yc_tag():
-    comment = {**GOLDEN_HN, "comment_text": "[YC W23] Acme AI | Founding Engineer | Remote | Hiring"}
-    evt = normalize_hn_hiring_comment(comment)
-    assert evt is not None
-    assert evt.company is not None
-    assert evt.company.name.startswith("Acme")
-
-
-def test_normalize_hn_empty_text():
-    evt = normalize_hn_hiring_comment({"objectID": "1", "comment_text": ""})
-    assert evt is None
 
 
 # --- normalize_fred_observation --------------------------------------------
