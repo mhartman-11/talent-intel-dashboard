@@ -21,7 +21,6 @@ Built as a portfolio piece by [Mike Hartman](https://hartmanai.com) — Senior M
 | Hiring | Greenhouse public Job Board API | Public API | 6h | none |
 | Hiring | Lever public Postings API | Public API | 6h | none |
 | Hiring | Ashby public Job Board API | Public API | 6h | none |
-| Hiring | [HN Who is Hiring](https://news.ycombinator.com) (Algolia + Firebase) | Public API | 24h | none |
 | Hiring (visa) | [USCIS H-1B Employer Data Hub](https://www.uscis.gov/tools/reports-and-studies/h-1b-employer-data-hub) | Public CSV | 24h | none |
 | Layoffs | TechCrunch layoff RSS feeds | Public RSS | 6h | none |
 | Layoffs | State WARN portals (config-driven, see `ingest/state_warn_endpoints.json`) | Public CSV/XLSX/HTML | 24h | none |
