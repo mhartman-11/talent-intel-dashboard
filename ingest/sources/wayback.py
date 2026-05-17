@@ -65,7 +65,8 @@ def fetch(dry_run: bool = False) -> SourceResult:
                     "fl": "timestamp",
                     "collapse": "timestamp:8",  # dedup to one row per day
                 },
-                timeout=20.0,
+                timeout=8.0,
+                retries=0,  # IA is flaky; fail fast rather than block ingest
             )
             rows = data if isinstance(data, list) else []
             snapshot_count = max(0, len(rows) - 1)  # first row is header
