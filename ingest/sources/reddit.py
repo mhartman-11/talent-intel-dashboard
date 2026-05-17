@@ -114,7 +114,8 @@ def fetch(dry_run: bool = False) -> SourceResult:
                 url,
                 params={"limit": 50},
                 headers={"User-Agent": REDDIT_UA},
-                timeout=15.0,
+                timeout=8.0,
+                retries=0,  # Reddit blocks datacenter IPs; fail fast
             )
             children = data.get("data", {}).get("children", []) if isinstance(data, dict) else []
             for post in children:
@@ -126,7 +127,7 @@ def fetch(dry_run: bool = False) -> SourceResult:
                     errors.append(f"{sub} post: {exc}")
             if dry_run:
                 print(f"  r/{sub}: {len(children)} posts scanned")
-            time.sleep(1.0)  # polite delay
+            time.sleep(0.3)  # polite delay
         except Exception as exc:
             errors.append(f"r/{sub}: {exc}")
 
