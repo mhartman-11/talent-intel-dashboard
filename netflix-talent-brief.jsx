@@ -88,13 +88,12 @@ Be specific to a ${level} ${roleTitle} in ${fn}. Every line should be useful to 
 
 function detectEnvKey() {
   try {
-    if (
-      typeof process !== 'undefined' &&
-      process &&
-      process.env &&
-      process.env.REACT_APP_ANTHROPIC_API_KEY
-    ) {
-      return process.env.REACT_APP_ANTHROPIC_API_KEY;
+    if (typeof process !== 'undefined' && process && process.env) {
+      return (
+        process.env.NEXT_PUBLIC_ANTHROPIC_API_KEY ||
+        process.env.REACT_APP_ANTHROPIC_API_KEY ||
+        ''
+      );
     }
   } catch (_) {}
   return '';
