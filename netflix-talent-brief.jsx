@@ -1,12 +1,16 @@
 import React, { useState, useEffect, useRef, useMemo } from 'react';
+import { findBestMatch } from '@/lib/match';
 
 /**
  * Netflix Talent Brief
  * A Claude-powered Talent Intelligence + Culture Calibration prototype.
  *
- * Usage: drop this component into a React app with Tailwind CSS loaded.
- * Provide an Anthropic API key via REACT_APP_ANTHROPIC_API_KEY at build time
- * or via the inline "API key" field in the UI (in-memory only).
+ * Runs in two modes:
+ *   - Demo (default): serves curated fixtures via fuzzy matching. Zero API cost.
+ *   - Live: calls the Anthropic Messages API with the web_search tool.
+ *
+ * Demo mode preserves the full loading UX so the experience is visually
+ * identical to a live API call. Mode is toggled from the header.
  */
 
 const NETFLIX_RED = '#E50914';
@@ -324,13 +328,18 @@ export default function NetflixTalentBrief() {
 
   const envKey = useMemo(() => detectEnvKey(), []);
   const [apiKey, setApiKey] = useState(envKey || '');
-  const [showKeyField, setShowKeyField] = useState(!envKey);
+  const [showSettings, setShowSettings] = useState(false);
+
+  // 'demo' is the default — zero API cost, served from curated fixtures.
+  // 'live' calls the Anthropic API (requires apiKey).
+  const [mode, setMode] = useState('demo');
 
   const [loading, setLoading] = useState(false);
   const [statusIdx, setStatusIdx] = useState(0);
   const [error, setError] = useState('');
   const [rawOutput, setRawOutput] = useState('');
   const [brief, setBrief] = useState(null);
+  const [matchInfo, setMatchInfo] = useState(null);
   const [copied, setCopied] = useState(false);
 
   const outputRef = useRef(null);
@@ -355,7 +364,7 @@ export default function NetflixTalentBrief() {
     roleTitle.trim().length > 0 &&
     level.trim().length > 0 &&
     fn.trim().length > 0 &&
-    apiKey.trim().length > 0;
+    (mode === 'demo' || apiKey.trim().length > 0);
 
   async function handleSubmit(e) {
     if (e && e.preventDefault) e.preventDefault();
@@ -364,7 +373,35 @@ export default function NetflixTalentBrief() {
     setError('');
     setBrief(null);
     setRawOutput('');
+    setMatchInfo(null);
     setCopied(false);
+
+    if (mode === 'demo') {
+      try {
+        // Hold the loading state long enough to cycle through the three
+        // status messages — visual parity with a live API call.
+        await new Promise((resolve) => setTimeout(resolve, 2600));
+        const match = findBestMatch({
+          roleTitle: roleTitle.trim(),
+          level: level.trim(),
+          fn: fn.trim(),
+        });
+        setBrief(match.fixture.brief);
+        setMatchInfo({
+          fixtureRole: match.fixture.roleTitle,
+          fixtureLevel: match.fixture.level,
+          fixtureFn: match.fixture.fn,
+          isExactMatch: match.isExactMatch,
+          isStrongMatch: match.isStrongMatch,
+        });
+      } catch (err) {
+        setError('Demo mode failed to match a fixture. This should not happen — please report.');
+      } finally {
+        setLoading(false);
+      }
+      return;
+    }
+
     try {
       const text = await callClaude({
         roleTitle: roleTitle.trim(),
@@ -428,40 +465,93 @@ export default function NetflixTalentBrief() {
               />
               <p className="mt-4 text-zinc-400 text-sm md:text-base max-w-2xl">
                 Powered by Claude — Talent Intelligence + Culture Calibration.
-                Live market data, role-specific Netflix culture guidance,
-                interview questions, and a calibration debrief — generated in
-                seconds.
+                Role-specific Netflix culture guidance, market intelligence,
+                interview questions, and a calibration debrief — in seconds.
               </p>
+              <div className="mt-4 flex items-center gap-2">
+                <span
+                  className="inline-flex items-center gap-1.5 text-[11px] uppercase tracking-wider font-semibold px-2.5 py-1 rounded-full"
+                  style={
+                    mode === 'demo'
+                      ? { background: 'rgba(34,197,94,0.12)', color: '#4ADE80', border: '1px solid rgba(34,197,94,0.35)' }
+                      : { background: 'rgba(229,9,20,0.12)', color: '#FF6B6B', border: '1px solid rgba(229,9,20,0.4)' }
+                  }
+                >
+                  <span
+                    className="inline-block w-1.5 h-1.5 rounded-full"
+                    style={{ background: mode === 'demo' ? '#4ADE80' : NETFLIX_RED }}
+                  />
+                  {mode === 'demo' ? 'Demo mode · cached fixtures' : 'Live API · Claude calls'}
+                </span>
+              </div>
             </div>
             <button
-              onClick={() => setShowKeyField((s) => !s)}
+              onClick={() => setShowSettings((s) => !s)}
               className="text-xs text-zinc-500 hover:text-zinc-300 transition-colors underline underline-offset-4"
               type="button"
             >
-              {showKeyField ? 'Hide API key' : 'Set API key'}
+              {showSettings ? 'Hide settings' : 'Settings'}
             </button>
           </div>
         </header>
 
-        {/* API Key (collapsible) */}
-        {showKeyField && (
-          <div className="mb-6 bg-zinc-900/50 border border-zinc-800 rounded-xl p-4">
-            <label className="block text-xs uppercase tracking-wider text-zinc-400 font-semibold mb-2">
-              Anthropic API Key
-            </label>
-            <input
-              type="password"
-              value={apiKey}
-              onChange={(e) => setApiKey(e.target.value)}
-              placeholder="sk-ant-..."
-              autoComplete="off"
-              spellCheck={false}
-              className="w-full bg-black border border-zinc-800 rounded-lg px-3 py-2 text-sm text-zinc-100 placeholder-zinc-600 focus:outline-none focus:border-zinc-600"
-            />
-            <p className="mt-2 text-[11px] text-zinc-500">
-              Stored only in component memory for this session. Cleared on
-              refresh.
-            </p>
+        {/* Settings (collapsible): mode toggle + API key */}
+        {showSettings && (
+          <div className="mb-6 bg-zinc-900/50 border border-zinc-800 rounded-xl p-4 space-y-4">
+            <div>
+              <div className="text-xs uppercase tracking-wider text-zinc-400 font-semibold mb-2">
+                Mode
+              </div>
+              <div className="flex gap-2">
+                <button
+                  type="button"
+                  onClick={() => setMode('demo')}
+                  className={
+                    'px-3 py-1.5 rounded-md text-sm font-medium border transition-colors ' +
+                    (mode === 'demo'
+                      ? 'bg-zinc-800 border-zinc-700 text-white'
+                      : 'bg-transparent border-zinc-800 text-zinc-400 hover:text-zinc-200')
+                  }
+                >
+                  Demo (free)
+                </button>
+                <button
+                  type="button"
+                  onClick={() => setMode('live')}
+                  className={
+                    'px-3 py-1.5 rounded-md text-sm font-medium border transition-colors ' +
+                    (mode === 'live'
+                      ? 'bg-zinc-800 border-zinc-700 text-white'
+                      : 'bg-transparent border-zinc-800 text-zinc-400 hover:text-zinc-200')
+                  }
+                >
+                  Live API
+                </button>
+              </div>
+              <p className="mt-2 text-[11px] text-zinc-500">
+                Demo serves curated fixtures via fuzzy matching — instant and zero cost.
+                Live calls Claude with web_search — ~$0.05–$0.20 per brief.
+              </p>
+            </div>
+            {mode === 'live' && (
+              <div>
+                <label className="block text-xs uppercase tracking-wider text-zinc-400 font-semibold mb-2">
+                  Anthropic API Key
+                </label>
+                <input
+                  type="password"
+                  value={apiKey}
+                  onChange={(e) => setApiKey(e.target.value)}
+                  placeholder="sk-ant-..."
+                  autoComplete="off"
+                  spellCheck={false}
+                  className="w-full bg-black border border-zinc-800 rounded-lg px-3 py-2 text-sm text-zinc-100 placeholder-zinc-600 focus:outline-none focus:border-zinc-600"
+                />
+                <p className="mt-2 text-[11px] text-zinc-500">
+                  Stored only in component memory for this session.
+                </p>
+              </div>
+            )}
           </div>
         )}
 
@@ -524,10 +614,10 @@ export default function NetflixTalentBrief() {
           >
             {loading ? 'Generating...' : 'Generate Brief'}
           </button>
-          {!apiKey && (
+          {mode === 'live' && !apiKey && (
             <p className="mt-3 text-xs text-zinc-500">
-              An Anthropic API key is required. Click "Set API key" above to
-              enter one.
+              Live mode requires an Anthropic API key. Open "Settings" to add one,
+              or switch to Demo mode for zero-cost cached briefs.
             </p>
           )}
         </form>
@@ -595,6 +685,17 @@ export default function NetflixTalentBrief() {
                   {level}{' '}
                   <span className="text-zinc-500 font-normal">·</span> {fn}
                 </div>
+                {matchInfo && !matchInfo.isExactMatch && (
+                  <div className="mt-2 text-xs text-zinc-500">
+                    Closest cached match:{' '}
+                    <span className="text-zinc-300">
+                      {matchInfo.fixtureRole} · {matchInfo.fixtureLevel} · {matchInfo.fixtureFn}
+                    </span>
+                  </div>
+                )}
+              </div>
+              <div className="text-[11px] text-zinc-500 uppercase tracking-wider">
+                {mode === 'demo' ? 'Demo · cached fixture' : 'Live · Claude API'}
               </div>
             </div>
 
