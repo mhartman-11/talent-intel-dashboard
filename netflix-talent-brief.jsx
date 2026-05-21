@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef, useMemo } from 'react';
 import { findBestMatch } from '@/lib/match';
 import { FIXTURES } from '@/lib/fixtures';
+import { getSourcingPlaybook } from '@/lib/sourcing-playbooks';
 
 /**
  * Netflix Talent Brief
@@ -177,7 +178,7 @@ function parseBrief(text) {
   return null;
 }
 
-function briefToPlainText(brief, meta) {
+function briefToPlainText(brief, meta, playbook) {
   const mi = brief.marketIntelligence || {};
   const cc = brief.cultureCalibration || {};
   const ttf = mi.timeToFillRisk || {};
@@ -210,8 +211,25 @@ function briefToPlainText(brief, meta) {
   lines.push('SOURCING ANGLES');
   (mi.sourcingAngles || []).forEach((s, i) => lines.push(`${i + 1}. ${s}`));
   lines.push('');
+  if (playbook) {
+    lines.push('==============================================');
+    lines.push('SECTION B — SOURCING PLAYBOOK');
+    lines.push('==============================================');
+    lines.push('');
+    (playbook.booleanStrings || []).forEach((s) => {
+      lines.push(`--- ${s.platform.toUpperCase()} ---`);
+      lines.push(s.query);
+      lines.push(`Why: ${s.rationale}`);
+      lines.push('');
+    });
+    lines.push('WHERE TO SOURCE THIS TALENT');
+    (playbook.sourcingSites || []).forEach((site, i) => {
+      lines.push(`${i + 1}. ${site.name} — ${site.why}`);
+    });
+    lines.push('');
+  }
   lines.push('==============================================');
-  lines.push('SECTION B — NETFLIX CULTURE CALIBRATION');
+  lines.push('SECTION C — NETFLIX CULTURE CALIBRATION');
   lines.push('==============================================');
   lines.push('');
   (cc.dimensions || []).forEach((d) => {
@@ -340,8 +358,10 @@ export default function NetflixTalentBrief() {
   const [error, setError] = useState('');
   const [rawOutput, setRawOutput] = useState('');
   const [brief, setBrief] = useState(null);
+  const [playbook, setPlaybook] = useState(null);
   const [matchInfo, setMatchInfo] = useState(null);
   const [copied, setCopied] = useState(false);
+  const [copiedStringIdx, setCopiedStringIdx] = useState(-1);
 
   const outputRef = useRef(null);
 
@@ -373,9 +393,11 @@ export default function NetflixTalentBrief() {
     setLoading(true);
     setError('');
     setBrief(null);
+    setPlaybook(null);
     setRawOutput('');
     setMatchInfo(null);
     setCopied(false);
+    setCopiedStringIdx(-1);
 
     if (mode === 'demo') {
       try {
@@ -388,6 +410,7 @@ export default function NetflixTalentBrief() {
           fn: fn.trim(),
         });
         setBrief(match.fixture.brief);
+        setPlaybook(getSourcingPlaybook(match.fixture.id));
         setMatchInfo({
           fixtureRole: match.fixture.roleTitle,
           fixtureLevel: match.fixture.level,
@@ -431,7 +454,7 @@ export default function NetflixTalentBrief() {
 
   async function handleCopy() {
     if (!brief) return;
-    const text = briefToPlainText(brief, { roleTitle, level, fn });
+    const text = briefToPlainText(brief, { roleTitle, level, fn }, playbook);
     try {
       await navigator.clipboard.writeText(text);
       setCopied(true);
@@ -448,6 +471,21 @@ export default function NetflixTalentBrief() {
       } catch (_) {}
       document.body.removeChild(ta);
     }
+  }
+
+  async function copyString(text, idx) {
+    try {
+      await navigator.clipboard.writeText(text);
+    } catch (_) {
+      const ta = document.createElement('textarea');
+      ta.value = text;
+      document.body.appendChild(ta);
+      ta.select();
+      try { document.execCommand('copy'); } catch (_) {}
+      document.body.removeChild(ta);
+    }
+    setCopiedStringIdx(idx);
+    setTimeout(() => setCopiedStringIdx((i) => (i === idx ? -1 : i)), 1500);
   }
 
   return (
@@ -700,7 +738,7 @@ export default function NetflixTalentBrief() {
 
         {/* Output */}
         {brief && !loading && (
-          <div ref={outputRef} className="space-y-12">
+          <div ref={outputRef} className="space-y-20">
             {/* Brief meta */}
             <div className="flex items-center justify-between flex-wrap gap-3 pb-4 border-b border-zinc-800">
               <div>
@@ -802,10 +840,79 @@ export default function NetflixTalentBrief() {
               </div>
             </section>
 
-            {/* Section B: Culture Calibration */}
+            {/* Section B: Sourcing Playbook */}
+            {playbook && (
+              <section>
+                <SectionHeader
+                  kicker="Section B"
+                  title="Sourcing Playbook"
+                />
+                <p className="text-zinc-400 text-sm mb-6 -mt-2 max-w-3xl">
+                  Boolean and X-Ray search strings ready to paste into LinkedIn Recruiter or Google,
+                  plus the specific sourcing channels that work for this talent shape. Copy any string with one click.
+                </p>
+
+                {/* Boolean strings */}
+                <div className="space-y-4 mb-8">
+                  {(playbook.booleanStrings || []).map((s, i) => (
+                    <div
+                      key={i}
+                      className="bg-zinc-900/60 border border-zinc-800 rounded-xl p-5"
+                    >
+                      <div className="flex items-center justify-between gap-3 mb-3 flex-wrap">
+                        <span
+                          className="inline-flex items-center text-[11px] uppercase tracking-wider font-semibold px-2.5 py-1 rounded-full"
+                          style={{
+                            background: 'rgba(229,9,20,0.10)',
+                            color: '#FF9999',
+                            border: '1px solid rgba(229,9,20,0.30)',
+                          }}
+                        >
+                          {s.platform}
+                        </span>
+                        <button
+                          type="button"
+                          onClick={() => copyString(s.query, i)}
+                          className="text-xs font-semibold text-zinc-300 hover:text-white border border-zinc-700 hover:border-zinc-500 rounded-md px-3 py-1 transition-colors"
+                        >
+                          {copiedStringIdx === i ? '✓ Copied' : 'Copy'}
+                        </button>
+                      </div>
+                      <pre className="text-[13px] text-zinc-100 bg-black/60 border border-zinc-800 rounded-lg p-3 whitespace-pre-wrap break-words font-mono leading-relaxed">{s.query}</pre>
+                      <p className="mt-3 text-xs text-zinc-400 leading-relaxed">
+                        <span className="text-zinc-500 font-semibold uppercase tracking-wider text-[10px] mr-1">Why</span>
+                        {s.rationale}
+                      </p>
+                    </div>
+                  ))}
+                </div>
+
+                {/* Sourcing sites */}
+                <StatCard label="Where to Source This Talent">
+                  <ul className="space-y-3">
+                    {(playbook.sourcingSites || []).map((site, i) => (
+                      <li key={i} className="flex gap-3">
+                        <span
+                          className="text-xs font-bold pt-0.5 shrink-0"
+                          style={{ color: NETFLIX_RED, minWidth: '1.5rem' }}
+                        >
+                          0{i + 1}
+                        </span>
+                        <div>
+                          <div className="text-zinc-100 font-semibold text-[15px]">{site.name}</div>
+                          <div className="text-zinc-400 text-sm leading-relaxed">{site.why}</div>
+                        </div>
+                      </li>
+                    ))}
+                  </ul>
+                </StatCard>
+              </section>
+            )}
+
+            {/* Section C: Culture Calibration */}
             <section>
               <SectionHeader
-                kicker="Section B"
+                kicker="Section C"
                 title="Netflix Culture Calibration"
               />
               <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
