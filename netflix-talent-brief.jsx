@@ -229,7 +229,7 @@ function briefToPlainText(brief, meta, playbook) {
     lines.push('');
   }
   lines.push('==============================================');
-  lines.push('SECTION C — NETFLIX CULTURE CALIBRATION');
+  lines.push('SECTION C — TAILORED INTERVIEW GUIDE');
   lines.push('==============================================');
   lines.push('');
   (cc.dimensions || []).forEach((d) => {
@@ -503,9 +503,8 @@ export default function NetflixTalentBrief() {
                 style={{ background: NETFLIX_RED }}
               />
               <p className="mt-4 text-zinc-300 text-sm md:text-base max-w-3xl leading-relaxed">
-                A working prototype of a Netflix-internal Talent Intelligence tool: any recruiter or hiring manager enters a role and receives an instant, kickoff-ready brief — live market intelligence plus Netflix-culture-calibrated interview guidance — powered by Claude and orchestrated web search.{' '}
-                This demo loads <span className="text-white font-semibold">20 of Netflix's most frequently hired and most demanding roles</span> as a snapshot of what a full deployment covers; the same pattern scales to every role across every function.{' '}
-                Built as a candidate prototype for the Senior Applied AI Lead role.
+                A Talent Intelligence tool for Netflix recruiters and hiring managers: enter any role and instantly get a kickoff-ready brief — live market intelligence, a Boolean-ready sourcing playbook, and interview guidance tailored to that specific role and level.{' '}
+                This demo is preloaded with <span className="text-white font-semibold">20 of Netflix's most frequent and demanding hires</span>; the same architecture, powered by Claude with web search, scales to every role across every function.
               </p>
               <div className="mt-4 flex items-center gap-2">
                 <span
@@ -909,12 +908,17 @@ export default function NetflixTalentBrief() {
               </section>
             )}
 
-            {/* Section C: Culture Calibration */}
+            {/* Section C: Tailored Interview Guide */}
             <section>
               <SectionHeader
                 kicker="Section C"
-                title="Netflix Culture Calibration"
+                title="Tailored Interview Guide"
               />
+              <p className="text-zinc-400 text-sm mb-6 -mt-2 max-w-3xl">
+                Behavioral questions, red flags, and debrief prompts tailored to a{' '}
+                <span className="text-white font-semibold">{roleTitle}</span> at the{' '}
+                <span className="text-white font-semibold">{level}</span> level — organized by Netflix's 10 culture dimensions.
+              </p>
               <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
                 {(brief.cultureCalibration.dimensions || []).map((d, i) => (
                   <CultureCard key={i} dimension={d} />
