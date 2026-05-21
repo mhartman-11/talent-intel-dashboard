@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef, useMemo } from 'react';
 import { findBestMatch } from '@/lib/match';
+import { FIXTURES } from '@/lib/fixtures';
 
 /**
  * Netflix Talent Brief
@@ -463,10 +464,10 @@ export default function NetflixTalentBrief() {
                 className="mt-3 h-[3px] w-24"
                 style={{ background: NETFLIX_RED }}
               />
-              <p className="mt-4 text-zinc-400 text-sm md:text-base max-w-2xl">
-                Powered by Claude — Talent Intelligence + Culture Calibration.
-                Role-specific Netflix culture guidance, market intelligence,
-                interview questions, and a calibration debrief — in seconds.
+              <p className="mt-4 text-zinc-300 text-sm md:text-base max-w-3xl leading-relaxed">
+                A working prototype of a Netflix-internal Talent Intelligence tool: any recruiter or hiring manager enters a role and receives an instant, kickoff-ready brief — live market intelligence plus Netflix-culture-calibrated interview guidance — powered by Claude and orchestrated web search.{' '}
+                This demo loads <span className="text-white font-semibold">20 of Netflix's most frequently hired and most demanding roles</span> as a snapshot of what a full deployment covers; the same pattern scales to every role across every function.{' '}
+                Built as a candidate prototype for the Senior Applied AI Lead role.
               </p>
               <div className="mt-4 flex items-center gap-2">
                 <span
@@ -560,6 +561,33 @@ export default function NetflixTalentBrief() {
           onSubmit={handleSubmit}
           className="bg-zinc-900/40 border border-zinc-800 rounded-2xl p-5 md:p-6 mb-10"
         >
+          <div className="mb-5">
+            <label className="block text-xs uppercase tracking-wider text-zinc-400 font-semibold mb-2">
+              Pick from {FIXTURES.length} included roles
+            </label>
+            <select
+              value=""
+              onChange={(e) => {
+                const f = FIXTURES.find((x) => x.id === e.target.value);
+                if (f) {
+                  setRoleTitle(f.roleTitle);
+                  setLevel(f.level);
+                  setFn(f.fn);
+                }
+              }}
+              className="w-full bg-black border border-zinc-800 rounded-lg px-3 py-2.5 text-zinc-100 focus:outline-none focus:border-zinc-600"
+            >
+              <option value="">— Choose a preloaded role to autofill —</option>
+              {FIXTURES.map((f) => (
+                <option key={f.id} value={f.id}>
+                  {f.roleTitle} · {f.level} · {f.fn}
+                </option>
+              ))}
+            </select>
+            <p className="mt-2 text-[11px] text-zinc-500">
+              Or type any role below — the matcher will serve the closest cached brief.
+            </p>
+          </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-5">
             <div>
               <label className="block text-xs uppercase tracking-wider text-zinc-400 font-semibold mb-2">

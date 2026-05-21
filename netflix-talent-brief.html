@@ -32,10 +32,10 @@
       <div>
         <h1 class="text-3xl md:text-5xl font-extrabold tracking-tight text-white">Netflix Talent Brief</h1>
         <div class="mt-3 h-[3px] w-24 bg-ntf-red"></div>
-        <p class="mt-4 text-zinc-400 text-sm md:text-base max-w-2xl">
-          Powered by Claude — Talent Intelligence + Culture Calibration.
-          Role-specific Netflix culture guidance, market intelligence, interview questions,
-          and a calibration debrief — in seconds.
+        <p class="mt-4 text-zinc-300 text-sm md:text-base max-w-3xl leading-relaxed">
+          A working prototype of a Netflix-internal Talent Intelligence tool: any recruiter or hiring manager enters a role and receives an instant, kickoff-ready brief — live market intelligence plus Netflix-culture-calibrated interview guidance — powered by Claude and orchestrated web search.
+          This demo loads <span class="text-white font-semibold">20 of Netflix's most frequently hired and most demanding roles</span> as a snapshot of what a full deployment covers; the same pattern scales to every role across every function.
+          Built as a candidate prototype for the Senior Applied AI Lead role.
         </p>
         <div class="mt-4 flex items-center gap-2">
           <span class="inline-flex items-center gap-1.5 text-[11px] uppercase tracking-wider font-semibold px-2.5 py-1 rounded-full"
@@ -49,6 +49,17 @@
   </header>
 
   <form id="briefForm" class="bg-zinc-900/40 border border-zinc-800 rounded-2xl p-5 md:p-6 mb-10">
+    <div class="mb-5">
+      <label class="block text-xs uppercase tracking-wider text-zinc-400 font-semibold mb-2">
+        Pick from <span id="fixtureCount">20</span> included roles
+      </label>
+      <select id="quickPick" class="w-full bg-black border border-zinc-800 rounded-lg px-3 py-2.5 text-zinc-100 focus:outline-none focus:border-zinc-600">
+        <option value="">— Choose a preloaded role to autofill —</option>
+      </select>
+      <p class="mt-2 text-[11px] text-zinc-500">
+        Or type any role below — the matcher will serve the closest cached brief.
+      </p>
+    </div>
     <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-5">
       <div>
         <label class="block text-xs uppercase tracking-wider text-zinc-400 font-semibold mb-2">Role Title</label>
@@ -324,6 +335,25 @@ const loadingEl = document.getElementById('loading');
 const loadingMsgEl = document.getElementById('loadingMsg');
 const outputEl = document.getElementById('output');
 const copyBtn = document.getElementById('copyBtn');
+const quickPick = document.getElementById('quickPick');
+
+// Populate the quick-pick dropdown from FIXTURES.
+for (const f of FIXTURES) {
+  const opt = document.createElement('option');
+  opt.value = f.id;
+  opt.textContent = f.roleTitle + ' · ' + f.level + ' · ' + f.fn;
+  quickPick.appendChild(opt);
+}
+quickPick.addEventListener('change', (e) => {
+  const f = FIXTURES.find(x => x.id === e.target.value);
+  if (f) {
+    document.getElementById('roleTitle').value = f.roleTitle;
+    document.getElementById('level').value = f.level;
+    document.getElementById('fn').value = f.fn;
+  }
+  // Reset to placeholder so the same role can be picked again.
+  e.target.value = '';
+});
 
 form.addEventListener('submit', (e) => {
   e.preventDefault();
