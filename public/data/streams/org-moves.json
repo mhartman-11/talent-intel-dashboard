@@ -1,6 +1,6 @@
 {
   "stream": "org-moves",
-  "generated_at": "2026-05-24T13:45:59.600278+00:00",
+  "generated_at": "2026-05-24T19:26:08.816750+00:00",
   "total": 170,
   "events": [
     {
@@ -256,6 +256,34 @@
       }
     },
     {
+      "id": "46048ec1af215865",
+      "ts": "2026-05-22T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1774170&type=&dateb=&owner=include&count=40",
+      "type": "exec_move",
+      "company": {
+        "name": "Powerfleet, Inc. ",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Powerfleet, Inc.  \u2014 SEC filing 0001493152-26-025053 (exec_move) on 2026-05-22",
+      "tags": [
+        "exec_move",
+        "sec_8k",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0001493152-26-025053",
+        "cik": "0001774170",
+        "file_date": "2026-05-22"
+      }
+    },
+    {
       "id": "034f1644d87766fd",
       "ts": "2026-05-22T00:00:00Z",
       "source": "sec_edgar",
@@ -340,62 +368,6 @@
       }
     },
     {
-      "id": "3329c88c2f76abf4",
-      "ts": "2026-05-22T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2135871&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "Advanced AI Applications, Inc. ",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Advanced AI Applications, Inc.  \u2014 SEC filing 0002135871-26-000001 (funding) on 2026-05-22",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0002135871-26-000001",
-        "cik": "0002135871",
-        "file_date": "2026-05-22"
-      }
-    },
-    {
-      "id": "814be4bb1b1e617e",
-      "ts": "2026-05-22T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2135619&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "SE RV Investors III LLC ",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "SE RV Investors III LLC  \u2014 SEC filing 0002080612-26-000028 (funding) on 2026-05-22",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0002080612-26-000028",
-        "cik": "0002135619",
-        "file_date": "2026-05-22"
-      }
-    },
-    {
       "id": "9672b225113e6fbd",
       "ts": "2026-05-22T00:00:00Z",
       "source": "sec_edgar",
@@ -448,6 +420,62 @@
       "extras": {
         "adsh": "0002136654-26-000001",
         "cik": "0002136654",
+        "file_date": "2026-05-22"
+      }
+    },
+    {
+      "id": "3329c88c2f76abf4",
+      "ts": "2026-05-22T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2135871&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "Advanced AI Applications, Inc. ",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Advanced AI Applications, Inc.  \u2014 SEC filing 0002135871-26-000001 (funding) on 2026-05-22",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002135871-26-000001",
+        "cik": "0002135871",
+        "file_date": "2026-05-22"
+      }
+    },
+    {
+      "id": "814be4bb1b1e617e",
+      "ts": "2026-05-22T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2135619&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "SE RV Investors III LLC ",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "SE RV Investors III LLC  \u2014 SEC filing 0002080612-26-000028 (funding) on 2026-05-22",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002080612-26-000028",
+        "cik": "0002135619",
         "file_date": "2026-05-22"
       }
     },
@@ -844,34 +872,6 @@
       }
     },
     {
-      "id": "bb116ed7fe010fb7",
-      "ts": "2026-05-22T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2021463&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "Salt Athletic, Inc. ",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Salt Athletic, Inc.  \u2014 SEC filing 0002021463-26-000003 (funding) on 2026-05-22",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0002021463-26-000003",
-        "cik": "0002021463",
-        "file_date": "2026-05-22"
-      }
-    },
-    {
       "id": "8723925afab4c8d3",
       "ts": "2026-05-22T00:00:00Z",
       "source": "sec_edgar",
@@ -896,6 +896,34 @@
       "extras": {
         "adsh": "0002136576-26-000001",
         "cik": "0002136576",
+        "file_date": "2026-05-22"
+      }
+    },
+    {
+      "id": "bb116ed7fe010fb7",
+      "ts": "2026-05-22T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2021463&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "Salt Athletic, Inc. ",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Salt Athletic, Inc.  \u2014 SEC filing 0002021463-26-000003 (funding) on 2026-05-22",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002021463-26-000003",
+        "cik": "0002021463",
         "file_date": "2026-05-22"
       }
     },
@@ -1964,62 +1992,6 @@
       }
     },
     {
-      "id": "a780b10bd3713884",
-      "ts": "2026-05-22T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2111865&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "OR-0202 Fund I, a series of Exitfund Venture, LP ",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "OR-0202 Fund I, a series of Exitfund Venture, LP  \u2014 SEC filing 0002111865-26-000001 (funding) on 2026-05-22",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0002111865-26-000001",
-        "cik": "0002111865",
-        "file_date": "2026-05-22"
-      }
-    },
-    {
-      "id": "8a0fee9547cf1179",
-      "ts": "2026-05-22T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2127084&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "MA-0214 Fund I, a series of Roll Up Vehicles, LP ",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "MA-0214 Fund I, a series of Roll Up Vehicles, LP  \u2014 SEC filing 0002127084-26-000001 (funding) on 2026-05-22",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0002127084-26-000001",
-        "cik": "0002127084",
-        "file_date": "2026-05-22"
-      }
-    },
-    {
       "id": "1d216de0728039f4",
       "ts": "2026-05-22T00:00:00Z",
       "source": "sec_edgar",
@@ -2160,13 +2132,13 @@
       }
     },
     {
-      "id": "41d2c56a5bf1704c",
+      "id": "a780b10bd3713884",
       "ts": "2026-05-22T00:00:00Z",
       "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2070406&type=&dateb=&owner=include&count=40",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2111865&type=&dateb=&owner=include&count=40",
       "type": "funding",
       "company": {
-        "name": "MIOF SP 4 LP ",
+        "name": "OR-0202 Fund I, a series of Exitfund Venture, LP ",
         "ticker": null,
         "industry": null,
         "sector": "Other",
@@ -2175,26 +2147,26 @@
       },
       "magnitude": null,
       "unit": null,
-      "raw_text": "MIOF SP 4 LP  \u2014 SEC filing 0002070406-26-000001 (funding) on 2026-05-22",
+      "raw_text": "OR-0202 Fund I, a series of Exitfund Venture, LP  \u2014 SEC filing 0002111865-26-000001 (funding) on 2026-05-22",
       "tags": [
         "funding",
         "form_d",
         "other"
       ],
       "extras": {
-        "adsh": "0002070406-26-000001",
-        "cik": "0002070406",
+        "adsh": "0002111865-26-000001",
+        "cik": "0002111865",
         "file_date": "2026-05-22"
       }
     },
     {
-      "id": "c30291eb42ff1ef1",
+      "id": "8a0fee9547cf1179",
       "ts": "2026-05-22T00:00:00Z",
       "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2133555&type=&dateb=&owner=include&count=40",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2127084&type=&dateb=&owner=include&count=40",
       "type": "funding",
       "company": {
-        "name": "Menlo AI Leaders II, L.P. ",
+        "name": "MA-0214 Fund I, a series of Roll Up Vehicles, LP ",
         "ticker": null,
         "industry": null,
         "sector": "Other",
@@ -2203,15 +2175,15 @@
       },
       "magnitude": null,
       "unit": null,
-      "raw_text": "Menlo AI Leaders II, L.P.  \u2014 SEC filing 0001104659-26-065651 (funding) on 2026-05-22",
+      "raw_text": "MA-0214 Fund I, a series of Roll Up Vehicles, LP  \u2014 SEC filing 0002127084-26-000001 (funding) on 2026-05-22",
       "tags": [
         "funding",
         "form_d",
         "other"
       ],
       "extras": {
-        "adsh": "0001104659-26-065651",
-        "cik": "0002133555",
+        "adsh": "0002127084-26-000001",
+        "cik": "0002127084",
         "file_date": "2026-05-22"
       }
     },
@@ -2324,6 +2296,62 @@
       "extras": {
         "adsh": "0002126642-26-000001",
         "cik": "0002126642",
+        "file_date": "2026-05-22"
+      }
+    },
+    {
+      "id": "c30291eb42ff1ef1",
+      "ts": "2026-05-22T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2133555&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "Menlo AI Leaders II, L.P. ",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Menlo AI Leaders II, L.P.  \u2014 SEC filing 0001104659-26-065651 (funding) on 2026-05-22",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0001104659-26-065651",
+        "cik": "0002133555",
+        "file_date": "2026-05-22"
+      }
+    },
+    {
+      "id": "41d2c56a5bf1704c",
+      "ts": "2026-05-22T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2070406&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "MIOF SP 4 LP ",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "MIOF SP 4 LP  \u2014 SEC filing 0002070406-26-000001 (funding) on 2026-05-22",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002070406-26-000001",
+        "cik": "0002070406",
         "file_date": "2026-05-22"
       }
     },
@@ -3390,34 +3418,6 @@
       }
     },
     {
-      "id": "f4e1fd12f490cb79",
-      "ts": "2026-05-19T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=37808&type=&dateb=&owner=include&count=40",
-      "type": "exec_move",
-      "company": {
-        "name": "FNB CORP/PA/ ",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "FNB CORP/PA/  \u2014 SEC filing 0000037808-26-000017 (exec_move) on 2026-05-19",
-      "tags": [
-        "exec_move",
-        "sec_8k",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0000037808-26-000017",
-        "cik": "0000037808",
-        "file_date": "2026-05-19"
-      }
-    },
-    {
       "id": "2ffa2ef24678741d",
       "ts": "2026-05-19T00:00:00Z",
       "source": "sec_edgar",
@@ -3442,6 +3442,34 @@
       "extras": {
         "adsh": "0001104659-26-063514",
         "cik": "0000933036",
+        "file_date": "2026-05-19"
+      }
+    },
+    {
+      "id": "f4e1fd12f490cb79",
+      "ts": "2026-05-19T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=37808&type=&dateb=&owner=include&count=40",
+      "type": "exec_move",
+      "company": {
+        "name": "FNB CORP/PA/ ",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "FNB CORP/PA/  \u2014 SEC filing 0000037808-26-000017 (exec_move) on 2026-05-19",
+      "tags": [
+        "exec_move",
+        "sec_8k",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0000037808-26-000017",
+        "cik": "0000037808",
         "file_date": "2026-05-19"
       }
     },
@@ -4053,34 +4081,6 @@
       "extras": {
         "adsh": "0001477932-26-003224",
         "cik": "0001437750",
-        "file_date": "2026-05-15"
-      }
-    },
-    {
-      "id": "a55813bdef5bd6d3",
-      "ts": "2026-05-15T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1438133&type=&dateb=&owner=include&count=40",
-      "type": "exec_move",
-      "company": {
-        "name": "TANDEM DIABETES CARE INC ",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "TANDEM DIABETES CARE INC  \u2014 SEC filing 0001438133-26-000052 (exec_move) on 2026-05-15",
-      "tags": [
-        "exec_move",
-        "sec_8k",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0001438133-26-000052",
-        "cik": "0001438133",
         "file_date": "2026-05-15"
       }
     },
