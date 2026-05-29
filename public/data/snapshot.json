@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-29T04:01:48.141132Z",
+  "generated_at": "2026-05-29T10:04:29.006231Z",
   "next_ingest_at": null,
-  "total_events": 641,
-  "events_7d": 198,
+  "total_events": 683,
+  "events_7d": 203,
   "sources": [
     {
       "source": "greenhouse",
@@ -10,9 +10,9 @@
       "url": "https://boards-api.greenhouse.io",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-05-29T03:53:54.063562Z",
-      "last_attempted": "2026-05-29T03:53:54.063562Z",
-      "record_count": 2558,
+      "last_ok": "2026-05-29T09:57:45.715142Z",
+      "last_attempted": "2026-05-29T09:57:45.715142Z",
+      "record_count": 2548,
       "ok": true,
       "errors": [
         "DoorDash (doordash): GET https://boards-api.greenhouse.io/v1/boards/doordash/jobs failed: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/doordash/jobs?content=true'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
@@ -31,8 +31,8 @@
       "url": "https://api.lever.co/v0/postings",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-05-29T03:54:19.087695Z",
-      "last_attempted": "2026-05-29T03:54:19.087695Z",
+      "last_ok": "2026-05-29T09:58:08.432824Z",
+      "last_attempted": "2026-05-29T09:58:08.432824Z",
       "record_count": 191,
       "ok": true,
       "errors": [
@@ -48,14 +48,13 @@
       "url": "https://api.ashbyhq.com/posting-api",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-05-29T03:54:31.609715Z",
-      "last_attempted": "2026-05-29T03:54:31.609715Z",
-      "record_count": 85,
+      "last_ok": "2026-05-29T09:58:21.244557Z",
+      "last_attempted": "2026-05-29T09:58:21.244557Z",
+      "record_count": 144,
       "ok": true,
       "errors": [
         "Linear (linear): GET https://api.ashbyhq.com/posting-api/job-board/linear failed: The read operation timed out",
-        "Replicate (replicate): GET https://api.ashbyhq.com/posting-api/job-board/replicate failed: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/replicate'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
-        "Perplexity AI (perplexity): GET https://api.ashbyhq.com/posting-api/job-board/perplexity failed: The read operation timed out"
+        "Replicate (replicate): GET https://api.ashbyhq.com/posting-api/job-board/replicate failed: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/replicate'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
       ]
     },
     {
@@ -64,8 +63,8 @@
       "url": "https://techcrunch.com/tag/layoffs/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-05-29T03:57:27.449098Z",
-      "last_attempted": "2026-05-29T03:57:27.449098Z",
+      "last_ok": "2026-05-29T09:59:45.653022Z",
+      "last_attempted": "2026-05-29T09:59:45.653022Z",
       "record_count": 12,
       "ok": true,
       "errors": []
@@ -77,7 +76,7 @@
       "tos_posture": "public_csv",
       "cadence_hours": 24,
       "last_ok": null,
-      "last_attempted": "2026-05-29T03:57:27.948210Z",
+      "last_attempted": "2026-05-29T09:59:45.980268Z",
       "record_count": 0,
       "ok": false,
       "errors": [
@@ -91,8 +90,8 @@
       "url": "https://techcrunch.com/category/venture/feed/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-05-29T03:57:35.213638Z",
-      "last_attempted": "2026-05-29T03:57:35.213638Z",
+      "last_ok": "2026-05-29T09:59:52.739942Z",
+      "last_attempted": "2026-05-29T09:59:52.739942Z",
       "record_count": 10,
       "ok": true,
       "errors": []
@@ -103,8 +102,8 @@
       "url": "https://efts.sec.gov/LATEST/search-index",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-05-29T03:57:35.352832Z",
-      "last_attempted": "2026-05-29T03:57:35.352832Z",
+      "last_ok": "2026-05-29T09:59:53.112770Z",
+      "last_attempted": "2026-05-29T09:59:53.112770Z",
       "record_count": 160,
       "ok": true,
       "errors": []
@@ -116,7 +115,7 @@
       "tos_posture": "public_csv",
       "cadence_hours": 24,
       "last_ok": null,
-      "last_attempted": "2026-05-29T03:57:36.325744Z",
+      "last_attempted": "2026-05-29T09:59:56.623859Z",
       "record_count": 0,
       "ok": false,
       "errors": [
@@ -129,8 +128,8 @@
       "url": "https://www.bls.gov/oes/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-29T03:57:40.156634Z",
-      "last_attempted": "2026-05-29T03:57:40.156634Z",
+      "last_ok": "2026-05-29T10:00:00.244400Z",
+      "last_attempted": "2026-05-29T10:00:00.244400Z",
       "record_count": 24,
       "ok": true,
       "errors": []
@@ -141,8 +140,8 @@
       "url": "https://www.bls.gov/ces/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-29T03:57:40.806303Z",
-      "last_attempted": "2026-05-29T03:57:40.806303Z",
+      "last_ok": "2026-05-29T10:00:00.782726Z",
+      "last_attempted": "2026-05-29T10:00:00.782726Z",
       "record_count": 48,
       "ok": true,
       "errors": []
@@ -153,8 +152,8 @@
       "url": "https://www.bls.gov/developers/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-29T03:57:41.240585Z",
-      "last_attempted": "2026-05-29T03:57:41.240585Z",
+      "last_ok": "2026-05-29T10:00:01.230603Z",
+      "last_attempted": "2026-05-29T10:00:01.230603Z",
       "record_count": 30,
       "ok": true,
       "errors": []
@@ -166,7 +165,7 @@
       "tos_posture": "public_api",
       "cadence_hours": 12,
       "last_ok": null,
-      "last_attempted": "2026-05-29T03:57:41.611868Z",
+      "last_attempted": "2026-05-29T10:00:01.476291Z",
       "record_count": 0,
       "ok": false,
       "errors": [
@@ -184,8 +183,8 @@
       "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-29T03:57:42.221090Z",
-      "last_attempted": "2026-05-29T03:57:42.221090Z",
+      "last_ok": "2026-05-29T10:00:01.700625Z",
+      "last_attempted": "2026-05-29T10:00:01.700625Z",
       "record_count": 34,
       "ok": true,
       "errors": []
@@ -196,28 +195,28 @@
       "url": "https://web.archive.org/cdx/search/cdx",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-05-29T03:57:47.144035Z",
-      "last_attempted": "2026-05-29T03:57:47.144035Z",
-      "record_count": 4,
+      "last_ok": "2026-05-29T10:00:03.379944Z",
+      "last_attempted": "2026-05-29T10:00:03.379944Z",
+      "record_count": 2,
       "ok": true,
       "errors": [
-        "Reddit: GET https://web.archive.org/cdx/search/cdx failed: The read operation timed out",
+        "Stripe: GET https://web.archive.org/cdx/search/cdx failed: The read operation timed out",
+        "Coinbase: GET https://web.archive.org/cdx/search/cdx failed: The read operation timed out",
+        "Robinhood: GET https://web.archive.org/cdx/search/cdx failed: The read operation timed out",
+        "Reddit: GET https://web.archive.org/cdx/search/cdx failed: timed out",
         "DoorDash: GET https://web.archive.org/cdx/search/cdx failed: The read operation timed out",
-        "Pinterest: GET https://web.archive.org/cdx/search/cdx failed: The read operation timed out",
-        "Discord: GET https://web.archive.org/cdx/search/cdx failed: The read operation timed out",
-        "GitLab: GET https://web.archive.org/cdx/search/cdx failed: The read operation timed out",
-        "HashiCorp: GET https://web.archive.org/cdx/search/cdx failed: timed out",
-        "Cloudflare: GET https://web.archive.org/cdx/search/cdx failed: timed out",
-        "Anthropic: GET https://web.archive.org/cdx/search/cdx failed: timed out",
-        "OpenAI: GET https://web.archive.org/cdx/search/cdx failed: timed out",
-        "Scale AI: GET https://web.archive.org/cdx/search/cdx failed: timed out"
+        "Instacart: GET https://web.archive.org/cdx/search/cdx failed: timed out",
+        "Pinterest: GET https://web.archive.org/cdx/search/cdx failed: timed out",
+        "Discord: GET https://web.archive.org/cdx/search/cdx failed: timed out",
+        "GitLab: GET https://web.archive.org/cdx/search/cdx failed: timed out",
+        "HashiCorp: GET https://web.archive.org/cdx/search/cdx failed: timed out"
       ]
     }
   ],
   "recent_signals": [
     {
       "id": "8690e6f22eecc697",
-      "ts": "2026-05-29T03:57:47.143949Z",
+      "ts": "2026-05-29T10:00:03.379873Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Spotify",
       "type": "macro",
@@ -246,7 +245,7 @@
     },
     {
       "id": "a96d3cff01ab9939",
-      "ts": "2026-05-29T03:57:47.021696Z",
+      "ts": "2026-05-29T10:00:03.335293Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Glossier",
       "type": "macro",
@@ -275,7 +274,7 @@
     },
     {
       "id": "e4f4363bb1df3876",
-      "ts": "2026-05-29T03:57:46.894519Z",
+      "ts": "2026-05-29T10:00:03.288562Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Allbirds",
       "type": "macro",
@@ -304,7 +303,7 @@
     },
     {
       "id": "cfc261fbcc544632",
-      "ts": "2026-05-29T03:57:46.765934Z",
+      "ts": "2026-05-29T10:00:03.242731Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Warby_Parker",
       "type": "macro",
@@ -333,7 +332,7 @@
     },
     {
       "id": "2c2c2e482023b48d",
-      "ts": "2026-05-29T03:57:46.643904Z",
+      "ts": "2026-05-29T10:00:03.195328Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Oscar_Health",
       "type": "macro",
@@ -362,7 +361,7 @@
     },
     {
       "id": "90f2ef1e9f185c67",
-      "ts": "2026-05-29T03:57:46.494476Z",
+      "ts": "2026-05-29T10:00:03.152721Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Hims_&_Hers",
       "type": "macro",
@@ -391,7 +390,7 @@
     },
     {
       "id": "df80d72514935573",
-      "ts": "2026-05-29T03:57:46.327281Z",
+      "ts": "2026-05-29T10:00:03.100956Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Cursor",
       "type": "macro",
@@ -420,7 +419,7 @@
     },
     {
       "id": "617e718f861ff819",
-      "ts": "2026-05-29T03:57:46.205270Z",
+      "ts": "2026-05-29T10:00:03.055337Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Perplexity_AI",
       "type": "macro",
@@ -449,7 +448,7 @@
     },
     {
       "id": "8ca230f919d74858",
-      "ts": "2026-05-29T03:57:46.051184Z",
+      "ts": "2026-05-29T10:00:03.011828Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Replicate",
       "type": "macro",
@@ -478,7 +477,7 @@
     },
     {
       "id": "53bd79bfbb30723b",
-      "ts": "2026-05-29T03:57:45.890526Z",
+      "ts": "2026-05-29T10:00:02.957170Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Vercel",
       "type": "macro",
@@ -507,7 +506,7 @@
     },
     {
       "id": "0b4103fd3d1fb087",
-      "ts": "2026-05-29T03:57:45.766934Z",
+      "ts": "2026-05-29T10:00:02.903026Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Linear",
       "type": "macro",
@@ -536,7 +535,7 @@
     },
     {
       "id": "947dbb0598a9062c",
-      "ts": "2026-05-29T03:57:45.528519Z",
+      "ts": "2026-05-29T10:00:02.854022Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Mercury",
       "type": "macro",
@@ -565,7 +564,7 @@
     },
     {
       "id": "7963175dc71410e2",
-      "ts": "2026-05-29T03:57:45.379092Z",
+      "ts": "2026-05-29T10:00:02.797906Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Ramp",
       "type": "macro",
@@ -594,7 +593,7 @@
     },
     {
       "id": "26b8edb2240403c9",
-      "ts": "2026-05-29T03:57:45.245369Z",
+      "ts": "2026-05-29T10:00:02.751051Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Plaid",
       "type": "macro",
@@ -623,7 +622,7 @@
     },
     {
       "id": "86883f056f5f6d3f",
-      "ts": "2026-05-29T03:57:45.116623Z",
+      "ts": "2026-05-29T10:00:02.699583Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Brex",
       "type": "macro",
@@ -652,7 +651,7 @@
     },
     {
       "id": "0acef0b453056ed1",
-      "ts": "2026-05-29T03:57:44.968551Z",
+      "ts": "2026-05-29T10:00:02.648626Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Databricks",
       "type": "macro",
@@ -681,7 +680,7 @@
     },
     {
       "id": "b06bae5e4f7cc6a3",
-      "ts": "2026-05-29T03:57:44.846300Z",
+      "ts": "2026-05-29T10:00:02.600676Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Snowflake",
       "type": "macro",
@@ -710,7 +709,7 @@
     },
     {
       "id": "55e162ddd291b2ed",
-      "ts": "2026-05-29T03:57:44.681616Z",
+      "ts": "2026-05-29T10:00:02.543291Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Figma",
       "type": "macro",
@@ -739,7 +738,7 @@
     },
     {
       "id": "8a1d0b68e26a8cd7",
-      "ts": "2026-05-29T03:57:44.551818Z",
+      "ts": "2026-05-29T10:00:02.503475Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Notion",
       "type": "macro",
@@ -768,7 +767,7 @@
     },
     {
       "id": "0f724c57d2fdb3c5",
-      "ts": "2026-05-29T03:57:44.427866Z",
+      "ts": "2026-05-29T10:00:02.446750Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Scale_AI",
       "type": "macro",
@@ -797,7 +796,7 @@
     },
     {
       "id": "d317a55611299b53",
-      "ts": "2026-05-29T03:57:44.301947Z",
+      "ts": "2026-05-29T10:00:02.403470Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/OpenAI",
       "type": "macro",
@@ -826,7 +825,7 @@
     },
     {
       "id": "940435eae984e12f",
-      "ts": "2026-05-29T03:57:44.151475Z",
+      "ts": "2026-05-29T10:00:02.356624Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Anthropic",
       "type": "macro",
@@ -855,7 +854,7 @@
     },
     {
       "id": "791b7d0ec7209c08",
-      "ts": "2026-05-29T03:57:43.999232Z",
+      "ts": "2026-05-29T10:00:02.308553Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Cloudflare",
       "type": "macro",
@@ -884,7 +883,7 @@
     },
     {
       "id": "fbd9fd3026e7a71b",
-      "ts": "2026-05-29T03:57:43.847943Z",
+      "ts": "2026-05-29T10:00:02.265440Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/HashiCorp",
       "type": "macro",
@@ -913,7 +912,7 @@
     },
     {
       "id": "4bddfa13810eb479",
-      "ts": "2026-05-29T03:57:43.704270Z",
+      "ts": "2026-05-29T10:00:02.220042Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/GitLab",
       "type": "macro",
@@ -942,7 +941,7 @@
     },
     {
       "id": "d17ad1c509a3aea9",
-      "ts": "2026-05-29T03:57:43.577311Z",
+      "ts": "2026-05-29T10:00:02.156633Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Discord",
       "type": "macro",
@@ -971,7 +970,7 @@
     },
     {
       "id": "40ba1e2c74607a8d",
-      "ts": "2026-05-29T03:57:43.453838Z",
+      "ts": "2026-05-29T10:00:02.111609Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Pinterest",
       "type": "macro",
@@ -1000,7 +999,7 @@
     },
     {
       "id": "725a16597c0d5926",
-      "ts": "2026-05-29T03:57:43.312714Z",
+      "ts": "2026-05-29T10:00:02.051282Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Instacart",
       "type": "macro",
@@ -1029,7 +1028,7 @@
     },
     {
       "id": "ac34744cb20107c6",
-      "ts": "2026-05-29T03:57:43.106296Z",
+      "ts": "2026-05-29T10:00:02.000849Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/DoorDash",
       "type": "macro",
@@ -1058,7 +1057,7 @@
     },
     {
       "id": "3f10faa135fdfae3",
-      "ts": "2026-05-29T03:57:42.961441Z",
+      "ts": "2026-05-29T10:00:01.958913Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Reddit",
       "type": "macro",
@@ -1087,7 +1086,7 @@
     },
     {
       "id": "af0a5668d68c86fc",
-      "ts": "2026-05-29T03:57:42.812905Z",
+      "ts": "2026-05-29T10:00:01.904590Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Robinhood",
       "type": "macro",
@@ -1116,7 +1115,7 @@
     },
     {
       "id": "822266a01fefb69a",
-      "ts": "2026-05-29T03:57:42.656762Z",
+      "ts": "2026-05-29T10:00:01.854260Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Coinbase",
       "type": "macro",
@@ -1145,7 +1144,7 @@
     },
     {
       "id": "9ca4209eeb5fed66",
-      "ts": "2026-05-29T03:57:42.526574Z",
+      "ts": "2026-05-29T10:00:01.813891Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Airbnb",
       "type": "macro",
@@ -1174,7 +1173,7 @@
     },
     {
       "id": "99808b8117fb4db9",
-      "ts": "2026-05-29T03:57:42.383927Z",
+      "ts": "2026-05-29T10:00:01.756486Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Stripe",
       "type": "macro",
@@ -1199,6 +1198,233 @@
         "avg_baseline": 67.5,
         "z_score": -0.31,
         "is_spike": false
+      }
+    },
+    {
+      "id": "c75d98b319778c4b",
+      "ts": "2026-05-29T05:03:51-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7956443",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Staff Site Reliability Engineer - Site Experience | Remote - United Kingdom",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "DevOps / SRE"
+      ],
+      "extras": {
+        "role": "Staff Site Reliability Engineer - Site Experience",
+        "location": "Remote - United Kingdom",
+        "function": "DevOps / SRE",
+        "soc": "15-1244",
+        "seniority": "staff"
+      }
+    },
+    {
+      "id": "4798ce6ee671944b",
+      "ts": "2026-05-29T05:02:34-04:00",
+      "source": "greenhouse",
+      "source_url": "https://stripe.com/jobs/search?gh_jid=7964956",
+      "type": "posting",
+      "company": {
+        "name": "Stripe",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Stripe | Full Stack Engineer, Growth | Singapore",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "Software Engineering"
+      ],
+      "extras": {
+        "role": "Full Stack Engineer, Growth",
+        "location": "Singapore",
+        "function": "Software Engineering",
+        "soc": "15-1252",
+        "seniority": "mid",
+        "stack": [
+          "go"
+        ]
+      }
+    },
+    {
+      "id": "6b64d3378d5b535e",
+      "ts": "2026-05-29T03:07:18-04:00",
+      "source": "greenhouse",
+      "source_url": "https://boards.greenhouse.io/robinhood/jobs/7943216?t=gh_src=&gh_jid=7943216",
+      "type": "posting",
+      "company": {
+        "name": "Robinhood",
+        "ticker": null,
+        "industry": null,
+        "sector": "Finance",
+        "hq_region": "CA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Robinhood | Assistant General Counsel, Employment | Menlo Park, CA; New York, NY; Washington, DC",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "finance",
+        "CA",
+        "Legal / Compliance"
+      ],
+      "extras": {
+        "role": "Assistant General Counsel, Employment",
+        "location": "Menlo Park, CA; New York, NY; Washington, DC",
+        "function": "Legal / Compliance",
+        "soc": "23-1011",
+        "seniority": "mid",
+        "remote": "onsite",
+        "stack": [
+          "spark"
+        ]
+      }
+    },
+    {
+      "id": "76d41241a77e1d8b",
+      "ts": "2026-05-29T02:24:08-04:00",
+      "source": "greenhouse",
+      "source_url": "https://boards.greenhouse.io/figma/jobs/6007221004?gh_jid=6007221004",
+      "type": "posting",
+      "company": {
+        "name": "Figma",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": "CA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Figma | Customer Marketing Manager | San Francisco, CA \u2022 New York, NY \u2022 United States",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "CA",
+        "Marketing"
+      ],
+      "extras": {
+        "role": "Customer Marketing Manager",
+        "location": "San Francisco, CA \u2022 New York, NY \u2022 United States",
+        "function": "Marketing",
+        "soc": "11-2011",
+        "seniority": "manager"
+      }
+    },
+    {
+      "id": "fb069e0a27e85bef",
+      "ts": "2026-05-29T02:06:39-04:00",
+      "source": "greenhouse",
+      "source_url": "http://www.hioscar.com/careers/7965098?gh_jid=7965098",
+      "type": "posting",
+      "company": {
+        "name": "Oscar Health",
+        "ticker": null,
+        "industry": null,
+        "sector": "Healthcare",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Oscar Health | Physician Assistant (Bilingual - Spanish) - Virtual Urgent Care | Remote",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "healthcare"
+      ],
+      "extras": {
+        "role": "Physician Assistant (Bilingual - Spanish) - Virtual Urgent Care",
+        "location": "Remote",
+        "seniority": "mid",
+        "remote": "remote"
+      }
+    },
+    {
+      "id": "adc6f8acb3a24ff8",
+      "ts": "2026-05-29T05:25:35.187000Z",
+      "source": "ashby",
+      "source_url": "https://jobs.ashbyhq.com/perplexity/ab448b33-0a0e-4acf-8b86-df61f38716ac",
+      "type": "posting",
+      "company": {
+        "name": "Perplexity AI",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Perplexity AI | Customer Success & Enterprise Support Lead, APAC | Tokyo | Customer Success & Support",
+      "tags": [
+        "hiring",
+        "ashby",
+        "technology",
+        "Customer Success"
+      ],
+      "extras": {
+        "role": "Customer Success & Enterprise Support Lead, APAC",
+        "location": "Tokyo",
+        "department": "Customer Success & Support",
+        "employment_type": "FullTime",
+        "function": "Customer Success",
+        "soc": "13-1161",
+        "seniority": "lead",
+        "remote": "remote"
+      }
+    },
+    {
+      "id": "1ddb33cdd85e991f",
+      "ts": "2026-05-29T00:05:53-04:00",
+      "source": "greenhouse",
+      "source_url": "https://boards.greenhouse.io/cloudflare/jobs/7412466?gh_jid=7412466",
+      "type": "posting",
+      "company": {
+        "name": "Cloudflare",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Cloudflare | Senior Territory Account Executive - West China | Hybrid",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "Sales"
+      ],
+      "extras": {
+        "role": "Senior Territory Account Executive - West China",
+        "location": "Hybrid",
+        "function": "Sales",
+        "soc": "41-3091",
+        "seniority": "senior"
       }
     },
     {
@@ -1360,38 +1586,6 @@
         "location": "Toronto, ON, CA",
         "function": "Customer Success",
         "soc": "13-1161",
-        "seniority": "manager"
-      }
-    },
-    {
-      "id": "76d41241a77e1d8b",
-      "ts": "2026-05-28T16:38:25-04:00",
-      "source": "greenhouse",
-      "source_url": "https://boards.greenhouse.io/figma/jobs/6007221004?gh_jid=6007221004",
-      "type": "posting",
-      "company": {
-        "name": "Figma",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": "CA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Figma | Customer Marketing Manager | San Francisco, CA \u2022 New York, NY \u2022 United States",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "CA",
-        "Marketing"
-      ],
-      "extras": {
-        "role": "Customer Marketing Manager",
-        "location": "San Francisco, CA \u2022 New York, NY \u2022 United States",
-        "function": "Marketing",
-        "soc": "11-2011",
         "seniority": "manager"
       }
     },
@@ -1574,6 +1768,38 @@
         "employment_type": "FullTime",
         "seniority": "mid",
         "remote": "remote"
+      }
+    },
+    {
+      "id": "6c4196572f8f4f2c",
+      "ts": "2026-05-28T12:22:20-04:00",
+      "source": "greenhouse",
+      "source_url": "https://boards.greenhouse.io/figma/jobs/5996614004?gh_jid=5996614004",
+      "type": "posting",
+      "company": {
+        "name": "Figma",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": "CA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Figma | Director, Enterprise Sales | San Francisco, CA \u2022 United States",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "CA",
+        "Engineering Management"
+      ],
+      "extras": {
+        "role": "Director, Enterprise Sales",
+        "location": "San Francisco, CA \u2022 United States",
+        "function": "Engineering Management",
+        "soc": "11-9041",
+        "seniority": "director"
       }
     },
     {
@@ -1869,90 +2095,6 @@
       }
     },
     {
-      "id": "85342900cf65d0a5",
-      "ts": "2026-05-28T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2131957&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "ASP",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "ASP \u2014 SEC filing 0002131957-26-000001 (funding) on 2026-05-28",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0002131957-26-000001",
-        "cik": "0002131957",
-        "file_date": "2026-05-28"
-      }
-    },
-    {
-      "id": "3b24bc8bc8b19b70",
-      "ts": "2026-05-28T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1727632&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "Citadel Equities Fund Ltd. ",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Citadel Equities Fund Ltd.  \u2014 SEC filing 0001727632-26-000001 (funding) on 2026-05-28",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0001727632-26-000001",
-        "cik": "0001727632",
-        "file_date": "2026-05-28"
-      }
-    },
-    {
-      "id": "7546ba967479b5a3",
-      "ts": "2026-05-28T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2137441&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "Triple Helix Offshore Fund Ltd. ",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Triple Helix Offshore Fund Ltd.  \u2014 SEC filing 0000919574-26-003739 (funding) on 2026-05-28",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0000919574-26-003739",
-        "cik": "0002137441",
-        "file_date": "2026-05-28"
-      }
-    },
-    {
       "id": "3d64be7326955631",
       "ts": "2026-05-28T00:00:00Z",
       "source": "sec_edgar",
@@ -2005,6 +2147,90 @@
       "extras": {
         "adsh": "0002136520-26-000001",
         "cik": "0002136520",
+        "file_date": "2026-05-28"
+      }
+    },
+    {
+      "id": "3b24bc8bc8b19b70",
+      "ts": "2026-05-28T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1727632&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "Citadel Equities Fund Ltd. ",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Citadel Equities Fund Ltd.  \u2014 SEC filing 0001727632-26-000001 (funding) on 2026-05-28",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0001727632-26-000001",
+        "cik": "0001727632",
+        "file_date": "2026-05-28"
+      }
+    },
+    {
+      "id": "85342900cf65d0a5",
+      "ts": "2026-05-28T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2131957&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "ASP",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "ASP \u2014 SEC filing 0002131957-26-000001 (funding) on 2026-05-28",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002131957-26-000001",
+        "cik": "0002131957",
+        "file_date": "2026-05-28"
+      }
+    },
+    {
+      "id": "7546ba967479b5a3",
+      "ts": "2026-05-28T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2137441&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "Triple Helix Offshore Fund Ltd. ",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Triple Helix Offshore Fund Ltd.  \u2014 SEC filing 0000919574-26-003739 (funding) on 2026-05-28",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0000919574-26-003739",
+        "cik": "0002137441",
         "file_date": "2026-05-28"
       }
     },
@@ -2093,62 +2319,6 @@
       }
     },
     {
-      "id": "f6021a0cc15b5905",
-      "ts": "2026-05-28T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2134807&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "Mariner Gardiners Bay Fund, LLC ",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Mariner Gardiners Bay Fund, LLC  \u2014 SEC filing 0002134807-26-000001 (funding) on 2026-05-28",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0002134807-26-000001",
-        "cik": "0002134807",
-        "file_date": "2026-05-28"
-      }
-    },
-    {
-      "id": "a2915a4d4fe63613",
-      "ts": "2026-05-28T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1771639&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "BioPharma Credit Investments V LP ",
-        "ticker": null,
-        "industry": null,
-        "sector": "Finance",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "BioPharma Credit Investments V LP  \u2014 SEC filing 0001315863-26-000443 (funding) on 2026-05-28",
-      "tags": [
-        "funding",
-        "form_d",
-        "finance"
-      ],
-      "extras": {
-        "adsh": "0001315863-26-000443",
-        "cik": "0001771639",
-        "file_date": "2026-05-28"
-      }
-    },
-    {
       "id": "aca96d444af44edc",
       "ts": "2026-05-28T00:00:00Z",
       "source": "sec_edgar",
@@ -2201,6 +2371,62 @@
       "extras": {
         "adsh": "0001962094-26-000002",
         "cik": "0001962094",
+        "file_date": "2026-05-28"
+      }
+    },
+    {
+      "id": "f6021a0cc15b5905",
+      "ts": "2026-05-28T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2134807&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "Mariner Gardiners Bay Fund, LLC ",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Mariner Gardiners Bay Fund, LLC  \u2014 SEC filing 0002134807-26-000001 (funding) on 2026-05-28",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002134807-26-000001",
+        "cik": "0002134807",
+        "file_date": "2026-05-28"
+      }
+    },
+    {
+      "id": "a2915a4d4fe63613",
+      "ts": "2026-05-28T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1771639&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "BioPharma Credit Investments V LP ",
+        "ticker": null,
+        "industry": null,
+        "sector": "Finance",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "BioPharma Credit Investments V LP  \u2014 SEC filing 0001315863-26-000443 (funding) on 2026-05-28",
+      "tags": [
+        "funding",
+        "form_d",
+        "finance"
+      ],
+      "extras": {
+        "adsh": "0001315863-26-000443",
+        "cik": "0001771639",
         "file_date": "2026-05-28"
       }
     },
@@ -2429,6 +2655,34 @@
       }
     },
     {
+      "id": "f6504d9d23e1d1ce",
+      "ts": "2026-05-28T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2129983&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "MP Frontier Venture Fund Co-Invest 5 LP ",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "MP Frontier Venture Fund Co-Invest 5 LP  \u2014 SEC filing 0002129983-26-000001 (funding) on 2026-05-28",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002129983-26-000001",
+        "cik": "0002129983",
+        "file_date": "2026-05-28"
+      }
+    },
+    {
       "id": "44df935005656827",
       "ts": "2026-05-28T00:00:00Z",
       "source": "sec_edgar",
@@ -2481,34 +2735,6 @@
       "extras": {
         "adsh": "0002131589-26-000001",
         "cik": "0002131589",
-        "file_date": "2026-05-28"
-      }
-    },
-    {
-      "id": "f6504d9d23e1d1ce",
-      "ts": "2026-05-28T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2129983&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "MP Frontier Venture Fund Co-Invest 5 LP ",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "MP Frontier Venture Fund Co-Invest 5 LP  \u2014 SEC filing 0002129983-26-000001 (funding) on 2026-05-28",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0002129983-26-000001",
-        "cik": "0002129983",
         "file_date": "2026-05-28"
       }
     },
@@ -2597,34 +2823,6 @@
       }
     },
     {
-      "id": "ecf1be5579295874",
-      "ts": "2026-05-28T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2135051&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "KittyHawk Heavy Hedy SPV LLC ",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "KittyHawk Heavy Hedy SPV LLC  \u2014 SEC filing 0002135051-26-000001 (funding) on 2026-05-28",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0002135051-26-000001",
-        "cik": "0002135051",
-        "file_date": "2026-05-28"
-      }
-    },
-    {
       "id": "3a3ad2773d411c3e",
       "ts": "2026-05-28T00:00:00Z",
       "source": "sec_edgar",
@@ -2677,6 +2875,34 @@
       "extras": {
         "adsh": "0001947970-26-000001",
         "cik": "0001947970",
+        "file_date": "2026-05-28"
+      }
+    },
+    {
+      "id": "ecf1be5579295874",
+      "ts": "2026-05-28T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2135051&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "KittyHawk Heavy Hedy SPV LLC ",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "KittyHawk Heavy Hedy SPV LLC  \u2014 SEC filing 0002135051-26-000001 (funding) on 2026-05-28",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002135051-26-000001",
+        "cik": "0002135051",
         "file_date": "2026-05-28"
       }
     },
@@ -2903,206 +3129,10 @@
         "cik": "0002133381",
         "file_date": "2026-05-28"
       }
-    },
-    {
-      "id": "b5aa83b70c17a454",
-      "ts": "2026-05-28T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1456739&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "CITADEL TACTICAL TRADING LLC ",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "CITADEL TACTICAL TRADING LLC  \u2014 SEC filing 0001456739-26-000001 (funding) on 2026-05-28",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0001456739-26-000001",
-        "cik": "0001456739",
-        "file_date": "2026-05-28"
-      }
-    },
-    {
-      "id": "54d9e8846b5067e1",
-      "ts": "2026-05-28T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2134510&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "TPG Partners X",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "TPG Partners X \u2014 SEC filing 0002134510-26-000001 (funding) on 2026-05-28",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0002134510-26-000001",
-        "cik": "0002134510",
-        "file_date": "2026-05-28"
-      }
-    },
-    {
-      "id": "0af361b6112ecfbb",
-      "ts": "2026-05-28T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1199937&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "Citadel Kensington Global Strategies Fund Ltd. ",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Citadel Kensington Global Strategies Fund Ltd.  \u2014 SEC filing 0001199937-26-000001 (funding) on 2026-05-28",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0001199937-26-000001",
-        "cik": "0001199937",
-        "file_date": "2026-05-28"
-      }
-    },
-    {
-      "id": "dc8e76165e0c59a0",
-      "ts": "2026-05-28T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2074200&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "Truestone LP ",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Truestone LP  \u2014 SEC filing 0002074200-26-000002 (funding) on 2026-05-28",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0002074200-26-000002",
-        "cik": "0002074200",
-        "file_date": "2026-05-28"
-      }
-    },
-    {
-      "id": "33a202ca66a37d56",
-      "ts": "2026-05-28T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2137185&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "GSBackers Corgi Fund III a Series of CGF2021 LLC ",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "GSBackers Corgi Fund III a Series of CGF2021 LLC  \u2014 SEC filing 0002137185-26-000001 (funding) on 2026-05-28",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0002137185-26-000001",
-        "cik": "0002137185",
-        "file_date": "2026-05-28"
-      }
-    },
-    {
-      "id": "7c4648f7d5411176",
-      "ts": "2026-05-28T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2137625&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "Astro Investment XVIII a Series of Astro Funds LLC ",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Astro Investment XVIII a Series of Astro Funds LLC  \u2014 SEC filing 0002137625-26-000001 (funding) on 2026-05-28",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0002137625-26-000001",
-        "cik": "0002137625",
-        "file_date": "2026-05-28"
-      }
-    },
-    {
-      "id": "30b3b2ca3975a140",
-      "ts": "2026-05-28T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2070047&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "Neuberger Berman CLO Evergreen Fund",
-        "ticker": null,
-        "industry": null,
-        "sector": "Manufacturing",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Neuberger Berman CLO Evergreen Fund \u2014 SEC filing 0000905148-26-002729 (funding) on 2026-05-28",
-      "tags": [
-        "funding",
-        "form_d",
-        "manufacturing"
-      ],
-      "extras": {
-        "adsh": "0000905148-26-002729",
-        "cik": "0002070047",
-        "file_date": "2026-05-28"
-      }
     }
   ],
   "sector_matrix": {
-    "generated_at": "2026-05-29T04:01:48.141132Z",
+    "generated_at": "2026-05-29T10:04:29.006231Z",
     "cells": [
       {
         "sector": "Technology",
@@ -3116,11 +3146,11 @@
       {
         "sector": "Technology",
         "signal_type": "posting",
-        "count_7d": 44,
-        "count_30d": 170,
+        "count_7d": 48,
+        "count_30d": 180,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 0.69
+        "z_score": 0.93
       },
       {
         "sector": "Technology",
@@ -3206,11 +3236,11 @@
       {
         "sector": "Healthcare",
         "signal_type": "posting",
-        "count_7d": 4,
-        "count_30d": 21,
+        "count_7d": 5,
+        "count_30d": 22,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": -0.41
+        "z_score": -0.06
       },
       {
         "sector": "Healthcare",
