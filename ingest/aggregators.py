@@ -22,7 +22,7 @@ SECTORS = [
     "Manufacturing", "Retail", "Media",
 ]
 
-SIGNAL_TYPES = ["layoff", "posting", "exec_move", "funding", "macro"]
+SIGNAL_TYPES = ["layoff", "posting", "exec_move", "funding", "attention"]
 
 
 def _in_window(ts: datetime, since: datetime) -> bool:

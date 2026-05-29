@@ -10,20 +10,21 @@ from datetime import datetime, timezone
 import httpx
 
 from ..schema import SourceMeta, SourceResult
-from ..normalizers import normalize_fred_observation
+from ..normalizers import normalize_bls_ces_wage
 
 BLS_API = "https://api.bls.gov/publicAPI/v1/timeseries/data/"
 
-# Average Hourly Earnings ($) by supersector — BLS CES series
+# Average Hourly Earnings by supersector — BLS CES series -> clean sector label.
+# Label is what renders in the comp stream (one row per supersector per month).
 COMP_SERIES: dict[str, str] = {
-    "CES5000000003": "Avg Hourly Earnings — Information ($)",
-    "CES5500000003": "Avg Hourly Earnings — Financial Activities ($)",
-    "CES6000000003": "Avg Hourly Earnings — Professional & Business Services ($)",
-    "CES6500000003": "Avg Hourly Earnings — Education & Health Services ($)",
-    "CES3000000003": "Avg Hourly Earnings — Manufacturing ($)",
-    "CES4000000003": "Avg Hourly Earnings — Trade, Transport & Utilities ($)",
-    "CES7000000003": "Avg Hourly Earnings — Leisure & Hospitality ($)",
-    "CES0500000003": "Avg Hourly Earnings — All Private ($)",
+    "CES5000000003": "Information",
+    "CES5500000003": "Financial Activities",
+    "CES6000000003": "Professional & Business Services",
+    "CES6500000003": "Education & Health Services",
+    "CES3000000003": "Manufacturing",
+    "CES4000000003": "Trade, Transport & Utilities",
+    "CES7000000003": "Leisure & Hospitality",
+    "CES0500000003": "All Private (US avg)",
 }
 
 SOURCE_META = SourceMeta(
@@ -62,7 +63,7 @@ def fetch(dry_run: bool = False) -> SourceResult:
         else:
             for series in data.get("Results", {}).get("series", []):
                 series_id = series.get("seriesID", "")
-                series_name = COMP_SERIES.get(series_id, series_id)
+                sector_label = COMP_SERIES.get(series_id, series_id)
 
                 if dry_run:
                     print(f"[comp] dry-run {series_id}: {len(series.get('data', []))} obs")
@@ -74,11 +75,10 @@ def fetch(dry_run: bool = False) -> SourceResult:
                     date_str = f"{year}-{month}-01"
                     value = obs.get("value", ".")
 
-                    evt = normalize_fred_observation(
+                    evt = normalize_bls_ces_wage(
                         series_id,
-                        series_name,
+                        sector_label,
                         {"date": date_str, "value": value},
-                        event_type="comp",
                     )
                     if evt:
                         records.append(evt)

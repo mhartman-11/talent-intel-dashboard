@@ -22,7 +22,8 @@ export type EventType =
   | "funding"
   | "m_and_a"
   | "comp"
-  | "macro";
+  | "macro"
+  | "attention";
 
 export interface Company {
   name: string;

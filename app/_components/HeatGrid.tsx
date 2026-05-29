@@ -11,17 +11,25 @@ interface HeatGridProps {
   onFilter?: (sector: string, signal: string) => void;
 }
 
-function zToIntensity(z: number | undefined | null): number {
-  if (z == null) return 0;
-  // Clamp Z-score to [-2, 3] then normalize 0–1
+// Minimum visible tint for a cell that HAS events but no Z-score baseline
+// (z is only computed when 30-day count >= 3). Without this floor, sparse
+// signals like exec moves and funding render fully transparent — i.e. invisible.
+const PRESENCE_FLOOR = 0.4;
+const MAX_INTENSITY = 0.92;
+
+function cellIntensity(z: number | undefined | null, count7d: number): number {
+  if (count7d <= 0) return 0;
+  if (z == null) return PRESENCE_FLOOR; // present, but no baseline to score against
+  // Clamp Z-score to [-2, 3] then normalize into [PRESENCE_FLOOR, MAX_INTENSITY]
   const clamped = Math.max(-2, Math.min(3, z));
-  return (clamped + 2) / 5;
+  const norm = (clamped + 2) / 5;
+  return PRESENCE_FLOOR + norm * (MAX_INTENSITY - PRESENCE_FLOOR);
 }
 
-function zToColor(z: number | undefined | null, signalType: string): string {
+function cellColor(z: number | undefined | null, count7d: number, signalType: string): string {
   const base = EVENT_COLOR[signalType] ?? "#81ecff";
-  const intensity = zToIntensity(z);
-  // Parse hex → rgba with opacity driven by intensity
+  const intensity = cellIntensity(z, count7d);
+  // hex base + alpha byte driven by intensity
   return `${base}${Math.round(intensity * 255).toString(16).padStart(2, "0")}`;
 }
 
@@ -85,7 +93,7 @@ export function HeatGrid({ matrix, onFilter }: HeatGridProps) {
                     className="heat-cell relative rounded-xl h-10 flex items-center justify-center focus-visible:ring-1"
                     style={{
                       backgroundColor: count7d > 0
-                        ? zToColor(z, sig)
+                        ? cellColor(z, count7d, sig)
                         : "rgba(255,255,255,0.03)",
                       boxShadow: isHovered && count7d > 0
                         ? `0 0 20px 4px ${EVENT_COLOR[sig]}30`

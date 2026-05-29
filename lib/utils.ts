@@ -10,6 +10,8 @@ export function formatMagnitude(val: number, unit?: string): string {
     if (val >= 1e6) return `$${(val / 1e6).toFixed(1)}M`;
     return `$${val.toLocaleString()}`;
   }
+  if (unit === "USD/hr") return `$${val.toFixed(2)}/hr`;
+  if (unit === "pp") return `${val.toFixed(1)}%`;
   if (val >= 1_000_000) return `${(val / 1_000_000).toFixed(1)}M`;
   if (val >= 1000) return `${(val / 1000).toFixed(1)}K`;
   return val.toLocaleString();

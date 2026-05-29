@@ -7,14 +7,13 @@ export default function CompPage() {
   return (
     <StreamPage
       title="Compensation"
-      overline="BLS OEWS · H-1B LCA Disclosures"
+      overline="BLS CES · Avg Hourly Earnings"
       color={COLORS.orange}
       stream={stream}
       sources={[
-        "BLS Occupational Employment & Wage Statistics (OEWS API)",
-        "DOL H-1B LCA Disclosure Data (public bulk CSV)",
+        "BLS Current Employment Statistics — Average Hourly Earnings (public API)",
       ]}
-      description="Wage data from the Bureau of Labor Statistics Occupational Employment Statistics program and Department of Labor H-1B Labor Condition Application disclosures. Both are federally mandated public records."
+      description="Average hourly earnings by industry supersector from the Bureau of Labor Statistics Current Employment Statistics program — one labeled row per sector per month, in dollars per hour. A federally mandated public record, updated monthly."
     />
   );
 }
