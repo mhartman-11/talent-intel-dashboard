@@ -46,6 +46,7 @@ export const EVENT_COLOR: Record<string, string> = {
   m_and_a: COLORS.violet,
   comp: COLORS.orange,
   macro: COLORS.cyanDim,
+  attention: COLORS.violetDim,
 };
 
 export const EVENT_COLOR_GLOW: Record<string, string> = {
@@ -66,6 +67,7 @@ export const EVENT_LABEL: Record<string, string> = {
   m_and_a: "M&A",
   comp: "Comp",
   macro: "Macro",
+  attention: "Attention",
 };
 
 export const SECTOR_ORDER = [
@@ -83,5 +85,5 @@ export const SIGNAL_ORDER = [
   "posting",
   "exec_move",
   "funding",
-  "macro",
+  "attention",
 ] as const;

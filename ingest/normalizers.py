@@ -422,3 +422,45 @@ def normalize_fred_observation(
         raw_text=f"{series_name}: {value}",
         tags=[event_type, "fred", series_id.lower()],
     )
+
+
+def normalize_bls_ces_wage(
+    series_id: str,
+    sector_label: str,
+    obs: dict,
+) -> Optional[Event]:
+    """
+    BLS CES Average Hourly Earnings observation -> comp Event.
+
+    Distinct from FRED: source is "comp" (BLS CES), unit is "USD/hr" (a dollar
+    wage, NOT percentage points), source_url points at BLS, and the supersector
+    name is carried in company.name so the comp stream reads as labeled rows
+    instead of anonymous numbers.
+    """
+    value_raw = obs.get("value", ".")
+    if value_raw in (".", "", None):
+        return None
+    try:
+        value = round(float(value_raw), 2)
+    except (ValueError, TypeError):
+        return None
+
+    date_str = obs.get("date", "")
+    try:
+        ts = datetime.strptime(date_str, "%Y-%m-%d").replace(tzinfo=timezone.utc)
+    except ValueError:
+        ts = datetime.now(timezone.utc)
+
+    month_label = ts.strftime("%b %Y")
+    return Event(
+        id=make_id("comp", f"{series_id}:{date_str}"),
+        ts=ts,
+        source="comp",
+        source_url=f"https://data.bls.gov/timeseries/{series_id}",
+        type="comp",  # type: ignore[arg-type]
+        company=Company(name=sector_label),
+        magnitude=value,
+        unit="USD/hr",
+        raw_text=f"{sector_label}: ${value:,.2f}/hr avg earnings ({month_label})",
+        tags=["comp", "bls_ces", series_id.lower()],
+    )

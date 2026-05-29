@@ -32,6 +32,7 @@ EVENT_TYPES = Literal[
     "m_and_a",
     "comp",
     "macro",
+    "attention",
 ]
 
 
@@ -50,7 +51,7 @@ class Company(BaseModel):
 class Event(BaseModel):
     id: str                          # sha256(source + native_id)[:16]
     ts: datetime
-    source: str                      # e.g. "layoffs_fyi", "hn_whoishiring"
+    source: str                      # e.g. "layoffs_fyi", "greenhouse", "sec_edgar"
     source_url: str
     type: EVENT_TYPES
     company: Optional[Company] = None

@@ -2,8 +2,8 @@
 Wikipedia pageviews — company-attention signal.
 
 For each tracked company, pull last 30 days of daily pageviews from
-Wikimedia REST. Spike vs 30-day baseline becomes a 'macro' event tagged
-'attention_spike'.
+Wikimedia REST. Spike vs 30-day baseline becomes an 'attention' event,
+the per-sector attention signal in the heat grid.
 
 Endpoint: https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/
                  en.wikipedia/all-access/all-agents/{article}/daily/{start}/{end}
@@ -77,7 +77,7 @@ def fetch(dry_run: bool = False) -> SourceResult:
                 ts=datetime.now(timezone.utc),
                 source="wikipedia_pv",
                 source_url=f"https://en.wikipedia.org/wiki/{article}",
-                type="macro",
+                type="attention",
                 company=Company(name=name, sector=sector),
                 magnitude=float(round(avg_recent, 1)),
                 unit="pageviews/day",
