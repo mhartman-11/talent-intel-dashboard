@@ -1,32 +1,32 @@
 {
   "stream": "macro",
-  "generated_at": "2026-05-30T14:24:00.547000+00:00",
-  "total": 8,
+  "generated_at": "2026-05-30T14:45:58.222114+00:00",
+  "total": 6,
   "events": [
     {
-      "id": "2e9c97137e971916",
-      "ts": "2026-05-30T14:19:57.702146Z",
+      "id": "2e43abbaccb82d3d",
+      "ts": "2026-05-30T14:42:26.758465Z",
       "source": "wayback",
-      "source_url": "https://web.archive.org/web/*/robinhood.com/careers",
+      "source_url": "https://web.archive.org/web/*/instacart.com/careers",
       "type": "macro",
       "company": {
-        "name": "Robinhood",
+        "name": "Instacart",
         "ticker": null,
         "industry": null,
-        "sector": "Finance",
+        "sector": "Technology",
         "hq_region": null,
         "size_band": "unknown"
       },
       "magnitude": 1.0,
       "unit": "snapshots/90d",
-      "raw_text": "Robinhood careers page: 1 archived snapshots in 90 days",
+      "raw_text": "Instacart careers page: 1 archived snapshots in 90 days",
       "tags": [
         "careers_activity",
         "wayback",
-        "finance"
+        "technology"
       ],
       "extras": {
-        "careers_url": "robinhood.com/careers",
+        "careers_url": "instacart.com/careers",
         "snapshots_90d": 1
       }
     },
@@ -48,104 +48,70 @@
       "extras": {}
     },
     {
-      "id": "7890c66204dbe2c2",
+      "id": "addb71d67338a4c3",
+      "ts": "2026-04-01T00:00:00Z",
+      "source": "fred",
+      "source_url": "https://fred.stlouisfed.org/series/CES0500000003",
+      "type": "macro",
+      "company": null,
+      "magnitude": 37.41,
+      "unit": "pp",
+      "raw_text": "Private Sector Avg Hourly Earnings ($): 37.41",
+      "tags": [
+        "macro",
+        "fred",
+        "ces0500000003"
+      ],
+      "extras": {}
+    },
+    {
+      "id": "7309755f75d5820e",
       "ts": "2026-03-01T00:00:00Z",
-      "source": "fred",
-      "source_url": "https://fred.stlouisfed.org/series/LNS14000000",
-      "type": "macro",
-      "company": null,
-      "magnitude": 4.3,
-      "unit": "pp",
-      "raw_text": "US Unemployment Rate (%): 4.3",
-      "tags": [
-        "macro",
-        "fred",
-        "lns14000000"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "7b4cc8a9c6e19d71",
-      "ts": "2026-02-01T00:00:00Z",
-      "source": "fred",
-      "source_url": "https://fred.stlouisfed.org/series/LNS14000000",
-      "type": "macro",
-      "company": null,
-      "magnitude": 4.4,
-      "unit": "pp",
-      "raw_text": "US Unemployment Rate (%): 4.4",
-      "tags": [
-        "macro",
-        "fred",
-        "lns14000000"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "cdb9cbf9227d33e2",
-      "ts": "2026-01-01T00:00:00Z",
-      "source": "fred",
-      "source_url": "https://fred.stlouisfed.org/series/LNS14000000",
-      "type": "macro",
-      "company": null,
-      "magnitude": 4.3,
-      "unit": "pp",
-      "raw_text": "US Unemployment Rate (%): 4.3",
-      "tags": [
-        "macro",
-        "fred",
-        "lns14000000"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "8abc8b5b2bf062c6",
-      "ts": "2025-12-01T00:00:00Z",
-      "source": "fred",
-      "source_url": "https://fred.stlouisfed.org/series/LNS14000000",
-      "type": "macro",
-      "company": null,
-      "magnitude": 4.4,
-      "unit": "pp",
-      "raw_text": "US Unemployment Rate (%): 4.4",
-      "tags": [
-        "macro",
-        "fred",
-        "lns14000000"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "774885d94d02e2ac",
-      "ts": "2025-11-01T00:00:00Z",
-      "source": "fred",
-      "source_url": "https://fred.stlouisfed.org/series/LNS14000000",
-      "type": "macro",
-      "company": null,
-      "magnitude": 4.5,
-      "unit": "pp",
-      "raw_text": "US Unemployment Rate (%): 4.5",
-      "tags": [
-        "macro",
-        "fred",
-        "lns14000000"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "4578971b63d23345",
-      "ts": "2025-10-01T00:00:00Z",
       "source": "fred",
       "source_url": "https://fred.stlouisfed.org/series/JTS000000000000000JOR",
       "type": "macro",
       "company": null,
-      "magnitude": 4.3,
+      "magnitude": 4.1,
       "unit": "pp",
-      "raw_text": "JOLTS: Job Openings Rate (%): 4.3",
+      "raw_text": "JOLTS: Job Openings Rate (%): 4.1",
       "tags": [
         "macro",
         "fred",
         "jts000000000000000jor"
+      ],
+      "extras": {}
+    },
+    {
+      "id": "dccba77a40a42869",
+      "ts": "2026-03-01T00:00:00Z",
+      "source": "fred",
+      "source_url": "https://fred.stlouisfed.org/series/JTS000000000000000QUR",
+      "type": "macro",
+      "company": null,
+      "magnitude": 2.0,
+      "unit": "pp",
+      "raw_text": "JOLTS: Quits Rate (%): 2.0",
+      "tags": [
+        "macro",
+        "fred",
+        "jts000000000000000qur"
+      ],
+      "extras": {}
+    },
+    {
+      "id": "138c8c1885e74acb",
+      "ts": "2026-03-01T00:00:00Z",
+      "source": "fred",
+      "source_url": "https://fred.stlouisfed.org/series/JTS000000000000000LDR",
+      "type": "macro",
+      "company": null,
+      "magnitude": 1.2,
+      "unit": "pp",
+      "raw_text": "JOLTS: Layoffs & Discharges Rate (%): 1.2",
+      "tags": [
+        "macro",
+        "fred",
+        "jts000000000000000ldr"
       ],
       "extras": {}
     }
