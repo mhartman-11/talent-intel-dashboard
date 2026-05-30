@@ -23,6 +23,7 @@ Built as a portfolio piece by [Mike Hartman](https://hartmanai.com) — Senior M
 | Hiring | Ashby public Job Board API | Public API | 6h | none |
 | Hiring (visa) | [USCIS H-1B Employer Data Hub](https://www.uscis.gov/tools/reports-and-studies/h-1b-employer-data-hub) | Public CSV | 24h | none |
 | Layoffs | TechCrunch layoff RSS feeds | Public RSS | 6h | none |
+| Layoffs (cross-sector) | Google News RSS layoff search (7 sector queries, `when:21d`) | Public RSS | 6h | none |
 | Layoffs | State WARN portals (config-driven, see `ingest/state_warn_endpoints.json`) | Public CSV/XLSX/HTML | 24h | none |
 | Org Moves | SEC EDGAR full-text search — 8-K Item 5.02 | Public API | 6h | UA email |
 | Funding | SEC EDGAR full-text search — Form D | Public API | 6h | UA email |

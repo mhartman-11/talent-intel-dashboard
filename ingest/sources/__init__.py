@@ -7,6 +7,7 @@ from .fred import fetch as fetch_fred, SOURCE_META as FRED_META
 from .greenhouse import fetch as fetch_greenhouse, SOURCE_META as GREENHOUSE_META
 from .layoffs_fyi import fetch as fetch_layoffs_fyi, SOURCE_META as LAYOFFS_FYI_META
 from .lever import fetch as fetch_lever, SOURCE_META as LEVER_META
+from .news_layoffs import fetch as fetch_news_layoffs, SOURCE_META as NEWS_LAYOFFS_META
 from .org_moves import fetch as fetch_org_moves, SOURCE_META as ORG_MOVES_META
 from .reddit import fetch as fetch_reddit, SOURCE_META as REDDIT_META
 from .sec_edgar import fetch as fetch_sec_edgar, SOURCE_META as SEC_EDGAR_META
@@ -21,6 +22,7 @@ ALL_SOURCES = [
     ("ashby", fetch_ashby, ASHBY_META),
     # Layoff signals
     ("layoffs_fyi", fetch_layoffs_fyi, LAYOFFS_FYI_META),
+    ("news_layoffs", fetch_news_layoffs, NEWS_LAYOFFS_META),
     ("state_warn", fetch_state_warn, STATE_WARN_META),
     # Org & funding moves
     ("org_moves", fetch_org_moves, ORG_MOVES_META),

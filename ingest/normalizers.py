@@ -99,30 +99,72 @@ _COMPANY_SECTOR: dict[str, str] = {
     "amd": "Technology", "ibm": "Technology", "dell": "Technology",
     "hp": "Technology", "vmware": "Technology", "twilio": "Technology",
     "snowflake": "Technology", "databricks": "Technology",
+    "intuit": "Technology", "wix": "Technology", "sap": "Technology",
+    "sony": "Technology", "samsung": "Technology", "qualcomm": "Technology",
+    "cognizant": "Technology", "infosys": "Technology", "wipro": "Technology",
+    "accenture": "Technology", "tcs": "Technology", "atlassian": "Technology",
+    "zoom": "Technology", "dropbox": "Technology", "okta": "Technology",
+    "workday": "Technology", "servicenow": "Technology", "adobe": "Technology",
+    "cloudflare": "Technology", "unity": "Technology", "github": "Technology",
+    "lyft": "Technology", "doordash": "Technology", "instacart": "Technology",
+    "ericsson": "Technology", "nokia": "Technology", "siemens": "Technology",
+    "linkedin": "Technology", "snap": "Technology", "pinterest": "Technology",
+    "roblox": "Technology", "twitter": "Technology", "x corp": "Technology",
     "jpmorgan": "Finance", "goldman sachs": "Finance", "morgan stanley": "Finance",
     "bank of america": "Finance", "wells fargo": "Finance", "citi": "Finance",
     "citigroup": "Finance", "blackrock": "Finance", "vanguard": "Finance",
     "visa": "Finance", "mastercard": "Finance", "paypal": "Finance",
     "square": "Finance", "block": "Finance", "coinbase": "Finance",
+    "standard chartered": "Finance", "stanchart": "Finance", "hsbc": "Finance",
+    "barclays": "Finance", "deutsche bank": "Finance", "ubs": "Finance",
+    "credit suisse": "Finance", "lloyds": "Finance", "natwest": "Finance",
+    "american express": "Finance", "capital one": "Finance", "schwab": "Finance",
+    "charles schwab": "Finance", "fidelity": "Finance", "klarna": "Finance",
+    "robinhood": "Finance", "sofi": "Finance", "truist": "Finance",
+    "us bank": "Finance", "pnc": "Finance", "td bank": "Finance",
     "pfizer": "Healthcare", "moderna": "Healthcare", "merck": "Healthcare",
     "johnson johnson": "Healthcare", "abbvie": "Healthcare",
     "unitedhealth": "Healthcare", "cvs": "Healthcare", "walgreens": "Healthcare",
     "humana": "Healthcare", "anthem": "Healthcare", "elevance": "Healthcare",
+    "novartis": "Healthcare", "roche": "Healthcare", "astrazeneca": "Healthcare",
+    "bristol myers": "Healthcare", "gsk": "Healthcare", "sanofi": "Healthcare",
+    "bayer": "Healthcare", "amgen": "Healthcare", "gilead": "Healthcare",
+    "biogen": "Healthcare", "novo nordisk": "Healthcare", "eli lilly": "Healthcare",
+    "lilly": "Healthcare", "cigna": "Healthcare", "centene": "Healthcare",
     "procter gamble": "CPG", "unilever": "CPG", "nestle": "CPG",
     "pepsi": "CPG", "pepsico": "CPG", "coca cola": "CPG", "coca-cola": "CPG",
     "kraft heinz": "CPG", "general mills": "CPG", "kellogg": "CPG",
     "kellanova": "CPG", "mondelez": "CPG", "estee lauder": "CPG",
+    "colgate": "CPG", "clorox": "CPG", "kimberly clark": "CPG",
+    "conagra": "CPG", "tyson": "CPG", "kenvue": "CPG", "diageo": "CPG",
+    "anheuser busch": "CPG", "molson coors": "CPG", "campbell": "CPG",
     "ford": "Manufacturing", "gm": "Manufacturing", "general motors": "Manufacturing",
     "stellantis": "Manufacturing", "boeing": "Manufacturing",
     "lockheed martin": "Manufacturing", "raytheon": "Manufacturing",
     "tesla": "Manufacturing", "rivian": "Manufacturing", "ge": "Manufacturing",
     "general electric": "Manufacturing", "3m": "Manufacturing",
+    "volkswagen": "Manufacturing", "toyota": "Manufacturing", "honda": "Manufacturing",
+    "nissan": "Manufacturing", "bosch": "Manufacturing", "caterpillar": "Manufacturing",
+    "john deere": "Manufacturing", "deere": "Manufacturing", "honeywell": "Manufacturing",
+    "northrop": "Manufacturing", "airbus": "Manufacturing", "bmw": "Manufacturing",
+    "mercedes": "Manufacturing", "panasonic": "Manufacturing", "dow": "Manufacturing",
+    "electrolux": "Manufacturing", "whirlpool": "Manufacturing",
     "walmart": "Retail", "target": "Retail", "costco": "Retail",
     "home depot": "Retail", "lowes": "Retail", "kroger": "Retail",
     "best buy": "Retail", "macys": "Retail",
+    "starbucks": "Retail", "mcdonalds": "Retail", "nike": "Retail",
+    "ikea": "Retail", "gap": "Retail", "nordstrom": "Retail", "kohls": "Retail",
+    "wayfair": "Retail", "etsy": "Retail", "ebay": "Retail", "chewy": "Retail",
+    "uber": "Retail", "grubhub": "Retail", "chipotle": "Retail",
+    "ahold": "Retail", "tesco": "Retail", "carrefour": "Retail", "aldi": "Retail",
     "netflix": "Media", "disney": "Media", "warner bros": "Media",
     "paramount": "Media", "comcast": "Media", "spotify": "Media",
     "nyt": "Media", "new york times": "Media", "washington post": "Media",
+    "vox": "Media", "buzzfeed": "Media", "vice": "Media", "cnn": "Media",
+    "nbc": "Media", "cbs": "Media", "fox": "Media", "espn": "Media",
+    "electronic arts": "Media", "activision": "Media",
+    "take-two": "Media", "ubisoft": "Media", "epic games": "Media",
+    "riot games": "Media", "bungie": "Media", "rockstar": "Media",
 }
 
 
@@ -219,12 +261,13 @@ def extract_headcount(text: str) -> Optional[float]:
     if not text:
         return None
 
-    # Strong patterns: number adjacent to people-noun
+    # Strong patterns: number adjacent to people-noun.
+    # (?!\s*%) rejects percentages — "cut 17% of jobs" is a rate, not a headcount.
     patterns = [
-        r"(\d[\d,]*)\s*(?:k\b)?\s*(?:employees?|workers?|jobs?|positions?|roles?|people|staff|head(?:count)?)",
-        r"(?:laid off|laying off|cut|cutting|eliminat\w+|reduc\w+|slash\w+|axe?d|trim\w+|lay off|let go)\s+(?:about\s+|around\s+|roughly\s+|nearly\s+|approximately\s+)?(\d[\d,]*)\s*(k\b)?",
-        r"(\d[\d,]*)\s*(?:k\b)?\s*(?:job|role|position)\s*(?:cut|eliminat|reduc)",
-        r"workforce\s+(?:by|of)\s+(\d[\d,]*)\s*(k\b)?",
+        r"(\d[\d,]*)(?![\d,]*\s*%)\s*(?:k\b)?\s*(?:employees?|workers?|jobs?|positions?|roles?|people|staff|head(?:count)?)",
+        r"(?:laid off|laying off|cut|cutting|eliminat\w+|reduc\w+|slash\w+|axe?d|trim\w+|lay off|let go)\s+(?:about\s+|around\s+|roughly\s+|nearly\s+|approximately\s+)?(\d[\d,]*)(?![\d,]*\s*%)\s*(k\b)?",
+        r"(\d[\d,]*)(?![\d,]*\s*%)\s*(?:k\b)?\s*(?:job|role|position)\s*(?:cut|eliminat|reduc)",
+        r"workforce\s+(?:by|of)\s+(\d[\d,]*)(?![\d,]*\s*%)\s*(k\b)?",
     ]
     for pattern in patterns:
         m = re.search(pattern, text, re.IGNORECASE)
@@ -310,7 +353,13 @@ def dedup_key(event: Event) -> str:
     """
     company_key = normalize_company_name(event.company.name) if event.company else ""
     day = event.ts.date().isoformat()
-    raw = f"{company_key}|{day}|{event.type}"
+    # Unknown/unnamed companies must NOT collapse together — without a real
+    # company name there's no evidence two events are the same layoff. Key them
+    # by source_url so distinct stories stay distinct.
+    if company_key in ("", "unknown"):
+        raw = f"{event.source_url}|{event.type}"
+    else:
+        raw = f"{company_key}|{day}|{event.type}"
     return hashlib.sha256(raw.encode()).hexdigest()[:16]
 
 
