@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-06-02T10:33:56.708235Z",
+  "generated_at": "2026-06-02T12:41:28.114335Z",
   "next_ingest_at": null,
-  "total_events": 795,
-  "events_7d": 246,
+  "total_events": 797,
+  "events_7d": 250,
   "sources": [
     {
       "source": "greenhouse",
@@ -10,9 +10,9 @@
       "url": "https://boards-api.greenhouse.io",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-06-02T10:28:34.104952Z",
-      "last_attempted": "2026-06-02T10:28:34.104952Z",
-      "record_count": 2524,
+      "last_ok": "2026-06-02T12:36:34.851402Z",
+      "last_attempted": "2026-06-02T12:36:34.851402Z",
+      "record_count": 2523,
       "ok": true,
       "errors": [
         "DoorDash (doordash): GET https://boards-api.greenhouse.io/v1/boards/doordash/jobs failed: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/doordash/jobs?content=true'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
@@ -22,7 +22,8 @@
         "Databricks (databricks11): GET https://boards-api.greenhouse.io/v1/boards/databricks11/jobs failed: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/databricks11/jobs?content=true'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
         "Plaid (plaid): GET https://boards-api.greenhouse.io/v1/boards/plaid/jobs failed: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/plaid/jobs?content=true'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
         "Hims & Hers (himsandhers): GET https://boards-api.greenhouse.io/v1/boards/himsandhers/jobs failed: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/himsandhers/jobs?content=true'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
-        "Warby Parker (warbyparker): GET https://boards-api.greenhouse.io/v1/boards/warbyparker/jobs failed: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/warbyparker/jobs?content=true'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        "Warby Parker (warbyparker): GET https://boards-api.greenhouse.io/v1/boards/warbyparker/jobs failed: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/warbyparker/jobs?content=true'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+        "Allbirds (allbirds): GET https://boards-api.greenhouse.io/v1/boards/allbirds/jobs failed: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/allbirds/jobs?content=true'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
       ]
     },
     {
@@ -31,8 +32,8 @@
       "url": "https://api.lever.co/v0/postings",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-06-02T10:29:03.369344Z",
-      "last_attempted": "2026-06-02T10:29:03.369344Z",
+      "last_ok": "2026-06-02T12:36:58.831552Z",
+      "last_attempted": "2026-06-02T12:36:58.831552Z",
       "record_count": 174,
       "ok": true,
       "errors": [
@@ -48,8 +49,8 @@
       "url": "https://api.ashbyhq.com/posting-api",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-06-02T10:29:12.399216Z",
-      "last_attempted": "2026-06-02T10:29:12.399216Z",
+      "last_ok": "2026-06-02T12:37:13.539513Z",
+      "last_attempted": "2026-06-02T12:37:13.539513Z",
       "record_count": 174,
       "ok": true,
       "errors": [
@@ -62,8 +63,8 @@
       "url": "https://techcrunch.com/tag/layoffs/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-06-02T10:29:14.844592Z",
-      "last_attempted": "2026-06-02T10:29:14.844592Z",
+      "last_ok": "2026-06-02T12:37:15.845620Z",
+      "last_attempted": "2026-06-02T12:37:15.845620Z",
       "record_count": 12,
       "ok": true,
       "errors": []
@@ -74,8 +75,8 @@
       "url": "https://news.google.com/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-06-02T10:29:15.476368Z",
-      "last_attempted": "2026-06-02T10:29:15.476368Z",
+      "last_ok": "2026-06-02T12:37:16.123386Z",
+      "last_attempted": "2026-06-02T12:37:16.123386Z",
       "record_count": 37,
       "ok": true,
       "errors": []
@@ -87,7 +88,7 @@
       "tos_posture": "public_csv",
       "cadence_hours": 24,
       "last_ok": null,
-      "last_attempted": "2026-06-02T10:29:18.648166Z",
+      "last_attempted": "2026-06-02T12:37:19.977805Z",
       "record_count": 0,
       "ok": false,
       "errors": [
@@ -101,8 +102,8 @@
       "url": "https://techcrunch.com/category/venture/feed/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-06-02T10:29:25.786948Z",
-      "last_attempted": "2026-06-02T10:29:25.786948Z",
+      "last_ok": "2026-06-02T12:37:26.883687Z",
+      "last_attempted": "2026-06-02T12:37:26.883687Z",
       "record_count": 9,
       "ok": true,
       "errors": []
@@ -113,8 +114,8 @@
       "url": "https://efts.sec.gov/LATEST/search-index",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-06-02T10:29:26.293586Z",
-      "last_attempted": "2026-06-02T10:29:26.293586Z",
+      "last_ok": "2026-06-02T12:37:26.961944Z",
+      "last_attempted": "2026-06-02T12:37:26.961944Z",
       "record_count": 160,
       "ok": true,
       "errors": []
@@ -126,7 +127,7 @@
       "tos_posture": "public_csv",
       "cadence_hours": 24,
       "last_ok": null,
-      "last_attempted": "2026-06-02T10:29:34.021145Z",
+      "last_attempted": "2026-06-02T12:37:30.558279Z",
       "record_count": 0,
       "ok": false,
       "errors": [
@@ -139,8 +140,8 @@
       "url": "https://www.bls.gov/oes/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-06-02T10:29:37.528959Z",
-      "last_attempted": "2026-06-02T10:29:37.528959Z",
+      "last_ok": "2026-06-02T12:37:34.061123Z",
+      "last_attempted": "2026-06-02T12:37:34.061123Z",
       "record_count": 24,
       "ok": true,
       "errors": []
@@ -151,8 +152,8 @@
       "url": "https://www.bls.gov/ces/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-06-02T10:29:38.484109Z",
-      "last_attempted": "2026-06-02T10:29:38.484109Z",
+      "last_ok": "2026-06-02T12:37:35.096839Z",
+      "last_attempted": "2026-06-02T12:37:35.096839Z",
       "record_count": 48,
       "ok": true,
       "errors": []
@@ -163,8 +164,8 @@
       "url": "https://www.bls.gov/developers/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-06-02T10:29:38.986220Z",
-      "last_attempted": "2026-06-02T10:29:38.986220Z",
+      "last_ok": "2026-06-02T12:37:35.329215Z",
+      "last_attempted": "2026-06-02T12:37:35.329215Z",
       "record_count": 30,
       "ok": true,
       "errors": []
@@ -176,7 +177,7 @@
       "tos_posture": "public_api",
       "cadence_hours": 12,
       "last_ok": null,
-      "last_attempted": "2026-06-02T10:29:39.505440Z",
+      "last_attempted": "2026-06-02T12:37:35.499026Z",
       "record_count": 0,
       "ok": false,
       "errors": [
@@ -194,8 +195,8 @@
       "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-06-02T10:29:39.696841Z",
-      "last_attempted": "2026-06-02T10:29:39.696841Z",
+      "last_ok": "2026-06-02T12:37:35.803224Z",
+      "last_attempted": "2026-06-02T12:37:35.803224Z",
       "record_count": 34,
       "ok": true,
       "errors": []
@@ -206,82 +207,136 @@
       "url": "https://web.archive.org/cdx/search/cdx",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-06-02T10:29:44.086915Z",
-      "last_attempted": "2026-06-02T10:29:44.086915Z",
-      "record_count": 2,
+      "last_ok": "2026-06-02T12:37:37.579849Z",
+      "last_attempted": "2026-06-02T12:37:37.579849Z",
+      "record_count": 4,
       "ok": true,
       "errors": [
-        "Stripe: GET https://web.archive.org/cdx/search/cdx failed: The read operation timed out",
-        "Coinbase: GET https://web.archive.org/cdx/search/cdx failed: The read operation timed out",
+        "Airbnb: GET https://web.archive.org/cdx/search/cdx failed: The read operation timed out",
+        "Robinhood: GET https://web.archive.org/cdx/search/cdx failed: The read operation timed out",
         "Reddit: GET https://web.archive.org/cdx/search/cdx failed: The read operation timed out",
-        "Instacart: GET https://web.archive.org/cdx/search/cdx failed: The read operation timed out",
-        "Discord: GET https://web.archive.org/cdx/search/cdx failed: timed out",
-        "GitLab: GET https://web.archive.org/cdx/search/cdx failed: timed out",
-        "HashiCorp: GET https://web.archive.org/cdx/search/cdx failed: timed out",
+        "HashiCorp: GET https://web.archive.org/cdx/search/cdx failed: The read operation timed out",
         "Cloudflare: GET https://web.archive.org/cdx/search/cdx failed: timed out",
         "Anthropic: GET https://web.archive.org/cdx/search/cdx failed: timed out",
-        "OpenAI: GET https://web.archive.org/cdx/search/cdx failed: timed out"
+        "OpenAI: GET https://web.archive.org/cdx/search/cdx failed: timed out",
+        "Scale AI: GET https://web.archive.org/cdx/search/cdx failed: timed out",
+        "Notion: GET https://web.archive.org/cdx/search/cdx failed: timed out",
+        "Figma: GET https://web.archive.org/cdx/search/cdx failed: timed out"
       ]
     }
   ],
   "recent_signals": [
     {
-      "id": "16d772d05587a85d",
-      "ts": "2026-06-02T10:30:07.082012Z",
+      "id": "92ce4031279a5cec",
+      "ts": "2026-06-02T12:40:39.865053Z",
       "source": "wayback",
-      "source_url": "https://web.archive.org/web/*/robinhood.com/careers",
+      "source_url": "https://web.archive.org/web/*/cursor.com/careers",
       "type": "macro",
       "company": {
-        "name": "Robinhood",
-        "ticker": null,
-        "industry": null,
-        "sector": "Finance",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": 1.0,
-      "unit": "snapshots/90d",
-      "raw_text": "Robinhood careers page: 1 archived snapshots in 90 days",
-      "tags": [
-        "careers_activity",
-        "wayback",
-        "finance"
-      ],
-      "extras": {
-        "careers_url": "robinhood.com/careers",
-        "snapshots_90d": 1
-      }
-    },
-    {
-      "id": "083d99ed4f52a16b",
-      "ts": "2026-06-02T10:29:56.235350Z",
-      "source": "wayback",
-      "source_url": "https://web.archive.org/web/*/airbnb.com/careers",
-      "type": "macro",
-      "company": {
-        "name": "Airbnb",
+        "name": "Cursor",
         "ticker": null,
         "industry": null,
         "sector": "Technology",
         "hq_region": null,
         "size_band": "unknown"
       },
-      "magnitude": 12.0,
+      "magnitude": 13.0,
       "unit": "snapshots/90d",
-      "raw_text": "Airbnb careers page: 12 archived snapshots in 90 days",
+      "raw_text": "Cursor careers page: 13 archived snapshots in 90 days",
       "tags": [
         "careers_activity",
         "wayback",
         "technology"
       ],
       "extras": {
-        "careers_url": "airbnb.com/careers",
-        "snapshots_90d": 12
+        "careers_url": "cursor.com/careers",
+        "snapshots_90d": 13
+      }
+    },
+    {
+      "id": "9a8b880c40f97dfc",
+      "ts": "2026-06-02T12:38:13.581948Z",
+      "source": "wayback",
+      "source_url": "https://web.archive.org/web/*/discord.com/careers",
+      "type": "macro",
+      "company": {
+        "name": "Discord",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": 36.0,
+      "unit": "snapshots/90d",
+      "raw_text": "Discord careers page: 36 archived snapshots in 90 days",
+      "tags": [
+        "careers_activity",
+        "wayback",
+        "technology"
+      ],
+      "extras": {
+        "careers_url": "discord.com/careers",
+        "snapshots_90d": 36
+      }
+    },
+    {
+      "id": "af20d74377122803",
+      "ts": "2026-06-02T12:38:11.649935Z",
+      "source": "wayback",
+      "source_url": "https://web.archive.org/web/*/instacart.com/careers",
+      "type": "macro",
+      "company": {
+        "name": "Instacart",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": 1.0,
+      "unit": "snapshots/90d",
+      "raw_text": "Instacart careers page: 1 archived snapshots in 90 days",
+      "tags": [
+        "careers_activity",
+        "wayback",
+        "technology"
+      ],
+      "extras": {
+        "careers_url": "instacart.com/careers",
+        "snapshots_90d": 1
+      }
+    },
+    {
+      "id": "0f086111ae96a815",
+      "ts": "2026-06-02T12:37:50.542591Z",
+      "source": "wayback",
+      "source_url": "https://web.archive.org/web/*/coinbase.com/careers",
+      "type": "macro",
+      "company": {
+        "name": "Coinbase",
+        "ticker": null,
+        "industry": null,
+        "sector": "Finance",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": 7.0,
+      "unit": "snapshots/90d",
+      "raw_text": "Coinbase careers page: 7 archived snapshots in 90 days",
+      "tags": [
+        "careers_activity",
+        "wayback",
+        "finance"
+      ],
+      "extras": {
+        "careers_url": "coinbase.com/careers",
+        "snapshots_90d": 7
       }
     },
     {
       "id": "917bd61a1e7d2812",
-      "ts": "2026-06-02T10:29:44.086831Z",
+      "ts": "2026-06-02T12:37:37.579739Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Spotify",
       "type": "attention",
@@ -310,7 +365,7 @@
     },
     {
       "id": "892266d37622558a",
-      "ts": "2026-06-02T10:29:43.969215Z",
+      "ts": "2026-06-02T12:37:37.530000Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Glossier",
       "type": "attention",
@@ -339,7 +394,7 @@
     },
     {
       "id": "3b9551311db0cca8",
-      "ts": "2026-06-02T10:29:43.841582Z",
+      "ts": "2026-06-02T12:37:37.474663Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Allbirds",
       "type": "attention",
@@ -368,7 +423,7 @@
     },
     {
       "id": "5262d48925a56cfc",
-      "ts": "2026-06-02T10:29:43.706926Z",
+      "ts": "2026-06-02T12:37:37.401541Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Warby_Parker",
       "type": "attention",
@@ -397,7 +452,7 @@
     },
     {
       "id": "6f04bfcb0daab3d5",
-      "ts": "2026-06-02T10:29:43.587242Z",
+      "ts": "2026-06-02T12:37:37.353108Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Oscar_Health",
       "type": "attention",
@@ -426,7 +481,7 @@
     },
     {
       "id": "c04bbeda6cf0f6cd",
-      "ts": "2026-06-02T10:29:43.468672Z",
+      "ts": "2026-06-02T12:37:37.303635Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Hims_&_Hers",
       "type": "attention",
@@ -455,7 +510,7 @@
     },
     {
       "id": "562ceb53e68ca5f0",
-      "ts": "2026-06-02T10:29:43.339435Z",
+      "ts": "2026-06-02T12:37:37.250582Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Cursor",
       "type": "attention",
@@ -484,7 +539,7 @@
     },
     {
       "id": "93b64e208f7ba730",
-      "ts": "2026-06-02T10:29:43.223917Z",
+      "ts": "2026-06-02T12:37:37.186130Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Perplexity_AI",
       "type": "attention",
@@ -513,7 +568,7 @@
     },
     {
       "id": "adc0a52703712d38",
-      "ts": "2026-06-02T10:29:43.100585Z",
+      "ts": "2026-06-02T12:37:37.139516Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Replicate",
       "type": "attention",
@@ -542,7 +597,7 @@
     },
     {
       "id": "7bfc5fdbf60cae0d",
-      "ts": "2026-06-02T10:29:42.972581Z",
+      "ts": "2026-06-02T12:37:37.092966Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Vercel",
       "type": "attention",
@@ -571,7 +626,7 @@
     },
     {
       "id": "7ca4a5005ea00d7a",
-      "ts": "2026-06-02T10:29:42.844861Z",
+      "ts": "2026-06-02T12:37:37.042128Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Linear",
       "type": "attention",
@@ -600,7 +655,7 @@
     },
     {
       "id": "1071acdd29080a5e",
-      "ts": "2026-06-02T10:29:42.724153Z",
+      "ts": "2026-06-02T12:37:36.989038Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Mercury",
       "type": "attention",
@@ -629,7 +684,7 @@
     },
     {
       "id": "3d97f04bbac06359",
-      "ts": "2026-06-02T10:29:42.599722Z",
+      "ts": "2026-06-02T12:37:36.944303Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Ramp",
       "type": "attention",
@@ -658,7 +713,7 @@
     },
     {
       "id": "d6057417c5e6dca4",
-      "ts": "2026-06-02T10:29:42.470432Z",
+      "ts": "2026-06-02T12:37:36.891856Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Plaid",
       "type": "attention",
@@ -687,7 +742,7 @@
     },
     {
       "id": "09672a103b172133",
-      "ts": "2026-06-02T10:29:42.346185Z",
+      "ts": "2026-06-02T12:37:36.847067Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Brex",
       "type": "attention",
@@ -716,7 +771,7 @@
     },
     {
       "id": "038c63fb0f420850",
-      "ts": "2026-06-02T10:29:42.220249Z",
+      "ts": "2026-06-02T12:37:36.798846Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Databricks",
       "type": "attention",
@@ -745,7 +800,7 @@
     },
     {
       "id": "e320b1da4d511a3b",
-      "ts": "2026-06-02T10:29:42.095933Z",
+      "ts": "2026-06-02T12:37:36.752961Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Snowflake",
       "type": "attention",
@@ -774,7 +829,7 @@
     },
     {
       "id": "ffc6e727f051255f",
-      "ts": "2026-06-02T10:29:41.971358Z",
+      "ts": "2026-06-02T12:37:36.699407Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Figma",
       "type": "attention",
@@ -803,7 +858,7 @@
     },
     {
       "id": "b498e8ebad4f9363",
-      "ts": "2026-06-02T10:29:41.851287Z",
+      "ts": "2026-06-02T12:37:36.643732Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Notion",
       "type": "attention",
@@ -832,7 +887,7 @@
     },
     {
       "id": "77cabb0ec832ea9d",
-      "ts": "2026-06-02T10:29:41.728344Z",
+      "ts": "2026-06-02T12:37:36.593790Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Scale_AI",
       "type": "attention",
@@ -861,7 +916,7 @@
     },
     {
       "id": "000230c7340db970",
-      "ts": "2026-06-02T10:29:41.602047Z",
+      "ts": "2026-06-02T12:37:36.550279Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/OpenAI",
       "type": "attention",
@@ -890,7 +945,7 @@
     },
     {
       "id": "d90779be1deb84d2",
-      "ts": "2026-06-02T10:29:41.483258Z",
+      "ts": "2026-06-02T12:37:36.494263Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Anthropic",
       "type": "attention",
@@ -919,7 +974,7 @@
     },
     {
       "id": "b9f8b539a801c749",
-      "ts": "2026-06-02T10:29:41.366129Z",
+      "ts": "2026-06-02T12:37:36.448411Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Cloudflare",
       "type": "attention",
@@ -948,7 +1003,7 @@
     },
     {
       "id": "ffd8a4627045a0fa",
-      "ts": "2026-06-02T10:29:41.246838Z",
+      "ts": "2026-06-02T12:37:36.389547Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/HashiCorp",
       "type": "attention",
@@ -977,7 +1032,7 @@
     },
     {
       "id": "55cd25a816dcf0ac",
-      "ts": "2026-06-02T10:29:41.125716Z",
+      "ts": "2026-06-02T12:37:36.341607Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/GitLab",
       "type": "attention",
@@ -1006,7 +1061,7 @@
     },
     {
       "id": "7e5b5bf3b396c8da",
-      "ts": "2026-06-02T10:29:41.007001Z",
+      "ts": "2026-06-02T12:37:36.299320Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Discord",
       "type": "attention",
@@ -1035,7 +1090,7 @@
     },
     {
       "id": "7cfed0ddd470d77f",
-      "ts": "2026-06-02T10:29:40.739105Z",
+      "ts": "2026-06-02T12:37:36.251315Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Pinterest",
       "type": "attention",
@@ -1064,7 +1119,7 @@
     },
     {
       "id": "880bf8f0caf5d058",
-      "ts": "2026-06-02T10:29:40.618164Z",
+      "ts": "2026-06-02T12:37:36.192968Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Instacart",
       "type": "attention",
@@ -1093,7 +1148,7 @@
     },
     {
       "id": "680b7cb1e01484af",
-      "ts": "2026-06-02T10:29:40.495308Z",
+      "ts": "2026-06-02T12:37:36.144680Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/DoorDash",
       "type": "attention",
@@ -1122,7 +1177,7 @@
     },
     {
       "id": "3652ac80870f8ee1",
-      "ts": "2026-06-02T10:29:40.375504Z",
+      "ts": "2026-06-02T12:37:36.091362Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Reddit",
       "type": "attention",
@@ -1151,7 +1206,7 @@
     },
     {
       "id": "82c134d3319ee2bc",
-      "ts": "2026-06-02T10:29:40.258366Z",
+      "ts": "2026-06-02T12:37:36.039064Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Robinhood",
       "type": "attention",
@@ -1180,7 +1235,7 @@
     },
     {
       "id": "65cd7751af6eaaf8",
-      "ts": "2026-06-02T10:29:40.142201Z",
+      "ts": "2026-06-02T12:37:35.987951Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Coinbase",
       "type": "attention",
@@ -1209,7 +1264,7 @@
     },
     {
       "id": "aa9a631efb888245",
-      "ts": "2026-06-02T10:29:40.025338Z",
+      "ts": "2026-06-02T12:37:35.944343Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Airbnb",
       "type": "attention",
@@ -1238,7 +1293,7 @@
     },
     {
       "id": "9e68cac5b67a66db",
-      "ts": "2026-06-02T10:29:39.906209Z",
+      "ts": "2026-06-02T12:37:35.893390Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Stripe",
       "type": "attention",
@@ -1263,6 +1318,95 @@
         "avg_baseline": 66.2,
         "z_score": 0.63,
         "is_spike": false
+      }
+    },
+    {
+      "id": "214043484a532a01",
+      "ts": "2026-06-02T08:29:23-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7616791",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": "NY",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Agency Development Partnerships Lead I | New York City, NY",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "NY"
+      ],
+      "extras": {
+        "role": "Agency Development Partnerships Lead I",
+        "location": "New York City, NY",
+        "seniority": "lead"
+      }
+    },
+    {
+      "id": "8d2f073067839403",
+      "ts": "2026-06-02T08:23:26-04:00",
+      "source": "greenhouse",
+      "source_url": "https://careers.airbnb.com/positions/7946288?gh_jid=7946288",
+      "type": "posting",
+      "company": {
+        "name": "Airbnb",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Airbnb | AI Engineer, Community Support Engineering | China - Remote",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "Data / ML"
+      ],
+      "extras": {
+        "role": "AI Engineer, Community Support Engineering",
+        "location": "China - Remote",
+        "function": "Data / ML",
+        "soc": "15-2051",
+        "seniority": "mid",
+        "remote": "remote"
+      }
+    },
+    {
+      "id": "9ed691ae78b5c9a9",
+      "ts": "2026-06-02T08:11:35-04:00",
+      "source": "greenhouse",
+      "source_url": "https://boards.greenhouse.io/robinhood/jobs/7914059?t=gh_src=&gh_jid=7914059",
+      "type": "posting",
+      "company": {
+        "name": "Robinhood",
+        "ticker": null,
+        "industry": null,
+        "sector": "Finance",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Robinhood | Deputy CCO - Fraud Officer | Vilnius, Lithuania",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "finance"
+      ],
+      "extras": {
+        "role": "Deputy CCO - Fraud Officer",
+        "location": "Vilnius, Lithuania",
+        "seniority": "mid"
       }
     },
     {
@@ -1325,34 +1469,6 @@
         "function": "Sales",
         "soc": "41-3091",
         "seniority": "lead"
-      }
-    },
-    {
-      "id": "dbe13fa5ca5fb83a",
-      "ts": "2026-06-02T05:12:10-04:00",
-      "source": "greenhouse",
-      "source_url": "https://careers.airbnb.com/positions/7765563?gh_jid=7765563",
-      "type": "posting",
-      "company": {
-        "name": "Airbnb",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Airbnb | Senior Analyst, Payment Compliance | Gurugram, India",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology"
-      ],
-      "extras": {
-        "role": "Senior Analyst, Payment Compliance",
-        "location": "Gurugram, India",
-        "seniority": "senior"
       }
     },
     {
@@ -1503,6 +1619,34 @@
       "extras": {
         "adsh": "0000773840-26-000068",
         "cik": "0000773840",
+        "file_date": "2026-06-02"
+      }
+    },
+    {
+      "id": "467b6e32f88edaa6",
+      "ts": "2026-06-02T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=885568&type=&dateb=&owner=include&count=40",
+      "type": "exec_move",
+      "company": {
+        "name": "OLD DOMINION ELECTRIC COOPERATIVE ",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "OLD DOMINION ELECTRIC COOPERATIVE  \u2014 SEC filing 0001193125-26-252556 (exec_move) on 2026-06-02",
+      "tags": [
+        "exec_move",
+        "sec_8k",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0001193125-26-252556",
+        "cik": "0000885568",
         "file_date": "2026-06-02"
       }
     },
@@ -1675,6 +1819,34 @@
       }
     },
     {
+      "id": "069b949e3810862d",
+      "ts": "2026-06-02T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2134947&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "FO-0508 Fund I, a series of MV Funds, LP ",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "FO-0508 Fund I, a series of MV Funds, LP  \u2014 SEC filing 0002134947-26-000001 (funding) on 2026-06-02",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002134947-26-000001",
+        "cik": "0002134947",
+        "file_date": "2026-06-02"
+      }
+    },
+    {
       "id": "07f63c6a705b145e",
       "ts": "2026-06-02T00:00:00Z",
       "source": "sec_edgar",
@@ -1699,6 +1871,34 @@
       "extras": {
         "adsh": "0002134904-26-000001",
         "cik": "0002134904",
+        "file_date": "2026-06-02"
+      }
+    },
+    {
+      "id": "0d8eff54a8ef2ee9",
+      "ts": "2026-06-02T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2134887&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "Beckley Clinical, P.B.C. ",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Beckley Clinical, P.B.C.  \u2014 SEC filing 0002134887-26-000001 (funding) on 2026-06-02",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002134887-26-000001",
+        "cik": "0002134887",
         "file_date": "2026-06-02"
       }
     },
@@ -1843,6 +2043,62 @@
       }
     },
     {
+      "id": "36450129396f44cf",
+      "ts": "2026-06-02T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2134109&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "AZ-0504 Fund I, a series of MV Funds, LP ",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "AZ-0504 Fund I, a series of MV Funds, LP  \u2014 SEC filing 0002134109-26-000001 (funding) on 2026-06-02",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002134109-26-000001",
+        "cik": "0002134109",
+        "file_date": "2026-06-02"
+      }
+    },
+    {
+      "id": "d8940059fba46b60",
+      "ts": "2026-06-02T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2133607&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "VC-0428 Fund II, a series of Roll Up Vehicles, LP ",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "VC-0428 Fund II, a series of Roll Up Vehicles, LP  \u2014 SEC filing 0002133607-26-000001 (funding) on 2026-06-02",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002133607-26-000001",
+        "cik": "0002133607",
+        "file_date": "2026-06-02"
+      }
+    },
+    {
       "id": "6dff79f197fbfa87",
       "ts": "2026-06-02T00:00:00Z",
       "source": "sec_edgar",
@@ -1895,6 +2151,62 @@
       "extras": {
         "adsh": "0002133101-26-000003",
         "cik": "0002133101",
+        "file_date": "2026-06-02"
+      }
+    },
+    {
+      "id": "2030e33a045a0228",
+      "ts": "2026-06-02T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2131951&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "Coverback Fund SCA SICAV-RAIF ",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Coverback Fund SCA SICAV-RAIF  \u2014 SEC filing 0002131951-26-000001 (funding) on 2026-06-02",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002131951-26-000001",
+        "cik": "0002131951",
+        "file_date": "2026-06-02"
+      }
+    },
+    {
+      "id": "2dd0fdaa13292871",
+      "ts": "2026-06-02T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2129839&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "SO-0407 Fund II, a series of Gold Dragon Ventures, LP ",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "SO-0407 Fund II, a series of Gold Dragon Ventures, LP  \u2014 SEC filing 0002129839-26-000001 (funding) on 2026-06-02",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002129839-26-000001",
+        "cik": "0002129839",
         "file_date": "2026-06-02"
       }
     },
@@ -1979,6 +2291,118 @@
       "extras": {
         "adsh": "0002116734-26-000001",
         "cik": "0002116734",
+        "file_date": "2026-06-02"
+      }
+    },
+    {
+      "id": "8b8869f00054c3da",
+      "ts": "2026-06-02T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2112069&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "EX-0203 Fund IV, a series of Climate Collective, LP ",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "EX-0203 Fund IV, a series of Climate Collective, LP  \u2014 SEC filing 0002112069-26-000001 (funding) on 2026-06-02",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002112069-26-000001",
+        "cik": "0002112069",
+        "file_date": "2026-06-02"
+      }
+    },
+    {
+      "id": "0cca8f853410fed7",
+      "ts": "2026-06-02T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2105988&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "BL-1231 Fund I, a series of Roll Up Vehicles, LP ",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "BL-1231 Fund I, a series of Roll Up Vehicles, LP  \u2014 SEC filing 0002105988-26-000001 (funding) on 2026-06-02",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002105988-26-000001",
+        "cik": "0002105988",
+        "file_date": "2026-06-02"
+      }
+    },
+    {
+      "id": "250b7a1245d4bb68",
+      "ts": "2026-06-02T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2105606&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "Riptide-ME-0108 Fund I, a series of Platform Funds 2026, LP ",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Riptide-ME-0108 Fund I, a series of Platform Funds 2026, LP  \u2014 SEC filing 0002105606-26-000001 (funding) on 2026-06-02",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002105606-26-000001",
+        "cik": "0002105606",
+        "file_date": "2026-06-02"
+      }
+    },
+    {
+      "id": "82abf81017f8f19a",
+      "ts": "2026-06-02T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2103229&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "LU-1104 Fund III, a series of Roll Up Vehicles, LP ",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "LU-1104 Fund III, a series of Roll Up Vehicles, LP  \u2014 SEC filing 0002103229-26-000002 (funding) on 2026-06-02",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002103229-26-000002",
+        "cik": "0002103229",
         "file_date": "2026-06-02"
       }
     },
@@ -2291,6 +2715,34 @@
       }
     },
     {
+      "id": "38ac8db8d0ea05af",
+      "ts": "2026-06-02T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1950050&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "GLOBAL IMPACT OPPORTUNITIES III, LP ",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "GLOBAL IMPACT OPPORTUNITIES III, LP  \u2014 SEC filing 0001566114-26-000049 (funding) on 2026-06-02",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0001566114-26-000049",
+        "cik": "0001950050",
+        "file_date": "2026-06-02"
+      }
+    },
+    {
       "id": "f47faabea7ed8228",
       "ts": "2026-06-02T00:00:00Z",
       "source": "sec_edgar",
@@ -2315,6 +2767,34 @@
       "extras": {
         "adsh": "0001504410-26-000001",
         "cik": "0001504410",
+        "file_date": "2026-06-02"
+      }
+    },
+    {
+      "id": "6b874079411bbc73",
+      "ts": "2026-06-02T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1597846&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "Greenpro Capital Corp. ",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Greenpro Capital Corp.  \u2014 SEC filing 0001493152-26-026736 (funding) on 2026-06-02",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0001493152-26-026736",
+        "cik": "0001597846",
         "file_date": "2026-06-02"
       }
     },
@@ -2608,525 +3088,19 @@
         "other"
       ],
       "extras": {}
-    },
-    {
-      "id": "76d41241a77e1d8b",
-      "ts": "2026-06-01T14:41:49-04:00",
-      "source": "greenhouse",
-      "source_url": "https://boards.greenhouse.io/figma/jobs/6007221004?gh_jid=6007221004",
-      "type": "posting",
-      "company": {
-        "name": "Figma",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": "CA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Figma | Customer Marketing Manager | San Francisco, CA \u2022 New York, NY \u2022 United States",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "CA",
-        "Marketing"
-      ],
-      "extras": {
-        "role": "Customer Marketing Manager",
-        "location": "San Francisco, CA \u2022 New York, NY \u2022 United States",
-        "function": "Marketing",
-        "soc": "11-2011",
-        "seniority": "manager"
-      }
-    },
-    {
-      "id": "83689e38d2ac54e6",
-      "ts": "2026-06-01T13:53:53-04:00",
-      "source": "greenhouse",
-      "source_url": "https://instacart.careers/job/?gh_jid=7967233",
-      "type": "posting",
-      "company": {
-        "name": "Instacart",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Instacart | Director of Product, Agentic Commerce | United States - Remote",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "Engineering Management"
-      ],
-      "extras": {
-        "role": "Director of Product, Agentic Commerce",
-        "location": "United States - Remote",
-        "function": "Engineering Management",
-        "soc": "11-9041",
-        "seniority": "director",
-        "remote": "remote"
-      }
-    },
-    {
-      "id": "dd324d17bed16c37",
-      "ts": "2026-06-01T13:28:53-04:00",
-      "source": "greenhouse",
-      "source_url": "https://www.pinterestcareers.com/jobs/?gh_jid=7954915",
-      "type": "posting",
-      "company": {
-        "name": "Pinterest",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": "NY",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Pinterest | Client Account Manager II, Food & Beverage CPG | New York, NY, US",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "NY",
-        "Customer Success"
-      ],
-      "extras": {
-        "role": "Client Account Manager II, Food & Beverage CPG",
-        "location": "New York, NY, US",
-        "function": "Customer Success",
-        "soc": "13-1161",
-        "seniority": "manager"
-      }
-    },
-    {
-      "id": "ce0baea5742d6c8e",
-      "ts": "2026-06-01T17:20:07.199000Z",
-      "source": "ashby",
-      "source_url": "https://jobs.ashbyhq.com/perplexity/209036d1-278a-4a2f-a912-3c68a7881e6a",
-      "type": "posting",
-      "company": {
-        "name": "Perplexity AI",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": "CA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Perplexity AI | Workplace Operations Specialist | San Francisco | Workplace",
-      "tags": [
-        "hiring",
-        "ashby",
-        "technology",
-        "CA"
-      ],
-      "extras": {
-        "role": "Workplace Operations Specialist",
-        "location": "San Francisco",
-        "department": "Workplace",
-        "employment_type": "FullTime",
-        "seniority": "mid",
-        "remote": "onsite"
-      }
-    },
-    {
-      "id": "74ba146a773f5f7a",
-      "ts": "2026-06-01T16:42:22Z",
-      "source": "org_moves",
-      "source_url": "https://techcrunch.com/2026/06/01/zigging-when-most-are-zagging-ex-meta-cto-raises-250m-climate-fund/",
-      "type": "funding",
-      "company": {
-        "name": "Unknown",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": 250000000.0,
-      "unit": "USD",
-      "raw_text": "Zigging when most are zagging, ex-Meta CTO raises $250M climate fund",
-      "tags": [
-        "funding",
-        "other"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "b15304f4005cf977",
-      "ts": "2026-06-01T12:42:08-04:00",
-      "source": "greenhouse",
-      "source_url": "https://boards.greenhouse.io/robinhood/jobs/7943204?t=gh_src=&gh_jid=7943204",
-      "type": "posting",
-      "company": {
-        "name": "Robinhood",
-        "ticker": null,
-        "industry": null,
-        "sector": "Finance",
-        "hq_region": "CA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Robinhood | Assistant General Counsel, Credit Cards | Menlo Park, CA; New York, NY; Washington, DC",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "finance",
-        "CA",
-        "Legal / Compliance"
-      ],
-      "extras": {
-        "role": "Assistant General Counsel, Credit Cards",
-        "location": "Menlo Park, CA; New York, NY; Washington, DC",
-        "function": "Legal / Compliance",
-        "soc": "23-1011",
-        "seniority": "mid"
-      }
-    },
-    {
-      "id": "84fe252ee5bbb32c",
-      "ts": "2026-06-01T12:41:10-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/mercury/jobs/6007723004",
-      "type": "posting",
-      "company": {
-        "name": "Mercury",
-        "ticker": null,
-        "industry": null,
-        "sector": "Finance",
-        "hq_region": "CA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Mercury | Senior People Partner Generalist - Risk & Banking Ops | San Francisco, CA, New York, NY, Portland, OR, or Remote within Canada or United States",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "finance",
-        "CA"
-      ],
-      "extras": {
-        "role": "Senior People Partner Generalist - Risk & Banking Ops",
-        "location": "San Francisco, CA, New York, NY, Portland, OR, or Remote within Canada or United States",
-        "seniority": "senior"
-      }
-    },
-    {
-      "id": "2481684c24b5379a",
-      "ts": "2026-06-01T12:37:21-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/discord/jobs/8530692002",
-      "type": "posting",
-      "company": {
-        "name": "Discord",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": "CA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Discord | Senior Product Manager, Ad Formats | San Francisco Bay Area or Remote (U.S.)",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "CA",
-        "Product"
-      ],
-      "extras": {
-        "role": "Senior Product Manager, Ad Formats",
-        "location": "San Francisco Bay Area or Remote (U.S.)",
-        "function": "Product",
-        "soc": "11-2021",
-        "seniority": "senior"
-      }
-    },
-    {
-      "id": "cd6d87d79aa39f56",
-      "ts": "2026-06-01T11:13:23-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/anthropic/jobs/5204086008",
-      "type": "posting",
-      "company": {
-        "name": "Anthropic",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Anthropic | Applied AI Architect, Industries | Z\u00fcrich, CH",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology"
-      ],
-      "extras": {
-        "role": "Applied AI Architect, Industries",
-        "location": "Z\u00fcrich, CH",
-        "seniority": "mid",
-        "stack": [
-          "llm"
-        ]
-      }
-    },
-    {
-      "id": "e2dbf05408a6d0b4",
-      "ts": "2026-06-01T10:41:48-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/gitlab/jobs/8571230002",
-      "type": "posting",
-      "company": {
-        "name": "GitLab",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "GitLab | Business Development Representative | Remote, India",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology"
-      ],
-      "extras": {
-        "role": "Business Development Representative",
-        "location": "Remote, India",
-        "seniority": "mid",
-        "remote": "remote"
-      }
-    },
-    {
-      "id": "72245d26f30dde0c",
-      "ts": "2026-06-01T01:57:10-04:00",
-      "source": "greenhouse",
-      "source_url": "https://careers.airbnb.com/positions/7698274?gh_jid=7698274",
-      "type": "posting",
-      "company": {
-        "name": "Airbnb",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Airbnb | Associate Principal, SOX Analytics | India",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology"
-      ],
-      "extras": {
-        "role": "Associate Principal, SOX Analytics",
-        "location": "India",
-        "seniority": "principal"
-      }
-    },
-    {
-      "id": "fd3b2abd53dd8076",
-      "ts": "2026-05-31T23:17:44-04:00",
-      "source": "greenhouse",
-      "source_url": "https://boards.greenhouse.io/cloudflare/jobs/7962358?gh_jid=7962358",
-      "type": "posting",
-      "company": {
-        "name": "Cloudflare",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Cloudflare | Business Development Representative, GCR (Beijing) | Hybrid",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology"
-      ],
-      "extras": {
-        "role": "Business Development Representative, GCR (Beijing)",
-        "location": "Hybrid",
-        "seniority": "mid"
-      }
-    },
-    {
-      "id": "d03e937f48a99ba8",
-      "ts": "2026-05-31T21:53:51-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/anthropic/jobs/5237030008",
-      "type": "posting",
-      "company": {
-        "name": "Anthropic",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Anthropic | Channel Account Manager, SI & Reseller | Tokyo, Japan",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "Customer Success"
-      ],
-      "extras": {
-        "role": "Channel Account Manager, SI & Reseller",
-        "location": "Tokyo, Japan",
-        "function": "Customer Success",
-        "soc": "13-1161",
-        "seniority": "manager",
-        "stack": [
-          "go"
-        ]
-      }
-    },
-    {
-      "id": "d8141ad730edb639",
-      "ts": "2026-06-01T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1726711&type=&dateb=&owner=include&count=40",
-      "type": "exec_move",
-      "company": {
-        "name": "Aditxt, Inc. ",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Aditxt, Inc.  \u2014 SEC filing 0001213900-26-063165 (exec_move) on 2026-06-01",
-      "tags": [
-        "exec_move",
-        "sec_8k",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0001213900-26-063165",
-        "cik": "0001726711",
-        "file_date": "2026-06-01"
-      }
-    },
-    {
-      "id": "c7eaaa587f80aaec",
-      "ts": "2026-06-01T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=923139&type=&dateb=&owner=include&count=40",
-      "type": "exec_move",
-      "company": {
-        "name": "FLUSHING FINANCIAL CORP ",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "FLUSHING FINANCIAL CORP  \u2014 SEC filing 0001193125-26-251765 (exec_move) on 2026-06-01",
-      "tags": [
-        "exec_move",
-        "sec_8k",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0001193125-26-251765",
-        "cik": "0000923139",
-        "file_date": "2026-06-01"
-      }
-    },
-    {
-      "id": "928b2fa8abe59d12",
-      "ts": "2026-06-01T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1811210&type=&dateb=&owner=include&count=40",
-      "type": "exec_move",
-      "company": {
-        "name": "Lucid Group, Inc. ",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Lucid Group, Inc.  \u2014 SEC filing 0001628280-26-039266 (exec_move) on 2026-06-01",
-      "tags": [
-        "exec_move",
-        "sec_8k",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0001628280-26-039266",
-        "cik": "0001811210",
-        "file_date": "2026-06-01"
-      }
-    },
-    {
-      "id": "98f2fa007c98097a",
-      "ts": "2026-06-01T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1434868&type=&dateb=&owner=include&count=40",
-      "type": "exec_move",
-      "company": {
-        "name": "Esperion Therapeutics, Inc. ",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Esperion Therapeutics, Inc.  \u2014 SEC filing 0001628280-26-039518 (exec_move) on 2026-06-01",
-      "tags": [
-        "exec_move",
-        "sec_8k",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0001628280-26-039518",
-        "cik": "0001434868",
-        "file_date": "2026-06-01"
-      }
     }
   ],
   "sector_matrix": {
-    "generated_at": "2026-06-02T10:33:56.708235Z",
+    "generated_at": "2026-06-02T12:41:28.114335Z",
     "cells": [
       {
         "sector": "Technology",
         "signal_type": "layoff",
         "count_7d": 1,
-        "count_30d": 8,
+        "count_30d": 7,
         "magnitude_7d": 1300.0,
-        "magnitude_30d": 16300.0,
-        "z_score": -0.63
+        "magnitude_30d": 9300.0,
+        "z_score": -0.5
       },
       {
         "sector": "Technology",
@@ -3168,19 +3142,19 @@
         "sector": "Finance",
         "signal_type": "layoff",
         "count_7d": 0,
-        "count_30d": 6,
+        "count_30d": 5,
         "magnitude_7d": null,
-        "magnitude_30d": 21800.0,
-        "z_score": -1.18
+        "magnitude_30d": 14000.0,
+        "z_score": -1.08
       },
       {
         "sector": "Finance",
         "signal_type": "posting",
-        "count_7d": 9,
-        "count_30d": 12,
+        "count_7d": 10,
+        "count_30d": 13,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 3.71
+        "z_score": 4.0
       },
       {
         "sector": "Finance",
@@ -3213,9 +3187,9 @@
         "sector": "Healthcare",
         "signal_type": "layoff",
         "count_7d": 0,
-        "count_30d": 0,
+        "count_30d": 1,
         "magnitude_7d": null,
-        "magnitude_30d": null,
+        "magnitude_30d": 4500.0,
         "z_score": null
       },
       {
@@ -3329,11 +3303,11 @@
       {
         "sector": "Manufacturing",
         "signal_type": "funding",
-        "count_7d": 4,
-        "count_30d": 4,
+        "count_7d": 2,
+        "count_30d": 2,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 3.07
+        "z_score": null
       },
       {
         "sector": "Manufacturing",
@@ -3348,10 +3322,10 @@
         "sector": "Retail",
         "signal_type": "layoff",
         "count_7d": 1,
-        "count_30d": 9,
+        "count_30d": 8,
         "magnitude_7d": 1000.0,
         "magnitude_30d": 3300.0,
-        "z_score": -0.76
+        "z_score": -0.63
       },
       {
         "sector": "Retail",
@@ -3401,11 +3375,11 @@
       {
         "sector": "Media",
         "signal_type": "posting",
-        "count_7d": 9,
-        "count_30d": 30,
+        "count_7d": 10,
+        "count_30d": 31,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 0.76
+        "z_score": 1.03
       },
       {
         "sector": "Media",
