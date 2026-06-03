@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-06-03T04:28:21.411965Z",
+  "generated_at": "2026-06-03T11:09:42.999129Z",
   "next_ingest_at": null,
-  "total_events": 729,
-  "events_7d": 257,
+  "total_events": 748,
+  "events_7d": 255,
   "sources": [
     {
       "source": "greenhouse",
@@ -10,9 +10,9 @@
       "url": "https://boards-api.greenhouse.io",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-06-03T04:22:36.660194Z",
-      "last_attempted": "2026-06-03T04:22:36.660194Z",
-      "record_count": 2546,
+      "last_ok": "2026-06-03T11:04:03.890481Z",
+      "last_attempted": "2026-06-03T11:04:03.890481Z",
+      "record_count": 2556,
       "ok": true,
       "errors": [
         "DoorDash (doordash): GET https://boards-api.greenhouse.io/v1/boards/doordash/jobs failed: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/doordash/jobs?content=true'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
@@ -32,9 +32,9 @@
       "url": "https://api.lever.co/v0/postings",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-06-03T04:23:09.802778Z",
-      "last_attempted": "2026-06-03T04:23:09.802778Z",
-      "record_count": 173,
+      "last_ok": "2026-06-03T11:04:33.054835Z",
+      "last_attempted": "2026-06-03T11:04:33.054835Z",
+      "record_count": 171,
       "ok": true,
       "errors": [
         "Scale AI (scaleai): GET https://api.lever.co/v0/postings/scaleai failed: Client error '404 Not Found' for url 'https://api.lever.co/v0/postings/scaleai?mode=json'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
@@ -49,8 +49,8 @@
       "url": "https://api.ashbyhq.com/posting-api",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-06-03T04:23:22.262368Z",
-      "last_attempted": "2026-06-03T04:23:22.262368Z",
+      "last_ok": "2026-06-03T11:04:41.042095Z",
+      "last_attempted": "2026-06-03T11:04:41.042095Z",
       "record_count": 179,
       "ok": true,
       "errors": [
@@ -63,8 +63,8 @@
       "url": "https://techcrunch.com/tag/layoffs/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-06-03T04:23:24.699649Z",
-      "last_attempted": "2026-06-03T04:23:24.699649Z",
+      "last_ok": "2026-06-03T11:04:43.361616Z",
+      "last_attempted": "2026-06-03T11:04:43.361616Z",
       "record_count": 12,
       "ok": true,
       "errors": []
@@ -75,9 +75,9 @@
       "url": "https://news.google.com/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-06-03T04:23:25.137277Z",
-      "last_attempted": "2026-06-03T04:23:25.137277Z",
-      "record_count": 42,
+      "last_ok": "2026-06-03T11:04:43.999273Z",
+      "last_attempted": "2026-06-03T11:04:43.999273Z",
+      "record_count": 33,
       "ok": true,
       "errors": []
     },
@@ -88,7 +88,7 @@
       "tos_posture": "public_csv",
       "cadence_hours": 24,
       "last_ok": null,
-      "last_attempted": "2026-06-03T04:23:28.595659Z",
+      "last_attempted": "2026-06-03T11:04:47.294318Z",
       "record_count": 0,
       "ok": false,
       "errors": [
@@ -102,8 +102,8 @@
       "url": "https://techcrunch.com/category/venture/feed/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-06-03T04:23:35.525258Z",
-      "last_attempted": "2026-06-03T04:23:35.525258Z",
+      "last_ok": "2026-06-03T11:04:54.224319Z",
+      "last_attempted": "2026-06-03T11:04:54.224319Z",
       "record_count": 9,
       "ok": true,
       "errors": []
@@ -114,8 +114,8 @@
       "url": "https://efts.sec.gov/LATEST/search-index",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-06-03T04:23:36.260218Z",
-      "last_attempted": "2026-06-03T04:23:36.260218Z",
+      "last_ok": "2026-06-03T11:04:54.928617Z",
+      "last_attempted": "2026-06-03T11:04:54.928617Z",
       "record_count": 160,
       "ok": true,
       "errors": []
@@ -127,7 +127,7 @@
       "tos_posture": "public_csv",
       "cadence_hours": 24,
       "last_ok": null,
-      "last_attempted": "2026-06-03T04:23:37.781372Z",
+      "last_attempted": "2026-06-03T11:04:57.177318Z",
       "record_count": 0,
       "ok": false,
       "errors": [
@@ -140,13 +140,11 @@
       "url": "https://www.bls.gov/oes/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": null,
-      "last_attempted": "2026-06-03T04:23:41.568092Z",
-      "record_count": 0,
-      "ok": false,
-      "errors": [
-        "BLS API fetch: Server disconnected without sending a response."
-      ]
+      "last_ok": "2026-06-03T11:05:00.852885Z",
+      "last_attempted": "2026-06-03T11:05:00.852885Z",
+      "record_count": 24,
+      "ok": true,
+      "errors": []
     },
     {
       "source": "comp",
@@ -155,11 +153,11 @@
       "tos_posture": "public_api",
       "cadence_hours": 24,
       "last_ok": null,
-      "last_attempted": "2026-06-03T04:23:44.963040Z",
+      "last_attempted": "2026-06-03T11:05:01.688306Z",
       "record_count": 0,
       "ok": false,
       "errors": [
-        "BLS comp API: The read operation timed out"
+        "BLS comp API: Server disconnected without sending a response."
       ]
     },
     {
@@ -169,7 +167,7 @@
       "tos_posture": "public_api",
       "cadence_hours": 24,
       "last_ok": null,
-      "last_attempted": "2026-06-03T04:24:05.121478Z",
+      "last_attempted": "2026-06-03T11:05:05.268474Z",
       "record_count": 0,
       "ok": false,
       "errors": [
@@ -183,7 +181,7 @@
       "tos_posture": "public_api",
       "cadence_hours": 12,
       "last_ok": null,
-      "last_attempted": "2026-06-03T04:24:08.440672Z",
+      "last_attempted": "2026-06-03T11:05:08.853190Z",
       "record_count": 0,
       "ok": false,
       "errors": [
@@ -201,8 +199,8 @@
       "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-06-03T04:24:08.744524Z",
-      "last_attempted": "2026-06-03T04:24:08.744524Z",
+      "last_ok": "2026-06-03T11:05:09.045540Z",
+      "last_attempted": "2026-06-03T11:05:09.045540Z",
       "record_count": 34,
       "ok": true,
       "errors": []
@@ -213,82 +211,28 @@
       "url": "https://web.archive.org/cdx/search/cdx",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-06-03T04:24:12.234800Z",
-      "last_attempted": "2026-06-03T04:24:12.234800Z",
-      "record_count": 2,
-      "ok": true,
+      "last_ok": null,
+      "last_attempted": "2026-06-03T11:05:12.248376Z",
+      "record_count": 0,
+      "ok": false,
       "errors": [
-        "Coinbase: GET https://web.archive.org/cdx/search/cdx failed: The read operation timed out",
-        "Robinhood: GET https://web.archive.org/cdx/search/cdx failed: The read operation timed out",
+        "Stripe: GET https://web.archive.org/cdx/search/cdx failed: The read operation timed out",
+        "Airbnb: GET https://web.archive.org/cdx/search/cdx failed: The read operation timed out",
+        "Coinbase: GET https://web.archive.org/cdx/search/cdx failed: Server error '503 Service Unavailable' for url 'https://web.archive.org/cdx/search/cdx?url=coinbase.com%2Fcareers&from=20260305&to=20260603&output=json&limit=200&fl=timestamp&collapse=timestamp%3A8'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503",
+        "Robinhood: GET https://web.archive.org/cdx/search/cdx failed: Server error '503 Service Unavailable' for url 'https://web.archive.org/cdx/search/cdx?url=robinhood.com%2Fcareers&from=20260305&to=20260603&output=json&limit=200&fl=timestamp&collapse=timestamp%3A8'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503",
+        "Reddit: GET https://web.archive.org/cdx/search/cdx failed: timed out",
+        "DoorDash: GET https://web.archive.org/cdx/search/cdx failed: The read operation timed out",
+        "Instacart: GET https://web.archive.org/cdx/search/cdx failed: timed out",
+        "Pinterest: GET https://web.archive.org/cdx/search/cdx failed: timed out",
         "Discord: GET https://web.archive.org/cdx/search/cdx failed: timed out",
-        "GitLab: GET https://web.archive.org/cdx/search/cdx failed: The read operation timed out",
-        "HashiCorp: GET https://web.archive.org/cdx/search/cdx failed: timed out",
-        "Cloudflare: GET https://web.archive.org/cdx/search/cdx failed: timed out",
-        "Anthropic: GET https://web.archive.org/cdx/search/cdx failed: timed out",
-        "OpenAI: GET https://web.archive.org/cdx/search/cdx failed: timed out",
-        "Scale AI: GET https://web.archive.org/cdx/search/cdx failed: timed out",
-        "Notion: GET https://web.archive.org/cdx/search/cdx failed: timed out"
+        "GitLab: GET https://web.archive.org/cdx/search/cdx failed: timed out"
       ]
     }
   ],
   "recent_signals": [
     {
-      "id": "a4f349909116cb3e",
-      "ts": "2026-06-03T04:24:49.653369Z",
-      "source": "wayback",
-      "source_url": "https://web.archive.org/web/*/instacart.com/careers",
-      "type": "macro",
-      "company": {
-        "name": "Instacart",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": 1.0,
-      "unit": "snapshots/90d",
-      "raw_text": "Instacart careers page: 1 archived snapshots in 90 days",
-      "tags": [
-        "careers_activity",
-        "wayback",
-        "technology"
-      ],
-      "extras": {
-        "careers_url": "instacart.com/careers",
-        "snapshots_90d": 1
-      }
-    },
-    {
-      "id": "5af23d30b91476b7",
-      "ts": "2026-06-03T04:24:23.028354Z",
-      "source": "wayback",
-      "source_url": "https://web.archive.org/web/*/airbnb.com/careers",
-      "type": "macro",
-      "company": {
-        "name": "Airbnb",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": 12.0,
-      "unit": "snapshots/90d",
-      "raw_text": "Airbnb careers page: 12 archived snapshots in 90 days",
-      "tags": [
-        "careers_activity",
-        "wayback",
-        "technology"
-      ],
-      "extras": {
-        "careers_url": "airbnb.com/careers",
-        "snapshots_90d": 12
-      }
-    },
-    {
       "id": "25eac0b3e7b3056a",
-      "ts": "2026-06-03T04:24:12.234689Z",
+      "ts": "2026-06-03T11:05:12.248315Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Spotify",
       "type": "attention",
@@ -317,7 +261,7 @@
     },
     {
       "id": "697504712662e737",
-      "ts": "2026-06-03T04:24:12.136181Z",
+      "ts": "2026-06-03T11:05:12.166886Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Glossier",
       "type": "attention",
@@ -346,7 +290,7 @@
     },
     {
       "id": "7fe3d2009928375f",
-      "ts": "2026-06-03T04:24:12.029265Z",
+      "ts": "2026-06-03T11:05:12.077633Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Allbirds",
       "type": "attention",
@@ -375,7 +319,7 @@
     },
     {
       "id": "0d320cc666e4336b",
-      "ts": "2026-06-03T04:24:11.927139Z",
+      "ts": "2026-06-03T11:05:11.986490Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Warby_Parker",
       "type": "attention",
@@ -404,7 +348,7 @@
     },
     {
       "id": "db20a1bed7321d7f",
-      "ts": "2026-06-03T04:24:11.831053Z",
+      "ts": "2026-06-03T11:05:11.895623Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Oscar_Health",
       "type": "attention",
@@ -433,7 +377,7 @@
     },
     {
       "id": "221e302c38ecbfb4",
-      "ts": "2026-06-03T04:24:11.736080Z",
+      "ts": "2026-06-03T11:05:11.801321Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Hims_&_Hers",
       "type": "attention",
@@ -462,7 +406,7 @@
     },
     {
       "id": "dbb242bf7d35d748",
-      "ts": "2026-06-03T04:24:11.630270Z",
+      "ts": "2026-06-03T11:05:11.716682Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Cursor",
       "type": "attention",
@@ -491,7 +435,7 @@
     },
     {
       "id": "4ed4a132d6789b3b",
-      "ts": "2026-06-03T04:24:11.526948Z",
+      "ts": "2026-06-03T11:05:11.619333Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Perplexity_AI",
       "type": "attention",
@@ -520,7 +464,7 @@
     },
     {
       "id": "19096fd6d3966e8d",
-      "ts": "2026-06-03T04:24:11.423687Z",
+      "ts": "2026-06-03T11:05:11.533427Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Replicate",
       "type": "attention",
@@ -549,7 +493,7 @@
     },
     {
       "id": "f6da40256365088f",
-      "ts": "2026-06-03T04:24:11.320535Z",
+      "ts": "2026-06-03T11:05:11.436909Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Vercel",
       "type": "attention",
@@ -578,7 +522,7 @@
     },
     {
       "id": "8fd2d4427db6ee3b",
-      "ts": "2026-06-03T04:24:11.220452Z",
+      "ts": "2026-06-03T11:05:11.342290Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Linear",
       "type": "attention",
@@ -607,7 +551,7 @@
     },
     {
       "id": "a8f7ee1b7b7ab3ca",
-      "ts": "2026-06-03T04:24:11.117976Z",
+      "ts": "2026-06-03T11:05:11.248375Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Mercury",
       "type": "attention",
@@ -636,7 +580,7 @@
     },
     {
       "id": "e79390210b1f2849",
-      "ts": "2026-06-03T04:24:11.005716Z",
+      "ts": "2026-06-03T11:05:11.153969Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Ramp",
       "type": "attention",
@@ -665,7 +609,7 @@
     },
     {
       "id": "716e3a550ad76807",
-      "ts": "2026-06-03T04:24:10.905976Z",
+      "ts": "2026-06-03T11:05:11.055976Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Plaid",
       "type": "attention",
@@ -694,7 +638,7 @@
     },
     {
       "id": "a58ab0a02fafeb05",
-      "ts": "2026-06-03T04:24:10.801012Z",
+      "ts": "2026-06-03T11:05:10.964410Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Brex",
       "type": "attention",
@@ -723,7 +667,7 @@
     },
     {
       "id": "5e8da48517adf668",
-      "ts": "2026-06-03T04:24:10.694719Z",
+      "ts": "2026-06-03T11:05:10.871489Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Databricks",
       "type": "attention",
@@ -752,7 +696,7 @@
     },
     {
       "id": "90cc481a7d4ebe9d",
-      "ts": "2026-06-03T04:24:10.593049Z",
+      "ts": "2026-06-03T11:05:10.771752Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Snowflake",
       "type": "attention",
@@ -781,7 +725,7 @@
     },
     {
       "id": "644056f6c1a158e5",
-      "ts": "2026-06-03T04:24:10.495937Z",
+      "ts": "2026-06-03T11:05:10.681259Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Figma",
       "type": "attention",
@@ -810,7 +754,7 @@
     },
     {
       "id": "43228182794bbc7f",
-      "ts": "2026-06-03T04:24:10.391540Z",
+      "ts": "2026-06-03T11:05:10.598917Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Notion",
       "type": "attention",
@@ -839,7 +783,7 @@
     },
     {
       "id": "fb69e67d1c9d2e84",
-      "ts": "2026-06-03T04:24:10.291466Z",
+      "ts": "2026-06-03T11:05:10.500641Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Scale_AI",
       "type": "attention",
@@ -868,7 +812,7 @@
     },
     {
       "id": "514d2b4331f727d9",
-      "ts": "2026-06-03T04:24:10.191718Z",
+      "ts": "2026-06-03T11:05:10.408537Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/OpenAI",
       "type": "attention",
@@ -897,7 +841,7 @@
     },
     {
       "id": "205f5a6fe0f507e7",
-      "ts": "2026-06-03T04:24:10.087186Z",
+      "ts": "2026-06-03T11:05:10.317766Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Anthropic",
       "type": "attention",
@@ -926,7 +870,7 @@
     },
     {
       "id": "7bf558852253bf5a",
-      "ts": "2026-06-03T04:24:09.981187Z",
+      "ts": "2026-06-03T11:05:10.228199Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Cloudflare",
       "type": "attention",
@@ -955,7 +899,7 @@
     },
     {
       "id": "3e761bae14844793",
-      "ts": "2026-06-03T04:24:09.885688Z",
+      "ts": "2026-06-03T11:05:10.134052Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/HashiCorp",
       "type": "attention",
@@ -984,7 +928,7 @@
     },
     {
       "id": "1052b601e776b910",
-      "ts": "2026-06-03T04:24:09.787446Z",
+      "ts": "2026-06-03T11:05:10.036526Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/GitLab",
       "type": "attention",
@@ -1013,7 +957,7 @@
     },
     {
       "id": "ab27ac6cab5c9144",
-      "ts": "2026-06-03T04:24:09.681602Z",
+      "ts": "2026-06-03T11:05:09.942475Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Discord",
       "type": "attention",
@@ -1042,7 +986,7 @@
     },
     {
       "id": "9f5e776b9332c168",
-      "ts": "2026-06-03T04:24:09.580222Z",
+      "ts": "2026-06-03T11:05:09.842931Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Pinterest",
       "type": "attention",
@@ -1071,7 +1015,7 @@
     },
     {
       "id": "936b2dbc67a2f233",
-      "ts": "2026-06-03T04:24:09.479903Z",
+      "ts": "2026-06-03T11:05:09.753430Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Instacart",
       "type": "attention",
@@ -1100,7 +1044,7 @@
     },
     {
       "id": "36b4641ba3c7ed6b",
-      "ts": "2026-06-03T04:24:09.379679Z",
+      "ts": "2026-06-03T11:05:09.665001Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/DoorDash",
       "type": "attention",
@@ -1129,7 +1073,7 @@
     },
     {
       "id": "0a857203a686fb68",
-      "ts": "2026-06-03T04:24:09.281660Z",
+      "ts": "2026-06-03T11:05:09.574679Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Reddit",
       "type": "attention",
@@ -1158,7 +1102,7 @@
     },
     {
       "id": "70efb38c43d369ec",
-      "ts": "2026-06-03T04:24:09.185000Z",
+      "ts": "2026-06-03T11:05:09.491009Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Robinhood",
       "type": "attention",
@@ -1187,7 +1131,7 @@
     },
     {
       "id": "eb33c33a32841105",
-      "ts": "2026-06-03T04:24:09.069526Z",
+      "ts": "2026-06-03T11:05:09.398599Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Coinbase",
       "type": "attention",
@@ -1216,7 +1160,7 @@
     },
     {
       "id": "6bb42a9f7f7a65ae",
-      "ts": "2026-06-03T04:24:08.969603Z",
+      "ts": "2026-06-03T11:05:09.304203Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Airbnb",
       "type": "attention",
@@ -1245,7 +1189,7 @@
     },
     {
       "id": "1081824ef00b169d",
-      "ts": "2026-06-03T04:24:08.874499Z",
+      "ts": "2026-06-03T11:05:09.221024Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Stripe",
       "type": "attention",
@@ -1273,10 +1217,189 @@
       }
     },
     {
-      "id": "b36c752f5ca474b8",
-      "ts": "2026-06-03T00:07:23-04:00",
+      "id": "96f4efa837e283f5",
+      "ts": "2026-06-03T06:26:54-04:00",
       "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/anthropic/jobs/5189008008",
+      "source_url": "https://boards.greenhouse.io/figma/jobs/5565921004?gh_jid=5565921004",
+      "type": "posting",
+      "company": {
+        "name": "Figma",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Figma | Account Executive, Strategic (Paris, France) | Paris, France",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "Sales"
+      ],
+      "extras": {
+        "role": "Account Executive, Strategic (Paris, France)",
+        "location": "Paris, France",
+        "function": "Sales",
+        "soc": "41-3091",
+        "seniority": "mid"
+      }
+    },
+    {
+      "id": "4cd499b4e39d1428",
+      "ts": "2026-06-03T05:17:54-04:00",
+      "source": "greenhouse",
+      "source_url": "https://boards.greenhouse.io/cloudflare/jobs/7956851?gh_jid=7956851",
+      "type": "posting",
+      "company": {
+        "name": "Cloudflare",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Cloudflare | Customer Engineer, Digital Native | Hybrid",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology"
+      ],
+      "extras": {
+        "role": "Customer Engineer, Digital Native",
+        "location": "Hybrid",
+        "seniority": "mid"
+      }
+    },
+    {
+      "id": "846fc544c9a317ba",
+      "ts": "2026-06-03T05:02:56-04:00",
+      "source": "greenhouse",
+      "source_url": "https://careers.airbnb.com/positions/7974519?gh_jid=7974519",
+      "type": "posting",
+      "company": {
+        "name": "Airbnb",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Airbnb | Senior Social Lead, India | India",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology"
+      ],
+      "extras": {
+        "role": "Senior Social Lead, India",
+        "location": "India",
+        "seniority": "senior",
+        "stack": [
+          "spark"
+        ]
+      }
+    },
+    {
+      "id": "60fc50d03f18e3bc",
+      "ts": "2026-06-03T04:59:01-04:00",
+      "source": "greenhouse",
+      "source_url": "https://www.pinterestcareers.com/jobs/?gh_jid=7871244",
+      "type": "posting",
+      "company": {
+        "name": "Pinterest",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": "CA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Pinterest | Go-to-Market Strategy & Insights Lead | San Francisco, CA, US; Remote, US",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "CA"
+      ],
+      "extras": {
+        "role": "Go-to-Market Strategy & Insights Lead",
+        "location": "San Francisco, CA, US; Remote, US",
+        "seniority": "lead",
+        "stack": [
+          "go"
+        ]
+      }
+    },
+    {
+      "id": "83775f5eb2884a0d",
+      "ts": "2026-06-03T04:51:47-04:00",
+      "source": "greenhouse",
+      "source_url": "https://stripe.com/jobs/search?gh_jid=7963763",
+      "type": "posting",
+      "company": {
+        "name": "Stripe",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": "OR",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Stripe | Finance and Strategy Analyst | Dublin OR London",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "OR"
+      ],
+      "extras": {
+        "role": "Finance and Strategy Analyst",
+        "location": "Dublin OR London",
+        "seniority": "mid"
+      }
+    },
+    {
+      "id": "9ed691ae78b5c9a9",
+      "ts": "2026-06-03T03:56:44-04:00",
+      "source": "greenhouse",
+      "source_url": "https://boards.greenhouse.io/robinhood/jobs/7914059?t=gh_src=&gh_jid=7914059",
+      "type": "posting",
+      "company": {
+        "name": "Robinhood",
+        "ticker": null,
+        "industry": null,
+        "sector": "Finance",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Robinhood | Deputy CCO - Sanctions Officer | Vilnius, Lithuania",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "finance"
+      ],
+      "extras": {
+        "role": "Deputy CCO - Sanctions Officer",
+        "location": "Vilnius, Lithuania",
+        "seniority": "mid"
+      }
+    },
+    {
+      "id": "0c2fa3a9b01a1b9c",
+      "ts": "2026-06-03T03:00:58-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/anthropic/jobs/5116820008",
       "type": "posting",
       "company": {
         "name": "Anthropic",
@@ -1288,20 +1411,23 @@
       },
       "magnitude": null,
       "unit": "jobs",
-      "raw_text": "Anthropic | Real Estate Program Coordinator | San Francisco, CA",
+      "raw_text": "Anthropic | Data Scientist, Platform Product | New York City, NY | Seattle, WA; San Francisco, CA",
       "tags": [
         "hiring",
         "greenhouse",
         "technology",
         "CA",
-        "Operations"
+        "Data / ML"
       ],
       "extras": {
-        "role": "Real Estate Program Coordinator",
-        "location": "San Francisco, CA",
-        "function": "Operations",
-        "soc": "11-1021",
-        "seniority": "mid"
+        "role": "Data Scientist, Platform Product",
+        "location": "New York City, NY | Seattle, WA; San Francisco, CA",
+        "function": "Data / ML",
+        "soc": "15-2051",
+        "seniority": "mid",
+        "stack": [
+          "go"
+        ]
       }
     },
     {
@@ -1452,6 +1578,790 @@
       }
     },
     {
+      "id": "1ba9a89166ac40fd",
+      "ts": "2026-06-03T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2138383&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "Fluid Tech SAFE SPV LLC ",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Fluid Tech SAFE SPV LLC  \u2014 SEC filing 0002138383-26-000001 (funding) on 2026-06-03",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002138383-26-000001",
+        "cik": "0002138383",
+        "file_date": "2026-06-03"
+      }
+    },
+    {
+      "id": "6107f33c2ce3e9ad",
+      "ts": "2026-06-03T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2138359&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "PLENTI LLC ",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "PLENTI LLC  \u2014 SEC filing 0002138359-26-000001 (funding) on 2026-06-03",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002138359-26-000001",
+        "cik": "0002138359",
+        "file_date": "2026-06-03"
+      }
+    },
+    {
+      "id": "6742fea535b958af",
+      "ts": "2026-06-03T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2138133&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "Ardego Therapeutics, Inc. ",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Ardego Therapeutics, Inc.  \u2014 SEC filing 0002138133-26-000001 (funding) on 2026-06-03",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002138133-26-000001",
+        "cik": "0002138133",
+        "file_date": "2026-06-03"
+      }
+    },
+    {
+      "id": "4a399cf166c73e22",
+      "ts": "2026-06-03T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2137929&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "i3 Specialty, Inc. ",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "i3 Specialty, Inc.  \u2014 SEC filing 0002137929-26-000001 (funding) on 2026-06-03",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002137929-26-000001",
+        "cik": "0002137929",
+        "file_date": "2026-06-03"
+      }
+    },
+    {
+      "id": "58dee06c2127b95b",
+      "ts": "2026-06-03T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2137857&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "Dexterity, Inc. ",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Dexterity, Inc.  \u2014 SEC filing 0002137857-26-000001 (funding) on 2026-06-03",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002137857-26-000001",
+        "cik": "0002137857",
+        "file_date": "2026-06-03"
+      }
+    },
+    {
+      "id": "bdd030ac0d31966a",
+      "ts": "2026-06-03T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2137825&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "SouthBoston MA Holdings, LLC ",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "SouthBoston MA Holdings, LLC  \u2014 SEC filing 0002137825-26-000001 (funding) on 2026-06-03",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002137825-26-000001",
+        "cik": "0002137825",
+        "file_date": "2026-06-03"
+      }
+    },
+    {
+      "id": "810602a74b01e9b1",
+      "ts": "2026-06-03T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2137778&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "PI II- SB Angel Fund, LP ",
+        "ticker": null,
+        "industry": null,
+        "sector": "Manufacturing",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "PI II- SB Angel Fund, LP  \u2014 SEC filing 0002137778-26-000001 (funding) on 2026-06-03",
+      "tags": [
+        "funding",
+        "form_d",
+        "manufacturing"
+      ],
+      "extras": {
+        "adsh": "0002137778-26-000001",
+        "cik": "0002137778",
+        "file_date": "2026-06-03"
+      }
+    },
+    {
+      "id": "cb68d4696e7bfc56",
+      "ts": "2026-06-03T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2137716&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "Sthira Capital LLC ",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Sthira Capital LLC  \u2014 SEC filing 0002137716-26-000001 (funding) on 2026-06-03",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002137716-26-000001",
+        "cik": "0002137716",
+        "file_date": "2026-06-03"
+      }
+    },
+    {
+      "id": "c71b4f2b1913ca47",
+      "ts": "2026-06-03T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2136821&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "Browder-YU-0515 Fund I, a series of Platform Funds 2026, LP ",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Browder-YU-0515 Fund I, a series of Platform Funds 2026, LP  \u2014 SEC filing 0002136821-26-000001 (funding) on 2026-06-03",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002136821-26-000001",
+        "cik": "0002136821",
+        "file_date": "2026-06-03"
+      }
+    },
+    {
+      "id": "8dda615d37553b11",
+      "ts": "2026-06-03T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2136359&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "CSR Leasehold II, LP ",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "CSR Leasehold II, LP  \u2014 SEC filing 0002136359-26-000001 (funding) on 2026-06-03",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002136359-26-000001",
+        "cik": "0002136359",
+        "file_date": "2026-06-03"
+      }
+    },
+    {
+      "id": "5516ba98e19f2244",
+      "ts": "2026-06-03T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2134400&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "Oro Valley ALC LLC ",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Oro Valley ALC LLC  \u2014 SEC filing 0002134400-26-000001 (funding) on 2026-06-03",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002134400-26-000001",
+        "cik": "0002134400",
+        "file_date": "2026-06-03"
+      }
+    },
+    {
+      "id": "769f415685e7ee70",
+      "ts": "2026-06-03T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2134059&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "Builders-ST-0501 Fund I, a series of Platform Funds 2026, LP ",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Builders-ST-0501 Fund I, a series of Platform Funds 2026, LP  \u2014 SEC filing 0002134059-26-000001 (funding) on 2026-06-03",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002134059-26-000001",
+        "cik": "0002134059",
+        "file_date": "2026-06-03"
+      }
+    },
+    {
+      "id": "cd00161bae413e4a",
+      "ts": "2026-06-03T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2133951&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "Smart Society Ventures Fund LLC - Series 3 ",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Smart Society Ventures Fund LLC - Series 3  \u2014 SEC filing 0002133951-26-000001 (funding) on 2026-06-03",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002133951-26-000001",
+        "cik": "0002133951",
+        "file_date": "2026-06-03"
+      }
+    },
+    {
+      "id": "41ea9be753a9caf6",
+      "ts": "2026-06-03T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2132788&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "Voyadoc Inc. ",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Voyadoc Inc.  \u2014 SEC filing 0002132788-26-000001 (funding) on 2026-06-03",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002132788-26-000001",
+        "cik": "0002132788",
+        "file_date": "2026-06-03"
+      }
+    },
+    {
+      "id": "23b9d9ddfe50e549",
+      "ts": "2026-06-03T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2131626&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "HPA Karoo Health Investment, LLC ",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "HPA Karoo Health Investment, LLC  \u2014 SEC filing 0002131626-26-000001 (funding) on 2026-06-03",
+      "tags": [
+        "funding",
+        "form_d",
+        "technology"
+      ],
+      "extras": {
+        "adsh": "0002131626-26-000001",
+        "cik": "0002131626",
+        "file_date": "2026-06-03"
+      }
+    },
+    {
+      "id": "ebcb6ee9fe6c3c23",
+      "ts": "2026-06-03T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2128803&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "Quel Health, Inc. ",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Quel Health, Inc.  \u2014 SEC filing 0002128803-26-000003 (funding) on 2026-06-03",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002128803-26-000003",
+        "cik": "0002128803",
+        "file_date": "2026-06-03"
+      }
+    },
+    {
+      "id": "f0543061c52ac938",
+      "ts": "2026-06-03T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2122610&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "BU-0304 Fund III, a series of JMWTX Investments, LP ",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "BU-0304 Fund III, a series of JMWTX Investments, LP  \u2014 SEC filing 0002122610-26-000001 (funding) on 2026-06-03",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002122610-26-000001",
+        "cik": "0002122610",
+        "file_date": "2026-06-03"
+      }
+    },
+    {
+      "id": "f0951216797fb479",
+      "ts": "2026-06-03T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2115675&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "JU-0218 Fund I, a series of Exitfund Venture, LP ",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "JU-0218 Fund I, a series of Exitfund Venture, LP  \u2014 SEC filing 0002115675-26-000001 (funding) on 2026-06-03",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002115675-26-000001",
+        "cik": "0002115675",
+        "file_date": "2026-06-03"
+      }
+    },
+    {
+      "id": "47df919fedfa3935",
+      "ts": "2026-06-03T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2082846&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "HPA 2025 PR Investment, LLC ",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "HPA 2025 PR Investment, LLC  \u2014 SEC filing 0002082846-26-000002 (funding) on 2026-06-03",
+      "tags": [
+        "funding",
+        "form_d",
+        "technology"
+      ],
+      "extras": {
+        "adsh": "0002082846-26-000002",
+        "cik": "0002082846",
+        "file_date": "2026-06-03"
+      }
+    },
+    {
+      "id": "67d0ae22f794c0a1",
+      "ts": "2026-06-03T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2045979&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "CHANNEL ROBOTICS, INC. ",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "CHANNEL ROBOTICS, INC.  \u2014 SEC filing 0002045979-26-000002 (funding) on 2026-06-03",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002045979-26-000002",
+        "cik": "0002045979",
+        "file_date": "2026-06-03"
+      }
+    },
+    {
+      "id": "d20a269a105d4130",
+      "ts": "2026-06-03T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2042304&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "3Spoke Liquidity Partners, LP ",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "3Spoke Liquidity Partners, LP  \u2014 SEC filing 0002042304-26-000002 (funding) on 2026-06-03",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002042304-26-000002",
+        "cik": "0002042304",
+        "file_date": "2026-06-03"
+      }
+    },
+    {
+      "id": "dfce4dfcbcb5cd3b",
+      "ts": "2026-06-03T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1818286&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "Perimeter Medical Imaging AI, Inc. ",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Perimeter Medical Imaging AI, Inc.  \u2014 SEC filing 0001818286-26-000002 (funding) on 2026-06-03",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0001818286-26-000002",
+        "cik": "0001818286",
+        "file_date": "2026-06-03"
+      }
+    },
+    {
+      "id": "f253e8795761a531",
+      "ts": "2026-06-03T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1813513&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "Atlas Institutional Equity Fund, L.P. ",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Atlas Institutional Equity Fund, L.P.  \u2014 SEC filing 0001813513-26-000001 (funding) on 2026-06-03",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0001813513-26-000001",
+        "cik": "0001813513",
+        "file_date": "2026-06-03"
+      }
+    },
+    {
+      "id": "52d0eb20ef105987",
+      "ts": "2026-06-03T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2137513&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "Logos Odin, L.P. ",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Logos Odin, L.P.  \u2014 SEC filing 0001470831-26-000498 (funding) on 2026-06-03",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0001470831-26-000498",
+        "cik": "0002137513",
+        "file_date": "2026-06-03"
+      }
+    },
+    {
+      "id": "1e24a4bf2cefceb3",
+      "ts": "2026-06-03T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2137616&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "Brown Advisory Investors 2026 - Venture Capital Feeder Fund - AI, LLLP ",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Brown Advisory Investors 2026 - Venture Capital Feeder Fund - AI, LLLP  \u2014 SEC filing 0001231919-26-000593 (funding) on 2026-06-03",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0001231919-26-000593",
+        "cik": "0002137616",
+        "file_date": "2026-06-03"
+      }
+    },
+    {
+      "id": "37a731d735af312b",
+      "ts": "2026-06-03T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2138005&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "Know Kancer, Inc. ",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Know Kancer, Inc.  \u2014 SEC filing 0001199835-26-000224 (funding) on 2026-06-03",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0001199835-26-000224",
+        "cik": "0002138005",
+        "file_date": "2026-06-03"
+      }
+    },
+    {
+      "id": "0c82f300b4d0d322",
+      "ts": "2026-06-03T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2136326&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "AI Select Fund of Funds 2025, L.P. ",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "AI Select Fund of Funds 2025, L.P.  \u2014 SEC filing 0001012975-26-000515 (funding) on 2026-06-03",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0001012975-26-000515",
+        "cik": "0002136326",
+        "file_date": "2026-06-03"
+      }
+    },
+    {
+      "id": "ce4c7ca179ee33d9",
+      "ts": "2026-06-03T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2136247&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "Waverley AI Holdings, L.P. ",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Waverley AI Holdings, L.P.  \u2014 SEC filing 0001012975-26-000514 (funding) on 2026-06-03",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0001012975-26-000514",
+        "cik": "0002136247",
+        "file_date": "2026-06-03"
+      }
+    },
+    {
       "id": "f86a6b7666e021c1",
       "ts": "2026-06-02T18:15:31-04:00",
       "source": "greenhouse",
@@ -1514,6 +2424,30 @@
         "location": "San Francisco, CA, New York, NY, Portland, OR, or Remote within United States",
         "seniority": "c_level"
       }
+    },
+    {
+      "id": "828970c8a27c514f",
+      "ts": "2026-06-02T21:38:00Z",
+      "source": "news_layoffs",
+      "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQSWd0MG1DNmh3LWJSX2FjU3dkZk80ekl1U1lFdUM5QjNObUF3SWw2bFcyT0tIaHB4aUdHT2huRWhsamRHTXR5d1prRFNOYS1vMWlVZ2tsVm8zWHVwMFZ3dFlmVU9ZcjlkTHlwTC1OOU1HZmpyNTV3MDBwWjR2VXhpY2dmb1BNaTVzSWVscDV1Z1BhUUE0NDNDcF95dUhHTVFGQjZCcHE4QWN0ZEZQT2V5YWR2WFk?oc=5",
+      "type": "layoff",
+      "company": {
+        "name": "Hollywood Feed",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": "TN",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Hollywood Feed announces Memphis layoffs",
+      "tags": [
+        "layoff",
+        "other",
+        "TN"
+      ],
+      "extras": {}
     },
     {
       "id": "7007cfc96863c40c",
@@ -2191,952 +3125,28 @@
         "cik": "0002138229",
         "file_date": "2026-06-02"
       }
-    },
-    {
-      "id": "80953dd6d9e1cdae",
-      "ts": "2026-06-02T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2138210&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "CFO AI, Inc. ",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "CFO AI, Inc.  \u2014 SEC filing 0002138210-26-000001 (funding) on 2026-06-02",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0002138210-26-000001",
-        "cik": "0002138210",
-        "file_date": "2026-06-02"
-      }
-    },
-    {
-      "id": "c26819a3e29a0983",
-      "ts": "2026-06-02T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2138173&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "Hew-Tex/Bakken Sioux Trail II Joint Venture ",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Hew-Tex/Bakken Sioux Trail II Joint Venture  \u2014 SEC filing 0002138173-26-000001 (funding) on 2026-06-02",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0002138173-26-000001",
-        "cik": "0002138173",
-        "file_date": "2026-06-02"
-      }
-    },
-    {
-      "id": "a22cedf37d838c76",
-      "ts": "2026-06-02T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2138172&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "VP Modern Way LWSK, LLC ",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "VP Modern Way LWSK, LLC  \u2014 SEC filing 0002138172-26-000001 (funding) on 2026-06-02",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0002138172-26-000001",
-        "cik": "0002138172",
-        "file_date": "2026-06-02"
-      }
-    },
-    {
-      "id": "63ef7702305a04f9",
-      "ts": "2026-06-02T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2138169&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "Undeterred Capital III, LP ",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Undeterred Capital III, LP  \u2014 SEC filing 0002138169-26-000001 (funding) on 2026-06-02",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0002138169-26-000001",
-        "cik": "0002138169",
-        "file_date": "2026-06-02"
-      }
-    },
-    {
-      "id": "d9f7ddc4af6967cf",
-      "ts": "2026-06-02T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2138098&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "Sycamore Honey Partners IV LLC ",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Sycamore Honey Partners IV LLC  \u2014 SEC filing 0002138098-26-000001 (funding) on 2026-06-02",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0002138098-26-000001",
-        "cik": "0002138098",
-        "file_date": "2026-06-02"
-      }
-    },
-    {
-      "id": "30a7713128dbd370",
-      "ts": "2026-06-02T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2138060&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "North40 Sound View Development Fund LLC ",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "North40 Sound View Development Fund LLC  \u2014 SEC filing 0002138060-26-000001 (funding) on 2026-06-02",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0002138060-26-000001",
-        "cik": "0002138060",
-        "file_date": "2026-06-02"
-      }
-    },
-    {
-      "id": "f7f4c8317537a877",
-      "ts": "2026-06-02T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2138017&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "Cosknorr Properties, LLC ",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Cosknorr Properties, LLC  \u2014 SEC filing 0002138017-26-000002 (funding) on 2026-06-02",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0002138017-26-000002",
-        "cik": "0002138017",
-        "file_date": "2026-06-02"
-      }
-    },
-    {
-      "id": "e8e426da40c65552",
-      "ts": "2026-06-02T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2138014&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "Fellowship Carolina Park Holdco, LLC ",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Fellowship Carolina Park Holdco, LLC  \u2014 SEC filing 0002138014-26-000001 (funding) on 2026-06-02",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0002138014-26-000001",
-        "cik": "0002138014",
-        "file_date": "2026-06-02"
-      }
-    },
-    {
-      "id": "eb802950209186a0",
-      "ts": "2026-06-02T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2137969&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "Lancaster Avenue J Limited Partnership ",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Lancaster Avenue J Limited Partnership  \u2014 SEC filing 0002137969-26-000001 (funding) on 2026-06-02",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0002137969-26-000001",
-        "cik": "0002137969",
-        "file_date": "2026-06-02"
-      }
-    },
-    {
-      "id": "ae8a54a18e183b5f",
-      "ts": "2026-06-02T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2137952&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "Radar Midtown LLC ",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Radar Midtown LLC  \u2014 SEC filing 0002137952-26-000001 (funding) on 2026-06-02",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0002137952-26-000001",
-        "cik": "0002137952",
-        "file_date": "2026-06-02"
-      }
-    },
-    {
-      "id": "4c1ee93f9be141ed",
-      "ts": "2026-06-02T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2137912&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "Peerwise Medical, Corp. ",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Peerwise Medical, Corp.  \u2014 SEC filing 0002137912-26-000001 (funding) on 2026-06-02",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0002137912-26-000001",
-        "cik": "0002137912",
-        "file_date": "2026-06-02"
-      }
-    },
-    {
-      "id": "5c0bb836036537ac",
-      "ts": "2026-06-02T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2137905&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "Stripes VII Slate Co-Invest, LP ",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Stripes VII Slate Co-Invest, LP  \u2014 SEC filing 0002137905-26-000001 (funding) on 2026-06-02",
-      "tags": [
-        "funding",
-        "form_d",
-        "technology"
-      ],
-      "extras": {
-        "adsh": "0002137905-26-000001",
-        "cik": "0002137905",
-        "file_date": "2026-06-02"
-      }
-    },
-    {
-      "id": "cae7749a6db1db4c",
-      "ts": "2026-06-02T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2137893&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "LAW OFFICES OF COREY D. BODDIE, ESQ. LLC ",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "LAW OFFICES OF COREY D. BODDIE, ESQ. LLC  \u2014 SEC filing 0002137893-26-000001 (funding) on 2026-06-02",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0002137893-26-000001",
-        "cik": "0002137893",
-        "file_date": "2026-06-02"
-      }
-    },
-    {
-      "id": "7aeae4d7c2b3fcf6",
-      "ts": "2026-06-02T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2137859&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "Maykr Inc ",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Maykr Inc  \u2014 SEC filing 0002137859-26-000001 (funding) on 2026-06-02",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0002137859-26-000001",
-        "cik": "0002137859",
-        "file_date": "2026-06-02"
-      }
-    },
-    {
-      "id": "ca11b917c321bcee",
-      "ts": "2026-06-02T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2137822&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "DFY MICRO-OWNERSHIP Co 1, LLC ",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "DFY MICRO-OWNERSHIP Co 1, LLC  \u2014 SEC filing 0002137822-26-000001 (funding) on 2026-06-02",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0002137822-26-000001",
-        "cik": "0002137822",
-        "file_date": "2026-06-02"
-      }
-    },
-    {
-      "id": "68c935aedbabed55",
-      "ts": "2026-06-02T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2137761&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "Lavender SFR, LP ",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Lavender SFR, LP  \u2014 SEC filing 0002137761-26-000001 (funding) on 2026-06-02",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0002137761-26-000001",
-        "cik": "0002137761",
-        "file_date": "2026-06-02"
-      }
-    },
-    {
-      "id": "7abaf9d10b134691",
-      "ts": "2026-06-02T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2137543&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "Platinum Fos Principals International",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Platinum Fos Principals International \u2014 SEC filing 0002137543-26-000001 (funding) on 2026-06-02",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0002137543-26-000001",
-        "cik": "0002137543",
-        "file_date": "2026-06-02"
-      }
-    },
-    {
-      "id": "ccbb19613daf7db4",
-      "ts": "2026-06-02T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2137528&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "1375792 Canada Inc ",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "1375792 Canada Inc  \u2014 SEC filing 0002137528-26-000004 (funding) on 2026-06-02",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0002137528-26-000004",
-        "cik": "0002137528",
-        "file_date": "2026-06-02"
-      }
-    },
-    {
-      "id": "3ea9aba6a6274591",
-      "ts": "2026-06-02T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2137508&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "Lincoln Park 2026 Fund TE Feeder LP ",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Lincoln Park 2026 Fund TE Feeder LP  \u2014 SEC filing 0002137508-26-000001 (funding) on 2026-06-02",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0002137508-26-000001",
-        "cik": "0002137508",
-        "file_date": "2026-06-02"
-      }
-    },
-    {
-      "id": "64eaf2a1af042061",
-      "ts": "2026-06-02T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2137504&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "6601 PARK OF COMMERCE HOLDINGS LLLP ",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "6601 PARK OF COMMERCE HOLDINGS LLLP  \u2014 SEC filing 0002137504-26-000001 (funding) on 2026-06-02",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0002137504-26-000001",
-        "cik": "0002137504",
-        "file_date": "2026-06-02"
-      }
-    },
-    {
-      "id": "12077ae31d947e33",
-      "ts": "2026-06-02T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2137469&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "Aviation Equity LLC ",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Aviation Equity LLC  \u2014 SEC filing 0002137469-26-000001 (funding) on 2026-06-02",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0002137469-26-000001",
-        "cik": "0002137469",
-        "file_date": "2026-06-02"
-      }
-    },
-    {
-      "id": "bd42e2cbd30275eb",
-      "ts": "2026-06-02T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2137456&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "Paperboy Abstract LLC ",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Paperboy Abstract LLC  \u2014 SEC filing 0002137456-26-000001 (funding) on 2026-06-02",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0002137456-26-000001",
-        "cik": "0002137456",
-        "file_date": "2026-06-02"
-      }
-    },
-    {
-      "id": "32f2eb529b57ffd2",
-      "ts": "2026-06-02T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2137442&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "Paragon Park Apartments LLC ",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Paragon Park Apartments LLC  \u2014 SEC filing 0002137442-26-000002 (funding) on 2026-06-02",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0002137442-26-000002",
-        "cik": "0002137442",
-        "file_date": "2026-06-02"
-      }
-    },
-    {
-      "id": "54124fd903e53ded",
-      "ts": "2026-06-02T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2137421&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "8188 Capital 5th CIS 05 26 a Series of CGF2021 LLC ",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "8188 Capital 5th CIS 05 26 a Series of CGF2021 LLC  \u2014 SEC filing 0002137421-26-000001 (funding) on 2026-06-02",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0002137421-26-000001",
-        "cik": "0002137421",
-        "file_date": "2026-06-02"
-      }
-    },
-    {
-      "id": "70d7a18a2514e7c7",
-      "ts": "2026-06-02T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2137369&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "Alpha JWC Capital Partners V, L.P. ",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Alpha JWC Capital Partners V, L.P.  \u2014 SEC filing 0002137369-26-000001 (funding) on 2026-06-02",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0002137369-26-000001",
-        "cik": "0002137369",
-        "file_date": "2026-06-02"
-      }
-    },
-    {
-      "id": "63a137014b5bbcd8",
-      "ts": "2026-06-02T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2137319&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "PeriOp Ortho LLC ",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "PeriOp Ortho LLC  \u2014 SEC filing 0002137319-26-000001 (funding) on 2026-06-02",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0002137319-26-000001",
-        "cik": "0002137319",
-        "file_date": "2026-06-02"
-      }
-    },
-    {
-      "id": "86a2b78c9353cf14",
-      "ts": "2026-06-02T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2137260&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "NORD BLA FC I ACCESS, LLC ",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "NORD BLA FC I ACCESS, LLC  \u2014 SEC filing 0002137260-26-000001 (funding) on 2026-06-02",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0002137260-26-000001",
-        "cik": "0002137260",
-        "file_date": "2026-06-02"
-      }
-    },
-    {
-      "id": "2d9cf1cd6ab646d4",
-      "ts": "2026-06-02T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2137255&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "NUCLEAR CAPITAL PARTNERS SPV II LLC ",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "NUCLEAR CAPITAL PARTNERS SPV II LLC  \u2014 SEC filing 0002137255-26-000001 (funding) on 2026-06-02",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0002137255-26-000001",
-        "cik": "0002137255",
-        "file_date": "2026-06-02"
-      }
-    },
-    {
-      "id": "a989bae7fa12ebd6",
-      "ts": "2026-06-02T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2137184&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "CCV01PP a Series of CGF2021 LLC ",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "CCV01PP a Series of CGF2021 LLC  \u2014 SEC filing 0002137184-26-000001 (funding) on 2026-06-02",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0002137184-26-000001",
-        "cik": "0002137184",
-        "file_date": "2026-06-02"
-      }
-    },
-    {
-      "id": "1e0b1d66c1f2eb24",
-      "ts": "2026-06-02T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2137142&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "Enduring Climate Fund 2 LLC ",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Enduring Climate Fund 2 LLC  \u2014 SEC filing 0002137142-26-000001 (funding) on 2026-06-02",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0002137142-26-000001",
-        "cik": "0002137142",
-        "file_date": "2026-06-02"
-      }
-    },
-    {
-      "id": "3aff2377aea64abe",
-      "ts": "2026-06-02T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2137130&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "HOLYOKE HOLDINGS, LLC ",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "HOLYOKE HOLDINGS, LLC  \u2014 SEC filing 0002137130-26-000001 (funding) on 2026-06-02",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0002137130-26-000001",
-        "cik": "0002137130",
-        "file_date": "2026-06-02"
-      }
-    },
-    {
-      "id": "927d0c8d0fd0b52b",
-      "ts": "2026-06-02T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2137128&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "Reach V, L.P. ",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Reach V, L.P.  \u2014 SEC filing 0002137128-26-000001 (funding) on 2026-06-02",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0002137128-26-000001",
-        "cik": "0002137128",
-        "file_date": "2026-06-02"
-      }
-    },
-    {
-      "id": "2d769f8c012f0caf",
-      "ts": "2026-06-02T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2137111&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "Frisco Draw Farms III, LP ",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Frisco Draw Farms III, LP  \u2014 SEC filing 0002137111-26-000001 (funding) on 2026-06-02",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0002137111-26-000001",
-        "cik": "0002137111",
-        "file_date": "2026-06-02"
-      }
     }
   ],
   "sector_matrix": {
-    "generated_at": "2026-06-03T04:28:21.411965Z",
+    "generated_at": "2026-06-03T11:09:42.999129Z",
     "cells": [
       {
         "sector": "Technology",
         "signal_type": "layoff",
         "count_7d": 0,
-        "count_30d": 6,
+        "count_30d": 8,
         "magnitude_7d": null,
         "magnitude_30d": 8300.0,
-        "z_score": -1.18
+        "z_score": -1.37
       },
       {
         "sector": "Technology",
         "signal_type": "posting",
-        "count_7d": 58,
-        "count_30d": 178,
+        "count_7d": 63,
+        "count_30d": 183,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 2.56
+        "z_score": 3.11
       },
       {
         "sector": "Technology",
@@ -3150,11 +3160,11 @@
       {
         "sector": "Technology",
         "signal_type": "funding",
-        "count_7d": 2,
-        "count_30d": 2,
+        "count_7d": 3,
+        "count_30d": 3,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": null
+        "z_score": 2.3
       },
       {
         "sector": "Technology",
@@ -3168,20 +3178,20 @@
       {
         "sector": "Finance",
         "signal_type": "layoff",
-        "count_7d": 2,
-        "count_30d": 8,
+        "count_7d": 0,
+        "count_30d": 6,
         "magnitude_7d": null,
-        "magnitude_30d": 17000.0,
-        "z_score": 0.1
+        "magnitude_30d": 21800.0,
+        "z_score": -1.18
       },
       {
         "sector": "Finance",
         "signal_type": "posting",
         "count_7d": 10,
-        "count_30d": 14,
+        "count_30d": 15,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 3.73
+        "z_score": 3.47
       },
       {
         "sector": "Finance",
@@ -3330,11 +3340,11 @@
       {
         "sector": "Manufacturing",
         "signal_type": "funding",
-        "count_7d": 3,
-        "count_30d": 3,
+        "count_7d": 2,
+        "count_30d": 2,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 2.3
+        "z_score": null
       },
       {
         "sector": "Manufacturing",
@@ -3348,11 +3358,11 @@
       {
         "sector": "Retail",
         "signal_type": "layoff",
-        "count_7d": 2,
-        "count_30d": 10,
+        "count_7d": 1,
+        "count_30d": 4,
         "magnitude_7d": 1000.0,
-        "magnitude_30d": 4300.0,
-        "z_score": -0.22
+        "magnitude_30d": 2000.0,
+        "z_score": 0.07
       },
       {
         "sector": "Retail",
