@@ -1,3 +1,4 @@
+import { Suspense } from "react";
 import { getStream } from "@/lib/data";
 import { COLORS } from "@/app/_design/tokens";
 import { StreamPage } from "../_StreamPage";
@@ -5,6 +6,7 @@ import { StreamPage } from "../_StreamPage";
 export default function OrgMovesPage() {
   const stream = getStream("org-moves");
   return (
+    <Suspense fallback={null}>
     <StreamPage
       title="Org & Exec Moves"
       overline="SEC 8-K · Funding · M&A"
@@ -16,5 +18,6 @@ export default function OrgMovesPage() {
       ]}
       description="Executive appointment and departure filings from SEC 8-K Item 5.02 mandatory disclosures. Funding events from TechCrunch Venture RSS. All primary sources are public record."
     />
+    </Suspense>
   );
 }

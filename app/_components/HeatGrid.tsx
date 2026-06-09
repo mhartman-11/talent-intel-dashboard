@@ -1,8 +1,9 @@
 "use client";
 
 import { useState } from "react";
+import { useRouter } from "next/navigation";
 import { motion } from "framer-motion";
-import { SECTOR_ORDER, SIGNAL_ORDER, EVENT_COLOR, EVENT_LABEL } from "@/app/_design/tokens";
+import { SECTOR_ORDER, SIGNAL_ORDER, EVENT_COLOR, EVENT_LABEL, EVENT_DESC, SIGNAL_TO_STREAM } from "@/app/_design/tokens";
 import { staggerContainer, cardEntrance } from "@/app/_design/motion";
 import type { SectorMatrix } from "@/lib/types";
 
@@ -35,6 +36,20 @@ function cellColor(z: number | undefined | null, count7d: number, signalType: st
 
 export function HeatGrid({ matrix, onFilter }: HeatGridProps) {
   const [hovered, setHovered] = useState<string | null>(null);
+  const router = useRouter();
+
+  // Click a cell → drill into the matching stream, pre-filtered to that sector.
+  // (When used inside a stream page, the parent passes onFilter instead.)
+  function handleCellClick(sector: string, sig: string, count7d: number) {
+    if (onFilter) {
+      onFilter(sector, sig);
+      return;
+    }
+    if (count7d > 0) {
+      const stream = SIGNAL_TO_STREAM[sig] ?? "layoffs";
+      router.push(`/intel/${stream}?sector=${encodeURIComponent(sector)}`);
+    }
+  }
 
   // Build lookup map
   const cellMap: Record<string, (typeof matrix.cells)[0]> = {};
@@ -52,8 +67,13 @@ export function HeatGrid({ matrix, onFilter }: HeatGridProps) {
         >
           <div /> {/* empty sector label col */}
           {SIGNAL_ORDER.map((sig) => (
-            <div key={sig} className="label-overline text-center py-1">
+            <div
+              key={sig}
+              className="label-overline text-center py-1 flex items-center justify-center gap-1 cursor-help"
+              title={EVENT_DESC[sig]}
+            >
               {EVENT_LABEL[sig]}
+              <span aria-hidden className="text-white/25 text-[9px] leading-none">ⓘ</span>
             </div>
           ))}
         </div>
@@ -99,11 +119,14 @@ export function HeatGrid({ matrix, onFilter }: HeatGridProps) {
                         ? `0 0 20px 4px ${EVENT_COLOR[sig]}30`
                         : undefined,
                       outline: "1px solid rgba(255,255,255,0.04)",
+                      cursor: count7d > 0 ? "pointer" : "default",
                     }}
                     onMouseEnter={() => setHovered(key)}
                     onMouseLeave={() => setHovered(null)}
-                    onClick={() => onFilter?.(sector, sig)}
-                    title={`${sector} · ${EVENT_LABEL[sig]}: ${count7d} events (7d)${z != null ? ` · Z=${z.toFixed(1)}` : ""}`}
+                    onClick={() => handleCellClick(sector, sig, count7d)}
+                    title={count7d > 0
+                      ? `${sector} · ${EVENT_LABEL[sig]}: ${count7d} this week — click to see them`
+                      : `${sector} · ${EVENT_LABEL[sig]}: none this week`}
                     aria-label={`${sector} ${EVENT_LABEL[sig]}: ${count7d} events past 7 days`}
                   >
                     {count7d > 0 && (
@@ -135,7 +158,7 @@ export function HeatGrid({ matrix, onFilter }: HeatGridProps) {
             </div>
           ))}
           <span className="text-xs text-white/25 ml-auto">
-            Cell intensity = 7-day Z-score vs 30-day baseline
+            Brighter = unusually busy this week vs the last month · click a cell to see the events
           </span>
         </div>
       </div>

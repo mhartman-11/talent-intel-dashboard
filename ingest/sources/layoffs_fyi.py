@@ -1,10 +1,11 @@
 """
-Layoff signals from TechCrunch layoffs RSS feed + trueup.io RSS.
-Both are public feeds — no auth, no key required.
+Tech-specific layoff signals from TechCrunch's public RSS feeds.
+Public feeds — no auth, no key required.
 ToS posture: public RSS  ✓
 
-Note: layoffs.fyi does not expose a public CSV endpoint.
-These RSS feeds cover the same tech-layoff event space with real-time updates.
+Note: layoffs.fyi does not expose a public CSV endpoint, so we use TechCrunch's
+layoff coverage here. Broad cross-outlet coverage (e.g. Uber) comes from the
+news_layoffs source; official filings come from the warn source.
 """
 from __future__ import annotations
 
@@ -16,7 +17,7 @@ import httpx
 from ..schema import Company, Event, SourceMeta, SourceResult
 from ..normalizers import (
     classify_sector,
-    extract_company_from_headline,
+    clean_layoff_company,
     extract_headcount,
     extract_region,
     make_id,
@@ -35,7 +36,7 @@ FEEDS = [
 
 SOURCE_META = SourceMeta(
     source="layoffs_fyi",
-    display_name="Layoff Signals (TC + trueup)",
+    display_name="Tech Layoffs (TechCrunch RSS)",
     url="https://techcrunch.com/tag/layoffs/",
     tos_posture="public_rss",
     cadence_hours=6,
@@ -50,20 +51,25 @@ def _parse_entry(entry: object, feed_name: str) -> Event | None:
 
     full_text = f"{title} {summary}"
 
-    if published_parsed:
-        ts = datetime(*published_parsed[:6], tzinfo=timezone.utc)
-    else:
-        ts = datetime.now(timezone.utc)
-
     # Skip if not obviously about layoffs
     layoff_keywords = ["layoff", "laid off", "job cut", "workforce reduction",
                        "reductions", "rif", "downsizing", "eliminat", "restructur"]
     if not any(kw in full_text.lower() for kw in layoff_keywords):
         return None
 
+    # Only keep entries with a clean "<Company> <layoff verb>" headline — the
+    # same gate every layoff source uses, so commentary headlines get dropped.
+    company_name = clean_layoff_company(title)
+    if company_name is None:
+        return None
+
+    if published_parsed:
+        ts = datetime(*published_parsed[:6], tzinfo=timezone.utc)
+    else:
+        ts = datetime.now(timezone.utc)
+
     magnitude = extract_headcount(full_text)
     region = extract_region(full_text)
-    company_name = extract_company_from_headline(title) or "Unknown"
     sector = classify_sector(full_text, company_name=company_name)
 
     return Event(

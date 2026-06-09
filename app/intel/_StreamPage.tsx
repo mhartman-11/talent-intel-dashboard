@@ -1,6 +1,7 @@
 "use client";
 
-import { useState, useMemo, useRef, useCallback } from "react";
+import { useState, useMemo, useRef, useCallback, useEffect } from "react";
+import { useSearchParams } from "next/navigation";
 import { MagnifyingGlass, Copy, Check } from "@phosphor-icons/react";
 import { GlassCard } from "@/app/_components/GlassCard";
 import { EventRow } from "@/app/_components/EventRow";
@@ -42,10 +43,21 @@ export function StreamPage({
   sources,
   description,
 }: StreamPageProps) {
-  const [activeSector, setActiveSector] = useState<string | null>(null);
+  // Seed the sector filter from a ?sector= deep link (e.g. from the home heat grid).
+  const searchParams = useSearchParams();
+  const initialSector = searchParams.get("sector");
+  const [activeSector, setActiveSector] = useState<string | null>(initialSector);
   const [query, setQuery] = useState("");
   const [copied, setCopied] = useState(false);
   const eventRefs = useRef<Map<string, HTMLDivElement>>(new Map());
+  const listRef = useRef<HTMLDivElement>(null);
+
+  // When arriving via a deep link, scroll the filtered list into view.
+  useEffect(() => {
+    if (initialSector) {
+      listRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  }, [initialSector]);
 
   const sectorFiltered = useMemo(
     () =>
@@ -155,7 +167,7 @@ export function StreamPage({
 
       {/* Filters + table */}
       <section className="px-4 sm:px-6 pb-20">
-        <div className="max-w-7xl mx-auto">
+        <div className="max-w-7xl mx-auto" ref={listRef}>
 
           {/* Search bar */}
           <div className="mb-4 relative">

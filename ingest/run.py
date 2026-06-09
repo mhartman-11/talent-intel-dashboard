@@ -13,7 +13,7 @@ import sys
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
-from .aggregators import build_snapshot, split_by_stream
+from .aggregators import build_snapshot, dedupe_events, split_by_stream
 from .sources import ALL_SOURCES
 
 PUBLIC_DATA = Path(__file__).parent.parent / "public" / "data"
@@ -71,6 +71,11 @@ def main(dry_run: bool = False) -> int:
     if dry_run:
         print("\n[dry-run] skipping file writes.")
         return 0
+
+    # Collapse cross-source duplicate layoffs before aggregating.
+    deduped = len(all_events)
+    all_events = dedupe_events(all_events)
+    print(f"Deduped layoffs: {deduped} → {len(all_events)} events")
 
     # Build aggregated outputs
     snapshot = build_snapshot(all_events, source_results, registry_metas)

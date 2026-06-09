@@ -168,6 +168,14 @@ _COMPANY_SECTOR: dict[str, str] = {
 }
 
 
+def _kw_hit(kw: str, lower: str) -> bool:
+    # Short keywords (e.g. "ai") must match as whole words — otherwise "ai"
+    # matches inside "jail" and "airlines" and misclassifies them as Technology.
+    if len(kw) <= 3:
+        return re.search(rf"\b{re.escape(kw)}\b", lower) is not None
+    return kw in lower
+
+
 def classify_sector(text: str, company_name: Optional[str] = None) -> SECTORS:
     """Best-effort sector classification.
 
@@ -183,7 +191,7 @@ def classify_sector(text: str, company_name: Optional[str] = None) -> SECTORS:
     lower = (text or "").lower()
     scores: dict[str, int] = {}
     for sector, keywords in _SECTOR_KEYWORDS.items():
-        scores[sector] = sum(1 for kw in keywords if kw in lower)
+        scores[sector] = sum(1 for kw in keywords if _kw_hit(kw, lower))
     best = max(scores, key=lambda s: scores[s]) if scores else "Other"
     return best if scores.get(best, 0) >= 2 else "Other"  # type: ignore[return-value]
 
@@ -241,6 +249,52 @@ def extract_region(text: str) -> Optional[str]:
         if token in _US_STATES:
             return token
     return None
+
+
+# --- Layoff company-name extraction ----------------------------------------
+#
+# Only keep headlines with a "<Company> <layoff verb>" structure.
+# Precision over recall — multiple feeds cover what we drop.
+
+_PUBLISHER_TAIL = re.compile(r"\s+-\s+[^-]+$")
+_LAYOFF_ACTION_PAT = re.compile(
+    r"\s+(?:is\s+|are\s+|now\s+|quietly\s+|currently\s+)*"
+    r"(?:to\s+lay\s+off|lays?\s+off|laid\s+off|laying\s+off|"
+    r"will\s+lay\s+off|to\s+cut|cuts|to\s+slash|slashes|announces?|"
+    r"plans?\s+to\s+(?:cut|lay\s+off))\b",
+    re.IGNORECASE,
+)
+_GENERIC_SUBJECTS = {
+    "tech", "job", "jobs", "staff", "more", "mass", "report", "federal",
+    "worker", "workers", "layoff", "layoffs", "us", "uk", "global", "state",
+    "company", "companies", "startup", "startups", "another",
+}
+_NAME_CONNECTORS = {"of", "and", "&", "the", "for"}
+
+
+def clean_layoff_company(title: str) -> Optional[str]:
+    """Extract clean company name from layoff headline, or None if not a real '<Company> <verb>' structure."""
+    headline = _PUBLISHER_TAIL.sub("", title).strip()
+    m = _LAYOFF_ACTION_PAT.search(headline)
+    if not m:
+        return None
+    name = headline[: m.start()].strip(" ,:–-")
+    if not name or not name[0].isalpha():
+        return None
+    words = name.split()
+    if not (1 <= len(words) <= 5) or len(name) > 50:
+        return None
+    if name.lower() in _GENERIC_SUBJECTS or words[0].lower() in _GENERIC_SUBJECTS:
+        return None
+    for w in words:
+        wl = w.lower().strip(".,''&")
+        if wl in _NAME_CONNECTORS:
+            continue
+        if wl in _GENERIC_SUBJECTS:
+            return None
+        if not (w[0].isupper() or w[0].isdigit()):
+            return None
+    return name
 
 
 # --- Number extraction -----------------------------------------------------

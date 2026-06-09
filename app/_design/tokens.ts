@@ -46,7 +46,6 @@ export const EVENT_COLOR: Record<string, string> = {
   m_and_a: COLORS.violet,
   comp: COLORS.orange,
   macro: COLORS.cyanDim,
-  attention: COLORS.violetDim,
 };
 
 export const EVENT_COLOR_GLOW: Record<string, string> = {
@@ -60,14 +59,34 @@ export const EVENT_COLOR_GLOW: Record<string, string> = {
 };
 
 export const EVENT_LABEL: Record<string, string> = {
-  layoff: "Layoff",
+  layoff: "Layoffs",
   posting: "Hiring",
-  exec_move: "Exec Move",
+  exec_move: "Exec Moves",
   funding: "Funding",
   m_and_a: "M&A",
   comp: "Comp",
-  macro: "Macro",
-  attention: "Attention",
+  macro: "Macro Labor",
+};
+
+/** Plain-language one-liner for each signal — used in tooltips + legends. */
+export const EVENT_DESC: Record<string, string> = {
+  layoff: "Companies cutting jobs — layoffs, RIFs, and official WARN Act filings.",
+  posting: "Companies actively hiring — open roles pulled from public job sources.",
+  exec_move: "Leadership changes — executive appointments and departures from SEC filings.",
+  funding: "Money moves — funding rounds and M&A.",
+  m_and_a: "Mergers and acquisitions.",
+  comp: "Pay data — average wages by sector from the government.",
+  macro: "Economy-wide labor stats (unemployment, job openings). Background context, not company events.",
+};
+
+/** Which stream page each heat-grid signal column drills into. */
+export const SIGNAL_TO_STREAM: Record<string, string> = {
+  layoff: "layoffs",
+  posting: "hiring",
+  exec_move: "org-moves",
+  funding: "org-moves",
+  m_and_a: "org-moves",
+  macro: "macro",
 };
 
 export const SECTOR_ORDER = [
@@ -85,5 +104,5 @@ export const SIGNAL_ORDER = [
   "posting",
   "exec_move",
   "funding",
-  "attention",
+  "macro",
 ] as const;

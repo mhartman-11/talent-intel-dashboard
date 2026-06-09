@@ -19,7 +19,7 @@ const STREAM_CARDS = [
   {
     href: "/intel/hiring",
     label: "Hiring Velocity",
-    sub: "Job boards · HN Who's Hiring",
+    sub: "HN Who's Hiring thread",
     icon: Briefcase,
     color: COLORS.orange,
   },
@@ -33,14 +33,14 @@ const STREAM_CARDS = [
   {
     href: "/intel/comp",
     label: "Compensation",
-    sub: "BLS OEWS · H-1B LCA data",
+    sub: "BLS wage data",
     icon: Wallet,
     color: COLORS.orange,
   },
   {
     href: "/intel/macro",
     label: "Macro Labor",
-    sub: "FRED · BLS JOLTS · Indeed",
+    sub: "BLS unemployment · JOLTS",
     icon: TrendUp,
     color: COLORS.cyan,
   },
@@ -98,6 +98,47 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* ── How to read this ──────────────────────────────────────────────── */}
+      <section className="px-4 sm:px-6 -mt-2 pb-4">
+        <div className="max-w-7xl mx-auto">
+          <GlassCard className="p-5 sm:p-6">
+            <p className="label-overline mb-3">New here? How to read this</p>
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+              {[
+                {
+                  n: "1",
+                  t: "Five live signals",
+                  d: "Layoffs, hiring, exec & funding moves, pay data, and economy-wide labor stats — each pulled from free public sources.",
+                },
+                {
+                  n: "2",
+                  t: "The heat grid finds spikes",
+                  d: "Industries down the side, signals across the top. A bright cell means that activity is unusually high this week. Click it to see the events.",
+                },
+                {
+                  n: "3",
+                  t: "Every number is sourced",
+                  d: "Click any event to open the original article or filing it came from. Nothing is AI-written — it’s all traceable public record.",
+                },
+              ].map(({ n, t, d }) => (
+                <div key={n} className="flex gap-3">
+                  <span
+                    className="shrink-0 w-6 h-6 rounded-full flex items-center justify-center font-display font-black text-xs"
+                    style={{ backgroundColor: `${COLORS.cyan}1a`, color: COLORS.cyan }}
+                  >
+                    {n}
+                  </span>
+                  <div>
+                    <p className="text-sm font-semibold text-white/90">{t}</p>
+                    <p className="text-xs text-white/40 mt-0.5 leading-relaxed">{d}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </GlassCard>
+        </div>
+      </section>
+
       {/* ── Signal Tape ───────────────────────────────────────────────────── */}
       <SignalTape events={recentEvents} />
 
@@ -110,8 +151,8 @@ export default function HomePage() {
               <h2 className="headline-lg text-white">Activity Heat Grid</h2>
             </div>
             <p className="text-xs text-white/30 max-w-xs text-right leading-relaxed">
-              Cell intensity = 7-day event count vs 30-day baseline (Z-score).
-              Click any cell to drill in.
+              Each cell = how busy a sector is this week. Brighter means a spike.
+              Click a bright cell to see the exact events behind it.
             </p>
           </div>
 
