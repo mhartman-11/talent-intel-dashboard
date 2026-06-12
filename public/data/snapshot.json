@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-06-12T10:17:33.114482Z",
+  "generated_at": "2026-06-12T12:14:20.957033Z",
   "next_ingest_at": null,
-  "total_events": 3381,
-  "events_7d": 1491,
+  "total_events": 3303,
+  "events_7d": 1458,
   "sources": [
     {
       "source": "greenhouse",
@@ -10,8 +10,8 @@
       "url": "https://boards-api.greenhouse.io",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-06-12T10:17:33.223827Z",
-      "last_attempted": "2026-06-12T10:17:33.223827Z",
+      "last_ok": "2026-06-12T12:14:21.077281Z",
+      "last_attempted": "2026-06-12T12:14:21.077281Z",
       "record_count": 2695,
       "ok": true,
       "errors": [
@@ -32,9 +32,9 @@
       "url": "https://api.lever.co/v0/postings",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-06-12T10:18:02.099633Z",
-      "last_attempted": "2026-06-12T10:18:02.099633Z",
-      "record_count": 143,
+      "last_ok": "2026-06-12T12:14:45.505237Z",
+      "last_attempted": "2026-06-12T12:14:45.505237Z",
+      "record_count": 142,
       "ok": true,
       "errors": [
         "Scale AI (scaleai): GET https://api.lever.co/v0/postings/scaleai failed: Client error '404 Not Found' for url 'https://api.lever.co/v0/postings/scaleai?mode=json'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
@@ -49,9 +49,9 @@
       "url": "https://api.ashbyhq.com/posting-api",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-06-12T10:18:20.706333Z",
-      "last_attempted": "2026-06-12T10:18:20.706333Z",
-      "record_count": 195,
+      "last_ok": "2026-06-12T12:14:54.452548Z",
+      "last_attempted": "2026-06-12T12:14:54.452548Z",
+      "record_count": 196,
       "ok": true,
       "errors": [
         "Replicate (replicate): GET https://api.ashbyhq.com/posting-api/job-board/replicate failed: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/replicate'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
@@ -63,8 +63,8 @@
       "url": "https://techcrunch.com/tag/layoffs/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-06-12T10:18:23.059509Z",
-      "last_attempted": "2026-06-12T10:18:23.059509Z",
+      "last_ok": "2026-06-12T12:14:57.086831Z",
+      "last_attempted": "2026-06-12T12:14:57.086831Z",
       "record_count": 6,
       "ok": true,
       "errors": []
@@ -75,9 +75,9 @@
       "url": "https://news.google.com/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-06-12T10:18:23.358883Z",
-      "last_attempted": "2026-06-12T10:18:23.358883Z",
-      "record_count": 35,
+      "last_ok": "2026-06-12T12:14:57.451346Z",
+      "last_attempted": "2026-06-12T12:14:57.451346Z",
+      "record_count": 40,
       "ok": true,
       "errors": []
     },
@@ -88,7 +88,7 @@
       "tos_posture": "public_csv",
       "cadence_hours": 24,
       "last_ok": null,
-      "last_attempted": "2026-06-12T10:18:26.403944Z",
+      "last_attempted": "2026-06-12T12:15:00.531696Z",
       "record_count": 0,
       "ok": false,
       "errors": [
@@ -102,8 +102,8 @@
       "url": "https://techcrunch.com/category/venture/feed/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-06-12T10:18:33.370972Z",
-      "last_attempted": "2026-06-12T10:18:33.370972Z",
+      "last_ok": "2026-06-12T12:15:07.647938Z",
+      "last_attempted": "2026-06-12T12:15:07.647938Z",
       "record_count": 10,
       "ok": true,
       "errors": []
@@ -114,11 +114,13 @@
       "url": "https://efts.sec.gov/LATEST/search-index",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-06-12T10:18:33.834279Z",
-      "last_attempted": "2026-06-12T10:18:33.834279Z",
-      "record_count": 160,
+      "last_ok": "2026-06-12T12:15:08.382297Z",
+      "last_attempted": "2026-06-12T12:15:08.382297Z",
+      "record_count": 80,
       "ok": true,
-      "errors": []
+      "errors": [
+        "EFTS 8-K query: GET https://efts.sec.gov/LATEST/search-index failed: Server error '500 Internal Server Error' for url 'https://efts.sec.gov/LATEST/search-index?q=%22Item+5.02%22&forms=8-K&dateRange=custom&startdt=2026-05-29&enddt=2026-06-12'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500"
+      ]
     },
     {
       "source": "dol_lca",
@@ -127,7 +129,7 @@
       "tos_posture": "public_csv",
       "cadence_hours": 24,
       "last_ok": null,
-      "last_attempted": "2026-06-12T10:18:42.280032Z",
+      "last_attempted": "2026-06-12T12:15:12.562829Z",
       "record_count": 0,
       "ok": false,
       "errors": [
@@ -140,8 +142,8 @@
       "url": "https://www.bls.gov/oes/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-06-12T10:18:46.007609Z",
-      "last_attempted": "2026-06-12T10:18:46.007609Z",
+      "last_ok": "2026-06-12T12:15:16.358090Z",
+      "last_attempted": "2026-06-12T12:15:16.358090Z",
       "record_count": 24,
       "ok": true,
       "errors": []
@@ -152,8 +154,8 @@
       "url": "https://www.bls.gov/ces/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-06-12T10:18:46.602368Z",
-      "last_attempted": "2026-06-12T10:18:46.602368Z",
+      "last_ok": "2026-06-12T12:15:17.215163Z",
+      "last_attempted": "2026-06-12T12:15:17.215163Z",
       "record_count": 48,
       "ok": true,
       "errors": []
@@ -164,8 +166,8 @@
       "url": "https://www.bls.gov/developers/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-06-12T10:18:46.922672Z",
-      "last_attempted": "2026-06-12T10:18:46.922672Z",
+      "last_ok": "2026-06-12T12:15:17.719025Z",
+      "last_attempted": "2026-06-12T12:15:17.719025Z",
       "record_count": 30,
       "ok": true,
       "errors": []
@@ -177,7 +179,7 @@
       "tos_posture": "public_api",
       "cadence_hours": 12,
       "last_ok": null,
-      "last_attempted": "2026-06-12T10:18:47.205656Z",
+      "last_attempted": "2026-06-12T12:15:18.213874Z",
       "record_count": 0,
       "ok": false,
       "errors": [
@@ -195,8 +197,8 @@
       "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-06-12T10:18:47.447181Z",
-      "last_attempted": "2026-06-12T10:18:47.447181Z",
+      "last_ok": "2026-06-12T12:15:18.412582Z",
+      "last_attempted": "2026-06-12T12:15:18.412582Z",
       "record_count": 34,
       "ok": true,
       "errors": []
@@ -207,28 +209,28 @@
       "url": "https://web.archive.org/cdx/search/cdx",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-06-12T10:18:51.038236Z",
-      "last_attempted": "2026-06-12T10:18:51.038236Z",
-      "record_count": 3,
+      "last_ok": "2026-06-12T12:15:21.559870Z",
+      "last_attempted": "2026-06-12T12:15:21.559870Z",
+      "record_count": 1,
       "ok": true,
       "errors": [
         "Stripe: GET https://web.archive.org/cdx/search/cdx failed: The read operation timed out",
+        "Airbnb: GET https://web.archive.org/cdx/search/cdx failed: The read operation timed out",
+        "Coinbase: GET https://web.archive.org/cdx/search/cdx failed: The read operation timed out",
         "Reddit: GET https://web.archive.org/cdx/search/cdx failed: The read operation timed out",
         "DoorDash: GET https://web.archive.org/cdx/search/cdx failed: The read operation timed out",
         "Instacart: GET https://web.archive.org/cdx/search/cdx failed: The read operation timed out",
-        "Discord: GET https://web.archive.org/cdx/search/cdx failed: The read operation timed out",
+        "Pinterest: GET https://web.archive.org/cdx/search/cdx failed: timed out",
+        "Discord: GET https://web.archive.org/cdx/search/cdx failed: timed out",
         "GitLab: GET https://web.archive.org/cdx/search/cdx failed: timed out",
-        "HashiCorp: GET https://web.archive.org/cdx/search/cdx failed: timed out",
-        "Cloudflare: GET https://web.archive.org/cdx/search/cdx failed: timed out",
-        "Anthropic: GET https://web.archive.org/cdx/search/cdx failed: timed out",
-        "OpenAI: GET https://web.archive.org/cdx/search/cdx failed: timed out"
+        "HashiCorp: GET https://web.archive.org/cdx/search/cdx failed: timed out"
       ]
     }
   ],
   "recent_signals": [
     {
       "id": "cfb5f824383f298c",
-      "ts": "2026-06-12T10:19:04.081273Z",
+      "ts": "2026-06-12T12:15:46.203444Z",
       "source": "wayback",
       "source_url": "https://web.archive.org/web/*/robinhood.com/careers",
       "type": "macro",
@@ -254,62 +256,8 @@
       }
     },
     {
-      "id": "25737622cc7829f5",
-      "ts": "2026-06-12T10:19:02.839884Z",
-      "source": "wayback",
-      "source_url": "https://web.archive.org/web/*/coinbase.com/careers",
-      "type": "macro",
-      "company": {
-        "name": "Coinbase",
-        "ticker": null,
-        "industry": null,
-        "sector": "Finance",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": 6.0,
-      "unit": "snapshots/90d",
-      "raw_text": "Coinbase careers page: 6 archived snapshots in 90 days",
-      "tags": [
-        "careers_activity",
-        "wayback",
-        "finance"
-      ],
-      "extras": {
-        "careers_url": "coinbase.com/careers",
-        "snapshots_90d": 6
-      }
-    },
-    {
-      "id": "be396be2175dc1bd",
-      "ts": "2026-06-12T10:18:59.765026Z",
-      "source": "wayback",
-      "source_url": "https://web.archive.org/web/*/airbnb.com/careers",
-      "type": "macro",
-      "company": {
-        "name": "Airbnb",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": 8.0,
-      "unit": "snapshots/90d",
-      "raw_text": "Airbnb careers page: 8 archived snapshots in 90 days",
-      "tags": [
-        "careers_activity",
-        "wayback",
-        "technology"
-      ],
-      "extras": {
-        "careers_url": "airbnb.com/careers",
-        "snapshots_90d": 8
-      }
-    },
-    {
       "id": "8f6f582068fde4be",
-      "ts": "2026-06-12T10:18:51.038124Z",
+      "ts": "2026-06-12T12:15:21.559792Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Spotify",
       "type": "attention",
@@ -338,7 +286,7 @@
     },
     {
       "id": "497cef785d7553d3",
-      "ts": "2026-06-12T10:18:50.928542Z",
+      "ts": "2026-06-12T12:15:21.474727Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Glossier",
       "type": "attention",
@@ -367,7 +315,7 @@
     },
     {
       "id": "5f80f133522efdca",
-      "ts": "2026-06-12T10:18:50.816165Z",
+      "ts": "2026-06-12T12:15:21.392060Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Allbirds",
       "type": "attention",
@@ -396,7 +344,7 @@
     },
     {
       "id": "a2d6257b48c3e8cc",
-      "ts": "2026-06-12T10:18:50.710939Z",
+      "ts": "2026-06-12T12:15:21.301787Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Warby_Parker",
       "type": "attention",
@@ -425,7 +373,7 @@
     },
     {
       "id": "29825c550025ac4c",
-      "ts": "2026-06-12T10:18:50.606655Z",
+      "ts": "2026-06-12T12:15:21.217510Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Oscar_Health",
       "type": "attention",
@@ -454,7 +402,7 @@
     },
     {
       "id": "15547fd43cf304f9",
-      "ts": "2026-06-12T10:18:50.500254Z",
+      "ts": "2026-06-12T12:15:21.120428Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Hims_&_Hers",
       "type": "attention",
@@ -483,7 +431,7 @@
     },
     {
       "id": "25adbb13d0cb9560",
-      "ts": "2026-06-12T10:18:50.382769Z",
+      "ts": "2026-06-12T12:15:21.034576Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Cursor",
       "type": "attention",
@@ -512,7 +460,7 @@
     },
     {
       "id": "d707fbac42da872a",
-      "ts": "2026-06-12T10:18:50.278005Z",
+      "ts": "2026-06-12T12:15:20.938846Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Perplexity_AI",
       "type": "attention",
@@ -541,7 +489,7 @@
     },
     {
       "id": "21c6b15ee3e639f3",
-      "ts": "2026-06-12T10:18:50.172259Z",
+      "ts": "2026-06-12T12:15:20.851300Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Replicate",
       "type": "attention",
@@ -570,7 +518,7 @@
     },
     {
       "id": "25a22e32d235a6dd",
-      "ts": "2026-06-12T10:18:50.055966Z",
+      "ts": "2026-06-12T12:15:20.758778Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Vercel",
       "type": "attention",
@@ -599,7 +547,7 @@
     },
     {
       "id": "cddb4bef2e5f5223",
-      "ts": "2026-06-12T10:18:49.952245Z",
+      "ts": "2026-06-12T12:15:20.671353Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Linear",
       "type": "attention",
@@ -628,7 +576,7 @@
     },
     {
       "id": "2bfbc9911733ee21",
-      "ts": "2026-06-12T10:18:49.846272Z",
+      "ts": "2026-06-12T12:15:20.583472Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Mercury",
       "type": "attention",
@@ -657,7 +605,7 @@
     },
     {
       "id": "d80b7f63ea9bdb30",
-      "ts": "2026-06-12T10:18:49.738860Z",
+      "ts": "2026-06-12T12:15:20.488734Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Ramp",
       "type": "attention",
@@ -686,7 +634,7 @@
     },
     {
       "id": "9899c313190dff8c",
-      "ts": "2026-06-12T10:18:49.624359Z",
+      "ts": "2026-06-12T12:15:20.394062Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Plaid",
       "type": "attention",
@@ -715,7 +663,7 @@
     },
     {
       "id": "727061e0f46ee061",
-      "ts": "2026-06-12T10:18:49.524426Z",
+      "ts": "2026-06-12T12:15:20.300769Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Brex",
       "type": "attention",
@@ -744,7 +692,7 @@
     },
     {
       "id": "5cb5a227dc3fd4a1",
-      "ts": "2026-06-12T10:18:49.421806Z",
+      "ts": "2026-06-12T12:15:20.206797Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Databricks",
       "type": "attention",
@@ -773,7 +721,7 @@
     },
     {
       "id": "3186b021506e2d44",
-      "ts": "2026-06-12T10:18:49.318913Z",
+      "ts": "2026-06-12T12:15:20.103113Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Snowflake",
       "type": "attention",
@@ -802,7 +750,7 @@
     },
     {
       "id": "53d8db328f753974",
-      "ts": "2026-06-12T10:18:49.202008Z",
+      "ts": "2026-06-12T12:15:20.009527Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Figma",
       "type": "attention",
@@ -831,7 +779,7 @@
     },
     {
       "id": "771a939bb20549d7",
-      "ts": "2026-06-12T10:18:49.102008Z",
+      "ts": "2026-06-12T12:15:19.923881Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Notion",
       "type": "attention",
@@ -860,7 +808,7 @@
     },
     {
       "id": "2b6137e3935b51b7",
-      "ts": "2026-06-12T10:18:48.998725Z",
+      "ts": "2026-06-12T12:15:19.837074Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Scale_AI",
       "type": "attention",
@@ -889,7 +837,7 @@
     },
     {
       "id": "8992ded73493d6c2",
-      "ts": "2026-06-12T10:18:48.898336Z",
+      "ts": "2026-06-12T12:15:19.749111Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/OpenAI",
       "type": "attention",
@@ -918,7 +866,7 @@
     },
     {
       "id": "bcb90f76b5eac0f2",
-      "ts": "2026-06-12T10:18:48.802070Z",
+      "ts": "2026-06-12T12:15:19.659529Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Anthropic",
       "type": "attention",
@@ -947,7 +895,7 @@
     },
     {
       "id": "65da1be24768a7e3",
-      "ts": "2026-06-12T10:18:48.700187Z",
+      "ts": "2026-06-12T12:15:19.573464Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Cloudflare",
       "type": "attention",
@@ -976,7 +924,7 @@
     },
     {
       "id": "edd9e234c031a9fd",
-      "ts": "2026-06-12T10:18:48.600286Z",
+      "ts": "2026-06-12T12:15:19.487744Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/HashiCorp",
       "type": "attention",
@@ -1005,7 +953,7 @@
     },
     {
       "id": "7fc7b5e0cbc7a605",
-      "ts": "2026-06-12T10:18:48.487827Z",
+      "ts": "2026-06-12T12:15:19.394132Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/GitLab",
       "type": "attention",
@@ -1034,7 +982,7 @@
     },
     {
       "id": "5da7a24f541aeaaa",
-      "ts": "2026-06-12T10:18:48.391772Z",
+      "ts": "2026-06-12T12:15:19.295504Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Discord",
       "type": "attention",
@@ -1063,7 +1011,7 @@
     },
     {
       "id": "2a7005e177725363",
-      "ts": "2026-06-12T10:18:48.289403Z",
+      "ts": "2026-06-12T12:15:19.199198Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Pinterest",
       "type": "attention",
@@ -1092,7 +1040,7 @@
     },
     {
       "id": "25a25aae9347ebfc",
-      "ts": "2026-06-12T10:18:48.181912Z",
+      "ts": "2026-06-12T12:15:19.109137Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Instacart",
       "type": "attention",
@@ -1121,7 +1069,7 @@
     },
     {
       "id": "45a899d294db7490",
-      "ts": "2026-06-12T10:18:48.087648Z",
+      "ts": "2026-06-12T12:15:19.027822Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/DoorDash",
       "type": "attention",
@@ -1150,7 +1098,7 @@
     },
     {
       "id": "2c4fc0733d3d147b",
-      "ts": "2026-06-12T10:18:47.986127Z",
+      "ts": "2026-06-12T12:15:18.937729Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Reddit",
       "type": "attention",
@@ -1179,7 +1127,7 @@
     },
     {
       "id": "78ce107755f4d28c",
-      "ts": "2026-06-12T10:18:47.886630Z",
+      "ts": "2026-06-12T12:15:18.848574Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Robinhood",
       "type": "attention",
@@ -1208,7 +1156,7 @@
     },
     {
       "id": "4a5d5037c318554a",
-      "ts": "2026-06-12T10:18:47.775313Z",
+      "ts": "2026-06-12T12:15:18.758435Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Coinbase",
       "type": "attention",
@@ -1237,7 +1185,7 @@
     },
     {
       "id": "0510994f45adc13f",
-      "ts": "2026-06-12T10:18:47.678283Z",
+      "ts": "2026-06-12T12:15:18.668660Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Airbnb",
       "type": "attention",
@@ -1266,7 +1214,7 @@
     },
     {
       "id": "cc37574ad9385289",
-      "ts": "2026-06-12T10:18:47.579712Z",
+      "ts": "2026-06-12T12:15:18.578573Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Stripe",
       "type": "attention",
@@ -1294,8 +1242,36 @@
       }
     },
     {
+      "id": "8bf311f7e29e570c",
+      "ts": "2026-06-12T08:08:45-04:00",
+      "source": "greenhouse",
+      "source_url": "https://stripe.com/jobs/search?gh_jid=7994384",
+      "type": "posting",
+      "company": {
+        "name": "Stripe",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Stripe | Risk Operations Analyst (Mandarin Speaking) | Singapore",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology"
+      ],
+      "extras": {
+        "role": "Risk Operations Analyst (Mandarin Speaking)",
+        "location": "Singapore",
+        "seniority": "mid"
+      }
+    },
+    {
       "id": "a3a194b908c32202",
-      "ts": "2026-06-12T05:05:20-04:00",
+      "ts": "2026-06-12T07:45:44-04:00",
       "source": "greenhouse",
       "source_url": "https://stripe.com/jobs/search?gh_jid=7994541",
       "type": "posting",
@@ -1322,6 +1298,103 @@
         "function": "Operations",
         "soc": "11-1021",
         "seniority": "manager"
+      }
+    },
+    {
+      "id": "a3aac49b3eb25039",
+      "ts": "2026-06-12T07:45:01-04:00",
+      "source": "greenhouse",
+      "source_url": "https://www.coinbase.com/careers/positions/7961183?gh_jid=7961183",
+      "type": "posting",
+      "company": {
+        "name": "Coinbase",
+        "ticker": null,
+        "industry": null,
+        "sector": "Finance",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Coinbase | Senior Payroll Specialist | Remote - USA",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "finance"
+      ],
+      "extras": {
+        "role": "Senior Payroll Specialist",
+        "location": "Remote - USA",
+        "seniority": "senior",
+        "remote": "remote",
+        "stack": [
+          "go"
+        ]
+      }
+    },
+    {
+      "id": "05aa18c788fbe3eb",
+      "ts": "2026-06-12T06:26:09-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/anthropic/jobs/4989228008",
+      "type": "posting",
+      "company": {
+        "name": "Anthropic",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Anthropic | Manager, Customer Success | London, UK",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "Customer Success"
+      ],
+      "extras": {
+        "role": "Manager, Customer Success",
+        "location": "London, UK",
+        "function": "Customer Success",
+        "soc": "13-1161",
+        "seniority": "manager"
+      }
+    },
+    {
+      "id": "078b98c8536acc29",
+      "ts": "2026-06-12T10:24:23.318000Z",
+      "source": "ashby",
+      "source_url": "https://jobs.ashbyhq.com/cursor/6ab9bead-274e-4bf4-b2ee-1f3669e4aa9b",
+      "type": "posting",
+      "company": {
+        "name": "Cursor",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Cursor | Account Executive, Commercial | London | Sales",
+      "tags": [
+        "hiring",
+        "ashby",
+        "technology",
+        "Sales"
+      ],
+      "extras": {
+        "role": "Account Executive, Commercial",
+        "location": "London",
+        "department": "Sales",
+        "employment_type": "FullTime",
+        "function": "Sales",
+        "soc": "41-3091",
+        "seniority": "mid",
+        "remote": "remote"
       }
     },
     {
@@ -1812,6 +1885,29 @@
       }
     },
     {
+      "id": "068b22ab059d700e",
+      "ts": "2026-06-12T02:24:26Z",
+      "source": "news_layoffs",
+      "source_url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQT1ZJYkZOYXBYbjlubHdpZTlrczMzdGhDY2NvWXBIbEhFM1N4bGhTcHdpaWJxUFpBMC1DdjVaUFBYdmlHcUlRcXZlcjJWWUI1OWhEdjJHNlc1NVN3TFdBRlk1aWdJaTlRc21WRTNQaTBtdnNZMDVYQTVDYTZ2dkM4Tkt4dTB6ZGRydGc0T3dQTEJKTmxmYlIwcUlLamIyYzBzRFJPbFlxMWMwTFBLZGpMN1JqSEpBUEFNX0wxS294UncyUmJlcWllU3Z6LWJJSVMteDdXaktjd01BMjRjaGxDekVEemQ2a2VGT09rY1R3?oc=5",
+      "type": "layoff",
+      "company": {
+        "name": "Southern Cross Media",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": 300.0,
+      "unit": "people",
+      "raw_text": "Southern Cross Media to cut up to 300 jobs after merger",
+      "tags": [
+        "layoff",
+        "other"
+      ],
+      "extras": {}
+    },
+    {
       "id": "1b49a82e17b8abde",
       "ts": "2026-06-11T22:24:16-04:00",
       "source": "greenhouse",
@@ -1967,37 +2063,6 @@
       }
     },
     {
-      "id": "c8ddf4839d8d2fba",
-      "ts": "2026-06-11T20:24:07-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7974605",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Senior Staff Data Scientist - Consumer Relevance | Remote - United States",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
-        "Data / ML"
-      ],
-      "extras": {
-        "role": "Senior Staff Data Scientist - Consumer Relevance",
-        "location": "Remote - United States",
-        "function": "Data / ML",
-        "soc": "15-2051",
-        "seniority": "staff"
-      }
-    },
-    {
       "id": "fd1c232e28a1c346",
       "ts": "2026-06-11T20:24:07-04:00",
       "source": "greenhouse",
@@ -2023,6 +2088,37 @@
       "extras": {
         "role": "Senior Staff Data Scientist - Consumer Relevance",
         "location": "Remote - Ontario, Canada",
+        "function": "Data / ML",
+        "soc": "15-2051",
+        "seniority": "staff"
+      }
+    },
+    {
+      "id": "c8ddf4839d8d2fba",
+      "ts": "2026-06-11T20:24:07-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7974605",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Senior Staff Data Scientist - Consumer Relevance | Remote - United States",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "Data / ML"
+      ],
+      "extras": {
+        "role": "Senior Staff Data Scientist - Consumer Relevance",
+        "location": "Remote - United States",
         "function": "Data / ML",
         "soc": "15-2051",
         "seniority": "staff"
@@ -2358,38 +2454,6 @@
       }
     },
     {
-      "id": "afcdc833ea82a5cd",
-      "ts": "2026-06-11T20:24:05-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7982927",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": "CA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Client Account Manager, Large Customer Sales (Financial Services) | San Francisco, CA",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
-        "CA",
-        "Customer Success"
-      ],
-      "extras": {
-        "role": "Client Account Manager, Large Customer Sales (Financial Services)",
-        "location": "San Francisco, CA",
-        "function": "Customer Success",
-        "soc": "13-1161",
-        "seniority": "manager"
-      }
-    },
-    {
       "id": "a6e30b22b8bb873a",
       "ts": "2026-06-11T20:24:05-04:00",
       "source": "greenhouse",
@@ -2416,6 +2480,38 @@
       "extras": {
         "role": "Client Account Manager, Large Customer Sales (Financial Services)",
         "location": "Los Angeles, CA",
+        "function": "Customer Success",
+        "soc": "13-1161",
+        "seniority": "manager"
+      }
+    },
+    {
+      "id": "afcdc833ea82a5cd",
+      "ts": "2026-06-11T20:24:05-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7982927",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": "CA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Client Account Manager, Large Customer Sales (Financial Services) | San Francisco, CA",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "CA",
+        "Customer Success"
+      ],
+      "extras": {
+        "role": "Client Account Manager, Large Customer Sales (Financial Services)",
+        "location": "San Francisco, CA",
         "function": "Customer Success",
         "soc": "13-1161",
         "seniority": "manager"
@@ -2796,35 +2892,6 @@
       }
     },
     {
-      "id": "0ade37d4cf1ec142",
-      "ts": "2026-06-11T20:24:04-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7965011",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": "CA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Senior Client Partner, Large Customer Sales (Sports Apparel) | San Francisco, CA",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
-        "CA"
-      ],
-      "extras": {
-        "role": "Senior Client Partner, Large Customer Sales (Sports Apparel)",
-        "location": "San Francisco, CA",
-        "seniority": "senior"
-      }
-    },
-    {
       "id": "7b8bcbd3396a419e",
       "ts": "2026-06-11T20:24:04-04:00",
       "source": "greenhouse",
@@ -2879,6 +2946,35 @@
       "extras": {
         "role": "Senior Client Partner, Large Customer Sales (Sports Apparel)",
         "location": "Seattle, WA",
+        "seniority": "senior"
+      }
+    },
+    {
+      "id": "0ade37d4cf1ec142",
+      "ts": "2026-06-11T20:24:04-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7965011",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": "CA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Senior Client Partner, Large Customer Sales (Sports Apparel) | San Francisco, CA",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "CA"
+      ],
+      "extras": {
+        "role": "Senior Client Partner, Large Customer Sales (Sports Apparel)",
+        "location": "San Francisco, CA",
         "seniority": "senior"
       }
     },
@@ -2943,36 +3039,6 @@
       }
     },
     {
-      "id": "a593f6de5814ae32",
-      "ts": "2026-06-11T20:17:04-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7869277",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": "NY",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Client Partner, Large Customer Sales (Retail, Ecomm) | New York City, NY",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
-        "NY"
-      ],
-      "extras": {
-        "role": "Client Partner, Large Customer Sales (Retail, Ecomm)",
-        "location": "New York City, NY",
-        "seniority": "mid",
-        "remote": "onsite"
-      }
-    },
-    {
       "id": "eaf018b23f29bc7e",
       "ts": "2026-06-11T20:17:04-04:00",
       "source": "greenhouse",
@@ -2998,6 +3064,36 @@
       "extras": {
         "role": "Client Partner, Large Customer Sales (Retail, Ecomm)",
         "location": "Chicago, IL",
+        "seniority": "mid",
+        "remote": "onsite"
+      }
+    },
+    {
+      "id": "a593f6de5814ae32",
+      "ts": "2026-06-11T20:17:04-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7869277",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": "NY",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Client Partner, Large Customer Sales (Retail, Ecomm) | New York City, NY",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "NY"
+      ],
+      "extras": {
+        "role": "Client Partner, Large Customer Sales (Retail, Ecomm)",
+        "location": "New York City, NY",
         "seniority": "mid",
         "remote": "onsite"
       }
@@ -3117,149 +3213,55 @@
         "seniority": "manager",
         "remote": "remote"
       }
-    },
-    {
-      "id": "e040eba926ca280e",
-      "ts": "2026-06-11T20:13:54-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7832401",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": "NY",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Senior Client Account Manager, Global Strategic Accounts (Enterprise Tech) | New York City, NY",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
-        "NY",
-        "Customer Success"
-      ],
-      "extras": {
-        "role": "Senior Client Account Manager, Global Strategic Accounts (Enterprise Tech)",
-        "location": "New York City, NY",
-        "function": "Customer Success",
-        "soc": "13-1161",
-        "seniority": "senior"
-      }
-    },
-    {
-      "id": "f5aae474bfc119df",
-      "ts": "2026-06-11T20:13:54-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7714098",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": "NY",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Senior Client Partner, Global Strategic Accounts (Telco) | New York City, NY",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
-        "NY"
-      ],
-      "extras": {
-        "role": "Senior Client Partner, Global Strategic Accounts (Telco)",
-        "location": "New York City, NY",
-        "seniority": "senior",
-        "remote": "onsite"
-      }
-    },
-    {
-      "id": "84deaaf518b63b79",
-      "ts": "2026-06-11T20:13:54-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7822910",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": "CA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Senior Director, Global Strategic Accounts | Los Angeles, CA",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
-        "CA",
-        "Engineering Management"
-      ],
-      "extras": {
-        "role": "Senior Director, Global Strategic Accounts",
-        "location": "Los Angeles, CA",
-        "function": "Engineering Management",
-        "soc": "11-9041",
-        "seniority": "director"
-      }
     }
   ],
   "sector_matrix": {
-    "generated_at": "2026-06-12T10:17:33.114482Z",
+    "generated_at": "2026-06-12T12:14:20.957033Z",
     "cells": [
       {
         "sector": "Technology",
         "signal_type": "layoff",
-        "count_7d": 3,
-        "count_30d": 8,
+        "count_7d": 4,
+        "count_30d": 10,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 0.83
+        "z_score": 1.09
       },
       {
         "sector": "Technology",
         "signal_type": "posting",
-        "count_7d": 946,
-        "count_30d": 1681,
+        "count_7d": 947,
+        "count_30d": 1682,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 27.96
+        "z_score": 27.99
       },
       {
         "sector": "Technology",
         "signal_type": "exec_move",
-        "count_7d": 1,
-        "count_30d": 1,
+        "count_7d": 0,
+        "count_30d": 0,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 0.77
+        "z_score": null
       },
       {
         "sector": "Technology",
         "signal_type": "funding",
-        "count_7d": 5,
-        "count_30d": 5,
+        "count_7d": 2,
+        "count_30d": 2,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 3.55
+        "z_score": 1.53
       },
       {
         "sector": "Technology",
         "signal_type": "macro",
-        "count_7d": 1,
-        "count_30d": 1,
-        "magnitude_7d": 8.0,
+        "count_7d": 0,
+        "count_30d": 0,
+        "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 0.77
+        "z_score": null
       },
       {
         "sector": "Finance",
@@ -3300,11 +3302,11 @@
       {
         "sector": "Finance",
         "signal_type": "macro",
-        "count_7d": 2,
-        "count_30d": 2,
-        "magnitude_7d": 7.0,
+        "count_7d": 1,
+        "count_30d": 1,
+        "magnitude_7d": 1.0,
         "magnitude_30d": null,
-        "z_score": 1.53
+        "z_score": 0.77
       },
       {
         "sector": "Healthcare",
@@ -3327,11 +3329,11 @@
       {
         "sector": "Healthcare",
         "signal_type": "exec_move",
-        "count_7d": 2,
-        "count_30d": 3,
+        "count_7d": 0,
+        "count_30d": 0,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 1.3
+        "z_score": null
       },
       {
         "sector": "Healthcare",
@@ -3417,20 +3419,20 @@
       {
         "sector": "Manufacturing",
         "signal_type": "exec_move",
-        "count_7d": 3,
-        "count_30d": 6,
+        "count_7d": 0,
+        "count_30d": 0,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 1.35
+        "z_score": null
       },
       {
         "sector": "Manufacturing",
         "signal_type": "funding",
-        "count_7d": 4,
-        "count_30d": 4,
+        "count_7d": 5,
+        "count_30d": 5,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 3.07
+        "z_score": 3.55
       },
       {
         "sector": "Manufacturing",
@@ -3445,10 +3447,10 @@
         "sector": "Retail",
         "signal_type": "layoff",
         "count_7d": 1,
-        "count_30d": 1,
+        "count_30d": 2,
         "magnitude_7d": 1000.0,
         "magnitude_30d": null,
-        "z_score": 0.77
+        "z_score": 0.53
       },
       {
         "sector": "Retail",
@@ -3508,10 +3510,10 @@
         "sector": "Media",
         "signal_type": "exec_move",
         "count_7d": 0,
-        "count_30d": 1,
+        "count_30d": 0,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": -0.23
+        "z_score": null
       },
       {
         "sector": "Media",
