@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-06-12T12:14:20.957033Z",
+  "generated_at": "2026-06-12T15:19:57.653427Z",
   "next_ingest_at": null,
-  "total_events": 3303,
-  "events_7d": 1458,
+  "total_events": 3383,
+  "events_7d": 1484,
   "sources": [
     {
       "source": "greenhouse",
@@ -10,9 +10,9 @@
       "url": "https://boards-api.greenhouse.io",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-06-12T12:14:21.077281Z",
-      "last_attempted": "2026-06-12T12:14:21.077281Z",
-      "record_count": 2695,
+      "last_ok": "2026-06-12T15:19:57.738908Z",
+      "last_attempted": "2026-06-12T15:19:57.738908Z",
+      "record_count": 2693,
       "ok": true,
       "errors": [
         "DoorDash (doordash): GET https://boards-api.greenhouse.io/v1/boards/doordash/jobs failed: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/doordash/jobs?content=true'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
@@ -32,9 +32,9 @@
       "url": "https://api.lever.co/v0/postings",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-06-12T12:14:45.505237Z",
-      "last_attempted": "2026-06-12T12:14:45.505237Z",
-      "record_count": 142,
+      "last_ok": "2026-06-12T15:20:23.727272Z",
+      "last_attempted": "2026-06-12T15:20:23.727272Z",
+      "record_count": 144,
       "ok": true,
       "errors": [
         "Scale AI (scaleai): GET https://api.lever.co/v0/postings/scaleai failed: Client error '404 Not Found' for url 'https://api.lever.co/v0/postings/scaleai?mode=json'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
@@ -49,9 +49,9 @@
       "url": "https://api.ashbyhq.com/posting-api",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-06-12T12:14:54.452548Z",
-      "last_attempted": "2026-06-12T12:14:54.452548Z",
-      "record_count": 196,
+      "last_ok": "2026-06-12T15:20:35.435628Z",
+      "last_attempted": "2026-06-12T15:20:35.435628Z",
+      "record_count": 195,
       "ok": true,
       "errors": [
         "Replicate (replicate): GET https://api.ashbyhq.com/posting-api/job-board/replicate failed: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/replicate'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
@@ -63,8 +63,8 @@
       "url": "https://techcrunch.com/tag/layoffs/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-06-12T12:14:57.086831Z",
-      "last_attempted": "2026-06-12T12:14:57.086831Z",
+      "last_ok": "2026-06-12T15:20:38.035285Z",
+      "last_attempted": "2026-06-12T15:20:38.035285Z",
       "record_count": 6,
       "ok": true,
       "errors": []
@@ -75,9 +75,9 @@
       "url": "https://news.google.com/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-06-12T12:14:57.451346Z",
-      "last_attempted": "2026-06-12T12:14:57.451346Z",
-      "record_count": 40,
+      "last_ok": "2026-06-12T15:20:38.334249Z",
+      "last_attempted": "2026-06-12T15:20:38.334249Z",
+      "record_count": 39,
       "ok": true,
       "errors": []
     },
@@ -88,7 +88,7 @@
       "tos_posture": "public_csv",
       "cadence_hours": 24,
       "last_ok": null,
-      "last_attempted": "2026-06-12T12:15:00.531696Z",
+      "last_attempted": "2026-06-12T15:20:41.648656Z",
       "record_count": 0,
       "ok": false,
       "errors": [
@@ -102,8 +102,8 @@
       "url": "https://techcrunch.com/category/venture/feed/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-06-12T12:15:07.647938Z",
-      "last_attempted": "2026-06-12T12:15:07.647938Z",
+      "last_ok": "2026-06-12T15:20:48.683433Z",
+      "last_attempted": "2026-06-12T15:20:48.683433Z",
       "record_count": 10,
       "ok": true,
       "errors": []
@@ -114,13 +114,11 @@
       "url": "https://efts.sec.gov/LATEST/search-index",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-06-12T12:15:08.382297Z",
-      "last_attempted": "2026-06-12T12:15:08.382297Z",
-      "record_count": 80,
+      "last_ok": "2026-06-12T15:20:48.782302Z",
+      "last_attempted": "2026-06-12T15:20:48.782302Z",
+      "record_count": 160,
       "ok": true,
-      "errors": [
-        "EFTS 8-K query: GET https://efts.sec.gov/LATEST/search-index failed: Server error '500 Internal Server Error' for url 'https://efts.sec.gov/LATEST/search-index?q=%22Item+5.02%22&forms=8-K&dateRange=custom&startdt=2026-05-29&enddt=2026-06-12'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500"
-      ]
+      "errors": []
     },
     {
       "source": "dol_lca",
@@ -129,7 +127,7 @@
       "tos_posture": "public_csv",
       "cadence_hours": 24,
       "last_ok": null,
-      "last_attempted": "2026-06-12T12:15:12.562829Z",
+      "last_attempted": "2026-06-12T15:20:51.415319Z",
       "record_count": 0,
       "ok": false,
       "errors": [
@@ -142,8 +140,8 @@
       "url": "https://www.bls.gov/oes/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-06-12T12:15:16.358090Z",
-      "last_attempted": "2026-06-12T12:15:16.358090Z",
+      "last_ok": "2026-06-12T15:20:55.175238Z",
+      "last_attempted": "2026-06-12T15:20:55.175238Z",
       "record_count": 24,
       "ok": true,
       "errors": []
@@ -154,8 +152,8 @@
       "url": "https://www.bls.gov/ces/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-06-12T12:15:17.215163Z",
-      "last_attempted": "2026-06-12T12:15:17.215163Z",
+      "last_ok": "2026-06-12T15:20:55.669273Z",
+      "last_attempted": "2026-06-12T15:20:55.669273Z",
       "record_count": 48,
       "ok": true,
       "errors": []
@@ -166,8 +164,8 @@
       "url": "https://www.bls.gov/developers/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-06-12T12:15:17.719025Z",
-      "last_attempted": "2026-06-12T12:15:17.719025Z",
+      "last_ok": "2026-06-12T15:20:55.895876Z",
+      "last_attempted": "2026-06-12T15:20:55.895876Z",
       "record_count": 30,
       "ok": true,
       "errors": []
@@ -179,7 +177,7 @@
       "tos_posture": "public_api",
       "cadence_hours": 12,
       "last_ok": null,
-      "last_attempted": "2026-06-12T12:15:18.213874Z",
+      "last_attempted": "2026-06-12T15:20:56.095649Z",
       "record_count": 0,
       "ok": false,
       "errors": [
@@ -197,8 +195,8 @@
       "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-06-12T12:15:18.412582Z",
-      "last_attempted": "2026-06-12T12:15:18.412582Z",
+      "last_ok": "2026-06-12T15:20:56.523484Z",
+      "last_attempted": "2026-06-12T15:20:56.523484Z",
       "record_count": 34,
       "ok": true,
       "errors": []
@@ -209,55 +207,55 @@
       "url": "https://web.archive.org/cdx/search/cdx",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-06-12T12:15:21.559870Z",
-      "last_attempted": "2026-06-12T12:15:21.559870Z",
+      "last_ok": "2026-06-12T15:20:58.830151Z",
+      "last_attempted": "2026-06-12T15:20:58.830151Z",
       "record_count": 1,
       "ok": true,
       "errors": [
-        "Stripe: GET https://web.archive.org/cdx/search/cdx failed: The read operation timed out",
-        "Airbnb: GET https://web.archive.org/cdx/search/cdx failed: The read operation timed out",
         "Coinbase: GET https://web.archive.org/cdx/search/cdx failed: The read operation timed out",
+        "Robinhood: GET https://web.archive.org/cdx/search/cdx failed: The read operation timed out",
         "Reddit: GET https://web.archive.org/cdx/search/cdx failed: The read operation timed out",
         "DoorDash: GET https://web.archive.org/cdx/search/cdx failed: The read operation timed out",
         "Instacart: GET https://web.archive.org/cdx/search/cdx failed: The read operation timed out",
         "Pinterest: GET https://web.archive.org/cdx/search/cdx failed: timed out",
         "Discord: GET https://web.archive.org/cdx/search/cdx failed: timed out",
         "GitLab: GET https://web.archive.org/cdx/search/cdx failed: timed out",
-        "HashiCorp: GET https://web.archive.org/cdx/search/cdx failed: timed out"
+        "HashiCorp: GET https://web.archive.org/cdx/search/cdx failed: timed out",
+        "Cloudflare: GET https://web.archive.org/cdx/search/cdx failed: timed out"
       ]
     }
   ],
   "recent_signals": [
     {
-      "id": "cfb5f824383f298c",
-      "ts": "2026-06-12T12:15:46.203444Z",
+      "id": "be396be2175dc1bd",
+      "ts": "2026-06-12T15:21:02.395229Z",
       "source": "wayback",
-      "source_url": "https://web.archive.org/web/*/robinhood.com/careers",
+      "source_url": "https://web.archive.org/web/*/airbnb.com/careers",
       "type": "macro",
       "company": {
-        "name": "Robinhood",
+        "name": "Airbnb",
         "ticker": null,
         "industry": null,
-        "sector": "Finance",
+        "sector": "Technology",
         "hq_region": null,
         "size_band": "unknown"
       },
-      "magnitude": 1.0,
+      "magnitude": 8.0,
       "unit": "snapshots/90d",
-      "raw_text": "Robinhood careers page: 1 archived snapshots in 90 days",
+      "raw_text": "Airbnb careers page: 8 archived snapshots in 90 days",
       "tags": [
         "careers_activity",
         "wayback",
-        "finance"
+        "technology"
       ],
       "extras": {
-        "careers_url": "robinhood.com/careers",
-        "snapshots_90d": 1
+        "careers_url": "airbnb.com/careers",
+        "snapshots_90d": 8
       }
     },
     {
       "id": "8f6f582068fde4be",
-      "ts": "2026-06-12T12:15:21.559792Z",
+      "ts": "2026-06-12T15:20:58.830054Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Spotify",
       "type": "attention",
@@ -286,7 +284,7 @@
     },
     {
       "id": "497cef785d7553d3",
-      "ts": "2026-06-12T12:15:21.474727Z",
+      "ts": "2026-06-12T15:20:58.761238Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Glossier",
       "type": "attention",
@@ -315,7 +313,7 @@
     },
     {
       "id": "5f80f133522efdca",
-      "ts": "2026-06-12T12:15:21.392060Z",
+      "ts": "2026-06-12T15:20:58.688543Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Allbirds",
       "type": "attention",
@@ -344,7 +342,7 @@
     },
     {
       "id": "a2d6257b48c3e8cc",
-      "ts": "2026-06-12T12:15:21.301787Z",
+      "ts": "2026-06-12T15:20:58.628314Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Warby_Parker",
       "type": "attention",
@@ -373,7 +371,7 @@
     },
     {
       "id": "29825c550025ac4c",
-      "ts": "2026-06-12T12:15:21.217510Z",
+      "ts": "2026-06-12T15:20:58.561867Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Oscar_Health",
       "type": "attention",
@@ -402,7 +400,7 @@
     },
     {
       "id": "15547fd43cf304f9",
-      "ts": "2026-06-12T12:15:21.120428Z",
+      "ts": "2026-06-12T15:20:58.499111Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Hims_&_Hers",
       "type": "attention",
@@ -431,7 +429,7 @@
     },
     {
       "id": "25adbb13d0cb9560",
-      "ts": "2026-06-12T12:15:21.034576Z",
+      "ts": "2026-06-12T15:20:58.423418Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Cursor",
       "type": "attention",
@@ -460,7 +458,7 @@
     },
     {
       "id": "d707fbac42da872a",
-      "ts": "2026-06-12T12:15:20.938846Z",
+      "ts": "2026-06-12T15:20:58.362334Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Perplexity_AI",
       "type": "attention",
@@ -489,7 +487,7 @@
     },
     {
       "id": "21c6b15ee3e639f3",
-      "ts": "2026-06-12T12:15:20.851300Z",
+      "ts": "2026-06-12T15:20:58.306476Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Replicate",
       "type": "attention",
@@ -518,7 +516,7 @@
     },
     {
       "id": "25a22e32d235a6dd",
-      "ts": "2026-06-12T12:15:20.758778Z",
+      "ts": "2026-06-12T15:20:58.191408Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Vercel",
       "type": "attention",
@@ -547,7 +545,7 @@
     },
     {
       "id": "cddb4bef2e5f5223",
-      "ts": "2026-06-12T12:15:20.671353Z",
+      "ts": "2026-06-12T15:20:58.128469Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Linear",
       "type": "attention",
@@ -576,7 +574,7 @@
     },
     {
       "id": "2bfbc9911733ee21",
-      "ts": "2026-06-12T12:15:20.583472Z",
+      "ts": "2026-06-12T15:20:58.069877Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Mercury",
       "type": "attention",
@@ -605,7 +603,7 @@
     },
     {
       "id": "d80b7f63ea9bdb30",
-      "ts": "2026-06-12T12:15:20.488734Z",
+      "ts": "2026-06-12T15:20:57.908220Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Ramp",
       "type": "attention",
@@ -634,7 +632,7 @@
     },
     {
       "id": "9899c313190dff8c",
-      "ts": "2026-06-12T12:15:20.394062Z",
+      "ts": "2026-06-12T15:20:57.848067Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Plaid",
       "type": "attention",
@@ -663,7 +661,7 @@
     },
     {
       "id": "727061e0f46ee061",
-      "ts": "2026-06-12T12:15:20.300769Z",
+      "ts": "2026-06-12T15:20:57.774822Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Brex",
       "type": "attention",
@@ -692,7 +690,7 @@
     },
     {
       "id": "5cb5a227dc3fd4a1",
-      "ts": "2026-06-12T12:15:20.206797Z",
+      "ts": "2026-06-12T15:20:57.717610Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Databricks",
       "type": "attention",
@@ -721,7 +719,7 @@
     },
     {
       "id": "3186b021506e2d44",
-      "ts": "2026-06-12T12:15:20.103113Z",
+      "ts": "2026-06-12T15:20:57.662440Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Snowflake",
       "type": "attention",
@@ -750,7 +748,7 @@
     },
     {
       "id": "53d8db328f753974",
-      "ts": "2026-06-12T12:15:20.009527Z",
+      "ts": "2026-06-12T15:20:57.601155Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Figma",
       "type": "attention",
@@ -779,7 +777,7 @@
     },
     {
       "id": "771a939bb20549d7",
-      "ts": "2026-06-12T12:15:19.923881Z",
+      "ts": "2026-06-12T15:20:57.544395Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Notion",
       "type": "attention",
@@ -808,7 +806,7 @@
     },
     {
       "id": "2b6137e3935b51b7",
-      "ts": "2026-06-12T12:15:19.837074Z",
+      "ts": "2026-06-12T15:20:57.480628Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Scale_AI",
       "type": "attention",
@@ -837,7 +835,7 @@
     },
     {
       "id": "8992ded73493d6c2",
-      "ts": "2026-06-12T12:15:19.749111Z",
+      "ts": "2026-06-12T15:20:57.418005Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/OpenAI",
       "type": "attention",
@@ -866,7 +864,7 @@
     },
     {
       "id": "bcb90f76b5eac0f2",
-      "ts": "2026-06-12T12:15:19.659529Z",
+      "ts": "2026-06-12T15:20:57.360018Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Anthropic",
       "type": "attention",
@@ -895,7 +893,7 @@
     },
     {
       "id": "65da1be24768a7e3",
-      "ts": "2026-06-12T12:15:19.573464Z",
+      "ts": "2026-06-12T15:20:57.300209Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Cloudflare",
       "type": "attention",
@@ -924,7 +922,7 @@
     },
     {
       "id": "edd9e234c031a9fd",
-      "ts": "2026-06-12T12:15:19.487744Z",
+      "ts": "2026-06-12T15:20:57.244219Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/HashiCorp",
       "type": "attention",
@@ -953,7 +951,7 @@
     },
     {
       "id": "7fc7b5e0cbc7a605",
-      "ts": "2026-06-12T12:15:19.394132Z",
+      "ts": "2026-06-12T15:20:57.177084Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/GitLab",
       "type": "attention",
@@ -982,7 +980,7 @@
     },
     {
       "id": "5da7a24f541aeaaa",
-      "ts": "2026-06-12T12:15:19.295504Z",
+      "ts": "2026-06-12T15:20:57.119461Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Discord",
       "type": "attention",
@@ -1011,7 +1009,7 @@
     },
     {
       "id": "2a7005e177725363",
-      "ts": "2026-06-12T12:15:19.199198Z",
+      "ts": "2026-06-12T15:20:57.060436Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Pinterest",
       "type": "attention",
@@ -1040,7 +1038,7 @@
     },
     {
       "id": "25a25aae9347ebfc",
-      "ts": "2026-06-12T12:15:19.109137Z",
+      "ts": "2026-06-12T15:20:56.985562Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Instacart",
       "type": "attention",
@@ -1069,7 +1067,7 @@
     },
     {
       "id": "45a899d294db7490",
-      "ts": "2026-06-12T12:15:19.027822Z",
+      "ts": "2026-06-12T15:20:56.929712Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/DoorDash",
       "type": "attention",
@@ -1098,7 +1096,7 @@
     },
     {
       "id": "2c4fc0733d3d147b",
-      "ts": "2026-06-12T12:15:18.937729Z",
+      "ts": "2026-06-12T15:20:56.876554Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Reddit",
       "type": "attention",
@@ -1127,7 +1125,7 @@
     },
     {
       "id": "78ce107755f4d28c",
-      "ts": "2026-06-12T12:15:18.848574Z",
+      "ts": "2026-06-12T15:20:56.804123Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Robinhood",
       "type": "attention",
@@ -1156,7 +1154,7 @@
     },
     {
       "id": "4a5d5037c318554a",
-      "ts": "2026-06-12T12:15:18.758435Z",
+      "ts": "2026-06-12T15:20:56.743368Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Coinbase",
       "type": "attention",
@@ -1185,7 +1183,7 @@
     },
     {
       "id": "0510994f45adc13f",
-      "ts": "2026-06-12T12:15:18.668660Z",
+      "ts": "2026-06-12T15:20:56.687879Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Airbnb",
       "type": "attention",
@@ -1214,7 +1212,7 @@
     },
     {
       "id": "cc37574ad9385289",
-      "ts": "2026-06-12T12:15:18.578573Z",
+      "ts": "2026-06-12T15:20:56.624591Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Stripe",
       "type": "attention",
@@ -1242,8 +1240,395 @@
       }
     },
     {
+      "id": "a3a194b908c32202",
+      "ts": "2026-06-12T10:55:51-04:00",
+      "source": "greenhouse",
+      "source_url": "https://stripe.com/jobs/search?gh_jid=7994541",
+      "type": "posting",
+      "company": {
+        "name": "Stripe",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Stripe | Fraud Operations Manager (Mandarin-speaking) | Singapore",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "Operations"
+      ],
+      "extras": {
+        "role": "Fraud Operations Manager (Mandarin-speaking)",
+        "location": "Singapore",
+        "function": "Operations",
+        "soc": "11-1021",
+        "seniority": "manager",
+        "remote": "remote"
+      }
+    },
+    {
+      "id": "07c17cb045b7375a",
+      "ts": "2026-06-12T10:43:02-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/anthropic/jobs/5250433008",
+      "type": "posting",
+      "company": {
+        "name": "Anthropic",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": "CA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Anthropic | Head of FX & Risk | Remote-Friendly (Travel Required) | San Francisco, CA",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "CA"
+      ],
+      "extras": {
+        "role": "Head of FX & Risk",
+        "location": "Remote-Friendly (Travel Required) | San Francisco, CA",
+        "seniority": "mid"
+      }
+    },
+    {
+      "id": "8f70286b8e501e92",
+      "ts": "2026-06-12T10:16:12-04:00",
+      "source": "greenhouse",
+      "source_url": "https://stripe.com/jobs/search?gh_jid=7963508",
+      "type": "posting",
+      "company": {
+        "name": "Stripe",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Stripe | Global Head of Specialist Solutions Architecture, Revenue | London",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology"
+      ],
+      "extras": {
+        "role": "Global Head of Specialist Solutions Architecture, Revenue",
+        "location": "London",
+        "seniority": "mid",
+        "stack": [
+          "go"
+        ]
+      }
+    },
+    {
+      "id": "ac6418e00a634784",
+      "ts": "2026-06-12T10:15:43-04:00",
+      "source": "greenhouse",
+      "source_url": "https://www.coinbase.com/careers/positions/7843712?gh_jid=7843712",
+      "type": "posting",
+      "company": {
+        "name": "Coinbase",
+        "ticker": null,
+        "industry": null,
+        "sector": "Finance",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Coinbase | Analytics Engineer | Hybrid - Luxembourg",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "finance",
+        "Data / ML"
+      ],
+      "extras": {
+        "role": "Analytics Engineer",
+        "location": "Hybrid - Luxembourg",
+        "function": "Data / ML",
+        "soc": "15-2051",
+        "seniority": "mid",
+        "remote": "remote"
+      }
+    },
+    {
+      "id": "f247ea5d8c037bde",
+      "ts": "2026-06-12T10:06:06-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7947591",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Director of Engineering, Developer Productivity | Remote - United States",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "Engineering Management"
+      ],
+      "extras": {
+        "role": "Director of Engineering, Developer Productivity",
+        "location": "Remote - United States",
+        "function": "Engineering Management",
+        "soc": "11-9041",
+        "seniority": "director"
+      }
+    },
+    {
+      "id": "49687317f4fec735",
+      "ts": "2026-06-12T10:05:02-04:00",
+      "source": "greenhouse",
+      "source_url": "https://stripe.com/jobs/search?gh_jid=7992740",
+      "type": "posting",
+      "company": {
+        "name": "Stripe",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Stripe | Integration Engineer, Professional Services (French fluency) | Paris",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology"
+      ],
+      "extras": {
+        "role": "Integration Engineer, Professional Services (French fluency)",
+        "location": "Paris",
+        "seniority": "mid"
+      }
+    },
+    {
+      "id": "8ba0f538d24a987f",
+      "ts": "2026-06-12T10:03:43-04:00",
+      "source": "greenhouse",
+      "source_url": "https://www.coinbase.com/careers/positions/7705401?gh_jid=7705401",
+      "type": "posting",
+      "company": {
+        "name": "Coinbase",
+        "ticker": null,
+        "industry": null,
+        "sector": "Finance",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Coinbase | Compliance Associate | Hybrid - Luxembourg",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "finance"
+      ],
+      "extras": {
+        "role": "Compliance Associate",
+        "location": "Hybrid - Luxembourg",
+        "seniority": "junior",
+        "remote": "remote"
+      }
+    },
+    {
+      "id": "a6cf5c1825ed642f",
+      "ts": "2026-06-12T10:03:33-04:00",
+      "source": "greenhouse",
+      "source_url": "https://www.coinbase.com/careers/positions/7611263?gh_jid=7611263",
+      "type": "posting",
+      "company": {
+        "name": "Coinbase",
+        "ticker": null,
+        "industry": null,
+        "sector": "Finance",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Coinbase | Senior Compliance Associate | Hybrid - Luxembourg",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "finance"
+      ],
+      "extras": {
+        "role": "Senior Compliance Associate",
+        "location": "Hybrid - Luxembourg",
+        "seniority": "senior",
+        "remote": "remote"
+      }
+    },
+    {
+      "id": "db633481a80481a7",
+      "ts": "2026-06-12T09:57:37-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/anthropic/jobs/5222180008",
+      "type": "posting",
+      "company": {
+        "name": "Anthropic",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Anthropic | Account Executive - ASEAN | Sydney, Australia",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "Sales"
+      ],
+      "extras": {
+        "role": "Account Executive - ASEAN",
+        "location": "Sydney, Australia",
+        "function": "Sales",
+        "soc": "41-3091",
+        "seniority": "mid"
+      }
+    },
+    {
+      "id": "e5fdea36407e039e",
+      "ts": "2026-06-12T09:56:03-04:00",
+      "source": "greenhouse",
+      "source_url": "https://boards.greenhouse.io/glossier/jobs/8001367?gh_jid=8001367",
+      "type": "posting",
+      "company": {
+        "name": "Glossier",
+        "ticker": null,
+        "industry": null,
+        "sector": "CPG",
+        "hq_region": "NY",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Glossier | Content Creator (Contractor) | New York, NY",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "cpg",
+        "NY",
+        "Engineering Management"
+      ],
+      "extras": {
+        "role": "Content Creator (Contractor)",
+        "location": "New York, NY",
+        "function": "Engineering Management",
+        "soc": "11-9041",
+        "seniority": "mid"
+      }
+    },
+    {
+      "id": "41065da597b6f61d",
+      "ts": "2026-06-12T09:47:07-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/gitlab/jobs/8575108002",
+      "type": "posting",
+      "company": {
+        "name": "GitLab",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "GitLab | Senior Executive Business Partner to CFO | Remote, US",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "Finance / Accounting"
+      ],
+      "extras": {
+        "role": "Senior Executive Business Partner to CFO",
+        "location": "Remote, US",
+        "function": "Finance / Accounting",
+        "soc": "13-2011",
+        "seniority": "c_level"
+      }
+    },
+    {
+      "id": "ff9979b32defdc00",
+      "ts": "2026-06-12T09:17:53-04:00",
+      "source": "greenhouse",
+      "source_url": "https://boards.greenhouse.io/robinhood/jobs/7921265?t=gh_src=&gh_jid=7921265",
+      "type": "posting",
+      "company": {
+        "name": "Robinhood",
+        "ticker": null,
+        "industry": null,
+        "sector": "Finance",
+        "hq_region": "NY",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Robinhood | Sr. Markets Reporter | Chicago, IL; Denver, CO; Lake Mary, FL; New York, NY",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "finance",
+        "NY"
+      ],
+      "extras": {
+        "role": "Sr. Markets Reporter",
+        "location": "Chicago, IL; Denver, CO; Lake Mary, FL; New York, NY",
+        "seniority": "senior"
+      }
+    },
+    {
+      "id": "62c07d4bb789b6c3",
+      "ts": "2026-06-12T12:45:14Z",
+      "source": "news_layoffs",
+      "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOM2F2OFlIb0dCRzA1Y2lWSG53UVh2T1MyeHdCazVLeXRSdVhWeWJzMUh4WldpSThZd29DX3RNeGlzbXhDZXB2RXVPM0dmakx2WWE1MHAyX3JHZmEwazFKY3VTMU8xbWJ0WUdwem84eVkwM0IwWTIyNll2NENWR19DemRqcHhHellDVEtPMlFoYVNrOWNpNTk4MDdiam0wSFdFaG9Qa1RINXlrVmM?oc=5",
+      "type": "layoff",
+      "company": {
+        "name": "Colruyt",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Colruyt cuts jobs, but denies covert restructuring",
+      "tags": [
+        "layoff",
+        "other"
+      ],
+      "extras": {}
+    },
+    {
       "id": "8bf311f7e29e570c",
-      "ts": "2026-06-12T08:08:45-04:00",
+      "ts": "2026-06-12T08:28:26-04:00",
       "source": "greenhouse",
       "source_url": "https://stripe.com/jobs/search?gh_jid=7994384",
       "type": "posting",
@@ -1270,34 +1655,1317 @@
       }
     },
     {
-      "id": "a3a194b908c32202",
-      "ts": "2026-06-12T07:45:44-04:00",
+      "id": "aacfb20dc7628061",
+      "ts": "2026-06-12T08:27:43-04:00",
       "source": "greenhouse",
-      "source_url": "https://stripe.com/jobs/search?gh_jid=7994541",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7958385",
       "type": "posting",
       "company": {
-        "name": "Stripe",
+        "name": "Reddit",
         "ticker": null,
         "industry": null,
-        "sector": "Technology",
+        "sector": "Media",
         "hq_region": null,
         "size_band": "unknown"
       },
       "magnitude": null,
       "unit": "jobs",
-      "raw_text": "Stripe | Fraud Operations Manager (Mandarin-speaking) | Singapore",
+      "raw_text": "Reddit | Analytics Engineer | Toronto, Canada",
       "tags": [
         "hiring",
         "greenhouse",
-        "technology",
-        "Operations"
+        "media",
+        "Data / ML"
       ],
       "extras": {
-        "role": "Fraud Operations Manager (Mandarin-speaking)",
-        "location": "Singapore",
-        "function": "Operations",
-        "soc": "11-1021",
+        "role": "Analytics Engineer",
+        "location": "Toronto, Canada",
+        "function": "Data / ML",
+        "soc": "15-2051",
+        "seniority": "mid"
+      }
+    },
+    {
+      "id": "e923c518f2984810",
+      "ts": "2026-06-12T08:27:43-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7958354",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Analytics Engineer | Remote - United States",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "Data / ML"
+      ],
+      "extras": {
+        "role": "Analytics Engineer",
+        "location": "Remote - United States",
+        "function": "Data / ML",
+        "soc": "15-2051",
+        "seniority": "mid"
+      }
+    },
+    {
+      "id": "f9e4626eaf2db06f",
+      "ts": "2026-06-12T08:27:43-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7984021",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": "CA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Client Account Manager, Large Customer Sales (Tech) | San Francisco, CA",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "CA",
+        "Customer Success"
+      ],
+      "extras": {
+        "role": "Client Account Manager, Large Customer Sales (Tech)",
+        "location": "San Francisco, CA",
+        "function": "Customer Success",
+        "soc": "13-1161",
         "seniority": "manager"
+      }
+    },
+    {
+      "id": "006b34e843817169",
+      "ts": "2026-06-12T08:27:43-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7993775",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": "CA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Client Account Manager, Mid-Market (App Dev - Acquisitions) | San Francisco, CA",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "CA",
+        "Customer Success"
+      ],
+      "extras": {
+        "role": "Client Account Manager, Mid-Market (App Dev - Acquisitions)",
+        "location": "San Francisco, CA",
+        "function": "Customer Success",
+        "soc": "13-1161",
+        "seniority": "manager"
+      }
+    },
+    {
+      "id": "0f392636e4180731",
+      "ts": "2026-06-12T08:27:43-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7954598",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Senior Business Engineer - Ads | Remote - United States",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media"
+      ],
+      "extras": {
+        "role": "Senior Business Engineer - Ads",
+        "location": "Remote - United States",
+        "seniority": "senior"
+      }
+    },
+    {
+      "id": "d850637f6bee2700",
+      "ts": "2026-06-12T08:27:43-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7976852",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Senior Software Engineer - Full Stack Internal Tooling (Build and Deployment Platform) | Remote - United States",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "Software Engineering"
+      ],
+      "extras": {
+        "role": "Senior Software Engineer - Full Stack Internal Tooling (Build and Deployment Platform)",
+        "location": "Remote - United States",
+        "function": "Software Engineering",
+        "soc": "15-1252",
+        "seniority": "senior"
+      }
+    },
+    {
+      "id": "c8ddf4839d8d2fba",
+      "ts": "2026-06-12T08:27:43-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7974605",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Senior Staff Data Scientist - Consumer Relevance | Remote - United States",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "Data / ML"
+      ],
+      "extras": {
+        "role": "Senior Staff Data Scientist - Consumer Relevance",
+        "location": "Remote - United States",
+        "function": "Data / ML",
+        "soc": "15-2051",
+        "seniority": "staff"
+      }
+    },
+    {
+      "id": "fd1c232e28a1c346",
+      "ts": "2026-06-12T08:27:43-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7974647",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Senior Staff Data Scientist - Consumer Relevance | Remote - Ontario, Canada",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "Data / ML"
+      ],
+      "extras": {
+        "role": "Senior Staff Data Scientist - Consumer Relevance",
+        "location": "Remote - Ontario, Canada",
+        "function": "Data / ML",
+        "soc": "15-2051",
+        "seniority": "staff"
+      }
+    },
+    {
+      "id": "1946358f9004bcb7",
+      "ts": "2026-06-12T08:27:43-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7905472",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": "CA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Senior Technical Solutions Manager, Signals | San Francisco, CA",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "CA"
+      ],
+      "extras": {
+        "role": "Senior Technical Solutions Manager, Signals",
+        "location": "San Francisco, CA",
+        "seniority": "senior"
+      }
+    },
+    {
+      "id": "3f71189742dee07e",
+      "ts": "2026-06-12T08:27:43-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7905488",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": "CA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Senior Technical Solutions Manager, Signals | Los Angeles, CA",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "CA"
+      ],
+      "extras": {
+        "role": "Senior Technical Solutions Manager, Signals",
+        "location": "Los Angeles, CA",
+        "seniority": "senior"
+      }
+    },
+    {
+      "id": "98ebd43da9d4a6b3",
+      "ts": "2026-06-12T08:27:43-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7905432",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": "NY",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Senior Technical Solutions Manager, Signals | New York City, NY",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "NY"
+      ],
+      "extras": {
+        "role": "Senior Technical Solutions Manager, Signals",
+        "location": "New York City, NY",
+        "seniority": "senior"
+      }
+    },
+    {
+      "id": "edb7ca542223743f",
+      "ts": "2026-06-12T08:27:43-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7905466",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": "IL",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Senior Technical Solutions Manager, Signals | Chicago, IL",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "IL"
+      ],
+      "extras": {
+        "role": "Senior Technical Solutions Manager, Signals",
+        "location": "Chicago, IL",
+        "seniority": "senior"
+      }
+    },
+    {
+      "id": "afcdc833ea82a5cd",
+      "ts": "2026-06-12T08:27:42-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7982927",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": "CA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Client Account Manager, Large Customer Sales (Financial Services) | San Francisco, CA",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "CA",
+        "Customer Success"
+      ],
+      "extras": {
+        "role": "Client Account Manager, Large Customer Sales (Financial Services)",
+        "location": "San Francisco, CA",
+        "function": "Customer Success",
+        "soc": "13-1161",
+        "seniority": "manager"
+      }
+    },
+    {
+      "id": "a6e30b22b8bb873a",
+      "ts": "2026-06-12T08:27:42-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7982890",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": "CA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Client Account Manager, Large Customer Sales (Financial Services) | Los Angeles, CA",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "CA",
+        "Customer Success"
+      ],
+      "extras": {
+        "role": "Client Account Manager, Large Customer Sales (Financial Services)",
+        "location": "Los Angeles, CA",
+        "function": "Customer Success",
+        "soc": "13-1161",
+        "seniority": "manager"
+      }
+    },
+    {
+      "id": "95df8e806cb7c07f",
+      "ts": "2026-06-12T08:27:42-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7982928",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": "NY",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Client Account Manager, Large Customer Sales (Financial Services) | New York City, NY",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "NY",
+        "Customer Success"
+      ],
+      "extras": {
+        "role": "Client Account Manager, Large Customer Sales (Financial Services)",
+        "location": "New York City, NY",
+        "function": "Customer Success",
+        "soc": "13-1161",
+        "seniority": "manager"
+      }
+    },
+    {
+      "id": "83a99f5c06a521cf",
+      "ts": "2026-06-12T08:27:42-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7961073",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": "CA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Client Partner, Mid-Market (B2B Services Acquisitions) | San Francisco, CA",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "CA"
+      ],
+      "extras": {
+        "role": "Client Partner, Mid-Market (B2B Services Acquisitions)",
+        "location": "San Francisco, CA",
+        "seniority": "mid",
+        "remote": "onsite"
+      }
+    },
+    {
+      "id": "747cdd12c73f681a",
+      "ts": "2026-06-12T08:27:42-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7559059",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": "NY",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Senior Ads Measurement Lead - App Dev | New York City, NY",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "NY"
+      ],
+      "extras": {
+        "role": "Senior Ads Measurement Lead - App Dev",
+        "location": "New York City, NY",
+        "seniority": "senior"
+      }
+    },
+    {
+      "id": "1286350163121735",
+      "ts": "2026-06-12T08:27:42-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7746526",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": "NY",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Senior Client Account Manager, Large Customer Sales (Pharma) | New York City, NY",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "NY",
+        "Customer Success"
+      ],
+      "extras": {
+        "role": "Senior Client Account Manager, Large Customer Sales (Pharma)",
+        "location": "New York City, NY",
+        "function": "Customer Success",
+        "soc": "13-1161",
+        "seniority": "senior"
+      }
+    },
+    {
+      "id": "a3df79a89fefe6e4",
+      "ts": "2026-06-12T08:27:42-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7977257",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": "IL",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Senior Client Account Manager, Large Customer Sales (Pharma) | Chicago, IL",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "IL",
+        "Customer Success"
+      ],
+      "extras": {
+        "role": "Senior Client Account Manager, Large Customer Sales (Pharma)",
+        "location": "Chicago, IL",
+        "function": "Customer Success",
+        "soc": "13-1161",
+        "seniority": "senior"
+      }
+    },
+    {
+      "id": "119e2ff7e0579eed",
+      "ts": "2026-06-12T08:27:42-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7947897",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": "IL",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Sr. Manager, Large Customer Sales (Big Box Retail) | Chicago, IL",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "IL"
+      ],
+      "extras": {
+        "role": "Sr. Manager, Large Customer Sales (Big Box Retail)",
+        "location": "Chicago, IL",
+        "seniority": "senior",
+        "remote": "onsite"
+      }
+    },
+    {
+      "id": "62635ccafd37bd5e",
+      "ts": "2026-06-12T08:27:42-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7954001",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Staff Technical Product Manager, Ads ML Platform | Remote - United States",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "Product"
+      ],
+      "extras": {
+        "role": "Staff Technical Product Manager, Ads ML Platform",
+        "location": "Remote - United States",
+        "function": "Product",
+        "soc": "11-2021",
+        "seniority": "staff"
+      }
+    },
+    {
+      "id": "3acb8acf04da43d2",
+      "ts": "2026-06-12T08:27:41-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7768983",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": "NY",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Creative Technologist, KarmaLab | New York City, NY",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "NY"
+      ],
+      "extras": {
+        "role": "Creative Technologist, KarmaLab",
+        "location": "New York City, NY",
+        "seniority": "mid",
+        "stack": [
+          "go"
+        ]
+      }
+    },
+    {
+      "id": "f57452c336df3c9f",
+      "ts": "2026-06-12T08:27:41-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7966985",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Engineering Manager, Advanced Signals (SWE) | Remote - United States",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "Software Engineering"
+      ],
+      "extras": {
+        "role": "Engineering Manager, Advanced Signals (SWE)",
+        "location": "Remote - United States",
+        "function": "Software Engineering",
+        "soc": "15-1252",
+        "seniority": "manager"
+      }
+    },
+    {
+      "id": "eaf29212bd0c51df",
+      "ts": "2026-06-12T08:27:41-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7396638",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Program Manager, Vendor Operations | London, United Kingdom",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media"
+      ],
+      "extras": {
+        "role": "Program Manager, Vendor Operations",
+        "location": "London, United Kingdom",
+        "seniority": "manager"
+      }
+    },
+    {
+      "id": "ed317444782d7d1a",
+      "ts": "2026-06-12T08:27:41-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7445224",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Senior Analytics Engineer | Remote - United States",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "Data / ML"
+      ],
+      "extras": {
+        "role": "Senior Analytics Engineer",
+        "location": "Remote - United States",
+        "function": "Data / ML",
+        "soc": "15-2051",
+        "seniority": "senior"
+      }
+    },
+    {
+      "id": "cf093e2e3914dcd3",
+      "ts": "2026-06-12T08:27:41-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7958403",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Senior Analytics Engineer | Remote - Ontario, Canada",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "Data / ML"
+      ],
+      "extras": {
+        "role": "Senior Analytics Engineer",
+        "location": "Remote - Ontario, Canada",
+        "function": "Data / ML",
+        "soc": "15-2051",
+        "seniority": "senior"
+      }
+    },
+    {
+      "id": "2a16e574cf4daed6",
+      "ts": "2026-06-12T08:27:41-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7746549",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": "CA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Senior Client Account Manager, Large Customer Sales (Fashion & Apparel) | Los Angeles, CA",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "CA",
+        "Customer Success"
+      ],
+      "extras": {
+        "role": "Senior Client Account Manager, Large Customer Sales (Fashion & Apparel)",
+        "location": "Los Angeles, CA",
+        "function": "Customer Success",
+        "soc": "13-1161",
+        "seniority": "senior",
+        "remote": "onsite"
+      }
+    },
+    {
+      "id": "bd43bbb2cf888581",
+      "ts": "2026-06-12T08:27:41-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7767765",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": "CA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Senior Client Account Manager, Large Customer Sales (Fashion & Apparel) | San Francisco, CA",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "CA",
+        "Customer Success"
+      ],
+      "extras": {
+        "role": "Senior Client Account Manager, Large Customer Sales (Fashion & Apparel)",
+        "location": "San Francisco, CA",
+        "function": "Customer Success",
+        "soc": "13-1161",
+        "seniority": "senior",
+        "remote": "onsite"
+      }
+    },
+    {
+      "id": "06857b7242a741af",
+      "ts": "2026-06-12T08:27:41-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7982607",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Sr. Engineering Manager, Shopping Ads | Remote - United States",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "Engineering Management"
+      ],
+      "extras": {
+        "role": "Sr. Engineering Manager, Shopping Ads",
+        "location": "Remote - United States",
+        "function": "Engineering Management",
+        "soc": "11-9041",
+        "seniority": "senior"
+      }
+    },
+    {
+      "id": "f2ac52dca3265ed1",
+      "ts": "2026-06-12T08:27:40-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7769002",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": "NY",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Creative Strategist - App Dev | New York City, NY",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "NY"
+      ],
+      "extras": {
+        "role": "Creative Strategist - App Dev",
+        "location": "New York City, NY",
+        "seniority": "mid"
+      }
+    },
+    {
+      "id": "0ade37d4cf1ec142",
+      "ts": "2026-06-12T08:27:40-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7965011",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": "CA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Senior Client Partner, Large Customer Sales (Sports Apparel) | San Francisco, CA",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "CA"
+      ],
+      "extras": {
+        "role": "Senior Client Partner, Large Customer Sales (Sports Apparel)",
+        "location": "San Francisco, CA",
+        "seniority": "senior"
+      }
+    },
+    {
+      "id": "7b8bcbd3396a419e",
+      "ts": "2026-06-12T08:27:40-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7962471",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": "CA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Senior Client Partner, Large Customer Sales (Sports Apparel) | Los Angeles, CA",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "CA"
+      ],
+      "extras": {
+        "role": "Senior Client Partner, Large Customer Sales (Sports Apparel)",
+        "location": "Los Angeles, CA",
+        "seniority": "senior"
+      }
+    },
+    {
+      "id": "82786c3e35934d4a",
+      "ts": "2026-06-12T08:27:40-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7965014",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": "WA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Senior Client Partner, Large Customer Sales (Sports Apparel) | Seattle, WA",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "WA"
+      ],
+      "extras": {
+        "role": "Senior Client Partner, Large Customer Sales (Sports Apparel)",
+        "location": "Seattle, WA",
+        "seniority": "senior"
+      }
+    },
+    {
+      "id": "a593f6de5814ae32",
+      "ts": "2026-06-12T08:26:35-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7869277",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": "NY",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Client Partner, Large Customer Sales (Retail, Ecomm) | New York City, NY",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "NY"
+      ],
+      "extras": {
+        "role": "Client Partner, Large Customer Sales (Retail, Ecomm)",
+        "location": "New York City, NY",
+        "seniority": "mid",
+        "remote": "onsite"
+      }
+    },
+    {
+      "id": "eaf018b23f29bc7e",
+      "ts": "2026-06-12T08:26:35-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7843673",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": "IL",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Client Partner, Large Customer Sales (Retail, Ecomm) | Chicago, IL",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "IL"
+      ],
+      "extras": {
+        "role": "Client Partner, Large Customer Sales (Retail, Ecomm)",
+        "location": "Chicago, IL",
+        "seniority": "mid",
+        "remote": "onsite"
+      }
+    },
+    {
+      "id": "89df1f633d634531",
+      "ts": "2026-06-12T08:26:35-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7561756",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": "NY",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Senior Client Partner, Large Customer Sales (Tech) | New York City, NY",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "NY"
+      ],
+      "extras": {
+        "role": "Senior Client Partner, Large Customer Sales (Tech)",
+        "location": "New York City, NY",
+        "seniority": "senior"
+      }
+    },
+    {
+      "id": "35daf24d71f85fd2",
+      "ts": "2026-06-12T08:26:34-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7728843",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": "NY",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Senior Client Partner, Large Customer Sales (Tech) | New York City, NY",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "NY"
+      ],
+      "extras": {
+        "role": "Senior Client Partner, Large Customer Sales (Tech)",
+        "location": "New York City, NY",
+        "seniority": "senior"
+      }
+    },
+    {
+      "id": "7bbaf6ae8496d96b",
+      "ts": "2026-06-12T08:26:34-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7696013",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": "CA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Senior Client Partner, Large Customer Sales (Tech) | San Francisco, CA",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "CA"
+      ],
+      "extras": {
+        "role": "Senior Client Partner, Large Customer Sales (Tech)",
+        "location": "San Francisco, CA",
+        "seniority": "senior"
+      }
+    },
+    {
+      "id": "e040eba926ca280e",
+      "ts": "2026-06-12T08:20:41-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7832401",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": "NY",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Senior Client Account Manager, Global Strategic Accounts (Enterprise Tech) | New York City, NY",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "NY",
+        "Customer Success"
+      ],
+      "extras": {
+        "role": "Senior Client Account Manager, Global Strategic Accounts (Enterprise Tech)",
+        "location": "New York City, NY",
+        "function": "Customer Success",
+        "soc": "13-1161",
+        "seniority": "senior"
+      }
+    },
+    {
+      "id": "f5aae474bfc119df",
+      "ts": "2026-06-12T08:20:41-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7714098",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": "NY",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Senior Client Partner, Global Strategic Accounts (Telco) | New York City, NY",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "NY"
+      ],
+      "extras": {
+        "role": "Senior Client Partner, Global Strategic Accounts (Telco)",
+        "location": "New York City, NY",
+        "seniority": "senior",
+        "remote": "onsite"
+      }
+    },
+    {
+      "id": "84deaaf518b63b79",
+      "ts": "2026-06-12T08:20:41-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7822910",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": "CA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Senior Director, Global Strategic Accounts | Los Angeles, CA",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "CA",
+        "Engineering Management"
+      ],
+      "extras": {
+        "role": "Senior Director, Global Strategic Accounts",
+        "location": "Los Angeles, CA",
+        "function": "Engineering Management",
+        "soc": "11-9041",
+        "seniority": "director"
+      }
+    },
+    {
+      "id": "71230a6dee44cbb5",
+      "ts": "2026-06-12T08:20:41-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7746588",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": "CA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Senior Director, Global Strategic Accounts | San Francisco, CA",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "CA",
+        "Engineering Management"
+      ],
+      "extras": {
+        "role": "Senior Director, Global Strategic Accounts",
+        "location": "San Francisco, CA",
+        "function": "Engineering Management",
+        "soc": "11-9041",
+        "seniority": "director"
+      }
+    },
+    {
+      "id": "f27b1866166e628b",
+      "ts": "2026-06-12T08:17:17-04:00",
+      "source": "greenhouse",
+      "source_url": "https://boards.greenhouse.io/robinhood/jobs/7904965?t=gh_src=&gh_jid=7904965",
+      "type": "posting",
+      "company": {
+        "name": "Robinhood",
+        "ticker": null,
+        "industry": null,
+        "sector": "Finance",
+        "hq_region": "NY",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Robinhood | Compliance Communications Team Lead | Chicago, IL; Denver, CO; Lake Mary, FL; New York, NY",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "finance",
+        "NY",
+        "Engineering Management"
+      ],
+      "extras": {
+        "role": "Compliance Communications Team Lead",
+        "location": "Chicago, IL; Denver, CO; Lake Mary, FL; New York, NY",
+        "function": "Engineering Management",
+        "soc": "11-9041",
+        "seniority": "lead"
       }
     },
     {
@@ -1549,1674 +3217,10 @@
         "soc": "15-2051",
         "seniority": "staff"
       }
-    },
-    {
-      "id": "b0f32b51ad206d07",
-      "ts": "2026-06-12T02:49:32-04:00",
-      "source": "greenhouse",
-      "source_url": "https://boards.greenhouse.io/cloudflare/jobs/7863831?gh_jid=7863831",
-      "type": "posting",
-      "company": {
-        "name": "Cloudflare",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Cloudflare | Public Policy Intern, APJC (July to December 2026) | In-Office",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology"
-      ],
-      "extras": {
-        "role": "Public Policy Intern, APJC (July to December 2026)",
-        "location": "In-Office",
-        "seniority": "intern"
-      }
-    },
-    {
-      "id": "581e9473aca28f95",
-      "ts": "2026-06-12T06:47:11Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNUi1TdTFxcFhPMzBvajdZZXRSc0dxVFZUMVRyWmVpa1oxUm94ejVwSExYUEJSQ01Yakd0WERjOThsdGUya2tzRnNlZzJ4Y1IyaG5jd0JQQnU5UGpHUUtfanN5bjFsXzFMX0d1RXdDQ2lrRzNyUTFoZFRVYW9FS0k5SHlZbVptYUdZZk5tZ0U3SUp2aER5amQxcGZFbEItLTN5d0RKVHF3ekVzUXZxbUVvNzVOaVdtMzdKOTRnUkxIMVROSlViZC1KOGdEMHAyeFHSAdQBQVVfeXFMTVlnaWtzY2R3RzBsUzZmNDRxZmdGMUh6eThjN3RFWE9jUmpFRGJEZTVFQ1VCeG5XZ2pVZUh1YlpycnlCOHFFanpaZUtzcVc4QnJxS3VCOUhkeThkVEpGS2ZpN3NZNTFHR0xzQTA3ZUtkYjE0S2pqek5FcWhpeVVpMkR0WVNld2xzSUFPOVBmcW5OWHBpWTZKNmlON1NjLWtwSEU4eWRBUHJJNG5HbVBBOTlaNmZSbTkyeThod0h3eDN6ZVdmdGVNd05sRjV2X2RkckRsd00?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "Microsoft Xbox",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Microsoft Xbox Announces Major Layoffs And Budget Cuts After Revenue Decline In 2026 Restructuring - Brand ...",
-      "tags": [
-        "layoff",
-        "technology"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "cebdf43c330453c3",
-      "ts": "2026-06-12T02:41:31-04:00",
-      "source": "greenhouse",
-      "source_url": "https://careers.airbnb.com/positions/8002310?gh_jid=8002310",
-      "type": "posting",
-      "company": {
-        "name": "Airbnb",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Airbnb | Supervisor, Executive Escalations | Gurugram, India",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology"
-      ],
-      "extras": {
-        "role": "Supervisor, Executive Escalations",
-        "location": "Gurugram, India",
-        "seniority": "mid"
-      }
-    },
-    {
-      "id": "e692a8a55839a0ac",
-      "ts": "2026-06-12T02:15:38-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/anthropic/jobs/5076109008",
-      "type": "posting",
-      "company": {
-        "name": "Anthropic",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Anthropic | Applied AI Architect | Tokyo, Japan",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology"
-      ],
-      "extras": {
-        "role": "Applied AI Architect",
-        "location": "Tokyo, Japan",
-        "seniority": "mid",
-        "stack": [
-          "llm"
-        ]
-      }
-    },
-    {
-      "id": "7aa5d01ca03c1bf1",
-      "ts": "2026-06-12T01:41:27-04:00",
-      "source": "greenhouse",
-      "source_url": "https://www.pinterestcareers.com/jobs/?gh_jid=7983420",
-      "type": "posting",
-      "company": {
-        "name": "Pinterest",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": "NY",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Pinterest | Agency Lead | New York, NY, US",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "NY"
-      ],
-      "extras": {
-        "role": "Agency Lead",
-        "location": "New York, NY, US",
-        "seniority": "lead"
-      }
-    },
-    {
-      "id": "07646b784ea6b1a7",
-      "ts": "2026-06-12T00:53:33-04:00",
-      "source": "greenhouse",
-      "source_url": "https://boards.greenhouse.io/cloudflare/jobs/7978887?gh_jid=7978887",
-      "type": "posting",
-      "company": {
-        "name": "Cloudflare",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Cloudflare | Sr Procurement Functional Specialist | In-Office",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology"
-      ],
-      "extras": {
-        "role": "Sr Procurement Functional Specialist",
-        "location": "In-Office",
-        "seniority": "senior"
-      }
-    },
-    {
-      "id": "5715a51ef58d4c5c",
-      "ts": "2026-06-12T04:46:06.364000Z",
-      "source": "ashby",
-      "source_url": "https://jobs.ashbyhq.com/perplexity/4ab39122-1d15-4874-8ab7-c6a241472743",
-      "type": "posting",
-      "company": {
-        "name": "Perplexity AI",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": "CA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Perplexity AI | Member of Technical Staff (AI Software Engineer, Agents) | San Francisco | AI",
-      "tags": [
-        "hiring",
-        "ashby",
-        "technology",
-        "CA",
-        "Software Engineering"
-      ],
-      "extras": {
-        "role": "Member of Technical Staff (AI Software Engineer, Agents)",
-        "location": "San Francisco",
-        "department": "AI",
-        "employment_type": "FullTime",
-        "function": "Software Engineering",
-        "soc": "15-1252",
-        "seniority": "staff"
-      }
-    },
-    {
-      "id": "4539908f6b2e750d",
-      "ts": "2026-06-12T00:33:55-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/anthropic/jobs/5248946008",
-      "type": "posting",
-      "company": {
-        "name": "Anthropic",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": "CA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Anthropic | Strategy & Operations Lead, Marketing | San Francisco, CA | New York City, NY",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "CA"
-      ],
-      "extras": {
-        "role": "Strategy & Operations Lead, Marketing",
-        "location": "San Francisco, CA | New York City, NY",
-        "seniority": "lead",
-        "stack": [
-          "rest"
-        ]
-      }
-    },
-    {
-      "id": "bf4837fea747e5e6",
-      "ts": "2026-06-12T00:27:43-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/anthropic/jobs/4802076008",
-      "type": "posting",
-      "company": {
-        "name": "Anthropic",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": "WA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Anthropic | IT Support Engineer | Seattle, WA",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "WA",
-        "Support"
-      ],
-      "extras": {
-        "role": "IT Support Engineer",
-        "location": "Seattle, WA",
-        "function": "Support",
-        "soc": "43-4051",
-        "seniority": "mid",
-        "remote": "onsite"
-      }
-    },
-    {
-      "id": "258b60cb5b0ff0a5",
-      "ts": "2026-06-12T00:22:51-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/anthropic/jobs/5169167008",
-      "type": "posting",
-      "company": {
-        "name": "Anthropic",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": "CA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Anthropic | Field Marketing Manager | San Francisco, CA | New York City, NY",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "CA",
-        "Marketing"
-      ],
-      "extras": {
-        "role": "Field Marketing Manager",
-        "location": "San Francisco, CA | New York City, NY",
-        "function": "Marketing",
-        "soc": "11-2011",
-        "seniority": "manager",
-        "remote": "onsite"
-      }
-    },
-    {
-      "id": "46920dff77477ec4",
-      "ts": "2026-06-11T23:29:54-04:00",
-      "source": "greenhouse",
-      "source_url": "https://www.coinbase.com/careers/positions/7997420?gh_jid=7997420",
-      "type": "posting",
-      "company": {
-        "name": "Coinbase",
-        "ticker": null,
-        "industry": null,
-        "sector": "Finance",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Coinbase | Senior Software Engineer - AI Platform Team | Remote - USA",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "finance",
-        "Software Engineering"
-      ],
-      "extras": {
-        "role": "Senior Software Engineer - AI Platform Team",
-        "location": "Remote - USA",
-        "function": "Software Engineering",
-        "soc": "15-1252",
-        "seniority": "senior",
-        "remote": "remote",
-        "stack": [
-          "llm"
-        ]
-      }
-    },
-    {
-      "id": "068b22ab059d700e",
-      "ts": "2026-06-12T02:24:26Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQT1ZJYkZOYXBYbjlubHdpZTlrczMzdGhDY2NvWXBIbEhFM1N4bGhTcHdpaWJxUFpBMC1DdjVaUFBYdmlHcUlRcXZlcjJWWUI1OWhEdjJHNlc1NVN3TFdBRlk1aWdJaTlRc21WRTNQaTBtdnNZMDVYQTVDYTZ2dkM4Tkt4dTB6ZGRydGc0T3dQTEJKTmxmYlIwcUlLamIyYzBzRFJPbFlxMWMwTFBLZGpMN1JqSEpBUEFNX0wxS294UncyUmJlcWllU3Z6LWJJSVMteDdXaktjd01BMjRjaGxDekVEemQ2a2VGT09rY1R3?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "Southern Cross Media",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": 300.0,
-      "unit": "people",
-      "raw_text": "Southern Cross Media to cut up to 300 jobs after merger",
-      "tags": [
-        "layoff",
-        "other"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "1b49a82e17b8abde",
-      "ts": "2026-06-11T22:24:16-04:00",
-      "source": "greenhouse",
-      "source_url": "https://boards.greenhouse.io/cloudflare/jobs/7994999?gh_jid=7994999",
-      "type": "posting",
-      "company": {
-        "name": "Cloudflare",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Cloudflare | Stock Administration Analyst | In-Office",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology"
-      ],
-      "extras": {
-        "role": "Stock Administration Analyst",
-        "location": "In-Office",
-        "seniority": "mid"
-      }
-    },
-    {
-      "id": "8386dee8bda2fe80",
-      "ts": "2026-06-12T01:20:29.955000Z",
-      "source": "ashby",
-      "source_url": "https://jobs.ashbyhq.com/cursor/f952050a-2a0a-48c8-87f3-bd8f5d28ed93",
-      "type": "posting",
-      "company": {
-        "name": "Cursor",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": "NY",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Cursor | Director, Product Education Engineering | New York | Customer Success",
-      "tags": [
-        "hiring",
-        "ashby",
-        "technology",
-        "NY",
-        "Engineering Management"
-      ],
-      "extras": {
-        "role": "Director, Product Education Engineering",
-        "location": "New York",
-        "department": "Customer Success",
-        "employment_type": "FullTime",
-        "function": "Engineering Management",
-        "soc": "11-9041",
-        "seniority": "director"
-      }
-    },
-    {
-      "id": "be31fbb7b5ba68b8",
-      "ts": "2026-06-11T20:44:32-04:00",
-      "source": "greenhouse",
-      "source_url": "https://www.coinbase.com/careers/positions/7967333?gh_jid=7967333",
-      "type": "posting",
-      "company": {
-        "name": "Coinbase",
-        "ticker": null,
-        "industry": null,
-        "sector": "Finance",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Coinbase | Senior Insider Threat Analyst | Remote - USA",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "finance"
-      ],
-      "extras": {
-        "role": "Senior Insider Threat Analyst",
-        "location": "Remote - USA",
-        "seniority": "senior",
-        "remote": "remote"
-      }
-    },
-    {
-      "id": "f9e4626eaf2db06f",
-      "ts": "2026-06-11T20:24:07-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7984021",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": "CA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Client Account Manager, Large Customer Sales (Tech) | San Francisco, CA",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
-        "CA",
-        "Customer Success"
-      ],
-      "extras": {
-        "role": "Client Account Manager, Large Customer Sales (Tech)",
-        "location": "San Francisco, CA",
-        "function": "Customer Success",
-        "soc": "13-1161",
-        "seniority": "manager"
-      }
-    },
-    {
-      "id": "006b34e843817169",
-      "ts": "2026-06-11T20:24:07-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7993775",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": "CA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Client Account Manager, Mid-Market (App Dev - Acquisitions) | San Francisco, CA",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
-        "CA",
-        "Customer Success"
-      ],
-      "extras": {
-        "role": "Client Account Manager, Mid-Market (App Dev - Acquisitions)",
-        "location": "San Francisco, CA",
-        "function": "Customer Success",
-        "soc": "13-1161",
-        "seniority": "manager"
-      }
-    },
-    {
-      "id": "fd1c232e28a1c346",
-      "ts": "2026-06-11T20:24:07-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7974647",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Senior Staff Data Scientist - Consumer Relevance | Remote - Ontario, Canada",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
-        "Data / ML"
-      ],
-      "extras": {
-        "role": "Senior Staff Data Scientist - Consumer Relevance",
-        "location": "Remote - Ontario, Canada",
-        "function": "Data / ML",
-        "soc": "15-2051",
-        "seniority": "staff"
-      }
-    },
-    {
-      "id": "c8ddf4839d8d2fba",
-      "ts": "2026-06-11T20:24:07-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7974605",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Senior Staff Data Scientist - Consumer Relevance | Remote - United States",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
-        "Data / ML"
-      ],
-      "extras": {
-        "role": "Senior Staff Data Scientist - Consumer Relevance",
-        "location": "Remote - United States",
-        "function": "Data / ML",
-        "soc": "15-2051",
-        "seniority": "staff"
-      }
-    },
-    {
-      "id": "1946358f9004bcb7",
-      "ts": "2026-06-11T20:24:07-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7905472",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": "CA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Senior Technical Solutions Manager, Signals | San Francisco, CA",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
-        "CA"
-      ],
-      "extras": {
-        "role": "Senior Technical Solutions Manager, Signals",
-        "location": "San Francisco, CA",
-        "seniority": "senior"
-      }
-    },
-    {
-      "id": "aacfb20dc7628061",
-      "ts": "2026-06-11T20:24:06-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7958385",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Analytics Engineer | Toronto, Canada",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
-        "Data / ML"
-      ],
-      "extras": {
-        "role": "Analytics Engineer",
-        "location": "Toronto, Canada",
-        "function": "Data / ML",
-        "soc": "15-2051",
-        "seniority": "mid"
-      }
-    },
-    {
-      "id": "e923c518f2984810",
-      "ts": "2026-06-11T20:24:06-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7958354",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Analytics Engineer | Remote - United States",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
-        "Data / ML"
-      ],
-      "extras": {
-        "role": "Analytics Engineer",
-        "location": "Remote - United States",
-        "function": "Data / ML",
-        "soc": "15-2051",
-        "seniority": "mid"
-      }
-    },
-    {
-      "id": "83a99f5c06a521cf",
-      "ts": "2026-06-11T20:24:06-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7961073",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": "CA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Client Partner, Mid-Market (B2B Services Acquisitions) | San Francisco, CA",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
-        "CA"
-      ],
-      "extras": {
-        "role": "Client Partner, Mid-Market (B2B Services Acquisitions)",
-        "location": "San Francisco, CA",
-        "seniority": "mid",
-        "remote": "onsite"
-      }
-    },
-    {
-      "id": "0f392636e4180731",
-      "ts": "2026-06-11T20:24:06-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7954598",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Senior Business Engineer - Ads | Remote - United States",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media"
-      ],
-      "extras": {
-        "role": "Senior Business Engineer - Ads",
-        "location": "Remote - United States",
-        "seniority": "senior"
-      }
-    },
-    {
-      "id": "a3df79a89fefe6e4",
-      "ts": "2026-06-11T20:24:06-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7977257",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": "IL",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Senior Client Account Manager, Large Customer Sales (Pharma) | Chicago, IL",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
-        "IL",
-        "Customer Success"
-      ],
-      "extras": {
-        "role": "Senior Client Account Manager, Large Customer Sales (Pharma)",
-        "location": "Chicago, IL",
-        "function": "Customer Success",
-        "soc": "13-1161",
-        "seniority": "senior"
-      }
-    },
-    {
-      "id": "d850637f6bee2700",
-      "ts": "2026-06-11T20:24:06-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7976852",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Senior Software Engineer - Full Stack Internal Tooling (Build and Deployment Platform) | Remote - United States",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
-        "Software Engineering"
-      ],
-      "extras": {
-        "role": "Senior Software Engineer - Full Stack Internal Tooling (Build and Deployment Platform)",
-        "location": "Remote - United States",
-        "function": "Software Engineering",
-        "soc": "15-1252",
-        "seniority": "senior"
-      }
-    },
-    {
-      "id": "3f71189742dee07e",
-      "ts": "2026-06-11T20:24:06-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7905488",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": "CA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Senior Technical Solutions Manager, Signals | Los Angeles, CA",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
-        "CA"
-      ],
-      "extras": {
-        "role": "Senior Technical Solutions Manager, Signals",
-        "location": "Los Angeles, CA",
-        "seniority": "senior"
-      }
-    },
-    {
-      "id": "98ebd43da9d4a6b3",
-      "ts": "2026-06-11T20:24:06-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7905432",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": "NY",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Senior Technical Solutions Manager, Signals | New York City, NY",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
-        "NY"
-      ],
-      "extras": {
-        "role": "Senior Technical Solutions Manager, Signals",
-        "location": "New York City, NY",
-        "seniority": "senior"
-      }
-    },
-    {
-      "id": "edb7ca542223743f",
-      "ts": "2026-06-11T20:24:06-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7905466",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": "IL",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Senior Technical Solutions Manager, Signals | Chicago, IL",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
-        "IL"
-      ],
-      "extras": {
-        "role": "Senior Technical Solutions Manager, Signals",
-        "location": "Chicago, IL",
-        "seniority": "senior"
-      }
-    },
-    {
-      "id": "119e2ff7e0579eed",
-      "ts": "2026-06-11T20:24:06-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7947897",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": "IL",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Sr. Manager, Large Customer Sales (Big Box Retail) | Chicago, IL",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
-        "IL"
-      ],
-      "extras": {
-        "role": "Sr. Manager, Large Customer Sales (Big Box Retail)",
-        "location": "Chicago, IL",
-        "seniority": "senior",
-        "remote": "onsite"
-      }
-    },
-    {
-      "id": "a6e30b22b8bb873a",
-      "ts": "2026-06-11T20:24:05-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7982890",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": "CA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Client Account Manager, Large Customer Sales (Financial Services) | Los Angeles, CA",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
-        "CA",
-        "Customer Success"
-      ],
-      "extras": {
-        "role": "Client Account Manager, Large Customer Sales (Financial Services)",
-        "location": "Los Angeles, CA",
-        "function": "Customer Success",
-        "soc": "13-1161",
-        "seniority": "manager"
-      }
-    },
-    {
-      "id": "afcdc833ea82a5cd",
-      "ts": "2026-06-11T20:24:05-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7982927",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": "CA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Client Account Manager, Large Customer Sales (Financial Services) | San Francisco, CA",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
-        "CA",
-        "Customer Success"
-      ],
-      "extras": {
-        "role": "Client Account Manager, Large Customer Sales (Financial Services)",
-        "location": "San Francisco, CA",
-        "function": "Customer Success",
-        "soc": "13-1161",
-        "seniority": "manager"
-      }
-    },
-    {
-      "id": "95df8e806cb7c07f",
-      "ts": "2026-06-11T20:24:05-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7982928",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": "NY",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Client Account Manager, Large Customer Sales (Financial Services) | New York City, NY",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
-        "NY",
-        "Customer Success"
-      ],
-      "extras": {
-        "role": "Client Account Manager, Large Customer Sales (Financial Services)",
-        "location": "New York City, NY",
-        "function": "Customer Success",
-        "soc": "13-1161",
-        "seniority": "manager"
-      }
-    },
-    {
-      "id": "f57452c336df3c9f",
-      "ts": "2026-06-11T20:24:05-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7966985",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Engineering Manager, Advanced Signals (SWE) | Remote - United States",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
-        "Software Engineering"
-      ],
-      "extras": {
-        "role": "Engineering Manager, Advanced Signals (SWE)",
-        "location": "Remote - United States",
-        "function": "Software Engineering",
-        "soc": "15-1252",
-        "seniority": "manager"
-      }
-    },
-    {
-      "id": "747cdd12c73f681a",
-      "ts": "2026-06-11T20:24:05-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7559059",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": "NY",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Senior Ads Measurement Lead - App Dev | New York City, NY",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
-        "NY"
-      ],
-      "extras": {
-        "role": "Senior Ads Measurement Lead - App Dev",
-        "location": "New York City, NY",
-        "seniority": "senior"
-      }
-    },
-    {
-      "id": "1286350163121735",
-      "ts": "2026-06-11T20:24:05-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7746526",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": "NY",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Senior Client Account Manager, Large Customer Sales (Pharma) | New York City, NY",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
-        "NY",
-        "Customer Success"
-      ],
-      "extras": {
-        "role": "Senior Client Account Manager, Large Customer Sales (Pharma)",
-        "location": "New York City, NY",
-        "function": "Customer Success",
-        "soc": "13-1161",
-        "seniority": "senior"
-      }
-    },
-    {
-      "id": "06857b7242a741af",
-      "ts": "2026-06-11T20:24:05-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7982607",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Sr. Engineering Manager, Shopping Ads | Remote - United States",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
-        "Engineering Management"
-      ],
-      "extras": {
-        "role": "Sr. Engineering Manager, Shopping Ads",
-        "location": "Remote - United States",
-        "function": "Engineering Management",
-        "soc": "11-9041",
-        "seniority": "senior"
-      }
-    },
-    {
-      "id": "62635ccafd37bd5e",
-      "ts": "2026-06-11T20:24:05-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7954001",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Staff Technical Product Manager, Ads ML Platform | Remote - United States",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
-        "Product"
-      ],
-      "extras": {
-        "role": "Staff Technical Product Manager, Ads ML Platform",
-        "location": "Remote - United States",
-        "function": "Product",
-        "soc": "11-2021",
-        "seniority": "staff"
-      }
-    },
-    {
-      "id": "3acb8acf04da43d2",
-      "ts": "2026-06-11T20:24:04-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7768983",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": "NY",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Creative Technologist, KarmaLab | New York City, NY",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
-        "NY"
-      ],
-      "extras": {
-        "role": "Creative Technologist, KarmaLab",
-        "location": "New York City, NY",
-        "seniority": "mid",
-        "stack": [
-          "go"
-        ]
-      }
-    },
-    {
-      "id": "eaf29212bd0c51df",
-      "ts": "2026-06-11T20:24:04-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7396638",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Program Manager, Vendor Operations | London, United Kingdom",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media"
-      ],
-      "extras": {
-        "role": "Program Manager, Vendor Operations",
-        "location": "London, United Kingdom",
-        "seniority": "manager"
-      }
-    },
-    {
-      "id": "ed317444782d7d1a",
-      "ts": "2026-06-11T20:24:04-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7445224",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Senior Analytics Engineer | Remote - United States",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
-        "Data / ML"
-      ],
-      "extras": {
-        "role": "Senior Analytics Engineer",
-        "location": "Remote - United States",
-        "function": "Data / ML",
-        "soc": "15-2051",
-        "seniority": "senior"
-      }
-    },
-    {
-      "id": "cf093e2e3914dcd3",
-      "ts": "2026-06-11T20:24:04-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7958403",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Senior Analytics Engineer | Remote - Ontario, Canada",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
-        "Data / ML"
-      ],
-      "extras": {
-        "role": "Senior Analytics Engineer",
-        "location": "Remote - Ontario, Canada",
-        "function": "Data / ML",
-        "soc": "15-2051",
-        "seniority": "senior"
-      }
-    },
-    {
-      "id": "2a16e574cf4daed6",
-      "ts": "2026-06-11T20:24:04-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7746549",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": "CA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Senior Client Account Manager, Large Customer Sales (Fashion & Apparel) | Los Angeles, CA",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
-        "CA",
-        "Customer Success"
-      ],
-      "extras": {
-        "role": "Senior Client Account Manager, Large Customer Sales (Fashion & Apparel)",
-        "location": "Los Angeles, CA",
-        "function": "Customer Success",
-        "soc": "13-1161",
-        "seniority": "senior",
-        "remote": "onsite"
-      }
-    },
-    {
-      "id": "bd43bbb2cf888581",
-      "ts": "2026-06-11T20:24:04-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7767765",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": "CA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Senior Client Account Manager, Large Customer Sales (Fashion & Apparel) | San Francisco, CA",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
-        "CA",
-        "Customer Success"
-      ],
-      "extras": {
-        "role": "Senior Client Account Manager, Large Customer Sales (Fashion & Apparel)",
-        "location": "San Francisco, CA",
-        "function": "Customer Success",
-        "soc": "13-1161",
-        "seniority": "senior",
-        "remote": "onsite"
-      }
-    },
-    {
-      "id": "7b8bcbd3396a419e",
-      "ts": "2026-06-11T20:24:04-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7962471",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": "CA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Senior Client Partner, Large Customer Sales (Sports Apparel) | Los Angeles, CA",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
-        "CA"
-      ],
-      "extras": {
-        "role": "Senior Client Partner, Large Customer Sales (Sports Apparel)",
-        "location": "Los Angeles, CA",
-        "seniority": "senior"
-      }
-    },
-    {
-      "id": "82786c3e35934d4a",
-      "ts": "2026-06-11T20:24:04-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7965014",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": "WA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Senior Client Partner, Large Customer Sales (Sports Apparel) | Seattle, WA",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
-        "WA"
-      ],
-      "extras": {
-        "role": "Senior Client Partner, Large Customer Sales (Sports Apparel)",
-        "location": "Seattle, WA",
-        "seniority": "senior"
-      }
-    },
-    {
-      "id": "0ade37d4cf1ec142",
-      "ts": "2026-06-11T20:24:04-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7965011",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": "CA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Senior Client Partner, Large Customer Sales (Sports Apparel) | San Francisco, CA",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
-        "CA"
-      ],
-      "extras": {
-        "role": "Senior Client Partner, Large Customer Sales (Sports Apparel)",
-        "location": "San Francisco, CA",
-        "seniority": "senior"
-      }
-    },
-    {
-      "id": "f2ac52dca3265ed1",
-      "ts": "2026-06-11T20:24:03-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7769002",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": "NY",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Creative Strategist - App Dev | New York City, NY",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
-        "NY"
-      ],
-      "extras": {
-        "role": "Creative Strategist - App Dev",
-        "location": "New York City, NY",
-        "seniority": "mid"
-      }
-    },
-    {
-      "id": "fa84100c0e549524",
-      "ts": "2026-06-11T20:23:48-04:00",
-      "source": "greenhouse",
-      "source_url": "https://stripe.com/jobs/search?gh_jid=7981330",
-      "type": "posting",
-      "company": {
-        "name": "Stripe",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Stripe | Product Manager, Link - Local Payment Methods | USA",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "Product"
-      ],
-      "extras": {
-        "role": "Product Manager, Link - Local Payment Methods",
-        "location": "USA",
-        "function": "Product",
-        "soc": "11-2021",
-        "seniority": "manager"
-      }
-    },
-    {
-      "id": "eaf018b23f29bc7e",
-      "ts": "2026-06-11T20:17:04-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7843673",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": "IL",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Client Partner, Large Customer Sales (Retail, Ecomm) | Chicago, IL",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
-        "IL"
-      ],
-      "extras": {
-        "role": "Client Partner, Large Customer Sales (Retail, Ecomm)",
-        "location": "Chicago, IL",
-        "seniority": "mid",
-        "remote": "onsite"
-      }
-    },
-    {
-      "id": "a593f6de5814ae32",
-      "ts": "2026-06-11T20:17:04-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7869277",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": "NY",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Client Partner, Large Customer Sales (Retail, Ecomm) | New York City, NY",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
-        "NY"
-      ],
-      "extras": {
-        "role": "Client Partner, Large Customer Sales (Retail, Ecomm)",
-        "location": "New York City, NY",
-        "seniority": "mid",
-        "remote": "onsite"
-      }
-    },
-    {
-      "id": "35daf24d71f85fd2",
-      "ts": "2026-06-11T20:17:03-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7728843",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": "NY",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Senior Client Partner, Large Customer Sales (Tech) | New York City, NY",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
-        "NY"
-      ],
-      "extras": {
-        "role": "Senior Client Partner, Large Customer Sales (Tech)",
-        "location": "New York City, NY",
-        "seniority": "senior"
-      }
-    },
-    {
-      "id": "89df1f633d634531",
-      "ts": "2026-06-11T20:17:03-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7561756",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": "NY",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Senior Client Partner, Large Customer Sales (Tech) | New York City, NY",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
-        "NY"
-      ],
-      "extras": {
-        "role": "Senior Client Partner, Large Customer Sales (Tech)",
-        "location": "New York City, NY",
-        "seniority": "senior"
-      }
-    },
-    {
-      "id": "7bbaf6ae8496d96b",
-      "ts": "2026-06-11T20:17:03-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7696013",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": "CA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Senior Client Partner, Large Customer Sales (Tech) | San Francisco, CA",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
-        "CA"
-      ],
-      "extras": {
-        "role": "Senior Client Partner, Large Customer Sales (Tech)",
-        "location": "San Francisco, CA",
-        "seniority": "senior"
-      }
-    },
-    {
-      "id": "21914054d5af76a6",
-      "ts": "2026-06-11T20:15:10-04:00",
-      "source": "greenhouse",
-      "source_url": "https://instacart.careers/job/?gh_jid=8001889",
-      "type": "posting",
-      "company": {
-        "name": "Instacart",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Instacart | Insights Manager II | United States - Remote",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology"
-      ],
-      "extras": {
-        "role": "Insights Manager II",
-        "location": "United States - Remote",
-        "seniority": "manager",
-        "remote": "remote"
-      }
     }
   ],
   "sector_matrix": {
-    "generated_at": "2026-06-12T12:14:20.957033Z",
+    "generated_at": "2026-06-12T15:19:57.653427Z",
     "cells": [
       {
         "sector": "Technology",
@@ -3230,38 +3234,38 @@
       {
         "sector": "Technology",
         "signal_type": "posting",
-        "count_7d": 947,
-        "count_30d": 1682,
+        "count_7d": 944,
+        "count_30d": 1678,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 27.99
+        "z_score": 27.92
       },
       {
         "sector": "Technology",
         "signal_type": "exec_move",
-        "count_7d": 0,
-        "count_30d": 0,
+        "count_7d": 1,
+        "count_30d": 1,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": null
+        "z_score": 0.77
       },
       {
         "sector": "Technology",
         "signal_type": "funding",
-        "count_7d": 2,
-        "count_30d": 2,
-        "magnitude_7d": null,
-        "magnitude_30d": null,
-        "z_score": 1.53
-      },
-      {
-        "sector": "Technology",
-        "signal_type": "macro",
         "count_7d": 0,
         "count_30d": 0,
         "magnitude_7d": null,
         "magnitude_30d": null,
         "z_score": null
+      },
+      {
+        "sector": "Technology",
+        "signal_type": "macro",
+        "count_7d": 1,
+        "count_30d": 1,
+        "magnitude_7d": 8.0,
+        "magnitude_30d": null,
+        "z_score": 0.77
       },
       {
         "sector": "Finance",
@@ -3275,11 +3279,11 @@
       {
         "sector": "Finance",
         "signal_type": "posting",
-        "count_7d": 251,
-        "count_30d": 304,
+        "count_7d": 252,
+        "count_30d": 305,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 21.38
+        "z_score": 21.44
       },
       {
         "sector": "Finance",
@@ -3302,11 +3306,11 @@
       {
         "sector": "Finance",
         "signal_type": "macro",
-        "count_7d": 1,
-        "count_30d": 1,
-        "magnitude_7d": 1.0,
+        "count_7d": 0,
+        "count_30d": 0,
+        "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 0.77
+        "z_score": null
       },
       {
         "sector": "Healthcare",
@@ -3320,20 +3324,20 @@
       {
         "sector": "Healthcare",
         "signal_type": "posting",
-        "count_7d": 58,
+        "count_7d": 49,
         "count_30d": 133,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 4.84
+        "z_score": 3.23
       },
       {
         "sector": "Healthcare",
         "signal_type": "exec_move",
-        "count_7d": 0,
-        "count_30d": 0,
+        "count_7d": 2,
+        "count_30d": 3,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": null
+        "z_score": 1.3
       },
       {
         "sector": "Healthcare",
@@ -3365,11 +3369,11 @@
       {
         "sector": "CPG",
         "signal_type": "posting",
-        "count_7d": 3,
-        "count_30d": 7,
+        "count_7d": 4,
+        "count_30d": 8,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 1.07
+        "z_score": 1.56
       },
       {
         "sector": "CPG",
@@ -3419,20 +3423,20 @@
       {
         "sector": "Manufacturing",
         "signal_type": "exec_move",
-        "count_7d": 0,
-        "count_30d": 0,
+        "count_7d": 3,
+        "count_30d": 6,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": null
+        "z_score": 1.35
       },
       {
         "sector": "Manufacturing",
         "signal_type": "funding",
-        "count_7d": 5,
-        "count_30d": 5,
+        "count_7d": 6,
+        "count_30d": 6,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 3.55
+        "z_score": 3.89
       },
       {
         "sector": "Manufacturing",
@@ -3447,10 +3451,10 @@
         "sector": "Retail",
         "signal_type": "layoff",
         "count_7d": 1,
-        "count_30d": 2,
+        "count_30d": 1,
         "magnitude_7d": 1000.0,
         "magnitude_30d": null,
-        "z_score": 0.53
+        "z_score": 0.77
       },
       {
         "sector": "Retail",
@@ -3500,20 +3504,20 @@
       {
         "sector": "Media",
         "signal_type": "posting",
-        "count_7d": 64,
+        "count_7d": 65,
         "count_30d": 174,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 3.67
+        "z_score": 3.83
       },
       {
         "sector": "Media",
         "signal_type": "exec_move",
         "count_7d": 0,
-        "count_30d": 0,
+        "count_30d": 1,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": null
+        "z_score": -0.23
       },
       {
         "sector": "Media",
