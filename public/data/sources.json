@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T14:42:40.397529+00:00",
+  "generated_at": "2026-06-25T20:09:37.232533+00:00",
   "sources": [
     {
       "source": "greenhouse",
@@ -7,9 +7,9 @@
       "url": "https://boards-api.greenhouse.io",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-06-25T14:37:10.535605Z",
-      "last_attempted": "2026-06-25T14:37:10.535605Z",
-      "record_count": 2785,
+      "last_ok": "2026-06-25T20:03:41.475396Z",
+      "last_attempted": "2026-06-25T20:03:41.475396Z",
+      "record_count": 2790,
       "ok": true,
       "errors": [
         "DoorDash (doordash): GET https://boards-api.greenhouse.io/v1/boards/doordash/jobs failed: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/doordash/jobs?content=true'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
@@ -29,9 +29,9 @@
       "url": "https://api.lever.co/v0/postings",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-06-25T14:37:35.550782Z",
-      "last_attempted": "2026-06-25T14:37:35.550782Z",
-      "record_count": 127,
+      "last_ok": "2026-06-25T20:04:21.518995Z",
+      "last_attempted": "2026-06-25T20:04:21.518995Z",
+      "record_count": 124,
       "ok": true,
       "errors": [
         "Scale AI (scaleai): GET https://api.lever.co/v0/postings/scaleai failed: Client error '404 Not Found' for url 'https://api.lever.co/v0/postings/scaleai?mode=json'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
@@ -46,9 +46,9 @@
       "url": "https://api.ashbyhq.com/posting-api",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-06-25T14:37:46.838044Z",
-      "last_attempted": "2026-06-25T14:37:46.838044Z",
-      "record_count": 207,
+      "last_ok": "2026-06-25T20:04:36.674127Z",
+      "last_attempted": "2026-06-25T20:04:36.674127Z",
+      "record_count": 208,
       "ok": true,
       "errors": [
         "Replicate (replicate): GET https://api.ashbyhq.com/posting-api/job-board/replicate failed: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/replicate'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
@@ -60,8 +60,8 @@
       "url": "https://techcrunch.com/tag/layoffs/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-06-25T14:37:49.291586Z",
-      "last_attempted": "2026-06-25T14:37:49.291586Z",
+      "last_ok": "2026-06-25T20:04:39.234090Z",
+      "last_attempted": "2026-06-25T20:04:39.234090Z",
       "record_count": 6,
       "ok": true,
       "errors": []
@@ -72,9 +72,9 @@
       "url": "https://news.google.com/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-06-25T14:37:49.769023Z",
-      "last_attempted": "2026-06-25T14:37:49.769023Z",
-      "record_count": 41,
+      "last_ok": "2026-06-25T20:04:39.766692Z",
+      "last_attempted": "2026-06-25T20:04:39.766692Z",
+      "record_count": 46,
       "ok": true,
       "errors": []
     },
@@ -85,7 +85,7 @@
       "tos_posture": "public_csv",
       "cadence_hours": 24,
       "last_ok": null,
-      "last_attempted": "2026-06-25T14:37:52.934698Z",
+      "last_attempted": "2026-06-25T20:04:42.995901Z",
       "record_count": 0,
       "ok": false,
       "errors": [
@@ -99,8 +99,8 @@
       "url": "https://techcrunch.com/category/venture/feed/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-06-25T14:37:59.895262Z",
-      "last_attempted": "2026-06-25T14:37:59.895262Z",
+      "last_ok": "2026-06-25T20:04:49.981567Z",
+      "last_attempted": "2026-06-25T20:04:49.981567Z",
       "record_count": 9,
       "ok": true,
       "errors": []
@@ -111,12 +111,12 @@
       "url": "https://efts.sec.gov/LATEST/search-index",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-06-25T14:38:00.297745Z",
-      "last_attempted": "2026-06-25T14:38:00.297745Z",
+      "last_ok": "2026-06-25T20:04:50.373503Z",
+      "last_attempted": "2026-06-25T20:04:50.373503Z",
       "record_count": 80,
       "ok": true,
       "errors": [
-        "EFTS Form D query: GET https://efts.sec.gov/LATEST/search-index failed: Server error '500 Internal Server Error' for url 'https://efts.sec.gov/LATEST/search-index?q=&forms=D&dateRange=custom&startdt=2026-05-26&enddt=2026-06-25'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500"
+        "EFTS 8-K query: GET https://efts.sec.gov/LATEST/search-index failed: Server error '500 Internal Server Error' for url 'https://efts.sec.gov/LATEST/search-index?q=%22Item+5.02%22&forms=8-K&dateRange=custom&startdt=2026-06-11&enddt=2026-06-25'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500"
       ]
     },
     {
@@ -126,7 +126,7 @@
       "tos_posture": "public_csv",
       "cadence_hours": 24,
       "last_ok": null,
-      "last_attempted": "2026-06-25T14:38:03.517170Z",
+      "last_attempted": "2026-06-25T20:04:54.193335Z",
       "record_count": 0,
       "ok": false,
       "errors": [
@@ -139,8 +139,8 @@
       "url": "https://www.bls.gov/oes/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-06-25T14:38:06.674804Z",
-      "last_attempted": "2026-06-25T14:38:06.674804Z",
+      "last_ok": "2026-06-25T20:04:57.393817Z",
+      "last_attempted": "2026-06-25T20:04:57.393817Z",
       "record_count": 24,
       "ok": true,
       "errors": []
@@ -151,8 +151,8 @@
       "url": "https://www.bls.gov/ces/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-06-25T14:38:07.069654Z",
-      "last_attempted": "2026-06-25T14:38:07.069654Z",
+      "last_ok": "2026-06-25T20:04:57.770763Z",
+      "last_attempted": "2026-06-25T20:04:57.770763Z",
       "record_count": 48,
       "ok": true,
       "errors": []
@@ -163,8 +163,8 @@
       "url": "https://www.bls.gov/developers/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-06-25T14:38:07.338863Z",
-      "last_attempted": "2026-06-25T14:38:07.338863Z",
+      "last_ok": "2026-06-25T20:04:58.088112Z",
+      "last_attempted": "2026-06-25T20:04:58.088112Z",
       "record_count": 30,
       "ok": true,
       "errors": []
@@ -176,7 +176,7 @@
       "tos_posture": "public_api",
       "cadence_hours": 12,
       "last_ok": null,
-      "last_attempted": "2026-06-25T14:38:07.567664Z",
+      "last_attempted": "2026-06-25T20:04:58.288027Z",
       "record_count": 0,
       "ok": false,
       "errors": [
@@ -194,8 +194,8 @@
       "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-06-25T14:38:07.832813Z",
-      "last_attempted": "2026-06-25T14:38:07.832813Z",
+      "last_ok": "2026-06-25T20:04:58.837035Z",
+      "last_attempted": "2026-06-25T20:04:58.837035Z",
       "record_count": 34,
       "ok": true,
       "errors": []
@@ -207,17 +207,17 @@
       "tos_posture": "public_api",
       "cadence_hours": 24,
       "last_ok": null,
-      "last_attempted": "2026-06-25T14:38:11.491169Z",
+      "last_attempted": "2026-06-25T20:05:01.071425Z",
       "record_count": 0,
       "ok": false,
       "errors": [
         "Stripe: GET https://web.archive.org/cdx/search/cdx failed: The read operation timed out",
-        "Airbnb: GET https://web.archive.org/cdx/search/cdx failed: The read operation timed out",
+        "Airbnb: GET https://web.archive.org/cdx/search/cdx failed: Server error '503 Service Unavailable' for url 'https://web.archive.org/cdx/search/cdx?url=airbnb.com%2Fcareers&from=20260327&to=20260625&output=json&limit=200&fl=timestamp&collapse=timestamp%3A8'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503",
         "Coinbase: GET https://web.archive.org/cdx/search/cdx failed: The read operation timed out",
         "Robinhood: GET https://web.archive.org/cdx/search/cdx failed: The read operation timed out",
-        "Reddit: GET https://web.archive.org/cdx/search/cdx failed: Server error '503 Service Unavailable' for url 'https://web.archive.org/cdx/search/cdx?url=reddit.com%2Fcareers&from=20260327&to=20260625&output=json&limit=200&fl=timestamp&collapse=timestamp%3A8'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503",
-        "DoorDash: GET https://web.archive.org/cdx/search/cdx failed: The read operation timed out",
-        "Instacart: GET https://web.archive.org/cdx/search/cdx failed: Server error '503 Service Unavailable' for url 'https://web.archive.org/cdx/search/cdx?url=instacart.com%2Fcareers&from=20260327&to=20260625&output=json&limit=200&fl=timestamp&collapse=timestamp%3A8'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503",
+        "Reddit: GET https://web.archive.org/cdx/search/cdx failed: The read operation timed out",
+        "DoorDash: GET https://web.archive.org/cdx/search/cdx failed: timed out",
+        "Instacart: GET https://web.archive.org/cdx/search/cdx failed: timed out",
         "Pinterest: GET https://web.archive.org/cdx/search/cdx failed: timed out",
         "Discord: GET https://web.archive.org/cdx/search/cdx failed: timed out",
         "GitLab: GET https://web.archive.org/cdx/search/cdx failed: timed out"
