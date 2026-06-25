@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-24T19:55:45.784646+00:00",
+  "generated_at": "2026-06-25T03:56:33.788530+00:00",
   "sources": [
     {
       "source": "greenhouse",
@@ -7,9 +7,9 @@
       "url": "https://boards-api.greenhouse.io",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-06-24T19:49:49.796117Z",
-      "last_attempted": "2026-06-24T19:49:49.796117Z",
-      "record_count": 2776,
+      "last_ok": "2026-06-25T03:50:44.887890Z",
+      "last_attempted": "2026-06-25T03:50:44.887890Z",
+      "record_count": 2785,
       "ok": true,
       "errors": [
         "DoorDash (doordash): GET https://boards-api.greenhouse.io/v1/boards/doordash/jobs failed: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/doordash/jobs?content=true'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
@@ -29,8 +29,8 @@
       "url": "https://api.lever.co/v0/postings",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-06-24T19:50:16.173078Z",
-      "last_attempted": "2026-06-24T19:50:16.173078Z",
+      "last_ok": "2026-06-25T03:51:11.862850Z",
+      "last_attempted": "2026-06-25T03:51:11.862850Z",
       "record_count": 127,
       "ok": true,
       "errors": [
@@ -46,9 +46,9 @@
       "url": "https://api.ashbyhq.com/posting-api",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-06-24T19:50:31.829316Z",
-      "last_attempted": "2026-06-24T19:50:31.829316Z",
-      "record_count": 208,
+      "last_ok": "2026-06-25T03:51:22.168964Z",
+      "last_attempted": "2026-06-25T03:51:22.168964Z",
+      "record_count": 207,
       "ok": true,
       "errors": [
         "Replicate (replicate): GET https://api.ashbyhq.com/posting-api/job-board/replicate failed: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/replicate'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
@@ -60,8 +60,8 @@
       "url": "https://techcrunch.com/tag/layoffs/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-06-24T19:50:34.886698Z",
-      "last_attempted": "2026-06-24T19:50:34.886698Z",
+      "last_ok": "2026-06-25T03:51:25.107101Z",
+      "last_attempted": "2026-06-25T03:51:25.107101Z",
       "record_count": 6,
       "ok": true,
       "errors": []
@@ -72,9 +72,9 @@
       "url": "https://news.google.com/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-06-24T19:50:35.321265Z",
-      "last_attempted": "2026-06-24T19:50:35.321265Z",
-      "record_count": 41,
+      "last_ok": "2026-06-25T03:51:25.590121Z",
+      "last_attempted": "2026-06-25T03:51:25.590121Z",
+      "record_count": 44,
       "ok": true,
       "errors": []
     },
@@ -85,7 +85,7 @@
       "tos_posture": "public_csv",
       "cadence_hours": 24,
       "last_ok": null,
-      "last_attempted": "2026-06-24T19:50:40.067898Z",
+      "last_attempted": "2026-06-25T03:51:29.050170Z",
       "record_count": 0,
       "ok": false,
       "errors": [
@@ -99,8 +99,8 @@
       "url": "https://techcrunch.com/category/venture/feed/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-06-24T19:50:47.378413Z",
-      "last_attempted": "2026-06-24T19:50:47.378413Z",
+      "last_ok": "2026-06-25T03:51:36.392959Z",
+      "last_attempted": "2026-06-25T03:51:36.392959Z",
       "record_count": 9,
       "ok": true,
       "errors": []
@@ -111,14 +111,11 @@
       "url": "https://efts.sec.gov/LATEST/search-index",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": null,
-      "last_attempted": "2026-06-24T19:50:48.054520Z",
-      "record_count": 0,
-      "ok": false,
-      "errors": [
-        "EFTS 8-K query: GET https://efts.sec.gov/LATEST/search-index failed: Server error '500 Internal Server Error' for url 'https://efts.sec.gov/LATEST/search-index?q=%22Item+5.02%22&forms=8-K&dateRange=custom&startdt=2026-06-10&enddt=2026-06-24'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500",
-        "EFTS Form D query: GET https://efts.sec.gov/LATEST/search-index failed: Server error '500 Internal Server Error' for url 'https://efts.sec.gov/LATEST/search-index?q=&forms=D&dateRange=custom&startdt=2026-05-25&enddt=2026-06-24'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500"
-      ]
+      "last_ok": "2026-06-25T03:51:37.119068Z",
+      "last_attempted": "2026-06-25T03:51:37.119068Z",
+      "record_count": 160,
+      "ok": true,
+      "errors": []
     },
     {
       "source": "dol_lca",
@@ -127,7 +124,7 @@
       "tos_posture": "public_csv",
       "cadence_hours": 24,
       "last_ok": null,
-      "last_attempted": "2026-06-24T19:50:52.082650Z",
+      "last_attempted": "2026-06-25T03:51:38.166984Z",
       "record_count": 0,
       "ok": false,
       "errors": [
@@ -140,8 +137,8 @@
       "url": "https://www.bls.gov/oes/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-06-24T19:50:55.317108Z",
-      "last_attempted": "2026-06-24T19:50:55.317108Z",
+      "last_ok": "2026-06-25T03:51:41.539324Z",
+      "last_attempted": "2026-06-25T03:51:41.539324Z",
       "record_count": 24,
       "ok": true,
       "errors": []
@@ -152,8 +149,8 @@
       "url": "https://www.bls.gov/ces/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-06-24T19:50:56.131526Z",
-      "last_attempted": "2026-06-24T19:50:56.131526Z",
+      "last_ok": "2026-06-25T03:51:42.070884Z",
+      "last_attempted": "2026-06-25T03:51:42.070884Z",
       "record_count": 48,
       "ok": true,
       "errors": []
@@ -164,8 +161,8 @@
       "url": "https://www.bls.gov/developers/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-06-24T19:50:56.634689Z",
-      "last_attempted": "2026-06-24T19:50:56.634689Z",
+      "last_ok": "2026-06-25T03:51:42.417369Z",
+      "last_attempted": "2026-06-25T03:51:42.417369Z",
       "record_count": 30,
       "ok": true,
       "errors": []
@@ -177,7 +174,7 @@
       "tos_posture": "public_api",
       "cadence_hours": 12,
       "last_ok": null,
-      "last_attempted": "2026-06-24T19:50:57.118791Z",
+      "last_attempted": "2026-06-25T03:51:42.705555Z",
       "record_count": 0,
       "ok": false,
       "errors": [
@@ -195,8 +192,8 @@
       "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-06-24T19:50:57.608507Z",
-      "last_attempted": "2026-06-24T19:50:57.608507Z",
+      "last_ok": "2026-06-25T03:51:43.434796Z",
+      "last_attempted": "2026-06-25T03:51:43.434796Z",
       "record_count": 31,
       "ok": true,
       "errors": []
@@ -208,7 +205,7 @@
       "tos_posture": "public_api",
       "cadence_hours": 24,
       "last_ok": null,
-      "last_attempted": "2026-06-24T19:51:07.811988Z",
+      "last_attempted": "2026-06-25T03:51:51.973821Z",
       "record_count": 0,
       "ok": false,
       "errors": [
@@ -216,8 +213,8 @@
         "Airbnb: GET https://web.archive.org/cdx/search/cdx failed: The read operation timed out",
         "Coinbase: GET https://web.archive.org/cdx/search/cdx failed: The read operation timed out",
         "Robinhood: GET https://web.archive.org/cdx/search/cdx failed: The read operation timed out",
-        "Reddit: GET https://web.archive.org/cdx/search/cdx failed: The read operation timed out",
-        "DoorDash: GET https://web.archive.org/cdx/search/cdx failed: timed out",
+        "Reddit: GET https://web.archive.org/cdx/search/cdx failed: timed out",
+        "DoorDash: GET https://web.archive.org/cdx/search/cdx failed: The read operation timed out",
         "Instacart: GET https://web.archive.org/cdx/search/cdx failed: The read operation timed out",
         "Pinterest: GET https://web.archive.org/cdx/search/cdx failed: timed out",
         "Discord: GET https://web.archive.org/cdx/search/cdx failed: timed out",
