@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-31T11:25:28.829367Z",
+  "generated_at": "2026-07-31T14:11:25.519437Z",
   "next_ingest_at": null,
-  "total_events": 3610,
-  "events_7d": 1477,
+  "total_events": 3650,
+  "events_7d": 1510,
   "sources": [
     {
       "source": "greenhouse",
@@ -10,9 +10,9 @@
       "url": "https://boards-api.greenhouse.io",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-07-31T11:25:28.933280Z",
-      "last_attempted": "2026-07-31T11:25:28.933280Z",
-      "record_count": 2961,
+      "last_ok": "2026-07-31T14:11:25.636738Z",
+      "last_attempted": "2026-07-31T14:11:25.636738Z",
+      "record_count": 2959,
       "ok": true,
       "errors": [
         "DoorDash (doordash): GET https://boards-api.greenhouse.io/v1/boards/doordash/jobs failed: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/doordash/jobs?content=true'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
@@ -32,9 +32,9 @@
       "url": "https://api.lever.co/v0/postings",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-07-31T11:25:54.665676Z",
-      "last_attempted": "2026-07-31T11:25:54.665676Z",
-      "record_count": 106,
+      "last_ok": "2026-07-31T14:11:54.020570Z",
+      "last_attempted": "2026-07-31T14:11:54.020570Z",
+      "record_count": 104,
       "ok": true,
       "errors": [
         "Scale AI (scaleai): GET https://api.lever.co/v0/postings/scaleai failed: Client error '404 Not Found' for url 'https://api.lever.co/v0/postings/scaleai?mode=json'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
@@ -49,9 +49,9 @@
       "url": "https://api.ashbyhq.com/posting-api",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-07-31T11:26:03.649736Z",
-      "last_attempted": "2026-07-31T11:26:03.649736Z",
-      "record_count": 228,
+      "last_ok": "2026-07-31T14:12:04.825620Z",
+      "last_attempted": "2026-07-31T14:12:04.825620Z",
+      "record_count": 227,
       "ok": true,
       "errors": [
         "Replicate (replicate): GET https://api.ashbyhq.com/posting-api/job-board/replicate failed: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/replicate'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
@@ -63,8 +63,8 @@
       "url": "https://techcrunch.com/tag/layoffs/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-07-31T11:26:06.463202Z",
-      "last_attempted": "2026-07-31T11:26:06.463202Z",
+      "last_ok": "2026-07-31T14:12:07.423481Z",
+      "last_attempted": "2026-07-31T14:12:07.423481Z",
       "record_count": 6,
       "ok": true,
       "errors": []
@@ -75,19 +75,11 @@
       "url": "https://news.google.com/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": null,
-      "last_attempted": "2026-07-31T11:26:06.961803Z",
-      "record_count": 0,
-      "ok": false,
-      "errors": [
-        "'tech layoffs': Server error '503 Service Unavailable' for url 'https://news.google.com/rss/search?q=tech+layoffs+when%3A21d&hl=en-US&gl=US&ceid=US:en'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503",
-        "'bank layoffs': Server error '503 Service Unavailable' for url 'https://news.google.com/rss/search?q=bank+layoffs+when%3A21d&hl=en-US&gl=US&ceid=US:en'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503",
-        "'healthcare layoffs': Server error '503 Service Unavailable' for url 'https://news.google.com/rss/search?q=healthcare+layoffs+when%3A21d&hl=en-US&gl=US&ceid=US:en'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503",
-        "'retail layoffs': Server error '503 Service Unavailable' for url 'https://news.google.com/rss/search?q=retail+layoffs+when%3A21d&hl=en-US&gl=US&ceid=US:en'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503",
-        "'manufacturing layoffs': Server error '503 Service Unavailable' for url 'https://news.google.com/rss/search?q=manufacturing+layoffs+when%3A21d&hl=en-US&gl=US&ceid=US:en'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503",
-        "'media layoffs': Server error '503 Service Unavailable' for url 'https://news.google.com/rss/search?q=media+layoffs+when%3A21d&hl=en-US&gl=US&ceid=US:en'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503",
-        "'company layoffs announced': Server error '503 Service Unavailable' for url 'https://news.google.com/rss/search?q=company+layoffs+announced+when%3A21d&hl=en-US&gl=US&ceid=US:en'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503"
-      ]
+      "last_ok": "2026-07-31T14:12:07.832297Z",
+      "last_attempted": "2026-07-31T14:12:07.832297Z",
+      "record_count": 45,
+      "ok": true,
+      "errors": []
     },
     {
       "source": "state_warn",
@@ -96,7 +88,7 @@
       "tos_posture": "public_csv",
       "cadence_hours": 24,
       "last_ok": null,
-      "last_attempted": "2026-07-31T11:26:55.662602Z",
+      "last_attempted": "2026-07-31T14:12:11.193117Z",
       "record_count": 0,
       "ok": false,
       "errors": [
@@ -110,8 +102,8 @@
       "url": "https://techcrunch.com/category/venture/feed/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-07-31T11:27:03.120168Z",
-      "last_attempted": "2026-07-31T11:27:03.120168Z",
+      "last_ok": "2026-07-31T14:12:18.061403Z",
+      "last_attempted": "2026-07-31T14:12:18.061403Z",
       "record_count": 15,
       "ok": true,
       "errors": []
@@ -122,8 +114,8 @@
       "url": "https://efts.sec.gov/LATEST/search-index",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-07-31T11:27:03.236898Z",
-      "last_attempted": "2026-07-31T11:27:03.236898Z",
+      "last_ok": "2026-07-31T14:12:18.864741Z",
+      "last_attempted": "2026-07-31T14:12:18.864741Z",
       "record_count": 160,
       "ok": true,
       "errors": []
@@ -135,7 +127,7 @@
       "tos_posture": "public_csv",
       "cadence_hours": 24,
       "last_ok": null,
-      "last_attempted": "2026-07-31T11:27:04.010138Z",
+      "last_attempted": "2026-07-31T14:12:20.232297Z",
       "record_count": 0,
       "ok": false,
       "errors": [
@@ -148,8 +140,8 @@
       "url": "https://www.bls.gov/oes/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-07-31T11:27:07.233753Z",
-      "last_attempted": "2026-07-31T11:27:07.233753Z",
+      "last_ok": "2026-07-31T14:12:23.366309Z",
+      "last_attempted": "2026-07-31T14:12:23.366309Z",
       "record_count": 24,
       "ok": true,
       "errors": []
@@ -160,8 +152,8 @@
       "url": "https://www.bls.gov/ces/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-07-31T11:27:08.018363Z",
-      "last_attempted": "2026-07-31T11:27:08.018363Z",
+      "last_ok": "2026-07-31T14:12:23.802661Z",
+      "last_attempted": "2026-07-31T14:12:23.802661Z",
       "record_count": 48,
       "ok": true,
       "errors": []
@@ -172,8 +164,8 @@
       "url": "https://www.bls.gov/developers/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-07-31T11:27:08.492266Z",
-      "last_attempted": "2026-07-31T11:27:08.492266Z",
+      "last_ok": "2026-07-31T14:12:24.083013Z",
+      "last_attempted": "2026-07-31T14:12:24.083013Z",
       "record_count": 30,
       "ok": true,
       "errors": []
@@ -185,7 +177,7 @@
       "tos_posture": "public_api",
       "cadence_hours": 12,
       "last_ok": null,
-      "last_attempted": "2026-07-31T11:27:09.013339Z",
+      "last_attempted": "2026-07-31T14:12:24.312925Z",
       "record_count": 0,
       "ok": false,
       "errors": [
@@ -203,9 +195,9 @@
       "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-07-31T11:27:09.556522Z",
-      "last_attempted": "2026-07-31T11:27:09.556522Z",
-      "record_count": 31,
+      "last_ok": "2026-07-31T14:12:24.583702Z",
+      "last_attempted": "2026-07-31T14:12:24.583702Z",
+      "record_count": 34,
       "ok": true,
       "errors": []
     },
@@ -215,28 +207,82 @@
       "url": "https://web.archive.org/cdx/search/cdx",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-07-31T11:27:19.353856Z",
-      "last_attempted": "2026-07-31T11:27:19.353856Z",
-      "record_count": 1,
+      "last_ok": "2026-07-31T14:12:28.340595Z",
+      "last_attempted": "2026-07-31T14:12:28.340595Z",
+      "record_count": 3,
       "ok": true,
       "errors": [
-        "Stripe: GET https://web.archive.org/cdx/search/cdx failed: The read operation timed out",
+        "Stripe: GET https://web.archive.org/cdx/search/cdx failed: Server error '503 Service Unavailable' for url 'https://web.archive.org/cdx/search/cdx?url=stripe.com%2Fcareers&from=20260502&to=20260731&output=json&limit=200&fl=timestamp&collapse=timestamp%3A8'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503",
         "Airbnb: GET https://web.archive.org/cdx/search/cdx failed: The read operation timed out",
         "Robinhood: GET https://web.archive.org/cdx/search/cdx failed: The read operation timed out",
-        "Reddit: GET https://web.archive.org/cdx/search/cdx failed: timed out",
-        "DoorDash: GET https://web.archive.org/cdx/search/cdx failed: The read operation timed out",
-        "Instacart: GET https://web.archive.org/cdx/search/cdx failed: timed out",
-        "Pinterest: GET https://web.archive.org/cdx/search/cdx failed: timed out",
-        "Discord: GET https://web.archive.org/cdx/search/cdx failed: timed out",
-        "GitLab: GET https://web.archive.org/cdx/search/cdx failed: timed out",
-        "HashiCorp: GET https://web.archive.org/cdx/search/cdx failed: timed out"
+        "Reddit: GET https://web.archive.org/cdx/search/cdx failed: Server error '503 Service Unavailable' for url 'https://web.archive.org/cdx/search/cdx?url=reddit.com%2Fcareers&from=20260502&to=20260731&output=json&limit=200&fl=timestamp&collapse=timestamp%3A8'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503",
+        "DoorDash: GET https://web.archive.org/cdx/search/cdx failed: Server error '503 Service Unavailable' for url 'https://web.archive.org/cdx/search/cdx?url=doordash.com%2Fcareers&from=20260502&to=20260731&output=json&limit=200&fl=timestamp&collapse=timestamp%3A8'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503",
+        "Pinterest: GET https://web.archive.org/cdx/search/cdx failed: The read operation timed out",
+        "Discord: GET https://web.archive.org/cdx/search/cdx failed: The read operation timed out",
+        "GitLab: GET https://web.archive.org/cdx/search/cdx failed: The read operation timed out",
+        "HashiCorp: GET https://web.archive.org/cdx/search/cdx failed: The read operation timed out",
+        "Anthropic: GET https://web.archive.org/cdx/search/cdx failed: timed out"
       ]
     }
   ],
   "recent_signals": [
     {
+      "id": "90835fc6ec1f1c97",
+      "ts": "2026-07-31T14:13:52.241459Z",
+      "source": "wayback",
+      "source_url": "https://web.archive.org/web/*/cloudflare.com/careers",
+      "type": "macro",
+      "company": {
+        "name": "Cloudflare",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": 57.0,
+      "unit": "snapshots/90d",
+      "raw_text": "Cloudflare careers page: 57 archived snapshots in 90 days",
+      "tags": [
+        "careers_activity",
+        "wayback",
+        "technology"
+      ],
+      "extras": {
+        "careers_url": "cloudflare.com/careers",
+        "snapshots_90d": 57
+      }
+    },
+    {
+      "id": "519f5b20ca3ad38f",
+      "ts": "2026-07-31T14:13:14.555636Z",
+      "source": "wayback",
+      "source_url": "https://web.archive.org/web/*/instacart.com/careers",
+      "type": "macro",
+      "company": {
+        "name": "Instacart",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": 2.0,
+      "unit": "snapshots/90d",
+      "raw_text": "Instacart careers page: 2 archived snapshots in 90 days",
+      "tags": [
+        "careers_activity",
+        "wayback",
+        "technology"
+      ],
+      "extras": {
+        "careers_url": "instacart.com/careers",
+        "snapshots_90d": 2
+      }
+    },
+    {
       "id": "7110f2b1146e1d93",
-      "ts": "2026-07-31T11:27:36.505535Z",
+      "ts": "2026-07-31T14:12:48.400981Z",
       "source": "wayback",
       "source_url": "https://web.archive.org/web/*/coinbase.com/careers",
       "type": "macro",
@@ -263,7 +309,7 @@
     },
     {
       "id": "e42b297cdfb1c598",
-      "ts": "2026-07-31T11:27:19.353738Z",
+      "ts": "2026-07-31T14:12:28.340509Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Spotify",
       "type": "attention",
@@ -291,8 +337,37 @@
       }
     },
     {
+      "id": "90c283e31681bb4e",
+      "ts": "2026-07-31T14:12:28.227357Z",
+      "source": "wikipedia_pv",
+      "source_url": "https://en.wikipedia.org/wiki/Glossier",
+      "type": "attention",
+      "company": {
+        "name": "Glossier",
+        "ticker": null,
+        "industry": null,
+        "sector": "CPG",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": 102.4,
+      "unit": "pageviews/day",
+      "raw_text": "Glossier \u2014 avg 7d pageviews 102 vs 23d baseline 88 (z=0.80)",
+      "tags": [
+        "attention",
+        "wikipedia",
+        "cpg"
+      ],
+      "extras": {
+        "avg_7d": 102.4,
+        "avg_baseline": 88.4,
+        "z_score": 0.8,
+        "is_spike": false
+      }
+    },
+    {
       "id": "8451f35bba6a366a",
-      "ts": "2026-07-31T11:27:17.415244Z",
+      "ts": "2026-07-31T14:12:28.131323Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Allbirds",
       "type": "attention",
@@ -321,7 +396,7 @@
     },
     {
       "id": "3b1d5dd59f0ad0fc",
-      "ts": "2026-07-31T11:27:17.271185Z",
+      "ts": "2026-07-31T14:12:28.030926Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Warby_Parker",
       "type": "attention",
@@ -350,7 +425,7 @@
     },
     {
       "id": "63bee2e09e8a5ad7",
-      "ts": "2026-07-31T11:27:17.135358Z",
+      "ts": "2026-07-31T14:12:27.917407Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Oscar_Health",
       "type": "attention",
@@ -379,7 +454,7 @@
     },
     {
       "id": "eca36cc7ae266164",
-      "ts": "2026-07-31T11:27:16.999857Z",
+      "ts": "2026-07-31T14:12:27.810436Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Hims_&_Hers",
       "type": "attention",
@@ -408,7 +483,7 @@
     },
     {
       "id": "aff01a5faefcad29",
-      "ts": "2026-07-31T11:27:16.864647Z",
+      "ts": "2026-07-31T14:12:27.678703Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Cursor",
       "type": "attention",
@@ -437,7 +512,7 @@
     },
     {
       "id": "737266ca5f7e72ea",
-      "ts": "2026-07-31T11:27:16.719342Z",
+      "ts": "2026-07-31T14:12:27.569600Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Perplexity_AI",
       "type": "attention",
@@ -466,7 +541,7 @@
     },
     {
       "id": "3cb8efcca560c592",
-      "ts": "2026-07-31T11:27:16.581511Z",
+      "ts": "2026-07-31T14:12:27.459607Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Replicate",
       "type": "attention",
@@ -495,7 +570,7 @@
     },
     {
       "id": "50692ca7b41d1daf",
-      "ts": "2026-07-31T11:27:16.442595Z",
+      "ts": "2026-07-31T14:12:27.343557Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Vercel",
       "type": "attention",
@@ -524,7 +599,7 @@
     },
     {
       "id": "37d35d6cb5a71922",
-      "ts": "2026-07-31T11:27:16.283738Z",
+      "ts": "2026-07-31T14:12:27.228363Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Linear",
       "type": "attention",
@@ -553,7 +628,7 @@
     },
     {
       "id": "b87fd26ec44d049d",
-      "ts": "2026-07-31T11:27:16.139483Z",
+      "ts": "2026-07-31T14:12:27.117961Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Mercury",
       "type": "attention",
@@ -581,8 +656,37 @@
       }
     },
     {
+      "id": "1580c0f44ce38167",
+      "ts": "2026-07-31T14:12:27.020733Z",
+      "source": "wikipedia_pv",
+      "source_url": "https://en.wikipedia.org/wiki/Ramp",
+      "type": "attention",
+      "company": {
+        "name": "Ramp",
+        "ticker": null,
+        "industry": null,
+        "sector": "Finance",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": 18.6,
+      "unit": "pageviews/day",
+      "raw_text": "Ramp \u2014 avg 7d pageviews 19 vs 23d baseline 23 (z=-0.47)",
+      "tags": [
+        "attention",
+        "wikipedia",
+        "finance"
+      ],
+      "extras": {
+        "avg_7d": 18.6,
+        "avg_baseline": 23.0,
+        "z_score": -0.47,
+        "is_spike": false
+      }
+    },
+    {
       "id": "0b8a6b75ea403222",
-      "ts": "2026-07-31T11:27:14.226131Z",
+      "ts": "2026-07-31T14:12:26.919804Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Plaid",
       "type": "attention",
@@ -611,7 +715,7 @@
     },
     {
       "id": "50aa52d028ed9ee6",
-      "ts": "2026-07-31T11:27:14.097706Z",
+      "ts": "2026-07-31T14:12:26.796066Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Brex",
       "type": "attention",
@@ -640,7 +744,7 @@
     },
     {
       "id": "8dd68309a23ecd25",
-      "ts": "2026-07-31T11:27:13.966160Z",
+      "ts": "2026-07-31T14:12:26.695441Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Databricks",
       "type": "attention",
@@ -669,7 +773,7 @@
     },
     {
       "id": "a3eba7cc05ef939a",
-      "ts": "2026-07-31T11:27:13.831837Z",
+      "ts": "2026-07-31T14:12:26.587553Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Snowflake",
       "type": "attention",
@@ -698,7 +802,7 @@
     },
     {
       "id": "18f6a4ff7dc2d059",
-      "ts": "2026-07-31T11:27:13.691349Z",
+      "ts": "2026-07-31T14:12:26.452216Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Figma",
       "type": "attention",
@@ -727,7 +831,7 @@
     },
     {
       "id": "fe08b62faa718cfe",
-      "ts": "2026-07-31T11:27:13.553197Z",
+      "ts": "2026-07-31T14:12:26.343884Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Notion",
       "type": "attention",
@@ -756,7 +860,7 @@
     },
     {
       "id": "30eacb88d0896533",
-      "ts": "2026-07-31T11:27:13.408259Z",
+      "ts": "2026-07-31T14:12:26.238796Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Scale_AI",
       "type": "attention",
@@ -785,7 +889,7 @@
     },
     {
       "id": "85fad46c030c767f",
-      "ts": "2026-07-31T11:27:13.263386Z",
+      "ts": "2026-07-31T14:12:26.116124Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/OpenAI",
       "type": "attention",
@@ -814,7 +918,7 @@
     },
     {
       "id": "da2e8429869d3c14",
-      "ts": "2026-07-31T11:27:13.126009Z",
+      "ts": "2026-07-31T14:12:26.007463Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Anthropic",
       "type": "attention",
@@ -843,7 +947,7 @@
     },
     {
       "id": "adaf748fdf80bd5a",
-      "ts": "2026-07-31T11:27:12.992333Z",
+      "ts": "2026-07-31T14:12:25.888186Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Cloudflare",
       "type": "attention",
@@ -871,8 +975,37 @@
       }
     },
     {
+      "id": "572c324f544ec6b1",
+      "ts": "2026-07-31T14:12:25.784008Z",
+      "source": "wikipedia_pv",
+      "source_url": "https://en.wikipedia.org/wiki/HashiCorp",
+      "type": "attention",
+      "company": {
+        "name": "HashiCorp",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": 390.3,
+      "unit": "pageviews/day",
+      "raw_text": "HashiCorp \u2014 avg 7d pageviews 390 vs 23d baseline 327 (z=0.76)",
+      "tags": [
+        "attention",
+        "wikipedia",
+        "technology"
+      ],
+      "extras": {
+        "avg_7d": 390.3,
+        "avg_baseline": 327.4,
+        "z_score": 0.76,
+        "is_spike": false
+      }
+    },
+    {
       "id": "8ae38f2e93161c2b",
-      "ts": "2026-07-31T11:27:11.038922Z",
+      "ts": "2026-07-31T14:12:25.669095Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/GitLab",
       "type": "attention",
@@ -901,7 +1034,7 @@
     },
     {
       "id": "5ef0edf18aa8e138",
-      "ts": "2026-07-31T11:27:10.889841Z",
+      "ts": "2026-07-31T14:12:25.552757Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Discord",
       "type": "attention",
@@ -930,7 +1063,7 @@
     },
     {
       "id": "30bd941a07a9a391",
-      "ts": "2026-07-31T11:27:10.750726Z",
+      "ts": "2026-07-31T14:12:25.454489Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Pinterest",
       "type": "attention",
@@ -959,7 +1092,7 @@
     },
     {
       "id": "757768c4939d3437",
-      "ts": "2026-07-31T11:27:10.605214Z",
+      "ts": "2026-07-31T14:12:25.343259Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Instacart",
       "type": "attention",
@@ -988,7 +1121,7 @@
     },
     {
       "id": "016bcc63d0b3fc53",
-      "ts": "2026-07-31T11:27:10.459679Z",
+      "ts": "2026-07-31T14:12:25.238113Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/DoorDash",
       "type": "attention",
@@ -1017,7 +1150,7 @@
     },
     {
       "id": "74536def853caab0",
-      "ts": "2026-07-31T11:27:10.329375Z",
+      "ts": "2026-07-31T14:12:25.131751Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Reddit",
       "type": "attention",
@@ -1046,7 +1179,7 @@
     },
     {
       "id": "5bdf5878cb663e9f",
-      "ts": "2026-07-31T11:27:10.190085Z",
+      "ts": "2026-07-31T14:12:25.028966Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Robinhood",
       "type": "attention",
@@ -1075,7 +1208,7 @@
     },
     {
       "id": "173ac42466a08e33",
-      "ts": "2026-07-31T11:27:10.051418Z",
+      "ts": "2026-07-31T14:12:24.924505Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Coinbase",
       "type": "attention",
@@ -1104,7 +1237,7 @@
     },
     {
       "id": "4011da3fb199ad53",
-      "ts": "2026-07-31T11:27:09.912177Z",
+      "ts": "2026-07-31T14:12:24.818428Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Airbnb",
       "type": "attention",
@@ -1133,7 +1266,7 @@
     },
     {
       "id": "78213b89bee167b7",
-      "ts": "2026-07-31T11:27:09.778620Z",
+      "ts": "2026-07-31T14:12:24.720618Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Stripe",
       "type": "attention",
@@ -1161,10 +1294,10 @@
       }
     },
     {
-      "id": "138889c0dde172d0",
-      "ts": "2026-07-31T07:17:08-04:00",
+      "id": "781b102904653ad7",
+      "ts": "2026-07-31T10:11:17-04:00",
       "source": "greenhouse",
-      "source_url": "https://stripe.com/jobs/search?gh_jid=7825578",
+      "source_url": "https://stripe.com/jobs/search?gh_jid=8094087",
       "type": "posting",
       "company": {
         "name": "Stripe",
@@ -1176,630 +1309,23 @@
       },
       "magnitude": null,
       "unit": "jobs",
-      "raw_text": "Stripe | Account Executive, Enterprise Hunter (DACH Market) | Germany ",
+      "raw_text": "Stripe | Privacy Operations Program Manager | Dublin, London",
       "tags": [
         "hiring",
         "greenhouse",
-        "technology",
-        "Sales"
+        "technology"
       ],
       "extras": {
-        "role": "Account Executive, Enterprise Hunter (DACH Market)",
-        "location": "Germany ",
-        "function": "Sales",
-        "soc": "41-3091",
-        "seniority": "mid"
-      }
-    },
-    {
-      "id": "95a6c941297c3f4e",
-      "ts": "2026-07-31T06:21:47-04:00",
-      "source": "greenhouse",
-      "source_url": "https://boards.greenhouse.io/cloudflare/jobs/8071056?gh_jid=8071056",
-      "type": "posting",
-      "company": {
-        "name": "Cloudflare",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Cloudflare | Systems Engineer | Hybrid",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "Software Engineering"
-      ],
-      "extras": {
-        "role": "Systems Engineer",
-        "location": "Hybrid",
-        "function": "Software Engineering",
-        "soc": "15-1252",
-        "seniority": "mid"
-      }
-    },
-    {
-      "id": "be4aff961f21e567",
-      "ts": "2026-07-31T05:14:45-04:00",
-      "source": "greenhouse",
-      "source_url": "https://careers.airbnb.com/positions/7640881?gh_jid=7640881",
-      "type": "posting",
-      "company": {
-        "name": "Airbnb",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Airbnb | Senior Data Engineer, BizTech | Bangalore, India",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "Data / ML"
-      ],
-      "extras": {
-        "role": "Senior Data Engineer, BizTech",
-        "location": "Bangalore, India",
-        "function": "Data / ML",
-        "soc": "15-2051",
-        "seniority": "senior"
-      }
-    },
-    {
-      "id": "e1284ca300c03651",
-      "ts": "2026-07-31T04:45:04-04:00",
-      "source": "greenhouse",
-      "source_url": "https://stripe.com/jobs/search?gh_jid=8096788",
-      "type": "posting",
-      "company": {
-        "name": "Stripe",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Stripe | IT Support Engineer | Dublin",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "Support"
-      ],
-      "extras": {
-        "role": "IT Support Engineer",
-        "location": "Dublin",
-        "function": "Support",
-        "soc": "43-4051",
-        "seniority": "mid",
-        "remote": "remote"
-      }
-    },
-    {
-      "id": "640ee53b33c95f15",
-      "ts": "2026-07-31T03:03:15-04:00",
-      "source": "greenhouse",
-      "source_url": "https://boards.greenhouse.io/robinhood/jobs/7473824?t=gh_src=&gh_jid=7473824",
-      "type": "posting",
-      "company": {
-        "name": "Robinhood",
-        "ticker": null,
-        "industry": null,
-        "sector": "Finance",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Robinhood | Derivatives Risk Oversight Lead | London, UK",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "finance"
-      ],
-      "extras": {
-        "role": "Derivatives Risk Oversight Lead",
-        "location": "London, UK",
-        "seniority": "lead",
-        "remote": "onsite"
-      }
-    },
-    {
-      "id": "4688e9e18649593f",
-      "ts": "2026-07-31T03:03:15-04:00",
-      "source": "greenhouse",
-      "source_url": "https://boards.greenhouse.io/robinhood/jobs/7539106?t=gh_src=&gh_jid=7539106",
-      "type": "posting",
-      "company": {
-        "name": "Robinhood",
-        "ticker": null,
-        "industry": null,
-        "sector": "Finance",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Robinhood | Derivatives Risk Oversight Lead | Ljubljana, Slovenia",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "finance"
-      ],
-      "extras": {
-        "role": "Derivatives Risk Oversight Lead",
-        "location": "Ljubljana, Slovenia",
-        "seniority": "lead",
-        "remote": "onsite"
-      }
-    },
-    {
-      "id": "4ba0d4347bf9b3a9",
-      "ts": "2026-07-31T03:03:15-04:00",
-      "source": "greenhouse",
-      "source_url": "https://boards.greenhouse.io/robinhood/jobs/7539100?t=gh_src=&gh_jid=7539100",
-      "type": "posting",
-      "company": {
-        "name": "Robinhood",
-        "ticker": null,
-        "industry": null,
-        "sector": "Finance",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Robinhood | Derivatives Risk Oversight Lead | Luxembourg, Luxembourg",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "finance"
-      ],
-      "extras": {
-        "role": "Derivatives Risk Oversight Lead",
-        "location": "Luxembourg, Luxembourg",
-        "seniority": "lead",
-        "remote": "onsite"
-      }
-    },
-    {
-      "id": "adb039f172f19515",
-      "ts": "2026-07-31T02:51:56-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8008648",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Senior Machine Learning Engineer, Ads Content Understanding | Remote - United States",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
-        "Data / ML"
-      ],
-      "extras": {
-        "role": "Senior Machine Learning Engineer, Ads Content Understanding",
-        "location": "Remote - United States",
-        "function": "Data / ML",
-        "soc": "15-2051",
-        "seniority": "senior"
-      }
-    },
-    {
-      "id": "37ce22a26cbe8e92",
-      "ts": "2026-07-31T02:43:22-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/gitlab/jobs/8648304002",
-      "type": "posting",
-      "company": {
-        "name": "GitLab",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "GitLab | Senior Customer Success Architect - Singapore | Remote, Singapore",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "Customer Success"
-      ],
-      "extras": {
-        "role": "Senior Customer Success Architect - Singapore",
-        "location": "Remote, Singapore",
-        "function": "Customer Success",
-        "soc": "13-1161",
-        "seniority": "senior"
-      }
-    },
-    {
-      "id": "68cc8355efc3f183",
-      "ts": "2026-07-31T01:58:38-04:00",
-      "source": "greenhouse",
-      "source_url": "http://www.hioscar.com/careers/7543645?gh_jid=7543645",
-      "type": "posting",
-      "company": {
-        "name": "Oscar Health",
-        "ticker": null,
-        "industry": null,
-        "sector": "Healthcare",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Oscar Health | Bilingual (Spanish) Physician Assistant - Virtual Health Assessment (1099) | Remote",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "healthcare"
-      ],
-      "extras": {
-        "role": "Bilingual (Spanish) Physician Assistant - Virtual Health Assessment (1099)",
-        "location": "Remote",
-        "seniority": "mid",
-        "remote": "remote"
-      }
-    },
-    {
-      "id": "84a0653a09f0e6bf",
-      "ts": "2026-07-31T01:58:38-04:00",
-      "source": "greenhouse",
-      "source_url": "http://www.hioscar.com/careers/7723943?gh_jid=7723943",
-      "type": "posting",
-      "company": {
-        "name": "Oscar Health",
-        "ticker": null,
-        "industry": null,
-        "sector": "Healthcare",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Oscar Health | Physician Assistant - Virtual Health Assessment (1099) | Remote",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "healthcare"
-      ],
-      "extras": {
-        "role": "Physician Assistant - Virtual Health Assessment (1099)",
-        "location": "Remote",
-        "seniority": "mid",
-        "remote": "remote"
-      }
-    },
-    {
-      "id": "7d36d077647e4bbf",
-      "ts": "2026-07-31T01:16:05-04:00",
-      "source": "greenhouse",
-      "source_url": "https://stripe.com/jobs/search?gh_jid=8052736",
-      "type": "posting",
-      "company": {
-        "name": "Stripe",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Stripe | Operations Associate, TaxJar Support | Mexico ",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "Operations"
-      ],
-      "extras": {
-        "role": "Operations Associate, TaxJar Support",
-        "location": "Mexico ",
-        "function": "Operations",
-        "soc": "11-1021",
-        "seniority": "junior"
-      }
-    },
-    {
-      "id": "712eb01c02afb4e6",
-      "ts": "2026-07-31T00:34:59-04:00",
-      "source": "greenhouse",
-      "source_url": "https://boards.greenhouse.io/robinhood/jobs/8036664?t=gh_src=&gh_jid=8036664",
-      "type": "posting",
-      "company": {
-        "name": "Robinhood",
-        "ticker": null,
-        "industry": null,
-        "sector": "Finance",
-        "hq_region": "NY",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Robinhood | Engineering Manager, Prediction Markets | New York, NY",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "finance",
-        "NY",
-        "Engineering Management"
-      ],
-      "extras": {
-        "role": "Engineering Manager, Prediction Markets",
-        "location": "New York, NY",
-        "function": "Engineering Management",
-        "soc": "11-9041",
+        "role": "Privacy Operations Program Manager",
+        "location": "Dublin, London",
         "seniority": "manager"
       }
     },
     {
-      "id": "506b9cfe3770a1bb",
-      "ts": "2026-07-30T22:50:50-04:00",
+      "id": "a6cf5c1825ed642f",
+      "ts": "2026-07-31T10:05:18-04:00",
       "source": "greenhouse",
-      "source_url": "https://stripe.com/jobs/search?gh_jid=8055659",
-      "type": "posting",
-      "company": {
-        "name": "Stripe",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Stripe | Strategy & Operations Program Manager | US-Remote",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology"
-      ],
-      "extras": {
-        "role": "Strategy & Operations Program Manager",
-        "location": "US-Remote",
-        "seniority": "manager"
-      }
-    },
-    {
-      "id": "492d7d0af4088262",
-      "ts": "2026-07-30T22:48:06-04:00",
-      "source": "greenhouse",
-      "source_url": "https://stripe.com/jobs/search?gh_jid=8029128",
-      "type": "posting",
-      "company": {
-        "name": "Stripe",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Stripe | Enterprise Account Executive, Revenue Suite | Sydney",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "Sales"
-      ],
-      "extras": {
-        "role": "Enterprise Account Executive, Revenue Suite",
-        "location": "Sydney",
-        "function": "Sales",
-        "soc": "41-3091",
-        "seniority": "mid",
-        "stack": [
-          "go"
-        ]
-      }
-    },
-    {
-      "id": "e1048c6591934938",
-      "ts": "2026-07-30T22:03:52-04:00",
-      "source": "greenhouse",
-      "source_url": "https://stripe.com/jobs/search?gh_jid=8066735",
-      "type": "posting",
-      "company": {
-        "name": "Stripe",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Stripe | Specialist Solutions Architect - Money Management (APAC and Greater China) | Singapore",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology"
-      ],
-      "extras": {
-        "role": "Specialist Solutions Architect - Money Management (APAC and Greater China)",
-        "location": "Singapore",
-        "seniority": "mid",
-        "stack": [
-          "go"
-        ]
-      }
-    },
-    {
-      "id": "35300c57f0319829",
-      "ts": "2026-07-30T21:55:12-04:00",
-      "source": "greenhouse",
-      "source_url": "https://boards.greenhouse.io/cloudflare/jobs/8089031?gh_jid=8089031",
-      "type": "posting",
-      "company": {
-        "name": "Cloudflare",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Cloudflare | Systems Engineer, Product Platform Tools | Hybrid",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "Software Engineering"
-      ],
-      "extras": {
-        "role": "Systems Engineer, Product Platform Tools",
-        "location": "Hybrid",
-        "function": "Software Engineering",
-        "soc": "15-1252",
-        "seniority": "mid"
-      }
-    },
-    {
-      "id": "3d8b0c395a5cee9e",
-      "ts": "2026-07-30T21:41:30-04:00",
-      "source": "greenhouse",
-      "source_url": "https://boards.greenhouse.io/cloudflare/jobs/8092731?gh_jid=8092731",
-      "type": "posting",
-      "company": {
-        "name": "Cloudflare",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Cloudflare | Software Engineer, Registrar | Hybrid",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "Software Engineering"
-      ],
-      "extras": {
-        "role": "Software Engineer, Registrar",
-        "location": "Hybrid",
-        "function": "Software Engineering",
-        "soc": "15-1252",
-        "seniority": "mid"
-      }
-    },
-    {
-      "id": "fd45bcac9155d728",
-      "ts": "2026-07-30T21:00:32-04:00",
-      "source": "greenhouse",
-      "source_url": "https://stripe.com/jobs/search?gh_jid=8072213",
-      "type": "posting",
-      "company": {
-        "name": "Stripe",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Stripe | Tech & Product Strategic Sourcing Specialist | SF, NYC, SEA",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology"
-      ],
-      "extras": {
-        "role": "Tech & Product Strategic Sourcing Specialist",
-        "location": "SF, NYC, SEA",
-        "seniority": "mid"
-      }
-    },
-    {
-      "id": "3e6ea169b261e8fc",
-      "ts": "2026-07-30T20:58:47-04:00",
-      "source": "greenhouse",
-      "source_url": "https://www.pinterestcareers.com/jobs/?gh_jid=8094208",
-      "type": "posting",
-      "company": {
-        "name": "Pinterest",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Pinterest | Lead Client Partner (Gaming & Apps) - Greater China Region | Singapore, SG",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology"
-      ],
-      "extras": {
-        "role": "Lead Client Partner (Gaming & Apps) - Greater China Region",
-        "location": "Singapore, SG",
-        "seniority": "lead"
-      }
-    },
-    {
-      "id": "18b1563a3cb62c38",
-      "ts": "2026-07-30T20:51:55-04:00",
-      "source": "greenhouse",
-      "source_url": "https://boards.greenhouse.io/robinhood/jobs/8072899?t=gh_src=&gh_jid=8072899",
-      "type": "posting",
-      "company": {
-        "name": "Robinhood",
-        "ticker": null,
-        "industry": null,
-        "sector": "Finance",
-        "hq_region": "CA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Robinhood | Marketing & Communications Compliance Senior Specialist | Denver, CO; Menlo Park, CA; New York, NY; Washington, DC",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "finance",
-        "CA"
-      ],
-      "extras": {
-        "role": "Marketing & Communications Compliance Senior Specialist",
-        "location": "Denver, CO; Menlo Park, CA; New York, NY; Washington, DC",
-        "seniority": "senior"
-      }
-    },
-    {
-      "id": "eb5840de0733ca68",
-      "ts": "2026-07-30T20:37:11-04:00",
-      "source": "greenhouse",
-      "source_url": "https://www.coinbase.com/careers/positions/8022068?gh_jid=8022068",
+      "source_url": "https://www.coinbase.com/careers/positions/7611263?gh_jid=7611263",
       "type": "posting",
       "company": {
         "name": "Coinbase",
@@ -1811,7 +1337,64 @@
       },
       "magnitude": null,
       "unit": "jobs",
-      "raw_text": "Coinbase | Software Engineer, Developer Infrastructure | Remote - USA",
+      "raw_text": "Coinbase | Senior Compliance Associate | Hybrid - Luxembourg",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "finance"
+      ],
+      "extras": {
+        "role": "Senior Compliance Associate",
+        "location": "Hybrid - Luxembourg",
+        "seniority": "senior",
+        "remote": "remote"
+      }
+    },
+    {
+      "id": "f8b844fbdfc8abc7",
+      "ts": "2026-07-31T09:49:25-04:00",
+      "source": "greenhouse",
+      "source_url": "https://stripe.com/jobs/search?gh_jid=8092652",
+      "type": "posting",
+      "company": {
+        "name": "Stripe",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Stripe | Solutions Architect, Enterprise (French Speaking) | N/A",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology"
+      ],
+      "extras": {
+        "role": "Solutions Architect, Enterprise (French Speaking)",
+        "location": "N/A",
+        "seniority": "mid"
+      }
+    },
+    {
+      "id": "23a095d95a0f5d90",
+      "ts": "2026-07-31T09:00:09-04:00",
+      "source": "greenhouse",
+      "source_url": "https://www.coinbase.com/careers/positions/8067033?gh_jid=8067033",
+      "type": "posting",
+      "company": {
+        "name": "Coinbase",
+        "ticker": null,
+        "industry": null,
+        "sector": "Finance",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Coinbase | Senior Software Engineer, Consumer | Remote - Singapore",
       "tags": [
         "hiring",
         "greenhouse",
@@ -1819,48 +1402,20 @@
         "Software Engineering"
       ],
       "extras": {
-        "role": "Software Engineer, Developer Infrastructure",
-        "location": "Remote - USA",
+        "role": "Senior Software Engineer, Consumer",
+        "location": "Remote - Singapore",
         "function": "Software Engineering",
         "soc": "15-1252",
-        "seniority": "mid",
-        "remote": "remote"
-      }
-    },
-    {
-      "id": "f0219e75060b57b7",
-      "ts": "2026-07-30T20:32:05-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8011163",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Director, Technology FP&A | Remote - United States",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
-        "Engineering Management"
-      ],
-      "extras": {
-        "role": "Director, Technology FP&A",
-        "location": "Remote - United States",
-        "function": "Engineering Management",
-        "soc": "11-9041",
-        "seniority": "director"
+        "seniority": "senior",
+        "remote": "remote",
+        "stack": [
+          "golang"
+        ]
       }
     },
     {
       "id": "d8f7f7a6bd07f73c",
-      "ts": "2026-07-30T20:25:38-04:00",
+      "ts": "2026-07-31T08:29:57-04:00",
       "source": "greenhouse",
       "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8069214",
       "type": "posting",
@@ -1891,7 +1446,7 @@
     },
     {
       "id": "bdbc4f346affa328",
-      "ts": "2026-07-30T20:25:38-04:00",
+      "ts": "2026-07-31T08:29:57-04:00",
       "source": "greenhouse",
       "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8024865",
       "type": "posting",
@@ -1922,7 +1477,7 @@
     },
     {
       "id": "68e0eca1fdfd8014",
-      "ts": "2026-07-30T20:25:38-04:00",
+      "ts": "2026-07-31T08:29:57-04:00",
       "source": "greenhouse",
       "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8072046",
       "type": "posting",
@@ -1953,7 +1508,7 @@
     },
     {
       "id": "16f0f940b6165ac2",
-      "ts": "2026-07-30T20:25:38-04:00",
+      "ts": "2026-07-31T08:29:57-04:00",
       "source": "greenhouse",
       "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8082867",
       "type": "posting",
@@ -1984,7 +1539,7 @@
     },
     {
       "id": "64b5aa2b1d4b271c",
-      "ts": "2026-07-30T20:25:38-04:00",
+      "ts": "2026-07-31T08:29:57-04:00",
       "source": "greenhouse",
       "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8070669",
       "type": "posting",
@@ -2015,7 +1570,7 @@
     },
     {
       "id": "6d91ed2b39254c70",
-      "ts": "2026-07-30T20:25:37-04:00",
+      "ts": "2026-07-31T08:29:56-04:00",
       "source": "greenhouse",
       "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8051511",
       "type": "posting",
@@ -2046,8 +1601,40 @@
       }
     },
     {
+      "id": "fdfc9def2951a0a6",
+      "ts": "2026-07-31T08:29:56-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8052432",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": "NY",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Client Account Manager, Large Customer Sales (Retail Beauty) | New York City, NY",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "NY",
+        "Customer Success"
+      ],
+      "extras": {
+        "role": "Client Account Manager, Large Customer Sales (Retail Beauty)",
+        "location": "New York City, NY",
+        "function": "Customer Success",
+        "soc": "13-1161",
+        "seniority": "manager"
+      }
+    },
+    {
       "id": "2bb9bfb5625685d3",
-      "ts": "2026-07-30T20:25:37-04:00",
+      "ts": "2026-07-31T08:29:56-04:00",
       "source": "greenhouse",
       "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8021708",
       "type": "posting",
@@ -2076,38 +1663,8 @@
       }
     },
     {
-      "id": "0db11aef69806f8c",
-      "ts": "2026-07-30T20:25:37-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8044271",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": "IL",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Senior Client Partner, Large Customer Sales, Pharma | Chicago, IL",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
-        "IL"
-      ],
-      "extras": {
-        "role": "Senior Client Partner, Large Customer Sales, Pharma",
-        "location": "Chicago, IL",
-        "seniority": "senior",
-        "remote": "onsite"
-      }
-    },
-    {
       "id": "6134addb3df89229",
-      "ts": "2026-07-30T20:25:37-04:00",
+      "ts": "2026-07-31T08:29:56-04:00",
       "source": "greenhouse",
       "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8092376",
       "type": "posting",
@@ -2136,8 +1693,69 @@
       }
     },
     {
+      "id": "0db11aef69806f8c",
+      "ts": "2026-07-31T08:29:56-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8044271",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": "IL",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Senior Client Partner, Large Customer Sales, Pharma | Chicago, IL",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "IL"
+      ],
+      "extras": {
+        "role": "Senior Client Partner, Large Customer Sales, Pharma",
+        "location": "Chicago, IL",
+        "seniority": "senior",
+        "remote": "onsite"
+      }
+    },
+    {
+      "id": "adb039f172f19515",
+      "ts": "2026-07-31T08:29:56-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8008648",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Senior Machine Learning Engineer, Ads Content Understanding | Remote - United States",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "Data / ML"
+      ],
+      "extras": {
+        "role": "Senior Machine Learning Engineer, Ads Content Understanding",
+        "location": "Remote - United States",
+        "function": "Data / ML",
+        "soc": "15-2051",
+        "seniority": "senior"
+      }
+    },
+    {
       "id": "c8ddf4839d8d2fba",
-      "ts": "2026-07-30T20:25:37-04:00",
+      "ts": "2026-07-31T08:29:56-04:00",
       "source": "greenhouse",
       "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7974605",
       "type": "posting",
@@ -2168,7 +1786,7 @@
     },
     {
       "id": "fd1c232e28a1c346",
-      "ts": "2026-07-30T20:25:37-04:00",
+      "ts": "2026-07-31T08:29:56-04:00",
       "source": "greenhouse",
       "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7974647",
       "type": "posting",
@@ -2199,7 +1817,7 @@
     },
     {
       "id": "3ee9969fee1298d0",
-      "ts": "2026-07-30T20:25:37-04:00",
+      "ts": "2026-07-31T08:29:56-04:00",
       "source": "greenhouse",
       "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8067983",
       "type": "posting",
@@ -2232,7 +1850,7 @@
     },
     {
       "id": "82731a22ece270e6",
-      "ts": "2026-07-30T20:25:37-04:00",
+      "ts": "2026-07-31T08:29:56-04:00",
       "source": "greenhouse",
       "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8072076",
       "type": "posting",
@@ -2262,40 +1880,8 @@
       }
     },
     {
-      "id": "fdfc9def2951a0a6",
-      "ts": "2026-07-30T20:25:36-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8052432",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": "NY",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Client Account Manager, Large Customer Sales (Retail Beauty) | New York City, NY",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
-        "NY",
-        "Customer Success"
-      ],
-      "extras": {
-        "role": "Client Account Manager, Large Customer Sales (Retail Beauty)",
-        "location": "New York City, NY",
-        "function": "Customer Success",
-        "soc": "13-1161",
-        "seniority": "manager"
-      }
-    },
-    {
       "id": "f9e4626eaf2db06f",
-      "ts": "2026-07-30T20:25:36-04:00",
+      "ts": "2026-07-31T08:29:55-04:00",
       "source": "greenhouse",
       "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7984021",
       "type": "posting",
@@ -2327,7 +1913,7 @@
     },
     {
       "id": "580d22d3d6ea09d8",
-      "ts": "2026-07-30T20:25:36-04:00",
+      "ts": "2026-07-31T08:29:55-04:00",
       "source": "greenhouse",
       "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8052032",
       "type": "posting",
@@ -2359,7 +1945,7 @@
     },
     {
       "id": "abe2d5d0c966159a",
-      "ts": "2026-07-30T20:25:36-04:00",
+      "ts": "2026-07-31T08:29:55-04:00",
       "source": "greenhouse",
       "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8029120",
       "type": "posting",
@@ -2390,7 +1976,7 @@
     },
     {
       "id": "f345410fe819106f",
-      "ts": "2026-07-30T20:25:36-04:00",
+      "ts": "2026-07-31T08:29:55-04:00",
       "source": "greenhouse",
       "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8021287",
       "type": "posting",
@@ -2419,7 +2005,7 @@
     },
     {
       "id": "057890d42062b719",
-      "ts": "2026-07-30T20:25:36-04:00",
+      "ts": "2026-07-31T08:29:55-04:00",
       "source": "greenhouse",
       "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8067911",
       "type": "posting",
@@ -2450,8 +2036,40 @@
       }
     },
     {
+      "id": "e2d12dc6b97c292e",
+      "ts": "2026-07-31T08:29:55-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8022663",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": "IL",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Senior Client Account Manager, Large Customer Sales (Restaurants and Drinks) | Chicago, IL",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "IL",
+        "Customer Success"
+      ],
+      "extras": {
+        "role": "Senior Client Account Manager, Large Customer Sales (Restaurants and Drinks)",
+        "location": "Chicago, IL",
+        "function": "Customer Success",
+        "soc": "13-1161",
+        "seniority": "senior"
+      }
+    },
+    {
       "id": "4c042bc21f7ee434",
-      "ts": "2026-07-30T20:25:36-04:00",
+      "ts": "2026-07-31T08:29:55-04:00",
       "source": "greenhouse",
       "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8092375",
       "type": "posting",
@@ -2483,7 +2101,7 @@
     },
     {
       "id": "873a939b0fa0d011",
-      "ts": "2026-07-30T20:25:36-04:00",
+      "ts": "2026-07-31T08:29:55-04:00",
       "source": "greenhouse",
       "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8010607",
       "type": "posting",
@@ -2513,7 +2131,7 @@
     },
     {
       "id": "558ec5b862877ab3",
-      "ts": "2026-07-30T20:25:35-04:00",
+      "ts": "2026-07-31T08:29:54-04:00",
       "source": "greenhouse",
       "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8010413",
       "type": "posting",
@@ -2541,7 +2159,7 @@
     },
     {
       "id": "2e1529126757cffe",
-      "ts": "2026-07-30T20:25:35-04:00",
+      "ts": "2026-07-31T08:29:54-04:00",
       "source": "greenhouse",
       "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8010405",
       "type": "posting",
@@ -2568,40 +2186,8 @@
       }
     },
     {
-      "id": "e2d12dc6b97c292e",
-      "ts": "2026-07-30T20:25:35-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8022663",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": "IL",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Senior Client Account Manager, Large Customer Sales (Restaurants and Drinks) | Chicago, IL",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
-        "IL",
-        "Customer Success"
-      ],
-      "extras": {
-        "role": "Senior Client Account Manager, Large Customer Sales (Restaurants and Drinks)",
-        "location": "Chicago, IL",
-        "function": "Customer Success",
-        "soc": "13-1161",
-        "seniority": "senior"
-      }
-    },
-    {
       "id": "2e0f9d68b5603cf5",
-      "ts": "2026-07-30T20:25:35-04:00",
+      "ts": "2026-07-31T08:29:54-04:00",
       "source": "greenhouse",
       "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8010396",
       "type": "posting",
@@ -2635,7 +2221,7 @@
     },
     {
       "id": "36d9ef0029f3e72a",
-      "ts": "2026-07-30T20:25:35-04:00",
+      "ts": "2026-07-31T08:29:54-04:00",
       "source": "greenhouse",
       "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8010403",
       "type": "posting",
@@ -2665,8 +2251,68 @@
       }
     },
     {
+      "id": "7bc04dcf12f4591e",
+      "ts": "2026-07-31T08:29:54-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8092374",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": "CA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Senior Lead, Marketing Science Partnerships & Insights | Los Angeles, CA",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "CA"
+      ],
+      "extras": {
+        "role": "Senior Lead, Marketing Science Partnerships & Insights",
+        "location": "Los Angeles, CA",
+        "seniority": "senior",
+        "remote": "hybrid"
+      }
+    },
+    {
+      "id": "72a44271a4740eb6",
+      "ts": "2026-07-31T08:29:54-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8044494",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": "CA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Senior Lead, Marketing Science Partnerships & Insights | San Francisco, CA",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "CA"
+      ],
+      "extras": {
+        "role": "Senior Lead, Marketing Science Partnerships & Insights",
+        "location": "San Francisco, CA",
+        "seniority": "senior",
+        "remote": "hybrid"
+      }
+    },
+    {
       "id": "54fe8bee3334c06f",
-      "ts": "2026-07-30T20:25:35-04:00",
+      "ts": "2026-07-31T08:29:54-04:00",
       "source": "greenhouse",
       "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8044493",
       "type": "posting",
@@ -2696,7 +2342,7 @@
     },
     {
       "id": "b5ba03c020493f4d",
-      "ts": "2026-07-30T20:25:35-04:00",
+      "ts": "2026-07-31T08:29:54-04:00",
       "source": "greenhouse",
       "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8022657",
       "type": "posting",
@@ -2725,68 +2371,8 @@
       }
     },
     {
-      "id": "72a44271a4740eb6",
-      "ts": "2026-07-30T20:25:35-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8044494",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": "CA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Senior Lead, Marketing Science Partnerships & Insights | San Francisco, CA",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
-        "CA"
-      ],
-      "extras": {
-        "role": "Senior Lead, Marketing Science Partnerships & Insights",
-        "location": "San Francisco, CA",
-        "seniority": "senior",
-        "remote": "hybrid"
-      }
-    },
-    {
-      "id": "7bc04dcf12f4591e",
-      "ts": "2026-07-30T20:25:35-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8092374",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": "CA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Senior Lead, Marketing Science Partnerships & Insights | Los Angeles, CA",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
-        "CA"
-      ],
-      "extras": {
-        "role": "Senior Lead, Marketing Science Partnerships & Insights",
-        "location": "Los Angeles, CA",
-        "seniority": "senior",
-        "remote": "hybrid"
-      }
-    },
-    {
       "id": "f06c30da5bdc8ce7",
-      "ts": "2026-07-30T20:25:34-04:00",
+      "ts": "2026-07-31T08:29:53-04:00",
       "source": "greenhouse",
       "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8019018",
       "type": "posting",
@@ -2815,7 +2401,7 @@
     },
     {
       "id": "19572f4b5f8e05ff",
-      "ts": "2026-07-30T20:25:34-04:00",
+      "ts": "2026-07-31T08:29:53-04:00",
       "source": "greenhouse",
       "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8022366",
       "type": "posting",
@@ -2846,7 +2432,7 @@
     },
     {
       "id": "f697ed784344068e",
-      "ts": "2026-07-30T20:25:34-04:00",
+      "ts": "2026-07-31T08:29:53-04:00",
       "source": "greenhouse",
       "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7997020",
       "type": "posting",
@@ -2873,39 +2459,8 @@
       }
     },
     {
-      "id": "cc5d4de4b90e7b76",
-      "ts": "2026-07-30T20:25:34-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8022942",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Machine Learning Systems Engineer, Ads ML Platform | Remote - The Netherlands",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
-        "Software Engineering"
-      ],
-      "extras": {
-        "role": "Machine Learning Systems Engineer, Ads ML Platform",
-        "location": "Remote - The Netherlands",
-        "function": "Software Engineering",
-        "soc": "15-1252",
-        "seniority": "mid"
-      }
-    },
-    {
       "id": "b86c8c8800f155dc",
-      "ts": "2026-07-30T20:25:34-04:00",
+      "ts": "2026-07-31T08:29:53-04:00",
       "source": "greenhouse",
       "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8022937",
       "type": "posting",
@@ -2935,8 +2490,39 @@
       }
     },
     {
+      "id": "cc5d4de4b90e7b76",
+      "ts": "2026-07-31T08:29:53-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8022942",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Machine Learning Systems Engineer, Ads ML Platform | Remote - The Netherlands",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "Software Engineering"
+      ],
+      "extras": {
+        "role": "Machine Learning Systems Engineer, Ads ML Platform",
+        "location": "Remote - The Netherlands",
+        "function": "Software Engineering",
+        "soc": "15-1252",
+        "seniority": "mid"
+      }
+    },
+    {
       "id": "2f7963c8a9e0d48b",
-      "ts": "2026-07-30T20:25:34-04:00",
+      "ts": "2026-07-31T08:29:53-04:00",
       "source": "greenhouse",
       "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8010389",
       "type": "posting",
@@ -2964,7 +2550,7 @@
     },
     {
       "id": "c5105e2a962f7751",
-      "ts": "2026-07-30T20:25:34-04:00",
+      "ts": "2026-07-31T08:29:53-04:00",
       "source": "greenhouse",
       "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7762079",
       "type": "posting",
@@ -2998,37 +2584,8 @@
       }
     },
     {
-      "id": "1946358f9004bcb7",
-      "ts": "2026-07-30T20:25:34-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7905472",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": "CA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Senior Technical Solutions Manager, Signals | San Francisco, CA",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
-        "CA"
-      ],
-      "extras": {
-        "role": "Senior Technical Solutions Manager, Signals",
-        "location": "San Francisco, CA",
-        "seniority": "senior"
-      }
-    },
-    {
       "id": "3f71189742dee07e",
-      "ts": "2026-07-30T20:25:34-04:00",
+      "ts": "2026-07-31T08:29:53-04:00",
       "source": "greenhouse",
       "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7905488",
       "type": "posting",
@@ -3056,10 +2613,10 @@
       }
     },
     {
-      "id": "afcdc833ea82a5cd",
-      "ts": "2026-07-30T20:25:33-04:00",
+      "id": "1946358f9004bcb7",
+      "ts": "2026-07-31T08:29:53-04:00",
       "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7982927",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7905472",
       "type": "posting",
       "company": {
         "name": "Reddit",
@@ -3071,57 +2628,22 @@
       },
       "magnitude": null,
       "unit": "jobs",
-      "raw_text": "Reddit | Client Account Manager, Large Customer Sales (Financial Services) | San Francisco, CA",
+      "raw_text": "Reddit | Senior Technical Solutions Manager, Signals | San Francisco, CA",
       "tags": [
         "hiring",
         "greenhouse",
         "media",
-        "CA",
-        "Customer Success"
+        "CA"
       ],
       "extras": {
-        "role": "Client Account Manager, Large Customer Sales (Financial Services)",
+        "role": "Senior Technical Solutions Manager, Signals",
         "location": "San Francisco, CA",
-        "function": "Customer Success",
-        "soc": "13-1161",
-        "seniority": "manager"
-      }
-    },
-    {
-      "id": "a6e30b22b8bb873a",
-      "ts": "2026-07-30T20:25:33-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7982890",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": "CA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Client Account Manager, Large Customer Sales (Financial Services) | Los Angeles, CA",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
-        "CA",
-        "Customer Success"
-      ],
-      "extras": {
-        "role": "Client Account Manager, Large Customer Sales (Financial Services)",
-        "location": "Los Angeles, CA",
-        "function": "Customer Success",
-        "soc": "13-1161",
-        "seniority": "manager"
+        "seniority": "senior"
       }
     },
     {
       "id": "95df8e806cb7c07f",
-      "ts": "2026-07-30T20:25:33-04:00",
+      "ts": "2026-07-31T08:29:52-04:00",
       "source": "greenhouse",
       "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7982928",
       "type": "posting",
@@ -3152,8 +2674,72 @@
       }
     },
     {
+      "id": "a6e30b22b8bb873a",
+      "ts": "2026-07-31T08:29:52-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7982890",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": "CA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Client Account Manager, Large Customer Sales (Financial Services) | Los Angeles, CA",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "CA",
+        "Customer Success"
+      ],
+      "extras": {
+        "role": "Client Account Manager, Large Customer Sales (Financial Services)",
+        "location": "Los Angeles, CA",
+        "function": "Customer Success",
+        "soc": "13-1161",
+        "seniority": "manager"
+      }
+    },
+    {
+      "id": "afcdc833ea82a5cd",
+      "ts": "2026-07-31T08:29:52-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7982927",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": "CA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Client Account Manager, Large Customer Sales (Financial Services) | San Francisco, CA",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "CA",
+        "Customer Success"
+      ],
+      "extras": {
+        "role": "Client Account Manager, Large Customer Sales (Financial Services)",
+        "location": "San Francisco, CA",
+        "function": "Customer Success",
+        "soc": "13-1161",
+        "seniority": "manager"
+      }
+    },
+    {
       "id": "83a99f5c06a521cf",
-      "ts": "2026-07-30T20:25:33-04:00",
+      "ts": "2026-07-31T08:29:52-04:00",
       "source": "greenhouse",
       "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7961073",
       "type": "posting",
@@ -3183,7 +2769,7 @@
     },
     {
       "id": "0f48b6364f478667",
-      "ts": "2026-07-30T20:25:33-04:00",
+      "ts": "2026-07-31T08:29:52-04:00",
       "source": "greenhouse",
       "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8022260",
       "type": "posting",
@@ -3211,7 +2797,7 @@
     },
     {
       "id": "0f392636e4180731",
-      "ts": "2026-07-30T20:25:33-04:00",
+      "ts": "2026-07-31T08:29:52-04:00",
       "source": "greenhouse",
       "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7954598",
       "type": "posting",
@@ -3236,28 +2822,417 @@
         "location": "Remote - United States",
         "seniority": "senior"
       }
+    },
+    {
+      "id": "1286350163121735",
+      "ts": "2026-07-31T08:29:52-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7746526",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": "NY",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Senior Client Account Manager, Large Customer Sales (Pharma) | New York City, NY",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "NY",
+        "Customer Success"
+      ],
+      "extras": {
+        "role": "Senior Client Account Manager, Large Customer Sales (Pharma)",
+        "location": "New York City, NY",
+        "function": "Customer Success",
+        "soc": "13-1161",
+        "seniority": "senior"
+      }
+    },
+    {
+      "id": "a3df79a89fefe6e4",
+      "ts": "2026-07-31T08:29:52-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7977257",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": "IL",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Senior Client Account Manager, Large Customer Sales (Pharma) | Chicago, IL",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "IL",
+        "Customer Success"
+      ],
+      "extras": {
+        "role": "Senior Client Account Manager, Large Customer Sales (Pharma)",
+        "location": "Chicago, IL",
+        "function": "Customer Success",
+        "soc": "13-1161",
+        "seniority": "senior"
+      }
+    },
+    {
+      "id": "119e2ff7e0579eed",
+      "ts": "2026-07-31T08:29:52-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7947897",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": "IL",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Sr. Manager, Large Customer Sales (Big Box Retail) | Chicago, IL",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "IL"
+      ],
+      "extras": {
+        "role": "Sr. Manager, Large Customer Sales (Big Box Retail)",
+        "location": "Chicago, IL",
+        "seniority": "senior",
+        "remote": "onsite"
+      }
+    },
+    {
+      "id": "e29c695edf5b3e12",
+      "ts": "2026-07-31T08:29:51-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8024327",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": "CA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Curriculum Lead, GTM Enablement | Los Angeles, CA",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "CA"
+      ],
+      "extras": {
+        "role": "Curriculum Lead, GTM Enablement",
+        "location": "Los Angeles, CA",
+        "seniority": "lead"
+      }
+    },
+    {
+      "id": "639dfd1a53127de4",
+      "ts": "2026-07-31T08:29:51-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8016926",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": "NY",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Curriculum Lead, GTM Enablement | New York City, NY",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "NY"
+      ],
+      "extras": {
+        "role": "Curriculum Lead, GTM Enablement",
+        "location": "New York City, NY",
+        "seniority": "lead"
+      }
+    },
+    {
+      "id": "93caa19e4e05f7bf",
+      "ts": "2026-07-31T08:29:51-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8024321",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": "IL",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Curriculum Lead, GTM Enablement | Chicago, IL",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "IL"
+      ],
+      "extras": {
+        "role": "Curriculum Lead, GTM Enablement",
+        "location": "Chicago, IL",
+        "seniority": "lead"
+      }
+    },
+    {
+      "id": "3a04527462e6c755",
+      "ts": "2026-07-31T08:29:51-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8024322",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": "CA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Curriculum Lead, GTM Enablement | San Francisco, CA",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "CA"
+      ],
+      "extras": {
+        "role": "Curriculum Lead, GTM Enablement",
+        "location": "San Francisco, CA",
+        "seniority": "lead"
+      }
+    },
+    {
+      "id": "f57452c336df3c9f",
+      "ts": "2026-07-31T08:29:51-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7966985",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Engineering Manager, Advanced Signals (SWE) | Remote - United States",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "Software Engineering"
+      ],
+      "extras": {
+        "role": "Engineering Manager, Advanced Signals (SWE)",
+        "location": "Remote - United States",
+        "function": "Software Engineering",
+        "soc": "15-1252",
+        "seniority": "manager"
+      }
+    },
+    {
+      "id": "547c4643352deefd",
+      "ts": "2026-07-31T08:29:51-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8016897",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": "CA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Manager, Technical Solutions | San Francisco, CA",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "CA"
+      ],
+      "extras": {
+        "role": "Manager, Technical Solutions",
+        "location": "San Francisco, CA",
+        "seniority": "manager"
+      }
+    },
+    {
+      "id": "9f0801c6f46bf4c6",
+      "ts": "2026-07-31T08:29:51-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8022136",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Senior Machine Learning Systems Engineer, Ads ML Experience Platform | Remote - United States",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "Software Engineering"
+      ],
+      "extras": {
+        "role": "Senior Machine Learning Systems Engineer, Ads ML Experience Platform",
+        "location": "Remote - United States",
+        "function": "Software Engineering",
+        "soc": "15-1252",
+        "seniority": "senior"
+      }
+    },
+    {
+      "id": "881c1dd9d5954623",
+      "ts": "2026-07-31T08:29:51-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7980795",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Staff Engineer, Ads Business Manager | Remote - United States",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media"
+      ],
+      "extras": {
+        "role": "Staff Engineer, Ads Business Manager",
+        "location": "Remote - United States",
+        "seniority": "staff"
+      }
+    },
+    {
+      "id": "62635ccafd37bd5e",
+      "ts": "2026-07-31T08:29:51-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7954001",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Staff Technical Product Manager, Ads ML Platform | Remote - United States",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "Product"
+      ],
+      "extras": {
+        "role": "Staff Technical Product Manager, Ads ML Platform",
+        "location": "Remote - United States",
+        "function": "Product",
+        "soc": "11-2021",
+        "seniority": "staff"
+      }
+    },
+    {
+      "id": "f2ac52dca3265ed1",
+      "ts": "2026-07-31T08:29:50-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7769002",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": "NY",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Creative Strategist - App Dev | New York City, NY",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "NY"
+      ],
+      "extras": {
+        "role": "Creative Strategist - App Dev",
+        "location": "New York City, NY",
+        "seniority": "mid"
+      }
     }
   ],
   "sector_matrix": {
-    "generated_at": "2026-07-31T11:25:28.829367Z",
+    "generated_at": "2026-07-31T14:11:25.519437Z",
     "cells": [
       {
         "sector": "Technology",
         "signal_type": "layoff",
-        "count_7d": 0,
-        "count_30d": 0,
-        "magnitude_7d": null,
+        "count_7d": 1,
+        "count_30d": 3,
+        "magnitude_7d": 154.0,
         "magnitude_30d": null,
-        "z_score": null
+        "z_score": 0.3
       },
       {
         "sector": "Technology",
         "signal_type": "posting",
-        "count_7d": 957,
-        "count_30d": 2057,
+        "count_7d": 966,
+        "count_30d": 2062,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 21.77
+        "z_score": 22.1
       },
       {
         "sector": "Technology",
@@ -3271,38 +3246,38 @@
       {
         "sector": "Technology",
         "signal_type": "funding",
-        "count_7d": 3,
-        "count_30d": 5,
+        "count_7d": 1,
+        "count_30d": 3,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 1.7
+        "z_score": 0.3
       },
       {
         "sector": "Technology",
         "signal_type": "macro",
-        "count_7d": 0,
-        "count_30d": 0,
-        "magnitude_7d": null,
+        "count_7d": 2,
+        "count_30d": 2,
+        "magnitude_7d": 59.0,
         "magnitude_30d": null,
-        "z_score": null
+        "z_score": 1.53
       },
       {
         "sector": "Finance",
         "signal_type": "layoff",
-        "count_7d": 0,
-        "count_30d": 0,
-        "magnitude_7d": null,
+        "count_7d": 3,
+        "count_30d": 3,
+        "magnitude_7d": 2600.0,
         "magnitude_30d": null,
-        "z_score": null
+        "z_score": 2.3
       },
       {
         "sector": "Finance",
         "signal_type": "posting",
-        "count_7d": 166,
+        "count_7d": 167,
         "count_30d": 296,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 11.66
+        "z_score": 11.78
       },
       {
         "sector": "Finance",
@@ -3424,11 +3399,11 @@
       {
         "sector": "Manufacturing",
         "signal_type": "layoff",
-        "count_7d": 0,
-        "count_30d": 0,
-        "magnitude_7d": null,
+        "count_7d": 2,
+        "count_30d": 3,
+        "magnitude_7d": 8000.0,
         "magnitude_30d": null,
-        "z_score": null
+        "z_score": 1.3
       },
       {
         "sector": "Manufacturing",
@@ -3442,11 +3417,11 @@
       {
         "sector": "Manufacturing",
         "signal_type": "exec_move",
-        "count_7d": 0,
-        "count_30d": 0,
+        "count_7d": 1,
+        "count_30d": 1,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": null
+        "z_score": 0.77
       },
       {
         "sector": "Manufacturing",
@@ -3470,10 +3445,10 @@
         "sector": "Retail",
         "signal_type": "layoff",
         "count_7d": 0,
-        "count_30d": 0,
+        "count_30d": 2,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": null
+        "z_score": -0.47
       },
       {
         "sector": "Retail",
@@ -3514,20 +3489,20 @@
       {
         "sector": "Media",
         "signal_type": "layoff",
-        "count_7d": 0,
-        "count_30d": 0,
-        "magnitude_7d": null,
+        "count_7d": 1,
+        "count_30d": 3,
+        "magnitude_7d": 180.0,
         "magnitude_30d": null,
-        "z_score": null
+        "z_score": 0.3
       },
       {
         "sector": "Media",
         "signal_type": "posting",
-        "count_7d": 97,
+        "count_7d": 96,
         "count_30d": 169,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 9.17
+        "z_score": 9.01
       },
       {
         "sector": "Media",
