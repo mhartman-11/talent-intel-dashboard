@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-31T08:52:10.570949Z",
+  "generated_at": "2026-07-31T11:25:28.829367Z",
   "next_ingest_at": null,
-  "total_events": 3646,
-  "events_7d": 1494,
+  "total_events": 3610,
+  "events_7d": 1477,
   "sources": [
     {
       "source": "greenhouse",
@@ -10,9 +10,9 @@
       "url": "https://boards-api.greenhouse.io",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-07-31T08:52:10.707851Z",
-      "last_attempted": "2026-07-31T08:52:10.707851Z",
-      "record_count": 2959,
+      "last_ok": "2026-07-31T11:25:28.933280Z",
+      "last_attempted": "2026-07-31T11:25:28.933280Z",
+      "record_count": 2961,
       "ok": true,
       "errors": [
         "DoorDash (doordash): GET https://boards-api.greenhouse.io/v1/boards/doordash/jobs failed: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/doordash/jobs?content=true'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
@@ -32,8 +32,8 @@
       "url": "https://api.lever.co/v0/postings",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-07-31T08:52:38.085393Z",
-      "last_attempted": "2026-07-31T08:52:38.085393Z",
+      "last_ok": "2026-07-31T11:25:54.665676Z",
+      "last_attempted": "2026-07-31T11:25:54.665676Z",
       "record_count": 106,
       "ok": true,
       "errors": [
@@ -49,8 +49,8 @@
       "url": "https://api.ashbyhq.com/posting-api",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-07-31T08:52:45.928162Z",
-      "last_attempted": "2026-07-31T08:52:45.928162Z",
+      "last_ok": "2026-07-31T11:26:03.649736Z",
+      "last_attempted": "2026-07-31T11:26:03.649736Z",
       "record_count": 228,
       "ok": true,
       "errors": [
@@ -63,8 +63,8 @@
       "url": "https://techcrunch.com/tag/layoffs/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-07-31T08:52:48.816890Z",
-      "last_attempted": "2026-07-31T08:52:48.816890Z",
+      "last_ok": "2026-07-31T11:26:06.463202Z",
+      "last_attempted": "2026-07-31T11:26:06.463202Z",
       "record_count": 6,
       "ok": true,
       "errors": []
@@ -75,11 +75,19 @@
       "url": "https://news.google.com/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-07-31T08:52:49.209292Z",
-      "last_attempted": "2026-07-31T08:52:49.209292Z",
-      "record_count": 42,
-      "ok": true,
-      "errors": []
+      "last_ok": null,
+      "last_attempted": "2026-07-31T11:26:06.961803Z",
+      "record_count": 0,
+      "ok": false,
+      "errors": [
+        "'tech layoffs': Server error '503 Service Unavailable' for url 'https://news.google.com/rss/search?q=tech+layoffs+when%3A21d&hl=en-US&gl=US&ceid=US:en'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503",
+        "'bank layoffs': Server error '503 Service Unavailable' for url 'https://news.google.com/rss/search?q=bank+layoffs+when%3A21d&hl=en-US&gl=US&ceid=US:en'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503",
+        "'healthcare layoffs': Server error '503 Service Unavailable' for url 'https://news.google.com/rss/search?q=healthcare+layoffs+when%3A21d&hl=en-US&gl=US&ceid=US:en'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503",
+        "'retail layoffs': Server error '503 Service Unavailable' for url 'https://news.google.com/rss/search?q=retail+layoffs+when%3A21d&hl=en-US&gl=US&ceid=US:en'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503",
+        "'manufacturing layoffs': Server error '503 Service Unavailable' for url 'https://news.google.com/rss/search?q=manufacturing+layoffs+when%3A21d&hl=en-US&gl=US&ceid=US:en'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503",
+        "'media layoffs': Server error '503 Service Unavailable' for url 'https://news.google.com/rss/search?q=media+layoffs+when%3A21d&hl=en-US&gl=US&ceid=US:en'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503",
+        "'company layoffs announced': Server error '503 Service Unavailable' for url 'https://news.google.com/rss/search?q=company+layoffs+announced+when%3A21d&hl=en-US&gl=US&ceid=US:en'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503"
+      ]
     },
     {
       "source": "state_warn",
@@ -88,7 +96,7 @@
       "tos_posture": "public_csv",
       "cadence_hours": 24,
       "last_ok": null,
-      "last_attempted": "2026-07-31T08:52:51.983873Z",
+      "last_attempted": "2026-07-31T11:26:55.662602Z",
       "record_count": 0,
       "ok": false,
       "errors": [
@@ -102,8 +110,8 @@
       "url": "https://techcrunch.com/category/venture/feed/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-07-31T08:52:59.176406Z",
-      "last_attempted": "2026-07-31T08:52:59.176406Z",
+      "last_ok": "2026-07-31T11:27:03.120168Z",
+      "last_attempted": "2026-07-31T11:27:03.120168Z",
       "record_count": 15,
       "ok": true,
       "errors": []
@@ -114,8 +122,8 @@
       "url": "https://efts.sec.gov/LATEST/search-index",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-07-31T08:52:59.757985Z",
-      "last_attempted": "2026-07-31T08:52:59.757985Z",
+      "last_ok": "2026-07-31T11:27:03.236898Z",
+      "last_attempted": "2026-07-31T11:27:03.236898Z",
       "record_count": 160,
       "ok": true,
       "errors": []
@@ -127,7 +135,7 @@
       "tos_posture": "public_csv",
       "cadence_hours": 24,
       "last_ok": null,
-      "last_attempted": "2026-07-31T08:53:00.888837Z",
+      "last_attempted": "2026-07-31T11:27:04.010138Z",
       "record_count": 0,
       "ok": false,
       "errors": [
@@ -140,8 +148,8 @@
       "url": "https://www.bls.gov/oes/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-07-31T08:53:04.034553Z",
-      "last_attempted": "2026-07-31T08:53:04.034553Z",
+      "last_ok": "2026-07-31T11:27:07.233753Z",
+      "last_attempted": "2026-07-31T11:27:07.233753Z",
       "record_count": 24,
       "ok": true,
       "errors": []
@@ -152,8 +160,8 @@
       "url": "https://www.bls.gov/ces/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-07-31T08:53:04.877923Z",
-      "last_attempted": "2026-07-31T08:53:04.877923Z",
+      "last_ok": "2026-07-31T11:27:08.018363Z",
+      "last_attempted": "2026-07-31T11:27:08.018363Z",
       "record_count": 48,
       "ok": true,
       "errors": []
@@ -164,8 +172,8 @@
       "url": "https://www.bls.gov/developers/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-07-31T08:53:05.466036Z",
-      "last_attempted": "2026-07-31T08:53:05.466036Z",
+      "last_ok": "2026-07-31T11:27:08.492266Z",
+      "last_attempted": "2026-07-31T11:27:08.492266Z",
       "record_count": 30,
       "ok": true,
       "errors": []
@@ -177,7 +185,7 @@
       "tos_posture": "public_api",
       "cadence_hours": 12,
       "last_ok": null,
-      "last_attempted": "2026-07-31T08:53:05.970479Z",
+      "last_attempted": "2026-07-31T11:27:09.013339Z",
       "record_count": 0,
       "ok": false,
       "errors": [
@@ -195,9 +203,9 @@
       "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-07-31T08:53:06.347879Z",
-      "last_attempted": "2026-07-31T08:53:06.347879Z",
-      "record_count": 33,
+      "last_ok": "2026-07-31T11:27:09.556522Z",
+      "last_attempted": "2026-07-31T11:27:09.556522Z",
+      "record_count": 31,
       "ok": true,
       "errors": []
     },
@@ -207,28 +215,55 @@
       "url": "https://web.archive.org/cdx/search/cdx",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": null,
-      "last_attempted": "2026-07-31T08:53:13.524916Z",
-      "record_count": 0,
-      "ok": false,
+      "last_ok": "2026-07-31T11:27:19.353856Z",
+      "last_attempted": "2026-07-31T11:27:19.353856Z",
+      "record_count": 1,
+      "ok": true,
       "errors": [
         "Stripe: GET https://web.archive.org/cdx/search/cdx failed: The read operation timed out",
         "Airbnb: GET https://web.archive.org/cdx/search/cdx failed: The read operation timed out",
-        "Coinbase: GET https://web.archive.org/cdx/search/cdx failed: The read operation timed out",
         "Robinhood: GET https://web.archive.org/cdx/search/cdx failed: The read operation timed out",
-        "Reddit: GET https://web.archive.org/cdx/search/cdx failed: The read operation timed out",
-        "DoorDash: GET https://web.archive.org/cdx/search/cdx failed: timed out",
-        "Instacart: GET https://web.archive.org/cdx/search/cdx failed: The read operation timed out",
+        "Reddit: GET https://web.archive.org/cdx/search/cdx failed: timed out",
+        "DoorDash: GET https://web.archive.org/cdx/search/cdx failed: The read operation timed out",
+        "Instacart: GET https://web.archive.org/cdx/search/cdx failed: timed out",
         "Pinterest: GET https://web.archive.org/cdx/search/cdx failed: timed out",
         "Discord: GET https://web.archive.org/cdx/search/cdx failed: timed out",
-        "GitLab: GET https://web.archive.org/cdx/search/cdx failed: timed out"
+        "GitLab: GET https://web.archive.org/cdx/search/cdx failed: timed out",
+        "HashiCorp: GET https://web.archive.org/cdx/search/cdx failed: timed out"
       ]
     }
   ],
   "recent_signals": [
     {
+      "id": "7110f2b1146e1d93",
+      "ts": "2026-07-31T11:27:36.505535Z",
+      "source": "wayback",
+      "source_url": "https://web.archive.org/web/*/coinbase.com/careers",
+      "type": "macro",
+      "company": {
+        "name": "Coinbase",
+        "ticker": null,
+        "industry": null,
+        "sector": "Finance",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": 6.0,
+      "unit": "snapshots/90d",
+      "raw_text": "Coinbase careers page: 6 archived snapshots in 90 days",
+      "tags": [
+        "careers_activity",
+        "wayback",
+        "finance"
+      ],
+      "extras": {
+        "careers_url": "coinbase.com/careers",
+        "snapshots_90d": 6
+      }
+    },
+    {
       "id": "e42b297cdfb1c598",
-      "ts": "2026-07-31T08:53:13.524839Z",
+      "ts": "2026-07-31T11:27:19.353738Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Spotify",
       "type": "attention",
@@ -256,37 +291,8 @@
       }
     },
     {
-      "id": "90c283e31681bb4e",
-      "ts": "2026-07-31T08:53:13.428723Z",
-      "source": "wikipedia_pv",
-      "source_url": "https://en.wikipedia.org/wiki/Glossier",
-      "type": "attention",
-      "company": {
-        "name": "Glossier",
-        "ticker": null,
-        "industry": null,
-        "sector": "CPG",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": 102.4,
-      "unit": "pageviews/day",
-      "raw_text": "Glossier \u2014 avg 7d pageviews 102 vs 23d baseline 88 (z=0.80)",
-      "tags": [
-        "attention",
-        "wikipedia",
-        "cpg"
-      ],
-      "extras": {
-        "avg_7d": 102.4,
-        "avg_baseline": 88.4,
-        "z_score": 0.8,
-        "is_spike": false
-      }
-    },
-    {
       "id": "8451f35bba6a366a",
-      "ts": "2026-07-31T08:53:13.273257Z",
+      "ts": "2026-07-31T11:27:17.415244Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Allbirds",
       "type": "attention",
@@ -314,8 +320,37 @@
       }
     },
     {
+      "id": "3b1d5dd59f0ad0fc",
+      "ts": "2026-07-31T11:27:17.271185Z",
+      "source": "wikipedia_pv",
+      "source_url": "https://en.wikipedia.org/wiki/Warby_Parker",
+      "type": "attention",
+      "company": {
+        "name": "Warby Parker",
+        "ticker": null,
+        "industry": null,
+        "sector": "Retail",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": 314.4,
+      "unit": "pageviews/day",
+      "raw_text": "Warby Parker \u2014 avg 7d pageviews 314 vs 23d baseline 320 (z=-0.13)",
+      "tags": [
+        "attention",
+        "wikipedia",
+        "retail"
+      ],
+      "extras": {
+        "avg_7d": 314.4,
+        "avg_baseline": 320.3,
+        "z_score": -0.13,
+        "is_spike": false
+      }
+    },
+    {
       "id": "63bee2e09e8a5ad7",
-      "ts": "2026-07-31T08:53:11.275617Z",
+      "ts": "2026-07-31T11:27:17.135358Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Oscar_Health",
       "type": "attention",
@@ -344,7 +379,7 @@
     },
     {
       "id": "eca36cc7ae266164",
-      "ts": "2026-07-31T08:53:10.912912Z",
+      "ts": "2026-07-31T11:27:16.999857Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Hims_&_Hers",
       "type": "attention",
@@ -373,7 +408,7 @@
     },
     {
       "id": "aff01a5faefcad29",
-      "ts": "2026-07-31T08:53:10.762936Z",
+      "ts": "2026-07-31T11:27:16.864647Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Cursor",
       "type": "attention",
@@ -402,7 +437,7 @@
     },
     {
       "id": "737266ca5f7e72ea",
-      "ts": "2026-07-31T08:53:10.599518Z",
+      "ts": "2026-07-31T11:27:16.719342Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Perplexity_AI",
       "type": "attention",
@@ -431,7 +466,7 @@
     },
     {
       "id": "3cb8efcca560c592",
-      "ts": "2026-07-31T08:53:10.449224Z",
+      "ts": "2026-07-31T11:27:16.581511Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Replicate",
       "type": "attention",
@@ -460,7 +495,7 @@
     },
     {
       "id": "50692ca7b41d1daf",
-      "ts": "2026-07-31T08:53:10.293769Z",
+      "ts": "2026-07-31T11:27:16.442595Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Vercel",
       "type": "attention",
@@ -489,7 +524,7 @@
     },
     {
       "id": "37d35d6cb5a71922",
-      "ts": "2026-07-31T08:53:10.134244Z",
+      "ts": "2026-07-31T11:27:16.283738Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Linear",
       "type": "attention",
@@ -518,7 +553,7 @@
     },
     {
       "id": "b87fd26ec44d049d",
-      "ts": "2026-07-31T08:53:09.969066Z",
+      "ts": "2026-07-31T11:27:16.139483Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Mercury",
       "type": "attention",
@@ -546,37 +581,8 @@
       }
     },
     {
-      "id": "1580c0f44ce38167",
-      "ts": "2026-07-31T08:53:09.799678Z",
-      "source": "wikipedia_pv",
-      "source_url": "https://en.wikipedia.org/wiki/Ramp",
-      "type": "attention",
-      "company": {
-        "name": "Ramp",
-        "ticker": null,
-        "industry": null,
-        "sector": "Finance",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": 18.6,
-      "unit": "pageviews/day",
-      "raw_text": "Ramp \u2014 avg 7d pageviews 19 vs 23d baseline 23 (z=-0.47)",
-      "tags": [
-        "attention",
-        "wikipedia",
-        "finance"
-      ],
-      "extras": {
-        "avg_7d": 18.6,
-        "avg_baseline": 23.0,
-        "z_score": -0.47,
-        "is_spike": false
-      }
-    },
-    {
       "id": "0b8a6b75ea403222",
-      "ts": "2026-07-31T08:53:09.646876Z",
+      "ts": "2026-07-31T11:27:14.226131Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Plaid",
       "type": "attention",
@@ -605,7 +611,7 @@
     },
     {
       "id": "50aa52d028ed9ee6",
-      "ts": "2026-07-31T08:53:09.481433Z",
+      "ts": "2026-07-31T11:27:14.097706Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Brex",
       "type": "attention",
@@ -634,7 +640,7 @@
     },
     {
       "id": "8dd68309a23ecd25",
-      "ts": "2026-07-31T08:53:09.327916Z",
+      "ts": "2026-07-31T11:27:13.966160Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Databricks",
       "type": "attention",
@@ -663,7 +669,7 @@
     },
     {
       "id": "a3eba7cc05ef939a",
-      "ts": "2026-07-31T08:53:09.172369Z",
+      "ts": "2026-07-31T11:27:13.831837Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Snowflake",
       "type": "attention",
@@ -692,7 +698,7 @@
     },
     {
       "id": "18f6a4ff7dc2d059",
-      "ts": "2026-07-31T08:53:09.002728Z",
+      "ts": "2026-07-31T11:27:13.691349Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Figma",
       "type": "attention",
@@ -721,7 +727,7 @@
     },
     {
       "id": "fe08b62faa718cfe",
-      "ts": "2026-07-31T08:53:08.853269Z",
+      "ts": "2026-07-31T11:27:13.553197Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Notion",
       "type": "attention",
@@ -750,7 +756,7 @@
     },
     {
       "id": "30eacb88d0896533",
-      "ts": "2026-07-31T08:53:08.694568Z",
+      "ts": "2026-07-31T11:27:13.408259Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Scale_AI",
       "type": "attention",
@@ -779,7 +785,7 @@
     },
     {
       "id": "85fad46c030c767f",
-      "ts": "2026-07-31T08:53:08.536396Z",
+      "ts": "2026-07-31T11:27:13.263386Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/OpenAI",
       "type": "attention",
@@ -808,7 +814,7 @@
     },
     {
       "id": "da2e8429869d3c14",
-      "ts": "2026-07-31T08:53:08.385635Z",
+      "ts": "2026-07-31T11:27:13.126009Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Anthropic",
       "type": "attention",
@@ -837,7 +843,7 @@
     },
     {
       "id": "adaf748fdf80bd5a",
-      "ts": "2026-07-31T08:53:08.235899Z",
+      "ts": "2026-07-31T11:27:12.992333Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Cloudflare",
       "type": "attention",
@@ -865,37 +871,8 @@
       }
     },
     {
-      "id": "572c324f544ec6b1",
-      "ts": "2026-07-31T08:53:08.083397Z",
-      "source": "wikipedia_pv",
-      "source_url": "https://en.wikipedia.org/wiki/HashiCorp",
-      "type": "attention",
-      "company": {
-        "name": "HashiCorp",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": 390.3,
-      "unit": "pageviews/day",
-      "raw_text": "HashiCorp \u2014 avg 7d pageviews 390 vs 23d baseline 327 (z=0.76)",
-      "tags": [
-        "attention",
-        "wikipedia",
-        "technology"
-      ],
-      "extras": {
-        "avg_7d": 390.3,
-        "avg_baseline": 327.4,
-        "z_score": 0.76,
-        "is_spike": false
-      }
-    },
-    {
       "id": "8ae38f2e93161c2b",
-      "ts": "2026-07-31T08:53:07.928150Z",
+      "ts": "2026-07-31T11:27:11.038922Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/GitLab",
       "type": "attention",
@@ -924,7 +901,7 @@
     },
     {
       "id": "5ef0edf18aa8e138",
-      "ts": "2026-07-31T08:53:07.765521Z",
+      "ts": "2026-07-31T11:27:10.889841Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Discord",
       "type": "attention",
@@ -953,7 +930,7 @@
     },
     {
       "id": "30bd941a07a9a391",
-      "ts": "2026-07-31T08:53:07.616497Z",
+      "ts": "2026-07-31T11:27:10.750726Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Pinterest",
       "type": "attention",
@@ -982,7 +959,7 @@
     },
     {
       "id": "757768c4939d3437",
-      "ts": "2026-07-31T08:53:07.456194Z",
+      "ts": "2026-07-31T11:27:10.605214Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Instacart",
       "type": "attention",
@@ -1011,7 +988,7 @@
     },
     {
       "id": "016bcc63d0b3fc53",
-      "ts": "2026-07-31T08:53:07.289263Z",
+      "ts": "2026-07-31T11:27:10.459679Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/DoorDash",
       "type": "attention",
@@ -1040,7 +1017,7 @@
     },
     {
       "id": "74536def853caab0",
-      "ts": "2026-07-31T08:53:07.136421Z",
+      "ts": "2026-07-31T11:27:10.329375Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Reddit",
       "type": "attention",
@@ -1052,24 +1029,24 @@
         "hq_region": null,
         "size_band": "unknown"
       },
-      "magnitude": 6987.1,
+      "magnitude": 6980.3,
       "unit": "pageviews/day",
-      "raw_text": "Reddit \u2014 avg 7d pageviews 6987 vs 23d baseline 7034 (z=-0.06)",
+      "raw_text": "Reddit \u2014 avg 7d pageviews 6980 vs 23d baseline 7042 (z=-0.08)",
       "tags": [
         "attention",
         "wikipedia",
         "media"
       ],
       "extras": {
-        "avg_7d": 6987.1,
-        "avg_baseline": 7033.8,
-        "z_score": -0.06,
+        "avg_7d": 6980.3,
+        "avg_baseline": 7041.9,
+        "z_score": -0.08,
         "is_spike": false
       }
     },
     {
       "id": "5bdf5878cb663e9f",
-      "ts": "2026-07-31T08:53:07.042290Z",
+      "ts": "2026-07-31T11:27:10.190085Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Robinhood",
       "type": "attention",
@@ -1098,7 +1075,7 @@
     },
     {
       "id": "173ac42466a08e33",
-      "ts": "2026-07-31T08:53:06.888280Z",
+      "ts": "2026-07-31T11:27:10.051418Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Coinbase",
       "type": "attention",
@@ -1127,7 +1104,7 @@
     },
     {
       "id": "4011da3fb199ad53",
-      "ts": "2026-07-31T08:53:06.736088Z",
+      "ts": "2026-07-31T11:27:09.912177Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Airbnb",
       "type": "attention",
@@ -1156,7 +1133,7 @@
     },
     {
       "id": "78213b89bee167b7",
-      "ts": "2026-07-31T08:53:06.586120Z",
+      "ts": "2026-07-31T11:27:09.778620Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Stripe",
       "type": "attention",
@@ -1181,6 +1158,99 @@
         "avg_baseline": 69.3,
         "z_score": -0.15,
         "is_spike": false
+      }
+    },
+    {
+      "id": "138889c0dde172d0",
+      "ts": "2026-07-31T07:17:08-04:00",
+      "source": "greenhouse",
+      "source_url": "https://stripe.com/jobs/search?gh_jid=7825578",
+      "type": "posting",
+      "company": {
+        "name": "Stripe",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Stripe | Account Executive, Enterprise Hunter (DACH Market) | Germany ",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "Sales"
+      ],
+      "extras": {
+        "role": "Account Executive, Enterprise Hunter (DACH Market)",
+        "location": "Germany ",
+        "function": "Sales",
+        "soc": "41-3091",
+        "seniority": "mid"
+      }
+    },
+    {
+      "id": "95a6c941297c3f4e",
+      "ts": "2026-07-31T06:21:47-04:00",
+      "source": "greenhouse",
+      "source_url": "https://boards.greenhouse.io/cloudflare/jobs/8071056?gh_jid=8071056",
+      "type": "posting",
+      "company": {
+        "name": "Cloudflare",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Cloudflare | Systems Engineer | Hybrid",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "Software Engineering"
+      ],
+      "extras": {
+        "role": "Systems Engineer",
+        "location": "Hybrid",
+        "function": "Software Engineering",
+        "soc": "15-1252",
+        "seniority": "mid"
+      }
+    },
+    {
+      "id": "be4aff961f21e567",
+      "ts": "2026-07-31T05:14:45-04:00",
+      "source": "greenhouse",
+      "source_url": "https://careers.airbnb.com/positions/7640881?gh_jid=7640881",
+      "type": "posting",
+      "company": {
+        "name": "Airbnb",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Airbnb | Senior Data Engineer, BizTech | Bangalore, India",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "Data / ML"
+      ],
+      "extras": {
+        "role": "Senior Data Engineer, BizTech",
+        "location": "Bangalore, India",
+        "function": "Data / ML",
+        "soc": "15-2051",
+        "seniority": "senior"
       }
     },
     {
@@ -3166,92 +3236,28 @@
         "location": "Remote - United States",
         "seniority": "senior"
       }
-    },
-    {
-      "id": "1286350163121735",
-      "ts": "2026-07-30T20:25:33-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7746526",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": "NY",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Senior Client Account Manager, Large Customer Sales (Pharma) | New York City, NY",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
-        "NY",
-        "Customer Success"
-      ],
-      "extras": {
-        "role": "Senior Client Account Manager, Large Customer Sales (Pharma)",
-        "location": "New York City, NY",
-        "function": "Customer Success",
-        "soc": "13-1161",
-        "seniority": "senior"
-      }
-    },
-    {
-      "id": "a3df79a89fefe6e4",
-      "ts": "2026-07-30T20:25:33-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7977257",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": "IL",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Senior Client Account Manager, Large Customer Sales (Pharma) | Chicago, IL",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
-        "IL",
-        "Customer Success"
-      ],
-      "extras": {
-        "role": "Senior Client Account Manager, Large Customer Sales (Pharma)",
-        "location": "Chicago, IL",
-        "function": "Customer Success",
-        "soc": "13-1161",
-        "seniority": "senior"
-      }
     }
   ],
   "sector_matrix": {
-    "generated_at": "2026-07-31T08:52:10.570949Z",
+    "generated_at": "2026-07-31T11:25:28.829367Z",
     "cells": [
       {
         "sector": "Technology",
         "signal_type": "layoff",
-        "count_7d": 1,
-        "count_30d": 2,
-        "magnitude_7d": 154.0,
+        "count_7d": 0,
+        "count_30d": 0,
+        "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 0.53
+        "z_score": null
       },
       {
         "sector": "Technology",
         "signal_type": "posting",
         "count_7d": 957,
-        "count_30d": 2056,
+        "count_30d": 2057,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 21.79
+        "z_score": 21.77
       },
       {
         "sector": "Technology",
@@ -3265,11 +3271,11 @@
       {
         "sector": "Technology",
         "signal_type": "funding",
-        "count_7d": 4,
-        "count_30d": 6,
+        "count_7d": 3,
+        "count_30d": 5,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 2.2
+        "z_score": 1.7
       },
       {
         "sector": "Technology",
@@ -3283,11 +3289,11 @@
       {
         "sector": "Finance",
         "signal_type": "layoff",
-        "count_7d": 3,
-        "count_30d": 3,
+        "count_7d": 0,
+        "count_30d": 0,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 2.3
+        "z_score": null
       },
       {
         "sector": "Finance",
@@ -3310,20 +3316,20 @@
       {
         "sector": "Finance",
         "signal_type": "funding",
-        "count_7d": 2,
-        "count_30d": 2,
-        "magnitude_7d": null,
-        "magnitude_30d": null,
-        "z_score": 1.53
-      },
-      {
-        "sector": "Finance",
-        "signal_type": "macro",
         "count_7d": 0,
         "count_30d": 0,
         "magnitude_7d": null,
         "magnitude_30d": null,
         "z_score": null
+      },
+      {
+        "sector": "Finance",
+        "signal_type": "macro",
+        "count_7d": 1,
+        "count_30d": 1,
+        "magnitude_7d": 6.0,
+        "magnitude_30d": null,
+        "z_score": 0.77
       },
       {
         "sector": "Healthcare",
@@ -3418,11 +3424,11 @@
       {
         "sector": "Manufacturing",
         "signal_type": "layoff",
-        "count_7d": 2,
-        "count_30d": 3,
-        "magnitude_7d": 8000.0,
+        "count_7d": 0,
+        "count_30d": 0,
+        "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 1.3
+        "z_score": null
       },
       {
         "sector": "Manufacturing",
@@ -3445,11 +3451,11 @@
       {
         "sector": "Manufacturing",
         "signal_type": "funding",
-        "count_7d": 6,
-        "count_30d": 7,
+        "count_7d": 3,
+        "count_30d": 4,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 3.42
+        "z_score": 2.07
       },
       {
         "sector": "Manufacturing",
@@ -3464,10 +3470,10 @@
         "sector": "Retail",
         "signal_type": "layoff",
         "count_7d": 0,
-        "count_30d": 2,
+        "count_30d": 0,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": -0.47
+        "z_score": null
       },
       {
         "sector": "Retail",
@@ -3508,11 +3514,11 @@
       {
         "sector": "Media",
         "signal_type": "layoff",
-        "count_7d": 1,
-        "count_30d": 3,
-        "magnitude_7d": 180.0,
+        "count_7d": 0,
+        "count_30d": 0,
+        "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 0.3
+        "z_score": null
       },
       {
         "sector": "Media",
