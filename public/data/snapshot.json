@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-08T01:46:40.346762Z",
+  "generated_at": "2026-08-08T06:56:24.825011Z",
   "next_ingest_at": null,
-  "total_events": 3652,
-  "events_7d": 2151,
+  "total_events": 3679,
+  "events_7d": 2168,
   "sources": [
     {
       "source": "greenhouse",
@@ -10,9 +10,9 @@
       "url": "https://boards-api.greenhouse.io",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-08-08T01:46:40.478642Z",
-      "last_attempted": "2026-08-08T01:46:40.478642Z",
-      "record_count": 2995,
+      "last_ok": "2026-08-08T06:56:24.961956Z",
+      "last_attempted": "2026-08-08T06:56:24.961956Z",
+      "record_count": 2994,
       "ok": true,
       "errors": [
         "DoorDash (doordash): GET https://boards-api.greenhouse.io/v1/boards/doordash/jobs failed: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/doordash/jobs?content=true'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
@@ -32,8 +32,8 @@
       "url": "https://api.lever.co/v0/postings",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-08-08T01:47:05.874518Z",
-      "last_attempted": "2026-08-08T01:47:05.874518Z",
+      "last_ok": "2026-08-08T06:56:50.790187Z",
+      "last_attempted": "2026-08-08T06:56:50.790187Z",
       "record_count": 103,
       "ok": true,
       "errors": [
@@ -49,8 +49,8 @@
       "url": "https://api.ashbyhq.com/posting-api",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-08-08T01:47:17.490720Z",
-      "last_attempted": "2026-08-08T01:47:17.490720Z",
+      "last_ok": "2026-08-08T06:57:01.054426Z",
+      "last_attempted": "2026-08-08T06:57:01.054426Z",
       "record_count": 238,
       "ok": true,
       "errors": [
@@ -63,8 +63,8 @@
       "url": "https://techcrunch.com/tag/layoffs/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-08-08T01:47:19.987515Z",
-      "last_attempted": "2026-08-08T01:47:19.987515Z",
+      "last_ok": "2026-08-08T06:57:03.678579Z",
+      "last_attempted": "2026-08-08T06:57:03.678579Z",
       "record_count": 6,
       "ok": true,
       "errors": []
@@ -75,19 +75,11 @@
       "url": "https://news.google.com/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": null,
-      "last_attempted": "2026-08-08T01:47:20.358846Z",
-      "record_count": 0,
-      "ok": false,
-      "errors": [
-        "'tech layoffs': Server error '503 Service Unavailable' for url 'https://news.google.com/rss/search?q=tech+layoffs+when%3A21d&hl=en-US&gl=US&ceid=US:en'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503",
-        "'bank layoffs': Server error '503 Service Unavailable' for url 'https://news.google.com/rss/search?q=bank+layoffs+when%3A21d&hl=en-US&gl=US&ceid=US:en'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503",
-        "'healthcare layoffs': Server error '503 Service Unavailable' for url 'https://news.google.com/rss/search?q=healthcare+layoffs+when%3A21d&hl=en-US&gl=US&ceid=US:en'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503",
-        "'retail layoffs': Server error '503 Service Unavailable' for url 'https://news.google.com/rss/search?q=retail+layoffs+when%3A21d&hl=en-US&gl=US&ceid=US:en'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503",
-        "'manufacturing layoffs': Server error '503 Service Unavailable' for url 'https://news.google.com/rss/search?q=manufacturing+layoffs+when%3A21d&hl=en-US&gl=US&ceid=US:en'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503",
-        "'media layoffs': Server error '503 Service Unavailable' for url 'https://news.google.com/rss/search?q=media+layoffs+when%3A21d&hl=en-US&gl=US&ceid=US:en'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503",
-        "'company layoffs announced': Server error '503 Service Unavailable' for url 'https://news.google.com/rss/search?q=company+layoffs+announced+when%3A21d&hl=en-US&gl=US&ceid=US:en'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503"
-      ]
+      "last_ok": "2026-08-08T06:57:04.064288Z",
+      "last_attempted": "2026-08-08T06:57:04.064288Z",
+      "record_count": 30,
+      "ok": true,
+      "errors": []
     },
     {
       "source": "state_warn",
@@ -96,7 +88,7 @@
       "tos_posture": "public_csv",
       "cadence_hours": 24,
       "last_ok": null,
-      "last_attempted": "2026-08-08T01:48:18.750148Z",
+      "last_attempted": "2026-08-08T06:57:07.005473Z",
       "record_count": 0,
       "ok": false,
       "errors": [
@@ -110,8 +102,8 @@
       "url": "https://techcrunch.com/category/venture/feed/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-08-08T01:48:25.637004Z",
-      "last_attempted": "2026-08-08T01:48:25.637004Z",
+      "last_ok": "2026-08-08T06:57:13.852076Z",
+      "last_attempted": "2026-08-08T06:57:13.852076Z",
       "record_count": 13,
       "ok": true,
       "errors": []
@@ -122,8 +114,8 @@
       "url": "https://efts.sec.gov/LATEST/search-index",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-08-08T01:48:26.335992Z",
-      "last_attempted": "2026-08-08T01:48:26.335992Z",
+      "last_ok": "2026-08-08T06:57:14.560835Z",
+      "last_attempted": "2026-08-08T06:57:14.560835Z",
       "record_count": 160,
       "ok": true,
       "errors": []
@@ -135,7 +127,7 @@
       "tos_posture": "public_csv",
       "cadence_hours": 24,
       "last_ok": null,
-      "last_attempted": "2026-08-08T01:48:27.798697Z",
+      "last_attempted": "2026-08-08T06:57:16.953232Z",
       "record_count": 0,
       "ok": false,
       "errors": [
@@ -148,8 +140,8 @@
       "url": "https://www.bls.gov/oes/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-08-08T01:48:30.899843Z",
-      "last_attempted": "2026-08-08T01:48:30.899843Z",
+      "last_ok": "2026-08-08T06:57:20.056400Z",
+      "last_attempted": "2026-08-08T06:57:20.056400Z",
       "record_count": 24,
       "ok": true,
       "errors": []
@@ -160,8 +152,8 @@
       "url": "https://www.bls.gov/ces/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-08-08T01:48:31.198015Z",
-      "last_attempted": "2026-08-08T01:48:31.198015Z",
+      "last_ok": "2026-08-08T06:57:20.441286Z",
+      "last_attempted": "2026-08-08T06:57:20.441286Z",
       "record_count": 48,
       "ok": true,
       "errors": []
@@ -172,8 +164,8 @@
       "url": "https://www.bls.gov/developers/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-08-08T01:48:31.366315Z",
-      "last_attempted": "2026-08-08T01:48:31.366315Z",
+      "last_ok": "2026-08-08T06:57:20.680974Z",
+      "last_attempted": "2026-08-08T06:57:20.680974Z",
       "record_count": 30,
       "ok": true,
       "errors": []
@@ -185,7 +177,7 @@
       "tos_posture": "public_api",
       "cadence_hours": 12,
       "last_ok": null,
-      "last_attempted": "2026-08-08T01:48:31.552808Z",
+      "last_attempted": "2026-08-08T06:57:20.935811Z",
       "record_count": 0,
       "ok": false,
       "errors": [
@@ -203,8 +195,8 @@
       "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-08-08T01:48:31.847114Z",
-      "last_attempted": "2026-08-08T01:48:31.847114Z",
+      "last_ok": "2026-08-08T06:57:21.154768Z",
+      "last_attempted": "2026-08-08T06:57:21.154768Z",
       "record_count": 34,
       "ok": true,
       "errors": []
@@ -215,55 +207,82 @@
       "url": "https://web.archive.org/cdx/search/cdx",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-08-08T01:48:33.547669Z",
-      "last_attempted": "2026-08-08T01:48:33.547669Z",
-      "record_count": 1,
+      "last_ok": "2026-08-08T06:57:24.622445Z",
+      "last_attempted": "2026-08-08T06:57:24.622445Z",
+      "record_count": 2,
       "ok": true,
       "errors": [
         "Stripe: GET https://web.archive.org/cdx/search/cdx failed: The read operation timed out",
         "Airbnb: GET https://web.archive.org/cdx/search/cdx failed: The read operation timed out",
-        "Coinbase: GET https://web.archive.org/cdx/search/cdx failed: The read operation timed out",
-        "Robinhood: GET https://web.archive.org/cdx/search/cdx failed: The read operation timed out",
         "Reddit: GET https://web.archive.org/cdx/search/cdx failed: The read operation timed out",
         "DoorDash: GET https://web.archive.org/cdx/search/cdx failed: timed out",
         "Instacart: GET https://web.archive.org/cdx/search/cdx failed: The read operation timed out",
         "Pinterest: GET https://web.archive.org/cdx/search/cdx failed: timed out",
         "Discord: GET https://web.archive.org/cdx/search/cdx failed: timed out",
-        "GitLab: GET https://web.archive.org/cdx/search/cdx failed: timed out"
+        "GitLab: GET https://web.archive.org/cdx/search/cdx failed: timed out",
+        "HashiCorp: GET https://web.archive.org/cdx/search/cdx failed: timed out",
+        "Cloudflare: GET https://web.archive.org/cdx/search/cdx failed: timed out"
       ]
     }
   ],
   "recent_signals": [
     {
-      "id": "656285a5e79c6acd",
-      "ts": "2026-08-08T01:51:54.146218Z",
+      "id": "7467ca038210533d",
+      "ts": "2026-08-08T06:57:53.148718Z",
       "source": "wayback",
-      "source_url": "https://web.archive.org/web/*/vercel.com/careers",
+      "source_url": "https://web.archive.org/web/*/robinhood.com/careers",
       "type": "macro",
       "company": {
-        "name": "Vercel",
+        "name": "Robinhood",
         "ticker": null,
         "industry": null,
-        "sector": "Technology",
+        "sector": "Finance",
         "hq_region": null,
         "size_band": "unknown"
       },
-      "magnitude": 21.0,
+      "magnitude": 1.0,
       "unit": "snapshots/90d",
-      "raw_text": "Vercel careers page: 21 archived snapshots in 90 days",
+      "raw_text": "Robinhood careers page: 1 archived snapshots in 90 days",
       "tags": [
         "careers_activity",
         "wayback",
-        "technology"
+        "finance"
       ],
       "extras": {
-        "careers_url": "vercel.com/careers",
-        "snapshots_90d": 21
+        "careers_url": "robinhood.com/careers",
+        "snapshots_90d": 1
+      }
+    },
+    {
+      "id": "c06cd1e5d272d1ec",
+      "ts": "2026-08-08T06:57:46.106753Z",
+      "source": "wayback",
+      "source_url": "https://web.archive.org/web/*/coinbase.com/careers",
+      "type": "macro",
+      "company": {
+        "name": "Coinbase",
+        "ticker": null,
+        "industry": null,
+        "sector": "Finance",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": 8.0,
+      "unit": "snapshots/90d",
+      "raw_text": "Coinbase careers page: 8 archived snapshots in 90 days",
+      "tags": [
+        "careers_activity",
+        "wayback",
+        "finance"
+      ],
+      "extras": {
+        "careers_url": "coinbase.com/careers",
+        "snapshots_90d": 8
       }
     },
     {
       "id": "36479d641f9e018e",
-      "ts": "2026-08-08T01:48:33.547587Z",
+      "ts": "2026-08-08T06:57:24.622359Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Spotify",
       "type": "attention",
@@ -275,24 +294,24 @@
         "hq_region": null,
         "size_band": "unknown"
       },
-      "magnitude": 3985.4,
+      "magnitude": 3742.1,
       "unit": "pageviews/day",
-      "raw_text": "Spotify \u2014 avg 7d pageviews 3985 vs 23d baseline 3998 (z=-0.01)",
+      "raw_text": "Spotify \u2014 avg 7d pageviews 3742 vs 23d baseline 4034 (z=-0.28)",
       "tags": [
         "attention",
         "wikipedia",
         "media"
       ],
       "extras": {
-        "avg_7d": 3985.4,
-        "avg_baseline": 3997.8,
-        "z_score": -0.01,
+        "avg_7d": 3742.1,
+        "avg_baseline": 4033.8,
+        "z_score": -0.28,
         "is_spike": false
       }
     },
     {
       "id": "01338c0bcb459258",
-      "ts": "2026-08-08T01:48:33.494198Z",
+      "ts": "2026-08-08T06:57:24.521830Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Glossier",
       "type": "attention",
@@ -304,24 +323,24 @@
         "hq_region": null,
         "size_band": "unknown"
       },
-      "magnitude": 109.3,
+      "magnitude": 104.4,
       "unit": "pageviews/day",
-      "raw_text": "Glossier \u2014 avg 7d pageviews 109 vs 23d baseline 92 (z=0.90)",
+      "raw_text": "Glossier \u2014 avg 7d pageviews 104 vs 23d baseline 93 (z=0.61)",
       "tags": [
         "attention",
         "wikipedia",
         "cpg"
       ],
       "extras": {
-        "avg_7d": 109.3,
-        "avg_baseline": 92.2,
-        "z_score": 0.9,
+        "avg_7d": 104.4,
+        "avg_baseline": 93.0,
+        "z_score": 0.61,
         "is_spike": false
       }
     },
     {
       "id": "7768d5545aaae26c",
-      "ts": "2026-08-08T01:48:33.441169Z",
+      "ts": "2026-08-08T06:57:24.424606Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Allbirds",
       "type": "attention",
@@ -333,24 +352,24 @@
         "hq_region": null,
         "size_band": "unknown"
       },
-      "magnitude": 392.1,
+      "magnitude": 390.7,
       "unit": "pageviews/day",
-      "raw_text": "Allbirds \u2014 avg 7d pageviews 392 vs 23d baseline 404 (z=-0.19)",
+      "raw_text": "Allbirds \u2014 avg 7d pageviews 391 vs 23d baseline 401 (z=-0.17)",
       "tags": [
         "attention",
         "wikipedia",
         "retail"
       ],
       "extras": {
-        "avg_7d": 392.1,
-        "avg_baseline": 403.5,
-        "z_score": -0.19,
+        "avg_7d": 390.7,
+        "avg_baseline": 401,
+        "z_score": -0.17,
         "is_spike": false
       }
     },
     {
       "id": "bae64158cee57e1e",
-      "ts": "2026-08-08T01:48:33.393151Z",
+      "ts": "2026-08-08T06:57:24.324169Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Warby_Parker",
       "type": "attention",
@@ -362,24 +381,24 @@
         "hq_region": null,
         "size_band": "unknown"
       },
-      "magnitude": 334.3,
+      "magnitude": 332.3,
       "unit": "pageviews/day",
-      "raw_text": "Warby Parker \u2014 avg 7d pageviews 334 vs 23d baseline 314 (z=0.50)",
+      "raw_text": "Warby Parker \u2014 avg 7d pageviews 332 vs 23d baseline 314 (z=0.47)",
       "tags": [
         "attention",
         "wikipedia",
         "retail"
       ],
       "extras": {
-        "avg_7d": 334.3,
-        "avg_baseline": 314.1,
-        "z_score": 0.5,
+        "avg_7d": 332.3,
+        "avg_baseline": 313.9,
+        "z_score": 0.47,
         "is_spike": false
       }
     },
     {
       "id": "495ecea811c6c3c4",
-      "ts": "2026-08-08T01:48:33.350210Z",
+      "ts": "2026-08-08T06:57:24.230873Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Oscar_Health",
       "type": "attention",
@@ -391,24 +410,24 @@
         "hq_region": null,
         "size_band": "unknown"
       },
-      "magnitude": 592.1,
+      "magnitude": 465.3,
       "unit": "pageviews/day",
-      "raw_text": "Oscar Health \u2014 avg 7d pageviews 592 vs 23d baseline 300 (z=0.98)",
+      "raw_text": "Oscar Health \u2014 avg 7d pageviews 465 vs 23d baseline 337 (z=0.38)",
       "tags": [
         "attention",
         "wikipedia",
         "healthcare"
       ],
       "extras": {
-        "avg_7d": 592.1,
-        "avg_baseline": 300,
-        "z_score": 0.98,
+        "avg_7d": 465.3,
+        "avg_baseline": 336.8,
+        "z_score": 0.38,
         "is_spike": false
       }
     },
     {
       "id": "5beb9ab815d148a0",
-      "ts": "2026-08-08T01:48:33.299875Z",
+      "ts": "2026-08-08T06:57:24.131320Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Hims_&_Hers",
       "type": "attention",
@@ -420,24 +439,24 @@
         "hq_region": null,
         "size_band": "unknown"
       },
-      "magnitude": 11.7,
+      "magnitude": 12.3,
       "unit": "pageviews/day",
-      "raw_text": "Hims & Hers \u2014 avg 7d pageviews 12 vs 23d baseline 8 (z=0.96)",
+      "raw_text": "Hims & Hers \u2014 avg 7d pageviews 12 vs 23d baseline 8 (z=1.15)",
       "tags": [
         "attention",
         "wikipedia",
         "healthcare"
       ],
       "extras": {
-        "avg_7d": 11.7,
+        "avg_7d": 12.3,
         "avg_baseline": 8.2,
-        "z_score": 0.96,
+        "z_score": 1.15,
         "is_spike": false
       }
     },
     {
       "id": "ed482a48d22ace5a",
-      "ts": "2026-08-08T01:48:33.237287Z",
+      "ts": "2026-08-08T06:57:24.021620Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Cursor",
       "type": "attention",
@@ -449,24 +468,24 @@
         "hq_region": null,
         "size_band": "unknown"
       },
-      "magnitude": 68.7,
+      "magnitude": 68.3,
       "unit": "pageviews/day",
-      "raw_text": "Cursor \u2014 avg 7d pageviews 69 vs 23d baseline 75 (z=-0.33)",
+      "raw_text": "Cursor \u2014 avg 7d pageviews 68 vs 23d baseline 74 (z=-0.33)",
       "tags": [
         "attention",
         "wikipedia",
         "technology"
       ],
       "extras": {
-        "avg_7d": 68.7,
-        "avg_baseline": 74.5,
+        "avg_7d": 68.3,
+        "avg_baseline": 74.0,
         "z_score": -0.33,
         "is_spike": false
       }
     },
     {
       "id": "1056511221b88cb3",
-      "ts": "2026-08-08T01:48:33.188285Z",
+      "ts": "2026-08-08T06:57:23.915158Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Perplexity_AI",
       "type": "attention",
@@ -478,24 +497,24 @@
         "hq_region": null,
         "size_band": "unknown"
       },
-      "magnitude": 2680.7,
+      "magnitude": 2736.9,
       "unit": "pageviews/day",
-      "raw_text": "Perplexity AI \u2014 avg 7d pageviews 2681 vs 23d baseline 2873 (z=-0.45)",
+      "raw_text": "Perplexity AI \u2014 avg 7d pageviews 2737 vs 23d baseline 2856 (z=-0.28)",
       "tags": [
         "attention",
         "wikipedia",
         "technology"
       ],
       "extras": {
-        "avg_7d": 2680.7,
-        "avg_baseline": 2873.3,
-        "z_score": -0.45,
+        "avg_7d": 2736.9,
+        "avg_baseline": 2855.9,
+        "z_score": -0.28,
         "is_spike": false
       }
     },
     {
       "id": "5287eda5b37f2dcb",
-      "ts": "2026-08-08T01:48:33.135683Z",
+      "ts": "2026-08-08T06:57:23.817197Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Replicate",
       "type": "attention",
@@ -507,24 +526,24 @@
         "hq_region": null,
         "size_band": "unknown"
       },
-      "magnitude": 16.0,
+      "magnitude": 15.4,
       "unit": "pageviews/day",
-      "raw_text": "Replicate \u2014 avg 7d pageviews 16 vs 23d baseline 10 (z=1.22)",
+      "raw_text": "Replicate \u2014 avg 7d pageviews 15 vs 23d baseline 11 (z=1.05)",
       "tags": [
         "attention",
         "wikipedia",
         "technology"
       ],
       "extras": {
-        "avg_7d": 16,
-        "avg_baseline": 10.4,
-        "z_score": 1.22,
+        "avg_7d": 15.4,
+        "avg_baseline": 10.6,
+        "z_score": 1.05,
         "is_spike": false
       }
     },
     {
       "id": "f6dcb0be7ea83cad",
-      "ts": "2026-08-08T01:48:33.089090Z",
+      "ts": "2026-08-08T06:57:23.714409Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Vercel",
       "type": "attention",
@@ -536,24 +555,24 @@
         "hq_region": null,
         "size_band": "unknown"
       },
-      "magnitude": 894.9,
+      "magnitude": 873.9,
       "unit": "pageviews/day",
-      "raw_text": "Vercel \u2014 avg 7d pageviews 895 vs 23d baseline 905 (z=-0.10)",
+      "raw_text": "Vercel \u2014 avg 7d pageviews 874 vs 23d baseline 907 (z=-0.34)",
       "tags": [
         "attention",
         "wikipedia",
         "technology"
       ],
       "extras": {
-        "avg_7d": 894.9,
-        "avg_baseline": 904.9,
-        "z_score": -0.1,
+        "avg_7d": 873.9,
+        "avg_baseline": 907.2,
+        "z_score": -0.34,
         "is_spike": false
       }
     },
     {
       "id": "3129868e92b1ca16",
-      "ts": "2026-08-08T01:48:33.042152Z",
+      "ts": "2026-08-08T06:57:23.619780Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Linear",
       "type": "attention",
@@ -565,24 +584,24 @@
         "hq_region": null,
         "size_band": "unknown"
       },
-      "magnitude": 77.4,
+      "magnitude": 74.0,
       "unit": "pageviews/day",
-      "raw_text": "Linear \u2014 avg 7d pageviews 77 vs 23d baseline 56 (z=1.39)",
+      "raw_text": "Linear \u2014 avg 7d pageviews 74 vs 23d baseline 57 (z=1.07)",
       "tags": [
         "attention",
         "wikipedia",
         "technology"
       ],
       "extras": {
-        "avg_7d": 77.4,
-        "avg_baseline": 56.1,
-        "z_score": 1.39,
+        "avg_7d": 74,
+        "avg_baseline": 57.1,
+        "z_score": 1.07,
         "is_spike": false
       }
     },
     {
       "id": "e804310a033001ee",
-      "ts": "2026-08-08T01:48:32.998149Z",
+      "ts": "2026-08-08T06:57:23.522912Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Mercury",
       "type": "attention",
@@ -594,24 +613,24 @@
         "hq_region": null,
         "size_band": "unknown"
       },
-      "magnitude": 248.9,
+      "magnitude": 254.1,
       "unit": "pageviews/day",
-      "raw_text": "Mercury \u2014 avg 7d pageviews 249 vs 23d baseline 253 (z=-0.13)",
+      "raw_text": "Mercury \u2014 avg 7d pageviews 254 vs 23d baseline 253 (z=0.04)",
       "tags": [
         "attention",
         "wikipedia",
         "finance"
       ],
       "extras": {
-        "avg_7d": 248.9,
-        "avg_baseline": 253.1,
-        "z_score": -0.13,
+        "avg_7d": 254.1,
+        "avg_baseline": 253.0,
+        "z_score": 0.04,
         "is_spike": false
       }
     },
     {
       "id": "7081d7058f64d392",
-      "ts": "2026-08-08T01:48:32.947737Z",
+      "ts": "2026-08-08T06:57:23.415575Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Ramp",
       "type": "attention",
@@ -623,24 +642,24 @@
         "hq_region": null,
         "size_band": "unknown"
       },
-      "magnitude": 20.0,
+      "magnitude": 15.7,
       "unit": "pageviews/day",
-      "raw_text": "Ramp \u2014 avg 7d pageviews 20 vs 23d baseline 24 (z=-0.38)",
+      "raw_text": "Ramp \u2014 avg 7d pageviews 16 vs 23d baseline 24 (z=-0.88)",
       "tags": [
         "attention",
         "wikipedia",
         "finance"
       ],
       "extras": {
-        "avg_7d": 20,
-        "avg_baseline": 23.6,
-        "z_score": -0.38,
+        "avg_7d": 15.7,
+        "avg_baseline": 24.2,
+        "z_score": -0.88,
         "is_spike": false
       }
     },
     {
       "id": "be423f3f1b43953b",
-      "ts": "2026-08-08T01:48:32.892125Z",
+      "ts": "2026-08-08T06:57:23.305938Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Plaid",
       "type": "attention",
@@ -654,7 +673,7 @@
       },
       "magnitude": 69.4,
       "unit": "pageviews/day",
-      "raw_text": "Plaid \u2014 avg 7d pageviews 69 vs 23d baseline 148 (z=-3.34)",
+      "raw_text": "Plaid \u2014 avg 7d pageviews 69 vs 23d baseline 144 (z=-2.56)",
       "tags": [
         "attention",
         "wikipedia",
@@ -662,14 +681,14 @@
       ],
       "extras": {
         "avg_7d": 69.4,
-        "avg_baseline": 147.7,
-        "z_score": -3.34,
+        "avg_baseline": 143.9,
+        "z_score": -2.56,
         "is_spike": false
       }
     },
     {
       "id": "10a757dd9dc3890f",
-      "ts": "2026-08-08T01:48:32.844371Z",
+      "ts": "2026-08-08T06:57:23.206916Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Brex",
       "type": "attention",
@@ -681,24 +700,24 @@
         "hq_region": null,
         "size_band": "unknown"
       },
-      "magnitude": 205.0,
+      "magnitude": 203.1,
       "unit": "pageviews/day",
-      "raw_text": "Brex \u2014 avg 7d pageviews 205 vs 23d baseline 201 (z=0.11)",
+      "raw_text": "Brex \u2014 avg 7d pageviews 203 vs 23d baseline 201 (z=0.05)",
       "tags": [
         "attention",
         "wikipedia",
         "finance"
       ],
       "extras": {
-        "avg_7d": 205,
-        "avg_baseline": 200.6,
-        "z_score": 0.11,
+        "avg_7d": 203.1,
+        "avg_baseline": 201.1,
+        "z_score": 0.05,
         "is_spike": false
       }
     },
     {
       "id": "14c75a8b51d1d206",
-      "ts": "2026-08-08T01:48:32.793989Z",
+      "ts": "2026-08-08T06:57:23.094200Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Databricks",
       "type": "attention",
@@ -710,24 +729,24 @@
         "hq_region": null,
         "size_band": "unknown"
       },
-      "magnitude": 1458.4,
+      "magnitude": 1455.3,
       "unit": "pageviews/day",
-      "raw_text": "Databricks \u2014 avg 7d pageviews 1458 vs 23d baseline 1444 (z=0.04)",
+      "raw_text": "Databricks \u2014 avg 7d pageviews 1455 vs 23d baseline 1448 (z=0.02)",
       "tags": [
         "attention",
         "wikipedia",
         "technology"
       ],
       "extras": {
-        "avg_7d": 1458.4,
-        "avg_baseline": 1444.5,
-        "z_score": 0.04,
+        "avg_7d": 1455.3,
+        "avg_baseline": 1448.1,
+        "z_score": 0.02,
         "is_spike": false
       }
     },
     {
       "id": "892fd4370bae3b68",
-      "ts": "2026-08-08T01:48:32.744425Z",
+      "ts": "2026-08-08T06:57:22.986732Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Snowflake",
       "type": "attention",
@@ -739,24 +758,24 @@
         "hq_region": null,
         "size_band": "unknown"
       },
-      "magnitude": 221.9,
+      "magnitude": 223.4,
       "unit": "pageviews/day",
-      "raw_text": "Snowflake \u2014 avg 7d pageviews 222 vs 23d baseline 218 (z=0.12)",
+      "raw_text": "Snowflake \u2014 avg 7d pageviews 223 vs 23d baseline 218 (z=0.17)",
       "tags": [
         "attention",
         "wikipedia",
         "technology"
       ],
       "extras": {
-        "avg_7d": 221.9,
-        "avg_baseline": 218,
-        "z_score": 0.12,
+        "avg_7d": 223.4,
+        "avg_baseline": 217.9,
+        "z_score": 0.17,
         "is_spike": false
       }
     },
     {
       "id": "ec8cc40b8441f7e6",
-      "ts": "2026-08-08T01:48:32.691583Z",
+      "ts": "2026-08-08T06:57:22.880750Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Figma",
       "type": "attention",
@@ -768,24 +787,24 @@
         "hq_region": null,
         "size_band": "unknown"
       },
-      "magnitude": 942.3,
+      "magnitude": 913.3,
       "unit": "pageviews/day",
-      "raw_text": "Figma \u2014 avg 7d pageviews 942 vs 23d baseline 946 (z=-0.01)",
+      "raw_text": "Figma \u2014 avg 7d pageviews 913 vs 23d baseline 952 (z=-0.14)",
       "tags": [
         "attention",
         "wikipedia",
         "technology"
       ],
       "extras": {
-        "avg_7d": 942.3,
-        "avg_baseline": 945.9,
-        "z_score": -0.01,
+        "avg_7d": 913.3,
+        "avg_baseline": 952.1,
+        "z_score": -0.14,
         "is_spike": false
       }
     },
     {
       "id": "91aae2142800384e",
-      "ts": "2026-08-08T01:48:32.641715Z",
+      "ts": "2026-08-08T06:57:22.780093Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Notion",
       "type": "attention",
@@ -797,24 +816,24 @@
         "hq_region": null,
         "size_band": "unknown"
       },
-      "magnitude": 41.4,
+      "magnitude": 38.1,
       "unit": "pageviews/day",
-      "raw_text": "Notion \u2014 avg 7d pageviews 41 vs 23d baseline 48 (z=-0.66)",
+      "raw_text": "Notion \u2014 avg 7d pageviews 38 vs 23d baseline 48 (z=-1.05)",
       "tags": [
         "attention",
         "wikipedia",
         "technology"
       ],
       "extras": {
-        "avg_7d": 41.4,
-        "avg_baseline": 47.7,
-        "z_score": -0.66,
+        "avg_7d": 38.1,
+        "avg_baseline": 48.2,
+        "z_score": -1.05,
         "is_spike": false
       }
     },
     {
       "id": "123f862dbdbde6bf",
-      "ts": "2026-08-08T01:48:32.588990Z",
+      "ts": "2026-08-08T06:57:22.679048Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Scale_AI",
       "type": "attention",
@@ -826,24 +845,24 @@
         "hq_region": null,
         "size_band": "unknown"
       },
-      "magnitude": 1069.4,
+      "magnitude": 1010.1,
       "unit": "pageviews/day",
-      "raw_text": "Scale AI \u2014 avg 7d pageviews 1069 vs 23d baseline 958 (z=0.51)",
+      "raw_text": "Scale AI \u2014 avg 7d pageviews 1010 vs 23d baseline 975 (z=0.15)",
       "tags": [
         "attention",
         "wikipedia",
         "technology"
       ],
       "extras": {
-        "avg_7d": 1069.4,
-        "avg_baseline": 958.4,
-        "z_score": 0.51,
+        "avg_7d": 1010.1,
+        "avg_baseline": 975.2,
+        "z_score": 0.15,
         "is_spike": false
       }
     },
     {
       "id": "62625a505316c3e5",
-      "ts": "2026-08-08T01:48:32.536315Z",
+      "ts": "2026-08-08T06:57:22.573983Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/OpenAI",
       "type": "attention",
@@ -855,24 +874,24 @@
         "hq_region": null,
         "size_band": "unknown"
       },
-      "magnitude": 7404.9,
+      "magnitude": 7266.9,
       "unit": "pageviews/day",
-      "raw_text": "OpenAI \u2014 avg 7d pageviews 7405 vs 23d baseline 7849 (z=-0.46)",
+      "raw_text": "OpenAI \u2014 avg 7d pageviews 7267 vs 23d baseline 7857 (z=-0.62)",
       "tags": [
         "attention",
         "wikipedia",
         "technology"
       ],
       "extras": {
-        "avg_7d": 7404.9,
-        "avg_baseline": 7848.9,
-        "z_score": -0.46,
+        "avg_7d": 7266.9,
+        "avg_baseline": 7856.7,
+        "z_score": -0.62,
         "is_spike": false
       }
     },
     {
       "id": "de002974c02c3616",
-      "ts": "2026-08-08T01:48:32.493308Z",
+      "ts": "2026-08-08T06:57:22.477990Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Anthropic",
       "type": "attention",
@@ -884,24 +903,24 @@
         "hq_region": null,
         "size_band": "unknown"
       },
-      "magnitude": 17968.9,
+      "magnitude": 16710.3,
       "unit": "pageviews/day",
-      "raw_text": "Anthropic \u2014 avg 7d pageviews 17969 vs 23d baseline 14193 (z=1.96)",
+      "raw_text": "Anthropic \u2014 avg 7d pageviews 16710 vs 23d baseline 14686 (z=0.68)",
       "tags": [
         "attention",
         "wikipedia",
         "technology"
       ],
       "extras": {
-        "avg_7d": 17968.9,
-        "avg_baseline": 14193.4,
-        "z_score": 1.96,
-        "is_spike": true
+        "avg_7d": 16710.3,
+        "avg_baseline": 14686.4,
+        "z_score": 0.68,
+        "is_spike": false
       }
     },
     {
       "id": "62ec51156aeccc7c",
-      "ts": "2026-08-08T01:48:32.441086Z",
+      "ts": "2026-08-08T06:57:22.379792Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Cloudflare",
       "type": "attention",
@@ -913,24 +932,24 @@
         "hq_region": null,
         "size_band": "unknown"
       },
-      "magnitude": 1559.7,
+      "magnitude": 1656.3,
       "unit": "pageviews/day",
-      "raw_text": "Cloudflare \u2014 avg 7d pageviews 1560 vs 23d baseline 1493 (z=0.28)",
+      "raw_text": "Cloudflare \u2014 avg 7d pageviews 1656 vs 23d baseline 1494 (z=0.70)",
       "tags": [
         "attention",
         "wikipedia",
         "technology"
       ],
       "extras": {
-        "avg_7d": 1559.7,
-        "avg_baseline": 1493.2,
-        "z_score": 0.28,
+        "avg_7d": 1656.3,
+        "avg_baseline": 1494.4,
+        "z_score": 0.7,
         "is_spike": false
       }
     },
     {
       "id": "64337758a0a1f113",
-      "ts": "2026-08-08T01:48:32.385222Z",
+      "ts": "2026-08-08T06:57:22.281236Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/HashiCorp",
       "type": "attention",
@@ -942,24 +961,24 @@
         "hq_region": null,
         "size_band": "unknown"
       },
-      "magnitude": 354.7,
+      "magnitude": 339.9,
       "unit": "pageviews/day",
-      "raw_text": "HashiCorp \u2014 avg 7d pageviews 355 vs 23d baseline 345 (z=0.08)",
+      "raw_text": "HashiCorp \u2014 avg 7d pageviews 340 vs 23d baseline 349 (z=-0.07)",
       "tags": [
         "attention",
         "wikipedia",
         "technology"
       ],
       "extras": {
-        "avg_7d": 354.7,
-        "avg_baseline": 344.9,
-        "z_score": 0.08,
+        "avg_7d": 339.9,
+        "avg_baseline": 348.8,
+        "z_score": -0.07,
         "is_spike": false
       }
     },
     {
       "id": "2c160d959fc2a70e",
-      "ts": "2026-08-08T01:48:32.341983Z",
+      "ts": "2026-08-08T06:57:22.174490Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/GitLab",
       "type": "attention",
@@ -971,24 +990,24 @@
         "hq_region": null,
         "size_band": "unknown"
       },
-      "magnitude": 3440.6,
+      "magnitude": 3823.9,
       "unit": "pageviews/day",
-      "raw_text": "GitLab \u2014 avg 7d pageviews 3441 vs 23d baseline 3514 (z=-0.03)",
+      "raw_text": "GitLab \u2014 avg 7d pageviews 3824 vs 23d baseline 3442 (z=0.16)",
       "tags": [
         "attention",
         "wikipedia",
         "technology"
       ],
       "extras": {
-        "avg_7d": 3440.6,
-        "avg_baseline": 3514.4,
-        "z_score": -0.03,
+        "avg_7d": 3823.9,
+        "avg_baseline": 3441.5,
+        "z_score": 0.16,
         "is_spike": false
       }
     },
     {
       "id": "01a7d23d3b0274fc",
-      "ts": "2026-08-08T01:48:32.293548Z",
+      "ts": "2026-08-08T06:57:22.067665Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Discord",
       "type": "attention",
@@ -1000,24 +1019,24 @@
         "hq_region": null,
         "size_band": "unknown"
       },
-      "magnitude": 3408.6,
+      "magnitude": 3500.1,
       "unit": "pageviews/day",
-      "raw_text": "Discord \u2014 avg 7d pageviews 3409 vs 23d baseline 3354 (z=0.32)",
+      "raw_text": "Discord \u2014 avg 7d pageviews 3500 vs 23d baseline 3357 (z=0.85)",
       "tags": [
         "attention",
         "wikipedia",
         "technology"
       ],
       "extras": {
-        "avg_7d": 3408.6,
-        "avg_baseline": 3354.0,
-        "z_score": 0.32,
+        "avg_7d": 3500.1,
+        "avg_baseline": 3356.9,
+        "z_score": 0.85,
         "is_spike": false
       }
     },
     {
       "id": "7c33987d88d3d2ca",
-      "ts": "2026-08-08T01:48:32.252627Z",
+      "ts": "2026-08-08T06:57:21.969868Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Pinterest",
       "type": "attention",
@@ -1029,24 +1048,24 @@
         "hq_region": null,
         "size_band": "unknown"
       },
-      "magnitude": 3871.1,
+      "magnitude": 3862.6,
       "unit": "pageviews/day",
-      "raw_text": "Pinterest \u2014 avg 7d pageviews 3871 vs 23d baseline 3842 (z=0.14)",
+      "raw_text": "Pinterest \u2014 avg 7d pageviews 3863 vs 23d baseline 3838 (z=0.12)",
       "tags": [
         "attention",
         "wikipedia",
         "technology"
       ],
       "extras": {
-        "avg_7d": 3871.1,
-        "avg_baseline": 3842.5,
-        "z_score": 0.14,
+        "avg_7d": 3862.6,
+        "avg_baseline": 3838.0,
+        "z_score": 0.12,
         "is_spike": false
       }
     },
     {
       "id": "c5b503bcaaaa26d1",
-      "ts": "2026-08-08T01:48:32.191083Z",
+      "ts": "2026-08-08T06:57:21.860883Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Instacart",
       "type": "attention",
@@ -1058,24 +1077,24 @@
         "hq_region": null,
         "size_band": "unknown"
       },
-      "magnitude": 530.9,
+      "magnitude": 515.6,
       "unit": "pageviews/day",
-      "raw_text": "Instacart \u2014 avg 7d pageviews 531 vs 23d baseline 599 (z=-0.42)",
+      "raw_text": "Instacart \u2014 avg 7d pageviews 516 vs 23d baseline 600 (z=-0.54)",
       "tags": [
         "attention",
         "wikipedia",
         "technology"
       ],
       "extras": {
-        "avg_7d": 530.9,
-        "avg_baseline": 598.9,
-        "z_score": -0.42,
+        "avg_7d": 515.6,
+        "avg_baseline": 600.2,
+        "z_score": -0.54,
         "is_spike": false
       }
     },
     {
       "id": "71fb336acf84df76",
-      "ts": "2026-08-08T01:48:32.136102Z",
+      "ts": "2026-08-08T06:57:21.757245Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/DoorDash",
       "type": "attention",
@@ -1087,24 +1106,24 @@
         "hq_region": null,
         "size_band": "unknown"
       },
-      "magnitude": 1160.6,
+      "magnitude": 1154.7,
       "unit": "pageviews/day",
-      "raw_text": "DoorDash \u2014 avg 7d pageviews 1161 vs 23d baseline 1234 (z=-0.38)",
+      "raw_text": "DoorDash \u2014 avg 7d pageviews 1155 vs 23d baseline 1232 (z=-0.41)",
       "tags": [
         "attention",
         "wikipedia",
         "technology"
       ],
       "extras": {
-        "avg_7d": 1160.6,
-        "avg_baseline": 1234.2,
-        "z_score": -0.38,
+        "avg_7d": 1154.7,
+        "avg_baseline": 1231.5,
+        "z_score": -0.41,
         "is_spike": false
       }
     },
     {
       "id": "6f7d9291413c3898",
-      "ts": "2026-08-08T01:48:32.086482Z",
+      "ts": "2026-08-08T06:57:21.656070Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Reddit",
       "type": "attention",
@@ -1116,24 +1135,24 @@
         "hq_region": null,
         "size_band": "unknown"
       },
-      "magnitude": 6600.0,
+      "magnitude": 6498.3,
       "unit": "pageviews/day",
-      "raw_text": "Reddit \u2014 avg 7d pageviews 6600 vs 23d baseline 6818 (z=-0.34)",
+      "raw_text": "Reddit \u2014 avg 7d pageviews 6498 vs 23d baseline 6816 (z=-0.50)",
       "tags": [
         "attention",
         "wikipedia",
         "media"
       ],
       "extras": {
-        "avg_7d": 6600,
-        "avg_baseline": 6818.4,
-        "z_score": -0.34,
+        "avg_7d": 6498.3,
+        "avg_baseline": 6815.7,
+        "z_score": -0.5,
         "is_spike": false
       }
     },
     {
       "id": "a08528a64ac1f083",
-      "ts": "2026-08-08T01:48:32.034771Z",
+      "ts": "2026-08-08T06:57:21.561378Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Robinhood",
       "type": "attention",
@@ -1145,24 +1164,24 @@
         "hq_region": null,
         "size_band": "unknown"
       },
-      "magnitude": 7.6,
+      "magnitude": 6.9,
       "unit": "pageviews/day",
-      "raw_text": "Robinhood \u2014 avg 7d pageviews 8 vs 23d baseline 12 (z=-0.88)",
+      "raw_text": "Robinhood \u2014 avg 7d pageviews 7 vs 23d baseline 12 (z=-1.03)",
       "tags": [
         "attention",
         "wikipedia",
         "finance"
       ],
       "extras": {
-        "avg_7d": 7.6,
-        "avg_baseline": 12.5,
-        "z_score": -0.88,
+        "avg_7d": 6.9,
+        "avg_baseline": 12.4,
+        "z_score": -1.03,
         "is_spike": false
       }
     },
     {
       "id": "32a45d5f33739a5f",
-      "ts": "2026-08-08T01:48:31.981244Z",
+      "ts": "2026-08-08T06:57:21.457816Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Coinbase",
       "type": "attention",
@@ -1174,24 +1193,24 @@
         "hq_region": null,
         "size_band": "unknown"
       },
-      "magnitude": 741.3,
+      "magnitude": 716.7,
       "unit": "pageviews/day",
-      "raw_text": "Coinbase \u2014 avg 7d pageviews 741 vs 23d baseline 786 (z=-0.24)",
+      "raw_text": "Coinbase \u2014 avg 7d pageviews 717 vs 23d baseline 785 (z=-0.38)",
       "tags": [
         "attention",
         "wikipedia",
         "finance"
       ],
       "extras": {
-        "avg_7d": 741.3,
-        "avg_baseline": 785.7,
-        "z_score": -0.24,
+        "avg_7d": 716.7,
+        "avg_baseline": 784.5,
+        "z_score": -0.38,
         "is_spike": false
       }
     },
     {
       "id": "ca39e30eeb9c436a",
-      "ts": "2026-08-08T01:48:31.942748Z",
+      "ts": "2026-08-08T06:57:21.375508Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Airbnb",
       "type": "attention",
@@ -1203,24 +1222,24 @@
         "hq_region": null,
         "size_band": "unknown"
       },
-      "magnitude": 1847.3,
+      "magnitude": 1908.0,
       "unit": "pageviews/day",
-      "raw_text": "Airbnb \u2014 avg 7d pageviews 1847 vs 23d baseline 2040 (z=-0.63)",
+      "raw_text": "Airbnb \u2014 avg 7d pageviews 1908 vs 23d baseline 2030 (z=-0.41)",
       "tags": [
         "attention",
         "wikipedia",
         "technology"
       ],
       "extras": {
-        "avg_7d": 1847.3,
-        "avg_baseline": 2039.7,
-        "z_score": -0.63,
+        "avg_7d": 1908,
+        "avg_baseline": 2030.3,
+        "z_score": -0.41,
         "is_spike": false
       }
     },
     {
       "id": "e6353155e179669b",
-      "ts": "2026-08-08T01:48:31.902177Z",
+      "ts": "2026-08-08T06:57:21.276967Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Stripe",
       "type": "attention",
@@ -1232,19 +1251,79 @@
         "hq_region": null,
         "size_band": "unknown"
       },
-      "magnitude": 51.4,
+      "magnitude": 49.6,
       "unit": "pageviews/day",
-      "raw_text": "Stripe \u2014 avg 7d pageviews 51 vs 23d baseline 71 (z=-0.68)",
+      "raw_text": "Stripe \u2014 avg 7d pageviews 50 vs 23d baseline 71 (z=-0.75)",
       "tags": [
         "attention",
         "wikipedia",
         "technology"
       ],
       "extras": {
-        "avg_7d": 51.4,
-        "avg_baseline": 71.4,
-        "z_score": -0.68,
+        "avg_7d": 49.6,
+        "avg_baseline": 71.0,
+        "z_score": -0.75,
         "is_spike": false
+      }
+    },
+    {
+      "id": "534d4a7a7a2f3ab9",
+      "ts": "2026-08-08T00:51:59-04:00",
+      "source": "greenhouse",
+      "source_url": "http://www.hioscar.com/careers/8110337?gh_jid=8110337",
+      "type": "posting",
+      "company": {
+        "name": "Oscar Health",
+        "ticker": null,
+        "industry": null,
+        "sector": "Healthcare",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Oscar Health | Physician Reviewer - Utilization Management | Remote",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "healthcare"
+      ],
+      "extras": {
+        "role": "Physician Reviewer - Utilization Management",
+        "location": "Remote",
+        "seniority": "mid",
+        "salary_min": 219000.0,
+        "salary_max": 286902.0,
+        "remote": "remote"
+      }
+    },
+    {
+      "id": "dfe446e0f8b2ec84",
+      "ts": "2026-08-07T23:19:55-04:00",
+      "source": "greenhouse",
+      "source_url": "https://boards.greenhouse.io/cloudflare/jobs/8115936?gh_jid=8115936",
+      "type": "posting",
+      "company": {
+        "name": "Cloudflare",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Cloudflare | Senior Customer Engineer, Shenzhen | Distributed",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology"
+      ],
+      "extras": {
+        "role": "Senior Customer Engineer, Shenzhen",
+        "location": "Distributed",
+        "seniority": "senior",
+        "remote": "remote"
       }
     },
     {
@@ -3159,120 +3238,28 @@
           "snowflake"
         ]
       }
-    },
-    {
-      "id": "a406716e79f1e102",
-      "ts": "2026-08-07T19:02:57-04:00",
-      "source": "greenhouse",
-      "source_url": "https://www.coinbase.com/careers/positions/8023815?gh_jid=8023815",
-      "type": "posting",
-      "company": {
-        "name": "Coinbase",
-        "ticker": null,
-        "industry": null,
-        "sector": "Finance",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Coinbase | Senior Manager, Institutional Sales | Remote - UAE",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "finance"
-      ],
-      "extras": {
-        "role": "Senior Manager, Institutional Sales",
-        "location": "Remote - UAE",
-        "seniority": "senior",
-        "remote": "remote"
-      }
-    },
-    {
-      "id": "d4c16106592c7473",
-      "ts": "2026-08-07T18:59:02-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/anthropic/jobs/5383242008",
-      "type": "posting",
-      "company": {
-        "name": "Anthropic",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": "CA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Anthropic | AI Fluency Education Lead | San Francisco, CA | New York City, NY",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "CA"
-      ],
-      "extras": {
-        "role": "AI Fluency Education Lead",
-        "location": "San Francisco, CA | New York City, NY",
-        "seniority": "lead",
-        "stack": [
-          "go"
-        ]
-      }
-    },
-    {
-      "id": "29058bd8ccb89f43",
-      "ts": "2026-08-07T18:51:33-04:00",
-      "source": "greenhouse",
-      "source_url": "https://careers.airbnb.com/positions/8059216?gh_jid=8059216",
-      "type": "posting",
-      "company": {
-        "name": "Airbnb",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Airbnb | Senior Data Scientist, Trust (Inference) | Remote - USA",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "Data / ML"
-      ],
-      "extras": {
-        "role": "Senior Data Scientist, Trust (Inference)",
-        "location": "Remote - USA",
-        "function": "Data / ML",
-        "soc": "15-2051",
-        "seniority": "senior"
-      }
     }
   ],
   "sector_matrix": {
-    "generated_at": "2026-08-08T01:46:40.346762Z",
+    "generated_at": "2026-08-08T06:56:24.825011Z",
     "cells": [
       {
         "sector": "Technology",
         "signal_type": "layoff",
-        "count_7d": 0,
-        "count_30d": 0,
-        "magnitude_7d": null,
+        "count_7d": 3,
+        "count_30d": 4,
+        "magnitude_7d": 1152.0,
         "magnitude_30d": null,
-        "z_score": null
+        "z_score": 2.07
       },
       {
         "sector": "Technology",
         "signal_type": "posting",
         "count_7d": 1736,
-        "count_30d": 2176,
+        "count_30d": 2177,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 54.51
+        "z_score": 54.49
       },
       {
         "sector": "Technology",
@@ -3295,15 +3282,6 @@
       {
         "sector": "Technology",
         "signal_type": "macro",
-        "count_7d": 1,
-        "count_30d": 1,
-        "magnitude_7d": 21.0,
-        "magnitude_30d": null,
-        "z_score": 0.77
-      },
-      {
-        "sector": "Finance",
-        "signal_type": "layoff",
         "count_7d": 0,
         "count_30d": 0,
         "magnitude_7d": null,
@@ -3312,12 +3290,21 @@
       },
       {
         "sector": "Finance",
+        "signal_type": "layoff",
+        "count_7d": 1,
+        "count_30d": 3,
+        "magnitude_7d": 268.0,
+        "magnitude_30d": null,
+        "z_score": 0.3
+      },
+      {
+        "sector": "Finance",
         "signal_type": "posting",
         "count_7d": 122,
-        "count_30d": 318,
+        "count_30d": 317,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 5.55
+        "z_score": 5.59
       },
       {
         "sector": "Finance",
@@ -3340,29 +3327,29 @@
       {
         "sector": "Finance",
         "signal_type": "macro",
-        "count_7d": 0,
-        "count_30d": 0,
-        "magnitude_7d": null,
+        "count_7d": 2,
+        "count_30d": 2,
+        "magnitude_7d": 9.0,
         "magnitude_30d": null,
-        "z_score": null
+        "z_score": 1.53
       },
       {
         "sector": "Healthcare",
         "signal_type": "layoff",
-        "count_7d": 0,
-        "count_30d": 0,
+        "count_7d": 1,
+        "count_30d": 1,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": null
+        "z_score": 0.77
       },
       {
         "sector": "Healthcare",
         "signal_type": "posting",
-        "count_7d": 41,
-        "count_30d": 187,
+        "count_7d": 42,
+        "count_30d": 186,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": -0.4
+        "z_score": -0.21
       },
       {
         "sector": "Healthcare",
@@ -3439,11 +3426,11 @@
       {
         "sector": "Manufacturing",
         "signal_type": "layoff",
-        "count_7d": 0,
-        "count_30d": 0,
+        "count_7d": 1,
+        "count_30d": 1,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": null
+        "z_score": 0.77
       },
       {
         "sector": "Manufacturing",
@@ -3484,11 +3471,11 @@
       {
         "sector": "Retail",
         "signal_type": "layoff",
-        "count_7d": 0,
-        "count_30d": 0,
+        "count_7d": 1,
+        "count_30d": 1,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": null
+        "z_score": 0.77
       },
       {
         "sector": "Retail",
@@ -3530,10 +3517,10 @@
         "sector": "Media",
         "signal_type": "layoff",
         "count_7d": 0,
-        "count_30d": 0,
+        "count_30d": 1,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": null
+        "z_score": -0.23
       },
       {
         "sector": "Media",
