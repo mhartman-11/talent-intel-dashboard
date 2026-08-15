@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T12:45:20.577045+00:00",
+  "generated_at": "2026-08-15T18:37:02.608914+00:00",
   "sources": [
     {
       "source": "greenhouse",
@@ -7,8 +7,8 @@
       "url": "https://boards-api.greenhouse.io",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-08-15T12:39:54.480975Z",
-      "last_attempted": "2026-08-15T12:39:54.480975Z",
+      "last_ok": "2026-08-15T18:31:55.746413Z",
+      "last_attempted": "2026-08-15T18:31:55.746413Z",
       "record_count": 3041,
       "ok": true,
       "errors": [
@@ -29,8 +29,8 @@
       "url": "https://api.lever.co/v0/postings",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-08-15T12:40:24.037259Z",
-      "last_attempted": "2026-08-15T12:40:24.037259Z",
+      "last_ok": "2026-08-15T18:32:22.668074Z",
+      "last_attempted": "2026-08-15T18:32:22.668074Z",
       "record_count": 103,
       "ok": true,
       "errors": [
@@ -46,8 +46,8 @@
       "url": "https://api.ashbyhq.com/posting-api",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-08-15T12:40:36.480064Z",
-      "last_attempted": "2026-08-15T12:40:36.480064Z",
+      "last_ok": "2026-08-15T18:32:34.935884Z",
+      "last_attempted": "2026-08-15T18:32:34.935884Z",
       "record_count": 247,
       "ok": true,
       "errors": [
@@ -60,8 +60,8 @@
       "url": "https://techcrunch.com/tag/layoffs/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-08-15T12:40:39.015336Z",
-      "last_attempted": "2026-08-15T12:40:39.015336Z",
+      "last_ok": "2026-08-15T18:32:37.830110Z",
+      "last_attempted": "2026-08-15T18:32:37.830110Z",
       "record_count": 6,
       "ok": true,
       "errors": []
@@ -72,9 +72,9 @@
       "url": "https://news.google.com/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-08-15T12:40:39.287955Z",
-      "last_attempted": "2026-08-15T12:40:39.287955Z",
-      "record_count": 30,
+      "last_ok": "2026-08-15T18:32:38.412731Z",
+      "last_attempted": "2026-08-15T18:32:38.412731Z",
+      "record_count": 28,
       "ok": true,
       "errors": []
     },
@@ -85,7 +85,7 @@
       "tos_posture": "public_csv",
       "cadence_hours": 24,
       "last_ok": null,
-      "last_attempted": "2026-08-15T12:40:42.169901Z",
+      "last_attempted": "2026-08-15T18:32:41.695069Z",
       "record_count": 0,
       "ok": false,
       "errors": [
@@ -99,8 +99,8 @@
       "url": "https://techcrunch.com/category/venture/feed/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-08-15T12:40:48.968630Z",
-      "last_attempted": "2026-08-15T12:40:48.968630Z",
+      "last_ok": "2026-08-15T18:32:48.915567Z",
+      "last_attempted": "2026-08-15T18:32:48.915567Z",
       "record_count": 14,
       "ok": true,
       "errors": []
@@ -111,8 +111,8 @@
       "url": "https://efts.sec.gov/LATEST/search-index",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-08-15T12:40:49.047012Z",
-      "last_attempted": "2026-08-15T12:40:49.047012Z",
+      "last_ok": "2026-08-15T18:32:49.384928Z",
+      "last_attempted": "2026-08-15T18:32:49.384928Z",
       "record_count": 160,
       "ok": true,
       "errors": []
@@ -124,7 +124,7 @@
       "tos_posture": "public_csv",
       "cadence_hours": 24,
       "last_ok": null,
-      "last_attempted": "2026-08-15T12:40:49.461252Z",
+      "last_attempted": "2026-08-15T18:32:50.113985Z",
       "record_count": 0,
       "ok": false,
       "errors": [
@@ -137,11 +137,13 @@
       "url": "https://www.bls.gov/oes/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-08-15T12:40:52.663521Z",
-      "last_attempted": "2026-08-15T12:40:52.663521Z",
-      "record_count": 24,
-      "ok": true,
-      "errors": []
+      "last_ok": null,
+      "last_attempted": "2026-08-15T18:32:53.256824Z",
+      "record_count": 0,
+      "ok": false,
+      "errors": [
+        "BLS API: REQUEST_NOT_PROCESSED \u2014 Request could not be serviced, as the daily threshold for total number of requests allocated to the user with registration key  has been reached."
+      ]
     },
     {
       "source": "comp",
@@ -149,11 +151,13 @@
       "url": "https://www.bls.gov/ces/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-08-15T12:40:53.068921Z",
-      "last_attempted": "2026-08-15T12:40:53.068921Z",
-      "record_count": 48,
-      "ok": true,
-      "errors": []
+      "last_ok": null,
+      "last_attempted": "2026-08-15T18:32:53.568589Z",
+      "record_count": 0,
+      "ok": false,
+      "errors": [
+        "BLS API: ['Request could not be serviced, as the daily threshold for total number of requests allocated to the user with registration key  has been reached.']"
+      ]
     },
     {
       "source": "fred",
@@ -161,11 +165,13 @@
       "url": "https://www.bls.gov/developers/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-08-15T12:40:53.266879Z",
-      "last_attempted": "2026-08-15T12:40:53.266879Z",
-      "record_count": 30,
-      "ok": true,
-      "errors": []
+      "last_ok": null,
+      "last_attempted": "2026-08-15T18:32:53.728853Z",
+      "record_count": 0,
+      "ok": false,
+      "errors": [
+        "BLS API: ['Request could not be serviced, as the daily threshold for total number of requests allocated to the user with registration key  has been reached.']"
+      ]
     },
     {
       "source": "reddit",
@@ -174,7 +180,7 @@
       "tos_posture": "public_api",
       "cadence_hours": 12,
       "last_ok": null,
-      "last_attempted": "2026-08-15T12:40:53.504400Z",
+      "last_attempted": "2026-08-15T18:32:53.944597Z",
       "record_count": 0,
       "ok": false,
       "errors": [
@@ -192,9 +198,9 @@
       "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-08-15T12:40:53.960274Z",
-      "last_attempted": "2026-08-15T12:40:53.960274Z",
-      "record_count": 34,
+      "last_ok": "2026-08-15T18:32:54.235009Z",
+      "last_attempted": "2026-08-15T18:32:54.235009Z",
+      "record_count": 33,
       "ok": true,
       "errors": []
     },
@@ -204,21 +210,21 @@
       "url": "https://web.archive.org/cdx/search/cdx",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-08-15T12:40:55.672546Z",
-      "last_attempted": "2026-08-15T12:40:55.672546Z",
-      "record_count": 1,
+      "last_ok": "2026-08-15T18:33:00.892823Z",
+      "last_attempted": "2026-08-15T18:33:00.892823Z",
+      "record_count": 5,
       "ok": true,
       "errors": [
         "Stripe: GET https://web.archive.org/cdx/search/cdx failed: The read operation timed out",
-        "Airbnb: GET https://web.archive.org/cdx/search/cdx failed: The read operation timed out",
-        "Robinhood: GET https://web.archive.org/cdx/search/cdx failed: The read operation timed out",
         "Reddit: GET https://web.archive.org/cdx/search/cdx failed: The read operation timed out",
-        "Instacart: GET https://web.archive.org/cdx/search/cdx failed: timed out",
-        "Pinterest: GET https://web.archive.org/cdx/search/cdx failed: timed out",
+        "DoorDash: GET https://web.archive.org/cdx/search/cdx failed: timed out",
         "Discord: GET https://web.archive.org/cdx/search/cdx failed: timed out",
-        "GitLab: GET https://web.archive.org/cdx/search/cdx failed: timed out",
         "HashiCorp: GET https://web.archive.org/cdx/search/cdx failed: timed out",
-        "Cloudflare: GET https://web.archive.org/cdx/search/cdx failed: timed out"
+        "Cloudflare: GET https://web.archive.org/cdx/search/cdx failed: The read operation timed out",
+        "Anthropic: GET https://web.archive.org/cdx/search/cdx failed: timed out",
+        "Scale AI: GET https://web.archive.org/cdx/search/cdx failed: timed out",
+        "Notion: GET https://web.archive.org/cdx/search/cdx failed: timed out",
+        "Figma: GET https://web.archive.org/cdx/search/cdx failed: timed out"
       ]
     }
   ]
