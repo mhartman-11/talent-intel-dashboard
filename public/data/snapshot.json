@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-18T06:45:47.783938Z",
+  "generated_at": "2026-08-18T09:26:12.777913Z",
   "next_ingest_at": null,
-  "total_events": 3758,
-  "events_7d": 943,
+  "total_events": 3753,
+  "events_7d": 940,
   "sources": [
     {
       "source": "greenhouse",
@@ -10,9 +10,9 @@
       "url": "https://boards-api.greenhouse.io",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-08-18T06:45:47.879551Z",
-      "last_attempted": "2026-08-18T06:45:47.879551Z",
-      "record_count": 3054,
+      "last_ok": "2026-08-18T09:26:12.901696Z",
+      "last_attempted": "2026-08-18T09:26:12.901696Z",
+      "record_count": 3048,
       "ok": true,
       "errors": [
         "DoorDash (doordash): GET https://boards-api.greenhouse.io/v1/boards/doordash/jobs failed: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/doordash/jobs?content=true'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
@@ -20,7 +20,7 @@
         "OpenAI (openai): GET https://boards-api.greenhouse.io/v1/boards/openai/jobs failed: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/openai/jobs?content=true'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
         "Snowflake (snowflake): GET https://boards-api.greenhouse.io/v1/boards/snowflake/jobs failed: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/snowflake/jobs?content=true'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
         "Databricks (databricks11): GET https://boards-api.greenhouse.io/v1/boards/databricks11/jobs failed: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/databricks11/jobs?content=true'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
-        "Plaid (plaid): GET https://boards-api.greenhouse.io/v1/boards/plaid/jobs failed: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/plaid/jobs?content=true'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+        "Plaid (plaid): GET https://boards-api.greenhouse.io/v1/boards/plaid/jobs failed: [Errno 104] Connection reset by peer",
         "Hims & Hers (himsandhers): GET https://boards-api.greenhouse.io/v1/boards/himsandhers/jobs failed: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/himsandhers/jobs?content=true'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
         "Warby Parker (warbyparker): GET https://boards-api.greenhouse.io/v1/boards/warbyparker/jobs failed: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/warbyparker/jobs?content=true'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
         "Allbirds (allbirds): GET https://boards-api.greenhouse.io/v1/boards/allbirds/jobs failed: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/allbirds/jobs?content=true'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
@@ -32,9 +32,9 @@
       "url": "https://api.lever.co/v0/postings",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-08-18T06:46:15.841931Z",
-      "last_attempted": "2026-08-18T06:46:15.841931Z",
-      "record_count": 105,
+      "last_ok": "2026-08-18T09:26:48.726972Z",
+      "last_attempted": "2026-08-18T09:26:48.726972Z",
+      "record_count": 103,
       "ok": true,
       "errors": [
         "Scale AI (scaleai): GET https://api.lever.co/v0/postings/scaleai failed: Client error '404 Not Found' for url 'https://api.lever.co/v0/postings/scaleai?mode=json'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
@@ -49,8 +49,8 @@
       "url": "https://api.ashbyhq.com/posting-api",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-08-18T06:46:26.617165Z",
-      "last_attempted": "2026-08-18T06:46:26.617165Z",
+      "last_ok": "2026-08-18T09:26:58.985627Z",
+      "last_attempted": "2026-08-18T09:26:58.985627Z",
       "record_count": 249,
       "ok": true,
       "errors": [
@@ -63,8 +63,8 @@
       "url": "https://techcrunch.com/tag/layoffs/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-08-18T06:46:29.336029Z",
-      "last_attempted": "2026-08-18T06:46:29.336029Z",
+      "last_ok": "2026-08-18T09:27:01.814881Z",
+      "last_attempted": "2026-08-18T09:27:01.814881Z",
       "record_count": 6,
       "ok": true,
       "errors": []
@@ -75,9 +75,9 @@
       "url": "https://news.google.com/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-08-18T06:46:29.741055Z",
-      "last_attempted": "2026-08-18T06:46:29.741055Z",
-      "record_count": 31,
+      "last_ok": "2026-08-18T09:27:02.283862Z",
+      "last_attempted": "2026-08-18T09:27:02.283862Z",
+      "record_count": 32,
       "ok": true,
       "errors": []
     },
@@ -88,7 +88,7 @@
       "tos_posture": "public_csv",
       "cadence_hours": 24,
       "last_ok": null,
-      "last_attempted": "2026-08-18T06:46:33.043801Z",
+      "last_attempted": "2026-08-18T09:27:05.659655Z",
       "record_count": 0,
       "ok": false,
       "errors": [
@@ -102,8 +102,8 @@
       "url": "https://techcrunch.com/category/venture/feed/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-08-18T06:46:40.117762Z",
-      "last_attempted": "2026-08-18T06:46:40.117762Z",
+      "last_ok": "2026-08-18T09:27:12.731819Z",
+      "last_attempted": "2026-08-18T09:27:12.731819Z",
       "record_count": 14,
       "ok": true,
       "errors": []
@@ -114,8 +114,8 @@
       "url": "https://efts.sec.gov/LATEST/search-index",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-08-18T06:46:40.832226Z",
-      "last_attempted": "2026-08-18T06:46:40.832226Z",
+      "last_ok": "2026-08-18T09:27:13.211312Z",
+      "last_attempted": "2026-08-18T09:27:13.211312Z",
       "record_count": 160,
       "ok": true,
       "errors": []
@@ -127,7 +127,7 @@
       "tos_posture": "public_csv",
       "cadence_hours": 24,
       "last_ok": null,
-      "last_attempted": "2026-08-18T06:46:42.526477Z",
+      "last_attempted": "2026-08-18T09:27:14.849219Z",
       "record_count": 0,
       "ok": false,
       "errors": [
@@ -140,8 +140,8 @@
       "url": "https://www.bls.gov/oes/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-08-18T06:46:45.846337Z",
-      "last_attempted": "2026-08-18T06:46:45.846337Z",
+      "last_ok": "2026-08-18T09:27:18.118210Z",
+      "last_attempted": "2026-08-18T09:27:18.118210Z",
       "record_count": 24,
       "ok": true,
       "errors": []
@@ -152,8 +152,8 @@
       "url": "https://www.bls.gov/ces/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-08-18T06:46:46.478586Z",
-      "last_attempted": "2026-08-18T06:46:46.478586Z",
+      "last_ok": "2026-08-18T09:27:18.611141Z",
+      "last_attempted": "2026-08-18T09:27:18.611141Z",
       "record_count": 48,
       "ok": true,
       "errors": []
@@ -164,8 +164,8 @@
       "url": "https://www.bls.gov/developers/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-08-18T06:46:46.751975Z",
-      "last_attempted": "2026-08-18T06:46:46.751975Z",
+      "last_ok": "2026-08-18T09:27:18.884733Z",
+      "last_attempted": "2026-08-18T09:27:18.884733Z",
       "record_count": 30,
       "ok": true,
       "errors": []
@@ -177,7 +177,7 @@
       "tos_posture": "public_api",
       "cadence_hours": 12,
       "last_ok": null,
-      "last_attempted": "2026-08-18T06:46:47.074312Z",
+      "last_attempted": "2026-08-18T09:27:19.107899Z",
       "record_count": 0,
       "ok": false,
       "errors": [
@@ -195,8 +195,8 @@
       "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-08-18T06:46:47.747597Z",
-      "last_attempted": "2026-08-18T06:46:47.747597Z",
+      "last_ok": "2026-08-18T09:27:19.709244Z",
+      "last_attempted": "2026-08-18T09:27:19.709244Z",
       "record_count": 34,
       "ok": true,
       "errors": []
@@ -207,28 +207,109 @@
       "url": "https://web.archive.org/cdx/search/cdx",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-08-18T06:46:50.848964Z",
-      "last_attempted": "2026-08-18T06:46:50.848964Z",
-      "record_count": 4,
+      "last_ok": "2026-08-18T09:27:22.779832Z",
+      "last_attempted": "2026-08-18T09:27:22.779832Z",
+      "record_count": 8,
       "ok": true,
       "errors": [
-        "Airbnb: GET https://web.archive.org/cdx/search/cdx failed: The read operation timed out",
-        "Robinhood: GET https://web.archive.org/cdx/search/cdx failed: The read operation timed out",
-        "Reddit: GET https://web.archive.org/cdx/search/cdx failed: The read operation timed out",
-        "Pinterest: GET https://web.archive.org/cdx/search/cdx failed: timed out",
-        "GitLab: GET https://web.archive.org/cdx/search/cdx failed: timed out",
+        "Coinbase: GET https://web.archive.org/cdx/search/cdx failed: The read operation timed out",
         "Cloudflare: GET https://web.archive.org/cdx/search/cdx failed: The read operation timed out",
-        "Anthropic: GET https://web.archive.org/cdx/search/cdx failed: timed out",
-        "OpenAI: GET https://web.archive.org/cdx/search/cdx failed: timed out",
-        "Scale AI: GET https://web.archive.org/cdx/search/cdx failed: timed out",
-        "Notion: GET https://web.archive.org/cdx/search/cdx failed: timed out"
+        "Scale AI: GET https://web.archive.org/cdx/search/cdx failed: The read operation timed out",
+        "Figma: GET https://web.archive.org/cdx/search/cdx failed: timed out",
+        "Snowflake: GET https://web.archive.org/cdx/search/cdx failed: timed out",
+        "Databricks: GET https://web.archive.org/cdx/search/cdx failed: timed out",
+        "Brex: GET https://web.archive.org/cdx/search/cdx failed: timed out",
+        "Plaid: GET https://web.archive.org/cdx/search/cdx failed: timed out",
+        "Ramp: GET https://web.archive.org/cdx/search/cdx failed: timed out",
+        "Mercury: GET https://web.archive.org/cdx/search/cdx failed: timed out"
       ]
     }
   ],
   "recent_signals": [
     {
+      "id": "298a78e322a9ccc2",
+      "ts": "2026-08-18T09:28:55.735581Z",
+      "source": "wayback",
+      "source_url": "https://web.archive.org/web/*/notion.com/careers",
+      "type": "macro",
+      "company": {
+        "name": "Notion",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": 7.0,
+      "unit": "snapshots/90d",
+      "raw_text": "Notion careers page: 7 archived snapshots in 90 days",
+      "tags": [
+        "careers_activity",
+        "wayback",
+        "technology"
+      ],
+      "extras": {
+        "careers_url": "notion.com/careers",
+        "snapshots_90d": 7
+      }
+    },
+    {
+      "id": "95e55b467f41fbe3",
+      "ts": "2026-08-18T09:28:40.602355Z",
+      "source": "wayback",
+      "source_url": "https://web.archive.org/web/*/openai.com/careers",
+      "type": "macro",
+      "company": {
+        "name": "OpenAI",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": 19.0,
+      "unit": "snapshots/90d",
+      "raw_text": "OpenAI careers page: 19 archived snapshots in 90 days",
+      "tags": [
+        "careers_activity",
+        "wayback",
+        "technology"
+      ],
+      "extras": {
+        "careers_url": "openai.com/careers",
+        "snapshots_90d": 19
+      }
+    },
+    {
+      "id": "4b465a9ae0eb181e",
+      "ts": "2026-08-18T09:28:37.805421Z",
+      "source": "wayback",
+      "source_url": "https://web.archive.org/web/*/anthropic.com/careers",
+      "type": "macro",
+      "company": {
+        "name": "Anthropic",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": 40.0,
+      "unit": "snapshots/90d",
+      "raw_text": "Anthropic careers page: 40 archived snapshots in 90 days",
+      "tags": [
+        "careers_activity",
+        "wayback",
+        "technology"
+      ],
+      "extras": {
+        "careers_url": "anthropic.com/careers",
+        "snapshots_90d": 40
+      }
+    },
+    {
       "id": "823d9e33de9f4503",
-      "ts": "2026-08-18T06:47:35.639342Z",
+      "ts": "2026-08-18T09:28:12.379390Z",
       "source": "wayback",
       "source_url": "https://web.archive.org/web/*/discord.com/careers",
       "type": "macro",
@@ -255,7 +336,7 @@
     },
     {
       "id": "e7a8622bbc5b814b",
-      "ts": "2026-08-18T06:47:22.215140Z",
+      "ts": "2026-08-18T09:27:59.963383Z",
       "source": "wayback",
       "source_url": "https://web.archive.org/web/*/instacart.com/careers",
       "type": "macro",
@@ -281,35 +362,62 @@
       }
     },
     {
-      "id": "cc49f50c5c3f3237",
-      "ts": "2026-08-18T06:47:01.066632Z",
+      "id": "c694cf890ddb3931",
+      "ts": "2026-08-18T09:27:44.765836Z",
       "source": "wayback",
-      "source_url": "https://web.archive.org/web/*/coinbase.com/careers",
+      "source_url": "https://web.archive.org/web/*/robinhood.com/careers",
       "type": "macro",
       "company": {
-        "name": "Coinbase",
+        "name": "Robinhood",
         "ticker": null,
         "industry": null,
         "sector": "Finance",
         "hq_region": null,
         "size_band": "unknown"
       },
-      "magnitude": 8.0,
+      "magnitude": 1.0,
       "unit": "snapshots/90d",
-      "raw_text": "Coinbase careers page: 8 archived snapshots in 90 days",
+      "raw_text": "Robinhood careers page: 1 archived snapshots in 90 days",
       "tags": [
         "careers_activity",
         "wayback",
         "finance"
       ],
       "extras": {
-        "careers_url": "coinbase.com/careers",
-        "snapshots_90d": 8
+        "careers_url": "robinhood.com/careers",
+        "snapshots_90d": 1
+      }
+    },
+    {
+      "id": "1eaaab8586f1d38b",
+      "ts": "2026-08-18T09:27:35.061728Z",
+      "source": "wayback",
+      "source_url": "https://web.archive.org/web/*/airbnb.com/careers",
+      "type": "macro",
+      "company": {
+        "name": "Airbnb",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": 32.0,
+      "unit": "snapshots/90d",
+      "raw_text": "Airbnb careers page: 32 archived snapshots in 90 days",
+      "tags": [
+        "careers_activity",
+        "wayback",
+        "technology"
+      ],
+      "extras": {
+        "careers_url": "airbnb.com/careers",
+        "snapshots_90d": 32
       }
     },
     {
       "id": "81c6d77b997d1f6a",
-      "ts": "2026-08-18T06:46:51.762303Z",
+      "ts": "2026-08-18T09:27:30.332186Z",
       "source": "wayback",
       "source_url": "https://web.archive.org/web/*/stripe.com/careers",
       "type": "macro",
@@ -336,7 +444,7 @@
     },
     {
       "id": "0dc0e3ea445a8714",
-      "ts": "2026-08-18T06:46:50.848878Z",
+      "ts": "2026-08-18T09:27:22.779737Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Spotify",
       "type": "attention",
@@ -365,7 +473,7 @@
     },
     {
       "id": "b8b2c978a9641d56",
-      "ts": "2026-08-18T06:46:50.762673Z",
+      "ts": "2026-08-18T09:27:22.694070Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Glossier",
       "type": "attention",
@@ -394,7 +502,7 @@
     },
     {
       "id": "b10d64944cdc5403",
-      "ts": "2026-08-18T06:46:50.670787Z",
+      "ts": "2026-08-18T09:27:22.607422Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Allbirds",
       "type": "attention",
@@ -423,7 +531,7 @@
     },
     {
       "id": "000eddd58e837548",
-      "ts": "2026-08-18T06:46:50.573708Z",
+      "ts": "2026-08-18T09:27:22.519775Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Warby_Parker",
       "type": "attention",
@@ -452,7 +560,7 @@
     },
     {
       "id": "180f9625a43783c1",
-      "ts": "2026-08-18T06:46:50.486901Z",
+      "ts": "2026-08-18T09:27:22.434024Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Oscar_Health",
       "type": "attention",
@@ -481,7 +589,7 @@
     },
     {
       "id": "87681368584b4bcd",
-      "ts": "2026-08-18T06:46:50.392075Z",
+      "ts": "2026-08-18T09:27:22.329343Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Hims_&_Hers",
       "type": "attention",
@@ -510,7 +618,7 @@
     },
     {
       "id": "4dd1f3bb12016df6",
-      "ts": "2026-08-18T06:46:50.303112Z",
+      "ts": "2026-08-18T09:27:22.243933Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Cursor",
       "type": "attention",
@@ -539,7 +647,7 @@
     },
     {
       "id": "5c6bdd43398313de",
-      "ts": "2026-08-18T06:46:50.206472Z",
+      "ts": "2026-08-18T09:27:22.145028Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Perplexity_AI",
       "type": "attention",
@@ -568,7 +676,7 @@
     },
     {
       "id": "ae3a24cb930d51a1",
-      "ts": "2026-08-18T06:46:50.123074Z",
+      "ts": "2026-08-18T09:27:22.049224Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Replicate",
       "type": "attention",
@@ -597,7 +705,7 @@
     },
     {
       "id": "de590ab151bf19e2",
-      "ts": "2026-08-18T06:46:50.036740Z",
+      "ts": "2026-08-18T09:27:21.956074Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Vercel",
       "type": "attention",
@@ -626,7 +734,7 @@
     },
     {
       "id": "4705c3bbdabc6609",
-      "ts": "2026-08-18T06:46:49.944648Z",
+      "ts": "2026-08-18T09:27:21.871551Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Linear",
       "type": "attention",
@@ -655,7 +763,7 @@
     },
     {
       "id": "b54f5ab3e733875d",
-      "ts": "2026-08-18T06:46:49.858377Z",
+      "ts": "2026-08-18T09:27:21.782241Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Mercury",
       "type": "attention",
@@ -684,7 +792,7 @@
     },
     {
       "id": "fe1dddbb3c4fb35d",
-      "ts": "2026-08-18T06:46:49.777821Z",
+      "ts": "2026-08-18T09:27:21.697632Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Ramp",
       "type": "attention",
@@ -713,7 +821,7 @@
     },
     {
       "id": "42071f57ca05734f",
-      "ts": "2026-08-18T06:46:49.690967Z",
+      "ts": "2026-08-18T09:27:21.610726Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Plaid",
       "type": "attention",
@@ -742,7 +850,7 @@
     },
     {
       "id": "6f635f180d7f8181",
-      "ts": "2026-08-18T06:46:49.603858Z",
+      "ts": "2026-08-18T09:27:21.524076Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Brex",
       "type": "attention",
@@ -771,7 +879,7 @@
     },
     {
       "id": "59751fcebbe09682",
-      "ts": "2026-08-18T06:46:49.513537Z",
+      "ts": "2026-08-18T09:27:21.436477Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Databricks",
       "type": "attention",
@@ -800,7 +908,7 @@
     },
     {
       "id": "ec6296682c56aadd",
-      "ts": "2026-08-18T06:46:49.418923Z",
+      "ts": "2026-08-18T09:27:21.343138Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Snowflake",
       "type": "attention",
@@ -829,7 +937,7 @@
     },
     {
       "id": "542d911aec3c34e5",
-      "ts": "2026-08-18T06:46:49.328393Z",
+      "ts": "2026-08-18T09:27:21.256842Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Figma",
       "type": "attention",
@@ -858,7 +966,7 @@
     },
     {
       "id": "392949d76bb040c0",
-      "ts": "2026-08-18T06:46:49.230305Z",
+      "ts": "2026-08-18T09:27:21.163945Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Notion",
       "type": "attention",
@@ -887,7 +995,7 @@
     },
     {
       "id": "c200d961cb1e50e6",
-      "ts": "2026-08-18T06:46:49.139530Z",
+      "ts": "2026-08-18T09:27:21.077602Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Scale_AI",
       "type": "attention",
@@ -916,7 +1024,7 @@
     },
     {
       "id": "48bc8824ff71f031",
-      "ts": "2026-08-18T06:46:49.049041Z",
+      "ts": "2026-08-18T09:27:20.983255Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/OpenAI",
       "type": "attention",
@@ -945,7 +1053,7 @@
     },
     {
       "id": "1720431398162eb3",
-      "ts": "2026-08-18T06:46:48.978309Z",
+      "ts": "2026-08-18T09:27:20.913096Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Anthropic",
       "type": "attention",
@@ -974,7 +1082,7 @@
     },
     {
       "id": "37e0d26bf82271f3",
-      "ts": "2026-08-18T06:46:48.893722Z",
+      "ts": "2026-08-18T09:27:20.830574Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Cloudflare",
       "type": "attention",
@@ -1003,7 +1111,7 @@
     },
     {
       "id": "ae8213eb94bf60b1",
-      "ts": "2026-08-18T06:46:48.802119Z",
+      "ts": "2026-08-18T09:27:20.744592Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/HashiCorp",
       "type": "attention",
@@ -1032,7 +1140,7 @@
     },
     {
       "id": "155a7394f18bde9a",
-      "ts": "2026-08-18T06:46:48.710146Z",
+      "ts": "2026-08-18T09:27:20.654973Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/GitLab",
       "type": "attention",
@@ -1061,7 +1169,7 @@
     },
     {
       "id": "4f2940c29fb69807",
-      "ts": "2026-08-18T06:46:48.611959Z",
+      "ts": "2026-08-18T09:27:20.564476Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Discord",
       "type": "attention",
@@ -1090,7 +1198,7 @@
     },
     {
       "id": "dcd65bf2bff1d4d0",
-      "ts": "2026-08-18T06:46:48.527259Z",
+      "ts": "2026-08-18T09:27:20.479652Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Pinterest",
       "type": "attention",
@@ -1119,7 +1227,7 @@
     },
     {
       "id": "0a496e50fb9bfe07",
-      "ts": "2026-08-18T06:46:48.427755Z",
+      "ts": "2026-08-18T09:27:20.379006Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Instacart",
       "type": "attention",
@@ -1148,7 +1256,7 @@
     },
     {
       "id": "a49851511af6188b",
-      "ts": "2026-08-18T06:46:48.330677Z",
+      "ts": "2026-08-18T09:27:20.281195Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/DoorDash",
       "type": "attention",
@@ -1177,7 +1285,7 @@
     },
     {
       "id": "fccbdef803c2299f",
-      "ts": "2026-08-18T06:46:48.245288Z",
+      "ts": "2026-08-18T09:27:20.193966Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Reddit",
       "type": "attention",
@@ -1206,7 +1314,7 @@
     },
     {
       "id": "b1fc320eac0f01fe",
-      "ts": "2026-08-18T06:46:48.148311Z",
+      "ts": "2026-08-18T09:27:20.100896Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Robinhood",
       "type": "attention",
@@ -1235,7 +1343,7 @@
     },
     {
       "id": "d8d87c7ebca7c31d",
-      "ts": "2026-08-18T06:46:48.060600Z",
+      "ts": "2026-08-18T09:27:20.018027Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Coinbase",
       "type": "attention",
@@ -1264,7 +1372,7 @@
     },
     {
       "id": "63f580c398728c5c",
-      "ts": "2026-08-18T06:46:47.955375Z",
+      "ts": "2026-08-18T09:27:19.919166Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Airbnb",
       "type": "attention",
@@ -1293,7 +1401,7 @@
     },
     {
       "id": "5779864a140927bc",
-      "ts": "2026-08-18T06:46:47.866496Z",
+      "ts": "2026-08-18T09:27:19.825877Z",
       "source": "wikipedia_pv",
       "source_url": "https://en.wikipedia.org/wiki/Stripe",
       "type": "attention",
@@ -1318,6 +1426,128 @@
         "avg_baseline": 57.5,
         "z_score": 0.7,
         "is_spike": false
+      }
+    },
+    {
+      "id": "c83d85db1eb028a8",
+      "ts": "2026-08-18T05:16:27-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/gitlab/jobs/8692874002",
+      "type": "posting",
+      "company": {
+        "name": "GitLab",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "GitLab | Senior Support Engineer | Bangalore, India",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "Support"
+      ],
+      "extras": {
+        "role": "Senior Support Engineer",
+        "location": "Bangalore, India",
+        "function": "Support",
+        "soc": "43-4051",
+        "seniority": "senior"
+      }
+    },
+    {
+      "id": "a27f3fd78ed95837",
+      "ts": "2026-08-18T05:13:05-04:00",
+      "source": "greenhouse",
+      "source_url": "https://boards.greenhouse.io/figma/jobs/6144873004?gh_jid=6144873004",
+      "type": "posting",
+      "company": {
+        "name": "Figma",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Figma | Manager, Customer Enablement & Advisory Services (Tokyo, Japan) | Tokyo, Japan",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology"
+      ],
+      "extras": {
+        "role": "Manager, Customer Enablement & Advisory Services (Tokyo, Japan)",
+        "location": "Tokyo, Japan",
+        "seniority": "manager"
+      }
+    },
+    {
+      "id": "9e479cfb211c677d",
+      "ts": "2026-08-18T05:10:37-04:00",
+      "source": "greenhouse",
+      "source_url": "https://www.pinterestcareers.com/jobs/?gh_jid=7999050",
+      "type": "posting",
+      "company": {
+        "name": "Pinterest",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": "CA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Pinterest | Sr. Machine Learning Engineer, tvScientific | San Francisco, CA, US; Remote, US",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "CA",
+        "Data / ML"
+      ],
+      "extras": {
+        "role": "Sr. Machine Learning Engineer, tvScientific",
+        "location": "San Francisco, CA, US; Remote, US",
+        "function": "Data / ML",
+        "soc": "15-2051",
+        "seniority": "senior"
+      }
+    },
+    {
+      "id": "a37bf64998be4470",
+      "ts": "2026-08-18T03:24:01-04:00",
+      "source": "greenhouse",
+      "source_url": "https://boards.greenhouse.io/cloudflare/jobs/8081027?gh_jid=8081027",
+      "type": "posting",
+      "company": {
+        "name": "Cloudflare",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Cloudflare | Network Security Engineer | Hybrid",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "Security"
+      ],
+      "extras": {
+        "role": "Network Security Engineer",
+        "location": "Hybrid",
+        "function": "Security",
+        "soc": "15-1212",
+        "seniority": "mid"
       }
     },
     {
@@ -1598,34 +1828,6 @@
         "stack": [
           "go"
         ]
-      }
-    },
-    {
-      "id": "a27f3fd78ed95837",
-      "ts": "2026-08-17T21:56:24-04:00",
-      "source": "greenhouse",
-      "source_url": "https://boards.greenhouse.io/figma/jobs/6144873004?gh_jid=6144873004",
-      "type": "posting",
-      "company": {
-        "name": "Figma",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Figma | Manager, Customer Enablement & Advisory Services (Tokyo, Japan) | Tokyo, Japan",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology"
-      ],
-      "extras": {
-        "role": "Manager, Customer Enablement & Advisory Services (Tokyo, Japan)",
-        "location": "Tokyo, Japan",
-        "seniority": "manager"
       }
     },
     {
@@ -3006,228 +3208,10 @@
         "location": "New York City, NY",
         "seniority": "mid"
       }
-    },
-    {
-      "id": "4bbb244741325020",
-      "ts": "2026-08-17T20:07:05-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8126946",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Senior Data Scientist - Consumer | Remote - United States",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
-        "Data / ML"
-      ],
-      "extras": {
-        "role": "Senior Data Scientist - Consumer",
-        "location": "Remote - United States",
-        "function": "Data / ML",
-        "soc": "15-2051",
-        "seniority": "senior",
-        "remote": "remote"
-      }
-    },
-    {
-      "id": "f0219e75060b57b7",
-      "ts": "2026-08-17T20:07:05-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8011163",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Senior Director, Product & Finance Technology | Remote - United States",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
-        "Engineering Management"
-      ],
-      "extras": {
-        "role": "Senior Director, Product & Finance Technology",
-        "location": "Remote - United States",
-        "function": "Engineering Management",
-        "soc": "11-9041",
-        "seniority": "director"
-      }
-    },
-    {
-      "id": "34e2fa4a2313e318",
-      "ts": "2026-08-17T20:07:05-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8081271",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Senior Product Adoption Strategist, Shopping | Remote - United States",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media"
-      ],
-      "extras": {
-        "role": "Senior Product Adoption Strategist, Shopping",
-        "location": "Remote - United States",
-        "seniority": "senior",
-        "remote": "remote"
-      }
-    },
-    {
-      "id": "224a5f3b0ae11fc7",
-      "ts": "2026-08-17T20:07:05-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8120503",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Senior Product Manager, Ads -  Shopping Catalogs | Remote - United States",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
-        "Product"
-      ],
-      "extras": {
-        "role": "Senior Product Manager, Ads -  Shopping Catalogs",
-        "location": "Remote - United States",
-        "function": "Product",
-        "soc": "11-2021",
-        "seniority": "senior"
-      }
-    },
-    {
-      "id": "57313f49a35b545c",
-      "ts": "2026-08-17T20:07:05-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8127002",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Staff Android Engineer, Brand Ad Formats | Remote - United States",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
-        "Software Engineering"
-      ],
-      "extras": {
-        "role": "Staff Android Engineer, Brand Ad Formats",
-        "location": "Remote - United States",
-        "function": "Software Engineering",
-        "soc": "15-1252",
-        "seniority": "staff"
-      }
-    },
-    {
-      "id": "46acc503c8d27030",
-      "ts": "2026-08-17T20:07:05-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7721787",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Staff Data Scientist, Ads | Remote - United States",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
-        "Data / ML"
-      ],
-      "extras": {
-        "role": "Staff Data Scientist, Ads",
-        "location": "Remote - United States",
-        "function": "Data / ML",
-        "soc": "15-2051",
-        "seniority": "staff",
-        "remote": "remote"
-      }
-    },
-    {
-      "id": "3d26dbc91beb4eb4",
-      "ts": "2026-08-17T20:07:05-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7721851",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Staff Data Scientist, Ads | Remote - Ontario, Canada",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
-        "Data / ML"
-      ],
-      "extras": {
-        "role": "Staff Data Scientist, Ads",
-        "location": "Remote - Ontario, Canada",
-        "function": "Data / ML",
-        "soc": "15-2051",
-        "seniority": "staff",
-        "remote": "remote"
-      }
     }
   ],
   "sector_matrix": {
-    "generated_at": "2026-08-18T06:45:47.783938Z",
+    "generated_at": "2026-08-18T09:26:12.777913Z",
     "cells": [
       {
         "sector": "Technology",
@@ -3241,11 +3225,11 @@
       {
         "sector": "Technology",
         "signal_type": "posting",
-        "count_7d": 513,
-        "count_30d": 2264,
+        "count_7d": 507,
+        "count_30d": 2258,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": -0.66
+        "z_score": -0.87
       },
       {
         "sector": "Technology",
@@ -3268,11 +3252,11 @@
       {
         "sector": "Technology",
         "signal_type": "macro",
-        "count_7d": 3,
-        "count_30d": 3,
-        "magnitude_7d": 62.0,
+        "count_7d": 7,
+        "count_30d": 7,
+        "magnitude_7d": 160.0,
         "magnitude_30d": null,
-        "z_score": 2.3
+        "z_score": 4.2
       },
       {
         "sector": "Finance",
@@ -3315,7 +3299,7 @@
         "signal_type": "macro",
         "count_7d": 1,
         "count_30d": 1,
-        "magnitude_7d": 8.0,
+        "magnitude_7d": 1.0,
         "magnitude_30d": null,
         "z_score": 0.77
       },
@@ -3413,10 +3397,10 @@
         "sector": "Manufacturing",
         "signal_type": "layoff",
         "count_7d": 0,
-        "count_30d": 2,
+        "count_30d": 1,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": -0.47
+        "z_score": -0.23
       },
       {
         "sector": "Manufacturing",
@@ -3511,11 +3495,11 @@
       {
         "sector": "Media",
         "signal_type": "posting",
-        "count_7d": 80,
-        "count_30d": 134,
+        "count_7d": 79,
+        "count_30d": 132,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 8.72
+        "z_score": 8.69
       },
       {
         "sector": "Media",
