@@ -8,6 +8,7 @@ ToS: SEC requires identifying User-Agent with contact email. We set this in _htt
 """
 from __future__ import annotations
 
+import re
 from datetime import datetime, timedelta, timezone
 
 from ..schema import Company, Event, SourceMeta, SourceResult
@@ -37,6 +38,48 @@ def _filing_url(adsh: str, cik: str | int) -> str:
     )
 
 
+# Most Form D filings are special-purpose vehicles, fund series, and real
+# estate partnerships. They never hire anyone, and they outnumber real
+# operating companies roughly ten to one — left in, they are the entire
+# funding feed. Deterministic name filter, no LLM.
+_NON_OPERATING = re.compile(
+    r"\ba series of\b"
+    r"|\bseries\s+[a-z0-9-]{1,4}\b"
+    r"|\b(spv|reit)\b"
+    r"|\b(equity|capital|investment|opportunity|venture|growth)\s+(partners|fund|holdings|management)\b"
+    r"|\bfund\s*[-–]?\s*\d*\b"
+    r"|\b(l\.?p\.?|lllp)\s*$"
+    r"|\b(realty|properties|property|apartments|estates|ranch|business park|commons|plaza|towers|acquisition corp)\b",
+    re.IGNORECASE,
+)
+
+
+def _is_operating_company(name: str) -> bool:
+    """False for SPVs, fund series, and real-estate partnerships."""
+    return _NON_OPERATING.search(name or "") is None
+
+
+def _tidy_name(name: str) -> str:
+    """SEC entity names arrive shouted and suffixed: 'LENNAR CORP /NEW/'."""
+    n = re.sub(r"\s*/[A-Z]{2,}/\s*$", "", str(name)).strip().strip(",")
+    n = re.sub(r"\s+", " ", n)
+    # All-caps names read as noise next to normal headlines; title-case them
+    # but keep genuine acronyms (IBM, AT&T) intact.
+    if n.isupper():
+        n = " ".join(w if (len(w) <= 3 and w.isalpha()) else w.title() for w in n.split())
+    return n
+
+
+def _sec_sentence(name: str, event_type: str, file_date: str) -> str:
+    """Plain sentence instead of an accession number nobody can read."""
+    when = f" on {file_date}" if file_date else ""
+    if event_type == "exec_move":
+        return f"{name} reported an executive or board change in an 8-K filing{when}."
+    if event_type == "funding":
+        return f"{name} filed a Form D securities offering with the SEC{when}."
+    return f"{name} filed an 8-K with the SEC{when}."
+
+
 def _hit_to_event(hit: dict, event_type: str, tags: list[str]) -> Event | None:
     src = hit.get("_source", {}) or {}
     display_names = src.get("display_names") or []
@@ -44,6 +87,7 @@ def _hit_to_event(hit: dict, event_type: str, tags: list[str]) -> Event | None:
     # Display name often includes "(CIK 0001234567)" — trim it
     if " (" in name:
         name = name.split(" (")[0]
+    name = _tidy_name(name)
     file_date = src.get("file_date") or src.get("period_of_report") or ""
     adsh = src.get("adsh") or hit.get("_id") or ""
     ciks = src.get("ciks") or []
@@ -53,6 +97,10 @@ def _hit_to_event(hit: dict, event_type: str, tags: list[str]) -> Event | None:
         ts = datetime.strptime(str(file_date)[:10], "%Y-%m-%d").replace(tzinfo=timezone.utc)
     except ValueError:
         ts = datetime.now(timezone.utc)
+
+    # Form D is dominated by shell entities; 8-K filers are real registrants.
+    if event_type == "funding" and not _is_operating_company(str(name)):
+        return None
 
     sector = classify_sector(str(name), company_name=str(name))
 
@@ -65,7 +113,7 @@ def _hit_to_event(hit: dict, event_type: str, tags: list[str]) -> Event | None:
         company=Company(name=str(name)[:120], sector=sector),
         magnitude=None,
         unit=None,
-        raw_text=f"{name} — SEC filing {adsh} ({event_type}) on {file_date}",
+        raw_text=_sec_sentence(str(name), event_type, str(file_date)[:10]),
         tags=tags + [sector.lower()],
         extras={"adsh": adsh, "cik": str(cik), "file_date": str(file_date)},
     )

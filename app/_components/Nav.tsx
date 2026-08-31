@@ -11,10 +11,10 @@ import clsx from "clsx";
 const NAV_LINKS = [
   { href: "/", label: "Overview" },
   { href: "/intel/layoffs", label: "Layoffs" },
-  { href: "/intel/hiring", label: "Hiring" },
-  { href: "/intel/org-moves", label: "Org Moves" },
-  { href: "/intel/comp", label: "Comp" },
-  { href: "/intel/macro", label: "Macro" },
+  { href: "/intel/hiring", label: "Who's Hiring" },
+  { href: "/intel/org-moves", label: "Leadership" },
+  { href: "/intel/comp", label: "Pay" },
+  { href: "/intel/macro", label: "Market" },
   { href: "/sources", label: "Sources" },
 ];
 

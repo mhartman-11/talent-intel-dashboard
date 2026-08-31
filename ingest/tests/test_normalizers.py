@@ -226,3 +226,33 @@ def test_normalize_fred_basic():
 def test_normalize_fred_missing_value():
     evt = normalize_fred_observation("UNRATE", "Unemployment", {**GOLDEN_OBS, "value": "."})
     assert evt is None
+
+
+# --- regression: whole-word company matching -------------------------------
+# The map contains short keys like "ge" and "hp". Substring matching made them
+# fire inside unrelated names ("Zedge", "Gaingels", "Legence", "Sharp"), which
+# dumped dozens of SEC filers into the wrong sector.
+@pytest.mark.parametrize("name,expected", [
+    ("Zedge, Inc.", "Other"),
+    ("Gaingels Genus AI LLC", "Other"),
+    ("Legence Corp.", "Other"),
+    ("Nexgel, Inc.", "Other"),
+    ("GE Vernova Inc.", "Manufacturing"),
+    ("General Electric Co", "Manufacturing"),
+])
+def test_company_sector_matches_whole_words_only(name, expected):
+    assert classify_sector(name, company_name=name) == expected
+
+
+# --- name-token pass -------------------------------------------------------
+# A bare company name gives the keyword bag at most one hit, which never
+# clears its min score of 2, so distinctive name tokens are matched directly.
+@pytest.mark.parametrize("name,expected", [
+    ("El Paso Independent School District", "Education"),
+    ("Remington Lodging and Hospitality, LLC", "Hospitality"),
+    ("P&O Ferries", "Logistics"),
+    ("T-Mobile", "Telecom"),
+    ("Fortrex (John Soules Foods, Inc.)", "CPG"),
+])
+def test_classify_sector_name_tokens(name, expected):
+    assert classify_sector(name, company_name=name) == expected

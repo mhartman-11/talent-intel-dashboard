@@ -87,7 +87,46 @@ _SECTOR_KEYWORDS: dict[str, list[str]] = {
         "news outlet", "music label", "film studio", "sports league",
         "broadcast", "podcast network", "social network",
     ],
+    "Education": [
+        "school district", "university", "college", "k-12", "charter school",
+        "higher education", "academy", "campus", "student services",
+    ],
+    "Hospitality": [
+        "hotel", "resort", "casino", "restaurant", "hospitality", "catering",
+        "food service", "lodging", "cruise", "theme park",
+    ],
+    "Logistics": [
+        "logistics", "trucking", "freight", "shipping", "courier", "3pl",
+        "last mile", "fulfillment center", "distribution center", "airline",
+    ],
+    "Energy": [
+        "oil", "gas", "energy", "utility", "solar", "wind farm", "refinery",
+        "drilling", "pipeline", "electric utility", "nuclear",
+    ],
+    "Telecom": [
+        "telecom", "wireless carrier", "broadband", "fiber network",
+        "mobile network", "cellular",
+    ],
 }
+
+# Distinctive tokens that appear IN a company name. A bare name gives the
+# keyword bag at most one hit, which never clears its min-score of 2 — so
+# names were collapsing into "Other". These match on the name alone.
+_NAME_TOKENS: list[tuple[str, str]] = [
+    (r"school district|independent school|\bi\.?s\.?d\.?\b|\bisd\b|\buniversity\b|\bcollege\b|\bacademy\b", "Education"),
+    (r"\bhotels?\b|\bresorts?\b|\bcasino|lodging|hospitality|\bcatering\b|restaurant|\bgrill\b|\bcafe\b", "Hospitality"),
+    (r"logistics|trucking|freight|\bcarriers?\b|transport|\bairlines?\b|distribution|warehous|\bferries\b|\bferry\b", "Logistics"),
+    (r"\benergy\b|\bpetroleum\b|\boilfield\b|\bdrilling\b|\brefin|\bsolar\b|\butilit", "Energy"),
+    (r"telecom|wireless|broadband|\bmobile\b|cellular", "Telecom"),
+    (r"health|hospital|\bmedical\b|\bclinic|pharmac|\bdental\b|\bnursing\b", "Healthcare"),
+    (r"\bbank\b|banking|credit union|insurance|\bfinancial\b|mortgage|\blending\b", "Finance"),
+    (r"\bfoods?\b|beverage|brewing|\bdairy\b|\bmeats?\b|\bsnack|\bbakery\b", "CPG"),
+    (r"manufactur|\bsteel\b|\bplastics?\b|\bfoundry\b|industries|\bmachin|fabricat", "Manufacturing"),
+    (r"\bretail|\bstores?\b|\bgrocer|\bshops?\b|department store", "Retail"),
+    (r"\bsoftware\b|\btechnolog|\bcyber|\blabs?\b|\bsystems\b", "Technology"),
+    (r"\bmedia\b|broadcast|entertainment|\bstudios?\b|publishing", "Media"),
+]
+_NAME_TOKEN_RES = [(re.compile(pat), sec) for pat, sec in _NAME_TOKENS]
 
 # Known company -> sector shortcuts (deterministic override of keyword bag)
 _COMPANY_SECTOR: dict[str, str] = {
@@ -165,7 +204,39 @@ _COMPANY_SECTOR: dict[str, str] = {
     "electronic arts": "Media", "activision": "Media",
     "take-two": "Media", "ubisoft": "Media", "epic games": "Media",
     "riot games": "Media", "bungie": "Media", "rockstar": "Media",
+    # Names that carry no distinctive token and kept landing in "Other".
+    "saks": "Retail", "neiman marcus": "Retail", "zomato": "Retail",
+    "dollar general": "Retail", "dollar tree": "Retail", "family dollar": "Retail",
+    "qualtrics": "Technology", "liv golf": "Media", "first student": "Logistics",
+    "alan ritchey": "Logistics", "kuehne": "Logistics", "t mobile": "Telecom",
+    "verizon": "Telecom", "at t": "Telecom", "comcast": "Media",
+    "charter communications": "Telecom", "lumen": "Telecom",
+    "marriott": "Hospitality", "hilton": "Hospitality", "hyatt": "Hospitality",
+    "wyndham": "Hospitality", "aramark": "Hospitality", "sodexo": "Hospitality",
+    "fedex": "Logistics", "ups": "Logistics", "xpo": "Logistics",
+    "yellow corp": "Logistics", "c h robinson": "Logistics",
+    "exxon": "Energy", "chevron": "Energy", "shell": "Energy", "bp": "Energy",
+    "halliburton": "Energy", "schlumberger": "Energy", "duke energy": "Energy",
+    "pearson": "Education", "chegg": "Education", "coursera": "Education",
+    "2u": "Education", "byju": "Education",
 }
+
+
+def _name_contains(key: str, known: str) -> bool:
+    """Whole-word containment, not substring.
+
+    Plain `known in key` made the two-letter entry "ge" match "Zedge",
+    "Gaingels", "Legence" and "Nexgel", which put a pile of unrelated SEC
+    filers into Manufacturing. Compare token sequences instead.
+    """
+    ktoks = key.split()
+    ntoks = known.split()
+    if not ntoks or len(ntoks) > len(ktoks):
+        return False
+    return any(
+        ktoks[i:i + len(ntoks)] == ntoks
+        for i in range(len(ktoks) - len(ntoks) + 1)
+    )
 
 
 def _kw_hit(kw: str, lower: str) -> bool:
@@ -180,12 +251,19 @@ def classify_sector(text: str, company_name: Optional[str] = None) -> SECTORS:
     """Best-effort sector classification.
 
     1. If company name matches a known entity, use the deterministic mapping.
-    2. Otherwise score keyword hits; require min score of 2 to leave 'Other'.
+    2. Else if the name carries a distinctive token ("School District",
+       "Logistics", "Wireless"), use that.
+    3. Otherwise score keyword hits; require min score of 2 to leave 'Other'.
     """
     if company_name:
         key = normalize_company_name(company_name)
         for known, sector in _COMPANY_SECTOR.items():
-            if known in key:
+            if _name_contains(key, known):
+                return sector  # type: ignore[return-value]
+        # A distinctive token in the name itself is a stronger signal than any
+        # single keyword hit in body text, so this runs before the bag.
+        for rx, sector in _NAME_TOKEN_RES:
+            if rx.search(key):
                 return sector  # type: ignore[return-value]
 
     lower = (text or "").lower()
@@ -521,7 +599,13 @@ def normalize_fred_observation(
         type=event_type,  # type: ignore[arg-type]
         company=None,
         magnitude=value,
-        unit="pp",
+        # Not every BLS series is a rate. Average hourly earnings is dollars,
+        # and hardcoding "pp" rendered $37.62 as "37.6%" on the macro page.
+        unit=(
+            "USD/hr" if "Hourly" in series_name
+            else "USD" if "($)" in series_name
+            else "pp"
+        ),
         raw_text=f"{series_name}: {value}",
         tags=[event_type, "fred", series_id.lower()],
     )

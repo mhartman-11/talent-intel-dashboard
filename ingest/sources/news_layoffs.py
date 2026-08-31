@@ -39,6 +39,25 @@ _FRAGMENT_TAILS = {"job", "jobs", "staff", "layoff", "layoffs", "cut", "cuts", "
 _FRAGMENT_HEADS = {"as", "the", "why", "how", "after", "amid", "more", "over"}
 
 
+# Industry roundups and tracker reports are not company layoffs. Their
+# headcounts are sector-wide totals, so letting one through puts a 7,000-job
+# aggregate at the top of the board next to real single-company cuts.
+_AGGREGATE_MARKERS = re.compile(
+    r"\b(report|roundup|round-up|survey|tracker|study|index|analysis|outlook)\b[:\s]"
+    r"|\b(challenger|gray\s*&\s*christmas)\b"
+    r"|\bus\s+\w+\s+sector\b"
+    r"|\bacross\s+the\s+(industry|sector)\b"
+    r"|\b(so far this year|year to date|ytd)\b"
+    r"|\bnew wave of\b",
+    re.IGNORECASE,
+)
+
+
+def _is_aggregate_headline(title: str) -> bool:
+    """True when the headline is about an industry total, not one employer."""
+    return _AGGREGATE_MARKERS.search(title or "") is not None
+
+
 def _is_real_company(name: str) -> bool:
     """Reject generic/headline-fragment 'company' names from RSS title parsing."""
     key = normalize_company_name(name)
@@ -105,6 +124,8 @@ def _parse_entry(entry: object) -> Event | None:
     if not company_name or company_name == "Unknown":
         return None
     if not _is_real_company(company_name):
+        return None
+    if _is_aggregate_headline(title):
         return None
 
     magnitude = extract_headcount(full_text)

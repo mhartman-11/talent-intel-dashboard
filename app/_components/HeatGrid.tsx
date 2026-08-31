@@ -57,6 +57,13 @@ export function HeatGrid({ matrix, onFilter }: HeatGridProps) {
     cellMap[`${cell.sector}:${cell.signal_type}`] = cell;
   }
 
+  // Drop industries with nothing in the last 30 days. There are twelve
+  // sectors now and rendering the empty ones turns the grid into mostly
+  // blank squares, which reads as broken rather than as "no activity".
+  const activeSectors = SECTOR_ORDER.filter((sector) =>
+    SIGNAL_ORDER.some((sig) => (cellMap[`${sector}:${sig}`]?.count_30d ?? 0) > 0)
+  );
+
   return (
     <div className="w-full overflow-x-auto">
       <div className="min-w-[480px]">
@@ -85,7 +92,7 @@ export function HeatGrid({ matrix, onFilter }: HeatGridProps) {
           animate="visible"
           className="flex flex-col gap-1.5"
         >
-          {SECTOR_ORDER.map((sector) => (
+          {activeSectors.map((sector) => (
             <motion.div
               key={sector}
               variants={cardEntrance}

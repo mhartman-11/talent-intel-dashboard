@@ -66,9 +66,11 @@ function TapePill({ event }: TapePillProps) {
 
 interface SignalTapeProps {
   events: Event[];
+  /** Static label pinned to the left so the tape says what it is scrolling. */
+  caption?: string;
 }
 
-export function SignalTape({ events }: SignalTapeProps) {
+export function SignalTape({ events, caption }: SignalTapeProps) {
   if (events.length === 0) {
     return (
       <div
@@ -110,7 +112,16 @@ export function SignalTape({ events }: SignalTapeProps) {
         }}
       />
 
-      <div className="py-2 px-4">
+      <div className="py-2 px-4 flex items-center gap-3">
+        {/* Opaque, above the fade layers — the pills scroll underneath it. */}
+        {caption && (
+          <span
+            className="label-overline shrink-0 z-30 hidden sm:block py-1.5 pr-3 -ml-4 pl-4"
+            style={{ backgroundColor: "#0b0b0b" }}
+          >
+            {caption}
+          </span>
+        )}
         <div className="tape-track">
           {doubled.map((evt, i) => (
             <TapePill key={`${evt.id}-${i}`} event={evt} />

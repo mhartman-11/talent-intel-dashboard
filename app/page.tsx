@@ -1,94 +1,108 @@
 import Link from "next/link";
 import { ArrowRight, ChartBar, Briefcase, Buildings, Wallet, TrendUp } from "@phosphor-icons/react/dist/ssr";
-import { SignalTape } from "./_components/SignalTape";
 import { HeatGrid } from "./_components/HeatGrid";
+import { SignalTape } from "./_components/SignalTape";
 import { GlassCard } from "./_components/GlassCard";
 import { EventRow } from "./_components/EventRow";
+import { LayoffBoard } from "./_components/LayoffBoard";
 import { getSnapshot, getSectorMatrix } from "@/lib/data";
 import { COLORS } from "./_design/tokens";
 
-// Sections with drill-down links
+// Stream cards. `sub` says what the stream IS; `use` says what you do with it —
+// a cold visitor needs the second one more than the first.
 const STREAM_CARDS = [
   {
     href: "/intel/layoffs",
-    label: "Workforce Shocks",
-    sub: "Layoffs · RIFs · WARN notices",
+    label: "Layoffs",
+    sub: "News coverage + official WARN filings",
+    use: "Find candidates before they hit the market",
     icon: ChartBar,
     color: COLORS.cyan,
   },
   {
     href: "/intel/hiring",
-    label: "Hiring Velocity",
-    sub: "HN Who's Hiring thread",
+    label: "Who's Hiring",
+    sub: "Live roles from public ATS boards",
+    use: "See who's adding headcount, build a sourcing string",
     icon: Briefcase,
     color: COLORS.orange,
   },
   {
     href: "/intel/org-moves",
-    label: "Org & Exec Moves",
-    sub: "8-K filings · Funding · M&A",
+    label: "Leadership & Funding",
+    sub: "SEC 8-K filings, Form D, funding news",
+    use: "Spot hiring waves a quarter early",
     icon: Buildings,
     color: COLORS.violet,
   },
   {
     href: "/intel/comp",
-    label: "Compensation",
-    sub: "BLS wage data",
+    label: "Pay Benchmarks",
+    sub: "BLS wage data by sector and occupation",
+    use: "Sanity-check an offer with a neutral number",
     icon: Wallet,
     color: COLORS.orange,
   },
   {
     href: "/intel/macro",
-    label: "Macro Labor",
-    sub: "BLS unemployment · JOLTS",
+    label: "Market Backdrop",
+    sub: "Unemployment, job openings, quits rate",
+    use: "Read the room before a comp conversation",
     icon: TrendUp,
-    color: COLORS.cyan,
+    color: COLORS.cyanDim,
   },
 ];
 
 export default function HomePage() {
   const snapshot = getSnapshot();
   const matrix = getSectorMatrix();
-  const recentEvents = snapshot.recent_signals.slice(0, 20);
+  const pulse = snapshot.layoff_pulse;
+
+  // The mixed feed is the last thing on the page now, and it is capped so job
+  // postings can't bury the rarer signals. Layoffs get their own board above.
+  const feed = snapshot.recent_signals.filter((e) => e.type !== "posting").slice(0, 12);
+
+  const liveSources = snapshot.sources.filter((s) => s.ok && s.record_count > 0);
+
+  // The tape scrolls layoffs only. A mixed tape was just motion; this one
+  // reinforces what the page leads with.
+  const tapeEvents = (pulse?.top_events ?? []).length
+    ? pulse!.top_events
+    : snapshot.recent_signals.filter((e) => e.type === "layoff").slice(0, 12);
 
   return (
     <div className="min-h-screen">
       {/* ── Hero ─────────────────────────────────────────────────────────── */}
       <section
-        className="relative pt-16 pb-12 px-4 sm:px-6 overflow-hidden"
+        className="relative pt-16 pb-8 px-4 sm:px-6 overflow-hidden"
         style={{ background: "radial-gradient(ellipse 80% 60% at 50% 0%, rgba(129,236,255,0.04) 0%, transparent 70%)" }}
       >
         <div className="max-w-7xl mx-auto">
-          {/* Overline */}
-          <p className="label-overline mb-4">US Talent Market · Live</p>
+          <p className="label-overline mb-4">US Talent Market · Updated every 6 hours</p>
 
-          {/* Kinetic headline — rendered as h1 with CSS melt-in */}
           <h1
             className="display-lg text-white mb-4 max-w-3xl"
             style={{ textShadow: "0 0 80px rgba(129,236,255,0.12)" }}
           >
-            US Talent Market
+            Who&rsquo;s cutting.
             <br />
-            <span style={{ color: COLORS.cyan }}>Intelligence.</span>
+            <span style={{ color: COLORS.cyan }}>Who&rsquo;s hiring.</span>
           </h1>
 
-          <p className="text-white/50 text-base max-w-xl leading-relaxed mb-8">
-            Real-time signals from public data — layoffs, hiring velocity, org moves,
-            comp data, and macro labor indicators. Zero paywalls. Every number sourced.
+          <p className="text-white/55 text-base max-w-xl leading-relaxed mb-7">
+            A free read on the US job market for recruiters. Layoffs, open roles,
+            leadership changes, and pay data, pulled from public records and
+            government APIs. Every row links to the original source.
           </p>
 
-          {/* Stat strip */}
-          <div className="flex flex-wrap gap-6 mb-8">
+          <div className="flex flex-wrap gap-6">
             {[
-              { label: "Total Events", value: snapshot.total_events.toLocaleString(), color: COLORS.cyan },
-              { label: "Past 7 Days", value: snapshot.events_7d.toLocaleString(), color: COLORS.orange },
-              { label: "Data Sources", value: snapshot.sources.length.toString(), color: COLORS.violet },
+              { label: "Signals tracked", value: snapshot.total_events.toLocaleString(), color: COLORS.cyan },
+              { label: "New in the last 7 days", value: snapshot.events_7d.toLocaleString(), color: COLORS.orange },
+              { label: "Live data sources", value: liveSources.length.toString(), color: COLORS.violet },
             ].map(({ label, value, color }) => (
               <div key={label} className="flex flex-col gap-0.5">
-                <span
-                  className="font-display font-black text-3xl"
-                  style={{ color }}
-                >
+                <span className="font-display font-black text-3xl" style={{ color }}>
                   {value}
                 </span>
                 <span className="label-overline">{label}</span>
@@ -98,61 +112,61 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ── How to read this ──────────────────────────────────────────────── */}
-      <section className="px-4 sm:px-6 -mt-2 pb-4">
+      {tapeEvents.length > 0 && (
+        <SignalTape events={tapeEvents} caption="Latest cuts" />
+      )}
+
+      {/* ── Layoff board — the reason most people open this ───────────────── */}
+      {pulse && pulse.events_30d > 0 && <LayoffBoard pulse={pulse} />}
+
+      {/* ── Stream cards ──────────────────────────────────────────────────── */}
+      <section className="py-8 px-4 sm:px-6">
         <div className="max-w-7xl mx-auto">
-          <GlassCard className="p-5 sm:p-6">
-            <p className="label-overline mb-3">New here? How to read this</p>
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-              {[
-                {
-                  n: "1",
-                  t: "Five live signals",
-                  d: "Layoffs, hiring, exec & funding moves, pay data, and economy-wide labor stats — each pulled from free public sources.",
-                },
-                {
-                  n: "2",
-                  t: "The heat grid finds spikes",
-                  d: "Industries down the side, signals across the top. A bright cell means that activity is unusually high this week. Click it to see the events.",
-                },
-                {
-                  n: "3",
-                  t: "Every number is sourced",
-                  d: "Click any event to open the original article or filing it came from. Nothing is AI-written — it’s all traceable public record.",
-                },
-              ].map(({ n, t, d }) => (
-                <div key={n} className="flex gap-3">
-                  <span
-                    className="shrink-0 w-6 h-6 rounded-full flex items-center justify-center font-display font-black text-xs"
-                    style={{ backgroundColor: `${COLORS.cyan}1a`, color: COLORS.cyan }}
+          <div className="mb-5">
+            <p className="label-overline mb-1">The other four streams</p>
+            <h2 className="headline-lg text-white">What else is in here</h2>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-3">
+            {STREAM_CARDS.map(({ href, label, sub, use, icon: Icon, color }) => (
+              <Link key={href} href={href}>
+                <GlassCard hover className="p-4 flex flex-col gap-3 h-full group">
+                  <div
+                    className="w-8 h-8 rounded-xl flex items-center justify-center"
+                    style={{ backgroundColor: `${color}15` }}
                   >
-                    {n}
-                  </span>
-                  <div>
-                    <p className="text-sm font-semibold text-white/90">{t}</p>
-                    <p className="text-xs text-white/40 mt-0.5 leading-relaxed">{d}</p>
+                    <Icon size={16} style={{ color }} />
                   </div>
-                </div>
-              ))}
-            </div>
-          </GlassCard>
+                  <div>
+                    <p className="text-sm font-semibold text-white/90 group-hover:text-white transition-colors">
+                      {label}
+                    </p>
+                    <p className="text-xs text-white/35 mt-0.5 leading-relaxed">{sub}</p>
+                    <p className="text-xs mt-2 leading-relaxed" style={{ color: `${color}bb` }}>
+                      {use}
+                    </p>
+                  </div>
+                  <ArrowRight
+                    size={14}
+                    className="mt-auto text-white/20 group-hover:text-white/50 group-hover:translate-x-0.5 transition-all"
+                  />
+                </GlassCard>
+              </Link>
+            ))}
+          </div>
         </div>
       </section>
 
-      {/* ── Signal Tape ───────────────────────────────────────────────────── */}
-      <SignalTape events={recentEvents} />
-
       {/* ── Heat Grid ─────────────────────────────────────────────────────── */}
-      <section className="py-12 px-4 sm:px-6">
+      <section className="py-10 px-4 sm:px-6">
         <div className="max-w-7xl mx-auto">
-          <div className="mb-6 flex items-baseline justify-between gap-4 flex-wrap">
-            <div>
-              <p className="label-overline mb-1">Sector × Signal</p>
-              <h2 className="headline-lg text-white">Activity Heat Grid</h2>
-            </div>
-            <p className="text-xs text-white/30 max-w-xs text-right leading-relaxed">
-              Each cell = how busy a sector is this week. Brighter means a spike.
-              Click a bright cell to see the exact events behind it.
+          <div className="mb-4">
+            <p className="label-overline mb-1">Industry × Signal</p>
+            <h2 className="headline-lg text-white mb-2">Where activity is unusual this week</h2>
+            <p className="text-sm text-white/45 max-w-2xl leading-relaxed">
+              Industries down the side, signal types across the top. Each cell compares
+              this week&rsquo;s volume against that industry&rsquo;s own average for the
+              last 30 days, so a bright cell means unusual for them, not just busy.
+              Click any cell to see the events behind it.
             </p>
           </div>
 
@@ -168,73 +182,39 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ── Stream Cards ──────────────────────────────────────────────────── */}
-      <section className="py-8 px-4 sm:px-6">
-        <div className="max-w-7xl mx-auto">
-          <p className="label-overline mb-6">Intelligence Streams</p>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-3">
-            {STREAM_CARDS.map(({ href, label, sub, icon: Icon, color }) => (
-              <Link key={href} href={href}>
-                <GlassCard
-                  hover
-                  className="p-4 flex flex-col gap-3 h-full group"
-                >
-                  <div
-                    className="w-8 h-8 rounded-xl flex items-center justify-center"
-                    style={{ backgroundColor: `${color}15` }}
-                  >
-                    <Icon size={16} style={{ color }} />
-                  </div>
-                  <div>
-                    <p className="text-sm font-semibold text-white/90 group-hover:text-white transition-colors">
-                      {label}
-                    </p>
-                    <p className="text-xs text-white/35 mt-0.5">{sub}</p>
-                  </div>
-                  <ArrowRight
-                    size={14}
-                    className="mt-auto text-white/20 group-hover:text-white/50 group-hover:translate-x-0.5 transition-all"
-                  />
-                </GlassCard>
-              </Link>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ── Recent Signals ────────────────────────────────────────────────── */}
+      {/* ── Everything else, newest first ─────────────────────────────────── */}
       <section className="py-8 px-4 sm:px-6 pb-20">
         <div className="max-w-7xl mx-auto">
-          <div className="mb-4 flex items-baseline justify-between gap-4">
+          <div className="mb-4 flex items-end justify-between gap-4 flex-wrap">
             <div>
-              <p className="label-overline mb-1">Latest</p>
-              <h2 className="headline-lg text-white">Recent Signals</h2>
+              <p className="label-overline mb-1">Newest first</p>
+              <h2 className="headline-lg text-white mb-1.5">Latest leadership and funding moves</h2>
+              <p className="text-sm text-white/45 max-w-xl leading-relaxed">
+                Executive changes, funding rounds, and pay releases as they land. Open
+                roles are excluded here because they arrive in the thousands.
+              </p>
             </div>
             <Link
-              href="/intel/layoffs"
-              className="text-xs text-white/40 hover:text-white/70 transition-colors flex items-center gap-1"
+              href="/intel/org-moves"
+              className="text-xs text-white/40 hover:text-white/70 transition-colors flex items-center gap-1 shrink-0"
             >
-              All streams <ArrowRight size={12} />
+              See all moves <ArrowRight size={12} />
             </Link>
           </div>
 
           <GlassCard>
-            {recentEvents.length > 0 ? (
+            {feed.length > 0 ? (
               <div className="divide-y divide-white/[0.04]">
-                {recentEvents.map((evt) => (
+                {feed.map((evt) => (
                   <EventRow key={evt.id} event={evt} />
                 ))}
               </div>
             ) : (
               <div className="text-center py-16 flex flex-col items-center gap-3">
-                <span className="font-mono text-sm text-white/25">
-                  No signals yet
-                </span>
+                <span className="font-mono text-sm text-white/25">No signals yet</span>
                 <p className="text-xs text-white/15 max-w-sm text-center leading-relaxed">
                   Run{" "}
-                  <code className="font-mono text-white/30">
-                    python -m ingest.run
-                  </code>{" "}
+                  <code className="font-mono text-white/30">python -m ingest.run</code>{" "}
                   locally or trigger the GitHub Actions workflow to populate data.
                 </p>
               </div>

@@ -1,48 +1,39 @@
 """
 State WARN Act layoff notices.
 
-Each state publishes WARN notices independently — formats vary (HTML tables,
-XLSX, CSV). URLs change yearly, so this source is config-driven.
+Every state publishes WARN notices, but almost all of them serve the data
+through a JavaScript dashboard with no downloadable file. Texas publishes
+its notices through a Socrata open-data API — no key, no auth, current, and
+with a real headcount on every row. That is the one we ingest.
 
-Configure via env var STATE_WARN_CONFIG (JSON string) or
-STATE_WARN_CONFIG_FILE (path to JSON file). Shape:
+Coverage is therefore Texas-only, and the UI says so. Do not describe this
+source as national. Adding a state means adding an entry to
+`ingest/state_warn_endpoints.json`, not editing this file — supported
+formats are "socrata", "csv", "xlsx", and "html_table".
 
-  [
-    {"state": "WA",
-     "url": "https://esd.wa.gov/.../WARN-FY25.xlsx",
-     "format": "xlsx",
-     "columns": {"company": "Company Name", "date": "Date Received",
-                 "headcount": "Number of Workers", "city": "Worksite City"}},
-    {"state": "CA",
-     "url": "https://edd.ca.gov/.../WARN_Report_2024-2025.xlsx",
-     "format": "xlsx",
-     "columns": {"company": "Company", "date": "Notice Date",
-                 "headcount": "No. Of Employees", "city": "City"}}
-  ]
+Config via env STATE_WARN_CONFIG (JSON string), STATE_WARN_CONFIG_FILE
+(path), or the repo default at ingest/state_warn_endpoints.json.
 
-format: "xlsx" | "csv" | "html_table"
-
-Source is intentionally honest — if unconfigured, reports failure rather
-than emitting fake data.
+ToS posture: public open-data API  ✓
 """
 from __future__ import annotations
 
 import io
 import json
 import os
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Optional
 
 from ..schema import Company, Event, SourceMeta, SourceResult
 from ..normalizers import classify_sector, make_id, normalize_company_name
-from ._http import get_bytes
+from ._http import get_bytes, get_json
 
 SOURCE_META = SourceMeta(
     source="state_warn",
-    display_name="State WARN Notices",
-    url="https://www.dol.gov/agencies/eta/layoffs/warn",
-    tos_posture="public_csv",
+    display_name="Texas WARN Notices (state open data)",
+    url="https://data.texas.gov/d/8w53-c4f6",
+    tos_posture="public_api",
     cadence_hours=24,
 )
 
@@ -98,10 +89,24 @@ def _to_float(v) -> Optional[float]:
         return None
 
 
-def _rows_from_dataframe(df, columns: dict, state: str) -> list[Event]:
+WARN_INDEX_URL = "https://www.dol.gov/agencies/eta/layoffs/warn"
+
+
+def _warn_sentence(company: str, headcount: Optional[float], city: str, state: str) -> str:
+    """One plain sentence a recruiter can read without a legend."""
+    where = ", ".join(x for x in (city, state) if x)
+    if headcount:
+        return f"{company} filed a WARN notice for {int(headcount):,} jobs in {where}."
+    return f"{company} filed a WARN notice in {where}."
+
+
+def _rows_from_dataframe(df, entry: dict, state: str, max_age_days: int = 240) -> list[Event]:
     import pandas as pd  # noqa: F401
 
     out: list[Event] = []
+    columns = entry.get("columns") or {}
+    landing = entry.get("landing_url") or entry.get("url") or WARN_INDEX_URL
+    cutoff = datetime.now(timezone.utc) - timedelta(days=max_age_days)
     company_col = columns.get("company")
     date_col = columns.get("date")
     head_col = columns.get("headcount")
@@ -112,6 +117,8 @@ def _rows_from_dataframe(df, columns: dict, state: str) -> list[Event]:
         if not company or company.lower() in ("nan", "none"):
             continue
         ts = _parse_date(row.get(date_col)) if date_col else datetime.now(timezone.utc)
+        if ts < cutoff:
+            continue
         headcount = _to_float(row.get(head_col)) if head_col else None
         city = str(row.get(city_col) or "").strip() if city_col else ""
 
@@ -121,7 +128,7 @@ def _rows_from_dataframe(df, columns: dict, state: str) -> list[Event]:
             id=make_id("state_warn", f"{state}:{norm}:{ts.date().isoformat()}"),
             ts=ts,
             source="state_warn",
-            source_url=f"https://www.dol.gov/agencies/eta/layoffs/warn",
+            source_url=landing,
             type="layoff",
             company=Company(
                 name=company[:120],
@@ -130,11 +137,25 @@ def _rows_from_dataframe(df, columns: dict, state: str) -> list[Event]:
             ),
             magnitude=headcount,
             unit="people" if headcount else None,
-            raw_text=f"{company} — WARN filing ({state}, {city})",
+            raw_text=_warn_sentence(company, headcount, city, state),
             tags=["layoff", "warn", state.lower(), sector.lower()],
             extras={"state": state, "city": city, "warn": True},
         ))
     return out
+
+
+def _fetch_socrata(entry: dict) -> "object":
+    """Newest-N rows from a Socrata open-data endpoint. No API key required."""
+    import pandas as pd
+
+    date_field = entry.get("date_field") or (entry.get("columns") or {}).get("date")
+    params = {"$limit": str(entry.get("limit", 2000))}
+    if date_field:
+        params["$order"] = f"{date_field} DESC"
+    rows = get_json(entry["url"], params=params, timeout=60.0)
+    if not isinstance(rows, list):
+        raise RuntimeError("socrata endpoint did not return a list")
+    return pd.DataFrame(rows)
 
 
 def _fetch_xlsx(url: str) -> "object":
@@ -177,7 +198,9 @@ def fetch(dry_run: bool = False) -> SourceResult:
         fmt = (entry.get("format") or "xlsx").lower()
         columns = entry.get("columns") or {}
         try:
-            if fmt == "xlsx":
+            if fmt == "socrata":
+                df = _fetch_socrata(entry)
+            elif fmt == "xlsx":
                 df = _fetch_xlsx(url)
             elif fmt == "csv":
                 df = _fetch_csv(url)
@@ -185,7 +208,7 @@ def fetch(dry_run: bool = False) -> SourceResult:
                 df = _fetch_html_table(url, entry.get("table_index", 0))
             else:
                 raise RuntimeError(f"unknown format {fmt}")
-            new_recs = _rows_from_dataframe(df, columns, state)
+            new_recs = _rows_from_dataframe(df, entry, state)
             records.extend(new_recs)
             if dry_run:
                 print(f"  {state}: {len(new_recs)} WARN notices")

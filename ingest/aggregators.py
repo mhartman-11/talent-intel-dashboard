@@ -10,6 +10,7 @@ from typing import Optional
 
 from .schema import (
     Event,
+    LayoffPulse,
     SectorMatrix,
     SectorSignal,
     Snapshot,
@@ -20,6 +21,7 @@ from .schema import (
 SECTORS = [
     "Technology", "Finance", "Healthcare", "CPG",
     "Manufacturing", "Retail", "Media",
+    "Education", "Hospitality", "Logistics", "Energy", "Telecom",
 ]
 
 SIGNAL_TYPES = ["layoff", "posting", "exec_move", "funding", "macro"]
@@ -27,6 +29,7 @@ SIGNAL_TYPES = ["layoff", "posting", "exec_move", "funding", "macro"]
 NOW = datetime.now(timezone.utc)
 WINDOW_7D = NOW - timedelta(days=7)
 WINDOW_30D = NOW - timedelta(days=30)
+WINDOW_60D = NOW - timedelta(days=60)
 
 
 def _in_window(ts: datetime, since: datetime) -> bool:
@@ -121,6 +124,56 @@ def build_sector_matrix(events: list[Event]) -> SectorMatrix:
     return SectorMatrix(generated_at=NOW, cells=cells)
 
 
+def build_layoff_pulse(events: list[Event], top_n: int = 8) -> LayoffPulse:
+    """Homepage layoff scoreboard.
+
+    Deliberately counts announcements and companies rather than people. Most
+    layoff reports never state a headcount, so summing the ones that do would
+    produce a confidently wrong number. The disclosed total is still exposed,
+    always paired with how many events it covers.
+    """
+    layoffs = [e for e in events if e.type == "layoff"]
+
+    in_30d = [e for e in layoffs if _in_window(e.ts, WINDOW_30D)]
+    in_7d = [e for e in layoffs if _in_window(e.ts, WINDOW_7D)]
+    prev_30d = [
+        e for e in layoffs
+        if _in_window(e.ts, WINDOW_60D) and not _in_window(e.ts, WINDOW_30D)
+    ]
+
+    disclosed = [e for e in in_30d if e.magnitude]
+    companies = {
+        e.company.name.strip().lower()
+        for e in in_30d
+        if e.company and e.company.name and e.company.name.lower() != "unknown"
+    }
+
+    by_sector: dict[str, int] = defaultdict(int)
+    for e in in_30d:
+        by_sector[(e.company.sector if e.company else "Other") or "Other"] += 1
+
+    # Headline rows: biggest disclosed cuts first, then the most recent
+    # undisclosed ones. A recruiter scanning this wants scale, then freshness.
+    with_mag = sorted(disclosed, key=lambda e: e.magnitude or 0, reverse=True)
+    without_mag = sorted(
+        [e for e in in_30d if not e.magnitude], key=lambda e: e.ts, reverse=True
+    )
+    top = (with_mag + without_mag)[:top_n]
+
+    return LayoffPulse(
+        events_7d=len(in_7d),
+        events_30d=len(in_30d),
+        events_prev_30d=len(prev_30d),
+        companies_30d=len(companies),
+        disclosed_jobs_30d=int(sum(e.magnitude or 0 for e in disclosed)) or None,
+        disclosed_events_30d=len(disclosed),
+        warn_events_30d=sum(1 for e in in_30d if e.source == "state_warn"),
+        warn_events_total=sum(1 for e in layoffs if e.source == "state_warn"),
+        top_events=top,
+        by_sector_30d=dict(sorted(by_sector.items(), key=lambda kv: -kv[1])),
+    )
+
+
 def build_snapshot(
     all_events: list[Event],
     source_results: list[SourceResult],
@@ -141,8 +194,23 @@ def build_snapshot(
         sources.append(meta)
 
     events_7d = [e for e in all_events if _in_window(e.ts, WINDOW_7D)]
-    recent = sorted(all_events, key=lambda e: e.ts, reverse=True)[:100]
+    # Newest 100, capped per signal type. Postings arrive in the thousands and
+    # funding headlines in the hundreds, all with near-identical timestamps, so
+    # an unweighted "newest" list is one type and nothing else. Capping keeps
+    # the rare signals (layoffs, exec moves) visible without reordering time.
+    by_recency = sorted(all_events, key=lambda e: e.ts, reverse=True)
+    per_type_cap = 20
+    seen_by_type: dict[str, int] = defaultdict(int)
+    recent: list[Event] = []
+    for evt in by_recency:
+        if seen_by_type[evt.type] >= per_type_cap:
+            continue
+        seen_by_type[evt.type] += 1
+        recent.append(evt)
+        if len(recent) >= 100:
+            break
     sector_matrix = build_sector_matrix(all_events)
+    layoff_pulse = build_layoff_pulse(all_events)
 
     return Snapshot(
         generated_at=NOW,
@@ -151,6 +219,7 @@ def build_snapshot(
         sources=sources,
         recent_signals=recent,
         sector_matrix=sector_matrix,
+        layoff_pulse=layoff_pulse,
     )
 
 

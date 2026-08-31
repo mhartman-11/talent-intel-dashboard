@@ -19,6 +19,14 @@ SECTORS = Literal[
     "Manufacturing",
     "Retail",
     "Media",
+    # Added 2026-08-31: WARN filings are dominated by school districts, hotels,
+    # freight and utilities. Without these they all collapsed into "Other",
+    # which made the heat grid's layoff row useless.
+    "Education",
+    "Hospitality",
+    "Logistics",
+    "Energy",
+    "Telecom",
     "Other",
 ]
 
@@ -109,6 +117,27 @@ class SourceMeta(BaseModel):
     errors: list[str] = Field(default_factory=list)
 
 
+class LayoffPulse(BaseModel):
+    """Homepage layoff scoreboard.
+
+    Counts announcements and companies, not people. Only a minority of layoff
+    reports state a headcount, so a summed "people cut" number would silently
+    understate reality and read as precise. `disclosed_jobs_30d` is reported
+    alongside `disclosed_events_30d` so the coverage is always visible.
+    """
+    events_7d: int = 0
+    events_30d: int = 0
+    events_prev_30d: int = 0          # the 30 days before that, for direction
+    companies_30d: int = 0
+    disclosed_jobs_30d: Optional[int] = None
+    disclosed_events_30d: int = 0
+    warn_events_30d: int = 0          # official filings, as opposed to news
+    warn_events_total: int = 0        # Texas publishes on a lag, so the 30d
+                                      # count is often 0 while the archive is not
+    top_events: list["Event"] = Field(default_factory=list)
+    by_sector_30d: dict[str, int] = Field(default_factory=dict)
+
+
 class Snapshot(BaseModel):
     """Top-level file written to public/data/snapshot.json."""
     generated_at: datetime
@@ -118,3 +147,4 @@ class Snapshot(BaseModel):
     sources: list[SourceMeta] = Field(default_factory=list)
     recent_signals: list[Event] = Field(default_factory=list)  # last 100 for tape
     sector_matrix: Optional[SectorMatrix] = None
+    layoff_pulse: Optional[LayoffPulse] = None

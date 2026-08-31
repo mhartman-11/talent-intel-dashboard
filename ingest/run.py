@@ -84,12 +84,27 @@ def main(dry_run: bool = False) -> int:
     print("\nWriting output files...")
     write_json(PUBLIC_DATA / "snapshot.json", snapshot)
 
+    STREAM_EVENT_CAP = 500
     for stream_name, events in streams.items():
+        ordered = sorted(events, key=lambda x: x.ts, reverse=True)
+        shown = ordered[:STREAM_EVENT_CAP]
+        # Counted over ALL events, not just the ones we ship. The hiring stream
+        # holds thousands; a breakdown computed client-side over the shipped 500
+        # reported "ashby: 1" when Ashby actually had hundreds.
+        source_counts: dict[str, int] = {}
+        sector_counts: dict[str, int] = {}
+        for evt in events:
+            source_counts[evt.source] = source_counts.get(evt.source, 0) + 1
+            sector = (evt.company.sector if evt.company else None) or "Other"
+            sector_counts[sector] = sector_counts.get(sector, 0) + 1
         write_json(PUBLIC_DATA / "streams" / f"{stream_name}.json", {
             "stream": stream_name,
             "generated_at": datetime.now(timezone.utc).isoformat(),
             "total": len(events),
-            "events": [e.model_dump(mode="json") for e in sorted(events, key=lambda x: x.ts, reverse=True)[:500]],
+            "showing": len(shown),
+            "source_counts": dict(sorted(source_counts.items(), key=lambda kv: -kv[1])),
+            "sector_counts": dict(sorted(sector_counts.items(), key=lambda kv: -kv[1])),
+            "events": [e.model_dump(mode="json") for e in shown],
         })
 
     # Write sectors matrix separately for fast homepage load

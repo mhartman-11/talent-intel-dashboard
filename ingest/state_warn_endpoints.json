@@ -1,24 +1,15 @@
 [
   {
-    "state": "WA",
-    "url": "https://media.esd.wa.gov/esdwa/Default/ESDWAGOV/newsroom/Layoff-and-other-business-decisions/WARN-Public-Notice-Master-List.csv",
-    "format": "csv",
+    "state": "TX",
+    "format": "socrata",
+    "url": "https://data.texas.gov/resource/8w53-c4f6.json",
+    "landing_url": "https://data.texas.gov/d/8w53-c4f6",
+    "date_field": "notice_date",
     "columns": {
-      "company": "Company",
-      "date": "Received Date",
-      "headcount": "Employees Affected",
-      "city": "Location"
-    }
-  },
-  {
-    "state": "NY",
-    "url": "https://dol.ny.gov/system/files/documents/2025/01/warn-notice-database.csv",
-    "format": "csv",
-    "columns": {
-      "company": "Company",
-      "date": "Notice Date",
-      "headcount": "Number of Affected Employees",
-      "city": "County"
+      "company": "job_site_name",
+      "date": "notice_date",
+      "headcount": "total_layoff_number",
+      "city": "city_name"
     }
   }
 ]

@@ -7,20 +7,18 @@ export default function MacroPage() {
   const stream = getStream("macro");
   return (
     <Suspense fallback={null}>
-    <StreamPage
-      title="Macro Labor"
-      overline="BLS Unemployment · JOLTS"
-      color={COLORS.cyan}
-      stream={stream}
-      sources={[
-        "BLS — US Unemployment Rate (LNS14000000)",
-        "BLS JOLTS — Job Openings Rate (JTS…JOR)",
-        "BLS JOLTS — Quits Rate (JTS…QUR)",
-        "BLS JOLTS — Layoffs & Discharges Rate (JTS…LDR)",
-        "BLS — Private Sector Avg Hourly Earnings (CES0500000003)",
-      ]}
-      description="Economy-wide labor indicators from the Bureau of Labor Statistics Public Data API (no key required) — unemployment, the JOLTS job-openings/quits/layoffs rates, and private-sector wage growth. Background context for the company-level signals, updated on the BLS release schedule."
-    />
+      <StreamPage
+        title="Labor Market Backdrop"
+        overline="Unemployment · Job openings · Quits"
+        color={COLORS.cyanDim}
+        stream={stream}
+        // No trend chart: monthly government series, released once a month.
+        sources={[
+          "FRED (Federal Reserve Bank of St. Louis) — unemployment, JOLTS, earnings (public API)",
+        ]}
+        description="Economy-wide context, updated monthly. Unemployment rate, job openings rate, quits rate, and layoff rate come from the Federal Reserve's FRED database, which republishes the official BLS series."
+        useIt="Use this to read the room before a comp conversation. A falling quits rate means candidates are staying put and counter-offers are landing; a rising openings rate means you are competing harder for the same person."
+      />
     </Suspense>
   );
 }

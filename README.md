@@ -20,18 +20,28 @@ This table lists the sources that actually run in `ingest/sources/`. (No vaporwa
 
 | Stream | Source | Type | Cadence |
 |---|---|---|---|
-| Layoffs | [Google News](https://news.google.com) — layoffs across all outlets | Public RSS | 6h |
+| Layoffs | [Google News](https://news.google.com) — layoff coverage across all outlets | Public RSS | 6h |
 | Layoffs | [TechCrunch](https://techcrunch.com/tag/layoffs/) — tech layoff coverage | Public RSS | 6h |
-| Layoffs | [Texas WARN Act notices](https://data.texas.gov/d/8w53-c4f6) | Socrata open-data API | 6h |
-| Hiring | [HN Who is Hiring](https://news.ycombinator.com) | HN Algolia API | 24h |
-| Org Moves | SEC EDGAR EFTS — 8-K Item 5.02 (exec changes) | Public API | 6h |
+| Layoffs | [Texas WARN Act notices](https://data.texas.gov/d/8w53-c4f6) | Socrata open-data API | 24h |
+| Hiring | Greenhouse public job boards | Public API | 6h |
+| Hiring | Lever public postings | Public API | 6h |
+| Hiring | Ashby public job boards | Public API | 6h |
+| Org Moves | SEC EDGAR full-text search — 8-K Item 5.02 (exec changes) | Public API | 6h |
+| Org Moves | SEC EDGAR — Form D offerings | Public API | 6h |
 | Funding | TechCrunch Venture | Public RSS | 6h |
 | Comp | [BLS Current Employment Statistics](https://www.bls.gov/ces/) — avg hourly earnings by sector | Public API | 24h |
-| Macro | [BLS Public Data API](https://www.bls.gov/developers/) — unemployment, JOLTS rates, earnings | Public API | 24h |
+| Comp | [BLS OEWS](https://www.bls.gov/oes/) — pay by occupation | Public API | 24h |
+| Macro | [FRED](https://fred.stlouisfed.org/) — unemployment, JOLTS openings/quits/layoff rates | Public API | 24h |
 
 All sources are ToS-compliant — public RSS, open-data, and official government APIs. No authenticated sessions, no login scraping.
 
-> Roadmap (listed honestly as *not yet wired*): additional state WARN portals, ATS boards (Greenhouse/Lever/Ashby), SEC Form D, and DOL H-1B LCA data.
+**WARN coverage is Texas only.** Texas publishes WARN notices through a Socrata open-data API. Most other states serve theirs through a JavaScript dashboard with no downloadable file, so they are not ingested. Adding a state means adding an entry to `ingest/state_warn_endpoints.json`.
+
+**Removed 2026-08-31**, after never returning a single record in production:
+`reddit` (403 Blocked on every subreddit), `dol_lca` (403 Forbidden on the USCIS H-1B export).
+Also removed for being unreadable rather than broken: `wikipedia_pv` (company-pageview z-scores are not a talent signal) and `wayback` ("Discord careers page: 46 archived snapshots in 90 days" counts archive.org's crawler, not the company). All four modules are still on disk, unwired, in `ingest/sources/`.
+
+> Roadmap (listed honestly as *not yet wired*): additional state WARN portals, SEC Form 4 insider moves, and DOL H-1B LCA data.
 
 ---
 

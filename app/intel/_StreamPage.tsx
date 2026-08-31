@@ -16,6 +16,16 @@ interface StreamPageProps {
   stream: Stream;
   sources: string[];
   description: string;
+  /** One line answering "what do I actually do with this page?". */
+  useIt: string;
+  /**
+   * Only set this where event timestamps are real event dates. Job-board
+   * postings all land at ingest time, so a daily chart of them would plot
+   * when the scraper ran, not what the market did.
+   */
+  trend?: { days: number; unitLabel: string };
+  /** Column of `extras` (or "source") to summarise when there is no trend. */
+  breakdownBy?: { key: "source" | "sector"; label: string };
 }
 
 function buildSourcingString(companies: string[], query: string): string {
@@ -42,6 +52,9 @@ export function StreamPage({
   stream,
   sources,
   description,
+  useIt,
+  trend,
+  breakdownBy,
 }: StreamPageProps) {
   // Seed the sector filter from a ?sector= deep link (e.g. from the home heat grid).
   const searchParams = useSearchParams();
@@ -98,6 +111,26 @@ export function StreamPage({
     return out;
   }, [filtered]);
 
+  // Where the records came from / how they split. Used in place of a trend
+  // chart on streams whose timestamps are ingest artefacts, not event dates.
+  // Counts come from the ingest step because `stream.events` is capped at 500
+  // — tallying the shipped slice reported "ashby: 1" out of 247.
+  const breakdown = useMemo(() => {
+    if (!breakdownBy) return [];
+    const counts =
+      breakdownBy.key === "sector" ? stream.sector_counts : stream.source_counts;
+    if (!counts) return [];
+    return Object.entries(counts)
+      .filter(([label]) => label !== "Other")
+      .sort((a, b) => b[1] - a[1])
+      .slice(0, 8);
+  }, [stream.sector_counts, stream.source_counts, breakdownBy]);
+
+  const breakdownTotal = useMemo(
+    () => breakdown.reduce((acc, [, n]) => acc + n, 0),
+    [breakdown]
+  );
+
   const scrollToEvent = useCallback((id: string) => {
     eventRefs.current.get(id)?.scrollIntoView({ behavior: "smooth", block: "center" });
   }, []);
@@ -133,8 +166,14 @@ export function StreamPage({
             {overline}
           </p>
           <h1 className="display-md text-white mb-3">{title}</h1>
-          <p className="text-white/40 text-sm max-w-lg leading-relaxed mb-6">
+          <p className="text-white/40 text-sm max-w-xl leading-relaxed mb-3">
             {description}
+          </p>
+          <p
+            className="text-sm max-w-xl leading-relaxed mb-6 pl-3 border-l-2"
+            style={{ borderColor: `${color}55`, color: "rgba(255,255,255,0.65)" }}
+          >
+            {useIt}
           </p>
 
           {/* Stats */}
@@ -143,23 +182,60 @@ export function StreamPage({
               <span className="font-display font-black text-2xl" style={{ color }}>
                 {stream.total.toLocaleString()}
               </span>
-              <p className="label-overline mt-0.5">Total Records</p>
+              <p className="label-overline mt-0.5">Records in this stream</p>
             </div>
             <div>
               <span className="font-display font-black text-2xl" style={{ color }}>
                 {filtered.length.toLocaleString()}
               </span>
-              <p className="label-overline mt-0.5">Showing</p>
+              <p className="label-overline mt-0.5">Matching your filters</p>
+              {stream.showing != null && stream.showing < stream.total && (
+                <p className="text-[10px] text-white/30 mt-0.5">
+                  newest {stream.showing.toLocaleString()} loaded
+                </p>
+              )}
             </div>
           </div>
 
-          {/* Trend chart */}
-          {stream.events.length > 0 && (
-            <div>
-              <p className="label-overline mb-2" style={{ color: "rgba(255,255,255,0.2)" }}>
-                Activity — last 60 days
-              </p>
-              <TrendChart events={stream.events} color={color} />
+          {/* Trend chart — only on streams whose timestamps are real event
+              dates. Everything else gets a breakdown, which is honest about
+              what the data can actually support. */}
+          {trend && stream.events.length > 0 && (
+            <div className="max-w-2xl">
+              <TrendChart
+                events={stream.events}
+                color={color}
+                days={trend.days}
+                unitLabel={trend.unitLabel}
+              />
+            </div>
+          )}
+
+          {!trend && breakdown.length > 0 && (
+            <div className="max-w-2xl">
+              <p className="text-xs text-white/45 mb-2.5">{breakdownBy?.label}</p>
+              <div className="space-y-1.5">
+                {breakdown.map(([label, count]) => (
+                  <div key={label} className="flex items-center gap-3">
+                    <span className="w-32 sm:w-44 shrink-0 text-xs text-white/60 truncate">
+                      {label}
+                    </span>
+                    <div className="flex-1 h-1.5 rounded-full bg-white/[0.05] overflow-hidden">
+                      <div
+                        className="h-full rounded-full"
+                        style={{
+                          width: `${Math.round((count / (breakdownTotal || 1)) * 100)}%`,
+                          backgroundColor: color,
+                          opacity: 0.7,
+                        }}
+                      />
+                    </div>
+                    <span className="w-12 text-right font-mono text-xs text-white/40 tabular-nums">
+                      {count.toLocaleString()}
+                    </span>
+                  </div>
+                ))}
+              </div>
             </div>
           )}
         </div>

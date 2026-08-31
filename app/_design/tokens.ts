@@ -97,6 +97,11 @@ export const SECTOR_ORDER = [
   "Manufacturing",
   "Retail",
   "Media",
+  "Education",
+  "Hospitality",
+  "Logistics",
+  "Energy",
+  "Telecom",
 ] as const;
 
 export const SIGNAL_ORDER = [
