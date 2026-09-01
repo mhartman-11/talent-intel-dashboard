@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-31T22:36:43.102904Z",
+  "generated_at": "2026-09-01T04:07:33.723949Z",
   "next_ingest_at": null,
-  "total_events": 3834,
-  "events_7d": 1462,
+  "total_events": 3754,
+  "events_7d": 1472,
   "sources": [
     {
       "source": "greenhouse",
@@ -10,9 +10,9 @@
       "url": "https://boards-api.greenhouse.io",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-08-31T22:36:43.197513Z",
-      "last_attempted": "2026-08-31T22:36:43.197513Z",
-      "record_count": 3180,
+      "last_ok": "2026-09-01T04:07:33.817144Z",
+      "last_attempted": "2026-09-01T04:07:33.817144Z",
+      "record_count": 3202,
       "ok": true,
       "errors": [
         "DoorDash (doordash): GET https://boards-api.greenhouse.io/v1/boards/doordash/jobs failed: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/doordash/jobs?content=true'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
@@ -32,8 +32,8 @@
       "url": "https://api.lever.co/v0/postings",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-08-31T22:37:11.214540Z",
-      "last_attempted": "2026-08-31T22:37:11.214540Z",
+      "last_ok": "2026-09-01T04:08:00.186968Z",
+      "last_attempted": "2026-09-01T04:08:00.186968Z",
       "record_count": 86,
       "ok": true,
       "errors": [
@@ -49,9 +49,9 @@
       "url": "https://api.ashbyhq.com/posting-api",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-08-31T22:37:20.169679Z",
-      "last_attempted": "2026-08-31T22:37:20.169679Z",
-      "record_count": 243,
+      "last_ok": "2026-09-01T04:08:10.803091Z",
+      "last_attempted": "2026-09-01T04:08:10.803091Z",
+      "record_count": 244,
       "ok": true,
       "errors": [
         "Replicate (replicate): GET https://api.ashbyhq.com/posting-api/job-board/replicate failed: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/replicate'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
@@ -63,8 +63,8 @@
       "url": "https://techcrunch.com/tag/layoffs/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-08-31T22:37:22.881886Z",
-      "last_attempted": "2026-08-31T22:37:22.881886Z",
+      "last_ok": "2026-09-01T04:08:13.431409Z",
+      "last_attempted": "2026-09-01T04:08:13.431409Z",
       "record_count": 6,
       "ok": true,
       "errors": []
@@ -75,9 +75,9 @@
       "url": "https://news.google.com/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-08-31T22:37:23.485856Z",
-      "last_attempted": "2026-08-31T22:37:23.485856Z",
-      "record_count": 27,
+      "last_ok": "2026-09-01T04:08:13.776397Z",
+      "last_attempted": "2026-09-01T04:08:13.776397Z",
+      "record_count": 25,
       "ok": true,
       "errors": []
     },
@@ -87,8 +87,8 @@
       "url": "https://data.texas.gov/d/8w53-c4f6",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-08-31T22:37:26.494346Z",
-      "last_attempted": "2026-08-31T22:37:26.494346Z",
+      "last_ok": "2026-09-01T04:08:16.770624Z",
+      "last_attempted": "2026-09-01T04:08:16.770624Z",
       "record_count": 69,
       "ok": true,
       "errors": []
@@ -99,9 +99,9 @@
       "url": "https://techcrunch.com/category/venture/feed/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-08-31T22:37:27.904009Z",
-      "last_attempted": "2026-08-31T22:37:27.904009Z",
-      "record_count": 11,
+      "last_ok": "2026-09-01T04:08:17.807517Z",
+      "last_attempted": "2026-09-01T04:08:17.807517Z",
+      "record_count": 12,
       "ok": true,
       "errors": []
     },
@@ -111,8 +111,8 @@
       "url": "https://efts.sec.gov/LATEST/search-index",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-08-31T22:37:28.151257Z",
-      "last_attempted": "2026-08-31T22:37:28.151257Z",
+      "last_ok": "2026-09-01T04:08:17.886288Z",
+      "last_attempted": "2026-09-01T04:08:17.886288Z",
       "record_count": 112,
       "ok": true,
       "errors": []
@@ -123,11 +123,13 @@
       "url": "https://www.bls.gov/oes/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-08-31T22:37:29.036742Z",
-      "last_attempted": "2026-08-31T22:37:29.036742Z",
-      "record_count": 24,
-      "ok": true,
-      "errors": []
+      "last_ok": null,
+      "last_attempted": "2026-09-01T04:08:18.417134Z",
+      "record_count": 0,
+      "ok": false,
+      "errors": [
+        "BLS API: REQUEST_NOT_PROCESSED \u2014 Request could not be serviced, as the daily threshold for total number of requests allocated to the user with registration key  has been reached."
+      ]
     },
     {
       "source": "comp",
@@ -135,11 +137,13 @@
       "url": "https://www.bls.gov/ces/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-08-31T22:37:29.555045Z",
-      "last_attempted": "2026-08-31T22:37:29.555045Z",
-      "record_count": 48,
-      "ok": true,
-      "errors": []
+      "last_ok": null,
+      "last_attempted": "2026-09-01T04:08:18.660914Z",
+      "record_count": 0,
+      "ok": false,
+      "errors": [
+        "BLS API: ['Request could not be serviced, as the daily threshold for total number of requests allocated to the user with registration key  has been reached.']"
+      ]
     },
     {
       "source": "fred",
@@ -147,22 +151,24 @@
       "url": "https://www.bls.gov/developers/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-08-31T22:37:29.833988Z",
-      "last_attempted": "2026-08-31T22:37:29.833988Z",
-      "record_count": 30,
-      "ok": true,
-      "errors": []
+      "last_ok": null,
+      "last_attempted": "2026-09-01T04:08:18.783570Z",
+      "record_count": 0,
+      "ok": false,
+      "errors": [
+        "BLS API: ['Request could not be serviced, as the daily threshold for total number of requests allocated to the user with registration key  has been reached.']"
+      ]
     }
   ],
   "recent_signals": [
     {
-      "id": "825fb9411247a382",
-      "ts": "2026-08-31T18:35:45-04:00",
+      "id": "caf3b573a2bfe44d",
+      "ts": "2026-09-01T00:02:12-04:00",
       "source": "greenhouse",
-      "source_url": "https://stripe.com/jobs/search?gh_jid=8130927",
+      "source_url": "https://job-boards.greenhouse.io/gitlab/jobs/8564957002",
       "type": "posting",
       "company": {
-        "name": "Stripe",
+        "name": "GitLab",
         "ticker": null,
         "industry": null,
         "sector": "Technology",
@@ -171,61 +177,29 @@
       },
       "magnitude": null,
       "unit": "jobs",
-      "raw_text": "Stripe | Software Engineer, New Grad - Frontend | Barcelona",
+      "raw_text": "GitLab | Principal Product Manager, AI Custom Models | Remote, Canada; Remote, US",
       "tags": [
         "hiring",
         "greenhouse",
         "technology",
-        "Software Engineering"
+        "Product"
       ],
       "extras": {
-        "role": "Software Engineer, New Grad - Frontend",
-        "location": "Barcelona",
-        "function": "Software Engineering",
-        "soc": "15-1252",
-        "seniority": "mid"
+        "role": "Principal Product Manager, AI Custom Models",
+        "location": "Remote, Canada; Remote, US",
+        "function": "Product",
+        "soc": "11-2021",
+        "seniority": "principal"
       }
     },
     {
-      "id": "7f7609e252c46525",
-      "ts": "2026-08-31T18:33:22-04:00",
+      "id": "5c66a08d3bd8f6ac",
+      "ts": "2026-08-31T23:42:19-04:00",
       "source": "greenhouse",
-      "source_url": "https://www.coinbase.com/careers/positions/8064916?gh_jid=8064916",
+      "source_url": "https://boards.greenhouse.io/cloudflare/jobs/8158620?gh_jid=8158620",
       "type": "posting",
       "company": {
-        "name": "Coinbase",
-        "ticker": null,
-        "industry": null,
-        "sector": "Finance",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Coinbase | Staff Software Engineer, Backend - FinHub (Ledger) | Remote - USA",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "finance",
-        "Software Engineering"
-      ],
-      "extras": {
-        "role": "Staff Software Engineer, Backend - FinHub (Ledger)",
-        "location": "Remote - USA",
-        "function": "Software Engineering",
-        "soc": "15-1252",
-        "seniority": "staff",
-        "remote": "remote"
-      }
-    },
-    {
-      "id": "843a8f7c2e6bb46a",
-      "ts": "2026-08-31T18:32:53-04:00",
-      "source": "greenhouse",
-      "source_url": "https://stripe.com/jobs/search?gh_jid=8130930",
-      "type": "posting",
-      "company": {
-        "name": "Stripe",
+        "name": "Cloudflare",
         "ticker": null,
         "industry": null,
         "sector": "Technology",
@@ -234,61 +208,29 @@
       },
       "magnitude": null,
       "unit": "jobs",
-      "raw_text": "Stripe | Software Engineer, New Grad | London",
+      "raw_text": "Cloudflare | Enterprise Customer Engineer, Vietnam | Hybrid",
       "tags": [
         "hiring",
         "greenhouse",
-        "technology",
-        "Software Engineering"
+        "technology"
       ],
       "extras": {
-        "role": "Software Engineer, New Grad",
-        "location": "London",
-        "function": "Software Engineering",
-        "soc": "15-1252",
-        "seniority": "mid"
+        "role": "Enterprise Customer Engineer, Vietnam",
+        "location": "Hybrid",
+        "seniority": "mid",
+        "stack": [
+          "go"
+        ]
       }
     },
     {
-      "id": "87fada2b86eb4c84",
-      "ts": "2026-08-31T18:32:10-04:00",
+      "id": "71c70ccf3111e295",
+      "ts": "2026-08-31T23:37:04-04:00",
       "source": "greenhouse",
-      "source_url": "https://www.pinterestcareers.com/jobs/?gh_jid=8157108",
+      "source_url": "https://boards.greenhouse.io/cloudflare/jobs/8158617?gh_jid=8158617",
       "type": "posting",
       "company": {
-        "name": "Pinterest",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": "CA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Pinterest | Sr. Director, Security Engineering | Palo Alto, CA, US; San Francisco, CA, US",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "CA",
-        "Security"
-      ],
-      "extras": {
-        "role": "Sr. Director, Security Engineering",
-        "location": "Palo Alto, CA, US; San Francisco, CA, US",
-        "function": "Security",
-        "soc": "15-1212",
-        "seniority": "director"
-      }
-    },
-    {
-      "id": "6ff9a69dc64d828c",
-      "ts": "2026-08-31T18:30:38-04:00",
-      "source": "greenhouse",
-      "source_url": "https://stripe.com/jobs/search?gh_jid=8130867",
-      "type": "posting",
-      "company": {
-        "name": "Stripe",
+        "name": "Cloudflare",
         "ticker": null,
         "industry": null,
         "sector": "Technology",
@@ -297,24 +239,86 @@
       },
       "magnitude": null,
       "unit": "jobs",
-      "raw_text": "Stripe | Software Engineer, Intern | London",
+      "raw_text": "Cloudflare | Enterprise Customer Engineer, Indonesia | Hybrid",
       "tags": [
         "hiring",
         "greenhouse",
-        "technology",
-        "Software Engineering"
+        "technology"
       ],
       "extras": {
-        "role": "Software Engineer, Intern",
-        "location": "London",
-        "function": "Software Engineering",
-        "soc": "15-1252",
-        "seniority": "intern"
+        "role": "Enterprise Customer Engineer, Indonesia",
+        "location": "Hybrid",
+        "seniority": "mid",
+        "stack": [
+          "go"
+        ]
+      }
+    },
+    {
+      "id": "c4901240b951c675",
+      "ts": "2026-08-31T23:24:42-04:00",
+      "source": "greenhouse",
+      "source_url": "https://boards.greenhouse.io/cloudflare/jobs/8158609?gh_jid=8158609",
+      "type": "posting",
+      "company": {
+        "name": "Cloudflare",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Cloudflare | Enterprise Customer Engineer, Singapore | Hybrid",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology"
+      ],
+      "extras": {
+        "role": "Enterprise Customer Engineer, Singapore",
+        "location": "Hybrid",
+        "seniority": "mid",
+        "stack": [
+          "go"
+        ]
+      }
+    },
+    {
+      "id": "bcb4b27a51fc8254",
+      "ts": "2026-08-31T23:21:04-04:00",
+      "source": "greenhouse",
+      "source_url": "https://boards.greenhouse.io/cloudflare/jobs/8158614?gh_jid=8158614",
+      "type": "posting",
+      "company": {
+        "name": "Cloudflare",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Cloudflare | Enterprise Customer Engineer, Singapore | Hybrid",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology"
+      ],
+      "extras": {
+        "role": "Enterprise Customer Engineer, Singapore",
+        "location": "Hybrid",
+        "seniority": "mid",
+        "stack": [
+          "go"
+        ]
       }
     },
     {
       "id": "892a3e49876160db",
-      "ts": "2026-08-31T18:22:27-04:00",
+      "ts": "2026-08-31T22:38:55-04:00",
       "source": "greenhouse",
       "source_url": "https://stripe.com/jobs/search?gh_jid=8128744",
       "type": "posting",
@@ -346,7 +350,7 @@
     },
     {
       "id": "d6d0c73942632bef",
-      "ts": "2026-08-31T18:20:45-04:00",
+      "ts": "2026-08-31T22:38:22-04:00",
       "source": "greenhouse",
       "source_url": "https://stripe.com/jobs/search?gh_jid=8128745",
       "type": "posting",
@@ -360,7 +364,7 @@
       },
       "magnitude": null,
       "unit": "jobs",
-      "raw_text": "Stripe | Software Engineer, Intern | San Francisco, Seattle, New York City",
+      "raw_text": "Stripe | Software Engineer, Intern (Summer or Winter) | San Francisco, Seattle, New York City",
       "tags": [
         "hiring",
         "greenhouse",
@@ -369,7 +373,7 @@
         "Software Engineering"
       ],
       "extras": {
-        "role": "Software Engineer, Intern",
+        "role": "Software Engineer, Intern (Summer or Winter)",
         "location": "San Francisco, Seattle, New York City",
         "function": "Software Engineering",
         "soc": "15-1252",
@@ -377,10 +381,10 @@
       }
     },
     {
-      "id": "b9c25820dd45da26",
-      "ts": "2026-08-31T18:19:57-04:00",
+      "id": "3f347eff146d611f",
+      "ts": "2026-08-31T22:35:11-04:00",
       "source": "greenhouse",
-      "source_url": "https://boards.greenhouse.io/cloudflare/jobs/8099018?gh_jid=8099018",
+      "source_url": "https://boards.greenhouse.io/cloudflare/jobs/8161030?gh_jid=8161030",
       "type": "posting",
       "company": {
         "name": "Cloudflare",
@@ -392,20 +396,415 @@
       },
       "magnitude": null,
       "unit": "jobs",
-      "raw_text": "Cloudflare | Recruiting Coordinator (Contract) | Hybrid",
+      "raw_text": "Cloudflare | Technical Accounting Analyst (Infrastructure) | In-Office",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology"
+      ],
+      "extras": {
+        "role": "Technical Accounting Analyst (Infrastructure)",
+        "location": "In-Office",
+        "seniority": "mid"
+      }
+    },
+    {
+      "id": "0b85cc9776b67a4d",
+      "ts": "2026-08-31T22:09:06-04:00",
+      "source": "greenhouse",
+      "source_url": "https://stripe.com/jobs/search?gh_jid=7975725",
+      "type": "posting",
+      "company": {
+        "name": "Stripe",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Stripe | Software Engineer, Core Infrastructure | Sydney, Australia",
       "tags": [
         "hiring",
         "greenhouse",
         "technology",
-        "People / HR / Recruiting"
+        "Software Engineering"
       ],
       "extras": {
-        "role": "Recruiting Coordinator (Contract)",
-        "location": "Hybrid",
-        "function": "People / HR / Recruiting",
-        "soc": "13-1071",
+        "role": "Software Engineer, Core Infrastructure",
+        "location": "Sydney, Australia",
+        "function": "Software Engineering",
+        "soc": "15-1252",
+        "seniority": "mid",
+        "remote": "remote"
+      }
+    },
+    {
+      "id": "5cb34d93b5086a5d",
+      "ts": "2026-08-31T22:04:50-04:00",
+      "source": "greenhouse",
+      "source_url": "https://www.pinterestcareers.com/jobs/?gh_jid=8154435",
+      "type": "posting",
+      "company": {
+        "name": "Pinterest",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Pinterest | Head of Business Marketing, Australia | Sydney, AU",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology"
+      ],
+      "extras": {
+        "role": "Head of Business Marketing, Australia",
+        "location": "Sydney, AU",
         "seniority": "mid"
       }
+    },
+    {
+      "id": "737acd0b193b5e0a",
+      "ts": "2026-08-31T21:46:57-04:00",
+      "source": "greenhouse",
+      "source_url": "https://boards.greenhouse.io/cloudflare/jobs/8139140?gh_jid=8139140",
+      "type": "posting",
+      "company": {
+        "name": "Cloudflare",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Cloudflare | Response Engineer - CMDC | Hybrid",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology"
+      ],
+      "extras": {
+        "role": "Response Engineer - CMDC",
+        "location": "Hybrid",
+        "seniority": "mid",
+        "remote": "hybrid"
+      }
+    },
+    {
+      "id": "45ed166cc3a66c65",
+      "ts": "2026-08-31T20:57:27-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/anthropic/jobs/5175782008",
+      "type": "posting",
+      "company": {
+        "name": "Anthropic",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": "CA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Anthropic | Manager, Account Executive - Enterprise Sales | San Francisco, CA | New York City, NY",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "CA",
+        "Sales"
+      ],
+      "extras": {
+        "role": "Manager, Account Executive - Enterprise Sales",
+        "location": "San Francisco, CA | New York City, NY",
+        "function": "Sales",
+        "soc": "41-3091",
+        "seniority": "manager"
+      }
+    },
+    {
+      "id": "7953f2fc92954704",
+      "ts": "2026-09-01T00:38:30.871000Z",
+      "source": "ashby",
+      "source_url": "https://jobs.ashbyhq.com/perplexity/5930b6bf-b4b1-4134-a183-832d69dd085f",
+      "type": "posting",
+      "company": {
+        "name": "Perplexity AI",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": "CA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Perplexity AI | Counsel, Product | San Francisco | Legal",
+      "tags": [
+        "hiring",
+        "ashby",
+        "technology",
+        "CA"
+      ],
+      "extras": {
+        "role": "Counsel, Product",
+        "location": "San Francisco",
+        "department": "Legal",
+        "employment_type": "FullTime",
+        "seniority": "mid",
+        "remote": "remote",
+        "stack": [
+          "spark"
+        ]
+      }
+    },
+    {
+      "id": "e1fe9831eb666ad3",
+      "ts": "2026-08-31T20:32:43-04:00",
+      "source": "greenhouse",
+      "source_url": "https://instacart.careers/job/?gh_jid=8163310",
+      "type": "posting",
+      "company": {
+        "name": "Instacart",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Instacart | Director, Compensation | Canada - Remote (ON, AB, BC, or NS Only)",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "Engineering Management"
+      ],
+      "extras": {
+        "role": "Director, Compensation",
+        "location": "Canada - Remote (ON, AB, BC, or NS Only)",
+        "function": "Engineering Management",
+        "soc": "11-9041",
+        "seniority": "director",
+        "remote": "remote"
+      }
+    },
+    {
+      "id": "f26eba6b64a18a3f",
+      "ts": "2026-08-31T20:32:20-04:00",
+      "source": "greenhouse",
+      "source_url": "https://instacart.careers/job/?gh_jid=8163246",
+      "type": "posting",
+      "company": {
+        "name": "Instacart",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Instacart | Director, Compensation | United States - Remote",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "Engineering Management"
+      ],
+      "extras": {
+        "role": "Director, Compensation",
+        "location": "United States - Remote",
+        "function": "Engineering Management",
+        "soc": "11-9041",
+        "seniority": "director",
+        "remote": "remote"
+      }
+    },
+    {
+      "id": "b648f812db1611f6",
+      "ts": "2026-08-31T20:30:34-04:00",
+      "source": "greenhouse",
+      "source_url": "https://instacart.careers/job/?gh_jid=8168294",
+      "type": "posting",
+      "company": {
+        "name": "Instacart",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Instacart | Director, Strategic Finance - Consolidation | Canada - Remote (ON, AB, BC, or NS Only)",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "Engineering Management"
+      ],
+      "extras": {
+        "role": "Director, Strategic Finance - Consolidation",
+        "location": "Canada - Remote (ON, AB, BC, or NS Only)",
+        "function": "Engineering Management",
+        "soc": "11-9041",
+        "seniority": "director",
+        "remote": "remote"
+      }
+    },
+    {
+      "id": "b3367a67f45092f0",
+      "ts": "2026-08-31T20:30:32-04:00",
+      "source": "greenhouse",
+      "source_url": "https://instacart.careers/job/?gh_jid=8168221",
+      "type": "posting",
+      "company": {
+        "name": "Instacart",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Instacart | Director, Strategic Finance - Consolidation | United States - Remote",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "Engineering Management"
+      ],
+      "extras": {
+        "role": "Director, Strategic Finance - Consolidation",
+        "location": "United States - Remote",
+        "function": "Engineering Management",
+        "soc": "11-9041",
+        "seniority": "director",
+        "remote": "remote"
+      }
+    },
+    {
+      "id": "08a65b4d9262d735",
+      "ts": "2026-08-31T20:30:03-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8168390",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Community Lifecycle Manager | Remote - United States",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media"
+      ],
+      "extras": {
+        "role": "Community Lifecycle Manager",
+        "location": "Remote - United States",
+        "seniority": "manager"
+      }
+    },
+    {
+      "id": "5a0cd5f5a5545bc5",
+      "ts": "2026-08-31T20:15:40-04:00",
+      "source": "greenhouse",
+      "source_url": "https://stripe.com/jobs/search?gh_jid=7456957",
+      "type": "posting",
+      "company": {
+        "name": "Stripe",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Stripe | Account Executive, Platforms (Existing Business) | Sydney, Australia",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "Sales"
+      ],
+      "extras": {
+        "role": "Account Executive, Platforms (Existing Business)",
+        "location": "Sydney, Australia",
+        "function": "Sales",
+        "soc": "41-3091",
+        "seniority": "mid"
+      }
+    },
+    {
+      "id": "46ad8b332c76863b",
+      "ts": "2026-08-31T20:14:56-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/anthropic/jobs/5390984008",
+      "type": "posting",
+      "company": {
+        "name": "Anthropic",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": "CA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Anthropic | BDR Enablement Lead | San Francisco, CA | New York City, NY",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "CA",
+        "Sales"
+      ],
+      "extras": {
+        "role": "BDR Enablement Lead",
+        "location": "San Francisco, CA | New York City, NY",
+        "function": "Sales",
+        "soc": "41-3091",
+        "seniority": "lead"
+      }
+    },
+    {
+      "id": "d3b69b27087ffcd9",
+      "ts": "2026-08-31T23:14:14Z",
+      "source": "org_moves",
+      "source_url": "https://techcrunch.com/2026/08/31/a16z-brings-growth-fund-to-8-5b-days-after-launching-new-1-1b-fund/",
+      "type": "funding",
+      "company": {
+        "name": "Unknown",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": 8500000000.0,
+      "unit": "USD",
+      "raw_text": "a16z brings growth fund to $8.5B days after launching new $1.1B fund",
+      "tags": [
+        "funding",
+        "other"
+      ],
+      "extras": {}
     },
     {
       "id": "f9d58251db05c5ba",
@@ -431,396 +830,8 @@
       "extras": {}
     },
     {
-      "id": "a6059e09b1946cd2",
-      "ts": "2026-08-31T18:13:12-04:00",
-      "source": "greenhouse",
-      "source_url": "https://stripe.com/jobs/search?gh_jid=7704660",
-      "type": "posting",
-      "company": {
-        "name": "Stripe",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": "CA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Stripe | People Partner | San Francisco, Seattle, New York, Chicago, Atlanta or Toronto",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "CA"
-      ],
-      "extras": {
-        "role": "People Partner",
-        "location": "San Francisco, Seattle, New York, Chicago, Atlanta or Toronto",
-        "seniority": "mid"
-      }
-    },
-    {
-      "id": "80e3c6c1b78a7a29",
-      "ts": "2026-08-31T17:58:51-04:00",
-      "source": "greenhouse",
-      "source_url": "https://stripe.com/jobs/search?gh_jid=7955051",
-      "type": "posting",
-      "company": {
-        "name": "Stripe",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Stripe | Operations Associate - Bridge (CDMX) | Mexico City",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "Operations"
-      ],
-      "extras": {
-        "role": "Operations Associate - Bridge (CDMX)",
-        "location": "Mexico City",
-        "function": "Operations",
-        "soc": "11-1021",
-        "seniority": "junior"
-      }
-    },
-    {
-      "id": "e89b671ec2e8e951",
-      "ts": "2026-08-31T17:56:36-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/gitlab/jobs/8503792002",
-      "type": "posting",
-      "company": {
-        "name": "GitLab",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "GitLab | Account Executive - Italy | Remote, Italy",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "Sales"
-      ],
-      "extras": {
-        "role": "Account Executive - Italy",
-        "location": "Remote, Italy",
-        "function": "Sales",
-        "soc": "41-3091",
-        "seniority": "mid"
-      }
-    },
-    {
-      "id": "5e01be9979a043b9",
-      "ts": "2026-08-31T17:56:36-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/gitlab/jobs/8556658002",
-      "type": "posting",
-      "company": {
-        "name": "GitLab",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "GitLab | AI Engineer | Remote, Bangalore",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "Data / ML"
-      ],
-      "extras": {
-        "role": "AI Engineer",
-        "location": "Remote, Bangalore",
-        "function": "Data / ML",
-        "soc": "15-2051",
-        "seniority": "mid"
-      }
-    },
-    {
-      "id": "c5e2268c7443a473",
-      "ts": "2026-08-31T17:56:36-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/gitlab/jobs/8638232002",
-      "type": "posting",
-      "company": {
-        "name": "GitLab",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "GitLab | AI Transformation Owner, CRO | Remote, United States",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "Sales"
-      ],
-      "extras": {
-        "role": "AI Transformation Owner, CRO",
-        "location": "Remote, United States",
-        "function": "Sales",
-        "soc": "41-3091",
-        "seniority": "c_level"
-      }
-    },
-    {
-      "id": "0ac31724e8bb9399",
-      "ts": "2026-08-31T17:56:36-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/gitlab/jobs/8716179002",
-      "type": "posting",
-      "company": {
-        "name": "GitLab",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "GitLab | AI Transformation Owner, Product & Design | Remote, Canada; Remote, United Kingdom; Remote, United States",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology"
-      ],
-      "extras": {
-        "role": "AI Transformation Owner, Product & Design",
-        "location": "Remote, Canada; Remote, United Kingdom; Remote, United States",
-        "seniority": "mid"
-      }
-    },
-    {
-      "id": "ae4c46cc2a5f24a7",
-      "ts": "2026-08-31T17:56:36-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/gitlab/jobs/8631068002",
-      "type": "posting",
-      "company": {
-        "name": "GitLab",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "GitLab | Area Vice President - Financial Services | Remote, US",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology"
-      ],
-      "extras": {
-        "role": "Area Vice President - Financial Services",
-        "location": "Remote, US",
-        "seniority": "vp"
-      }
-    },
-    {
-      "id": "cbd0b6e54969a61f",
-      "ts": "2026-08-31T17:56:36-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/gitlab/jobs/8687171002",
-      "type": "posting",
-      "company": {
-        "name": "GitLab",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "GitLab | Associate Solutions Architect (French or German fluency) | Remote, Spain",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology"
-      ],
-      "extras": {
-        "role": "Associate Solutions Architect (French or German fluency)",
-        "location": "Remote, Spain",
-        "seniority": "junior"
-      }
-    },
-    {
-      "id": "ec5d8722980d8aa1",
-      "ts": "2026-08-31T17:56:36-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/gitlab/jobs/8675543002",
-      "type": "posting",
-      "company": {
-        "name": "GitLab",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "GitLab | Associate Solutions Architect (French or German fluency) | Remote Ireland",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology"
-      ],
-      "extras": {
-        "role": "Associate Solutions Architect (French or German fluency)",
-        "location": "Remote Ireland",
-        "seniority": "junior"
-      }
-    },
-    {
-      "id": "942825a5f87aa9f3",
-      "ts": "2026-08-31T17:56:36-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/gitlab/jobs/8698314002",
-      "type": "posting",
-      "company": {
-        "name": "GitLab",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "GitLab | Backend Engineer, AI Engineering: Duo Chat | Remote, Canada; Remote, United States",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "Software Engineering"
-      ],
-      "extras": {
-        "role": "Backend Engineer, AI Engineering: Duo Chat",
-        "location": "Remote, Canada; Remote, United States",
-        "function": "Software Engineering",
-        "soc": "15-1252",
-        "seniority": "mid",
-        "stack": [
-          "python",
-          "rails"
-        ]
-      }
-    },
-    {
-      "id": "7284b822516476b4",
-      "ts": "2026-08-31T17:56:36-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/gitlab/jobs/8695515002",
-      "type": "posting",
-      "company": {
-        "name": "GitLab",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "GitLab | Backend Engineer, Geo Team | Bangalore, India",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "Software Engineering"
-      ],
-      "extras": {
-        "role": "Backend Engineer, Geo Team",
-        "location": "Bangalore, India",
-        "function": "Software Engineering",
-        "soc": "15-1252",
-        "seniority": "mid"
-      }
-    },
-    {
-      "id": "d5a4bd1820f13288",
-      "ts": "2026-08-31T17:56:36-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/gitlab/jobs/8620720002",
-      "type": "posting",
-      "company": {
-        "name": "GitLab",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "GitLab | Backend Engineer (Ruby), AI Engineering: Agent Observability | Remote, Canada",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "Software Engineering"
-      ],
-      "extras": {
-        "role": "Backend Engineer (Ruby), AI Engineering: Agent Observability",
-        "location": "Remote, Canada",
-        "function": "Software Engineering",
-        "soc": "15-1252",
-        "seniority": "mid",
-        "stack": [
-          "go"
-        ]
-      }
-    },
-    {
-      "id": "6f48dcbcd6d2eec4",
-      "ts": "2026-08-31T14:01:55Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE55czByYWo4bldrVU0xdDA3dllmZU1BNnFOb0RpUlNfSHhLSTk5RG1KYkc4QjhZaEhYZ2J0RVFNM0FqcXIwVHRGQVpEaDdqdmZyeFg0ZWlYQlN0cDhNQkJv?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "Meta",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Meta Cuts 10% of Staff as Zuckerberg Scales Back AI Layoffs",
-      "tags": [
-        "layoff",
-        "technology"
-      ],
-      "extras": {}
-    },
-    {
       "id": "5f838db0baa3650e",
-      "ts": "2026-08-31T13:59:22Z",
+      "ts": "2026-08-31T13:59:05Z",
       "source": "news_layoffs",
       "source_url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQb1V0Wi1XZExoY2hZdk4ybldFZENENXVlSUM3V285TmxhUFhxejYwN1Y3ZEZKQlB5eTZFUTBfYi1KeTcyWW56dkRWOEgta0FWSnFxNUZZT0p6aERUcmM5Q2VEc0RqM1UyVDEtcTZFa3hEbXhRWWk4WUtqMDFlc21nWnZWZFdQZERZWUJqbzlzZzZsVEFadnJQMEpidkVpVElmcElTYVVsdFBPYnBETkhQaU1KQ1piYjN1YmNmbDVfNU02MWt1NXdtWUdJR3lySEs2cnBKM3dB0gHbAUFVX3lxTE9mVjkwTUowck1zVllleGo0RFgyTHUzejFBVXBIWTFXdzZYRkJZb0I1d0VfU2tReG9kWG54RDdlNXo1QWl0OHl4bTNQalM1Njk5UkN0aWxlN1Z3QWo4Rl9WeE5oTDVwR2NycTZxQVQzVS00UFFCdUM1d0F0aFUyd0w1NW9iV1NrT1RrVHkzazd6SW5pYWVwMHEwN3NRdTFEYk5MOXlVR1J2NkEzMFhsT0xqQXJNNko1QXB5R2dzaHh6NEsyY090TGZsdExEUFF5cXRCMUFNRUg3SGtmRQ?oc=5",
       "type": "layoff",
@@ -832,9 +843,9 @@
         "hq_region": null,
         "size_band": "unknown"
       },
-      "magnitude": 300.0,
+      "magnitude": 250.0,
       "unit": "people",
-      "raw_text": "Zomato to cut nearly 250-300 jobs as it shuts Hyderabad support centre",
+      "raw_text": "Zomato to cut about 250 jobs as its shuts Hyderabad customer support centre",
       "tags": [
         "layoff",
         "retail"
@@ -1570,34 +1581,6 @@
       }
     },
     {
-      "id": "86f32001e4a99639",
-      "ts": "2026-08-31T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2150600&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "StrataBio Inc.",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "StrataBio Inc. filed a Form D securities offering with the SEC on 2026-08-31.",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0002150600-26-000001",
-        "cik": "0002150600",
-        "file_date": "2026-08-31"
-      }
-    },
-    {
       "id": "42a3660c9c9c1cc0",
       "ts": "2026-08-29T17:25:13Z",
       "source": "news_layoffs",
@@ -1924,6 +1907,34 @@
       }
     },
     {
+      "id": "e4bfe1461f617af8",
+      "ts": "2026-08-28T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1402328&type=&dateb=&owner=include&count=40",
+      "type": "exec_move",
+      "company": {
+        "name": "Sunshine Biopharma Inc.",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Sunshine Biopharma Inc. reported an executive or board change in an 8-K filing on 2026-08-28.",
+      "tags": [
+        "exec_move",
+        "sec_8k",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0001683168-26-006777",
+        "cik": "0001402328",
+        "file_date": "2026-08-28"
+      }
+    },
+    {
       "id": "f7632396b8000019",
       "ts": "2026-08-27T19:59:00Z",
       "source": "news_layoffs",
@@ -2022,34 +2033,6 @@
       }
     },
     {
-      "id": "39880f9fb451039c",
-      "ts": "2026-08-27T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1419041&type=&dateb=&owner=include&count=40",
-      "type": "exec_move",
-      "company": {
-        "name": "Forte Biosciences, Inc.",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Forte Biosciences, Inc. reported an executive or board change in an 8-K filing on 2026-08-27.",
-      "tags": [
-        "exec_move",
-        "sec_8k",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0001140361-26-034698",
-        "cik": "0001419041",
-        "file_date": "2026-08-27"
-      }
-    },
-    {
       "id": "220811d4b9eb7060",
       "ts": "2026-08-26T21:43:08Z",
       "source": "news_layoffs",
@@ -2115,29 +2098,6 @@
       "tags": [
         "layoff",
         "technology"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "321d590ae7b6ea55",
-      "ts": "2026-08-25T10:19:01Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQbHF6cHF0X0UzN2RPYXJoaDJqaDhkSnE1TXE3TTFGRWVBZGQ0dFYzZmxreE5xNFlCLUcwTEV3Z0xPdG1NVi1Wc0RMVDRiaWdXSXhLRk1kNVhScFYwYXliclNFNFF4RFZ6dEV2bFBsZEV5aWZHcG5MTkZEZWRGY1BleHN3UUJFRnlSaEEzbXRTVEpfS25xQ3UxRWtVTFJDalZwaXBwNjJiMmMwMWRWcjBSakJfb1BXNDd6bkFsam96aEM2cFgxeXVlZNIBzgFBVV95cUxQWG5Qd2pmUGNmTDNOLUxqdXp1QnJuZWo1MkZNUTRCYVNJLVkwZFhScXFuRFhDWHlwTEM4cmc4QzE3dXRUQlNfY3lOVmhIOEtqOUZiY09zQkg4Wll0VElZTEN5RG9jMDZ1Y1l2NEQ3Z1gyTWI4TFkzNXhFaXRiVTYxZ2VjbzQzU29KbFVVcUNTeExjSk11dnBkc3BBelp1Nk42V25vT0hxWUJmV1pWd01Qc0NGc25UOHh0ekxEY3dQSjYxX3VGcnN5YWxoM1U0Zw?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "JPMorgan Chase",
-        "ticker": null,
-        "industry": null,
-        "sector": "Finance",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "JPMorgan Chase Announces 63 New Layoffs in New Jersey, Bringing Total Cuts Past 500",
-      "tags": [
-        "layoff",
-        "finance"
       ],
       "extras": {}
     },
@@ -2214,26 +2174,25 @@
       "extras": {}
     },
     {
-      "id": "56737b3a2800a5d4",
-      "ts": "2026-08-19T07:00:00Z",
+      "id": "7489b0173483c74c",
+      "ts": "2026-08-20T07:00:00Z",
       "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPeWliTHMzLXRJWENJSHhGQjAxcHcyUmlJOFVqN3F2a1FJWVVYNFJWZFFWd25ZQ0g0bXloQ3BaMmpPRXlUUzNGVWtnNlkyVWt3N3JLY2FmSTF5bW9pRHVSYy1oSnhyQzZaeWdXNGhhc180SlJGOURLQUhQMTVRVnZ4VEtOUV9rZUxYdG5nWGxMMnppTlZaWVBQN0tiZzN2V0FFcU1PeE9UTzc0UUF5VjJacw?oc=5",
+      "source_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOY3JvQjQtRmU4SGRqQnRzUjBoMkFiMUxvbDloWXg1c2VVVFBOTkc1cWQwWnZiVk55WVlqcEFqNC13ZVNZY0VIZUdiLTVJc2RVSzMtQWZENy1WWjZRMldocmwxZHBWWXdRdW1RQWxhbi1oZXdXUURBU3lqbU1WU0xLcEljTjZnWUpxeHgxaFFHM3hZNTAyanpiZWR2OFlTb2dFQ2ZIWktfM0JFSnhrUFBOSEhGXzd5SlNNLVVyZ2hEekxKT3I0UnVTZW5PSmV2bFU?oc=5",
       "type": "layoff",
       "company": {
-        "name": "Qualtrics",
+        "name": "Vox",
         "ticker": null,
         "industry": null,
-        "sector": "Technology",
-        "hq_region": "WA",
+        "sector": "Media",
+        "hq_region": null,
         "size_band": "unknown"
       },
       "magnitude": null,
       "unit": null,
-      "raw_text": "Qualtrics cuts jobs in Seattle, Utah and overseas as it absorbs $6.75B acquisition",
+      "raw_text": "Vox cuts jobs in first restructuring since James Murdoch's takeover, source says",
       "tags": [
         "layoff",
-        "technology",
-        "WA"
+        "media"
       ],
       "extras": {}
     },
@@ -2354,478 +2313,73 @@
       "extras": {}
     },
     {
-      "id": "a8df09cd127bed2f",
-      "ts": "2026-07-01T00:00:00Z",
-      "source": "comp",
-      "source_url": "https://data.bls.gov/timeseries/CES5000000003",
-      "type": "comp",
+      "id": "9f34186794df8531",
+      "ts": "2026-08-17T07:00:00Z",
+      "source": "news_layoffs",
+      "source_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNTnNBSzBRQzBZQUlrQWV4TVFWamZRcWItNjNCSXFDbGk0SGxEaXhVT3YwckQyTVU1amdWSGRNRW9NYi1oNW04WTlGajdyQlNZb1BSLV9rWHB5RVl0SzhVa1Q5Qm9oMDNKR1FtTWFPd3NIY29haElTYjBlUmlkSy1TaHFGVmhRM3kxR1MzaGpGY9IBlAFBVV95cUxPdHo2eUJ5a1JEb0tIOVZxVEFYVTFuQzNtSHVOdWFqX0JNLVlqSXpRODhaSWdWMzVPbnJHRjFoSzhOaTZRUkVlVTl4LVktOUU3X24xOEZOZWZZTmxXVzA2UDNHXzNnUlZCak1iWFBSb1dlRzhXT0FyY3VCTnNXV3gwb3Z4bDhNQ3dsUFpJMWc3a2ZSVnRG?oc=5",
+      "type": "layoff",
       "company": {
-        "name": "Information",
+        "name": "Ryder Trucks",
         "ticker": null,
         "industry": null,
         "sector": "Other",
         "hq_region": null,
         "size_band": "unknown"
       },
-      "magnitude": 55.7,
-      "unit": "USD/hr",
-      "raw_text": "Information: $55.70/hr avg earnings (Jul 2026)",
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Ryder Trucks announces 73 layoffs coming to Fayetteville",
       "tags": [
-        "comp",
-        "bls_ces",
-        "ces5000000003"
+        "layoff",
+        "other"
       ],
       "extras": {}
     },
     {
-      "id": "91fced7baa373703",
-      "ts": "2026-07-01T00:00:00Z",
-      "source": "comp",
-      "source_url": "https://data.bls.gov/timeseries/CES5500000003",
-      "type": "comp",
+      "id": "4c382e9805c63e7b",
+      "ts": "2026-08-14T07:00:00Z",
+      "source": "news_layoffs",
+      "source_url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQd2NQU1B5dnFUc256OU9RbllXRlNnOGtYTTlueFdPOEFxUEV5UmhQU25RalBJSmRlNmJFa2E5MTlmZXN4Nkh4ZjFBR05MZXBDYXRDcU5MWFRlNk1sNHZUTW0yVDh2eHh5UW82dXYtOFhjX3Q0bmF0Qy00a1ZKSE9ZU3FXUlBaNjIyaUxDaFdyckdYaGNxRVc2Qk1nLTc1MmRZQndzMU9SSExZbDczSEVuTXdMa2RRamJwWlVvWUgxM0dmX0NOaU5VUHpGdWxmT0FiajVkMS1xaThTQQ?oc=5",
+      "type": "layoff",
       "company": {
-        "name": "Financial Activities",
+        "name": "GM",
         "ticker": null,
         "industry": null,
-        "sector": "Other",
-        "hq_region": null,
+        "sector": "Manufacturing",
+        "hq_region": "MI",
         "size_band": "unknown"
       },
-      "magnitude": 49.44,
-      "unit": "USD/hr",
-      "raw_text": "Financial Activities: $49.44/hr avg earnings (Jul 2026)",
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "GM announces layoffs for Lansing Grand River plant retooling",
       "tags": [
-        "comp",
-        "bls_ces",
-        "ces5500000003"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "3fabcae3e828fb5d",
-      "ts": "2026-07-01T00:00:00Z",
-      "source": "comp",
-      "source_url": "https://data.bls.gov/timeseries/CES6000000003",
-      "type": "comp",
-      "company": {
-        "name": "Professional & Business Services",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": 45.68,
-      "unit": "USD/hr",
-      "raw_text": "Professional & Business Services: $45.68/hr avg earnings (Jul 2026)",
-      "tags": [
-        "comp",
-        "bls_ces",
-        "ces6000000003"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "7341f9110c54249f",
-      "ts": "2026-07-01T00:00:00Z",
-      "source": "comp",
-      "source_url": "https://data.bls.gov/timeseries/CES6500000003",
-      "type": "comp",
-      "company": {
-        "name": "Education & Health Services",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": 36.18,
-      "unit": "USD/hr",
-      "raw_text": "Education & Health Services: $36.18/hr avg earnings (Jul 2026)",
-      "tags": [
-        "comp",
-        "bls_ces",
-        "ces6500000003"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "bfa7486f85600729",
-      "ts": "2026-07-01T00:00:00Z",
-      "source": "comp",
-      "source_url": "https://data.bls.gov/timeseries/CES3000000003",
-      "type": "comp",
-      "company": {
-        "name": "Manufacturing",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": 36.87,
-      "unit": "USD/hr",
-      "raw_text": "Manufacturing: $36.87/hr avg earnings (Jul 2026)",
-      "tags": [
-        "comp",
-        "bls_ces",
-        "ces3000000003"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "8bec6915849d2c9b",
-      "ts": "2026-07-01T00:00:00Z",
-      "source": "comp",
-      "source_url": "https://data.bls.gov/timeseries/CES4000000003",
-      "type": "comp",
-      "company": {
-        "name": "Trade, Transport & Utilities",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": 32.0,
-      "unit": "USD/hr",
-      "raw_text": "Trade, Transport & Utilities: $32.00/hr avg earnings (Jul 2026)",
-      "tags": [
-        "comp",
-        "bls_ces",
-        "ces4000000003"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "3dcf00854bc115c3",
-      "ts": "2026-07-01T00:00:00Z",
-      "source": "comp",
-      "source_url": "https://data.bls.gov/timeseries/CES7000000003",
-      "type": "comp",
-      "company": {
-        "name": "Leisure & Hospitality",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": 23.63,
-      "unit": "USD/hr",
-      "raw_text": "Leisure & Hospitality: $23.63/hr avg earnings (Jul 2026)",
-      "tags": [
-        "comp",
-        "bls_ces",
-        "ces7000000003"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "fde4fa60e1afd2c7",
-      "ts": "2026-07-01T00:00:00Z",
-      "source": "comp",
-      "source_url": "https://data.bls.gov/timeseries/CES0500000003",
-      "type": "comp",
-      "company": {
-        "name": "All Private (US avg)",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": 37.62,
-      "unit": "USD/hr",
-      "raw_text": "All Private (US avg): $37.62/hr avg earnings (Jul 2026)",
-      "tags": [
-        "comp",
-        "bls_ces",
-        "ces0500000003"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "3643d1d4b40fde52",
-      "ts": "2026-07-01T00:00:00Z",
-      "source": "fred",
-      "source_url": "https://fred.stlouisfed.org/series/LNS14000000",
-      "type": "macro",
-      "company": null,
-      "magnitude": 4.1,
-      "unit": "pp",
-      "raw_text": "US Unemployment Rate (%): 4.1",
-      "tags": [
-        "macro",
-        "fred",
-        "lns14000000"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "13b89a5732e317a6",
-      "ts": "2026-07-01T00:00:00Z",
-      "source": "fred",
-      "source_url": "https://fred.stlouisfed.org/series/CES0500000003",
-      "type": "macro",
-      "company": null,
-      "magnitude": 37.62,
-      "unit": "USD/hr",
-      "raw_text": "Private Sector Avg Hourly Earnings ($): 37.62",
-      "tags": [
-        "macro",
-        "fred",
-        "ces0500000003"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "77b5266f69b44003",
-      "ts": "2026-06-01T00:00:00Z",
-      "source": "comp",
-      "source_url": "https://data.bls.gov/timeseries/CES5000000003",
-      "type": "comp",
-      "company": {
-        "name": "Information",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": 55.44,
-      "unit": "USD/hr",
-      "raw_text": "Information: $55.44/hr avg earnings (Jun 2026)",
-      "tags": [
-        "comp",
-        "bls_ces",
-        "ces5000000003"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "74cfea1d7bb54948",
-      "ts": "2026-06-01T00:00:00Z",
-      "source": "comp",
-      "source_url": "https://data.bls.gov/timeseries/CES5500000003",
-      "type": "comp",
-      "company": {
-        "name": "Financial Activities",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": 49.52,
-      "unit": "USD/hr",
-      "raw_text": "Financial Activities: $49.52/hr avg earnings (Jun 2026)",
-      "tags": [
-        "comp",
-        "bls_ces",
-        "ces5500000003"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "11ea4e1a71aa3191",
-      "ts": "2026-06-01T00:00:00Z",
-      "source": "comp",
-      "source_url": "https://data.bls.gov/timeseries/CES6000000003",
-      "type": "comp",
-      "company": {
-        "name": "Professional & Business Services",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": 45.67,
-      "unit": "USD/hr",
-      "raw_text": "Professional & Business Services: $45.67/hr avg earnings (Jun 2026)",
-      "tags": [
-        "comp",
-        "bls_ces",
-        "ces6000000003"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "d2fdfe05f07b396d",
-      "ts": "2026-06-01T00:00:00Z",
-      "source": "comp",
-      "source_url": "https://data.bls.gov/timeseries/CES6500000003",
-      "type": "comp",
-      "company": {
-        "name": "Education & Health Services",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": 36.23,
-      "unit": "USD/hr",
-      "raw_text": "Education & Health Services: $36.23/hr avg earnings (Jun 2026)",
-      "tags": [
-        "comp",
-        "bls_ces",
-        "ces6500000003"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "070250d50913ed27",
-      "ts": "2026-06-01T00:00:00Z",
-      "source": "comp",
-      "source_url": "https://data.bls.gov/timeseries/CES3000000003",
-      "type": "comp",
-      "company": {
-        "name": "Manufacturing",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": 36.74,
-      "unit": "USD/hr",
-      "raw_text": "Manufacturing: $36.74/hr avg earnings (Jun 2026)",
-      "tags": [
-        "comp",
-        "bls_ces",
-        "ces3000000003"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "91dc251e1a28b201",
-      "ts": "2026-06-01T00:00:00Z",
-      "source": "comp",
-      "source_url": "https://data.bls.gov/timeseries/CES4000000003",
-      "type": "comp",
-      "company": {
-        "name": "Trade, Transport & Utilities",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": 31.97,
-      "unit": "USD/hr",
-      "raw_text": "Trade, Transport & Utilities: $31.97/hr avg earnings (Jun 2026)",
-      "tags": [
-        "comp",
-        "bls_ces",
-        "ces4000000003"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "295bba00de38af93",
-      "ts": "2026-06-01T00:00:00Z",
-      "source": "comp",
-      "source_url": "https://data.bls.gov/timeseries/CES7000000003",
-      "type": "comp",
-      "company": {
-        "name": "Leisure & Hospitality",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": 23.64,
-      "unit": "USD/hr",
-      "raw_text": "Leisure & Hospitality: $23.64/hr avg earnings (Jun 2026)",
-      "tags": [
-        "comp",
-        "bls_ces",
-        "ces7000000003"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "e6df81d2f973a563",
-      "ts": "2026-06-01T00:00:00Z",
-      "source": "comp",
-      "source_url": "https://data.bls.gov/timeseries/CES0500000003",
-      "type": "comp",
-      "company": {
-        "name": "All Private (US avg)",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": 37.6,
-      "unit": "USD/hr",
-      "raw_text": "All Private (US avg): $37.60/hr avg earnings (Jun 2026)",
-      "tags": [
-        "comp",
-        "bls_ces",
-        "ces0500000003"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "11d2d00aebd5bb95",
-      "ts": "2026-06-01T00:00:00Z",
-      "source": "fred",
-      "source_url": "https://fred.stlouisfed.org/series/LNS14000000",
-      "type": "macro",
-      "company": null,
-      "magnitude": 4.2,
-      "unit": "pp",
-      "raw_text": "US Unemployment Rate (%): 4.2",
-      "tags": [
-        "macro",
-        "fred",
-        "lns14000000"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "eda36bf5b25ce1af",
-      "ts": "2026-06-01T00:00:00Z",
-      "source": "fred",
-      "source_url": "https://fred.stlouisfed.org/series/JTS000000000000000JOR",
-      "type": "macro",
-      "company": null,
-      "magnitude": 4.4,
-      "unit": "pp",
-      "raw_text": "JOLTS: Job Openings Rate (%): 4.4",
-      "tags": [
-        "macro",
-        "fred",
-        "jts000000000000000jor"
+        "layoff",
+        "manufacturing",
+        "MI"
       ],
       "extras": {}
     }
   ],
   "sector_matrix": {
-    "generated_at": "2026-08-31T22:36:43.102904Z",
+    "generated_at": "2026-09-01T04:07:33.723949Z",
     "cells": [
       {
         "sector": "Technology",
         "signal_type": "layoff",
-        "count_7d": 3,
-        "count_30d": 4,
+        "count_7d": 2,
+        "count_30d": 2,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 2.07
+        "z_score": 1.53
       },
       {
         "sector": "Technology",
         "signal_type": "posting",
-        "count_7d": 1023,
-        "count_30d": 2238,
+        "count_7d": 1038,
+        "count_30d": 2257,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 21.92
+        "z_score": 22.28
       },
       {
         "sector": "Technology",
@@ -2857,29 +2411,29 @@
       {
         "sector": "Finance",
         "signal_type": "layoff",
-        "count_7d": 1,
-        "count_30d": 2,
+        "count_7d": 0,
+        "count_30d": 1,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 0.53
+        "z_score": -0.23
       },
       {
         "sector": "Finance",
         "signal_type": "posting",
-        "count_7d": 187,
-        "count_30d": 301,
+        "count_7d": 185,
+        "count_30d": 300,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 13.93
+        "z_score": 13.75
       },
       {
         "sector": "Finance",
         "signal_type": "exec_move",
-        "count_7d": 2,
+        "count_7d": 0,
         "count_30d": 3,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 1.3
+        "z_score": -0.7
       },
       {
         "sector": "Finance",
@@ -2911,20 +2465,20 @@
       {
         "sector": "Healthcare",
         "signal_type": "posting",
-        "count_7d": 70,
-        "count_30d": 151,
+        "count_7d": 74,
+        "count_30d": 155,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 5.86
+        "z_score": 6.29
       },
       {
         "sector": "Healthcare",
         "signal_type": "exec_move",
         "count_7d": 1,
-        "count_30d": 4,
+        "count_30d": 2,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 0.07
+        "z_score": 0.53
       },
       {
         "sector": "Healthcare",
@@ -3010,11 +2564,11 @@
       {
         "sector": "Manufacturing",
         "signal_type": "exec_move",
-        "count_7d": 2,
+        "count_7d": 1,
         "count_30d": 3,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 1.3
+        "z_score": 0.3
       },
       {
         "sector": "Manufacturing",
@@ -3039,7 +2593,7 @@
         "signal_type": "layoff",
         "count_7d": 1,
         "count_30d": 3,
-        "magnitude_7d": 300.0,
+        "magnitude_7d": 250.0,
         "magnitude_30d": null,
         "z_score": 0.3
       },
@@ -3055,11 +2609,11 @@
       {
         "sector": "Retail",
         "signal_type": "exec_move",
-        "count_7d": 3,
+        "count_7d": 2,
         "count_30d": 3,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 2.3
+        "z_score": 1.3
       },
       {
         "sector": "Retail",
@@ -3083,19 +2637,19 @@
         "sector": "Media",
         "signal_type": "layoff",
         "count_7d": 1,
-        "count_30d": 1,
+        "count_30d": 2,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 0.77
+        "z_score": 0.53
       },
       {
         "sector": "Media",
         "signal_type": "posting",
-        "count_7d": 80,
-        "count_30d": 132,
+        "count_7d": 81,
+        "count_30d": 133,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 8.87
+        "z_score": 8.97
       },
       {
         "sector": "Media",
@@ -3352,11 +2906,11 @@
     ]
   },
   "layoff_pulse": {
-    "events_7d": 11,
-    "events_30d": 25,
+    "events_7d": 9,
+    "events_30d": 23,
     "events_prev_30d": 0,
-    "companies_30d": 21,
-    "disclosed_jobs_30d": 1336,
+    "companies_30d": 20,
+    "disclosed_jobs_30d": 1286,
     "disclosed_events_30d": 7,
     "warn_events_30d": 0,
     "warn_events_total": 69,
@@ -3385,29 +2939,6 @@
         "extras": {}
       },
       {
-        "id": "5f838db0baa3650e",
-        "ts": "2026-08-31T13:59:22Z",
-        "source": "news_layoffs",
-        "source_url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQb1V0Wi1XZExoY2hZdk4ybldFZENENXVlSUM3V285TmxhUFhxejYwN1Y3ZEZKQlB5eTZFUTBfYi1KeTcyWW56dkRWOEgta0FWSnFxNUZZT0p6aERUcmM5Q2VEc0RqM1UyVDEtcTZFa3hEbXhRWWk4WUtqMDFlc21nWnZWZFdQZERZWUJqbzlzZzZsVEFadnJQMEpidkVpVElmcElTYVVsdFBPYnBETkhQaU1KQ1piYjN1YmNmbDVfNU02MWt1NXdtWUdJR3lySEs2cnBKM3dB0gHbAUFVX3lxTE9mVjkwTUowck1zVllleGo0RFgyTHUzejFBVXBIWTFXdzZYRkJZb0I1d0VfU2tReG9kWG54RDdlNXo1QWl0OHl4bTNQalM1Njk5UkN0aWxlN1Z3QWo4Rl9WeE5oTDVwR2NycTZxQVQzVS00UFFCdUM1d0F0aFUyd0w1NW9iV1NrT1RrVHkzazd6SW5pYWVwMHEwN3NRdTFEYk5MOXlVR1J2NkEzMFhsT0xqQXJNNko1QXB5R2dzaHh6NEsyY090TGZsdExEUFF5cXRCMUFNRUg3SGtmRQ?oc=5",
-        "type": "layoff",
-        "company": {
-          "name": "Zomato",
-          "ticker": null,
-          "industry": null,
-          "sector": "Retail",
-          "hq_region": null,
-          "size_band": "unknown"
-        },
-        "magnitude": 300.0,
-        "unit": "people",
-        "raw_text": "Zomato to cut nearly 250-300 jobs as it shuts Hyderabad support centre",
-        "tags": [
-          "layoff",
-          "retail"
-        ],
-        "extras": {}
-      },
-      {
         "id": "0680e00e6471d133",
         "ts": "2026-08-11T07:00:00Z",
         "source": "news_layoffs",
@@ -3428,6 +2959,29 @@
           "layoff",
           "healthcare",
           "CA"
+        ],
+        "extras": {}
+      },
+      {
+        "id": "5f838db0baa3650e",
+        "ts": "2026-08-31T13:59:05Z",
+        "source": "news_layoffs",
+        "source_url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQb1V0Wi1XZExoY2hZdk4ybldFZENENXVlSUM3V285TmxhUFhxejYwN1Y3ZEZKQlB5eTZFUTBfYi1KeTcyWW56dkRWOEgta0FWSnFxNUZZT0p6aERUcmM5Q2VEc0RqM1UyVDEtcTZFa3hEbXhRWWk4WUtqMDFlc21nWnZWZFdQZERZWUJqbzlzZzZsVEFadnJQMEpidkVpVElmcElTYVVsdFBPYnBETkhQaU1KQ1piYjN1YmNmbDVfNU02MWt1NXdtWUdJR3lySEs2cnBKM3dB0gHbAUFVX3lxTE9mVjkwTUowck1zVllleGo0RFgyTHUzejFBVXBIWTFXdzZYRkJZb0I1d0VfU2tReG9kWG54RDdlNXo1QWl0OHl4bTNQalM1Njk5UkN0aWxlN1Z3QWo4Rl9WeE5oTDVwR2NycTZxQVQzVS00UFFCdUM1d0F0aFUyd0w1NW9iV1NrT1RrVHkzazd6SW5pYWVwMHEwN3NRdTFEYk5MOXlVR1J2NkEzMFhsT0xqQXJNNko1QXB5R2dzaHh6NEsyY090TGZsdExEUFF5cXRCMUFNRUg3SGtmRQ?oc=5",
+        "type": "layoff",
+        "company": {
+          "name": "Zomato",
+          "ticker": null,
+          "industry": null,
+          "sector": "Retail",
+          "hq_region": null,
+          "size_band": "unknown"
+        },
+        "magnitude": 250.0,
+        "unit": "people",
+        "raw_text": "Zomato to cut about 250 jobs as its shuts Hyderabad customer support centre",
+        "tags": [
+          "layoff",
+          "retail"
         ],
         "extras": {}
       },
@@ -3526,38 +3080,38 @@
         "extras": {}
       },
       {
-        "id": "6f48dcbcd6d2eec4",
-        "ts": "2026-08-31T14:01:55Z",
+        "id": "42a3660c9c9c1cc0",
+        "ts": "2026-08-29T17:25:13Z",
         "source": "news_layoffs",
-        "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE55czByYWo4bldrVU0xdDA3dllmZU1BNnFOb0RpUlNfSHhLSTk5RG1KYkc4QjhZaEhYZ2J0RVFNM0FqcXIwVHRGQVpEaDdqdmZyeFg0ZWlYQlN0cDhNQkJv?oc=5",
+        "source_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1wQml2YnRDemRKeWRKT1JyYWhRMU1FQm52NzRRZVl0ZmZENGU5bG1LZ2FiQ3VxcHUtMU9lM056VXprUDVXLTZjTVFKeFY1ek1BQ0hLajBURTdWZVdYQkIwZHUyWkZMdjJYQ2dDUi16STdGMlJFekdB?oc=5",
         "type": "layoff",
         "company": {
-          "name": "Meta",
+          "name": "LIV Golf",
           "ticker": null,
           "industry": null,
-          "sector": "Technology",
+          "sector": "Media",
           "hq_region": null,
           "size_band": "unknown"
         },
         "magnitude": null,
         "unit": null,
-        "raw_text": "Meta Cuts 10% of Staff as Zuckerberg Scales Back AI Layoffs",
+        "raw_text": "LIV Golf announces mass layoffs following PIF exit",
         "tags": [
           "layoff",
-          "technology"
+          "media"
         ],
         "extras": {}
       }
     ],
     "by_sector_30d": {
       "Other": 7,
-      "Technology": 4,
       "Retail": 3,
       "Healthcare": 3,
-      "Finance": 2,
+      "Technology": 2,
       "Telecom": 2,
       "Manufacturing": 2,
-      "Media": 1,
+      "Media": 2,
+      "Finance": 1,
       "Logistics": 1
     }
   }
