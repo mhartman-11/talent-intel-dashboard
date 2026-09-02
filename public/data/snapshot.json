@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-01T20:43:26.353973Z",
+  "generated_at": "2026-09-02T03:29:45.335705Z",
   "next_ingest_at": null,
-  "total_events": 3842,
-  "events_7d": 1388,
+  "total_events": 3852,
+  "events_7d": 1412,
   "sources": [
     {
       "source": "greenhouse",
@@ -10,13 +10,13 @@
       "url": "https://boards-api.greenhouse.io",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-09-01T20:43:26.484619Z",
-      "last_attempted": "2026-09-01T20:43:26.484619Z",
-      "record_count": 3204,
+      "last_ok": "2026-09-02T03:29:45.564033Z",
+      "last_attempted": "2026-09-02T03:29:45.564033Z",
+      "record_count": 3213,
       "ok": true,
       "errors": [
         "DoorDash (doordash): GET https://boards-api.greenhouse.io/v1/boards/doordash/jobs failed: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/doordash/jobs?content=true'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
-        "HashiCorp (hashicorp): GET https://boards-api.greenhouse.io/v1/boards/hashicorp/jobs failed: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/hashicorp/jobs?content=true'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+        "HashiCorp (hashicorp): GET https://boards-api.greenhouse.io/v1/boards/hashicorp/jobs failed: [Errno 104] Connection reset by peer",
         "OpenAI (openai): GET https://boards-api.greenhouse.io/v1/boards/openai/jobs failed: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/openai/jobs?content=true'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
         "Snowflake (snowflake): GET https://boards-api.greenhouse.io/v1/boards/snowflake/jobs failed: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/snowflake/jobs?content=true'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
         "Databricks (databricks11): GET https://boards-api.greenhouse.io/v1/boards/databricks11/jobs failed: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/databricks11/jobs?content=true'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
@@ -32,9 +32,9 @@
       "url": "https://api.lever.co/v0/postings",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-09-01T20:43:53.879963Z",
-      "last_attempted": "2026-09-01T20:43:53.879963Z",
-      "record_count": 77,
+      "last_ok": "2026-09-02T03:30:14.060509Z",
+      "last_attempted": "2026-09-02T03:30:14.060509Z",
+      "record_count": 76,
       "ok": true,
       "errors": [
         "Scale AI (scaleai): GET https://api.lever.co/v0/postings/scaleai failed: Client error '404 Not Found' for url 'https://api.lever.co/v0/postings/scaleai?mode=json'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
@@ -49,9 +49,9 @@
       "url": "https://api.ashbyhq.com/posting-api",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-09-01T20:44:11.077269Z",
-      "last_attempted": "2026-09-01T20:44:11.077269Z",
-      "record_count": 246,
+      "last_ok": "2026-09-02T03:30:24.110356Z",
+      "last_attempted": "2026-09-02T03:30:24.110356Z",
+      "record_count": 245,
       "ok": true,
       "errors": [
         "Replicate (replicate): GET https://api.ashbyhq.com/posting-api/job-board/replicate failed: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/replicate'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
@@ -63,8 +63,8 @@
       "url": "https://techcrunch.com/tag/layoffs/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-09-01T20:44:13.668016Z",
-      "last_attempted": "2026-09-01T20:44:13.668016Z",
+      "last_ok": "2026-09-02T03:30:26.670671Z",
+      "last_attempted": "2026-09-02T03:30:26.670671Z",
       "record_count": 6,
       "ok": true,
       "errors": []
@@ -75,9 +75,9 @@
       "url": "https://news.google.com/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-09-01T20:44:14.095151Z",
-      "last_attempted": "2026-09-01T20:44:14.095151Z",
-      "record_count": 21,
+      "last_ok": "2026-09-02T03:30:27.116258Z",
+      "last_attempted": "2026-09-02T03:30:27.116258Z",
+      "record_count": 25,
       "ok": true,
       "errors": []
     },
@@ -87,8 +87,8 @@
       "url": "https://data.texas.gov/d/8w53-c4f6",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-09-01T20:44:17.555177Z",
-      "last_attempted": "2026-09-01T20:44:17.555177Z",
+      "last_ok": "2026-09-02T03:30:30.354111Z",
+      "last_attempted": "2026-09-02T03:30:30.354111Z",
       "record_count": 69,
       "ok": true,
       "errors": []
@@ -99,8 +99,8 @@
       "url": "https://techcrunch.com/category/venture/feed/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-09-01T20:44:20.198121Z",
-      "last_attempted": "2026-09-01T20:44:20.198121Z",
+      "last_ok": "2026-09-02T03:30:32.080380Z",
+      "last_attempted": "2026-09-02T03:30:32.080380Z",
       "record_count": 13,
       "ok": true,
       "errors": []
@@ -111,9 +111,9 @@
       "url": "https://efts.sec.gov/LATEST/search-index",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-09-01T20:44:21.008797Z",
-      "last_attempted": "2026-09-01T20:44:21.008797Z",
-      "record_count": 105,
+      "last_ok": "2026-09-02T03:30:32.192006Z",
+      "last_attempted": "2026-09-02T03:30:32.192006Z",
+      "record_count": 104,
       "ok": true,
       "errors": []
     },
@@ -123,8 +123,8 @@
       "url": "https://www.bls.gov/oes/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-09-01T20:44:23.374684Z",
-      "last_attempted": "2026-09-01T20:44:23.374684Z",
+      "last_ok": "2026-09-02T03:30:32.994057Z",
+      "last_attempted": "2026-09-02T03:30:32.994057Z",
       "record_count": 24,
       "ok": true,
       "errors": []
@@ -135,8 +135,8 @@
       "url": "https://www.bls.gov/ces/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-09-01T20:44:23.827727Z",
-      "last_attempted": "2026-09-01T20:44:23.827727Z",
+      "last_ok": "2026-09-02T03:30:33.491363Z",
+      "last_attempted": "2026-09-02T03:30:33.491363Z",
       "record_count": 48,
       "ok": true,
       "errors": []
@@ -147,8 +147,8 @@
       "url": "https://www.bls.gov/developers/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-09-01T20:44:24.095899Z",
-      "last_attempted": "2026-09-01T20:44:24.095899Z",
+      "last_ok": "2026-09-02T03:30:33.879716Z",
+      "last_attempted": "2026-09-02T03:30:33.879716Z",
       "record_count": 30,
       "ok": true,
       "errors": []
@@ -156,13 +156,13 @@
   ],
   "recent_signals": [
     {
-      "id": "5a2eed4a87d98f24",
-      "ts": "2026-09-01T16:42:11-04:00",
+      "id": "4416f39eeb6c612c",
+      "ts": "2026-09-01T23:28:59-04:00",
       "source": "greenhouse",
-      "source_url": "https://stripe.com/jobs/search?gh_jid=7982720",
+      "source_url": "https://www.pinterestcareers.com/jobs/?gh_jid=8026860",
       "type": "posting",
       "company": {
-        "name": "Stripe",
+        "name": "Pinterest",
         "ticker": null,
         "industry": null,
         "sector": "Technology",
@@ -171,109 +171,75 @@
       },
       "magnitude": null,
       "unit": "jobs",
-      "raw_text": "Stripe | Client Platform Security Engineer | New York, New York ",
+      "raw_text": "Pinterest | Sr. Lead Client Partner, Real Money Gaming (tvScientific) | New York, NY, US; Remote, NY, US",
       "tags": [
         "hiring",
         "greenhouse",
         "technology",
-        "NY",
-        "Security"
+        "NY"
       ],
       "extras": {
-        "role": "Client Platform Security Engineer",
-        "location": "New York, New York ",
-        "function": "Security",
-        "soc": "15-1212",
-        "seniority": "mid"
+        "role": "Sr. Lead Client Partner, Real Money Gaming (tvScientific)",
+        "location": "New York, NY, US; Remote, NY, US",
+        "seniority": "senior"
       }
     },
     {
-      "id": "08d6608cea17b58a",
-      "ts": "2026-09-01T16:41:56-04:00",
+      "id": "287a248cb9a40e66",
+      "ts": "2026-09-01T23:02:39-04:00",
       "source": "greenhouse",
-      "source_url": "https://stripe.com/jobs/search?gh_jid=7778643",
+      "source_url": "https://stripe.com/jobs/search?gh_jid=8168085",
       "type": "posting",
       "company": {
         "name": "Stripe",
         "ticker": null,
         "industry": null,
         "sector": "Technology",
-        "hq_region": "IL",
+        "hq_region": null,
         "size_band": "unknown"
       },
       "magnitude": null,
       "unit": "jobs",
-      "raw_text": "Stripe | Technical Program Manager,  Growth | Remote in the US, Chicago, Atlanta",
+      "raw_text": "Stripe | Engineering Manager, Billing Configuration | N/A",
       "tags": [
         "hiring",
         "greenhouse",
         "technology",
-        "IL"
+        "Engineering Management"
       ],
       "extras": {
-        "role": "Technical Program Manager,  Growth",
-        "location": "Remote in the US, Chicago, Atlanta",
+        "role": "Engineering Manager, Billing Configuration",
+        "location": "N/A",
+        "function": "Engineering Management",
+        "soc": "11-9041",
         "seniority": "manager"
       }
     },
     {
-      "id": "0b143445a56fa92e",
-      "ts": "2026-09-01T16:33:59-04:00",
+      "id": "d41bf4936885802b",
+      "ts": "2026-09-01T22:57:45-04:00",
       "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/anthropic/jobs/5358142008",
+      "source_url": "https://boards.greenhouse.io/cloudflare/jobs/8027774?gh_jid=8027774",
       "type": "posting",
       "company": {
-        "name": "Anthropic",
+        "name": "Cloudflare",
         "ticker": null,
         "industry": null,
         "sector": "Technology",
-        "hq_region": "CA",
+        "hq_region": null,
         "size_band": "unknown"
       },
       "magnitude": null,
       "unit": "jobs",
-      "raw_text": "Anthropic | Sourcing Lead, Corporate Development | San Francisco, CA",
+      "raw_text": "Cloudflare | Customer Engineer, Korea (Based in Seoul) | Hybrid",
       "tags": [
         "hiring",
         "greenhouse",
-        "technology",
-        "CA"
+        "technology"
       ],
       "extras": {
-        "role": "Sourcing Lead, Corporate Development",
-        "location": "San Francisco, CA",
-        "seniority": "lead"
-      }
-    },
-    {
-      "id": "35309cbbbc88f5ba",
-      "ts": "2026-09-01T16:31:05-04:00",
-      "source": "greenhouse",
-      "source_url": "https://boards.greenhouse.io/figma/jobs/6176134004?gh_jid=6176134004",
-      "type": "posting",
-      "company": {
-        "name": "Figma",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": "CA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Figma | Designer Advocate | San Francisco, CA \u2022 New York, NY \u2022 United States",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "CA",
-        "Design"
-      ],
-      "extras": {
-        "role": "Designer Advocate",
-        "location": "San Francisco, CA \u2022 New York, NY \u2022 United States",
-        "function": "Design",
-        "soc": "27-1024",
+        "role": "Customer Engineer, Korea (Based in Seoul)",
+        "location": "Hybrid",
         "seniority": "mid",
         "stack": [
           "go"
@@ -281,152 +247,165 @@
       }
     },
     {
-      "id": "a3dbfbbb07162ad4",
-      "ts": "2026-09-01T16:29:31-04:00",
+      "id": "feabb04591ce1319",
+      "ts": "2026-09-01T22:51:28-04:00",
       "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/discord/jobs/8642085002",
+      "source_url": "https://boards.greenhouse.io/cloudflare/jobs/7956845?gh_jid=7956845",
       "type": "posting",
       "company": {
-        "name": "Discord",
+        "name": "Cloudflare",
         "ticker": null,
         "industry": null,
         "sector": "Technology",
-        "hq_region": "CA",
+        "hq_region": null,
         "size_band": "unknown"
       },
       "magnitude": null,
       "unit": "jobs",
-      "raw_text": "Discord | Senior Full-Stack Software Engineer, Growth | San Francisco Bay Area",
+      "raw_text": "Cloudflare | Principal Presales Customer Engineer (based in Canberra) | Distributed",
       "tags": [
         "hiring",
         "greenhouse",
-        "technology",
-        "CA",
-        "Software Engineering"
+        "technology"
       ],
       "extras": {
-        "role": "Senior Full-Stack Software Engineer, Growth",
-        "location": "San Francisco Bay Area",
-        "function": "Software Engineering",
-        "soc": "15-1252",
-        "seniority": "senior",
-        "stack": [
-          "python",
-          "typescript",
-          "react"
-        ]
-      }
-    },
-    {
-      "id": "1a2a2bea76e3ccfa",
-      "ts": "2026-09-01T16:29:05-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/discord/jobs/8642087002",
-      "type": "posting",
-      "company": {
-        "name": "Discord",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": "CA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Discord | Senior Software Engineer, Growth | San Francisco Bay Area",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "CA",
-        "Software Engineering"
-      ],
-      "extras": {
-        "role": "Senior Software Engineer, Growth",
-        "location": "San Francisco Bay Area",
-        "function": "Software Engineering",
-        "soc": "15-1252",
-        "seniority": "senior",
-        "stack": [
-          "python",
-          "typescript",
-          "react"
-        ]
-      }
-    },
-    {
-      "id": "458b3473590ced64",
-      "ts": "2026-09-01T16:29:02-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/anthropic/jobs/5391184008",
-      "type": "posting",
-      "company": {
-        "name": "Anthropic",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": "CA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Anthropic | AWS GTM Partnership Lead, Global System Integrators | San Francisco, CA | New York City, NY | Seattle, WA",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "CA"
-      ],
-      "extras": {
-        "role": "AWS GTM Partnership Lead, Global System Integrators",
-        "location": "San Francisco, CA | New York City, NY | Seattle, WA",
-        "seniority": "lead",
-        "stack": [
-          "go",
-          "aws"
-        ]
-      }
-    },
-    {
-      "id": "0b312171885743ac",
-      "ts": "2026-09-01T16:28:43-04:00",
-      "source": "greenhouse",
-      "source_url": "https://stripe.com/jobs/search?gh_jid=8155376",
-      "type": "posting",
-      "company": {
-        "name": "Stripe",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": "NY",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Stripe | Sales Manager, Enterprise Platforms, Grower | New York, NY",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "NY",
-        "Sales"
-      ],
-      "extras": {
-        "role": "Sales Manager, Enterprise Platforms, Grower",
-        "location": "New York, NY",
-        "function": "Sales",
-        "soc": "41-3091",
-        "seniority": "manager",
+        "role": "Principal Presales Customer Engineer (based in Canberra)",
+        "location": "Distributed",
+        "seniority": "principal",
         "stack": [
           "go"
         ]
       }
     },
     {
-      "id": "6c39940f329481fa",
-      "ts": "2026-09-01T16:27:42-04:00",
+      "id": "8ac8c8a7c6e7a716",
+      "ts": "2026-09-01T22:51:12-04:00",
       "source": "greenhouse",
-      "source_url": "https://boards.greenhouse.io/robinhood/jobs/8167616?t=gh_src=&gh_jid=8167616",
+      "source_url": "https://boards.greenhouse.io/cloudflare/jobs/8076565?gh_jid=8076565",
+      "type": "posting",
+      "company": {
+        "name": "Cloudflare",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Cloudflare | Presales Customer Engineer, Enterprise (based in Melbourne) | Hybrid",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology"
+      ],
+      "extras": {
+        "role": "Presales Customer Engineer, Enterprise (based in Melbourne)",
+        "location": "Hybrid",
+        "seniority": "mid",
+        "stack": [
+          "go"
+        ]
+      }
+    },
+    {
+      "id": "a329f261b63eb204",
+      "ts": "2026-09-01T22:50:58-04:00",
+      "source": "greenhouse",
+      "source_url": "https://boards.greenhouse.io/cloudflare/jobs/8087911?gh_jid=8087911",
+      "type": "posting",
+      "company": {
+        "name": "Cloudflare",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Cloudflare | Presales Customer Engineer (Sydney) | Hybrid",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology"
+      ],
+      "extras": {
+        "role": "Presales Customer Engineer (Sydney)",
+        "location": "Hybrid",
+        "seniority": "mid",
+        "stack": [
+          "go"
+        ]
+      }
+    },
+    {
+      "id": "986bb26ff63851b7",
+      "ts": "2026-09-01T22:50:44-04:00",
+      "source": "greenhouse",
+      "source_url": "https://boards.greenhouse.io/cloudflare/jobs/8076538?gh_jid=8076538",
+      "type": "posting",
+      "company": {
+        "name": "Cloudflare",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Cloudflare | Presales Customer Engineer, Enterprise (Sydney) | Hybrid",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology"
+      ],
+      "extras": {
+        "role": "Presales Customer Engineer, Enterprise (Sydney)",
+        "location": "Hybrid",
+        "seniority": "mid",
+        "stack": [
+          "go"
+        ]
+      }
+    },
+    {
+      "id": "00c515b090686a4f",
+      "ts": "2026-09-01T22:48:07-04:00",
+      "source": "greenhouse",
+      "source_url": "https://stripe.com/jobs/search?gh_jid=8069155",
+      "type": "posting",
+      "company": {
+        "name": "Stripe",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Stripe | Manager, Administrative Coordinator Program | Mexico City",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "Operations"
+      ],
+      "extras": {
+        "role": "Manager, Administrative Coordinator Program",
+        "location": "Mexico City",
+        "function": "Operations",
+        "soc": "11-1021",
+        "seniority": "manager"
+      }
+    },
+    {
+      "id": "230c82bd8adecb57",
+      "ts": "2026-09-01T22:30:42-04:00",
+      "source": "greenhouse",
+      "source_url": "https://boards.greenhouse.io/robinhood/jobs/7543003?t=gh_src=&gh_jid=7543003",
       "type": "posting",
       "company": {
         "name": "Robinhood",
@@ -438,71 +417,7 @@
       },
       "magnitude": null,
       "unit": "jobs",
-      "raw_text": "Robinhood | Senior Staff Security Engineer | Bellevue, WA; Menlo Park, CA",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "finance",
-        "CA",
-        "Security"
-      ],
-      "extras": {
-        "role": "Senior Staff Security Engineer",
-        "location": "Bellevue, WA; Menlo Park, CA",
-        "function": "Security",
-        "soc": "15-1212",
-        "seniority": "staff"
-      }
-    },
-    {
-      "id": "4c38ad137024d2e3",
-      "ts": "2026-09-01T16:24:57-04:00",
-      "source": "greenhouse",
-      "source_url": "https://www.coinbase.com/careers/positions/7964410?gh_jid=7964410",
-      "type": "posting",
-      "company": {
-        "name": "Coinbase",
-        "ticker": null,
-        "industry": null,
-        "sector": "Finance",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Coinbase | Staff Software Engineer, Developer Infrastructure (Test Infrastructure) | Remote - USA",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "finance",
-        "Software Engineering"
-      ],
-      "extras": {
-        "role": "Staff Software Engineer, Developer Infrastructure (Test Infrastructure)",
-        "location": "Remote - USA",
-        "function": "Software Engineering",
-        "soc": "15-1252",
-        "seniority": "staff",
-        "remote": "remote"
-      }
-    },
-    {
-      "id": "3c2232b7d0f9ff34",
-      "ts": "2026-09-01T16:20:54-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/mercury/jobs/6114209004",
-      "type": "posting",
-      "company": {
-        "name": "Mercury",
-        "ticker": null,
-        "industry": null,
-        "sector": "Finance",
-        "hq_region": "CA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Mercury | Organic Search Marketer - SEO/AEO | San Francisco, CA, New York, NY, Portland, OR, or Remote within Canada or United States",
+      "raw_text": "Robinhood | Web Engineer | Menlo Park, CA; New York, NY",
       "tags": [
         "hiring",
         "greenhouse",
@@ -510,115 +425,288 @@
         "CA"
       ],
       "extras": {
-        "role": "Organic Search Marketer - SEO/AEO",
-        "location": "San Francisco, CA, New York, NY, Portland, OR, or Remote within Canada or United States",
-        "seniority": "mid"
-      }
-    },
-    {
-      "id": "cce3ab57fa508d7d",
-      "ts": "2026-09-01T16:20:51-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/anthropic/jobs/5171950008",
-      "type": "posting",
-      "company": {
-        "name": "Anthropic",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": "CA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Anthropic | Partner Sales Manager, Systems Integrators | San Francisco, CA | New York City, NY",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "CA",
-        "Sales"
-      ],
-      "extras": {
-        "role": "Partner Sales Manager, Systems Integrators",
-        "location": "San Francisco, CA | New York City, NY",
-        "function": "Sales",
-        "soc": "41-3091",
-        "seniority": "manager",
+        "role": "Web Engineer",
+        "location": "Menlo Park, CA; New York, NY",
+        "seniority": "mid",
+        "remote": "onsite",
         "stack": [
-          "go"
+          "spark"
         ]
       }
     },
     {
-      "id": "424635409a1c877f",
-      "ts": "2026-09-01T16:18:04-04:00",
+      "id": "0b3504fadca93355",
+      "ts": "2026-09-01T22:17:14-04:00",
       "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/anthropic/jobs/5126008008",
+      "source_url": "https://boards.greenhouse.io/cloudflare/jobs/8088046?gh_jid=8088046",
       "type": "posting",
       "company": {
-        "name": "Anthropic",
+        "name": "Cloudflare",
         "ticker": null,
         "industry": null,
         "sector": "Technology",
-        "hq_region": "WA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Anthropic | Strategic Account Executive, Tech | Seattle, WA",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "WA",
-        "Sales"
-      ],
-      "extras": {
-        "role": "Strategic Account Executive, Tech",
-        "location": "Seattle, WA",
-        "function": "Sales",
-        "soc": "41-3091",
-        "seniority": "mid"
-      }
-    },
-    {
-      "id": "66e9bb6c066ea0d2",
-      "ts": "2026-09-01T15:58:49-04:00",
-      "source": "greenhouse",
-      "source_url": "https://www.coinbase.com/careers/positions/8165389?gh_jid=8165389",
-      "type": "posting",
-      "company": {
-        "name": "Coinbase",
-        "ticker": null,
-        "industry": null,
-        "sector": "Finance",
         "hq_region": null,
         "size_band": "unknown"
       },
       "magnitude": null,
       "unit": "jobs",
-      "raw_text": "Coinbase | Product Security Engineer | Remote - Canada",
+      "raw_text": "Cloudflare | Network Deployment Engineer - APJC | Hybrid",
       "tags": [
         "hiring",
         "greenhouse",
-        "finance",
-        "Security"
+        "technology"
       ],
       "extras": {
-        "role": "Product Security Engineer",
-        "location": "Remote - Canada",
-        "function": "Security",
-        "soc": "15-1212",
-        "seniority": "mid",
+        "role": "Network Deployment Engineer - APJC",
+        "location": "Hybrid",
+        "seniority": "mid"
+      }
+    },
+    {
+      "id": "b07bf37dd3bfb1fd",
+      "ts": "2026-09-01T22:15:47-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/gitlab/jobs/8716306002",
+      "type": "posting",
+      "company": {
+        "name": "GitLab",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "GitLab | Lead Legal Counsel, Employment (EMEA) | Remote Ireland; Remote, United Kingdom",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "Legal / Compliance"
+      ],
+      "extras": {
+        "role": "Lead Legal Counsel, Employment (EMEA)",
+        "location": "Remote Ireland; Remote, United Kingdom",
+        "function": "Legal / Compliance",
+        "soc": "23-1011",
+        "seniority": "lead",
         "remote": "remote"
       }
     },
     {
-      "id": "d69e56242fe4ea72",
-      "ts": "2026-09-01T15:54:29-04:00",
+      "id": "cc732a320d6ac3e8",
+      "ts": "2026-09-01T22:10:00-04:00",
       "source": "greenhouse",
-      "source_url": "http://www.hioscar.com/careers/8146206?gh_jid=8146206",
+      "source_url": "https://boards.greenhouse.io/cloudflare/jobs/8140704?gh_jid=8140704",
+      "type": "posting",
+      "company": {
+        "name": "Cloudflare",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Cloudflare | Manager, Presales Customer Engineering | Hybrid",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology"
+      ],
+      "extras": {
+        "role": "Manager, Presales Customer Engineering",
+        "location": "Hybrid",
+        "seniority": "manager"
+      }
+    },
+    {
+      "id": "4fb555331ef218a5",
+      "ts": "2026-09-01T22:09:08-04:00",
+      "source": "greenhouse",
+      "source_url": "https://boards.greenhouse.io/cloudflare/jobs/8140641?gh_jid=8140641",
+      "type": "posting",
+      "company": {
+        "name": "Cloudflare",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Cloudflare | Specialist Customer Engineer, ASEAN | Hybrid",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology"
+      ],
+      "extras": {
+        "role": "Specialist Customer Engineer, ASEAN",
+        "location": "Hybrid",
+        "seniority": "mid"
+      }
+    },
+    {
+      "id": "d3a8737b55e7f390",
+      "ts": "2026-09-01T22:08:44-04:00",
+      "source": "greenhouse",
+      "source_url": "https://boards.greenhouse.io/cloudflare/jobs/8140643?gh_jid=8140643",
+      "type": "posting",
+      "company": {
+        "name": "Cloudflare",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Cloudflare | Specialist Customer Engineer, Korea | Hybrid",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology"
+      ],
+      "extras": {
+        "role": "Specialist Customer Engineer, Korea",
+        "location": "Hybrid",
+        "seniority": "mid"
+      }
+    },
+    {
+      "id": "64387c6864031711",
+      "ts": "2026-09-01T21:52:35-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8016908",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Senior Technical Solutions Manager | Sydney, Australia",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media"
+      ],
+      "extras": {
+        "role": "Senior Technical Solutions Manager",
+        "location": "Sydney, Australia",
+        "seniority": "senior"
+      }
+    },
+    {
+      "id": "57f739445c7b7904",
+      "ts": "2026-09-01T21:48:40-04:00",
+      "source": "greenhouse",
+      "source_url": "http://www.hioscar.com/careers/8172530?gh_jid=8172530",
+      "type": "posting",
+      "company": {
+        "name": "Oscar Health",
+        "ticker": null,
+        "industry": null,
+        "sector": "Healthcare",
+        "hq_region": "TX",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Oscar Health | Associate, Process Improvement | Dallas, Texas, United States",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "healthcare",
+        "TX"
+      ],
+      "extras": {
+        "role": "Associate, Process Improvement",
+        "location": "Dallas, Texas, United States",
+        "seniority": "junior",
+        "salary_min": 87188.0,
+        "salary_max": 114434.0,
+        "remote": "remote"
+      }
+    },
+    {
+      "id": "4f7fc60c7bc91cf2",
+      "ts": "2026-09-01T21:48:38-04:00",
+      "source": "greenhouse",
+      "source_url": "http://www.hioscar.com/careers/8172529?gh_jid=8172529",
+      "type": "posting",
+      "company": {
+        "name": "Oscar Health",
+        "ticker": null,
+        "industry": null,
+        "sector": "Healthcare",
+        "hq_region": "GA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Oscar Health | Associate, Process Improvement | Atlanta, Georgia, United States",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "healthcare",
+        "GA"
+      ],
+      "extras": {
+        "role": "Associate, Process Improvement",
+        "location": "Atlanta, Georgia, United States",
+        "seniority": "junior",
+        "salary_min": 87188.0,
+        "salary_max": 114434.0,
+        "remote": "remote"
+      }
+    },
+    {
+      "id": "8ba8d74720f1c327",
+      "ts": "2026-09-01T21:48:37-04:00",
+      "source": "greenhouse",
+      "source_url": "http://www.hioscar.com/careers/8172528?gh_jid=8172528",
+      "type": "posting",
+      "company": {
+        "name": "Oscar Health",
+        "ticker": null,
+        "industry": null,
+        "sector": "Healthcare",
+        "hq_region": "AZ",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Oscar Health | Associate, Process Improvement | Tempe, Arizona, United States",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "healthcare",
+        "AZ"
+      ],
+      "extras": {
+        "role": "Associate, Process Improvement",
+        "location": "Tempe, Arizona, United States",
+        "seniority": "junior",
+        "salary_min": 87188.0,
+        "salary_max": 114434.0,
+        "remote": "hybrid"
+      }
+    },
+    {
+      "id": "ff02b2e7eac0a125",
+      "ts": "2026-09-01T21:48:30-04:00",
+      "source": "greenhouse",
+      "source_url": "http://www.hioscar.com/careers/8146250?gh_jid=8146250",
       "type": "posting",
       "company": {
         "name": "Oscar Health",
@@ -630,7 +718,7 @@
       },
       "magnitude": null,
       "unit": "jobs",
-      "raw_text": "Oscar Health | Physician Reviewer (Part -Time) - Utilization Management | New York, New York, United States",
+      "raw_text": "Oscar Health | Associate, Process Improvement | New York, New York, United States",
       "tags": [
         "hiring",
         "greenhouse",
@@ -638,20 +726,22 @@
         "NY"
       ],
       "extras": {
-        "role": "Physician Reviewer (Part -Time) - Utilization Management",
+        "role": "Associate, Process Improvement",
         "location": "New York, New York, United States",
-        "seniority": "mid",
-        "remote": "remote"
+        "seniority": "junior",
+        "salary_min": 96876.0,
+        "salary_max": 127149.0,
+        "remote": "hybrid"
       }
     },
     {
-      "id": "30651e45fdef29bb",
-      "ts": "2026-09-01T15:52:37-04:00",
+      "id": "b63df08a5ad9fff2",
+      "ts": "2026-09-01T21:46:12-04:00",
       "source": "greenhouse",
-      "source_url": "https://stripe.com/jobs/search?gh_jid=8120501",
+      "source_url": "https://boards.greenhouse.io/cloudflare/jobs/8114069?gh_jid=8114069",
       "type": "posting",
       "company": {
-        "name": "Stripe",
+        "name": "Cloudflare",
         "ticker": null,
         "industry": null,
         "sector": "Technology",
@@ -660,147 +750,63 @@
       },
       "magnitude": null,
       "unit": "jobs",
-      "raw_text": "Stripe | Senior Workday Analyst, Payroll | US-REM",
+      "raw_text": "Cloudflare | VoidZero Engineer | Hybrid",
       "tags": [
         "hiring",
         "greenhouse",
         "technology"
       ],
       "extras": {
-        "role": "Senior Workday Analyst, Payroll",
-        "location": "US-REM",
-        "seniority": "senior"
+        "role": "VoidZero Engineer",
+        "location": "Hybrid",
+        "seniority": "mid"
       }
     },
     {
-      "id": "78c6e96a291e2343",
-      "ts": "2026-09-01T15:50:06-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/mercury/jobs/6145886004",
-      "type": "posting",
+      "id": "2d4e2848c5238334",
+      "ts": "2026-09-01T22:08:24Z",
+      "source": "org_moves",
+      "source_url": "https://techcrunch.com/2026/09/01/afterquery-reportedly-becomes-y-combinators-fastest-ever-unicorn-now-valued-at-3-2b/",
+      "type": "funding",
       "company": {
-        "name": "Mercury",
+        "name": "Unknown",
         "ticker": null,
         "industry": null,
-        "sector": "Finance",
-        "hq_region": "CA",
+        "sector": "Other",
+        "hq_region": null,
         "size_band": "unknown"
       },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Mercury | Senior Design Manager - Core Experiences | San Francisco, CA, New York, NY, Portland, OR, or Remote within Canada or United States",
+      "magnitude": 3200000000.0,
+      "unit": "USD",
+      "raw_text": "AfterQuery reportedly becomes Y Combinator\u2019s fastest-ever unicorn, now valued at $3.2B",
       "tags": [
-        "hiring",
-        "greenhouse",
-        "finance",
-        "CA"
+        "funding",
+        "other"
       ],
-      "extras": {
-        "role": "Senior Design Manager - Core Experiences",
-        "location": "San Francisco, CA, New York, NY, Portland, OR, or Remote within Canada or United States",
-        "seniority": "senior"
-      }
+      "extras": {}
     },
     {
-      "id": "3cfded87d9b3604e",
-      "ts": "2026-09-01T15:47:27-04:00",
-      "source": "greenhouse",
-      "source_url": "https://boards.greenhouse.io/robinhood/jobs/8080244?t=gh_src=&gh_jid=8080244",
-      "type": "posting",
+      "id": "9c645411bb0bf117",
+      "ts": "2026-09-01T21:25:30Z",
+      "source": "news_layoffs",
+      "source_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9GdWpxcVBPWUY1a0J3OTdHckRwUWZhYy11ZzlocEFXMV93SkxmX2xlWHlaRFJxYm5EdGtyLW1tTWU4WWdSSDhOeFloUEdhMXUzbnVHY3ZPaVA4Q1puVm1ZWmlJM2pSUXJjd1pLSWhIVTFHVDN3VTlNTQ?oc=5",
+      "type": "layoff",
       "company": {
-        "name": "Robinhood",
+        "name": "HCA Healthcare",
         "ticker": null,
         "industry": null,
-        "sector": "Finance",
-        "hq_region": "WA",
+        "sector": "Healthcare",
+        "hq_region": null,
         "size_band": "unknown"
       },
       "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Robinhood | Senior Software Engineer, Cloud Networking | Bellevue, WA",
+      "unit": null,
+      "raw_text": "HCA Healthcare announces layoffs",
       "tags": [
-        "hiring",
-        "greenhouse",
-        "finance",
-        "WA",
-        "Software Engineering"
+        "layoff",
+        "healthcare"
       ],
-      "extras": {
-        "role": "Senior Software Engineer, Cloud Networking",
-        "location": "Bellevue, WA",
-        "function": "Software Engineering",
-        "soc": "15-1252",
-        "seniority": "senior",
-        "stack": [
-          "kubernetes",
-          "k8s",
-          "aws"
-        ]
-      }
-    },
-    {
-      "id": "7e3eb586153080e7",
-      "ts": "2026-09-01T15:44:56-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/mercury/jobs/6149284004",
-      "type": "posting",
-      "company": {
-        "name": "Mercury",
-        "ticker": null,
-        "industry": null,
-        "sector": "Finance",
-        "hq_region": "CA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Mercury | Senior Associate - Venture Ecosystem Sales | New York, NY or San Francisco, CA",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "finance",
-        "CA"
-      ],
-      "extras": {
-        "role": "Senior Associate - Venture Ecosystem Sales",
-        "location": "New York, NY or San Francisco, CA",
-        "seniority": "senior",
-        "stack": [
-          "spark"
-        ]
-      }
-    },
-    {
-      "id": "e1a4e11ca5483dd1",
-      "ts": "2026-09-01T15:30:38-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7909463",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": "CA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Staff Site Reliability Engineer, Ads | San Francisco, CA",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
-        "CA",
-        "DevOps / SRE"
-      ],
-      "extras": {
-        "role": "Staff Site Reliability Engineer, Ads",
-        "location": "San Francisco, CA",
-        "function": "DevOps / SRE",
-        "soc": "15-1244",
-        "seniority": "staff"
-      }
+      "extras": {}
     },
     {
       "id": "99423f1ae63971cd",
@@ -823,29 +829,6 @@
         "exec_move",
         "other",
         "NY"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "a6553c9caf3897ba",
-      "ts": "2026-09-01T11:36:23Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQcllaYVhvZXFZUjRvN0F0UFdXNWxjVGtUWkRzWVNLeHdQNzZhVVRKcG9DNWhUTEV5VkM0a3laM3MwZ3AwbEJkeTVNM3NzRW1wb1hXX050UHdCQnh5MWVIcF93Ml90MzlNNUY4TldqdVJjMV8yMnlTRGhjX2lQUVo5Ym1Lem12OW43ajU2LVk4RmV2ZVhoa0VhR3doamZvZWVNQlBvY2Utb3NCeWZadXVnaG42MkVzSkRodlcwNHozelhBcWN1MFREdW1CQTdud3Y5NGc?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "Oracle India",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Oracle India Reports Second Layoff Wave: Bangalore Engineers Wait for 6 AM Email Again",
-      "tags": [
-        "layoff",
-        "technology"
       ],
       "extras": {}
     },
@@ -902,6 +885,34 @@
       "extras": {
         "adsh": "0001213900-26-096185",
         "cik": "0001918080",
+        "file_date": "2026-09-01"
+      }
+    },
+    {
+      "id": "e4244a7d7d0c807b",
+      "ts": "2026-09-01T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=866829&type=&dateb=&owner=include&count=40",
+      "type": "exec_move",
+      "company": {
+        "name": "Hornbeck Offshore Services, Inc.",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Hornbeck Offshore Services, Inc. reported an executive or board change in an 8-K filing on 2026-09-01.",
+      "tags": [
+        "exec_move",
+        "sec_8k",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0001193125-26-378529",
+        "cik": "0000866829",
         "file_date": "2026-09-01"
       }
     },
@@ -1014,6 +1025,62 @@
       "extras": {
         "adsh": "0001683168-26-006832",
         "cik": "0001462223",
+        "file_date": "2026-09-01"
+      }
+    },
+    {
+      "id": "05abdeee30aed17a",
+      "ts": "2026-09-01T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1069394&type=&dateb=&owner=include&count=40",
+      "type": "exec_move",
+      "company": {
+        "name": "Flexible Solutions International INC",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Flexible Solutions International INC reported an executive or board change in an 8-K filing on 2026-09-01.",
+      "tags": [
+        "exec_move",
+        "sec_8k",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0001493152-26-040991",
+        "cik": "0001069394",
+        "file_date": "2026-09-01"
+      }
+    },
+    {
+      "id": "4df0f7f0b67e15c5",
+      "ts": "2026-09-01T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2153149&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "Imagen Rainey Support Services, LLC",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Imagen Rainey Support Services, LLC filed a Form D securities offering with the SEC on 2026-09-01.",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002153149-26-000001",
+        "cik": "0002153149",
         "file_date": "2026-09-01"
       }
     },
@@ -1522,60 +1589,50 @@
       }
     },
     {
-      "id": "8719e762f7c8b636",
-      "ts": "2026-09-01T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2145752&type=&dateb=&owner=include&count=40",
-      "type": "funding",
+      "id": "6f48dcbcd6d2eec4",
+      "ts": "2026-08-31T14:01:55Z",
+      "source": "news_layoffs",
+      "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE55czByYWo4bldrVU0xdDA3dllmZU1BNnFOb0RpUlNfSHhLSTk5RG1KYkc4QjhZaEhYZ2J0RVFNM0FqcXIwVHRGQVpEaDdqdmZyeFg0ZWlYQlN0cDhNQkJv?oc=5",
+      "type": "layoff",
       "company": {
-        "name": "Hotel Moab Investors, LLC",
+        "name": "Meta",
         "ticker": null,
         "industry": null,
-        "sector": "Hospitality",
+        "sector": "Technology",
         "hq_region": null,
         "size_band": "unknown"
       },
       "magnitude": null,
       "unit": null,
-      "raw_text": "Hotel Moab Investors, LLC filed a Form D securities offering with the SEC on 2026-09-01.",
+      "raw_text": "Meta Cuts 10% of Staff as Zuckerberg Scales Back AI Layoffs",
       "tags": [
-        "funding",
-        "form_d",
-        "hospitality"
+        "layoff",
+        "technology"
       ],
-      "extras": {
-        "adsh": "0002145752-26-000001",
-        "cik": "0002145752",
-        "file_date": "2026-09-01"
-      }
+      "extras": {}
     },
     {
-      "id": "8f473a84acc50b87",
-      "ts": "2026-09-01T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2145527&type=&dateb=&owner=include&count=40",
-      "type": "funding",
+      "id": "33dd864350b16540",
+      "ts": "2026-08-31T12:11:03Z",
+      "source": "news_layoffs",
+      "source_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQWVhaYmQ1TUdpV2NmZ3VyVVByMFJ5SEJKUnAwYnNwbzh5RXVNUHZubGpybm9fR0UxSXpKd1FJSUpSblFqS19KWkc3a2tXYlItbENYSFFWREphS0o4bDZBY0J0eXpZdWlqMmtJa1EweVhiTlBDVnRiVDYtY3hNT1NtV2dBZXhXM24yZ29SZm4zMnVFbXRXUnNtcmdXWEdjSDN2N1JKclM3dVIwUUh3a0lXSzhLMklxWUJNVk9WZHR3VS1iWXRBcWc?oc=5",
+      "type": "layoff",
       "company": {
-        "name": "Vesalius Partners, LLC",
+        "name": "Major Fruit Grower",
         "ticker": null,
         "industry": null,
         "sector": "Other",
         "hq_region": null,
         "size_band": "unknown"
       },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Vesalius Partners, LLC filed a Form D securities offering with the SEC on 2026-09-01.",
+      "magnitude": 1000.0,
+      "unit": "people",
+      "raw_text": "Major Fruit Grower Announces Layoffs of Nearly 1,000 Workers, Signaling Industry Strain - Post-Earnings Reaction",
       "tags": [
-        "funding",
-        "form_d",
+        "layoff",
         "other"
       ],
-      "extras": {
-        "adsh": "0002145527-26-000001",
-        "cik": "0002145527",
-        "file_date": "2026-09-01"
-      }
+      "extras": {}
     },
     {
       "id": "5f86e749a4c73a4d",
@@ -1825,6 +1882,52 @@
       "extras": {}
     },
     {
+      "id": "8bb8a0f880f69593",
+      "ts": "2026-08-28T14:49:48Z",
+      "source": "news_layoffs",
+      "source_url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOVm1UT0hXOEFQbzR3WWstcHoyY2tVaG1IdllHb3lkVmR6YTh0SnlOMVl3amFva3oxclpTY2JVZzFtYkNXNDNORmNKMUhpWHNBUGlrZS1WVXpjVzdKaWZxTS1hX3lNbUc0WDZ6THl0eWJURnJNSl9tbVNJeTN1UFhqMTQ3a3lXSlI2Zk1aSWtLZkF0WnNOQnRnLWZWZzZYTXpCTnBZUWpvd0dhQ2lKa01xbENtUlpNWE90NkNjUGQ0bVAtbm9FN29ZNWFYUDBYU1FkMmVDS1A4VnlGZw?oc=5",
+      "type": "layoff",
+      "company": {
+        "name": "Amazon Denies",
+        "ticker": null,
+        "industry": null,
+        "sector": "Retail",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": 14000.0,
+      "unit": "people",
+      "raw_text": "Amazon Denies Reports of Fresh 14,000 Job Cuts Worldwide After Previous Layoffs of 30,000 Roles",
+      "tags": [
+        "layoff",
+        "retail"
+      ],
+      "extras": {}
+    },
+    {
+      "id": "88d22b735a1eef5a",
+      "ts": "2026-08-28T14:15:00Z",
+      "source": "news_layoffs",
+      "source_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPOTJ0RFNzV0VDUFlYNzFYUjhZZE5tNUo5aWJyYlJDTldPa3FOREd4TEJVQ0tsMjVoaW5VUG5oaW9kcmJ0emlJc19SWUI2emJNNVFaMllWRWxVVXdRRjRlengtZWhWM2dYbzZYTnNha0FNVXk3SC11aEdKV2VOd2dhdV9INV9UeVZVZmRSRm1lZVZ5Z19jX3U0c0RYSXhNV01qTmNQb0lwTXF1ai1ZcjFraGt4QnVZbkpYTGNV?oc=5",
+      "type": "layoff",
+      "company": {
+        "name": "Canadian Plant",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Canadian Plant Announces Mass Layoffs Over US Tariff \u2018Nuclear Bomb\u2019",
+      "tags": [
+        "layoff",
+        "other"
+      ],
+      "extras": {}
+    },
+    {
       "id": "b7e75eefafc5e8d1",
       "ts": "2026-08-28T00:00:00Z",
       "source": "sec_edgar",
@@ -1909,62 +2012,6 @@
       }
     },
     {
-      "id": "1b7b4c260bb2f611",
-      "ts": "2026-08-28T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=764180&type=&dateb=&owner=include&count=40",
-      "type": "exec_move",
-      "company": {
-        "name": "Altria Group, Inc.",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Altria Group, Inc. reported an executive or board change in an 8-K filing on 2026-08-28.",
-      "tags": [
-        "exec_move",
-        "sec_8k",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0000764180-26-000098",
-        "cik": "0000764180",
-        "file_date": "2026-08-28"
-      }
-    },
-    {
-      "id": "63b39e19a88c31bf",
-      "ts": "2026-08-28T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1007019&type=&dateb=&owner=include&count=40",
-      "type": "exec_move",
-      "company": {
-        "name": "Coffee Holding CO INC",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Coffee Holding CO INC reported an executive or board change in an 8-K filing on 2026-08-28.",
-      "tags": [
-        "exec_move",
-        "sec_8k",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0001493152-26-040636",
-        "cik": "0001007019",
-        "file_date": "2026-08-28"
-      }
-    },
-    {
       "id": "f7632396b8000019",
       "ts": "2026-08-27T19:59:00Z",
       "source": "news_layoffs",
@@ -1985,29 +2032,6 @@
         "layoff",
         "telecom",
         "WA"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "3b94a865d65be585",
-      "ts": "2026-08-27T11:21:39Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNNHJ6Y3N5Y24xZGdjbVNETVdlbm15RllhenBXQjA2aUpjaWo0QVF5ZlVUNmIyTHJVb1ZQdWVocG03NFNJekh2R1lWRGJmanhrTVRucFRWQVRrWXdZWmtBNjFMeVJ6b3lQNk1DRkJVSHRZbFJOb05GYzh2NUF5M1JuMXd3R0lMN0phY0J6NUZqSXdfWG1TMTZ3RFA0TlpERGdydU1nQkdQNmdqUW5RdExhY2pVTjgzZkFJbFZOWHZCTzNUUlJKUlhkeWhxb9IB0AFBVV95cUxPSjVzVmJBQzRsVERiYU5sN25aU2hPWk0tSmJ1eG5DUEJkSEpISFcxSTI1VXN2OVU5Y2J1NTZrMU5WRUlvMXVKaVBzWlJwU3d4SFhMRGFibjRqTjFJT3FLN0FSX0l3R09PMXNLcXhTMmVhQkpranlKT3dTZGZmUlRORDE1Snc4dHh2UjAyWjU1bDhLZHVRbk1iNHpfVXBTLWNDOGdDVnlfNHZlVnhUWk1JU0lZMktnWldkV0JIX1ZlVEJ0aGtwNGRMX2JFYUlTZ0JU?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "Even Healthcare",
-        "ticker": null,
-        "industry": null,
-        "sector": "Healthcare",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": 350.0,
-      "unit": "people",
-      "raw_text": "Even Healthcare lays off 350 employees amid business restructuring",
-      "tags": [
-        "layoff",
-        "healthcare"
       ],
       "extras": {}
     },
@@ -2077,29 +2101,6 @@
       "tags": [
         "layoff",
         "technology"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "4bfaf1c19f122023",
-      "ts": "2026-08-24T15:51:00Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQVFNqOFZXaVJvVnBvV0NzMUtkaGlnYXpSSmh4Qno1YnB1cDlCNUpsQzdraENpOW5qS0loUHVfVkc2U3hkdHFaNGNHUzAwc2xPdmxrQmVkb2NVSE9vY2JEZTZFdEE2OWdHNW93N29abUhUa0pERVJVVlJxc3gzMzNQTFRkVU5nNzZQaE5rdU4zeEQ5Vjd0ckxlLXJYZ192OWVuTC15MFdaQ1YxaWM2eFBESQ?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "Sapporo USA",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Sapporo USA Announces Layoffs at Stone Brewing Escondido, Production Relocates - News and Statistics",
-      "tags": [
-        "layoff",
-        "other"
       ],
       "extras": {}
     },
@@ -2175,25 +2176,25 @@
       "extras": {}
     },
     {
-      "id": "29304b49bb3ed15c",
-      "ts": "2026-08-19T07:00:00Z",
+      "id": "9794ff95a67437b9",
+      "ts": "2026-08-20T07:00:00Z",
       "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNbDF2eUhzTWZYcnZWTVRVSUw5bHQxME9uazZJWXZEcDF2Y3V1QzdRSE0xYml2YXlCQjEtREhLanVPLTlBZmxQRDgyaEFSM1pnTDVoZG5kb2NVNGZjX2p5VVJudFRGdjYyMG90aXRkNnZTZ09yalR2bzdhZHhKcGhtelJlVDdwQkF4RVpPWWFocDI0bEJyemlSbFFTMjFZY0t5N1N5aDJYVk9pdG4wN3BXTXV2S1ZOMHg3b25uemllRUpQWnZORTRaSGJMR2pFU1EtV0HSAeYBQVVfeXFMTzdtOWxzNTJPOEFiTVFMTlhlUzVTRkJZOE1VQ0IxNW5rMXg5SU81TEpId0Y4MmpfaGhoUkctb241bVVMVU4xTEM4cEJTUnU5VUpfaHI4VDdWMWFPclRwZ1JybnoyRFF2bTNFYmI5YjRtQ18xdlFzcXZ4RWZVeHBHQUhTZGRQUTdBV0NwbDNCS0FWQ3BxSW11MjV1RWF1aWZZNm96THVUUExsbEZCeGt1aFc4NmpvRnQyTWtJekNWcTE2cUY1UWlJNnFZVG5hNERod0NFVnJZUWZWX3ltRDBYQUlmYjRvYkE?oc=5",
+      "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPTUdyY3RjM0xTeWxnVl9WWHNHSEZCU0dDeWlwM1NBVXBfNGcxYVJrT2ozcE82X25Oa3ZKcFRNMUN3Y011NmFDdXp2TldtZURwQ09pckNZSWdfNzI2bUhZRmJtWGUxQ1lhaEhPV3I5bmxPWDFwZllMRFFJYkItVGwwY1NNd1A3QUlJSVVOQmxkY1RmVm4zZWR1SnlNRUVfdw?oc=5",
       "type": "layoff",
       "company": {
-        "name": "TikTok",
+        "name": "Starbucks",
         "ticker": null,
         "industry": null,
-        "sector": "Other",
+        "sector": "Retail",
         "hq_region": "WA",
         "size_band": "unknown"
       },
-      "magnitude": 75.0,
-      "unit": "people",
-      "raw_text": "TikTok to lay off 75 Bellevue employees, the second consecutive year of local job cuts",
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Starbucks announces details on layoffs of 200-plus Seattle headquarters employees",
       "tags": [
         "layoff",
-        "other",
+        "retail",
         "WA"
       ],
       "extras": {}
@@ -2238,6 +2239,29 @@
       "magnitude": null,
       "unit": null,
       "raw_text": "Techie Laid Off After 25 Years At Adobe. He Now Drives A School Bus: \"To New Beginnings\"",
+      "tags": [
+        "layoff",
+        "other"
+      ],
+      "extras": {}
+    },
+    {
+      "id": "c4a9105854ffc5d7",
+      "ts": "2026-08-17T07:00:00Z",
+      "source": "news_layoffs",
+      "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxORkRtTV9IdkxySWdUVUFPYXNuUFhnc2RhUWxhX0NDZ0NTZWFSWndoY1QyczdQb2dfQ1ZxN1lRSENkaTlXNjgxemVoaWJyMHBmTmtQSU1wN3cyS21ISWNFVW5mRG4tUmdSalJaVXRQUThMNnBUUW1IYlVocEYwSDhCVkF3NmpTNVdMeGdhbnptQmVPS3h4eTZkZlVSczNIcUtENGc?oc=5",
+      "type": "layoff",
+      "company": {
+        "name": "London Drugs",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": 80.0,
+      "unit": "people",
+      "raw_text": "London Drugs to cut about 80 retail positions",
       "tags": [
         "layoff",
         "other"
@@ -2307,76 +2331,6 @@
       "magnitude": null,
       "unit": null,
       "raw_text": "Ryder Trucks announces 73 layoffs coming to Fayetteville",
-      "tags": [
-        "layoff",
-        "other"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "4c382e9805c63e7b",
-      "ts": "2026-08-14T07:00:00Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQd2NQU1B5dnFUc256OU9RbllXRlNnOGtYTTlueFdPOEFxUEV5UmhQU25RalBJSmRlNmJFa2E5MTlmZXN4Nkh4ZjFBR05MZXBDYXRDcU5MWFRlNk1sNHZUTW0yVDh2eHh5UW82dXYtOFhjX3Q0bmF0Qy00a1ZKSE9ZU3FXUlBaNjIyaUxDaFdyckdYaGNxRVc2Qk1nLTc1MmRZQndzMU9SSExZbDczSEVuTXdMa2RRamJwWlVvWUgxM0dmX0NOaU5VUHpGdWxmT0FiajVkMS1xaThTQQ?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "GM",
-        "ticker": null,
-        "industry": null,
-        "sector": "Manufacturing",
-        "hq_region": "MI",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "GM announces layoffs for Lansing Grand River plant retooling",
-      "tags": [
-        "layoff",
-        "manufacturing",
-        "MI"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "edc5c80bc78aa3d2",
-      "ts": "2026-08-13T07:00:00Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA3X0ZpWnBreU5xcjdXVDRIOE1feVJLT1hMc3RrbmhLVTJNS0t4TDRkckNiZkxBM1E2Ti1NckJVTktRa3hqb1daXzhlWVBEcFVSMldQYmhmVnVLQQ?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "RBSI",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": 50.0,
-      "unit": "people",
-      "raw_text": "RBSI announces about 50 job cuts in Jersey",
-      "tags": [
-        "layoff",
-        "other"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "927724e2f615b438",
-      "ts": "2026-08-12T07:00:00Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNXzRTV1JtaHUxNXBzVnBBVWViVkJZLU1tSGJSMkw3ME9ia3Rxd2FiQl9tTkdsUEMwQ3RfaGRMR1o0cHU5ZnRaVWJfVFg4RVpGamVTODYzcmN3Q1M2RjRSVXlXRnVLSHd3bWZfNTlkaFg5TGVsQnNPZlE3SzhaMldBWGc4Z014dkdRWExHckhxa2dSakhLNmJ3LUtUS3BiQXhZNDFndFkwSG5sVW1iLWV1QzZ4Slo1a2VsV3E5aE41eUpnOTR0eS1uYTVlSDU0bVdz?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "Supermassive Games",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Supermassive Games Announces Third Layoff Round, Cutting Studio to Quarter of 2023 Size",
       "tags": [
         "layoff",
         "other"
@@ -2830,25 +2784,25 @@
     }
   ],
   "sector_matrix": {
-    "generated_at": "2026-09-01T20:43:26.353973Z",
+    "generated_at": "2026-09-02T03:29:45.335705Z",
     "cells": [
       {
         "sector": "Technology",
         "signal_type": "layoff",
         "count_7d": 3,
-        "count_30d": 3,
+        "count_30d": 4,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 2.3
+        "z_score": 2.07
       },
       {
         "sector": "Technology",
         "signal_type": "posting",
-        "count_7d": 1058,
-        "count_30d": 2267,
+        "count_7d": 1068,
+        "count_30d": 2277,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 23.0
+        "z_score": 23.28
       },
       {
         "sector": "Technology",
@@ -2890,19 +2844,19 @@
         "sector": "Finance",
         "signal_type": "posting",
         "count_7d": 96,
-        "count_30d": 311,
+        "count_30d": 312,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 2.75
+        "z_score": 2.72
       },
       {
         "sector": "Finance",
         "signal_type": "exec_move",
-        "count_7d": 0,
-        "count_30d": 3,
+        "count_7d": 1,
+        "count_30d": 4,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": -0.7
+        "z_score": 0.07
       },
       {
         "sector": "Finance",
@@ -2927,27 +2881,27 @@
         "signal_type": "layoff",
         "count_7d": 1,
         "count_30d": 1,
-        "magnitude_7d": 350.0,
+        "magnitude_7d": null,
         "magnitude_30d": null,
         "z_score": 0.77
       },
       {
         "sector": "Healthcare",
         "signal_type": "posting",
-        "count_7d": 70,
-        "count_30d": 164,
+        "count_7d": 86,
+        "count_30d": 179,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 5.13
+        "z_score": 6.84
       },
       {
         "sector": "Healthcare",
         "signal_type": "exec_move",
         "count_7d": 1,
-        "count_30d": 1,
+        "count_30d": 2,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 0.77
+        "z_score": 0.53
       },
       {
         "sector": "Healthcare",
@@ -2979,11 +2933,11 @@
       {
         "sector": "CPG",
         "signal_type": "posting",
-        "count_7d": 7,
+        "count_7d": 5,
         "count_30d": 13,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 2.28
+        "z_score": 1.13
       },
       {
         "sector": "CPG",
@@ -3060,11 +3014,11 @@
       {
         "sector": "Retail",
         "signal_type": "layoff",
-        "count_7d": 0,
-        "count_30d": 2,
-        "magnitude_7d": null,
+        "count_7d": 1,
+        "count_30d": 4,
+        "magnitude_7d": 14000.0,
         "magnitude_30d": null,
-        "z_score": -0.47
+        "z_score": 0.07
       },
       {
         "sector": "Retail",
@@ -3114,11 +3068,11 @@
       {
         "sector": "Media",
         "signal_type": "posting",
-        "count_7d": 79,
+        "count_7d": 75,
         "count_30d": 134,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 8.54
+        "z_score": 7.82
       },
       {
         "sector": "Media",
@@ -3375,35 +3329,58 @@
     ]
   },
   "layoff_pulse": {
-    "events_7d": 7,
-    "events_30d": 20,
+    "events_7d": 10,
+    "events_30d": 24,
     "events_prev_30d": 0,
-    "companies_30d": 17,
-    "disclosed_jobs_30d": 776,
-    "disclosed_events_30d": 5,
+    "companies_30d": 20,
+    "disclosed_jobs_30d": 15431,
+    "disclosed_events_30d": 6,
     "warn_events_30d": 0,
     "warn_events_total": 69,
     "top_events": [
       {
-        "id": "3b94a865d65be585",
-        "ts": "2026-08-27T11:21:39Z",
+        "id": "8bb8a0f880f69593",
+        "ts": "2026-08-28T14:49:48Z",
         "source": "news_layoffs",
-        "source_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNNHJ6Y3N5Y24xZGdjbVNETVdlbm15RllhenBXQjA2aUpjaWo0QVF5ZlVUNmIyTHJVb1ZQdWVocG03NFNJekh2R1lWRGJmanhrTVRucFRWQVRrWXdZWmtBNjFMeVJ6b3lQNk1DRkJVSHRZbFJOb05GYzh2NUF5M1JuMXd3R0lMN0phY0J6NUZqSXdfWG1TMTZ3RFA0TlpERGdydU1nQkdQNmdqUW5RdExhY2pVTjgzZkFJbFZOWHZCTzNUUlJKUlhkeWhxb9IB0AFBVV95cUxPSjVzVmJBQzRsVERiYU5sN25aU2hPWk0tSmJ1eG5DUEJkSEpISFcxSTI1VXN2OVU5Y2J1NTZrMU5WRUlvMXVKaVBzWlJwU3d4SFhMRGFibjRqTjFJT3FLN0FSX0l3R09PMXNLcXhTMmVhQkpranlKT3dTZGZmUlRORDE1Snc4dHh2UjAyWjU1bDhLZHVRbk1iNHpfVXBTLWNDOGdDVnlfNHZlVnhUWk1JU0lZMktnWldkV0JIX1ZlVEJ0aGtwNGRMX2JFYUlTZ0JU?oc=5",
+        "source_url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOVm1UT0hXOEFQbzR3WWstcHoyY2tVaG1IdllHb3lkVmR6YTh0SnlOMVl3amFva3oxclpTY2JVZzFtYkNXNDNORmNKMUhpWHNBUGlrZS1WVXpjVzdKaWZxTS1hX3lNbUc0WDZ6THl0eWJURnJNSl9tbVNJeTN1UFhqMTQ3a3lXSlI2Zk1aSWtLZkF0WnNOQnRnLWZWZzZYTXpCTnBZUWpvd0dhQ2lKa01xbENtUlpNWE90NkNjUGQ0bVAtbm9FN29ZNWFYUDBYU1FkMmVDS1A4VnlGZw?oc=5",
         "type": "layoff",
         "company": {
-          "name": "Even Healthcare",
+          "name": "Amazon Denies",
           "ticker": null,
           "industry": null,
-          "sector": "Healthcare",
+          "sector": "Retail",
           "hq_region": null,
           "size_band": "unknown"
         },
-        "magnitude": 350.0,
+        "magnitude": 14000.0,
         "unit": "people",
-        "raw_text": "Even Healthcare lays off 350 employees amid business restructuring",
+        "raw_text": "Amazon Denies Reports of Fresh 14,000 Job Cuts Worldwide After Previous Layoffs of 30,000 Roles",
         "tags": [
           "layoff",
-          "healthcare"
+          "retail"
+        ],
+        "extras": {}
+      },
+      {
+        "id": "33dd864350b16540",
+        "ts": "2026-08-31T12:11:03Z",
+        "source": "news_layoffs",
+        "source_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQWVhaYmQ1TUdpV2NmZ3VyVVByMFJ5SEJKUnAwYnNwbzh5RXVNUHZubGpybm9fR0UxSXpKd1FJSUpSblFqS19KWkc3a2tXYlItbENYSFFWREphS0o4bDZBY0J0eXpZdWlqMmtJa1EweVhiTlBDVnRiVDYtY3hNT1NtV2dBZXhXM24yZ29SZm4zMnVFbXRXUnNtcmdXWEdjSDN2N1JKclM3dVIwUUh3a0lXSzhLMklxWUJNVk9WZHR3VS1iWXRBcWc?oc=5",
+        "type": "layoff",
+        "company": {
+          "name": "Major Fruit Grower",
+          "ticker": null,
+          "industry": null,
+          "sector": "Other",
+          "hq_region": null,
+          "size_band": "unknown"
+        },
+        "magnitude": 1000.0,
+        "unit": "people",
+        "raw_text": "Major Fruit Grower Announces Layoffs of Nearly 1,000 Workers, Signaling Industry Strain - Post-Earnings Reaction",
+        "tags": [
+          "layoff",
+          "other"
         ],
         "extras": {}
       },
@@ -3432,6 +3409,29 @@
         "extras": {}
       },
       {
+        "id": "c4a9105854ffc5d7",
+        "ts": "2026-08-17T07:00:00Z",
+        "source": "news_layoffs",
+        "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxORkRtTV9IdkxySWdUVUFPYXNuUFhnc2RhUWxhX0NDZ0NTZWFSWndoY1QyczdQb2dfQ1ZxN1lRSENkaTlXNjgxemVoaWJyMHBmTmtQSU1wN3cyS21ISWNFVW5mRG4tUmdSalJaVXRQUThMNnBUUW1IYlVocEYwSDhCVkF3NmpTNVdMeGdhbnptQmVPS3h4eTZkZlVSczNIcUtENGc?oc=5",
+        "type": "layoff",
+        "company": {
+          "name": "London Drugs",
+          "ticker": null,
+          "industry": null,
+          "sector": "Other",
+          "hq_region": null,
+          "size_band": "unknown"
+        },
+        "magnitude": 80.0,
+        "unit": "people",
+        "raw_text": "London Drugs to cut about 80 retail positions",
+        "tags": [
+          "layoff",
+          "other"
+        ],
+        "extras": {}
+      },
+      {
         "id": "8fd1049e34cdbaca",
         "ts": "2026-08-26T19:34:14Z",
         "source": "news_layoffs",
@@ -3451,30 +3451,6 @@
         "tags": [
           "layoff",
           "telecom"
-        ],
-        "extras": {}
-      },
-      {
-        "id": "29304b49bb3ed15c",
-        "ts": "2026-08-19T07:00:00Z",
-        "source": "news_layoffs",
-        "source_url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNbDF2eUhzTWZYcnZWTVRVSUw5bHQxME9uazZJWXZEcDF2Y3V1QzdRSE0xYml2YXlCQjEtREhLanVPLTlBZmxQRDgyaEFSM1pnTDVoZG5kb2NVNGZjX2p5VVJudFRGdjYyMG90aXRkNnZTZ09yalR2bzdhZHhKcGhtelJlVDdwQkF4RVpPWWFocDI0bEJyemlSbFFTMjFZY0t5N1N5aDJYVk9pdG4wN3BXTXV2S1ZOMHg3b25uemllRUpQWnZORTRaSGJMR2pFU1EtV0HSAeYBQVVfeXFMTzdtOWxzNTJPOEFiTVFMTlhlUzVTRkJZOE1VQ0IxNW5rMXg5SU81TEpId0Y4MmpfaGhoUkctb241bVVMVU4xTEM4cEJTUnU5VUpfaHI4VDdWMWFPclRwZ1JybnoyRFF2bTNFYmI5YjRtQ18xdlFzcXZ4RWZVeHBHQUhTZGRQUTdBV0NwbDNCS0FWQ3BxSW11MjV1RWF1aWZZNm96THVUUExsbEZCeGt1aFc4NmpvRnQyTWtJekNWcTE2cUY1UWlJNnFZVG5hNERod0NFVnJZUWZWX3ltRDBYQUlmYjRvYkE?oc=5",
-        "type": "layoff",
-        "company": {
-          "name": "TikTok",
-          "ticker": null,
-          "industry": null,
-          "sector": "Other",
-          "hq_region": "WA",
-          "size_band": "unknown"
-        },
-        "magnitude": 75.0,
-        "unit": "people",
-        "raw_text": "TikTok to lay off 75 Bellevue employees, the second consecutive year of local job cuts",
-        "tags": [
-          "layoff",
-          "other",
-          "WA"
         ],
         "extras": {}
       },
@@ -3502,13 +3478,36 @@
         "extras": {}
       },
       {
-        "id": "a6553c9caf3897ba",
-        "ts": "2026-09-01T11:36:23Z",
+        "id": "9c645411bb0bf117",
+        "ts": "2026-09-01T21:25:30Z",
         "source": "news_layoffs",
-        "source_url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQcllaYVhvZXFZUjRvN0F0UFdXNWxjVGtUWkRzWVNLeHdQNzZhVVRKcG9DNWhUTEV5VkM0a3laM3MwZ3AwbEJkeTVNM3NzRW1wb1hXX050UHdCQnh5MWVIcF93Ml90MzlNNUY4TldqdVJjMV8yMnlTRGhjX2lQUVo5Ym1Lem12OW43ajU2LVk4RmV2ZVhoa0VhR3doamZvZWVNQlBvY2Utb3NCeWZadXVnaG42MkVzSkRodlcwNHozelhBcWN1MFREdW1CQTdud3Y5NGc?oc=5",
+        "source_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9GdWpxcVBPWUY1a0J3OTdHckRwUWZhYy11ZzlocEFXMV93SkxmX2xlWHlaRFJxYm5EdGtyLW1tTWU4WWdSSDhOeFloUEdhMXUzbnVHY3ZPaVA4Q1puVm1ZWmlJM2pSUXJjd1pLSWhIVTFHVDN3VTlNTQ?oc=5",
         "type": "layoff",
         "company": {
-          "name": "Oracle India",
+          "name": "HCA Healthcare",
+          "ticker": null,
+          "industry": null,
+          "sector": "Healthcare",
+          "hq_region": null,
+          "size_band": "unknown"
+        },
+        "magnitude": null,
+        "unit": null,
+        "raw_text": "HCA Healthcare announces layoffs",
+        "tags": [
+          "layoff",
+          "healthcare"
+        ],
+        "extras": {}
+      },
+      {
+        "id": "6f48dcbcd6d2eec4",
+        "ts": "2026-08-31T14:01:55Z",
+        "source": "news_layoffs",
+        "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE55czByYWo4bldrVU0xdDA3dllmZU1BNnFOb0RpUlNfSHhLSTk5RG1KYkc4QjhZaEhYZ2J0RVFNM0FqcXIwVHRGQVpEaDdqdmZyeFg0ZWlYQlN0cDhNQkJv?oc=5",
+        "type": "layoff",
+        "company": {
+          "name": "Meta",
           "ticker": null,
           "industry": null,
           "sector": "Technology",
@@ -3517,65 +3516,18 @@
         },
         "magnitude": null,
         "unit": null,
-        "raw_text": "Oracle India Reports Second Layoff Wave: Bangalore Engineers Wait for 6 AM Email Again",
+        "raw_text": "Meta Cuts 10% of Staff as Zuckerberg Scales Back AI Layoffs",
         "tags": [
           "layoff",
           "technology"
         ],
         "extras": {}
-      },
-      {
-        "id": "42a3660c9c9c1cc0",
-        "ts": "2026-08-29T17:25:13Z",
-        "source": "news_layoffs",
-        "source_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1wQml2YnRDemRKeWRKT1JyYWhRMU1FQm52NzRRZVl0ZmZENGU5bG1LZ2FiQ3VxcHUtMU9lM056VXprUDVXLTZjTVFKeFY1ek1BQ0hLajBURTdWZVdYQkIwZHUyWkZMdjJYQ2dDUi16STdGMlJFekdB?oc=5",
-        "type": "layoff",
-        "company": {
-          "name": "LIV Golf",
-          "ticker": null,
-          "industry": null,
-          "sector": "Media",
-          "hq_region": null,
-          "size_band": "unknown"
-        },
-        "magnitude": null,
-        "unit": null,
-        "raw_text": "LIV Golf announces mass layoffs following PIF exit",
-        "tags": [
-          "layoff",
-          "media"
-        ],
-        "extras": {}
-      },
-      {
-        "id": "f7632396b8000019",
-        "ts": "2026-08-27T19:59:00Z",
-        "source": "news_layoffs",
-        "source_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBOV2UtaWUxUFc1ek1seS1oVzZIYTduRGtQR0NkVTdBNWZIOVJZVDFHekZISl9VbWZtVzFtb2JiaXZBTVJBa1ZRYVpBalNmdUJoOFhxOW1vbDY4dXU1cmEwSGREaU1iaDlicWtELTlhbzJtc1pn0gF0QVVfeXFMTkVQREdGajB6NlZiLU1Kb0pfU1BYdVNIenB4Mm1HWjdKR1RJNHNLcW5MM0NHYWVyWHduSWUyTlBrYmh3MEZocXRrY1RQNFA0eFU5UlNiTXgzOGlBQVQyUnJJdkNJbFRMZUVZbjNxSDhsNGJnR00?oc=5",
-        "type": "layoff",
-        "company": {
-          "name": "T-Mobile",
-          "ticker": null,
-          "industry": null,
-          "sector": "Telecom",
-          "hq_region": "WA",
-          "size_band": "unknown"
-        },
-        "magnitude": null,
-        "unit": null,
-        "raw_text": "T-Mobile announces layoffs in Tacoma and other WA cities, will shutter 13 stores",
-        "tags": [
-          "layoff",
-          "telecom",
-          "WA"
-        ],
-        "extras": {}
       }
     ],
     "by_sector_30d": {
-      "Other": 8,
-      "Technology": 3,
-      "Retail": 2,
+      "Other": 9,
+      "Retail": 4,
+      "Technology": 4,
       "Telecom": 2,
       "Manufacturing": 2,
       "Media": 2,

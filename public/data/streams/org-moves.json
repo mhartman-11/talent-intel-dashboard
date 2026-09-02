@@ -1,25 +1,48 @@
 {
   "stream": "org-moves",
-  "generated_at": "2026-09-01T20:44:24.458689+00:00",
-  "total": 118,
-  "showing": 118,
+  "generated_at": "2026-09-02T03:30:34.164654+00:00",
+  "total": 117,
+  "showing": 117,
   "source_counts": {
-    "sec_edgar": 105,
+    "sec_edgar": 104,
     "org_moves": 13
   },
   "sector_counts": {
-    "Other": 101,
+    "Other": 98,
     "Manufacturing": 4,
+    "Finance": 4,
     "Retail": 3,
-    "Finance": 3,
     "Technology": 2,
+    "Healthcare": 2,
     "Energy": 1,
     "Telecom": 1,
-    "Healthcare": 1,
     "CPG": 1,
     "Hospitality": 1
   },
   "events": [
+    {
+      "id": "2d4e2848c5238334",
+      "ts": "2026-09-01T22:08:24Z",
+      "source": "org_moves",
+      "source_url": "https://techcrunch.com/2026/09/01/afterquery-reportedly-becomes-y-combinators-fastest-ever-unicorn-now-valued-at-3-2b/",
+      "type": "funding",
+      "company": {
+        "name": "Unknown",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": 3200000000.0,
+      "unit": "USD",
+      "raw_text": "AfterQuery reportedly becomes Y Combinator\u2019s fastest-ever unicorn, now valued at $3.2B",
+      "tags": [
+        "funding",
+        "other"
+      ],
+      "extras": {}
+    },
     {
       "id": "99423f1ae63971cd",
       "ts": "2026-09-01T19:30:24Z",
@@ -97,6 +120,34 @@
       "extras": {
         "adsh": "0001213900-26-096185",
         "cik": "0001918080",
+        "file_date": "2026-09-01"
+      }
+    },
+    {
+      "id": "e4244a7d7d0c807b",
+      "ts": "2026-09-01T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=866829&type=&dateb=&owner=include&count=40",
+      "type": "exec_move",
+      "company": {
+        "name": "Hornbeck Offshore Services, Inc.",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Hornbeck Offshore Services, Inc. reported an executive or board change in an 8-K filing on 2026-09-01.",
+      "tags": [
+        "exec_move",
+        "sec_8k",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0001193125-26-378529",
+        "cik": "0000866829",
         "file_date": "2026-09-01"
       }
     },
@@ -209,6 +260,62 @@
       "extras": {
         "adsh": "0001683168-26-006832",
         "cik": "0001462223",
+        "file_date": "2026-09-01"
+      }
+    },
+    {
+      "id": "05abdeee30aed17a",
+      "ts": "2026-09-01T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1069394&type=&dateb=&owner=include&count=40",
+      "type": "exec_move",
+      "company": {
+        "name": "Flexible Solutions International INC",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Flexible Solutions International INC reported an executive or board change in an 8-K filing on 2026-09-01.",
+      "tags": [
+        "exec_move",
+        "sec_8k",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0001493152-26-040991",
+        "cik": "0001069394",
+        "file_date": "2026-09-01"
+      }
+    },
+    {
+      "id": "4df0f7f0b67e15c5",
+      "ts": "2026-09-01T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2153149&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "Imagen Rainey Support Services, LLC",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Imagen Rainey Support Services, LLC filed a Form D securities offering with the SEC on 2026-09-01.",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002153149-26-000001",
+        "cik": "0002153149",
         "file_date": "2026-09-01"
       }
     },
@@ -857,62 +964,6 @@
       }
     },
     {
-      "id": "f91e7ee4fbec5764",
-      "ts": "2026-09-01T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2136482&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "Telos Artifex LLC",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Telos Artifex LLC filed a Form D securities offering with the SEC on 2026-09-01.",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0002136482-26-000002",
-        "cik": "0002136482",
-        "file_date": "2026-09-01"
-      }
-    },
-    {
-      "id": "07bb0c9ec5a04f44",
-      "ts": "2026-09-01T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2135487&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "HAVF III Participants, LLC",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "HAVF III Participants, LLC filed a Form D securities offering with the SEC on 2026-09-01.",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0002135487-26-000001",
-        "cik": "0002135487",
-        "file_date": "2026-09-01"
-      }
-    },
-    {
       "id": "d3b69b27087ffcd9",
       "ts": "2026-08-31T23:14:14Z",
       "source": "org_moves",
@@ -1463,6 +1514,62 @@
       }
     },
     {
+      "id": "e4bfe1461f617af8",
+      "ts": "2026-08-28T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1402328&type=&dateb=&owner=include&count=40",
+      "type": "exec_move",
+      "company": {
+        "name": "Sunshine Biopharma Inc.",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Sunshine Biopharma Inc. reported an executive or board change in an 8-K filing on 2026-08-28.",
+      "tags": [
+        "exec_move",
+        "sec_8k",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0001683168-26-006777",
+        "cik": "0001402328",
+        "file_date": "2026-08-28"
+      }
+    },
+    {
+      "id": "dbbe4a7b65a9f976",
+      "ts": "2026-08-28T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1331465&type=&dateb=&owner=include&count=40",
+      "type": "exec_move",
+      "company": {
+        "name": "Federal Home Loan Bank of Atlanta",
+        "ticker": null,
+        "industry": null,
+        "sector": "Finance",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Federal Home Loan Bank of Atlanta reported an executive or board change in an 8-K filing on 2026-08-28.",
+      "tags": [
+        "exec_move",
+        "sec_8k",
+        "finance"
+      ],
+      "extras": {
+        "adsh": "0001331465-26-000157",
+        "cik": "0001331465",
+        "file_date": "2026-08-28"
+      }
+    },
+    {
       "id": "b890cdb984e48fd5",
       "ts": "2026-08-27T17:00:00Z",
       "source": "org_moves",
@@ -1975,6 +2082,34 @@
       }
     },
     {
+      "id": "e2e1aefb408320bf",
+      "ts": "2026-08-26T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1676163&type=&dateb=&owner=include&count=40",
+      "type": "exec_move",
+      "company": {
+        "name": "SS Innovations International, Inc.",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "SS Innovations International, Inc. reported an executive or board change in an 8-K filing on 2026-08-26.",
+      "tags": [
+        "exec_move",
+        "sec_8k",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0001213900-26-093946",
+        "cik": "0001676163",
+        "file_date": "2026-08-26"
+      }
+    },
+    {
       "id": "8eb07c3107cb3ea5",
       "ts": "2026-08-25T12:37:37Z",
       "source": "org_moves",
@@ -2464,27 +2599,32 @@
       }
     },
     {
-      "id": "ef92fc13fb5f1d14",
-      "ts": "2026-08-21T22:10:01Z",
-      "source": "org_moves",
-      "source_url": "https://techcrunch.com/2026/08/21/how-ai-accounting-startup-rillet-raised-100m-and-became-a-unicorn-in-48-hours/",
-      "type": "funding",
+      "id": "a05c1edb7a1b9e8b",
+      "ts": "2026-08-24T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1819574&type=&dateb=&owner=include&count=40",
+      "type": "exec_move",
       "company": {
-        "name": "Unknown",
+        "name": "Bark, Inc.",
         "ticker": null,
         "industry": null,
         "sector": "Other",
         "hq_region": null,
         "size_band": "unknown"
       },
-      "magnitude": 100000000.0,
-      "unit": "USD",
-      "raw_text": "How AI accounting startup Rillet raised $100M and became a unicorn in 48 hours",
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Bark, Inc. reported an executive or board change in an 8-K filing on 2026-08-24.",
       "tags": [
-        "funding",
+        "exec_move",
+        "sec_8k",
         "other"
       ],
-      "extras": {}
+      "extras": {
+        "adsh": "0001819574-26-000006",
+        "cik": "0001819574",
+        "file_date": "2026-08-24"
+      }
     },
     {
       "id": "f9ffa63f76118189",
@@ -2679,6 +2819,34 @@
       "extras": {
         "adsh": "0001140361-26-034016",
         "cik": "0001021561",
+        "file_date": "2026-08-21"
+      }
+    },
+    {
+      "id": "653c2dd5dad63901",
+      "ts": "2026-08-21T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1591698&type=&dateb=&owner=include&count=40",
+      "type": "exec_move",
+      "company": {
+        "name": "Paylocity Holding Corp",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Paylocity Holding Corp reported an executive or board change in an 8-K filing on 2026-08-21.",
+      "tags": [
+        "exec_move",
+        "sec_8k",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0001591698-26-000127",
+        "cik": "0001591698",
         "file_date": "2026-08-21"
       }
     },
@@ -2879,6 +3047,34 @@
       }
     },
     {
+      "id": "bc52ab616e1c00f5",
+      "ts": "2026-08-20T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1583771&type=&dateb=&owner=include&count=40",
+      "type": "exec_move",
+      "company": {
+        "name": "Hepion Pharmaceuticals, Inc.",
+        "ticker": null,
+        "industry": null,
+        "sector": "Healthcare",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Hepion Pharmaceuticals, Inc. reported an executive or board change in an 8-K filing on 2026-08-20.",
+      "tags": [
+        "exec_move",
+        "sec_8k",
+        "healthcare"
+      ],
+      "extras": {
+        "adsh": "0001493152-26-039488",
+        "cik": "0001583771",
+        "file_date": "2026-08-20"
+      }
+    },
+    {
       "id": "5436d81fa0020dbc",
       "ts": "2026-08-19T00:00:00Z",
       "source": "sec_edgar",
@@ -2988,230 +3184,6 @@
         "adsh": "0001829126-26-009070",
         "cik": "0002134856",
         "file_date": "2026-08-19"
-      }
-    },
-    {
-      "id": "5ebdfde658c42289",
-      "ts": "2026-08-18T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=921825&type=&dateb=&owner=include&count=40",
-      "type": "exec_move",
-      "company": {
-        "name": "First Industrial Realty Trust INC",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "First Industrial Realty Trust INC reported an executive or board change in an 8-K filing on 2026-08-18.",
-      "tags": [
-        "exec_move",
-        "sec_8k",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0000921825-26-000071",
-        "cik": "0000921825",
-        "file_date": "2026-08-18"
-      }
-    },
-    {
-      "id": "4177188a40d1782d",
-      "ts": "2026-08-18T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=50471&type=&dateb=&owner=include&count=40",
-      "type": "exec_move",
-      "company": {
-        "name": "ReposiTrak, Inc.",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "ReposiTrak, Inc. reported an executive or board change in an 8-K filing on 2026-08-18.",
-      "tags": [
-        "exec_move",
-        "sec_8k",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0001437749-26-028419",
-        "cik": "0000050471",
-        "file_date": "2026-08-18"
-      }
-    },
-    {
-      "id": "2a5761a0b1a91adc",
-      "ts": "2026-08-18T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2052568&type=&dateb=&owner=include&count=40",
-      "type": "exec_move",
-      "company": {
-        "name": "Legence Corp.",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Legence Corp. reported an executive or board change in an 8-K filing on 2026-08-18.",
-      "tags": [
-        "exec_move",
-        "sec_8k",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0001193125-26-355583",
-        "cik": "0002052568",
-        "file_date": "2026-08-18"
-      }
-    },
-    {
-      "id": "dc1bff6d2379bf69",
-      "ts": "2026-08-18T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1529113&type=&dateb=&owner=include&count=40",
-      "type": "exec_move",
-      "company": {
-        "name": "XTI Aerospace, Inc.",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "XTI Aerospace, Inc. reported an executive or board change in an 8-K filing on 2026-08-18.",
-      "tags": [
-        "exec_move",
-        "sec_8k",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0001213900-26-090951",
-        "cik": "0001529113",
-        "file_date": "2026-08-18"
-      }
-    },
-    {
-      "id": "b52a7eba38b52471",
-      "ts": "2026-08-18T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1434601&type=&dateb=&owner=include&count=40",
-      "type": "exec_move",
-      "company": {
-        "name": "Transglobal Management Group, Inc.",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Transglobal Management Group, Inc. reported an executive or board change in an 8-K filing on 2026-08-18.",
-      "tags": [
-        "exec_move",
-        "sec_8k",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0001683168-26-006568",
-        "cik": "0001434601",
-        "file_date": "2026-08-18"
-      }
-    },
-    {
-      "id": "97563497e789b99a",
-      "ts": "2026-08-18T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1880343&type=&dateb=&owner=include&count=40",
-      "type": "exec_move",
-      "company": {
-        "name": "Amaze Holdings, Inc.",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Amaze Holdings, Inc. reported an executive or board change in an 8-K filing on 2026-08-18.",
-      "tags": [
-        "exec_move",
-        "sec_8k",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0001493152-26-038826",
-        "cik": "0001880343",
-        "file_date": "2026-08-18"
-      }
-    },
-    {
-      "id": "e381992e97929c65",
-      "ts": "2026-08-18T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1412486&type=&dateb=&owner=include&count=40",
-      "type": "exec_move",
-      "company": {
-        "name": "Cocrystal Pharma, Inc.",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Cocrystal Pharma, Inc. reported an executive or board change in an 8-K filing on 2026-08-18.",
-      "tags": [
-        "exec_move",
-        "sec_8k",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0001493152-26-039023",
-        "cik": "0001412486",
-        "file_date": "2026-08-18"
-      }
-    },
-    {
-      "id": "0af3e228526ee5d7",
-      "ts": "2026-08-18T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2013807&type=&dateb=&owner=include&count=40",
-      "type": "exec_move",
-      "company": {
-        "name": "Foxx Development Holdings Inc.",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Foxx Development Holdings Inc. reported an executive or board change in an 8-K filing on 2026-08-18.",
-      "tags": [
-        "exec_move",
-        "sec_8k",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0001213900-26-091276",
-        "cik": "0002013807",
-        "file_date": "2026-08-18"
       }
     },
     {
