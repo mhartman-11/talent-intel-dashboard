@@ -1,24 +1,108 @@
 {
   "stream": "org-moves",
-  "generated_at": "2026-09-03T10:52:16.134950+00:00",
-  "total": 129,
-  "showing": 129,
+  "generated_at": "2026-09-03T13:12:08.135070+00:00",
+  "total": 126,
+  "showing": 126,
   "source_counts": {
-    "sec_edgar": 116,
+    "sec_edgar": 113,
     "org_moves": 13
   },
   "sector_counts": {
-    "Other": 109,
+    "Other": 105,
     "Retail": 4,
+    "Healthcare": 4,
     "Finance": 4,
     "Manufacturing": 3,
-    "Healthcare": 3,
     "Technology": 2,
     "CPG": 2,
     "Energy": 1,
     "Telecom": 1
   },
   "events": [
+    {
+      "id": "e27b6dd3fef1680b",
+      "ts": "2026-09-03T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1974640&type=&dateb=&owner=include&count=40",
+      "type": "exec_move",
+      "company": {
+        "name": "Apogee Therapeutics, Inc.",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Apogee Therapeutics, Inc. reported an executive or board change in an 8-K filing on 2026-09-03.",
+      "tags": [
+        "exec_move",
+        "sec_8k",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0001140361-26-035537",
+        "cik": "0001974640",
+        "file_date": "2026-09-03"
+      }
+    },
+    {
+      "id": "2b57b706f6dfc23d",
+      "ts": "2026-09-03T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1628808&type=&dateb=&owner=include&count=40",
+      "type": "exec_move",
+      "company": {
+        "name": "Profound Medical Corp.",
+        "ticker": null,
+        "industry": null,
+        "sector": "Healthcare",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Profound Medical Corp. reported an executive or board change in an 8-K filing on 2026-09-03.",
+      "tags": [
+        "exec_move",
+        "sec_8k",
+        "healthcare"
+      ],
+      "extras": {
+        "adsh": "0001171843-26-005868",
+        "cik": "0001628808",
+        "file_date": "2026-09-03"
+      }
+    },
+    {
+      "id": "d92117a73d349bf8",
+      "ts": "2026-09-03T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1691082&type=&dateb=&owner=include&count=40",
+      "type": "exec_move",
+      "company": {
+        "name": "LB Pharmaceuticals INC",
+        "ticker": null,
+        "industry": null,
+        "sector": "Healthcare",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "LB Pharmaceuticals INC reported an executive or board change in an 8-K filing on 2026-09-03.",
+      "tags": [
+        "exec_move",
+        "sec_8k",
+        "healthcare"
+      ],
+      "extras": {
+        "adsh": "0001193125-26-381076",
+        "cik": "0001691082",
+        "file_date": "2026-09-03"
+      }
+    },
     {
       "id": "0c412a8f308220b3",
       "ts": "2026-09-03T00:00:00Z",
@@ -184,6 +268,62 @@
       "extras": {
         "adsh": "0002113491-26-000002",
         "cik": "0002113491",
+        "file_date": "2026-09-03"
+      }
+    },
+    {
+      "id": "9893e2bd65f22ecf",
+      "ts": "2026-09-03T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2035300&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "Debit MY Data, Inc.",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Debit MY Data, Inc. filed a Form D securities offering with the SEC on 2026-09-03.",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002035300-26-000004",
+        "cik": "0002035300",
+        "file_date": "2026-09-03"
+      }
+    },
+    {
+      "id": "2d06ac5295c60dec",
+      "ts": "2026-09-03T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2035300&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "Debit MY Data, Inc.",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Debit MY Data, Inc. filed a Form D securities offering with the SEC on 2026-09-03.",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002035300-26-000003",
+        "cik": "0002035300",
         "file_date": "2026-09-03"
       }
     },
@@ -1112,146 +1252,6 @@
       }
     },
     {
-      "id": "25d386d293a425f4",
-      "ts": "2026-09-02T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2152769&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "Gettysburg Cookie Company, LLC",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Gettysburg Cookie Company, LLC filed a Form D securities offering with the SEC on 2026-09-02.",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0002152769-26-000001",
-        "cik": "0002152769",
-        "file_date": "2026-09-02"
-      }
-    },
-    {
-      "id": "5287e29244ec90e8",
-      "ts": "2026-09-02T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2152731&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "DISA Tech, Inc.",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "DISA Tech, Inc. filed a Form D securities offering with the SEC on 2026-09-02.",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0002152731-26-000001",
-        "cik": "0002152731",
-        "file_date": "2026-09-02"
-      }
-    },
-    {
-      "id": "e725b1540280004a",
-      "ts": "2026-09-02T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2152713&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "Vault Commerce, Inc.",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Vault Commerce, Inc. filed a Form D securities offering with the SEC on 2026-09-02.",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0002152713-26-000001",
-        "cik": "0002152713",
-        "file_date": "2026-09-02"
-      }
-    },
-    {
-      "id": "85e55dda466b25b1",
-      "ts": "2026-09-02T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2152584&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "American Fertilizer, LLC",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "American Fertilizer, LLC filed a Form D securities offering with the SEC on 2026-09-02.",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0002152584-26-000001",
-        "cik": "0002152584",
-        "file_date": "2026-09-02"
-      }
-    },
-    {
-      "id": "44a62921a7b915c5",
-      "ts": "2026-09-02T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2152544&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "Studio58, Inc.",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Studio58, Inc. filed a Form D securities offering with the SEC on 2026-09-02.",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0002152544-26-000001",
-        "cik": "0002152544",
-        "file_date": "2026-09-02"
-      }
-    },
-    {
       "id": "2d4e2848c5238334",
       "ts": "2026-09-01T22:08:24Z",
       "source": "org_moves",
@@ -2045,34 +2045,6 @@
       }
     },
     {
-      "id": "e4bfe1461f617af8",
-      "ts": "2026-08-28T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1402328&type=&dateb=&owner=include&count=40",
-      "type": "exec_move",
-      "company": {
-        "name": "Sunshine Biopharma Inc.",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Sunshine Biopharma Inc. reported an executive or board change in an 8-K filing on 2026-08-28.",
-      "tags": [
-        "exec_move",
-        "sec_8k",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0001683168-26-006777",
-        "cik": "0001402328",
-        "file_date": "2026-08-28"
-      }
-    },
-    {
       "id": "b890cdb984e48fd5",
       "ts": "2026-08-27T17:00:00Z",
       "source": "org_moves",
@@ -2581,34 +2553,6 @@
       "extras": {
         "adsh": "0001437749-26-028979",
         "cik": "0001463913",
-        "file_date": "2026-08-26"
-      }
-    },
-    {
-      "id": "e2e1aefb408320bf",
-      "ts": "2026-08-26T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1676163&type=&dateb=&owner=include&count=40",
-      "type": "exec_move",
-      "company": {
-        "name": "SS Innovations International, Inc.",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "SS Innovations International, Inc. reported an executive or board change in an 8-K filing on 2026-08-26.",
-      "tags": [
-        "exec_move",
-        "sec_8k",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0001213900-26-093946",
-        "cik": "0001676163",
         "file_date": "2026-08-26"
       }
     },
@@ -3490,34 +3434,6 @@
       "extras": {
         "adsh": "0001185185-26-003649",
         "cik": "0001636051",
-        "file_date": "2026-08-20"
-      }
-    },
-    {
-      "id": "bc52ab616e1c00f5",
-      "ts": "2026-08-20T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1583771&type=&dateb=&owner=include&count=40",
-      "type": "exec_move",
-      "company": {
-        "name": "Hepion Pharmaceuticals, Inc.",
-        "ticker": null,
-        "industry": null,
-        "sector": "Healthcare",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Hepion Pharmaceuticals, Inc. reported an executive or board change in an 8-K filing on 2026-08-20.",
-      "tags": [
-        "exec_move",
-        "sec_8k",
-        "healthcare"
-      ],
-      "extras": {
-        "adsh": "0001493152-26-039488",
-        "cik": "0001583771",
         "file_date": "2026-08-20"
       }
     },
