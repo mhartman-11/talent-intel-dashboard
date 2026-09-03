@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-03T13:11:00.654664Z",
+  "generated_at": "2026-09-03T15:59:37.423535Z",
   "next_ingest_at": null,
-  "total_events": 3888,
-  "events_7d": 1468,
+  "total_events": 3859,
+  "events_7d": 1441,
   "sources": [
     {
       "source": "greenhouse",
@@ -10,9 +10,9 @@
       "url": "https://boards-api.greenhouse.io",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-09-03T13:11:00.794253Z",
-      "last_attempted": "2026-09-03T13:11:00.794253Z",
-      "record_count": 3232,
+      "last_ok": "2026-09-03T15:59:37.558581Z",
+      "last_attempted": "2026-09-03T15:59:37.558581Z",
+      "record_count": 3234,
       "ok": true,
       "errors": [
         "DoorDash (doordash): GET https://boards-api.greenhouse.io/v1/boards/doordash/jobs failed: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/doordash/jobs?content=true'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
@@ -32,9 +32,9 @@
       "url": "https://api.lever.co/v0/postings",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-09-03T13:11:42.304932Z",
-      "last_attempted": "2026-09-03T13:11:42.304932Z",
-      "record_count": 78,
+      "last_ok": "2026-09-03T16:00:14.239273Z",
+      "last_attempted": "2026-09-03T16:00:14.239273Z",
+      "record_count": 74,
       "ok": true,
       "errors": [
         "Scale AI (scaleai): GET https://api.lever.co/v0/postings/scaleai failed: Client error '404 Not Found' for url 'https://api.lever.co/v0/postings/scaleai?mode=json'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
@@ -49,8 +49,8 @@
       "url": "https://api.ashbyhq.com/posting-api",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-09-03T13:11:54.345152Z",
-      "last_attempted": "2026-09-03T13:11:54.345152Z",
+      "last_ok": "2026-09-03T16:00:25.908945Z",
+      "last_attempted": "2026-09-03T16:00:25.908945Z",
       "record_count": 260,
       "ok": true,
       "errors": [
@@ -63,8 +63,8 @@
       "url": "https://techcrunch.com/tag/layoffs/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-09-03T13:11:57.274966Z",
-      "last_attempted": "2026-09-03T13:11:57.274966Z",
+      "last_ok": "2026-09-03T16:00:28.578006Z",
+      "last_attempted": "2026-09-03T16:00:28.578006Z",
       "record_count": 5,
       "ok": true,
       "errors": []
@@ -75,11 +75,19 @@
       "url": "https://news.google.com/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-09-03T13:11:57.849759Z",
-      "last_attempted": "2026-09-03T13:11:57.849759Z",
-      "record_count": 18,
-      "ok": true,
-      "errors": []
+      "last_ok": null,
+      "last_attempted": "2026-09-03T16:00:28.955645Z",
+      "record_count": 0,
+      "ok": false,
+      "errors": [
+        "'tech layoffs': Server error '503 Service Unavailable' for url 'https://news.google.com/rss/search?q=tech+layoffs+when%3A21d&hl=en-US&gl=US&ceid=US:en'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503",
+        "'bank layoffs': Server error '503 Service Unavailable' for url 'https://news.google.com/rss/search?q=bank+layoffs+when%3A21d&hl=en-US&gl=US&ceid=US:en'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503",
+        "'healthcare layoffs': Server error '503 Service Unavailable' for url 'https://news.google.com/rss/search?q=healthcare+layoffs+when%3A21d&hl=en-US&gl=US&ceid=US:en'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503",
+        "'retail layoffs': Server error '503 Service Unavailable' for url 'https://news.google.com/rss/search?q=retail+layoffs+when%3A21d&hl=en-US&gl=US&ceid=US:en'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503",
+        "'manufacturing layoffs': Server error '503 Service Unavailable' for url 'https://news.google.com/rss/search?q=manufacturing+layoffs+when%3A21d&hl=en-US&gl=US&ceid=US:en'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503",
+        "'media layoffs': Server error '503 Service Unavailable' for url 'https://news.google.com/rss/search?q=media+layoffs+when%3A21d&hl=en-US&gl=US&ceid=US:en'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503",
+        "'company layoffs announced': Server error '503 Service Unavailable' for url 'https://news.google.com/rss/search?q=company+layoffs+announced+when%3A21d&hl=en-US&gl=US&ceid=US:en'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503"
+      ]
     },
     {
       "source": "state_warn",
@@ -87,8 +95,8 @@
       "url": "https://data.texas.gov/d/8w53-c4f6",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-09-03T13:12:00.394832Z",
-      "last_attempted": "2026-09-03T13:12:00.394832Z",
+      "last_ok": "2026-09-03T16:01:15.696844Z",
+      "last_attempted": "2026-09-03T16:01:15.696844Z",
       "record_count": 69,
       "ok": true,
       "errors": []
@@ -99,8 +107,8 @@
       "url": "https://techcrunch.com/category/venture/feed/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-09-03T13:12:03.624857Z",
-      "last_attempted": "2026-09-03T13:12:03.624857Z",
+      "last_ok": "2026-09-03T16:01:16.994809Z",
+      "last_attempted": "2026-09-03T16:01:16.994809Z",
       "record_count": 13,
       "ok": true,
       "errors": []
@@ -111,9 +119,9 @@
       "url": "https://efts.sec.gov/LATEST/search-index",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-09-03T13:12:04.399675Z",
-      "last_attempted": "2026-09-03T13:12:04.399675Z",
-      "record_count": 113,
+      "last_ok": "2026-09-03T16:01:17.704768Z",
+      "last_attempted": "2026-09-03T16:01:17.704768Z",
+      "record_count": 102,
       "ok": true,
       "errors": []
     },
@@ -123,8 +131,8 @@
       "url": "https://www.bls.gov/oes/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-09-03T13:12:07.012390Z",
-      "last_attempted": "2026-09-03T13:12:07.012390Z",
+      "last_ok": "2026-09-03T16:01:19.081946Z",
+      "last_attempted": "2026-09-03T16:01:19.081946Z",
       "record_count": 24,
       "ok": true,
       "errors": []
@@ -135,8 +143,8 @@
       "url": "https://www.bls.gov/ces/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-09-03T13:12:07.599574Z",
-      "last_attempted": "2026-09-03T13:12:07.599574Z",
+      "last_ok": "2026-09-03T16:01:19.425422Z",
+      "last_attempted": "2026-09-03T16:01:19.425422Z",
       "record_count": 48,
       "ok": true,
       "errors": []
@@ -147,8 +155,8 @@
       "url": "https://www.bls.gov/developers/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-09-03T13:12:07.842800Z",
-      "last_attempted": "2026-09-03T13:12:07.842800Z",
+      "last_ok": "2026-09-03T16:01:19.629581Z",
+      "last_attempted": "2026-09-03T16:01:19.629581Z",
       "record_count": 30,
       "ok": true,
       "errors": []
@@ -156,13 +164,13 @@
   ],
   "recent_signals": [
     {
-      "id": "aac98ea31ac65c97",
-      "ts": "2026-09-03T09:05:01-04:00",
+      "id": "8bdd12e2d09a1719",
+      "ts": "2026-09-03T11:57:14-04:00",
       "source": "greenhouse",
-      "source_url": "https://stripe.com/jobs/search?gh_jid=6717520",
+      "source_url": "https://boards.greenhouse.io/cloudflare/jobs/8161251?gh_jid=8161251",
       "type": "posting",
       "company": {
-        "name": "Stripe",
+        "name": "Cloudflare",
         "ticker": null,
         "industry": null,
         "sector": "Technology",
@@ -171,25 +179,24 @@
       },
       "magnitude": null,
       "unit": "jobs",
-      "raw_text": "Stripe | Software Engineer, Payments and Risk | Dublin, Ireland",
+      "raw_text": "Cloudflare | Principal Partner Account Manager, Service Provider, EMEA | Hybrid",
       "tags": [
         "hiring",
         "greenhouse",
         "technology",
-        "Software Engineering"
+        "Customer Success"
       ],
       "extras": {
-        "role": "Software Engineer, Payments and Risk",
-        "location": "Dublin, Ireland",
-        "function": "Software Engineering",
-        "soc": "15-1252",
-        "seniority": "mid",
-        "remote": "onsite"
+        "role": "Principal Partner Account Manager, Service Provider, EMEA",
+        "location": "Hybrid",
+        "function": "Customer Success",
+        "soc": "13-1161",
+        "seniority": "principal"
       }
     },
     {
       "id": "867d2c3ce99d3f9a",
-      "ts": "2026-09-03T09:03:35-04:00",
+      "ts": "2026-09-03T11:48:15-04:00",
       "source": "greenhouse",
       "source_url": "https://www.coinbase.com/careers/positions/7572514?gh_jid=7572514",
       "type": "posting",
@@ -220,10 +227,346 @@
       }
     },
     {
-      "id": "10c591fb7917b542",
-      "ts": "2026-09-03T08:49:36-04:00",
+      "id": "61ba89f1eb3b4e19",
+      "ts": "2026-09-03T11:43:21-04:00",
       "source": "greenhouse",
-      "source_url": "https://stripe.com/jobs/search?gh_jid=8175820",
+      "source_url": "https://job-boards.greenhouse.io/anthropic/jobs/5411729008",
+      "type": "posting",
+      "company": {
+        "name": "Anthropic",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": "CA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Anthropic | People Partner, Research | San Francisco, CA",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "CA"
+      ],
+      "extras": {
+        "role": "People Partner, Research",
+        "location": "San Francisco, CA",
+        "seniority": "mid"
+      }
+    },
+    {
+      "id": "9397b0c5cfcf3460",
+      "ts": "2026-09-03T11:43:18-04:00",
+      "source": "greenhouse",
+      "source_url": "https://boards.greenhouse.io/robinhood/jobs/8162157?t=gh_src=&gh_jid=8162157",
+      "type": "posting",
+      "company": {
+        "name": "Robinhood",
+        "ticker": null,
+        "industry": null,
+        "sector": "Finance",
+        "hq_region": "NY",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Robinhood | AML Investigator | Denver, CO; New York, NY; Westlake, TX",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "finance",
+        "NY"
+      ],
+      "extras": {
+        "role": "AML Investigator",
+        "location": "Denver, CO; New York, NY; Westlake, TX",
+        "seniority": "mid"
+      }
+    },
+    {
+      "id": "eea17ad79b38f1f3",
+      "ts": "2026-09-03T11:30:32-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/gitlab/jobs/8532274002",
+      "type": "posting",
+      "company": {
+        "name": "GitLab",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "GitLab | Business Development Representative | Remote, EMEA; Remote, Germany; Remote, Ireland; Remote, Netherlands; Remote, United Kingdom",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology"
+      ],
+      "extras": {
+        "role": "Business Development Representative",
+        "location": "Remote, EMEA; Remote, Germany; Remote, Ireland; Remote, Netherlands; Remote, United Kingdom",
+        "seniority": "mid"
+      }
+    },
+    {
+      "id": "5711692950f6c6a7",
+      "ts": "2026-09-03T11:29:51-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/anthropic/jobs/5412584008",
+      "type": "posting",
+      "company": {
+        "name": "Anthropic",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Anthropic | Manager, Sales Development - EMEA | Dublin, IE",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "Sales"
+      ],
+      "extras": {
+        "role": "Manager, Sales Development - EMEA",
+        "location": "Dublin, IE",
+        "function": "Sales",
+        "soc": "41-3091",
+        "seniority": "manager"
+      }
+    },
+    {
+      "id": "bc473a630129bb80",
+      "ts": "2026-09-03T11:28:38-04:00",
+      "source": "greenhouse",
+      "source_url": "https://stripe.com/jobs/search?gh_jid=8163187",
+      "type": "posting",
+      "company": {
+        "name": "Stripe",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": "IL",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Stripe | Core Business Recruiter (Fixed Term Contract) | Chicago",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "IL",
+        "People / HR / Recruiting"
+      ],
+      "extras": {
+        "role": "Core Business Recruiter (Fixed Term Contract)",
+        "location": "Chicago",
+        "function": "People / HR / Recruiting",
+        "soc": "13-1071",
+        "seniority": "mid"
+      }
+    },
+    {
+      "id": "620e27265ff79b56",
+      "ts": "2026-09-03T11:16:29-04:00",
+      "source": "greenhouse",
+      "source_url": "http://www.hioscar.com/careers/8177159?gh_jid=8177159",
+      "type": "posting",
+      "company": {
+        "name": "Oscar Health",
+        "ticker": null,
+        "industry": null,
+        "sector": "Healthcare",
+        "hq_region": "CA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Oscar Health | Senior Security Engineer I, Product Security | San Francisco, California, United States",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "healthcare",
+        "CA",
+        "Security"
+      ],
+      "extras": {
+        "role": "Senior Security Engineer I, Product Security",
+        "location": "San Francisco, California, United States",
+        "function": "Security",
+        "soc": "15-1212",
+        "seniority": "senior",
+        "remote": "remote"
+      }
+    },
+    {
+      "id": "e7f2fadeb4886803",
+      "ts": "2026-09-03T11:11:59-04:00",
+      "source": "greenhouse",
+      "source_url": "http://www.hioscar.com/careers/8177145?gh_jid=8177145",
+      "type": "posting",
+      "company": {
+        "name": "Oscar Health",
+        "ticker": null,
+        "industry": null,
+        "sector": "Healthcare",
+        "hq_region": "AZ",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Oscar Health | Senior Security Engineer I, Product Security | Tempe, Arizona, United States",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "healthcare",
+        "AZ",
+        "Security"
+      ],
+      "extras": {
+        "role": "Senior Security Engineer I, Product Security",
+        "location": "Tempe, Arizona, United States",
+        "function": "Security",
+        "soc": "15-1212",
+        "seniority": "senior",
+        "remote": "hybrid"
+      }
+    },
+    {
+      "id": "4167bc043c6615cf",
+      "ts": "2026-09-03T11:06:57-04:00",
+      "source": "greenhouse",
+      "source_url": "http://www.hioscar.com/careers/8175148?gh_jid=8175148",
+      "type": "posting",
+      "company": {
+        "name": "Oscar Health",
+        "ticker": null,
+        "industry": null,
+        "sector": "Healthcare",
+        "hq_region": "CA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Oscar Health | Senior Security Engineer I, Product Security | Los Angeles, California, United States",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "healthcare",
+        "CA",
+        "Security"
+      ],
+      "extras": {
+        "role": "Senior Security Engineer I, Product Security",
+        "location": "Los Angeles, California, United States",
+        "function": "Security",
+        "soc": "15-1212",
+        "seniority": "senior",
+        "remote": "hybrid"
+      }
+    },
+    {
+      "id": "881c1dd9d5954623",
+      "ts": "2026-09-03T11:00:44-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7980795",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Senior Software Engineer, Agentic Ads Experience | Remote - United States",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "Software Engineering"
+      ],
+      "extras": {
+        "role": "Senior Software Engineer, Agentic Ads Experience",
+        "location": "Remote - United States",
+        "function": "Software Engineering",
+        "soc": "15-1252",
+        "seniority": "senior"
+      }
+    },
+    {
+      "id": "30a3e59d569254f9",
+      "ts": "2026-09-03T10:46:12-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/discord/jobs/8780263002",
+      "type": "posting",
+      "company": {
+        "name": "Discord",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": "CA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Discord | Senior Product Design Manager, Growth | San Francisco Bay Area",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "CA"
+      ],
+      "extras": {
+        "role": "Senior Product Design Manager, Growth",
+        "location": "San Francisco Bay Area",
+        "seniority": "senior"
+      }
+    },
+    {
+      "id": "19cb67d5ce06c0ac",
+      "ts": "2026-09-03T10:45:28-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/gitlab/jobs/8522265002",
+      "type": "posting",
+      "company": {
+        "name": "GitLab",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "GitLab | Forward Deployed Engineer - EMEA | Remote Ireland; Remote, France; Remote, Germany; Remote, Netherlands; Remote, United Kingdom",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology"
+      ],
+      "extras": {
+        "role": "Forward Deployed Engineer - EMEA",
+        "location": "Remote Ireland; Remote, France; Remote, Germany; Remote, Netherlands; Remote, United Kingdom",
+        "seniority": "mid"
+      }
+    },
+    {
+      "id": "e7a3286b44e7a56f",
+      "ts": "2026-09-03T10:25:33-04:00",
+      "source": "greenhouse",
+      "source_url": "https://stripe.com/jobs/search?gh_jid=8170772",
       "type": "posting",
       "company": {
         "name": "Stripe",
@@ -235,26 +578,26 @@
       },
       "magnitude": null,
       "unit": "jobs",
-      "raw_text": "Stripe | Seller Systems Team Lead | Bengaluru",
+      "raw_text": "Stripe | Customer Success Manager | London",
       "tags": [
         "hiring",
         "greenhouse",
         "technology",
-        "Engineering Management"
+        "Customer Success"
       ],
       "extras": {
-        "role": "Seller Systems Team Lead",
-        "location": "Bengaluru",
-        "function": "Engineering Management",
-        "soc": "11-9041",
-        "seniority": "lead"
+        "role": "Customer Success Manager",
+        "location": "London",
+        "function": "Customer Success",
+        "soc": "13-1161",
+        "seniority": "manager"
       }
     },
     {
-      "id": "53b2776100ea6293",
-      "ts": "2026-09-03T08:39:43-04:00",
+      "id": "8a2440507a8332fd",
+      "ts": "2026-09-03T10:24:07-04:00",
       "source": "greenhouse",
-      "source_url": "https://boards.greenhouse.io/cloudflare/jobs/8160660?gh_jid=8160660",
+      "source_url": "https://boards.greenhouse.io/cloudflare/jobs/8160655?gh_jid=8160655",
       "type": "posting",
       "company": {
         "name": "Cloudflare",
@@ -266,26 +609,23 @@
       },
       "magnitude": null,
       "unit": "jobs",
-      "raw_text": "Cloudflare | Software Engineer, Security Rules | Hybrid",
+      "raw_text": "Cloudflare | Senior Forward Deployed Engineer | Hybrid",
       "tags": [
         "hiring",
         "greenhouse",
-        "technology",
-        "Software Engineering"
+        "technology"
       ],
       "extras": {
-        "role": "Software Engineer, Security Rules",
+        "role": "Senior Forward Deployed Engineer",
         "location": "Hybrid",
-        "function": "Software Engineering",
-        "soc": "15-1252",
-        "seniority": "mid"
+        "seniority": "senior"
       }
     },
     {
-      "id": "bb4f35936b5fbf06",
-      "ts": "2026-09-03T08:32:12-04:00",
+      "id": "e996e52bb0c8f421",
+      "ts": "2026-09-03T10:15:31-04:00",
       "source": "greenhouse",
-      "source_url": "https://stripe.com/jobs/search?gh_jid=8175834",
+      "source_url": "https://stripe.com/jobs/search?gh_jid=8175826",
       "type": "posting",
       "company": {
         "name": "Stripe",
@@ -297,514 +637,140 @@
       },
       "magnitude": null,
       "unit": "jobs",
-      "raw_text": "Stripe | Customer Success Leader (Greater China) | Singapore",
+      "raw_text": "Stripe | Manager, Payments Performance Strategist (SEA and Greater China) | Singapore",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology"
+      ],
+      "extras": {
+        "role": "Manager, Payments Performance Strategist (SEA and Greater China)",
+        "location": "Singapore",
+        "seniority": "manager"
+      }
+    },
+    {
+      "id": "5e29dd089dbeecf6",
+      "ts": "2026-09-03T10:14:00-04:00",
+      "source": "greenhouse",
+      "source_url": "https://boards.greenhouse.io/cloudflare/jobs/8164086?gh_jid=8164086",
+      "type": "posting",
+      "company": {
+        "name": "Cloudflare",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Cloudflare | Senior Response Engineer - Cloudflare Managed Defense Center (CMDC) | Hybrid",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology"
+      ],
+      "extras": {
+        "role": "Senior Response Engineer - Cloudflare Managed Defense Center (CMDC)",
+        "location": "Hybrid",
+        "seniority": "senior"
+      }
+    },
+    {
+      "id": "40ce3d68284e3d17",
+      "ts": "2026-09-03T09:29:10-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/anthropic/jobs/5245851008",
+      "type": "posting",
+      "company": {
+        "name": "Anthropic",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": "CA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Anthropic | Staff + Senior Software Engineer, Inference Infrastructure | San Francisco, CA | New York City, NY | Seattle, WA",
       "tags": [
         "hiring",
         "greenhouse",
         "technology",
-        "Customer Success"
-      ],
-      "extras": {
-        "role": "Customer Success Leader (Greater China)",
-        "location": "Singapore",
-        "function": "Customer Success",
-        "soc": "13-1161",
-        "seniority": "mid"
-      }
-    },
-    {
-      "id": "0186e2b349118afa",
-      "ts": "2026-09-03T08:18:11-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8163400",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": "CA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Senior Client Account Manager, Global Strategic Accounts (Media & Entertainment) | Los Angeles, CA; New York City, NY",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
         "CA",
-        "Customer Success"
-      ],
-      "extras": {
-        "role": "Senior Client Account Manager, Global Strategic Accounts (Media & Entertainment)",
-        "location": "Los Angeles, CA; New York City, NY",
-        "function": "Customer Success",
-        "soc": "13-1161",
-        "seniority": "senior"
-      }
-    },
-    {
-      "id": "9bfa8070d70f9fa3",
-      "ts": "2026-09-03T08:18:11-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8017242",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": "CA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Senior Client Account Manager, Global Strategic Accounts (Tech/AI) | San Francisco, CA",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
-        "CA",
-        "Customer Success"
-      ],
-      "extras": {
-        "role": "Senior Client Account Manager, Global Strategic Accounts (Tech/AI)",
-        "location": "San Francisco, CA",
-        "function": "Customer Success",
-        "soc": "13-1161",
-        "seniority": "senior",
-        "remote": "onsite"
-      }
-    },
-    {
-      "id": "d745050c65459e50",
-      "ts": "2026-09-03T08:18:11-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8017263",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Senior Client Account Manager, Global Strategic Accounts (UK) | London, United Kingdom",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
-        "Customer Success"
-      ],
-      "extras": {
-        "role": "Senior Client Account Manager, Global Strategic Accounts (UK)",
-        "location": "London, United Kingdom",
-        "function": "Customer Success",
-        "soc": "13-1161",
-        "seniority": "senior",
-        "remote": "onsite"
-      }
-    },
-    {
-      "id": "e1c66d832d1fbd9f",
-      "ts": "2026-09-03T08:18:11-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8017196",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Senior Client Partner, Global Strategic Accounts (UK) | London, United Kingdom",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media"
-      ],
-      "extras": {
-        "role": "Senior Client Partner, Global Strategic Accounts (UK)",
-        "location": "London, United Kingdom",
-        "seniority": "senior",
-        "remote": "onsite"
-      }
-    },
-    {
-      "id": "1286350163121735",
-      "ts": "2026-09-03T08:17:12-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7746526",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": "NY",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Senior Client Account Manager, Large Customer Sales (Pharma) | New York City, NY",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
-        "NY",
-        "Customer Success"
-      ],
-      "extras": {
-        "role": "Senior Client Account Manager, Large Customer Sales (Pharma)",
-        "location": "New York City, NY",
-        "function": "Customer Success",
-        "soc": "13-1161",
-        "seniority": "senior"
-      }
-    },
-    {
-      "id": "a3df79a89fefe6e4",
-      "ts": "2026-09-03T08:17:12-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7977257",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": "IL",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Senior Client Account Manager, Large Customer Sales (Pharma) | Chicago, IL",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
-        "IL",
-        "Customer Success"
-      ],
-      "extras": {
-        "role": "Senior Client Account Manager, Large Customer Sales (Pharma)",
-        "location": "Chicago, IL",
-        "function": "Customer Success",
-        "soc": "13-1161",
-        "seniority": "senior"
-      }
-    },
-    {
-      "id": "e2d12dc6b97c292e",
-      "ts": "2026-09-03T08:17:12-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8022663",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": "NY",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Senior Client Account Manager, Large Customer Sales (Restaurants and Drinks) | Chicago, IL; New York City, NY",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
-        "NY",
-        "Customer Success"
-      ],
-      "extras": {
-        "role": "Senior Client Account Manager, Large Customer Sales (Restaurants and Drinks)",
-        "location": "Chicago, IL; New York City, NY",
-        "function": "Customer Success",
-        "soc": "13-1161",
-        "seniority": "senior"
-      }
-    },
-    {
-      "id": "873a939b0fa0d011",
-      "ts": "2026-09-03T08:17:12-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8010607",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": "CA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Senior Manager, Large Customer Sales (Entertainment) | Los Angeles, CA",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
-        "CA"
-      ],
-      "extras": {
-        "role": "Senior Manager, Large Customer Sales (Entertainment)",
-        "location": "Los Angeles, CA",
-        "seniority": "senior",
-        "remote": "onsite"
-      }
-    },
-    {
-      "id": "ee9e3a296b7356c8",
-      "ts": "2026-09-03T08:17:12-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8138163",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": "NY",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Senior Manager, Large Customer Sales (Entertainment) | New York City, NY",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
-        "NY"
-      ],
-      "extras": {
-        "role": "Senior Manager, Large Customer Sales (Entertainment)",
-        "location": "New York City, NY",
-        "seniority": "senior",
-        "remote": "onsite"
-      }
-    },
-    {
-      "id": "9e73af0104199d0f",
-      "ts": "2026-09-03T08:17:11-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8113265",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": "NY",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Senior Client Account Manager, Large Customer Sales (CPG) | New York City, NY",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
-        "NY",
-        "Customer Success"
-      ],
-      "extras": {
-        "role": "Senior Client Account Manager, Large Customer Sales (CPG)",
-        "location": "New York City, NY",
-        "function": "Customer Success",
-        "soc": "13-1161",
-        "seniority": "senior"
-      }
-    },
-    {
-      "id": "7d16a4479b51c8e2",
-      "ts": "2026-09-03T08:17:11-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8140121",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": "NY",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Senior Client Partner, Large Customer Sales (Big Box Retail) | New York City, NY",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
-        "NY"
-      ],
-      "extras": {
-        "role": "Senior Client Partner, Large Customer Sales (Big Box Retail)",
-        "location": "New York City, NY",
-        "seniority": "senior",
-        "remote": "onsite"
-      }
-    },
-    {
-      "id": "d07281b717b5fa93",
-      "ts": "2026-09-03T08:16:24-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8175520",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Senior Frontend Engineer, Ads Creative | Remote - United States",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
         "Software Engineering"
       ],
       "extras": {
-        "role": "Senior Frontend Engineer, Ads Creative",
-        "location": "Remote - United States",
+        "role": "Staff + Senior Software Engineer, Inference Infrastructure",
+        "location": "San Francisco, CA | New York City, NY | Seattle, WA",
         "function": "Software Engineering",
         "soc": "15-1252",
-        "seniority": "senior"
+        "seniority": "staff",
+        "remote": "remote"
       }
     },
     {
-      "id": "16f0f940b6165ac2",
-      "ts": "2026-09-03T08:16:24-04:00",
+      "id": "098abacc53f10f20",
+      "ts": "2026-09-03T09:16:36-04:00",
       "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8082867",
+      "source_url": "https://job-boards.greenhouse.io/anthropic/jobs/5223750008",
       "type": "posting",
       "company": {
-        "name": "Reddit",
+        "name": "Anthropic",
         "ticker": null,
         "industry": null,
-        "sector": "Media",
+        "sector": "Technology",
         "hq_region": null,
         "size_band": "unknown"
       },
       "magnitude": null,
       "unit": "jobs",
-      "raw_text": "Reddit | Staff Frontend Engineer, Ads Creative | Remote - United States",
+      "raw_text": "Anthropic | Sales Manager, Nonprofit & Education, EMEA | London, UK",
       "tags": [
         "hiring",
         "greenhouse",
-        "media",
-        "Software Engineering"
-      ],
-      "extras": {
-        "role": "Staff Frontend Engineer, Ads Creative",
-        "location": "Remote - United States",
-        "function": "Software Engineering",
-        "soc": "15-1252",
-        "seniority": "staff"
-      }
-    },
-    {
-      "id": "057890d42062b719",
-      "ts": "2026-09-03T08:16:23-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8067911",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": "CA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Senior Client Account Executive, Mid-Market Sales (B2B Services) | San Francisco, CA",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
-        "CA",
+        "technology",
         "Sales"
       ],
       "extras": {
-        "role": "Senior Client Account Executive, Mid-Market Sales (B2B Services)",
-        "location": "San Francisco, CA",
+        "role": "Sales Manager, Nonprofit & Education, EMEA",
+        "location": "London, UK",
         "function": "Sales",
         "soc": "41-3091",
-        "seniority": "senior"
+        "seniority": "manager"
       }
     },
     {
-      "id": "3ee9969fee1298d0",
-      "ts": "2026-09-03T08:16:23-04:00",
+      "id": "f89012f618571ab7",
+      "ts": "2026-09-03T09:16:33-04:00",
       "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8067983",
+      "source_url": "https://job-boards.greenhouse.io/anthropic/jobs/5221916008",
       "type": "posting",
       "company": {
-        "name": "Reddit",
+        "name": "Anthropic",
         "ticker": null,
         "industry": null,
-        "sector": "Media",
-        "hq_region": "UT",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Senior Vendor Performance Manager, North America | Salt Lake City, UT",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
-        "UT"
-      ],
-      "extras": {
-        "role": "Senior Vendor Performance Manager, North America",
-        "location": "Salt Lake City, UT",
-        "seniority": "senior",
-        "remote": "onsite",
-        "stack": [
-          "go"
-        ]
-      }
-    },
-    {
-      "id": "c1c39f848b38f19a",
-      "ts": "2026-09-03T00:41:00Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPN1NQTDdUNElfdWszc3lGUFBnbEN3WUdpMkVDaS03VFBhdGQ5TjVuQ3lDa2dSa0F0aXZhcnE4eUpXWWJBclA0Wi1Jc016UnZ0UWlzUmh2Y3Y3QVY3MGVLbnFVX0ktek1sYnRJdFJ6SVlpMU1hU1F2ZDZucDRRUzNfUU4wM0hsZkVNY3BzXy130gGOAUFVX3lxTE83U1BMN1Q0SV91azNzeUZQUGdsQ3dZR2kyRUNpLTdUUGF0ZDlONW5DeUNrZ1JrQXRpdmFycTh5SldZYkFyUDRaLUlzTXpSdnRRaXNSaHZjdjdBVjcwZUtucVVfSS16TWxidEl0UnpJWWkxTWFTUXZkNm5wNFFTM19RTjAzSGxmRU1jcHNfLXc?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "Uber",
-        "ticker": null,
-        "industry": null,
-        "sector": "Retail",
+        "sector": "Technology",
         "hq_region": null,
         "size_band": "unknown"
       },
       "magnitude": null,
-      "unit": null,
-      "raw_text": "Uber cuts 10% of staff in biggest layoffs since COVID to speed decisions - CHOSUNBIZ",
+      "unit": "jobs",
+      "raw_text": "Anthropic | Sales Manager, Nonprofit & Education, EMEA | London, UK",
       "tags": [
-        "layoff",
-        "retail"
+        "hiring",
+        "greenhouse",
+        "technology",
+        "Sales"
       ],
-      "extras": {}
+      "extras": {
+        "role": "Sales Manager, Nonprofit & Education, EMEA",
+        "location": "London, UK",
+        "function": "Sales",
+        "soc": "41-3091",
+        "seniority": "manager"
+      }
     },
     {
       "id": "e27b6dd3fef1680b",
@@ -947,6 +913,34 @@
       }
     },
     {
+      "id": "2069b42742dae50d",
+      "ts": "2026-09-03T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2153053&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "SerenX, Inc.",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "SerenX, Inc. filed a Form D securities offering with the SEC on 2026-09-03.",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002153053-26-000001",
+        "cik": "0002153053",
+        "file_date": "2026-09-03"
+      }
+    },
+    {
       "id": "dc25080c2412a2e4",
       "ts": "2026-09-03T00:00:00Z",
       "source": "sec_edgar",
@@ -971,6 +965,174 @@
       "extras": {
         "adsh": "0002152842-26-000001",
         "cik": "0002152842",
+        "file_date": "2026-09-03"
+      }
+    },
+    {
+      "id": "94ddc0d65a385ac7",
+      "ts": "2026-09-03T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2152828&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "Newman Family Capital LLC",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Newman Family Capital LLC filed a Form D securities offering with the SEC on 2026-09-03.",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002152828-26-000001",
+        "cik": "0002152828",
+        "file_date": "2026-09-03"
+      }
+    },
+    {
+      "id": "2e52d6c6ff409550",
+      "ts": "2026-09-03T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2152324&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "BC Investments AZ, LLC",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "BC Investments AZ, LLC filed a Form D securities offering with the SEC on 2026-09-03.",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002152324-26-000001",
+        "cik": "0002152324",
+        "file_date": "2026-09-03"
+      }
+    },
+    {
+      "id": "579b973a281463dd",
+      "ts": "2026-09-03T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2152318&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "BC JSM Spe, LLC",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "BC JSM Spe, LLC filed a Form D securities offering with the SEC on 2026-09-03.",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002152318-26-000001",
+        "cik": "0002152318",
+        "file_date": "2026-09-03"
+      }
+    },
+    {
+      "id": "d67cfeca88037c87",
+      "ts": "2026-09-03T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2152316&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "BC Petersen SPE, LLC",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "BC Petersen SPE, LLC filed a Form D securities offering with the SEC on 2026-09-03.",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002152316-26-000001",
+        "cik": "0002152316",
+        "file_date": "2026-09-03"
+      }
+    },
+    {
+      "id": "28cacc1620f63db9",
+      "ts": "2026-09-03T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2151815&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "Clutch Intelligence Inc.",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Clutch Intelligence Inc. filed a Form D securities offering with the SEC on 2026-09-03.",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002151815-26-000001",
+        "cik": "0002151815",
+        "file_date": "2026-09-03"
+      }
+    },
+    {
+      "id": "612f8b70816216d7",
+      "ts": "2026-09-03T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2150270&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "Woodbury Investco LLC",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Woodbury Investco LLC filed a Form D securities offering with the SEC on 2026-09-03.",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002150270-26-000001",
+        "cik": "0002150270",
         "file_date": "2026-09-03"
       }
     },
@@ -1027,6 +1189,90 @@
       "extras": {
         "adsh": "0002146902-26-000001",
         "cik": "0002146902",
+        "file_date": "2026-09-03"
+      }
+    },
+    {
+      "id": "966c560d68d67ba3",
+      "ts": "2026-09-03T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2144467&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "Astrol Power LLC",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Astrol Power LLC filed a Form D securities offering with the SEC on 2026-09-03.",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002144467-26-000001",
+        "cik": "0002144467",
+        "file_date": "2026-09-03"
+      }
+    },
+    {
+      "id": "3d562974ba5e8995",
+      "ts": "2026-09-03T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2135264&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "TPT SOL Affiliate I, LLC",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "TPT SOL Affiliate I, LLC filed a Form D securities offering with the SEC on 2026-09-03.",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002135264-26-000003",
+        "cik": "0002135264",
+        "file_date": "2026-09-03"
+      }
+    },
+    {
+      "id": "42c0591f28459516",
+      "ts": "2026-09-03T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2152928&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "KC SW Poplar Bluff LLC",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "KC SW Poplar Bluff LLC filed a Form D securities offering with the SEC on 2026-09-03.",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002134718-26-000082",
+        "cik": "0002152928",
         "file_date": "2026-09-03"
       }
     },
@@ -1115,13 +1361,13 @@
       }
     },
     {
-      "id": "b36ad93e8d961f67",
+      "id": "aa57ee9e47772fe6",
       "ts": "2026-09-03T00:00:00Z",
       "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2149195&type=&dateb=&owner=include&count=40",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1989412&type=&dateb=&owner=include&count=40",
       "type": "funding",
       "company": {
-        "name": "FuriosaAI, Inc.",
+        "name": "Arpio, Inc.",
         "ticker": null,
         "industry": null,
         "sector": "Other",
@@ -1130,87 +1376,45 @@
       },
       "magnitude": null,
       "unit": null,
-      "raw_text": "FuriosaAI, Inc. filed a Form D securities offering with the SEC on 2026-09-03.",
+      "raw_text": "Arpio, Inc. filed a Form D securities offering with the SEC on 2026-09-03.",
       "tags": [
         "funding",
         "form_d",
         "other"
       ],
       "extras": {
-        "adsh": "0000950103-26-013534",
-        "cik": "0002149195",
+        "adsh": "0001989412-26-000002",
+        "cik": "0001989412",
         "file_date": "2026-09-03"
       }
     },
     {
-      "id": "fc0fb97916810354",
-      "ts": "2026-09-02T16:10:18Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1rMVc3THY0SVpwOXREb0pPZWl4NDRtQzIzR1F1bG0xNEdBRGlXMEJXVlF5OURpT3NFd05MdFMtVFZsQ0pYdm1nWlpLN2NVdnFoU29CZ0FZcll1VDFNem9QMzlqa3dGcnZ0TjEtM3RKQ3VoMEpIWGcxclNRQQ?oc=5",
-      "type": "layoff",
+      "id": "eaba2f671622f86b",
+      "ts": "2026-09-03T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1813993&type=&dateb=&owner=include&count=40",
+      "type": "funding",
       "company": {
-        "name": "HCA Healthcare",
+        "name": "Quaise Energy, Inc.",
         "ticker": null,
         "industry": null,
-        "sector": "Healthcare",
-        "hq_region": "TN",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "HCA Healthcare cuts more than 200 layoffs in Nashville",
-      "tags": [
-        "layoff",
-        "healthcare",
-        "TN"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "84e2054e2db110b0",
-      "ts": "2026-09-02T13:52:27Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPSEVnQ0ZRVVYxRUJSaWg4SktudWpYU1RCdnFQMWppVFhtMjRYTEtITjBfUzE1cGFaUlZ2RUdEOFBuejR0eVFvRFJYRW03b2w0SVFwWm80bFd1RmVMSTBwaHg4NFRvWXI0akNDMTBTQVl3bXZGbF8zWE00MmhVaWZNc1ZvdmxCcTNyMUZpTndNbGZReXd2Q2gzMHBvcExqenQ2dDJIV2RiSU5YbFpLRUxTbmtUdy1KWkZaSDBaaTc3TV93VkR3NHZBdHdWX1JmUlo4bi1pbldOUTfSAdgBQVVfeXFMT0hFZ0NGUVVWMUVCUmloOEpLbnVqWFNUQnZxUDFqaVRYbTI0WExLSE4wX1MxNXBhWlJWdkVHRDhQbno0dHlRb0RSWEVtN29sNElRcFpvNGxXdUZlTEkwcGh4ODRUb1lyNGpDQzEwU0FZd212RmxfM1hNNDJoVWlmTXNWb3ZsQnEzcjFGaU53TWxmUXl3dkNoMzBwb3BManp0NnQySFdkYklOWGxaS0VMU25rVHctSlpGWkgwWmk3N01fd1ZEdzR2QXR3Vl9SZlJaOG4taW5XTlE3?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "Uber",
-        "ticker": null,
-        "industry": null,
-        "sector": "Retail",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": 3300.0,
-      "unit": "people",
-      "raw_text": "Uber cuts 3,300 jobs: CEO Dara Khosrowshahi reveals reason behind massive layoffs",
-      "tags": [
-        "layoff",
-        "retail"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "8444026c321c11bf",
-      "ts": "2026-09-02T12:37:00Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBZUmFMM0phNUE3aGZMQWdaRG16R0Y1ak03RVhtX3ZkNTZ2TThQeHI0UjRqdUdPNnJiU2pMTFlHX2p1dDJJQnpXbi1vZDhvTXkwR1hsaklCcDN3blpGVm9pQm9qbVZwWWc?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "Bizzabo",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
+        "sector": "Energy",
         "hq_region": null,
         "size_band": "unknown"
       },
       "magnitude": null,
       "unit": null,
-      "raw_text": "Bizzabo lays off dozens as Israeli event tech company restructures",
+      "raw_text": "Quaise Energy, Inc. filed a Form D securities offering with the SEC on 2026-09-03.",
       "tags": [
-        "layoff",
-        "other"
+        "funding",
+        "form_d",
+        "energy"
       ],
-      "extras": {}
+      "extras": {
+        "adsh": "0001813993-26-000004",
+        "cik": "0001813993",
+        "file_date": "2026-09-03"
+      }
     },
     {
       "id": "da83f52e9c8038ea",
@@ -1437,314 +1641,6 @@
       }
     },
     {
-      "id": "35975cb6fd21b106",
-      "ts": "2026-09-02T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2153353&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "RL Aventura MOB 2 LLC",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "RL Aventura MOB 2 LLC filed a Form D securities offering with the SEC on 2026-09-02.",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0002153353-26-000001",
-        "cik": "0002153353",
-        "file_date": "2026-09-02"
-      }
-    },
-    {
-      "id": "01c5e5c6f2183cf2",
-      "ts": "2026-09-02T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2153249&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "Steribite, LLC",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Steribite, LLC filed a Form D securities offering with the SEC on 2026-09-02.",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0002153249-26-000001",
-        "cik": "0002153249",
-        "file_date": "2026-09-02"
-      }
-    },
-    {
-      "id": "af0874facc4c8686",
-      "ts": "2026-09-02T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2153243&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "ForgeVista Inc.",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "ForgeVista Inc. filed a Form D securities offering with the SEC on 2026-09-02.",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0002153243-26-000001",
-        "cik": "0002153243",
-        "file_date": "2026-09-02"
-      }
-    },
-    {
-      "id": "7004a654ed139cb9",
-      "ts": "2026-09-02T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2153191&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "AVEALTO Ltd",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "AVEALTO Ltd filed a Form D securities offering with the SEC on 2026-09-02.",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0002153191-26-000001",
-        "cik": "0002153191",
-        "file_date": "2026-09-02"
-      }
-    },
-    {
-      "id": "68885d4a760deeed",
-      "ts": "2026-09-02T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2153160&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "4th Street Renton, LLC",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "4th Street Renton, LLC filed a Form D securities offering with the SEC on 2026-09-02.",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0002153160-26-000001",
-        "cik": "0002153160",
-        "file_date": "2026-09-02"
-      }
-    },
-    {
-      "id": "7d02b3e437adaa18",
-      "ts": "2026-09-02T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2153142&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "Christkindlmarkt Dublin LLC",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Christkindlmarkt Dublin LLC filed a Form D securities offering with the SEC on 2026-09-02.",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0002153142-26-000001",
-        "cik": "0002153142",
-        "file_date": "2026-09-02"
-      }
-    },
-    {
-      "id": "fd7778dce489799e",
-      "ts": "2026-09-02T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2153126&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "Aclarity Genomics, Inc.",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Aclarity Genomics, Inc. filed a Form D securities offering with the SEC on 2026-09-02.",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0002153126-26-000001",
-        "cik": "0002153126",
-        "file_date": "2026-09-02"
-      }
-    },
-    {
-      "id": "9ed8161c5ac8de01",
-      "ts": "2026-09-02T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2153093&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "PIRL Network, Inc.",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "PIRL Network, Inc. filed a Form D securities offering with the SEC on 2026-09-02.",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0002153093-26-000001",
-        "cik": "0002153093",
-        "file_date": "2026-09-02"
-      }
-    },
-    {
-      "id": "c913add4d1e471c7",
-      "ts": "2026-09-02T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2153058&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "Quantizr, Inc.",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Quantizr, Inc. filed a Form D securities offering with the SEC on 2026-09-02.",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0002153058-26-000002",
-        "cik": "0002153058",
-        "file_date": "2026-09-02"
-      }
-    },
-    {
-      "id": "d8009a22a69166ef",
-      "ts": "2026-09-02T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2153057&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "Titanbay Project A Security Opportunity II SCSp",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Titanbay Project A Security Opportunity II SCSp filed a Form D securities offering with the SEC on 2026-09-02.",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0002153057-26-000001",
-        "cik": "0002153057",
-        "file_date": "2026-09-02"
-      }
-    },
-    {
-      "id": "d62531175007c351",
-      "ts": "2026-09-02T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2153044&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "Idealab AZ, Inc.",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Idealab AZ, Inc. filed a Form D securities offering with the SEC on 2026-09-02.",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0002153044-26-000001",
-        "cik": "0002153044",
-        "file_date": "2026-09-02"
-      }
-    },
-    {
       "id": "99423f1ae63971cd",
       "ts": "2026-09-01T19:30:24Z",
       "source": "org_moves",
@@ -1765,52 +1661,6 @@
         "exec_move",
         "other",
         "NY"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "e5461cfd57bde224",
-      "ts": "2026-09-01T18:03:00Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOaktLaXJQOG1CLTE3cFN4dFZhalM5cGNUUUNkdkZiSkJ6dFFOZ05PZU9PYVJSalRMN2FsVkYzLTdNMDhFbXlyVnkzS1F2UEs1ZTUtTG1yazVpMW9iaUs0RHd2U0pYaENERk1jdTdoSjlQb2VtYUZIdE9UcThYRVY1d3ZWNVl0TDJrMTN4LU1OMFg4Uy1HekRtVjRPakxPYXQ1dHJoUlZOZTgtZkRfMmFKaWdvVWxlbmdNbVE4SFNEVlVxMXJTcXpuOWpGS2E4MkxkS3JlOE5XOTVKTHg0ZFpVaDRKY2vSAc8BQVVfeXFMTjFHNmxWQ3V1YlY4ZHVXRjJrM3NIcm9EelZjNVdOYVl0NEh3SE5Va1R2UGpuU3BtM2tmbmowcUs5ME1GaVd0ODBDbkxzSHRRZkRzbUdSWlNaRmdOU09lcVR2Yk9nUWdDbHEyTEZwZnBuVTE5NFlzMEZpcE1UbWFxdnNjMlRLUUIzck04NlZ0WkRFaTdVQVl3UkFwVFhYZkxyRGpQWDQ4X01mMTVSVnVWUVlkblVuQS00QkdoRHFYLXRQbjRJYmVISHN3WEFOQ1Rr?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "Months After Teacher",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Months After Teacher Raises Lead To Layoffs, Union Negotiating With PBC Schools Again",
-      "tags": [
-        "layoff",
-        "other"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "a6553c9caf3897ba",
-      "ts": "2026-09-01T11:36:23Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQcllaYVhvZXFZUjRvN0F0UFdXNWxjVGtUWkRzWVNLeHdQNzZhVVRKcG9DNWhUTEV5VkM0a3laM3MwZ3AwbEJkeTVNM3NzRW1wb1hXX050UHdCQnh5MWVIcF93Ml90MzlNNUY4TldqdVJjMV8yMnlTRGhjX2lQUVo5Ym1Lem12OW43ajU2LVk4RmV2ZVhoa0VhR3doamZvZWVNQlBvY2Utb3NCeWZadXVnaG42MkVzSkRodlcwNHozelhBcWN1MFREdW1CQTdud3Y5NGc?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "Oracle India",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Oracle India Reports Second Layoff Wave: Bangalore Engineers Wait for 6 AM Email Again",
-      "tags": [
-        "layoff",
-        "technology"
       ],
       "extras": {}
     },
@@ -2011,29 +1861,6 @@
       }
     },
     {
-      "id": "6f48dcbcd6d2eec4",
-      "ts": "2026-08-31T14:01:55Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE55czByYWo4bldrVU0xdDA3dllmZU1BNnFOb0RpUlNfSHhLSTk5RG1KYkc4QjhZaEhYZ2J0RVFNM0FqcXIwVHRGQVpEaDdqdmZyeFg0ZWlYQlN0cDhNQkJv?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "Meta",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Meta Cuts 10% of Staff as Zuckerberg Scales Back AI Layoffs",
-      "tags": [
-        "layoff",
-        "technology"
-      ],
-      "extras": {}
-    },
-    {
       "id": "5f86e749a4c73a4d",
       "ts": "2026-08-31T00:00:00Z",
       "source": "sec_edgar",
@@ -2060,216 +1887,6 @@
         "cik": "0000923120",
         "file_date": "2026-08-31"
       }
-    },
-    {
-      "id": "8bb8a0f880f69593",
-      "ts": "2026-08-28T14:49:48Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOVm1UT0hXOEFQbzR3WWstcHoyY2tVaG1IdllHb3lkVmR6YTh0SnlOMVl3amFva3oxclpTY2JVZzFtYkNXNDNORmNKMUhpWHNBUGlrZS1WVXpjVzdKaWZxTS1hX3lNbUc0WDZ6THl0eWJURnJNSl9tbVNJeTN1UFhqMTQ3a3lXSlI2Zk1aSWtLZkF0WnNOQnRnLWZWZzZYTXpCTnBZUWpvd0dhQ2lKa01xbENtUlpNWE90NkNjUGQ0bVAtbm9FN29ZNWFYUDBYU1FkMmVDS1A4VnlGZw?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "Amazon Denies",
-        "ticker": null,
-        "industry": null,
-        "sector": "Retail",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": 14000.0,
-      "unit": "people",
-      "raw_text": "Amazon Denies Reports of Fresh 14,000 Job Cuts Worldwide After Previous Layoffs of 30,000 Roles",
-      "tags": [
-        "layoff",
-        "retail"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "2d310301c907f17b",
-      "ts": "2026-08-27T21:14:44Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPSnlZVXVwanlhdWE4dWxRREtyaW5YakczX3MyNEtZTFYzVGUzdnpxaTFIWVNuZEYzX2h6TGR0blU2aHNPX05pRUxSWjRLSFRLQm1DckE4WEdCM1lYQk1fTjl0NWRwRXZsNHhHSTNPYzdHR01vamZkM2pzeFB2VXJNZFFTTDZaNGFSSlkyNmMxNkFzSWdrSzNOeFRHTnBDclF4Uzk5blE2azJPLVBRU0NYdks2TjB2bHdISjhldDN5QzJ5WGRoU2JnM2ZpUkNPckk?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "PagerDuty",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "PagerDuty Announces 15% Workforce Reduction and Reports Q2 Fiscal 2027 Financial Results",
-      "tags": [
-        "layoff",
-        "other"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "f7632396b8000019",
-      "ts": "2026-08-27T19:59:00Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBOV2UtaWUxUFc1ek1seS1oVzZIYTduRGtQR0NkVTdBNWZIOVJZVDFHekZISl9VbWZtVzFtb2JiaXZBTVJBa1ZRYVpBalNmdUJoOFhxOW1vbDY4dXU1cmEwSGREaU1iaDlicWtELTlhbzJtc1pn0gF0QVVfeXFMTkVQREdGajB6NlZiLU1Kb0pfU1BYdVNIenB4Mm1HWjdKR1RJNHNLcW5MM0NHYWVyWHduSWUyTlBrYmh3MEZocXRrY1RQNFA0eFU5UlNiTXgzOGlBQVQyUnJJdkNJbFRMZUVZbjNxSDhsNGJnR00?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "T-Mobile",
-        "ticker": null,
-        "industry": null,
-        "sector": "Telecom",
-        "hq_region": "WA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "T-Mobile announces layoffs in Tacoma and other WA cities, will shutter 13 stores",
-      "tags": [
-        "layoff",
-        "telecom",
-        "WA"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "3850ed54394749e0",
-      "ts": "2026-08-27T10:00:00Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQdUVfWTIwaTdiZG5LTm01UkhBSS1Pd1BUNFZvbVJISmQ5SS01ejFtek94b21MWTFZUFZ1UlRHNHl4T3RXcmZuV041VWhMM0dLM25aLTMtanRrNWJmRThBTXQ4NFQ4NFQ5ZlpsVXpnX1RlVkFoVmtrNVJZaldtMVNaU1hEM1hkeDNiUlNR?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "Apple",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Apple Cuts Vision Pro, Siri Jobs in Rare AI Layoff",
-      "tags": [
-        "layoff",
-        "technology"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "d57f24ac73004df3",
-      "ts": "2026-08-26T16:37:57Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE82bWU1SUNQeHAtSVRJVl9WcmhZdFV6WG9idnFwMnd1dlZqU3hfQVROV2JldGNNUjkxWmpLM0pXZkkwbHNqZTRjV0ZmcTNmMDRJTVJsWTdDd010MVNUSWt2ZFJBRU9Rek1QQWZNNVZCU2JrNXpaZEhPbg?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "Apple",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Apple cuts nearly 150 Bay Area jobs in latest tech layoffs",
-      "tags": [
-        "layoff",
-        "technology"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "8258e4fa4e3c2bd1",
-      "ts": "2026-08-24T07:00:00Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxNRFdaaDZ6REdRRVZ3MTFxUEZsZGJmc0c5UE9sUXg1UEhTQ3JkRXpmeUhXRmpvcE9nUHpHUHVSdWlqRDBTU2tvaHVmb1diV0VxVHJ1eTVEb1FRXy1DRlhRNmhoRjNweFRRbFpLWGhhUmhwR3dUVDRYMEduTkFEWllCU1pjQ1hkQ0RFdzFSUjRaSjJEckp3X2Q0U216TWdJQ1MteDdKRWZWS1FzeE15emsyMmNxbUdRSmV4cUNXTndVUE9ycmFhZ1JMVnRvUkxnV3dObHV1ZGExVE5ZbUdFV1BmanlBeUl0WkNGN005SWUwWlAzTXlJT0JmbjNTZ3UxZFNMd2dROHc3WkhCcjJpWS1FUXFhc2xkLWd6QXZEbmhqZlRYSzlsejFR0gGsAkFVX3lxTE1yTmZzaTAtYlF0MlRHT3B1dmJ4N3pKQ0xXMW9NdVJEcjllUTh6bDVMY3VEbi1EaDJkMHZQdlVIR19uT0h3cnphZ3l5YW1VWm1SY3pWZXVyajJXUmRZTzAzWmN1MTBHb0NqZHlKVHBPcmQ1bnBBc2tlYmVVVDU3V3YyRmJ3M05xa0JpcUN3cDFITDFya3hxRDJjbE05MlRfYm9abloyNW9rRkNVRWNCTHVrTnc1bmNrY2c4NjE3c0VOTk8yUEV6VDViRzhSc1haY0p4ZEppZWpBSmJRdlZMOWRFVXF0RGhSVHFkVm9lUmhNT2tNQmFDYVJCUlhDS1pzTjBzdjhOQmNMLWREMjRZd0JnYVJzRTFBeS13WGZlc09HUXFudVBKeFNLX3Jmaw?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "JPMorgan Chase",
-        "ticker": null,
-        "industry": null,
-        "sector": "Finance",
-        "hq_region": "NJ",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "JPMorgan Chase filed a layoff notice with New Jersey City office, here's what the WARN notice filed by th",
-      "tags": [
-        "layoff",
-        "finance",
-        "NJ"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "2969abe5ec931fb0",
-      "ts": "2026-08-21T07:00:00Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPZnZ5dDZNUVpkUnZYSy1BZ05TT3V5LXRfLWh4U3dxMWtPajBXdDBRUy1BdlJIbjBkeUFlbVdnOW9TTjNEQ2VMTTJSRjhXVDY4ck11cS0yR2g4TDhVSTVjMV9LWUYwaVNUak1UWWRSMkMzbVh2YU1sbFZ1UHhsTXozMllTeU1OQVg4VFhVYm9KeWlNMDBCWi1EcEdzYl8yV2tpc1o4c0RFX3M3NTRuTnNFQTloYXBfQ0RPOVZV?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "Starbucks",
-        "ticker": null,
-        "industry": null,
-        "sector": "Retail",
-        "hq_region": "WA",
-        "size_band": "unknown"
-      },
-      "magnitude": 224.0,
-      "unit": "people",
-      "raw_text": "Starbucks lays off 224 workers tied to Seattle HQ, including tech roles, as restructuring winds down",
-      "tags": [
-        "layoff",
-        "retail",
-        "WA"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "7ea07387a7f36598",
-      "ts": "2026-08-20T07:00:00Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQUVpFUmFPR2xTQ0tGNlpfQ0JwMWtQV0tWVHFKOWNqaEtTaFFrRHNFcnpTVF9icDI3dVFqRHNoXzJ0T2JYSVFmOU1YMnpfTm0tSzdDdXgxemZVVzAwVWhGMExPMDJGMmlxQXphWWlNeldZbjdiOGZobGNTd194SVV4SDUyRS1taGFBRVZoSnBlazJKSGRBaXRzRw?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "Starbucks",
-        "ticker": null,
-        "industry": null,
-        "sector": "Retail",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Starbucks to lay off more corporate and remote employees in latest restructuring",
-      "tags": [
-        "layoff",
-        "retail"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "69f735f588227eeb",
-      "ts": "2026-08-20T07:00:00Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOSi05YWJZUHVqQzktM1ZKWnl0WHh1Z0h5eXhFQVRfWUszY2tNU0RKT2V4RUlNR0taQXB1eHpzSXJ4RmlaSjZPaGU5elFOWUhlVjIyakJvdnJhRG1YaDdDMHpHMzgxN2ptT0U2QjNyOVBKdGM2Yk5uMVhzRUpjd0RwRS1lSUluQndQX2p0cnFvcWNtQmVTT0FjNFlJcWUzNncxT3I3Sw?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "Pink News",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": 11.0,
-      "unit": "people",
-      "raw_text": "Pink News to cut up to 11 staff and shut office amid Snapchat changes",
-      "tags": [
-        "layoff",
-        "other"
-      ],
-      "extras": {}
     },
     {
       "id": "a8df09cd127bed2f",
@@ -2665,6 +2282,151 @@
       }
     },
     {
+      "id": "c734acc6a515ffe9",
+      "ts": "2026-06-12T00:00:00Z",
+      "source": "state_warn",
+      "source_url": "https://data.texas.gov/d/8w53-c4f6",
+      "type": "layoff",
+      "company": {
+        "name": "SAKS GLOBAL (Neiman Marcus)",
+        "ticker": null,
+        "industry": null,
+        "sector": "Retail",
+        "hq_region": "TX",
+        "size_band": "unknown"
+      },
+      "magnitude": 67.0,
+      "unit": "people",
+      "raw_text": "SAKS GLOBAL (Neiman Marcus) filed a WARN notice for 67 jobs in Dallas, TX.",
+      "tags": [
+        "layoff",
+        "warn",
+        "tx",
+        "retail"
+      ],
+      "extras": {
+        "state": "TX",
+        "city": "Dallas",
+        "warn": true
+      }
+    },
+    {
+      "id": "b0b0599906d6ecdd",
+      "ts": "2026-06-09T00:00:00Z",
+      "source": "state_warn",
+      "source_url": "https://data.texas.gov/d/8w53-c4f6",
+      "type": "layoff",
+      "company": {
+        "name": "Remington Lodging and Hospitality, LLC (Hilton Houston NASA Clear Lake)",
+        "ticker": null,
+        "industry": null,
+        "sector": "Hospitality",
+        "hq_region": "TX",
+        "size_band": "unknown"
+      },
+      "magnitude": 65.0,
+      "unit": "people",
+      "raw_text": "Remington Lodging and Hospitality, LLC (Hilton Houston NASA Clear Lake) filed a WARN notice for 65 jobs in Houston, TX.",
+      "tags": [
+        "layoff",
+        "warn",
+        "tx",
+        "hospitality"
+      ],
+      "extras": {
+        "state": "TX",
+        "city": "Houston",
+        "warn": true
+      }
+    },
+    {
+      "id": "b6ea984414388112",
+      "ts": "2026-06-08T00:00:00Z",
+      "source": "state_warn",
+      "source_url": "https://data.texas.gov/d/8w53-c4f6",
+      "type": "layoff",
+      "company": {
+        "name": "Alan Ritchey Incorporated",
+        "ticker": null,
+        "industry": null,
+        "sector": "Logistics",
+        "hq_region": "TX",
+        "size_band": "unknown"
+      },
+      "magnitude": 232.0,
+      "unit": "people",
+      "raw_text": "Alan Ritchey Incorporated filed a WARN notice for 232 jobs in Irving, TX.",
+      "tags": [
+        "layoff",
+        "warn",
+        "tx",
+        "logistics"
+      ],
+      "extras": {
+        "state": "TX",
+        "city": "Irving",
+        "warn": true
+      }
+    },
+    {
+      "id": "1fc5df7d591417dd",
+      "ts": "2026-06-08T00:00:00Z",
+      "source": "state_warn",
+      "source_url": "https://data.texas.gov/d/8w53-c4f6",
+      "type": "layoff",
+      "company": {
+        "name": "El Paso Independent School District",
+        "ticker": null,
+        "industry": null,
+        "sector": "Education",
+        "hq_region": "TX",
+        "size_band": "unknown"
+      },
+      "magnitude": 250.0,
+      "unit": "people",
+      "raw_text": "El Paso Independent School District filed a WARN notice for 250 jobs in El Paso, TX.",
+      "tags": [
+        "layoff",
+        "warn",
+        "tx",
+        "education"
+      ],
+      "extras": {
+        "state": "TX",
+        "city": "El Paso",
+        "warn": true
+      }
+    },
+    {
+      "id": "dfa66d0a54779cd5",
+      "ts": "2026-06-04T00:00:00Z",
+      "source": "state_warn",
+      "source_url": "https://data.texas.gov/d/8w53-c4f6",
+      "type": "layoff",
+      "company": {
+        "name": "MW Components (Matthew Warren Inc's USA Fastner Facility)",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": "TX",
+        "size_band": "unknown"
+      },
+      "magnitude": 53.0,
+      "unit": "people",
+      "raw_text": "MW Components (Matthew Warren Inc's USA Fastner Facility) filed a WARN notice for 53 jobs in Houston, TX.",
+      "tags": [
+        "layoff",
+        "warn",
+        "tx",
+        "other"
+      ],
+      "extras": {
+        "state": "TX",
+        "city": "Houston",
+        "warn": true
+      }
+    },
+    {
       "id": "77b5266f69b44003",
       "ts": "2026-06-01T00:00:00Z",
       "source": "comp",
@@ -2831,28 +2593,270 @@
         "ces7000000003"
       ],
       "extras": {}
+    },
+    {
+      "id": "e6df81d2f973a563",
+      "ts": "2026-06-01T00:00:00Z",
+      "source": "comp",
+      "source_url": "https://data.bls.gov/timeseries/CES0500000003",
+      "type": "comp",
+      "company": {
+        "name": "All Private (US avg)",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": 37.6,
+      "unit": "USD/hr",
+      "raw_text": "All Private (US avg): $37.60/hr avg earnings (Jun 2026)",
+      "tags": [
+        "comp",
+        "bls_ces",
+        "ces0500000003"
+      ],
+      "extras": {}
+    },
+    {
+      "id": "11d2d00aebd5bb95",
+      "ts": "2026-06-01T00:00:00Z",
+      "source": "fred",
+      "source_url": "https://fred.stlouisfed.org/series/LNS14000000",
+      "type": "macro",
+      "company": null,
+      "magnitude": 4.2,
+      "unit": "pp",
+      "raw_text": "US Unemployment Rate (%): 4.2",
+      "tags": [
+        "macro",
+        "fred",
+        "lns14000000"
+      ],
+      "extras": {}
+    },
+    {
+      "id": "eda36bf5b25ce1af",
+      "ts": "2026-06-01T00:00:00Z",
+      "source": "fred",
+      "source_url": "https://fred.stlouisfed.org/series/JTS000000000000000JOR",
+      "type": "macro",
+      "company": null,
+      "magnitude": 4.3,
+      "unit": "pp",
+      "raw_text": "JOLTS: Job Openings Rate (%): 4.3",
+      "tags": [
+        "macro",
+        "fred",
+        "jts000000000000000jor"
+      ],
+      "extras": {}
+    },
+    {
+      "id": "27010ad3297b2569",
+      "ts": "2026-06-01T00:00:00Z",
+      "source": "fred",
+      "source_url": "https://fred.stlouisfed.org/series/JTS000000000000000QUR",
+      "type": "macro",
+      "company": null,
+      "magnitude": 2.0,
+      "unit": "pp",
+      "raw_text": "JOLTS: Quits Rate (%): 2.0",
+      "tags": [
+        "macro",
+        "fred",
+        "jts000000000000000qur"
+      ],
+      "extras": {}
+    },
+    {
+      "id": "0f02f01d7bc6c5ba",
+      "ts": "2026-06-01T00:00:00Z",
+      "source": "fred",
+      "source_url": "https://fred.stlouisfed.org/series/JTS000000000000000LDR",
+      "type": "macro",
+      "company": null,
+      "magnitude": 1.1,
+      "unit": "pp",
+      "raw_text": "JOLTS: Layoffs & Discharges Rate (%): 1.1",
+      "tags": [
+        "macro",
+        "fred",
+        "jts000000000000000ldr"
+      ],
+      "extras": {}
+    },
+    {
+      "id": "cbeacbf53c775bd7",
+      "ts": "2026-06-01T00:00:00Z",
+      "source": "fred",
+      "source_url": "https://fred.stlouisfed.org/series/CES0500000003",
+      "type": "macro",
+      "company": null,
+      "magnitude": 37.6,
+      "unit": "USD/hr",
+      "raw_text": "Private Sector Avg Hourly Earnings ($): 37.6",
+      "tags": [
+        "macro",
+        "fred",
+        "ces0500000003"
+      ],
+      "extras": {}
+    },
+    {
+      "id": "e9ff2d0bbc72f5b1",
+      "ts": "2026-05-29T00:00:00Z",
+      "source": "state_warn",
+      "source_url": "https://data.texas.gov/d/8w53-c4f6",
+      "type": "layoff",
+      "company": {
+        "name": "Toshiba International Corporation",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": "TX",
+        "size_band": "unknown"
+      },
+      "magnitude": 67.0,
+      "unit": "people",
+      "raw_text": "Toshiba International Corporation filed a WARN notice for 67 jobs in Houston, TX.",
+      "tags": [
+        "layoff",
+        "warn",
+        "tx",
+        "other"
+      ],
+      "extras": {
+        "state": "TX",
+        "city": "Houston",
+        "warn": true
+      }
+    },
+    {
+      "id": "c510671200605715",
+      "ts": "2026-05-20T15:14:31Z",
+      "source": "layoffs_fyi",
+      "source_url": "https://techcrunch.com/2026/05/20/intuit-to-lay-off-over-3000-employees-to-refocus-on-ai/",
+      "type": "layoff",
+      "company": {
+        "name": "Intuit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": 3000.0,
+      "unit": "people",
+      "raw_text": "Intuit to lay off over 3,000 employees to refocus on AI",
+      "tags": [
+        "layoff",
+        "technology"
+      ],
+      "extras": {}
+    },
+    {
+      "id": "e5b23bd19fc4c1e5",
+      "ts": "2026-05-19T00:00:00Z",
+      "source": "state_warn",
+      "source_url": "https://data.texas.gov/d/8w53-c4f6",
+      "type": "layoff",
+      "company": {
+        "name": "Auzmet Architectural, LLC",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": "TX",
+        "size_band": "unknown"
+      },
+      "magnitude": 152.0,
+      "unit": "people",
+      "raw_text": "Auzmet Architectural, LLC filed a WARN notice for 152 jobs in Dallas, TX.",
+      "tags": [
+        "layoff",
+        "warn",
+        "tx",
+        "other"
+      ],
+      "extras": {
+        "state": "TX",
+        "city": "Dallas",
+        "warn": true
+      }
+    },
+    {
+      "id": "7db80d47b03b1e1e",
+      "ts": "2026-05-14T14:01:14Z",
+      "source": "layoffs_fyi",
+      "source_url": "https://techcrunch.com/2026/05/14/cisco-cuts-nearly-4000-jobs-to-spend-more-on-ai-reports-record-quarterly-revenue/",
+      "type": "layoff",
+      "company": {
+        "name": "Cisco",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": 4000.0,
+      "unit": "people",
+      "raw_text": "Cisco cuts nearly 4,000 jobs to spend more on AI, reports \u2018record quarterly revenue\u2019",
+      "tags": [
+        "layoff",
+        "technology"
+      ],
+      "extras": {}
+    },
+    {
+      "id": "b09f0aa844fc70f5",
+      "ts": "2026-05-14T00:00:00Z",
+      "source": "state_warn",
+      "source_url": "https://data.texas.gov/d/8w53-c4f6",
+      "type": "layoff",
+      "company": {
+        "name": "Compass Group USA, Inc. (d/b/a Chartwell's Higher Education (Texas Southern Univ.)",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": "TX",
+        "size_band": "unknown"
+      },
+      "magnitude": 88.0,
+      "unit": "people",
+      "raw_text": "Compass Group USA, Inc. (d/b/a Chartwell's Higher Education (Texas Southern Univ.) filed a WARN notice for 88 jobs in Houston, TX.",
+      "tags": [
+        "layoff",
+        "warn",
+        "tx",
+        "other"
+      ],
+      "extras": {
+        "state": "TX",
+        "city": "Houston",
+        "warn": true
+      }
     }
   ],
   "sector_matrix": {
-    "generated_at": "2026-09-03T13:11:00.654664Z",
+    "generated_at": "2026-09-03T15:59:37.423535Z",
     "cells": [
       {
         "sector": "Technology",
         "signal_type": "layoff",
-        "count_7d": 2,
-        "count_30d": 4,
+        "count_7d": 0,
+        "count_30d": 0,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 1.07
+        "z_score": null
       },
       {
         "sector": "Technology",
         "signal_type": "posting",
-        "count_7d": 1139,
-        "count_30d": 2330,
+        "count_7d": 1133,
+        "count_30d": 2329,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 25.53
+        "z_score": 25.29
       },
       {
         "sector": "Technology",
@@ -2885,10 +2889,10 @@
         "sector": "Finance",
         "signal_type": "layoff",
         "count_7d": 0,
-        "count_30d": 1,
+        "count_30d": 0,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": -0.23
+        "z_score": null
       },
       {
         "sector": "Finance",
@@ -2911,11 +2915,11 @@
       {
         "sector": "Finance",
         "signal_type": "funding",
-        "count_7d": 1,
-        "count_30d": 1,
+        "count_7d": 0,
+        "count_30d": 0,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 0.77
+        "z_score": null
       },
       {
         "sector": "Finance",
@@ -2929,20 +2933,20 @@
       {
         "sector": "Healthcare",
         "signal_type": "layoff",
-        "count_7d": 1,
-        "count_30d": 1,
+        "count_7d": 0,
+        "count_30d": 0,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 0.77
+        "z_score": null
       },
       {
         "sector": "Healthcare",
         "signal_type": "posting",
         "count_7d": 75,
-        "count_30d": 178,
+        "count_30d": 179,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 5.19
+        "z_score": 5.14
       },
       {
         "sector": "Healthcare",
@@ -3064,11 +3068,11 @@
       {
         "sector": "Retail",
         "signal_type": "layoff",
-        "count_7d": 3,
-        "count_30d": 5,
-        "magnitude_7d": 17300.0,
+        "count_7d": 0,
+        "count_30d": 0,
+        "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 1.7
+        "z_score": null
       },
       {
         "sector": "Retail",
@@ -3316,11 +3320,11 @@
       {
         "sector": "Energy",
         "signal_type": "funding",
-        "count_7d": 0,
-        "count_30d": 0,
+        "count_7d": 1,
+        "count_30d": 1,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": null
+        "z_score": 0.77
       },
       {
         "sector": "Energy",
@@ -3334,11 +3338,11 @@
       {
         "sector": "Telecom",
         "signal_type": "layoff",
-        "count_7d": 1,
-        "count_30d": 1,
+        "count_7d": 0,
+        "count_30d": 0,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 0.77
+        "z_score": null
       },
       {
         "sector": "Telecom",
@@ -3379,209 +3383,15 @@
     ]
   },
   "layoff_pulse": {
-    "events_7d": 10,
-    "events_30d": 16,
+    "events_7d": 0,
+    "events_30d": 0,
     "events_prev_30d": 0,
-    "companies_30d": 13,
-    "disclosed_jobs_30d": 17535,
-    "disclosed_events_30d": 4,
+    "companies_30d": 0,
+    "disclosed_jobs_30d": null,
+    "disclosed_events_30d": 0,
     "warn_events_30d": 0,
     "warn_events_total": 69,
-    "top_events": [
-      {
-        "id": "8bb8a0f880f69593",
-        "ts": "2026-08-28T14:49:48Z",
-        "source": "news_layoffs",
-        "source_url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOVm1UT0hXOEFQbzR3WWstcHoyY2tVaG1IdllHb3lkVmR6YTh0SnlOMVl3amFva3oxclpTY2JVZzFtYkNXNDNORmNKMUhpWHNBUGlrZS1WVXpjVzdKaWZxTS1hX3lNbUc0WDZ6THl0eWJURnJNSl9tbVNJeTN1UFhqMTQ3a3lXSlI2Zk1aSWtLZkF0WnNOQnRnLWZWZzZYTXpCTnBZUWpvd0dhQ2lKa01xbENtUlpNWE90NkNjUGQ0bVAtbm9FN29ZNWFYUDBYU1FkMmVDS1A4VnlGZw?oc=5",
-        "type": "layoff",
-        "company": {
-          "name": "Amazon Denies",
-          "ticker": null,
-          "industry": null,
-          "sector": "Retail",
-          "hq_region": null,
-          "size_band": "unknown"
-        },
-        "magnitude": 14000.0,
-        "unit": "people",
-        "raw_text": "Amazon Denies Reports of Fresh 14,000 Job Cuts Worldwide After Previous Layoffs of 30,000 Roles",
-        "tags": [
-          "layoff",
-          "retail"
-        ],
-        "extras": {}
-      },
-      {
-        "id": "84e2054e2db110b0",
-        "ts": "2026-09-02T13:52:27Z",
-        "source": "news_layoffs",
-        "source_url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPSEVnQ0ZRVVYxRUJSaWg4SktudWpYU1RCdnFQMWppVFhtMjRYTEtITjBfUzE1cGFaUlZ2RUdEOFBuejR0eVFvRFJYRW03b2w0SVFwWm80bFd1RmVMSTBwaHg4NFRvWXI0akNDMTBTQVl3bXZGbF8zWE00MmhVaWZNc1ZvdmxCcTNyMUZpTndNbGZReXd2Q2gzMHBvcExqenQ2dDJIV2RiSU5YbFpLRUxTbmtUdy1KWkZaSDBaaTc3TV93VkR3NHZBdHdWX1JmUlo4bi1pbldOUTfSAdgBQVVfeXFMT0hFZ0NGUVVWMUVCUmloOEpLbnVqWFNUQnZxUDFqaVRYbTI0WExLSE4wX1MxNXBhWlJWdkVHRDhQbno0dHlRb0RSWEVtN29sNElRcFpvNGxXdUZlTEkwcGh4ODRUb1lyNGpDQzEwU0FZd212RmxfM1hNNDJoVWlmTXNWb3ZsQnEzcjFGaU53TWxmUXl3dkNoMzBwb3BManp0NnQySFdkYklOWGxaS0VMU25rVHctSlpGWkgwWmk3N01fd1ZEdzR2QXR3Vl9SZlJaOG4taW5XTlE3?oc=5",
-        "type": "layoff",
-        "company": {
-          "name": "Uber",
-          "ticker": null,
-          "industry": null,
-          "sector": "Retail",
-          "hq_region": null,
-          "size_band": "unknown"
-        },
-        "magnitude": 3300.0,
-        "unit": "people",
-        "raw_text": "Uber cuts 3,300 jobs: CEO Dara Khosrowshahi reveals reason behind massive layoffs",
-        "tags": [
-          "layoff",
-          "retail"
-        ],
-        "extras": {}
-      },
-      {
-        "id": "2969abe5ec931fb0",
-        "ts": "2026-08-21T07:00:00Z",
-        "source": "news_layoffs",
-        "source_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPZnZ5dDZNUVpkUnZYSy1BZ05TT3V5LXRfLWh4U3dxMWtPajBXdDBRUy1BdlJIbjBkeUFlbVdnOW9TTjNEQ2VMTTJSRjhXVDY4ck11cS0yR2g4TDhVSTVjMV9LWUYwaVNUak1UWWRSMkMzbVh2YU1sbFZ1UHhsTXozMllTeU1OQVg4VFhVYm9KeWlNMDBCWi1EcEdzYl8yV2tpc1o4c0RFX3M3NTRuTnNFQTloYXBfQ0RPOVZV?oc=5",
-        "type": "layoff",
-        "company": {
-          "name": "Starbucks",
-          "ticker": null,
-          "industry": null,
-          "sector": "Retail",
-          "hq_region": "WA",
-          "size_band": "unknown"
-        },
-        "magnitude": 224.0,
-        "unit": "people",
-        "raw_text": "Starbucks lays off 224 workers tied to Seattle HQ, including tech roles, as restructuring winds down",
-        "tags": [
-          "layoff",
-          "retail",
-          "WA"
-        ],
-        "extras": {}
-      },
-      {
-        "id": "69f735f588227eeb",
-        "ts": "2026-08-20T07:00:00Z",
-        "source": "news_layoffs",
-        "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOSi05YWJZUHVqQzktM1ZKWnl0WHh1Z0h5eXhFQVRfWUszY2tNU0RKT2V4RUlNR0taQXB1eHpzSXJ4RmlaSjZPaGU5elFOWUhlVjIyakJvdnJhRG1YaDdDMHpHMzgxN2ptT0U2QjNyOVBKdGM2Yk5uMVhzRUpjd0RwRS1lSUluQndQX2p0cnFvcWNtQmVTT0FjNFlJcWUzNncxT3I3Sw?oc=5",
-        "type": "layoff",
-        "company": {
-          "name": "Pink News",
-          "ticker": null,
-          "industry": null,
-          "sector": "Other",
-          "hq_region": null,
-          "size_band": "unknown"
-        },
-        "magnitude": 11.0,
-        "unit": "people",
-        "raw_text": "Pink News to cut up to 11 staff and shut office amid Snapchat changes",
-        "tags": [
-          "layoff",
-          "other"
-        ],
-        "extras": {}
-      },
-      {
-        "id": "c1c39f848b38f19a",
-        "ts": "2026-09-03T00:41:00Z",
-        "source": "news_layoffs",
-        "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPN1NQTDdUNElfdWszc3lGUFBnbEN3WUdpMkVDaS03VFBhdGQ5TjVuQ3lDa2dSa0F0aXZhcnE4eUpXWWJBclA0Wi1Jc016UnZ0UWlzUmh2Y3Y3QVY3MGVLbnFVX0ktek1sYnRJdFJ6SVlpMU1hU1F2ZDZucDRRUzNfUU4wM0hsZkVNY3BzXy130gGOAUFVX3lxTE83U1BMN1Q0SV91azNzeUZQUGdsQ3dZR2kyRUNpLTdUUGF0ZDlONW5DeUNrZ1JrQXRpdmFycTh5SldZYkFyUDRaLUlzTXpSdnRRaXNSaHZjdjdBVjcwZUtucVVfSS16TWxidEl0UnpJWWkxTWFTUXZkNm5wNFFTM19RTjAzSGxmRU1jcHNfLXc?oc=5",
-        "type": "layoff",
-        "company": {
-          "name": "Uber",
-          "ticker": null,
-          "industry": null,
-          "sector": "Retail",
-          "hq_region": null,
-          "size_band": "unknown"
-        },
-        "magnitude": null,
-        "unit": null,
-        "raw_text": "Uber cuts 10% of staff in biggest layoffs since COVID to speed decisions - CHOSUNBIZ",
-        "tags": [
-          "layoff",
-          "retail"
-        ],
-        "extras": {}
-      },
-      {
-        "id": "fc0fb97916810354",
-        "ts": "2026-09-02T16:10:18Z",
-        "source": "news_layoffs",
-        "source_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1rMVc3THY0SVpwOXREb0pPZWl4NDRtQzIzR1F1bG0xNEdBRGlXMEJXVlF5OURpT3NFd05MdFMtVFZsQ0pYdm1nWlpLN2NVdnFoU29CZ0FZcll1VDFNem9QMzlqa3dGcnZ0TjEtM3RKQ3VoMEpIWGcxclNRQQ?oc=5",
-        "type": "layoff",
-        "company": {
-          "name": "HCA Healthcare",
-          "ticker": null,
-          "industry": null,
-          "sector": "Healthcare",
-          "hq_region": "TN",
-          "size_band": "unknown"
-        },
-        "magnitude": null,
-        "unit": null,
-        "raw_text": "HCA Healthcare cuts more than 200 layoffs in Nashville",
-        "tags": [
-          "layoff",
-          "healthcare",
-          "TN"
-        ],
-        "extras": {}
-      },
-      {
-        "id": "8444026c321c11bf",
-        "ts": "2026-09-02T12:37:00Z",
-        "source": "news_layoffs",
-        "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBZUmFMM0phNUE3aGZMQWdaRG16R0Y1ak03RVhtX3ZkNTZ2TThQeHI0UjRqdUdPNnJiU2pMTFlHX2p1dDJJQnpXbi1vZDhvTXkwR1hsaklCcDN3blpGVm9pQm9qbVZwWWc?oc=5",
-        "type": "layoff",
-        "company": {
-          "name": "Bizzabo",
-          "ticker": null,
-          "industry": null,
-          "sector": "Other",
-          "hq_region": null,
-          "size_band": "unknown"
-        },
-        "magnitude": null,
-        "unit": null,
-        "raw_text": "Bizzabo lays off dozens as Israeli event tech company restructures",
-        "tags": [
-          "layoff",
-          "other"
-        ],
-        "extras": {}
-      },
-      {
-        "id": "e5461cfd57bde224",
-        "ts": "2026-09-01T18:03:00Z",
-        "source": "news_layoffs",
-        "source_url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOaktLaXJQOG1CLTE3cFN4dFZhalM5cGNUUUNkdkZiSkJ6dFFOZ05PZU9PYVJSalRMN2FsVkYzLTdNMDhFbXlyVnkzS1F2UEs1ZTUtTG1yazVpMW9iaUs0RHd2U0pYaENERk1jdTdoSjlQb2VtYUZIdE9UcThYRVY1d3ZWNVl0TDJrMTN4LU1OMFg4Uy1HekRtVjRPakxPYXQ1dHJoUlZOZTgtZkRfMmFKaWdvVWxlbmdNbVE4SFNEVlVxMXJTcXpuOWpGS2E4MkxkS3JlOE5XOTVKTHg0ZFpVaDRKY2vSAc8BQVVfeXFMTjFHNmxWQ3V1YlY4ZHVXRjJrM3NIcm9EelZjNVdOYVl0NEh3SE5Va1R2UGpuU3BtM2tmbmowcUs5ME1GaVd0ODBDbkxzSHRRZkRzbUdSWlNaRmdOU09lcVR2Yk9nUWdDbHEyTEZwZnBuVTE5NFlzMEZpcE1UbWFxdnNjMlRLUUIzck04NlZ0WkRFaTdVQVl3UkFwVFhYZkxyRGpQWDQ4X01mMTVSVnVWUVlkblVuQS00QkdoRHFYLXRQbjRJYmVISHN3WEFOQ1Rr?oc=5",
-        "type": "layoff",
-        "company": {
-          "name": "Months After Teacher",
-          "ticker": null,
-          "industry": null,
-          "sector": "Other",
-          "hq_region": null,
-          "size_band": "unknown"
-        },
-        "magnitude": null,
-        "unit": null,
-        "raw_text": "Months After Teacher Raises Lead To Layoffs, Union Negotiating With PBC Schools Again",
-        "tags": [
-          "layoff",
-          "other"
-        ],
-        "extras": {}
-      }
-    ],
-    "by_sector_30d": {
-      "Retail": 5,
-      "Other": 4,
-      "Technology": 4,
-      "Finance": 1,
-      "Healthcare": 1,
-      "Telecom": 1
-    }
+    "top_events": [],
+    "by_sector_30d": {}
   }
 }
