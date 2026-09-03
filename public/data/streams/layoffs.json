@@ -1,26 +1,491 @@
 {
   "stream": "layoffs",
-  "generated_at": "2026-09-03T16:01:19.848778+00:00",
-  "total": 74,
-  "showing": 74,
+  "generated_at": "2026-09-03T20:41:56.701131+00:00",
+  "total": 94,
+  "showing": 94,
   "source_counts": {
     "state_warn": 69,
+    "news_layoffs": 20,
     "layoffs_fyi": 5
   },
   "sector_counts": {
-    "Other": 38,
+    "Other": 44,
     "Hospitality": 8,
-    "Logistics": 6,
-    "Manufacturing": 5,
-    "Technology": 3,
+    "Technology": 7,
+    "Logistics": 7,
+    "Manufacturing": 6,
+    "Retail": 5,
+    "Healthcare": 5,
     "Finance": 3,
+    "Telecom": 3,
     "CPG": 3,
-    "Retail": 2,
     "Education": 2,
-    "Telecom": 2,
-    "Healthcare": 2
+    "Media": 1
   },
   "events": [
+    {
+      "id": "d5cc4e9644b962fb",
+      "ts": "2026-09-03T19:39:00Z",
+      "source": "news_layoffs",
+      "source_url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQSUxMQkRLQ2h5VXRXSkxQQVdFaTJWTm9nNjJUSWVzaWNGYlZvS3djeEJwRWVYeTg5VURRMko2MXVockNmQmtUdVg1VFhJcDNmbk9hZjRFSVJuQWkycWpMY3c0MWd1TzlQb2o0NHZzSzVkNldmR0NRVVI0Z0xmaWZFekVzMGdvRmhrdmx0eGZyTWU0OEE5WFd0clM0R2ZsRXU4WVFNczJNOXM4LXB3TjJvdDdZeUotc3VnNWpjTTY3U0VYRzdSVHhVVElCQ0E2WFhCMENRekdB?oc=5",
+      "type": "layoff",
+      "company": {
+        "name": "Penobscot Community Health Care",
+        "ticker": null,
+        "industry": null,
+        "sector": "Healthcare",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Penobscot Community Health Care announces consolidation and layoffs amid financial challenges",
+      "tags": [
+        "layoff",
+        "healthcare"
+      ],
+      "extras": {}
+    },
+    {
+      "id": "c1c39f848b38f19a",
+      "ts": "2026-09-03T00:41:00Z",
+      "source": "news_layoffs",
+      "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPN1NQTDdUNElfdWszc3lGUFBnbEN3WUdpMkVDaS03VFBhdGQ5TjVuQ3lDa2dSa0F0aXZhcnE4eUpXWWJBclA0Wi1Jc016UnZ0UWlzUmh2Y3Y3QVY3MGVLbnFVX0ktek1sYnRJdFJ6SVlpMU1hU1F2ZDZucDRRUzNfUU4wM0hsZkVNY3BzXy130gGOAUFVX3lxTE83U1BMN1Q0SV91azNzeUZQUGdsQ3dZR2kyRUNpLTdUUGF0ZDlONW5DeUNrZ1JrQXRpdmFycTh5SldZYkFyUDRaLUlzTXpSdnRRaXNSaHZjdjdBVjcwZUtucVVfSS16TWxidEl0UnpJWWkxTWFTUXZkNm5wNFFTM19RTjAzSGxmRU1jcHNfLXc?oc=5",
+      "type": "layoff",
+      "company": {
+        "name": "Uber",
+        "ticker": null,
+        "industry": null,
+        "sector": "Retail",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Uber cuts 10% of staff in biggest layoffs since COVID to speed decisions - CHOSUNBIZ",
+      "tags": [
+        "layoff",
+        "retail"
+      ],
+      "extras": {}
+    },
+    {
+      "id": "8444026c321c11bf",
+      "ts": "2026-09-02T12:37:00Z",
+      "source": "news_layoffs",
+      "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBZUmFMM0phNUE3aGZMQWdaRG16R0Y1ak03RVhtX3ZkNTZ2TThQeHI0UjRqdUdPNnJiU2pMTFlHX2p1dDJJQnpXbi1vZDhvTXkwR1hsaklCcDN3blpGVm9pQm9qbVZwWWc?oc=5",
+      "type": "layoff",
+      "company": {
+        "name": "Bizzabo",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Bizzabo lays off dozens as Israeli event tech company restructures",
+      "tags": [
+        "layoff",
+        "other"
+      ],
+      "extras": {}
+    },
+    {
+      "id": "46dbfffc3d15fc5e",
+      "ts": "2026-09-02T11:34:22Z",
+      "source": "news_layoffs",
+      "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNjJqeHZaVXRkVzB5N0tJemtUX2FmNHJzcnZtTVMwMktiY3o3Y2lfMlFTSzlhODRFSDJtVE5pdHQtYTk3VlZtUXJvRThBXzJLQkRnV19uMHZzY0hEUHppWkY0ZU8xSWFPdFNmcmxlVEZsR1Z6ZHlSXzdVemw2WnFCQUU5YVk3eHg4RGNoUXdHd2oxREE5SFRkSkFBb3hUb1JPS3hFU3p4eHE4Q0tWSEdtVjFkQdIBuAFBVV95cUxOWG9Va3FjN0FmT18tc09GVDBxZGY0NHlQNjk2NmtUcHZjVU1kOFdEMVVUT0JwakNIdUMxWFRoeHNsekVUWi1KVDN2VEF5RFJST3U0RnNyNlVpWlNyX1Y2RjVzTTFXY0xiLTd4T0trb3dNTWFYVjE2RllfM3U1MDFlWTBJNWRWOXl5NU5nVzRfeWNvMnl6SzQ4N1VhaEt2UWJuem1sWFdYQU50UHJRZncxcmJ4eVVyR2xz?oc=5",
+      "type": "layoff",
+      "company": {
+        "name": "Uber",
+        "ticker": null,
+        "industry": null,
+        "sector": "Retail",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": 3300.0,
+      "unit": "people",
+      "raw_text": "Uber to cut 3,300 jobs in company overhaul to reduce management layers",
+      "tags": [
+        "layoff",
+        "retail"
+      ],
+      "extras": {}
+    },
+    {
+      "id": "4a770daa15c04243",
+      "ts": "2026-09-02T11:20:38Z",
+      "source": "news_layoffs",
+      "source_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1tOFVDTklyLTZldF9adDlNa0RZZ1RtWEZfV3dPV3U1RkhoYWNOU0hYOThjeUs4S1pWbXR2ZmJpYmVFcHVXMFJwVGpUSFFQUFpoUjZOLXVMaFhfRk5pUHJjbUppQ3pqWVQ3Rmk1M1B4YzF5enFBUzdnWHBR0gF_QVVfeXFMT2lxdi1XdG1XZXExVnh6Skc1THFIOG1iaWRtaG4xX2VzQXl2SGc1OFRzMzlhc0Q2elBGQmNtS2M2YVgxQzBzRE04bUR4dDJHRGN6WnBwTWFLdC1kV3MweHFTSUxRdEVIVXpJQWdjWUczWXRmNnBWeVQ0cEIwWlJfQQ?oc=5",
+      "type": "layoff",
+      "company": {
+        "name": "HCA Healthcare",
+        "ticker": null,
+        "industry": null,
+        "sector": "Healthcare",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "HCA Healthcare announces layoffs",
+      "tags": [
+        "layoff",
+        "healthcare"
+      ],
+      "extras": {}
+    },
+    {
+      "id": "9c645411bb0bf117",
+      "ts": "2026-09-01T21:25:30Z",
+      "source": "news_layoffs",
+      "source_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9GdWpxcVBPWUY1a0J3OTdHckRwUWZhYy11ZzlocEFXMV93SkxmX2xlWHlaRFJxYm5EdGtyLW1tTWU4WWdSSDhOeFloUEdhMXUzbnVHY3ZPaVA4Q1puVm1ZWmlJM2pSUXJjd1pLSWhIVTFHVDN3VTlNTQ?oc=5",
+      "type": "layoff",
+      "company": {
+        "name": "HCA Healthcare",
+        "ticker": null,
+        "industry": null,
+        "sector": "Healthcare",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "HCA Healthcare announces layoffs",
+      "tags": [
+        "layoff",
+        "healthcare"
+      ],
+      "extras": {}
+    },
+    {
+      "id": "a6553c9caf3897ba",
+      "ts": "2026-09-01T11:36:23Z",
+      "source": "news_layoffs",
+      "source_url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQcllaYVhvZXFZUjRvN0F0UFdXNWxjVGtUWkRzWVNLeHdQNzZhVVRKcG9DNWhUTEV5VkM0a3laM3MwZ3AwbEJkeTVNM3NzRW1wb1hXX050UHdCQnh5MWVIcF93Ml90MzlNNUY4TldqdVJjMV8yMnlTRGhjX2lQUVo5Ym1Lem12OW43ajU2LVk4RmV2ZVhoa0VhR3doamZvZWVNQlBvY2Utb3NCeWZadXVnaG42MkVzSkRodlcwNHozelhBcWN1MFREdW1CQTdud3Y5NGc?oc=5",
+      "type": "layoff",
+      "company": {
+        "name": "Oracle India",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Oracle India Reports Second Layoff Wave: Bangalore Engineers Wait for 6 AM Email Again",
+      "tags": [
+        "layoff",
+        "technology"
+      ],
+      "extras": {}
+    },
+    {
+      "id": "42a3660c9c9c1cc0",
+      "ts": "2026-08-29T17:25:13Z",
+      "source": "news_layoffs",
+      "source_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1wQml2YnRDemRKeWRKT1JyYWhRMU1FQm52NzRRZVl0ZmZENGU5bG1LZ2FiQ3VxcHUtMU9lM056VXprUDVXLTZjTVFKeFY1ek1BQ0hLajBURTdWZVdYQkIwZHUyWkZMdjJYQ2dDUi16STdGMlJFekdB?oc=5",
+      "type": "layoff",
+      "company": {
+        "name": "LIV Golf",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "LIV Golf announces mass layoffs following PIF exit",
+      "tags": [
+        "layoff",
+        "media"
+      ],
+      "extras": {}
+    },
+    {
+      "id": "88d22b735a1eef5a",
+      "ts": "2026-08-28T14:15:00Z",
+      "source": "news_layoffs",
+      "source_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPOTJ0RFNzV0VDUFlYNzFYUjhZZE5tNUo5aWJyYlJDTldPa3FOREd4TEJVQ0tsMjVoaW5VUG5oaW9kcmJ0emlJc19SWUI2emJNNVFaMllWRWxVVXdRRjRlengtZWhWM2dYbzZYTnNha0FNVXk3SC11aEdKV2VOd2dhdV9INV9UeVZVZmRSRm1lZVZ5Z19jX3U0c0RYSXhNV01qTmNQb0lwTXF1ai1ZcjFraGt4QnVZbkpYTGNV?oc=5",
+      "type": "layoff",
+      "company": {
+        "name": "Canadian Plant",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Canadian Plant Announces Mass Layoffs Over US Tariff \u2018Nuclear Bomb\u2019",
+      "tags": [
+        "layoff",
+        "other"
+      ],
+      "extras": {}
+    },
+    {
+      "id": "2d310301c907f17b",
+      "ts": "2026-08-27T21:14:44Z",
+      "source": "news_layoffs",
+      "source_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPSnlZVXVwanlhdWE4dWxRREtyaW5YakczX3MyNEtZTFYzVGUzdnpxaTFIWVNuZEYzX2h6TGR0blU2aHNPX05pRUxSWjRLSFRLQm1DckE4WEdCM1lYQk1fTjl0NWRwRXZsNHhHSTNPYzdHR01vamZkM2pzeFB2VXJNZFFTTDZaNGFSSlkyNmMxNkFzSWdrSzNOeFRHTnBDclF4Uzk5blE2azJPLVBRU0NYdks2TjB2bHdISjhldDN5QzJ5WGRoU2JnM2ZpUkNPckk?oc=5",
+      "type": "layoff",
+      "company": {
+        "name": "PagerDuty",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "PagerDuty Announces 15% Workforce Reduction and Reports Q2 Fiscal 2027 Financial Results",
+      "tags": [
+        "layoff",
+        "other"
+      ],
+      "extras": {}
+    },
+    {
+      "id": "f7632396b8000019",
+      "ts": "2026-08-27T19:59:16Z",
+      "source": "news_layoffs",
+      "source_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBOV2UtaWUxUFc1ek1seS1oVzZIYTduRGtQR0NkVTdBNWZIOVJZVDFHekZISl9VbWZtVzFtb2JiaXZBTVJBa1ZRYVpBalNmdUJoOFhxOW1vbDY4dXU1cmEwSGREaU1iaDlicWtELTlhbzJtc1pn0gF0QVVfeXFMTkVQREdGajB6NlZiLU1Kb0pfU1BYdVNIenB4Mm1HWjdKR1RJNHNLcW5MM0NHYWVyWHduSWUyTlBrYmh3MEZocXRrY1RQNFA0eFU5UlNiTXgzOGlBQVQyUnJJdkNJbFRMZUVZbjNxSDhsNGJnR00?oc=5",
+      "type": "layoff",
+      "company": {
+        "name": "T-Mobile",
+        "ticker": null,
+        "industry": null,
+        "sector": "Telecom",
+        "hq_region": "WA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "T-Mobile announces layoffs in Tacoma and other WA cities, will shutter 12 stores",
+      "tags": [
+        "layoff",
+        "telecom",
+        "WA"
+      ],
+      "extras": {}
+    },
+    {
+      "id": "3850ed54394749e0",
+      "ts": "2026-08-27T10:00:00Z",
+      "source": "news_layoffs",
+      "source_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQdUVfWTIwaTdiZG5LTm01UkhBSS1Pd1BUNFZvbVJISmQ5SS01ejFtek94b21MWTFZUFZ1UlRHNHl4T3RXcmZuV041VWhMM0dLM25aLTMtanRrNWJmRThBTXQ4NFQ4NFQ5ZlpsVXpnX1RlVkFoVmtrNVJZaldtMVNaU1hEM1hkeDNiUlNR?oc=5",
+      "type": "layoff",
+      "company": {
+        "name": "Apple",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Apple Cuts Vision Pro, Siri Jobs in Rare AI Layoff",
+      "tags": [
+        "layoff",
+        "technology"
+      ],
+      "extras": {}
+    },
+    {
+      "id": "220811d4b9eb7060",
+      "ts": "2026-08-26T21:43:08Z",
+      "source": "news_layoffs",
+      "source_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE13SGVGUTljSWdyVjhldWV2ZTlxUnNtQXN4Wm1qcFZrbmczMDZ1MFNKbUJKQUxaUzhITzh5LTlrRThnV3hEUUI0VXQ3emlCdG1Fd3Q2OXZOQzV0RXJsSmJycS1TbWtSWGlxT3p0QVc4NTdzdms?oc=5",
+      "type": "layoff",
+      "company": {
+        "name": "P&O Ferries",
+        "ticker": null,
+        "industry": null,
+        "sector": "Logistics",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "P&O Ferries announced layoffs via pre-recorded Zoom message",
+      "tags": [
+        "layoff",
+        "logistics"
+      ],
+      "extras": {}
+    },
+    {
+      "id": "addb3380b36323fd",
+      "ts": "2026-08-26T16:37:51Z",
+      "source": "news_layoffs",
+      "source_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPR3ZvSWpUUnM3RlpfeDVxU0h6MEFObnJPUWFUZmdmNkhTVWhEdVhYaHlVYnBQeFBNbVlqOW9rUU1ya3YzLVNMYkFCY3loSlIxVEVjTGFETlI1SHkwUGNuVkxTNUFmbzBpN0laNTV5eGhPMzZzQUpFaXdQTVRTcXFjWHNaUV9SWTc5TkQyY2Mwbw?oc=5",
+      "type": "layoff",
+      "company": {
+        "name": "Apple",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Apple cuts nearly 150 Bay Area jobs in latest tech layoffs",
+      "tags": [
+        "layoff",
+        "technology"
+      ],
+      "extras": {}
+    },
+    {
+      "id": "a981b3ecee1c1a30",
+      "ts": "2026-08-25T07:00:00Z",
+      "source": "news_layoffs",
+      "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNbmIwbVRRVlhqWnN4ak5PS29HVjBOY05zWHlkRDY4c1RreG12MDZvOWJlVC1yU2tpSlJIWWZMOENBc284clhFaG8zZ09zc05uQ3BHUlZ6UGZSMnp0YjhVbkprbllYYUFYU2dNcldlX3NqZXoyOGlscVVUa01FbDlwN1FNWE9GVy14ajFOVDlSbE82OENGRHJvdjhxQnU5aWNKRnQwb0xiOVJxaE9reGVUUU1EakjSAbsBQVVfeXFMTmliSm1LaGtCNTY3N2lfRUoxQkFubFhNQU52ZUZYZlpPRG9uNlhGM2ZuRFMzdVRGd2E2VkpMN2pXWllQSE1jd0E1YmFHQ2lUUlBwWWVmWENkV0hFS3cwLTdBUmlDQ0hxeHVpRXNjRnNjVWlVYjVscmZEbDNMTnJNaHFMMlBpLUN0Ykp6SG84aVNic1p2RzZvVUlBUVRCWUhLaHc2T2V4bGdhZWxTeUVtNE1wRTcxNGVuYjc0UQ?oc=5",
+      "type": "layoff",
+      "company": {
+        "name": "Apple",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": 200.0,
+      "unit": "people",
+      "raw_text": "Apple to cut more than 200 jobs in major reshuffle of Siri AI, Vision Pro teams",
+      "tags": [
+        "layoff",
+        "technology"
+      ],
+      "extras": {}
+    },
+    {
+      "id": "2969abe5ec931fb0",
+      "ts": "2026-08-21T07:00:00Z",
+      "source": "news_layoffs",
+      "source_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPZnZ5dDZNUVpkUnZYSy1BZ05TT3V5LXRfLWh4U3dxMWtPajBXdDBRUy1BdlJIbjBkeUFlbVdnOW9TTjNEQ2VMTTJSRjhXVDY4ck11cS0yR2g4TDhVSTVjMV9LWUYwaVNUak1UWWRSMkMzbVh2YU1sbFZ1UHhsTXozMllTeU1OQVg4VFhVYm9KeWlNMDBCWi1EcEdzYl8yV2tpc1o4c0RFX3M3NTRuTnNFQTloYXBfQ0RPOVZV?oc=5",
+      "type": "layoff",
+      "company": {
+        "name": "Starbucks",
+        "ticker": null,
+        "industry": null,
+        "sector": "Retail",
+        "hq_region": "WA",
+        "size_band": "unknown"
+      },
+      "magnitude": 224.0,
+      "unit": "people",
+      "raw_text": "Starbucks lays off 224 workers tied to Seattle HQ, including tech roles, as restructuring winds down",
+      "tags": [
+        "layoff",
+        "retail",
+        "WA"
+      ],
+      "extras": {}
+    },
+    {
+      "id": "69f735f588227eeb",
+      "ts": "2026-08-20T07:00:00Z",
+      "source": "news_layoffs",
+      "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOSi05YWJZUHVqQzktM1ZKWnl0WHh1Z0h5eXhFQVRfWUszY2tNU0RKT2V4RUlNR0taQXB1eHpzSXJ4RmlaSjZPaGU5elFOWUhlVjIyakJvdnJhRG1YaDdDMHpHMzgxN2ptT0U2QjNyOVBKdGM2Yk5uMVhzRUpjd0RwRS1lSUluQndQX2p0cnFvcWNtQmVTT0FjNFlJcWUzNncxT3I3Sw?oc=5",
+      "type": "layoff",
+      "company": {
+        "name": "Pink News",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": 11.0,
+      "unit": "people",
+      "raw_text": "Pink News to cut up to 11 staff and shut office amid Snapchat changes",
+      "tags": [
+        "layoff",
+        "other"
+      ],
+      "extras": {}
+    },
+    {
+      "id": "82861e0839d32dc3",
+      "ts": "2026-08-17T07:00:00Z",
+      "source": "news_layoffs",
+      "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQYzJaNnE2Qnk3MjFEeTg5QUZHbHctc3ctVjBnM1dwb1ZBR29YVkNZTGZkbmZJbnQwSDFQVHprY0QzMDAzMDNCVWRDVUtEQ0JJLUNqRTBiVjY4VjN0V2YzQ3lBU2RtMllGQUtoNF85Q05BSF9lVFpRcVJWRjBUVTZFZFhTSi1wcmJLZktPS0lQbkFXMFlFdXY3LVdkQTNGNFd3MGp6V0NEVQ?oc=5",
+      "type": "layoff",
+      "company": {
+        "name": "Winnebago",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Winnebago announces layoffs at Forest City plant",
+      "tags": [
+        "layoff",
+        "other"
+      ],
+      "extras": {}
+    },
+    {
+      "id": "497224b1470fe73c",
+      "ts": "2026-08-17T07:00:00Z",
+      "source": "news_layoffs",
+      "source_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPT1NRcFRydFN6R0pZd3VsZ0Z3dklQdjhtR1ZzQVExV3UxTnlseUpmU2Z1Wk84Tm44bVMwdDZzbDE4WDdCQjVTeDlaQnk0eElvUnZHcmdiZGV3SlhmWE9PWmd3a29iajF1ZWRRc0xycm95NF9MMFlJSHZKRmVFMnhaY0RKekMtOGVtbTA2VA?oc=5",
+      "type": "layoff",
+      "company": {
+        "name": "Ryder Trucks",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Ryder Trucks announces 73 layoffs coming to Fayetteville",
+      "tags": [
+        "layoff",
+        "other"
+      ],
+      "extras": {}
+    },
+    {
+      "id": "4c382e9805c63e7b",
+      "ts": "2026-08-14T07:00:00Z",
+      "source": "news_layoffs",
+      "source_url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQd2NQU1B5dnFUc256OU9RbllXRlNnOGtYTTlueFdPOEFxUEV5UmhQU25RalBJSmRlNmJFa2E5MTlmZXN4Nkh4ZjFBR05MZXBDYXRDcU5MWFRlNk1sNHZUTW0yVDh2eHh5UW82dXYtOFhjX3Q0bmF0Qy00a1ZKSE9ZU3FXUlBaNjIyaUxDaFdyckdYaGNxRVc2Qk1nLTc1MmRZQndzMU9SSExZbDczSEVuTXdMa2RRamJwWlVvWUgxM0dmX0NOaU5VUHpGdWxmT0FiajVkMS1xaThTQQ?oc=5",
+      "type": "layoff",
+      "company": {
+        "name": "GM",
+        "ticker": null,
+        "industry": null,
+        "sector": "Manufacturing",
+        "hq_region": "MI",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "GM announces layoffs for Lansing Grand River plant retooling",
+      "tags": [
+        "layoff",
+        "manufacturing",
+        "MI"
+      ],
+      "extras": {}
+    },
     {
       "id": "20a17f372e1e0bea",
       "ts": "2026-06-23T00:00:00Z",
