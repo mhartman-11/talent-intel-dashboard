@@ -1,10 +1,10 @@
 {
   "stream": "org-moves",
-  "generated_at": "2026-09-03T20:41:56.732024+00:00",
-  "total": 123,
-  "showing": 123,
+  "generated_at": "2026-09-04T03:29:43.073943+00:00",
+  "total": 124,
+  "showing": 124,
   "source_counts": {
-    "sec_edgar": 110,
+    "sec_edgar": 111,
     "org_moves": 13
   },
   "sector_counts": {
@@ -12,13 +12,37 @@
     "Healthcare": 5,
     "Retail": 4,
     "Manufacturing": 4,
-    "Finance": 3,
-    "Technology": 2,
+    "Technology": 3,
+    "Finance": 2,
     "CPG": 2,
     "Energy": 1,
-    "Telecom": 1
+    "Telecom": 1,
+    "Education": 1
   },
   "events": [
+    {
+      "id": "c65f8d78c495d237",
+      "ts": "2026-09-04T00:48:42Z",
+      "source": "org_moves",
+      "source_url": "https://techcrunch.com/2026/09/03/crusoe-reportedly-raises-3b-at-a-30b-valuation/",
+      "type": "funding",
+      "company": {
+        "name": "Unknown",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": 3000000000.0,
+      "unit": "USD",
+      "raw_text": "Crusoe reportedly raises $3B at a  $30B valuation",
+      "tags": [
+        "funding",
+        "technology"
+      ],
+      "extras": {}
+    },
     {
       "id": "e27b6dd3fef1680b",
       "ts": "2026-09-03T00:00:00Z",
@@ -464,6 +488,34 @@
       "extras": {
         "adsh": "0002153053-26-000001",
         "cik": "0002153053",
+        "file_date": "2026-09-03"
+      }
+    },
+    {
+      "id": "eada2bd50f4120a1",
+      "ts": "2026-09-03T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2153043&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "EEA - University Edge, LLC",
+        "ticker": null,
+        "industry": null,
+        "sector": "Education",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "EEA - University Edge, LLC filed a Form D securities offering with the SEC on 2026-09-03.",
+      "tags": [
+        "funding",
+        "form_d",
+        "education"
+      ],
+      "extras": {
+        "adsh": "0002153043-26-000001",
+        "cik": "0002153043",
         "file_date": "2026-09-03"
       }
     },
@@ -1252,6 +1304,34 @@
       }
     },
     {
+      "id": "5a38e7c1f3bcb096",
+      "ts": "2026-09-02T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=846913&type=&dateb=&owner=include&count=40",
+      "type": "exec_move",
+      "company": {
+        "name": "Fuel Tech, Inc.",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Fuel Tech, Inc. reported an executive or board change in an 8-K filing on 2026-09-02.",
+      "tags": [
+        "exec_move",
+        "sec_8k",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0001437749-26-029510",
+        "cik": "0000846913",
+        "file_date": "2026-09-02"
+      }
+    },
+    {
       "id": "2d4e2848c5238334",
       "ts": "2026-09-01T22:08:24Z",
       "source": "org_moves",
@@ -2017,6 +2097,62 @@
       }
     },
     {
+      "id": "46211b07a3d4e072",
+      "ts": "2026-08-28T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1041061&type=&dateb=&owner=include&count=40",
+      "type": "exec_move",
+      "company": {
+        "name": "YUM Brands INC",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "YUM Brands INC reported an executive or board change in an 8-K filing on 2026-08-28.",
+      "tags": [
+        "exec_move",
+        "sec_8k",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0001041061-26-000180",
+        "cik": "0001041061",
+        "file_date": "2026-08-28"
+      }
+    },
+    {
+      "id": "e4bfe1461f617af8",
+      "ts": "2026-08-28T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1402328&type=&dateb=&owner=include&count=40",
+      "type": "exec_move",
+      "company": {
+        "name": "Sunshine Biopharma Inc.",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Sunshine Biopharma Inc. reported an executive or board change in an 8-K filing on 2026-08-28.",
+      "tags": [
+        "exec_move",
+        "sec_8k",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0001683168-26-006777",
+        "cik": "0001402328",
+        "file_date": "2026-08-28"
+      }
+    },
+    {
       "id": "b890cdb984e48fd5",
       "ts": "2026-08-27T17:00:00Z",
       "source": "org_moves",
@@ -2348,6 +2484,34 @@
       }
     },
     {
+      "id": "6ba26eb96a0daea1",
+      "ts": "2026-08-27T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=723254&type=&dateb=&owner=include&count=40",
+      "type": "exec_move",
+      "company": {
+        "name": "Cintas Corp",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Cintas Corp reported an executive or board change in an 8-K filing on 2026-08-27.",
+      "tags": [
+        "exec_move",
+        "sec_8k",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0000950103-26-013001",
+        "cik": "0000723254",
+        "file_date": "2026-08-27"
+      }
+    },
+    {
       "id": "663ccdbde4ee4133",
       "ts": "2026-08-26T16:00:00Z",
       "source": "org_moves",
@@ -2497,6 +2661,34 @@
       "extras": {
         "adsh": "0001437749-26-028979",
         "cik": "0001463913",
+        "file_date": "2026-08-26"
+      }
+    },
+    {
+      "id": "e2e1aefb408320bf",
+      "ts": "2026-08-26T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1676163&type=&dateb=&owner=include&count=40",
+      "type": "exec_move",
+      "company": {
+        "name": "SS Innovations International, Inc.",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "SS Innovations International, Inc. reported an executive or board change in an 8-K filing on 2026-08-26.",
+      "tags": [
+        "exec_move",
+        "sec_8k",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0001213900-26-093946",
+        "cik": "0001676163",
         "file_date": "2026-08-26"
       }
     },
@@ -2799,29 +2991,6 @@
       "extras": {}
     },
     {
-      "id": "8da00d0c2242ade6",
-      "ts": "2026-08-24T13:47:26Z",
-      "source": "org_moves",
-      "source_url": "https://techcrunch.com/2026/08/24/hugging-face-reportedly-in-talks-to-be-acquired-for-13b/",
-      "type": "funding",
-      "company": {
-        "name": "Unknown",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": 13000000000.0,
-      "unit": "USD",
-      "raw_text": "Hugging Face reportedly in talks to be acquired for $13B",
-      "tags": [
-        "funding",
-        "other"
-      ],
-      "extras": {}
-    },
-    {
       "id": "ea573fc9725339f8",
       "ts": "2026-08-24T00:00:00Z",
       "source": "sec_edgar",
@@ -2986,6 +3155,34 @@
       "extras": {
         "adsh": "0001193125-26-363739",
         "cik": "0001618673",
+        "file_date": "2026-08-24"
+      }
+    },
+    {
+      "id": "a05c1edb7a1b9e8b",
+      "ts": "2026-08-24T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1819574&type=&dateb=&owner=include&count=40",
+      "type": "exec_move",
+      "company": {
+        "name": "Bark, Inc.",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Bark, Inc. reported an executive or board change in an 8-K filing on 2026-08-24.",
+      "tags": [
+        "exec_move",
+        "sec_8k",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0001819574-26-000006",
+        "cik": "0001819574",
         "file_date": "2026-08-24"
       }
     },
@@ -3183,174 +3380,6 @@
         "adsh": "0001140361-26-034016",
         "cik": "0001021561",
         "file_date": "2026-08-21"
-      }
-    },
-    {
-      "id": "3b238270af0f3c51",
-      "ts": "2026-08-20T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2034288&type=&dateb=&owner=include&count=40",
-      "type": "exec_move",
-      "company": {
-        "name": "Rocky Mountains Group Ltd",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Rocky Mountains Group Ltd reported an executive or board change in an 8-K filing on 2026-08-20.",
-      "tags": [
-        "exec_move",
-        "sec_8k",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0001493152-26-039409",
-        "cik": "0002034288",
-        "file_date": "2026-08-20"
-      }
-    },
-    {
-      "id": "918b32ed938ecb1e",
-      "ts": "2026-08-20T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=850429&type=&dateb=&owner=include&count=40",
-      "type": "exec_move",
-      "company": {
-        "name": "Tredegar Corp",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Tredegar Corp reported an executive or board change in an 8-K filing on 2026-08-20.",
-      "tags": [
-        "exec_move",
-        "sec_8k",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0001628280-26-058292",
-        "cik": "0000850429",
-        "file_date": "2026-08-20"
-      }
-    },
-    {
-      "id": "faf84a87e33d8b9d",
-      "ts": "2026-08-20T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1018840&type=&dateb=&owner=include&count=40",
-      "type": "exec_move",
-      "company": {
-        "name": "Abercrombie & Fitch CO",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Abercrombie & Fitch CO reported an executive or board change in an 8-K filing on 2026-08-20.",
-      "tags": [
-        "exec_move",
-        "sec_8k",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0001018840-26-000039",
-        "cik": "0001018840",
-        "file_date": "2026-08-20"
-      }
-    },
-    {
-      "id": "f6c06660f415190d",
-      "ts": "2026-08-20T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1046257&type=&dateb=&owner=include&count=40",
-      "type": "exec_move",
-      "company": {
-        "name": "Ingredion Inc",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Ingredion Inc reported an executive or board change in an 8-K filing on 2026-08-20.",
-      "tags": [
-        "exec_move",
-        "sec_8k",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0001046257-26-000244",
-        "cik": "0001046257",
-        "file_date": "2026-08-20"
-      }
-    },
-    {
-      "id": "0ced44bcd20afa9c",
-      "ts": "2026-08-20T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=801337&type=&dateb=&owner=include&count=40",
-      "type": "exec_move",
-      "company": {
-        "name": "Webster Financial Corp",
-        "ticker": null,
-        "industry": null,
-        "sector": "Finance",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Webster Financial Corp reported an executive or board change in an 8-K filing on 2026-08-20.",
-      "tags": [
-        "exec_move",
-        "sec_8k",
-        "finance"
-      ],
-      "extras": {
-        "adsh": "0001193125-26-357758",
-        "cik": "0000801337",
-        "file_date": "2026-08-20"
-      }
-    },
-    {
-      "id": "e42b13c2ebf0d64a",
-      "ts": "2026-08-20T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1371451&type=&dateb=&owner=include&count=40",
-      "type": "exec_move",
-      "company": {
-        "name": "Highwater Ethanol LLC",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Highwater Ethanol LLC reported an executive or board change in an 8-K filing on 2026-08-20.",
-      "tags": [
-        "exec_move",
-        "sec_8k",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0001628280-26-058180",
-        "cik": "0001371451",
-        "file_date": "2026-08-20"
       }
     },
     {
