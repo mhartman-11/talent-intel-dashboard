@@ -1,19 +1,19 @@
 {
   "stream": "layoffs",
-  "generated_at": "2026-09-05T20:04:21.429595+00:00",
+  "generated_at": "2026-09-06T03:32:07.648055+00:00",
   "total": 94,
   "showing": 94,
   "source_counts": {
-    "state_warn": 67,
-    "news_layoffs": 22,
+    "state_warn": 66,
+    "news_layoffs": 23,
     "layoffs_fyi": 5
   },
   "sector_counts": {
-    "Other": 42,
+    "Other": 41,
     "Hospitality": 8,
+    "Retail": 7,
     "Healthcare": 7,
     "Technology": 6,
-    "Retail": 6,
     "Logistics": 6,
     "Manufacturing": 5,
     "Finance": 4,
@@ -25,7 +25,7 @@
   "events": [
     {
       "id": "daa00e6662ae7ec8",
-      "ts": "2026-09-04T23:02:29Z",
+      "ts": "2026-09-04T22:52:30Z",
       "source": "news_layoffs",
       "source_url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPM0c2eS05S1BzRmpEVzZlVG8tTjRJanFpRE9wYVU4MlNEdFpKanQ2bTNIWHo1TFJjZWVQUWJnWU0ySE5rcG1zTkNlTkdTd1lISk1Yd1J4RFN0Y1MzU3NxMG14VERBc2dPc2tURURRQmJuWGNyaldTai02Q0FhTXE2Nk5QZ0g1R0dNQW9sU2VoX1l5aVBzUVkyY190UEQ4ZUpLVzZXMDhDZmdQZjU2bW1Cc2xPSm1hZHFOTkhFbnBvTWRvWC04TTZ6NU53UjNSUUsyYmo2clp1QTkyNV92QkRwWGpsV3A0Z1duMzJpRUJn?oc=5",
       "type": "layoff",
@@ -43,6 +43,29 @@
       "tags": [
         "layoff",
         "other"
+      ],
+      "extras": {}
+    },
+    {
+      "id": "cddd3c502391e90b",
+      "ts": "2026-09-04T15:29:50Z",
+      "source": "news_layoffs",
+      "source_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPYWRYUHNjOW9CbWVSbnM2dVEzX1VCOWFQcWpMRmE3S3E5TnNIclhIQXAyRWNTYkVSY1pxRUJTbzlXWXJtZ0NXSU12bzRDaEQwejV0NWU5TlJSbTdmSzhyZG9YWDF0NmltanQ2eXc3dlJ6UXp0Q3BaamVTY1NmVG5kYVl4X0ZSQW13S0o2THZJYzVwTUU?oc=5",
+      "type": "layoff",
+      "company": {
+        "name": "Uber",
+        "ticker": null,
+        "industry": null,
+        "sector": "Retail",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Uber Cuts 10% of Staff in Major Layoffs: How to Play UBER Stock Here",
+      "tags": [
+        "layoff",
+        "retail"
       ],
       "extras": {}
     },
@@ -324,10 +347,10 @@
       "extras": {}
     },
     {
-      "id": "addb3380b36323fd",
+      "id": "d57f24ac73004df3",
       "ts": "2026-08-26T07:00:00Z",
       "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPR3ZvSWpUUnM3RlpfeDVxU0h6MEFObnJPUWFUZmdmNkhTVWhEdVhYaHlVYnBQeFBNbVlqOW9rUU1ya3YzLVNMYkFCY3loSlIxVEVjTGFETlI1SHkwUGNuVkxTNUFmbzBpN0laNTV5eGhPMzZzQUpFaXdQTVRTcXFjWHNaUV9SWTc5TkQyY2Mwbw?oc=5",
+      "source_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE82bWU1SUNQeHAtSVRJVl9WcmhZdFV6WG9idnFwMnd1dlZqU3hfQVROV2JldGNNUjkxWmpLM0pXZkkwbHNqZTRjV0ZmcTNmMDRJTVJsWTdDd010MVNUSWt2ZFJBRU9Rek1QQWZNNVZCU2JrNXpaZEhPbg?oc=5",
       "type": "layoff",
       "company": {
         "name": "Apple",
@@ -2560,35 +2583,6 @@
       "extras": {
         "state": "TX",
         "city": "Houston",
-        "warn": true
-      }
-    },
-    {
-      "id": "8aba424262595939",
-      "ts": "2026-01-09T00:00:00Z",
-      "source": "state_warn",
-      "source_url": "https://data.texas.gov/d/8w53-c4f6",
-      "type": "layoff",
-      "company": {
-        "name": "Congo, LLC (Updated March 2026)",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": "TX",
-        "size_band": "unknown"
-      },
-      "magnitude": 31.0,
-      "unit": "people",
-      "raw_text": "Congo, LLC (Updated March 2026) filed a WARN notice for 31 jobs in Lewisville, TX.",
-      "tags": [
-        "layoff",
-        "warn",
-        "tx",
-        "other"
-      ],
-      "extras": {
-        "state": "TX",
-        "city": "Lewisville",
         "warn": true
       }
     }
