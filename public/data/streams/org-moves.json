@@ -1,19 +1,20 @@
 {
   "stream": "org-moves",
-  "generated_at": "2026-09-09T16:08:28.743893+00:00",
-  "total": 108,
-  "showing": 108,
+  "generated_at": "2026-09-09T20:39:08.446713+00:00",
+  "total": 123,
+  "showing": 123,
   "source_counts": {
-    "sec_edgar": 98,
+    "sec_edgar": 113,
     "org_moves": 10
   },
   "sector_counts": {
-    "Other": 85,
+    "Other": 96,
     "Healthcare": 7,
-    "Technology": 4,
+    "Technology": 6,
     "Energy": 4,
-    "Retail": 3,
+    "Retail": 4,
     "Manufacturing": 3,
+    "Hospitality": 1,
     "CPG": 1,
     "Media": 1
   },
@@ -42,30 +43,86 @@
       "extras": {}
     },
     {
-      "id": "81127052cb3b5290",
+      "id": "2817363160418bd6",
       "ts": "2026-09-09T00:00:00Z",
       "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=71691&type=&dateb=&owner=include&count=40",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1013488&type=&dateb=&owner=include&count=40",
       "type": "exec_move",
       "company": {
-        "name": "NEW York Times CO",
+        "name": "BJs RESTAURANTS INC",
         "ticker": null,
         "industry": null,
-        "sector": "Media",
+        "sector": "Hospitality",
         "hq_region": null,
         "size_band": "unknown"
       },
       "magnitude": null,
       "unit": null,
-      "raw_text": "NEW York Times CO reported an executive or board change in an 8-K filing on 2026-09-09.",
+      "raw_text": "BJs RESTAURANTS INC reported an executive or board change in an 8-K filing on 2026-09-09.",
       "tags": [
         "exec_move",
         "sec_8k",
-        "media"
+        "hospitality"
       ],
       "extras": {
-        "adsh": "0001193125-26-386067",
-        "cik": "0000071691",
+        "adsh": "0001171843-26-005956",
+        "cik": "0001013488",
+        "file_date": "2026-09-09"
+      }
+    },
+    {
+      "id": "027c97f0a01cd3e2",
+      "ts": "2026-09-09T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1018724&type=&dateb=&owner=include&count=40",
+      "type": "exec_move",
+      "company": {
+        "name": "Amazon COM INC",
+        "ticker": null,
+        "industry": null,
+        "sector": "Retail",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Amazon COM INC reported an executive or board change in an 8-K filing on 2026-09-09.",
+      "tags": [
+        "exec_move",
+        "sec_8k",
+        "retail"
+      ],
+      "extras": {
+        "adsh": "0001018724-26-000036",
+        "cik": "0001018724",
+        "file_date": "2026-09-09"
+      }
+    },
+    {
+      "id": "af2082d6c8c8c8b6",
+      "ts": "2026-09-09T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1728951&type=&dateb=&owner=include&count=40",
+      "type": "exec_move",
+      "company": {
+        "name": "Essential Properties Realty Trust, Inc.",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Essential Properties Realty Trust, Inc. reported an executive or board change in an 8-K filing on 2026-09-09.",
+      "tags": [
+        "exec_move",
+        "sec_8k",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0001728951-26-000057",
+        "cik": "0001728951",
         "file_date": "2026-09-09"
       }
     },
@@ -98,6 +155,202 @@
       }
     },
     {
+      "id": "81127052cb3b5290",
+      "ts": "2026-09-09T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=71691&type=&dateb=&owner=include&count=40",
+      "type": "exec_move",
+      "company": {
+        "name": "NEW York Times CO",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "NEW York Times CO reported an executive or board change in an 8-K filing on 2026-09-09.",
+      "tags": [
+        "exec_move",
+        "sec_8k",
+        "media"
+      ],
+      "extras": {
+        "adsh": "0001193125-26-386067",
+        "cik": "0000071691",
+        "file_date": "2026-09-09"
+      }
+    },
+    {
+      "id": "f9cbbbd4c4d5c441",
+      "ts": "2026-09-09T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2154413&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "LOFT Performance Golf, LLC",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "LOFT Performance Golf, LLC filed a Form D securities offering with the SEC on 2026-09-09.",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002154413-26-000001",
+        "cik": "0002154413",
+        "file_date": "2026-09-09"
+      }
+    },
+    {
+      "id": "6575fc9236fd4149",
+      "ts": "2026-09-09T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2154374&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "Better Self Storage Yuma Syndication LLC",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Better Self Storage Yuma Syndication LLC filed a Form D securities offering with the SEC on 2026-09-09.",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002154374-26-000001",
+        "cik": "0002154374",
+        "file_date": "2026-09-09"
+      }
+    },
+    {
+      "id": "3ba27270540da4bf",
+      "ts": "2026-09-09T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2154285&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "Fogcatcher Inn, LLC",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Fogcatcher Inn, LLC filed a Form D securities offering with the SEC on 2026-09-09.",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002154285-26-000001",
+        "cik": "0002154285",
+        "file_date": "2026-09-09"
+      }
+    },
+    {
+      "id": "b840ccaf33fff661",
+      "ts": "2026-09-09T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2154278&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "Legacy AI Technologies, Inc.",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Legacy AI Technologies, Inc. filed a Form D securities offering with the SEC on 2026-09-09.",
+      "tags": [
+        "funding",
+        "form_d",
+        "technology"
+      ],
+      "extras": {
+        "adsh": "0002154278-26-000001",
+        "cik": "0002154278",
+        "file_date": "2026-09-09"
+      }
+    },
+    {
+      "id": "594acb2654292271",
+      "ts": "2026-09-09T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2154270&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "TOH Cp, LLC",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "TOH Cp, LLC filed a Form D securities offering with the SEC on 2026-09-09.",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002154270-26-000001",
+        "cik": "0002154270",
+        "file_date": "2026-09-09"
+      }
+    },
+    {
+      "id": "ad121544919fda08",
+      "ts": "2026-09-09T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2154257&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "IT'S A FLEX Ltd LIABILITY Co",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "IT'S A FLEX Ltd LIABILITY Co filed a Form D securities offering with the SEC on 2026-09-09.",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002154257-26-000001",
+        "cik": "0002154257",
+        "file_date": "2026-09-09"
+      }
+    },
+    {
       "id": "6d32b5d8f35ab591",
       "ts": "2026-09-09T00:00:00Z",
       "source": "sec_edgar",
@@ -126,6 +379,34 @@
       }
     },
     {
+      "id": "93dc9c676c91aa5a",
+      "ts": "2026-09-09T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2154223&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "FWB Apartment Holdings, LLC",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "FWB Apartment Holdings, LLC filed a Form D securities offering with the SEC on 2026-09-09.",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002154223-26-000001",
+        "cik": "0002154223",
+        "file_date": "2026-09-09"
+      }
+    },
+    {
       "id": "aca109b54a07e0b1",
       "ts": "2026-09-09T00:00:00Z",
       "source": "sec_edgar",
@@ -150,6 +431,34 @@
       "extras": {
         "adsh": "0002154187-26-000001",
         "cik": "0002154187",
+        "file_date": "2026-09-09"
+      }
+    },
+    {
+      "id": "bf604b92ad98d430",
+      "ts": "2026-09-09T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2154152&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "DeepMorph.ai, Inc.",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "DeepMorph.ai, Inc. filed a Form D securities offering with the SEC on 2026-09-09.",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002154152-26-000001",
+        "cik": "0002154152",
         "file_date": "2026-09-09"
       }
     },
@@ -266,6 +575,62 @@
       }
     },
     {
+      "id": "f4bdc4094e213d49",
+      "ts": "2026-09-09T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2154072&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "General Cybernetics Corp",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "General Cybernetics Corp filed a Form D securities offering with the SEC on 2026-09-09.",
+      "tags": [
+        "funding",
+        "form_d",
+        "technology"
+      ],
+      "extras": {
+        "adsh": "0002154072-26-000001",
+        "cik": "0002154072",
+        "file_date": "2026-09-09"
+      }
+    },
+    {
+      "id": "82abe68e39a33e19",
+      "ts": "2026-09-09T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2154045&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "MTM 2027 Ltd Liability Co",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "MTM 2027 Ltd Liability Co filed a Form D securities offering with the SEC on 2026-09-09.",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002154045-26-000002",
+        "cik": "0002154045",
+        "file_date": "2026-09-09"
+      }
+    },
+    {
       "id": "8c8f20001dcc2a8d",
       "ts": "2026-09-09T00:00:00Z",
       "source": "sec_edgar",
@@ -290,6 +655,90 @@
       "extras": {
         "adsh": "0002153999-26-000001",
         "cik": "0002153999",
+        "file_date": "2026-09-09"
+      }
+    },
+    {
+      "id": "f3bd7d594caadbcb",
+      "ts": "2026-09-09T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2153967&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "908 Preferred Investors I, LLC",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "908 Preferred Investors I, LLC filed a Form D securities offering with the SEC on 2026-09-09.",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002153967-26-000001",
+        "cik": "0002153967",
+        "file_date": "2026-09-09"
+      }
+    },
+    {
+      "id": "4a9277fd1e4b70b8",
+      "ts": "2026-09-09T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2153922&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "ZT Technology PE 1, LLC",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "ZT Technology PE 1, LLC filed a Form D securities offering with the SEC on 2026-09-09.",
+      "tags": [
+        "funding",
+        "form_d",
+        "technology"
+      ],
+      "extras": {
+        "adsh": "0002153922-26-000001",
+        "cik": "0002153922",
+        "file_date": "2026-09-09"
+      }
+    },
+    {
+      "id": "04a35fa674ee908f",
+      "ts": "2026-09-09T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2153864&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "Kelleran Research & Investments, Inc.",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Kelleran Research & Investments, Inc. filed a Form D securities offering with the SEC on 2026-09-09.",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002153864-26-000001",
+        "cik": "0002153864",
         "file_date": "2026-09-09"
       }
     },
@@ -434,6 +883,34 @@
       }
     },
     {
+      "id": "a2cf68da96e672e8",
+      "ts": "2026-09-09T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2153543&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "Evergreen NCE, LLC",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Evergreen NCE, LLC filed a Form D securities offering with the SEC on 2026-09-09.",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002153543-26-000001",
+        "cik": "0002153543",
+        "file_date": "2026-09-09"
+      }
+    },
+    {
       "id": "80d123e53b943fec",
       "ts": "2026-09-09T00:00:00Z",
       "source": "sec_edgar",
@@ -490,6 +967,34 @@
       }
     },
     {
+      "id": "17868f7afa424e12",
+      "ts": "2026-09-09T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2153331&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "Deviation Co-Invest LLC - Deviate IV",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Deviation Co-Invest LLC - Deviate IV filed a Form D securities offering with the SEC on 2026-09-09.",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002153331-26-000001",
+        "cik": "0002153331",
+        "file_date": "2026-09-09"
+      }
+    },
+    {
       "id": "81447ac09f29b984",
       "ts": "2026-09-09T00:00:00Z",
       "source": "sec_edgar",
@@ -518,13 +1023,13 @@
       }
     },
     {
-      "id": "2ce963f7e88aae4c",
+      "id": "f17b08e15956e093",
       "ts": "2026-09-09T00:00:00Z",
       "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2145894&type=&dateb=&owner=include&count=40",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2153046&type=&dateb=&owner=include&count=40",
       "type": "funding",
       "company": {
-        "name": "Prometheus Hyperscale",
+        "name": "Fair Shake Saddlehorn, LLC",
         "ticker": null,
         "industry": null,
         "sector": "Other",
@@ -533,26 +1038,26 @@
       },
       "magnitude": null,
       "unit": null,
-      "raw_text": "Prometheus Hyperscale filed a Form D securities offering with the SEC on 2026-09-09.",
+      "raw_text": "Fair Shake Saddlehorn, LLC filed a Form D securities offering with the SEC on 2026-09-09.",
       "tags": [
         "funding",
         "form_d",
         "other"
       ],
       "extras": {
-        "adsh": "0002145894-26-000002",
-        "cik": "0002145894",
+        "adsh": "0002153046-26-000001",
+        "cik": "0002153046",
         "file_date": "2026-09-09"
       }
     },
     {
-      "id": "cf6d5ffe0bd4c753",
+      "id": "ecd017290c24b53a",
       "ts": "2026-09-09T00:00:00Z",
       "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2140560&type=&dateb=&owner=include&count=40",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2152850&type=&dateb=&owner=include&count=40",
       "type": "funding",
       "company": {
-        "name": "Climb Group, Inc.",
+        "name": "Radius of Self, Inc",
         "ticker": null,
         "industry": null,
         "sector": "Other",
@@ -561,26 +1066,26 @@
       },
       "magnitude": null,
       "unit": null,
-      "raw_text": "Climb Group, Inc. filed a Form D securities offering with the SEC on 2026-09-09.",
+      "raw_text": "Radius of Self, Inc filed a Form D securities offering with the SEC on 2026-09-09.",
       "tags": [
         "funding",
         "form_d",
         "other"
       ],
       "extras": {
-        "adsh": "0002140560-26-000002",
-        "cik": "0002140560",
+        "adsh": "0002152850-26-000001",
+        "cik": "0002152850",
         "file_date": "2026-09-09"
       }
     },
     {
-      "id": "a41d5583077d17d0",
+      "id": "6d24f314b462718e",
       "ts": "2026-09-09T00:00:00Z",
       "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2074745&type=&dateb=&owner=include&count=40",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2151900&type=&dateb=&owner=include&count=40",
       "type": "funding",
       "company": {
-        "name": "Viridian Metals Inc.",
+        "name": "OTH Holding, LLC",
         "ticker": null,
         "industry": null,
         "sector": "Other",
@@ -589,15 +1094,15 @@
       },
       "magnitude": null,
       "unit": null,
-      "raw_text": "Viridian Metals Inc. filed a Form D securities offering with the SEC on 2026-09-09.",
+      "raw_text": "OTH Holding, LLC filed a Form D securities offering with the SEC on 2026-09-09.",
       "tags": [
         "funding",
         "form_d",
         "other"
       ],
       "extras": {
-        "adsh": "0002074745-26-000001",
-        "cik": "0002074745",
+        "adsh": "0002151900-26-000001",
+        "cik": "0002151900",
         "file_date": "2026-09-09"
       }
     },
@@ -901,34 +1406,6 @@
       "extras": {
         "adsh": "0001193125-26-385184",
         "cik": "0001302215",
-        "file_date": "2026-09-08"
-      }
-    },
-    {
-      "id": "626b6af88b127071",
-      "ts": "2026-09-08T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1564408&type=&dateb=&owner=include&count=40",
-      "type": "exec_move",
-      "company": {
-        "name": "Snap Inc",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Snap Inc reported an executive or board change in an 8-K filing on 2026-09-08.",
-      "tags": [
-        "exec_move",
-        "sec_8k",
-        "technology"
-      ],
-      "extras": {
-        "adsh": "0001193125-26-385199",
-        "cik": "0001564408",
         "file_date": "2026-09-08"
       }
     },
@@ -2449,34 +2926,6 @@
       }
     },
     {
-      "id": "e4bfe1461f617af8",
-      "ts": "2026-08-28T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1402328&type=&dateb=&owner=include&count=40",
-      "type": "exec_move",
-      "company": {
-        "name": "Sunshine Biopharma Inc.",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Sunshine Biopharma Inc. reported an executive or board change in an 8-K filing on 2026-08-28.",
-      "tags": [
-        "exec_move",
-        "sec_8k",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0001683168-26-006777",
-        "cik": "0001402328",
-        "file_date": "2026-08-28"
-      }
-    },
-    {
       "id": "b890cdb984e48fd5",
       "ts": "2026-08-27T17:00:00Z",
       "source": "org_moves",
@@ -2916,34 +3365,6 @@
       "extras": {
         "adsh": "0001437749-26-028979",
         "cik": "0001463913",
-        "file_date": "2026-08-26"
-      }
-    },
-    {
-      "id": "e2e1aefb408320bf",
-      "ts": "2026-08-26T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1676163&type=&dateb=&owner=include&count=40",
-      "type": "exec_move",
-      "company": {
-        "name": "SS Innovations International, Inc.",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "SS Innovations International, Inc. reported an executive or board change in an 8-K filing on 2026-08-26.",
-      "tags": [
-        "exec_move",
-        "sec_8k",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0001213900-26-093946",
-        "cik": "0001676163",
         "file_date": "2026-08-26"
       }
     },
