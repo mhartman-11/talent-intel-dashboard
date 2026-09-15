@@ -1,22 +1,24 @@
 {
   "stream": "org-moves",
-  "generated_at": "2026-09-15T16:31:42.530340+00:00",
-  "total": 118,
-  "showing": 118,
+  "generated_at": "2026-09-15T20:59:35.372815+00:00",
+  "total": 130,
+  "showing": 130,
   "source_counts": {
-    "sec_edgar": 110,
+    "sec_edgar": 122,
     "org_moves": 8
   },
   "sector_counts": {
-    "Other": 94,
-    "Healthcare": 8,
-    "Technology": 6,
+    "Other": 102,
+    "Technology": 9,
+    "Healthcare": 7,
     "Energy": 3,
     "Manufacturing": 2,
     "Retail": 2,
+    "Finance": 1,
     "Hospitality": 1,
     "CPG": 1,
-    "Media": 1
+    "Media": 1,
+    "Logistics": 1
   },
   "events": [
     {
@@ -41,6 +43,34 @@
         "other"
       ],
       "extras": {}
+    },
+    {
+      "id": "d5ab2c1e80065249",
+      "ts": "2026-09-15T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=708955&type=&dateb=&owner=include&count=40",
+      "type": "exec_move",
+      "company": {
+        "name": "First Financial Bancorp",
+        "ticker": null,
+        "industry": null,
+        "sector": "Finance",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "First Financial Bancorp reported an executive or board change in an 8-K filing on 2026-09-15.",
+      "tags": [
+        "exec_move",
+        "sec_8k",
+        "finance"
+      ],
+      "extras": {
+        "adsh": "0000708955-26-000155",
+        "cik": "0000708955",
+        "file_date": "2026-09-15"
+      }
     },
     {
       "id": "3aff279ff0077076",
@@ -99,6 +129,34 @@
       }
     },
     {
+      "id": "67b72654a253ddab",
+      "ts": "2026-09-15T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=743367&type=&dateb=&owner=include&count=40",
+      "type": "exec_move",
+      "company": {
+        "name": "BAR Harbor Bankshares",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "BAR Harbor Bankshares reported an executive or board change in an 8-K filing on 2026-09-15.",
+      "tags": [
+        "exec_move",
+        "sec_8k",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0001104659-26-107929",
+        "cik": "0000743367",
+        "file_date": "2026-09-15"
+      }
+    },
+    {
       "id": "acfc3a54c5d1110f",
       "ts": "2026-09-15T00:00:00Z",
       "source": "sec_edgar",
@@ -151,6 +209,90 @@
       "extras": {
         "adsh": "0001628369-26-000126",
         "cik": "0001628369",
+        "file_date": "2026-09-15"
+      }
+    },
+    {
+      "id": "ae2b13786358e6b7",
+      "ts": "2026-09-15T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2155414&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "Code 13 Security",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Code 13 Security filed a Form D securities offering with the SEC on 2026-09-15.",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002155414-26-000001",
+        "cik": "0002155414",
+        "file_date": "2026-09-15"
+      }
+    },
+    {
+      "id": "c1413773ab35f629",
+      "ts": "2026-09-15T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2155292&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "OrchestrateX Inc",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "OrchestrateX Inc filed a Form D securities offering with the SEC on 2026-09-15.",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002155292-26-000001",
+        "cik": "0002155292",
+        "file_date": "2026-09-15"
+      }
+    },
+    {
+      "id": "5f9847b53e4cdda7",
+      "ts": "2026-09-15T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2155288&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "Aequum Solutions, Inc.",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Aequum Solutions, Inc. filed a Form D securities offering with the SEC on 2026-09-15.",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002155288-26-000001",
+        "cik": "0002155288",
         "file_date": "2026-09-15"
       }
     },
@@ -239,6 +381,34 @@
       }
     },
     {
+      "id": "4c8c80c8a453b435",
+      "ts": "2026-09-15T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2155159&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "Envision Holdco, LLC",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Envision Holdco, LLC filed a Form D securities offering with the SEC on 2026-09-15.",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002155159-26-000001",
+        "cik": "0002155159",
+        "file_date": "2026-09-15"
+      }
+    },
+    {
       "id": "2981e5c351afcf0f",
       "ts": "2026-09-15T00:00:00Z",
       "source": "sec_edgar",
@@ -267,6 +437,62 @@
       }
     },
     {
+      "id": "0d56cf617ade6814",
+      "ts": "2026-09-15T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2155100&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "St. Joe Place Limited Partnership",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "St. Joe Place Limited Partnership filed a Form D securities offering with the SEC on 2026-09-15.",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002155100-26-000001",
+        "cik": "0002155100",
+        "file_date": "2026-09-15"
+      }
+    },
+    {
+      "id": "fb90d7070f223989",
+      "ts": "2026-09-15T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2155085&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "SCP Plato Investors, LLC",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "SCP Plato Investors, LLC filed a Form D securities offering with the SEC on 2026-09-15.",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002155085-26-000001",
+        "cik": "0002155085",
+        "file_date": "2026-09-15"
+      }
+    },
+    {
       "id": "285a98cdb0f2edca",
       "ts": "2026-09-15T00:00:00Z",
       "source": "sec_edgar",
@@ -291,6 +517,34 @@
       "extras": {
         "adsh": "0002155084-26-000001",
         "cik": "0002155084",
+        "file_date": "2026-09-15"
+      }
+    },
+    {
+      "id": "5be5c4bcba6aef96",
+      "ts": "2026-09-15T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2155081&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "Veerio Inc",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Veerio Inc filed a Form D securities offering with the SEC on 2026-09-15.",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002155081-26-000001",
+        "cik": "0002155081",
         "file_date": "2026-09-15"
       }
     },
@@ -407,6 +661,342 @@
       }
     },
     {
+      "id": "3611f79186ae3cd3",
+      "ts": "2026-09-15T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2154955&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "Wardianex LTD",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Wardianex LTD filed a Form D securities offering with the SEC on 2026-09-15.",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002154955-26-000002",
+        "cik": "0002154955",
+        "file_date": "2026-09-15"
+      }
+    },
+    {
+      "id": "dcfb46381d41ad4d",
+      "ts": "2026-09-15T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2154881&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "Axis Mundi Technologies, Inc.",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Axis Mundi Technologies, Inc. filed a Form D securities offering with the SEC on 2026-09-15.",
+      "tags": [
+        "funding",
+        "form_d",
+        "technology"
+      ],
+      "extras": {
+        "adsh": "0002154881-26-000001",
+        "cik": "0002154881",
+        "file_date": "2026-09-15"
+      }
+    },
+    {
+      "id": "2412d90b8a25edc7",
+      "ts": "2026-09-15T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2154785&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "Amarillo Ottoman LLC",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Amarillo Ottoman LLC filed a Form D securities offering with the SEC on 2026-09-15.",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002154785-26-000001",
+        "cik": "0002154785",
+        "file_date": "2026-09-15"
+      }
+    },
+    {
+      "id": "a86b6d77bb2166da",
+      "ts": "2026-09-15T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2154635&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "FMS Splitter II, LLC",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "FMS Splitter II, LLC filed a Form D securities offering with the SEC on 2026-09-15.",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002154635-26-000001",
+        "cik": "0002154635",
+        "file_date": "2026-09-15"
+      }
+    },
+    {
+      "id": "5b5a7a493c8db938",
+      "ts": "2026-09-15T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2154600&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "Redu Too, Inc.",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Redu Too, Inc. filed a Form D securities offering with the SEC on 2026-09-15.",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002154600-26-000001",
+        "cik": "0002154600",
+        "file_date": "2026-09-15"
+      }
+    },
+    {
+      "id": "057fe843483c88be",
+      "ts": "2026-09-15T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2154549&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "Endover Ventures I, LLC",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Endover Ventures I, LLC filed a Form D securities offering with the SEC on 2026-09-15.",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002154549-26-000001",
+        "cik": "0002154549",
+        "file_date": "2026-09-15"
+      }
+    },
+    {
+      "id": "6a93383aed9922a5",
+      "ts": "2026-09-15T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2154492&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "Pipa Equity Group LLC",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Pipa Equity Group LLC filed a Form D securities offering with the SEC on 2026-09-15.",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002154492-26-000002",
+        "cik": "0002154492",
+        "file_date": "2026-09-15"
+      }
+    },
+    {
+      "id": "866e235de750c26d",
+      "ts": "2026-09-15T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2154436&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "NexPoint Marina II DST",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "NexPoint Marina II DST filed a Form D securities offering with the SEC on 2026-09-15.",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002154436-26-000001",
+        "cik": "0002154436",
+        "file_date": "2026-09-15"
+      }
+    },
+    {
+      "id": "8eafc50f6559c3f6",
+      "ts": "2026-09-15T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2154369&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "DeskJockee, Inc.",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "DeskJockee, Inc. filed a Form D securities offering with the SEC on 2026-09-15.",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002154369-26-000001",
+        "cik": "0002154369",
+        "file_date": "2026-09-15"
+      }
+    },
+    {
+      "id": "bc9dc5e1b05b49ab",
+      "ts": "2026-09-15T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2154338&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "Royal & Pelham, Inc.",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Royal & Pelham, Inc. filed a Form D securities offering with the SEC on 2026-09-15.",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002154338-26-000001",
+        "cik": "0002154338",
+        "file_date": "2026-09-15"
+      }
+    },
+    {
+      "id": "efd6df70aa85dc26",
+      "ts": "2026-09-15T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2154081&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "Auto Transport Investments LLC",
+        "ticker": null,
+        "industry": null,
+        "sector": "Logistics",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Auto Transport Investments LLC filed a Form D securities offering with the SEC on 2026-09-15.",
+      "tags": [
+        "funding",
+        "form_d",
+        "logistics"
+      ],
+      "extras": {
+        "adsh": "0002154081-26-000001",
+        "cik": "0002154081",
+        "file_date": "2026-09-15"
+      }
+    },
+    {
+      "id": "ea97fbb9af91fa16",
+      "ts": "2026-09-15T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2154079&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "AHvos Corp",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "AHvos Corp filed a Form D securities offering with the SEC on 2026-09-15.",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002154079-26-000001",
+        "cik": "0002154079",
+        "file_date": "2026-09-15"
+      }
+    },
+    {
       "id": "3124167cc19bd222",
       "ts": "2026-09-15T00:00:00Z",
       "source": "sec_edgar",
@@ -431,6 +1021,62 @@
       "extras": {
         "adsh": "0002153667-26-000001",
         "cik": "0002153667",
+        "file_date": "2026-09-15"
+      }
+    },
+    {
+      "id": "43068f2da143794c",
+      "ts": "2026-09-15T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2153585&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "Zaden Technologies, Inc.",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Zaden Technologies, Inc. filed a Form D securities offering with the SEC on 2026-09-15.",
+      "tags": [
+        "funding",
+        "form_d",
+        "technology"
+      ],
+      "extras": {
+        "adsh": "0002153585-26-000004",
+        "cik": "0002153585",
+        "file_date": "2026-09-15"
+      }
+    },
+    {
+      "id": "cf0112bc0d3edb4d",
+      "ts": "2026-09-15T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2153585&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "Zaden Technologies, Inc.",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Zaden Technologies, Inc. filed a Form D securities offering with the SEC on 2026-09-15.",
+      "tags": [
+        "funding",
+        "form_d",
+        "technology"
+      ],
+      "extras": {
+        "adsh": "0002153585-26-000003",
+        "cik": "0002153585",
         "file_date": "2026-09-15"
       }
     },
@@ -631,6 +1277,90 @@
       }
     },
     {
+      "id": "60e432ca3bb857fb",
+      "ts": "2026-09-15T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2151092&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "Millhouse Flats LLC",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Millhouse Flats LLC filed a Form D securities offering with the SEC on 2026-09-15.",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002151092-26-000001",
+        "cik": "0002151092",
+        "file_date": "2026-09-15"
+      }
+    },
+    {
+      "id": "724de82123a9d0eb",
+      "ts": "2026-09-15T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2150987&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "RTP-Seasats-2025",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "RTP-Seasats-2025 filed a Form D securities offering with the SEC on 2026-09-15.",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002150987-26-000001",
+        "cik": "0002150987",
+        "file_date": "2026-09-15"
+      }
+    },
+    {
+      "id": "28257346482b87b0",
+      "ts": "2026-09-15T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2150440&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "Hard Money Bankers, LLC",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Hard Money Bankers, LLC filed a Form D securities offering with the SEC on 2026-09-15.",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002150440-26-000001",
+        "cik": "0002150440",
+        "file_date": "2026-09-15"
+      }
+    },
+    {
       "id": "b847c6bb787a4c0f",
       "ts": "2026-09-15T00:00:00Z",
       "source": "sec_edgar",
@@ -655,342 +1385,6 @@
       "extras": {
         "adsh": "0002149367-26-000001",
         "cik": "0002149367",
-        "file_date": "2026-09-15"
-      }
-    },
-    {
-      "id": "55d587513178de25",
-      "ts": "2026-09-15T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2148911&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "CounterMeasure Inc.",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "CounterMeasure Inc. filed a Form D securities offering with the SEC on 2026-09-15.",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0002148911-26-000001",
-        "cik": "0002148911",
-        "file_date": "2026-09-15"
-      }
-    },
-    {
-      "id": "a7965e3aefcc5913",
-      "ts": "2026-09-15T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2148413&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "AVSF - Saturn Dynamics 2026, LLC",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "AVSF - Saturn Dynamics 2026, LLC filed a Form D securities offering with the SEC on 2026-09-15.",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0002148413-26-000001",
-        "cik": "0002148413",
-        "file_date": "2026-09-15"
-      }
-    },
-    {
-      "id": "276dcf48be56cfc4",
-      "ts": "2026-09-15T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2147893&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "AVSF - Tiny Health 2026, LLC",
-        "ticker": null,
-        "industry": null,
-        "sector": "Healthcare",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "AVSF - Tiny Health 2026, LLC filed a Form D securities offering with the SEC on 2026-09-15.",
-      "tags": [
-        "funding",
-        "form_d",
-        "healthcare"
-      ],
-      "extras": {
-        "adsh": "0002147893-26-000001",
-        "cik": "0002147893",
-        "file_date": "2026-09-15"
-      }
-    },
-    {
-      "id": "dcd586c39fd8221c",
-      "ts": "2026-09-15T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2146128&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "Topwater Biological Conversion Pool 1, LLC",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Topwater Biological Conversion Pool 1, LLC filed a Form D securities offering with the SEC on 2026-09-15.",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0002146128-26-000001",
-        "cik": "0002146128",
-        "file_date": "2026-09-15"
-      }
-    },
-    {
-      "id": "6587cb64ac71f6f0",
-      "ts": "2026-09-15T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2143950&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "Turnstone Data Inc.",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Turnstone Data Inc. filed a Form D securities offering with the SEC on 2026-09-15.",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0002143950-26-000002",
-        "cik": "0002143950",
-        "file_date": "2026-09-15"
-      }
-    },
-    {
-      "id": "a1ecf43fa153c105",
-      "ts": "2026-09-15T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2142746&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "Glauc Inc.",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Glauc Inc. filed a Form D securities offering with the SEC on 2026-09-15.",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0002142746-26-000002",
-        "cik": "0002142746",
-        "file_date": "2026-09-15"
-      }
-    },
-    {
-      "id": "cfc65d442269cdec",
-      "ts": "2026-09-15T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2140352&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "PG Portland Investors, LLC",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "PG Portland Investors, LLC filed a Form D securities offering with the SEC on 2026-09-15.",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0002140352-26-000002",
-        "cik": "0002140352",
-        "file_date": "2026-09-15"
-      }
-    },
-    {
-      "id": "71ab92b74e258f19",
-      "ts": "2026-09-15T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2124535&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "OpZira, Inc.",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "OpZira, Inc. filed a Form D securities offering with the SEC on 2026-09-15.",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0002124535-26-000002",
-        "cik": "0002124535",
-        "file_date": "2026-09-15"
-      }
-    },
-    {
-      "id": "5d0d72093695a856",
-      "ts": "2026-09-15T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2112535&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "NeuroMuse Inc.",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "NeuroMuse Inc. filed a Form D securities offering with the SEC on 2026-09-15.",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0002112535-26-000003",
-        "cik": "0002112535",
-        "file_date": "2026-09-15"
-      }
-    },
-    {
-      "id": "d1ff48f6658de22d",
-      "ts": "2026-09-15T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2105471&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "Nationwide Private Placement Variable Account PPLI - A",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Nationwide Private Placement Variable Account PPLI - A filed a Form D securities offering with the SEC on 2026-09-15.",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0002105471-26-000008",
-        "cik": "0002105471",
-        "file_date": "2026-09-15"
-      }
-    },
-    {
-      "id": "9f6574a6c10d8de4",
-      "ts": "2026-09-15T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2082734&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "MaiTRICS, Inc.",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "MaiTRICS, Inc. filed a Form D securities offering with the SEC on 2026-09-15.",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0002082734-26-000001",
-        "cik": "0002082734",
-        "file_date": "2026-09-15"
-      }
-    },
-    {
-      "id": "467a9b4ea65552e9",
-      "ts": "2026-09-15T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2068120&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "SPECTRA Holdings US, Ltd.",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "SPECTRA Holdings US, Ltd. filed a Form D securities offering with the SEC on 2026-09-15.",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0002068120-26-000002",
-        "cik": "0002068120",
         "file_date": "2026-09-15"
       }
     },
@@ -1629,34 +2023,6 @@
       }
     },
     {
-      "id": "4ee27877ba6a0262",
-      "ts": "2026-09-10T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1657853&type=&dateb=&owner=include&count=40",
-      "type": "exec_move",
-      "company": {
-        "name": "Hertz Global Holdings, INC",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Hertz Global Holdings, INC reported an executive or board change in an 8-K filing on 2026-09-10.",
-      "tags": [
-        "exec_move",
-        "sec_8k",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0001657853-26-000057",
-        "cik": "0001657853",
-        "file_date": "2026-09-10"
-      }
-    },
-    {
       "id": "2c7684a47ff21f1e",
       "ts": "2026-09-09T04:01:00Z",
       "source": "org_moves",
@@ -1792,34 +2158,6 @@
       }
     },
     {
-      "id": "81127052cb3b5290",
-      "ts": "2026-09-09T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=71691&type=&dateb=&owner=include&count=40",
-      "type": "exec_move",
-      "company": {
-        "name": "NEW York Times CO",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "NEW York Times CO reported an executive or board change in an 8-K filing on 2026-09-09.",
-      "tags": [
-        "exec_move",
-        "sec_8k",
-        "media"
-      ],
-      "extras": {
-        "adsh": "0001193125-26-386067",
-        "cik": "0000071691",
-        "file_date": "2026-09-09"
-      }
-    },
-    {
       "id": "c064aab573beafce",
       "ts": "2026-09-09T00:00:00Z",
       "source": "sec_edgar",
@@ -1844,6 +2182,34 @@
       "extras": {
         "adsh": "0001645113-26-000068",
         "cik": "0001645113",
+        "file_date": "2026-09-09"
+      }
+    },
+    {
+      "id": "81127052cb3b5290",
+      "ts": "2026-09-09T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=71691&type=&dateb=&owner=include&count=40",
+      "type": "exec_move",
+      "company": {
+        "name": "NEW York Times CO",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "NEW York Times CO reported an executive or board change in an 8-K filing on 2026-09-09.",
+      "tags": [
+        "exec_move",
+        "sec_8k",
+        "media"
+      ],
+      "extras": {
+        "adsh": "0001193125-26-386067",
+        "cik": "0000071691",
         "file_date": "2026-09-09"
       }
     },
@@ -2039,34 +2405,6 @@
       }
     },
     {
-      "id": "975fb649ee281df4",
-      "ts": "2026-09-08T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1819404&type=&dateb=&owner=include&count=40",
-      "type": "exec_move",
-      "company": {
-        "name": "Nerdy Inc.",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Nerdy Inc. reported an executive or board change in an 8-K filing on 2026-09-08.",
-      "tags": [
-        "exec_move",
-        "sec_8k",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0001819404-26-000097",
-        "cik": "0001819404",
-        "file_date": "2026-09-08"
-      }
-    },
-    {
       "id": "06b1064fadad72ee",
       "ts": "2026-09-08T00:00:00Z",
       "source": "sec_edgar",
@@ -2091,6 +2429,34 @@
       "extras": {
         "adsh": "0000943374-26-000401",
         "cik": "0002072421",
+        "file_date": "2026-09-08"
+      }
+    },
+    {
+      "id": "975fb649ee281df4",
+      "ts": "2026-09-08T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1819404&type=&dateb=&owner=include&count=40",
+      "type": "exec_move",
+      "company": {
+        "name": "Nerdy Inc.",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Nerdy Inc. reported an executive or board change in an 8-K filing on 2026-09-08.",
+      "tags": [
+        "exec_move",
+        "sec_8k",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0001819404-26-000097",
+        "cik": "0001819404",
         "file_date": "2026-09-08"
       }
     },
@@ -2534,34 +2900,6 @@
       "extras": {
         "adsh": "0001878897-26-000046",
         "cik": "0001878897",
-        "file_date": "2026-09-04"
-      }
-    },
-    {
-      "id": "72ef79aab4f49d2c",
-      "ts": "2026-09-04T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2030954&type=&dateb=&owner=include&count=40",
-      "type": "exec_move",
-      "company": {
-        "name": "TEN Holdings, Inc.",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "TEN Holdings, Inc. reported an executive or board change in an 8-K filing on 2026-09-04.",
-      "tags": [
-        "exec_move",
-        "sec_8k",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0001493152-26-041535",
-        "cik": "0002030954",
         "file_date": "2026-09-04"
       }
     },
