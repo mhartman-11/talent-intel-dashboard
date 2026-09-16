@@ -1,28 +1,51 @@
 {
   "stream": "layoffs",
-  "generated_at": "2026-09-15T20:59:35.350773+00:00",
-  "total": 100,
-  "showing": 100,
+  "generated_at": "2026-09-16T03:54:17.926706+00:00",
+  "total": 97,
+  "showing": 97,
   "source_counts": {
     "state_warn": 65,
-    "news_layoffs": 30,
+    "news_layoffs": 27,
     "layoffs_fyi": 5
   },
   "sector_counts": {
-    "Other": 48,
+    "Other": 47,
     "Hospitality": 8,
-    "Healthcare": 7,
     "Logistics": 7,
-    "Manufacturing": 6,
+    "Healthcare": 6,
     "Technology": 5,
     "Retail": 5,
     "CPG": 5,
+    "Manufacturing": 5,
     "Finance": 3,
     "Telecom": 3,
     "Education": 2,
     "Media": 1
   },
   "events": [
+    {
+      "id": "3742e9662aa8537a",
+      "ts": "2026-09-15T15:22:00Z",
+      "source": "news_layoffs",
+      "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNRkFlTXZhU3kzeTFGaGlWc09udFNrWmkzNGVQTTVMVHVOb2Rpc2tKZFRMWTBVWFAtSkNyX3dpQjM3TGhPSjFicGpDc3BCX3ZOYkdGMjBIUmNGbFB1eVgxNGlyNjRlNkI0SnYweE5JVDN3WVRVQXAtTy03UmQ3TjlURnA3cG9qbTZSSHBkbEhOWmw3Q0FUV0U4YtIBrAFBVV95cUxQcmdtSTd4a0Y3Zy1pcGFSQWd4UWxQdFBibVU5dVQtZ3U0cDVRaUM1VEROZ19jVUtFaVluVkZfcVIyTW1jYV9GZFpvejZuSzZQMlZJNHZmckZubG5RSUJaNDJlcUpXRmttOTF1SjZVOHlmNmhIc2RyMFlKWUZXcE9BYmViWDlCUVVURGpjZkJFSTFmWERjQmE5Y1FLc1ZCZGtxbS1lWmFrOW1UQUZQ?oc=5",
+      "type": "layoff",
+      "company": {
+        "name": "UVM Health Network",
+        "ticker": null,
+        "industry": null,
+        "sector": "Healthcare",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": 200.0,
+      "unit": "people",
+      "raw_text": "UVM Health Network to cut nearly 200 jobs amid budget shortfall",
+      "tags": [
+        "layoff",
+        "healthcare"
+      ],
+      "extras": {}
+    },
     {
       "id": "8ef35d3d3ae4c900",
       "ts": "2026-09-14T19:51:03Z",
@@ -134,7 +157,7 @@
       },
       "magnitude": null,
       "unit": null,
-      "raw_text": "MSMEs cut costs, weigh layoffs amid Middle East war",
+      "raw_text": "MSMEs cut costs, weigh layoffs amid Middle East war - BusinessWorld",
       "tags": [
         "layoff",
         "other"
@@ -142,10 +165,10 @@
       "extras": {}
     },
     {
-      "id": "a9fb1f6a08b08b0c",
-      "ts": "2026-09-11T22:11:00Z",
+      "id": "373bbcb46889eb99",
+      "ts": "2026-09-11T22:11:38Z",
       "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQa0JtZnpEd2pNMlBmUHlwUWJmZkhNOHdTTVV5SUIxZXQzM01nbnUtMnlzVWh1VXcySDhIOWEwN3VMVWpPa3ZUTVFFV1VHbm4ybEJiN08tTmo1MlMxZ1FubUZselBYalRIVjZ2ZGNvaTBHeEZVWGkwcWV6SHBFTVBya1QtS2cwZjlGaVFMMUFvSkFpUXlodDF4b0ZSZlpILXFkRHNrclE1Y3lPSVJLUzhYQjlhXzhoTmhBN1E?oc=5",
+      "source_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1XOFpudkcyTVQtUVdNNHB2bEYyLUtZbFhYLVpiaW42anBoOGxyUGM4QWg1ck1iS0plaFZPUm9VN2M4VkVyLWcxV0lVRmZUNkY5WEhTd283NXUxSjgyUktWRnFSWmtjeE9XdHJ2YTRoR08yU1lfWVdn?oc=5",
       "type": "layoff",
       "company": {
         "name": "Ruiz Foods",
@@ -157,7 +180,7 @@
       },
       "magnitude": 176.0,
       "unit": "people",
-      "raw_text": "Ruiz Foods cuts 176 jobs in Dinuba plant layoffs - Visalia Times-Delta",
+      "raw_text": "Ruiz Foods cuts 176 jobs in Dinuba plant layoffs",
       "tags": [
         "layoff",
         "cpg"
@@ -373,76 +396,6 @@
       "extras": {}
     },
     {
-      "id": "6353926e564f8a9e",
-      "ts": "2026-09-08T12:36:50Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPM3JqX2RtNGxpY0g5cDhvS0RxZU5xdllMYjdEOUM0Q2hoVzFveVg5RFFoWkU4M09uaGhoME91T3o2bFRpdjNyOTlBY2hVZW9QTm8wQjNfTDVVaXYwNnAwdjdYQTV3NWJncWtGdEdfVnRxYUozcmRLZFpEaDJNWlZlOFA1ZFQ0WWktMmRMQ1duRVNMQVNCOFh4aEREMTZrMTNvOVE?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "Trinity Health",
-        "ticker": null,
-        "industry": null,
-        "sector": "Healthcare",
-        "hq_region": "MI",
-        "size_band": "unknown"
-      },
-      "magnitude": 500.0,
-      "unit": "people",
-      "raw_text": "Trinity Health to cut over 500 jobs in Livonia",
-      "tags": [
-        "layoff",
-        "healthcare",
-        "MI"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "76791412fcde0b1b",
-      "ts": "2026-09-07T16:07:34Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNMFlOS2M0aUlTaHc0ekxFYlRmel9rRUw1a0l5UTNzTWdIMm9JdWc1RkhTWDUyYTA0cWxMZmQ5a0x0dy0ydlJFS29SMk5uNDl5VkpmS1JqNWE0bDlxb3BrTlUyT2pfZHpmWS1aQkFFNGlQYWxvT2plelFaT3VadUE2YjdmVE1rN2NyekxobnNGaGdyc284eTh4MUhzWlNabVc1WHlR?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "Jaguar Land Rover",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": 4000.0,
-      "unit": "people",
-      "raw_text": "Jaguar Land Rover to cut nearly 4,000 jobs by 2028",
-      "tags": [
-        "layoff",
-        "other"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "337844761b84cad8",
-      "ts": "2026-09-04T11:47:29Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9tdFNSRUFwanNPTkctMU12V3NuRUdxSVVkZ2tzbHpMS0dlVHBLa3lOd0RHVjJiMGVYZlQwNW1YNHk1SGJnMG9SZnNzd2hhUE9oaU9JdjlhWGplQzJUSnZ0cXBWaVNJTk9YZEVDMTlYWFUzdU0?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "Volkswagen",
-        "ticker": null,
-        "industry": null,
-        "sector": "Manufacturing",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": 50000.0,
-      "unit": "people",
-      "raw_text": "Volkswagen to cut 50,000 more jobs, hitting 100,000 total layoffs",
-      "tags": [
-        "layoff",
-        "manufacturing"
-      ],
-      "extras": {}
-    },
-    {
       "id": "daa00e6662ae7ec8",
       "ts": "2026-09-04T07:00:00Z",
       "source": "news_layoffs",
@@ -508,29 +461,6 @@
       "tags": [
         "layoff",
         "retail"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "d5cc4e9644b962fb",
-      "ts": "2026-09-03T07:00:00Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQSUxMQkRLQ2h5VXRXSkxQQVdFaTJWTm9nNjJUSWVzaWNGYlZvS3djeEJwRWVYeTg5VURRMko2MXVockNmQmtUdVg1VFhJcDNmbk9hZjRFSVJuQWkycWpMY3c0MWd1TzlQb2o0NHZzSzVkNldmR0NRVVI0Z0xmaWZFekVzMGdvRmhrdmx0eGZyTWU0OEE5WFd0clM0R2ZsRXU4WVFNczJNOXM4LXB3TjJvdDdZeUotc3VnNWpjTTY3U0VYRzdSVHhVVElCQ0E2WFhCMENRekdB?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "Penobscot Community Health Care",
-        "ticker": null,
-        "industry": null,
-        "sector": "Healthcare",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Penobscot Community Health Care announces consolidation and layoffs amid financial challenges",
-      "tags": [
-        "layoff",
-        "healthcare"
       ],
       "extras": {}
     },
