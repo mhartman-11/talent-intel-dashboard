@@ -1,6 +1,6 @@
 {
   "stream": "layoffs",
-  "generated_at": "2026-09-17T11:13:35.854313+00:00",
+  "generated_at": "2026-09-17T14:03:13.197762+00:00",
   "total": 96,
   "showing": 96,
   "source_counts": {
@@ -12,18 +12,42 @@
     "Other": 45,
     "Hospitality": 9,
     "Healthcare": 7,
-    "Retail": 6,
     "Logistics": 6,
     "Technology": 5,
+    "Retail": 5,
     "Manufacturing": 5,
+    "Finance": 4,
     "CPG": 4,
-    "Finance": 3,
     "Education": 2,
     "Telecom": 2,
     "Energy": 1,
     "Media": 1
   },
   "events": [
+    {
+      "id": "ff1eeba214a6e11a",
+      "ts": "2026-09-17T11:00:00Z",
+      "source": "news_layoffs",
+      "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPNlZHVVpOTGFNZmZkRDNHZlp6REVNNTVJQm1ZWnVjY1hlcXo5Y1FUZGFTSTdtUVlzU1MwTkh2NkdaZVdsM3pCeG81MXZBRm53OVNnMFJySkxyUGo2bDhXTzdTWGhGSUFDZGxDeHBuSzZVNHVrclZvX2o5ZnBiQlJ1WnR5OGJQYjFiLUFPb3BsSmJScDhMUzNHcEt2Y3BZYXNP?oc=5",
+      "type": "layoff",
+      "company": {
+        "name": "Truist",
+        "ticker": null,
+        "industry": null,
+        "sector": "Finance",
+        "hq_region": "VA",
+        "size_band": "unknown"
+      },
+      "magnitude": 200.0,
+      "unit": "people",
+      "raw_text": "Truist to cut more than 200 jobs in Arlington as it exits near-prime auto lender",
+      "tags": [
+        "layoff",
+        "finance",
+        "VA"
+      ],
+      "extras": {}
+    },
     {
       "id": "b98e7a288a8ae724",
       "ts": "2026-09-17T08:21:29Z",
@@ -94,30 +118,6 @@
       "extras": {}
     },
     {
-      "id": "aa781ef431a81a9d",
-      "ts": "2026-09-16T20:00:47Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPa1pYV3JXc01IUlYzSjVIWnBZXy1wYy1QQlhQNzZvUkFSZ05mX1FzVHJ4VzhDTUVuR1NVSTJDWEo1SlJmNWgtbE9IUTNJRWJyZEhrdnRYVmd5a0RQZklZOGkyVGt6cWtOQUxFZGFBa2x6WXNxMnJNS2phMFVtUlMxMklUbTJiWVJZMzFqSHpFaFhUMV9ESEoxLWIxelhXT29DY3hLOTk3dTBLdm5ocWRLSTVGZkNUNzFCTHc?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "Oracle",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": "WA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Oracle cuts 359 Washington jobs in latest AI-driven layoffs; Seattle offices \u2018not closing\u2019",
-      "tags": [
-        "layoff",
-        "technology",
-        "WA"
-      ],
-      "extras": {}
-    },
-    {
       "id": "88b6fed02db2bbf7",
       "ts": "2026-09-16T16:19:20Z",
       "source": "news_layoffs",
@@ -161,6 +161,29 @@
       "tags": [
         "layoff",
         "healthcare"
+      ],
+      "extras": {}
+    },
+    {
+      "id": "7abc07376f76b760",
+      "ts": "2026-09-16T03:15:00Z",
+      "source": "news_layoffs",
+      "source_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOdFg1LUFId28zeE1sbklpaFRGVmN0V05lak5VVEtiRmFwbGwtMEhPc2V5VmE0MjFRMktNTWtaaEhDNnBSYUFPYzNQZnZVSzc5Qm93bDlOQnBrOHJrVUVKdDhGVzF0alVsMC14RVV1YkNxSzhzbHl6RVBHcElYNUlyWGhEMnV3R3lsSDF5U1YwNC1xbXFvUzN2MEhVMkdWWDE4Q3VFM1hQZG04SmNvbXpvTnZuR05GY3RoTTBJ0gHCAUFVX3lxTFBHeTFVZlhrZ2RGUXVvMGdxUEJnQ2hRcGV0Y3M1N0UybjhhVVl4SUhHSDQ2dmZRaTFad0ZmdDJtWmZpTWFrOWhvclJaVC1XTGl0eGlsT2NVQnZIZ1ByOUk4Wmo5S3hVeEFaWFNrVnJkNFB5REJ0NXpSUmZSOHFfNy1yQnlxa1M3bVJNRFRrX2hwd1IyZTdTS0FaWFNyOW53dE0xUVBGRDlPcWVnOVIycUplbG9MUDBxZURuZC05TXQ2Ym5B?oc=5",
+      "type": "layoff",
+      "company": {
+        "name": "Oracle",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Oracle lays off more employees in fresh round of job cuts: Report",
+      "tags": [
+        "layoff",
+        "technology"
       ],
       "extras": {}
     },
@@ -464,29 +487,6 @@
         "layoff",
         "retail",
         "WA"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "e68fe0fb75348f7d",
-      "ts": "2026-09-04T07:00:00Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQXzdpemJJR3U2c2REUk4tS2hDZlIzbW16aGg5OThnTTFEcHRjZXRHV1poS3RMV0JfemI0alRiNzZCX3R2RzFIaVpvUzhSejR6OWtFbGlYeEVFOHgtc0pKUGtNVzJPN1NLLWF6UVhUNzZkVWI0blB1V0NZM3kyUUIxNzk0M085emxQMF9iVnUwVFZkaGMyYjVmYlVpSkZhZHBfV0UyU3hoVTdncWVDRHhBX1NXX3V1Zw?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "Uber",
-        "ticker": null,
-        "industry": null,
-        "sector": "Retail",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": 3300.0,
-      "unit": "people",
-      "raw_text": "Uber to cut 10% of jobs, or 3,300 roles, to slash bureaucracy",
-      "tags": [
-        "layoff",
-        "retail"
       ],
       "extras": {}
     },
