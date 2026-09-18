@@ -1,24 +1,46 @@
 {
   "stream": "org-moves",
-  "generated_at": "2026-09-17T21:04:05.829311+00:00",
-  "total": 110,
-  "showing": 110,
+  "generated_at": "2026-09-18T03:46:46.017141+00:00",
+  "total": 112,
+  "showing": 112,
   "source_counts": {
-    "sec_edgar": 104,
+    "sec_edgar": 106,
     "org_moves": 6
   },
   "sector_counts": {
-    "Other": 86,
+    "Other": 87,
     "Technology": 7,
-    "Healthcare": 6,
-    "Energy": 5,
+    "Energy": 6,
+    "Healthcare": 4,
+    "Finance": 3,
+    "Hospitality": 2,
     "Media": 2,
-    "Finance": 1,
-    "Hospitality": 1,
-    "Retail": 1,
-    "Manufacturing": 1
+    "Retail": 1
   },
   "events": [
+    {
+      "id": "545b380583ec0d33",
+      "ts": "2026-09-17T23:25:52Z",
+      "source": "org_moves",
+      "source_url": "https://techcrunch.com/2026/09/17/crusoe-raises-3-9b-to-build-massive-data-centers-and-small-modular-ai-factories/",
+      "type": "funding",
+      "company": {
+        "name": "Crusoe",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": 3900000000.0,
+      "unit": "USD",
+      "raw_text": "Crusoe raises $3.9B to build massive data centers and small modular \u2018AI factories\u2019",
+      "tags": [
+        "funding",
+        "other"
+      ],
+      "extras": {}
+    },
     {
       "id": "b259c75167ce323c",
       "ts": "2026-09-17T11:00:00Z",
@@ -295,6 +317,34 @@
       }
     },
     {
+      "id": "d849c180edd46c56",
+      "ts": "2026-09-17T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=907471&type=&dateb=&owner=include&count=40",
+      "type": "exec_move",
+      "company": {
+        "name": "Pathward Financial, Inc.",
+        "ticker": null,
+        "industry": null,
+        "sector": "Finance",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Pathward Financial, Inc. reported an executive or board change in an 8-K filing on 2026-09-17.",
+      "tags": [
+        "exec_move",
+        "sec_8k",
+        "finance"
+      ],
+      "extras": {
+        "adsh": "0000907471-26-000039",
+        "cik": "0000907471",
+        "file_date": "2026-09-17"
+      }
+    },
+    {
       "id": "052b6791034f22db",
       "ts": "2026-09-17T00:00:00Z",
       "source": "sec_edgar",
@@ -431,6 +481,34 @@
       "extras": {
         "adsh": "0002155902-26-000001",
         "cik": "0002155902",
+        "file_date": "2026-09-17"
+      }
+    },
+    {
+      "id": "b123134baa8055ba",
+      "ts": "2026-09-17T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2155880&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "Timber Club Member, LLC",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Timber Club Member, LLC filed a Form D securities offering with the SEC on 2026-09-17.",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002155880-26-000001",
+        "cik": "0002155880",
         "file_date": "2026-09-17"
       }
     },
@@ -795,6 +873,34 @@
       "extras": {
         "adsh": "0002155179-26-000001",
         "cik": "0002155179",
+        "file_date": "2026-09-17"
+      }
+    },
+    {
+      "id": "0cd4625b2c2b7654",
+      "ts": "2026-09-17T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2155130&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "Astor Crossroads Investor LLC",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Astor Crossroads Investor LLC filed a Form D securities offering with the SEC on 2026-09-17.",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002155130-26-000002",
+        "cik": "0002155130",
         "file_date": "2026-09-17"
       }
     },
@@ -1354,6 +1460,34 @@
       }
     },
     {
+      "id": "3c75304bc36a14fe",
+      "ts": "2026-09-15T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1628369&type=&dateb=&owner=include&count=40",
+      "type": "exec_move",
+      "company": {
+        "name": "Cushman & Wakefield Ltd.",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Cushman & Wakefield Ltd. reported an executive or board change in an 8-K filing on 2026-09-15.",
+      "tags": [
+        "exec_move",
+        "sec_8k",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0001628369-26-000126",
+        "cik": "0001628369",
+        "file_date": "2026-09-15"
+      }
+    },
+    {
       "id": "e5677a7210ab0ecc",
       "ts": "2026-09-14T00:00:00Z",
       "source": "sec_edgar",
@@ -1518,6 +1652,34 @@
       "extras": {
         "adsh": "0001193125-26-389891",
         "cik": "0000042888",
+        "file_date": "2026-09-14"
+      }
+    },
+    {
+      "id": "6789dbc9f6e2e435",
+      "ts": "2026-09-14T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1919369&type=&dateb=&owner=include&count=40",
+      "type": "exec_move",
+      "company": {
+        "name": "Vista Credit Strategic Lending Corp.",
+        "ticker": null,
+        "industry": null,
+        "sector": "Finance",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Vista Credit Strategic Lending Corp. reported an executive or board change in an 8-K filing on 2026-09-14.",
+      "tags": [
+        "exec_move",
+        "sec_8k",
+        "finance"
+      ],
+      "extras": {
+        "adsh": "0001193125-26-390363",
+        "cik": "0001919369",
         "file_date": "2026-09-14"
       }
     },
@@ -1797,29 +1959,6 @@
       }
     },
     {
-      "id": "00792a11932bb08d",
-      "ts": "2026-09-10T00:00:37Z",
-      "source": "org_moves",
-      "source_url": "https://techcrunch.com/2026/09/09/ai-research-startup-listen-labs-scrubbed-a-1-5b-funding-round-for-salesforce-talks/",
-      "type": "funding",
-      "company": {
-        "name": "Unknown",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": 1500000000.0,
-      "unit": "USD",
-      "raw_text": "AI research startup Listen Labs scrubbed a $1.5B funding round for Salesforce talks",
-      "tags": [
-        "funding",
-        "other"
-      ],
-      "extras": {}
-    },
-    {
       "id": "53dc0d3d999ddc7e",
       "ts": "2026-09-10T00:00:00Z",
       "source": "sec_edgar",
@@ -1984,6 +2123,34 @@
       "extras": {
         "adsh": "0001091818-26-000143",
         "cik": "0001619096",
+        "file_date": "2026-09-10"
+      }
+    },
+    {
+      "id": "4ee27877ba6a0262",
+      "ts": "2026-09-10T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1657853&type=&dateb=&owner=include&count=40",
+      "type": "exec_move",
+      "company": {
+        "name": "Hertz Global Holdings, INC",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Hertz Global Holdings, INC reported an executive or board change in an 8-K filing on 2026-09-10.",
+      "tags": [
+        "exec_move",
+        "sec_8k",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0001657853-26-000057",
+        "cik": "0001657853",
         "file_date": "2026-09-10"
       }
     },
@@ -2492,6 +2659,34 @@
       }
     },
     {
+      "id": "6bc2a8076f12cd38",
+      "ts": "2026-09-08T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1442145&type=&dateb=&owner=include&count=40",
+      "type": "exec_move",
+      "company": {
+        "name": "Verisk Analytics, Inc.",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Verisk Analytics, Inc. reported an executive or board change in an 8-K filing on 2026-09-08.",
+      "tags": [
+        "exec_move",
+        "sec_8k",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0001193125-26-385242",
+        "cik": "0001442145",
+        "file_date": "2026-09-08"
+      }
+    },
+    {
       "id": "bf0f5c24fb7a22fc",
       "ts": "2026-09-04T00:00:00Z",
       "source": "sec_edgar",
@@ -2800,13 +2995,13 @@
       }
     },
     {
-      "id": "e27b6dd3fef1680b",
-      "ts": "2026-09-03T00:00:00Z",
+      "id": "72ef79aab4f49d2c",
+      "ts": "2026-09-04T00:00:00Z",
       "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1974640&type=&dateb=&owner=include&count=40",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2030954&type=&dateb=&owner=include&count=40",
       "type": "exec_move",
       "company": {
-        "name": "Apogee Therapeutics, Inc.",
+        "name": "TEN Holdings, Inc.",
         "ticker": null,
         "industry": null,
         "sector": "Other",
@@ -2815,212 +3010,72 @@
       },
       "magnitude": null,
       "unit": null,
-      "raw_text": "Apogee Therapeutics, Inc. reported an executive or board change in an 8-K filing on 2026-09-03.",
+      "raw_text": "TEN Holdings, Inc. reported an executive or board change in an 8-K filing on 2026-09-04.",
       "tags": [
         "exec_move",
         "sec_8k",
         "other"
       ],
       "extras": {
-        "adsh": "0001140361-26-035537",
-        "cik": "0001974640",
-        "file_date": "2026-09-03"
+        "adsh": "0001493152-26-041535",
+        "cik": "0002030954",
+        "file_date": "2026-09-04"
       }
     },
     {
-      "id": "2b57b706f6dfc23d",
-      "ts": "2026-09-03T00:00:00Z",
+      "id": "b2b5ee95fdf44347",
+      "ts": "2026-09-04T00:00:00Z",
       "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1628808&type=&dateb=&owner=include&count=40",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=935419&type=&dateb=&owner=include&count=40",
       "type": "exec_move",
       "company": {
-        "name": "Profound Medical Corp.",
+        "name": "RCI Hospitality Holdings, Inc.",
         "ticker": null,
         "industry": null,
-        "sector": "Healthcare",
+        "sector": "Hospitality",
         "hq_region": null,
         "size_band": "unknown"
       },
       "magnitude": null,
       "unit": null,
-      "raw_text": "Profound Medical Corp. reported an executive or board change in an 8-K filing on 2026-09-03.",
+      "raw_text": "RCI Hospitality Holdings, Inc. reported an executive or board change in an 8-K filing on 2026-09-04.",
       "tags": [
         "exec_move",
         "sec_8k",
-        "healthcare"
+        "hospitality"
       ],
       "extras": {
-        "adsh": "0001171843-26-005868",
-        "cik": "0001628808",
-        "file_date": "2026-09-03"
+        "adsh": "0001628280-26-060582",
+        "cik": "0000935419",
+        "file_date": "2026-09-04"
       }
     },
     {
-      "id": "d92117a73d349bf8",
-      "ts": "2026-09-03T00:00:00Z",
+      "id": "c1468001775eb173",
+      "ts": "2026-09-04T00:00:00Z",
       "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1691082&type=&dateb=&owner=include&count=40",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=936340&type=&dateb=&owner=include&count=40",
       "type": "exec_move",
       "company": {
-        "name": "LB Pharmaceuticals INC",
+        "name": "DTE Energy CO",
         "ticker": null,
         "industry": null,
-        "sector": "Healthcare",
+        "sector": "Energy",
         "hq_region": null,
         "size_band": "unknown"
       },
       "magnitude": null,
       "unit": null,
-      "raw_text": "LB Pharmaceuticals INC reported an executive or board change in an 8-K filing on 2026-09-03.",
+      "raw_text": "DTE Energy CO reported an executive or board change in an 8-K filing on 2026-09-04.",
       "tags": [
         "exec_move",
         "sec_8k",
-        "healthcare"
+        "energy"
       ],
       "extras": {
-        "adsh": "0001193125-26-381076",
-        "cik": "0001691082",
-        "file_date": "2026-09-03"
-      }
-    },
-    {
-      "id": "51a7280eb659c519",
-      "ts": "2026-09-03T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1084765&type=&dateb=&owner=include&count=40",
-      "type": "exec_move",
-      "company": {
-        "name": "Resources Connection, Inc.",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Resources Connection, Inc. reported an executive or board change in an 8-K filing on 2026-09-03.",
-      "tags": [
-        "exec_move",
-        "sec_8k",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0001084765-26-000059",
-        "cik": "0001084765",
-        "file_date": "2026-09-03"
-      }
-    },
-    {
-      "id": "d7e202c2b36868f2",
-      "ts": "2026-09-03T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=885568&type=&dateb=&owner=include&count=40",
-      "type": "exec_move",
-      "company": {
-        "name": "OLD Dominion Electric Cooperative",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "OLD Dominion Electric Cooperative reported an executive or board change in an 8-K filing on 2026-09-03.",
-      "tags": [
-        "exec_move",
-        "sec_8k",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0001193125-26-381619",
-        "cik": "0000885568",
-        "file_date": "2026-09-03"
-      }
-    },
-    {
-      "id": "19db825584e28169",
-      "ts": "2026-09-03T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1324404&type=&dateb=&owner=include&count=40",
-      "type": "exec_move",
-      "company": {
-        "name": "CF Industries Holdings, Inc.",
-        "ticker": null,
-        "industry": null,
-        "sector": "Manufacturing",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "CF Industries Holdings, Inc. reported an executive or board change in an 8-K filing on 2026-09-03.",
-      "tags": [
-        "exec_move",
-        "sec_8k",
-        "manufacturing"
-      ],
-      "extras": {
-        "adsh": "0001104659-26-105054",
-        "cik": "0001324404",
-        "file_date": "2026-09-03"
-      }
-    },
-    {
-      "id": "822f39267e1ff127",
-      "ts": "2026-09-03T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=825542&type=&dateb=&owner=include&count=40",
-      "type": "exec_move",
-      "company": {
-        "name": "Scotts Miracle-Gro CO",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Scotts Miracle-Gro CO reported an executive or board change in an 8-K filing on 2026-09-03.",
-      "tags": [
-        "exec_move",
-        "sec_8k",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0000825542-26-000045",
-        "cik": "0000825542",
-        "file_date": "2026-09-03"
-      }
-    },
-    {
-      "id": "a281965f90708dc5",
-      "ts": "2026-09-03T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1620459&type=&dateb=&owner=include&count=40",
-      "type": "exec_move",
-      "company": {
-        "name": "James River Group Holdings, Inc.",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "James River Group Holdings, Inc. reported an executive or board change in an 8-K filing on 2026-09-03.",
-      "tags": [
-        "exec_move",
-        "sec_8k",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0001620459-26-000051",
-        "cik": "0001620459",
-        "file_date": "2026-09-03"
+        "adsh": "0000936340-26-000154",
+        "cik": "0000936340",
+        "file_date": "2026-09-04"
       }
     },
     {

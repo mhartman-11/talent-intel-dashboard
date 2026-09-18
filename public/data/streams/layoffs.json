@@ -1,21 +1,21 @@
 {
   "stream": "layoffs",
-  "generated_at": "2026-09-17T21:04:05.800037+00:00",
+  "generated_at": "2026-09-18T03:46:45.980392+00:00",
   "total": 96,
   "showing": 96,
   "source_counts": {
-    "state_warn": 64,
-    "news_layoffs": 27,
+    "state_warn": 63,
+    "news_layoffs": 28,
     "layoffs_fyi": 5
   },
   "sector_counts": {
-    "Other": 45,
+    "Other": 44,
     "Hospitality": 9,
-    "Healthcare": 7,
+    "Retail": 6,
+    "Healthcare": 6,
+    "Manufacturing": 6,
     "Logistics": 6,
     "Technology": 5,
-    "Retail": 5,
-    "Manufacturing": 5,
     "Finance": 4,
     "CPG": 4,
     "Education": 2,
@@ -24,6 +24,30 @@
     "Media": 1
   },
   "events": [
+    {
+      "id": "07eadb794003f4ce",
+      "ts": "2026-09-17T23:35:00Z",
+      "source": "news_layoffs",
+      "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOWDZUcjE2WjQwYUwyTXRFSGpRbHE5aWFWcW9mTnQxRHZiVm5tSnllNU9aQm5YVXR4N3BQbzg5ekh2N1laQjNiX1RCZW9qNjM4ckZwb19IUXNXenZEelQ4dEluVG14em5YdGhtZG91UHBDQWFKVk1rS1FETnMtWWZfZ3FrdnduSmpVWWVaNGFLLXhOYkZVejV6OXlPLTI5M19U?oc=5",
+      "type": "layoff",
+      "company": {
+        "name": "Uber",
+        "ticker": null,
+        "industry": null,
+        "sector": "Retail",
+        "hq_region": "CA",
+        "size_band": "unknown"
+      },
+      "magnitude": 250.0,
+      "unit": "people",
+      "raw_text": "Uber to cut over 250 jobs at San Francisco headquarters",
+      "tags": [
+        "layoff",
+        "retail",
+        "CA"
+      ],
+      "extras": {}
+    },
     {
       "id": "f3637dcf7690e9eb",
       "ts": "2026-09-17T16:02:00Z",
@@ -162,29 +186,6 @@
         "layoff",
         "hospitality",
         "NJ"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "e18ef3ae9c5b1042",
-      "ts": "2026-09-16T16:00:00Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE05Nk1vc3NGVUpQY1JObG96M3B6b3huRWEza1dRa3AxN3dBWEF0UEMwbkk1UDFZNHdHTjJsRFFESFV0VXhvNkptZUdlMTBrczk5U1pMUndSdW03Vmd1empWcm5WVFFVdXlIdzA2RFpR?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "HCA Healthcare",
-        "ticker": null,
-        "industry": null,
-        "sector": "Healthcare",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": 1.0,
-      "unit": "people",
-      "raw_text": "HCA Healthcare trims corporate, IT staff in new layoffs",
-      "tags": [
-        "layoff",
-        "healthcare"
       ],
       "extras": {}
     },
@@ -423,7 +424,7 @@
     },
     {
       "id": "dbe81bdfaede195b",
-      "ts": "2026-09-09T14:42:55Z",
+      "ts": "2026-09-09T07:00:00Z",
       "source": "news_layoffs",
       "source_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNMUMwa0ZXLTlYOUlPb1ZmbTloT0Zhd1pMZG9rUGUwbklvellwZHZxWTMzMjZaWV9iQ1VvUHNjSDZINmxrdFQxZk9raFQxQW9NY0RBUzhlU2xLNV81LTAtb0pJb3lBX013WHVXeXJQVDFxdmxlWXFEamZ1Uml5Nm9NcmtTYmMydw?oc=5",
       "type": "layoff",
@@ -534,6 +535,29 @@
       "tags": [
         "layoff",
         "retail"
+      ],
+      "extras": {}
+    },
+    {
+      "id": "fa8fe06348a91da7",
+      "ts": "2026-09-03T07:00:00Z",
+      "source": "news_layoffs",
+      "source_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNQnI0bUxMVGZUZlE0UUtTb0hHSk95aF85cWhBTW1KeTFzS3NFRFI5WG5SRXhiZEZSSlFseXo3NGpTbFBtaWxCcUxXWThEWHpNZUREMVc0b3dRNXJlQm5uQnRObGxvSEtlZHM0VS02Zk5uN3hWQVVNYzVYdmQyQ3ZITnYwMnkxN2ZkRndrekVYWWtQVXpDVXc0?oc=5",
+      "type": "layoff",
+      "company": {
+        "name": "Volkswagen",
+        "ticker": null,
+        "industry": null,
+        "sector": "Manufacturing",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": 50000.0,
+      "unit": "people",
+      "raw_text": "Volkswagen to cut further 50,000 jobs as it ends row with union over revival plan",
+      "tags": [
+        "layoff",
+        "manufacturing"
       ],
       "extras": {}
     },
@@ -2592,35 +2616,6 @@
       "extras": {
         "state": "TX",
         "city": "Houston",
-        "warn": true
-      }
-    },
-    {
-      "id": "6bc2f89dac6030be",
-      "ts": "2026-01-21T00:00:00Z",
-      "source": "state_warn",
-      "source_url": "https://data.texas.gov/d/8w53-c4f6",
-      "type": "layoff",
-      "company": {
-        "name": "Future Proof Brands LLC (Austin)",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": "TX",
-        "size_band": "unknown"
-      },
-      "magnitude": 158.0,
-      "unit": "people",
-      "raw_text": "Future Proof Brands LLC (Austin) filed a WARN notice for 158 jobs in Austin, TX.",
-      "tags": [
-        "layoff",
-        "warn",
-        "tx",
-        "other"
-      ],
-      "extras": {
-        "state": "TX",
-        "city": "Austin",
         "warn": true
       }
     }
