@@ -1,21 +1,21 @@
 {
   "stream": "layoffs",
-  "generated_at": "2026-09-19T20:13:31.426889+00:00",
+  "generated_at": "2026-09-20T03:59:05.642091+00:00",
   "total": 93,
   "showing": 93,
   "source_counts": {
-    "state_warn": 63,
-    "news_layoffs": 25,
+    "state_warn": 62,
+    "news_layoffs": 26,
     "layoffs_fyi": 5
   },
   "sector_counts": {
     "Other": 44,
     "Hospitality": 9,
+    "Retail": 6,
     "Healthcare": 6,
-    "Manufacturing": 6,
     "Logistics": 6,
     "Technology": 5,
-    "Retail": 5,
+    "Manufacturing": 5,
     "Finance": 4,
     "CPG": 4,
     "Education": 2,
@@ -42,6 +42,30 @@
       "tags": [
         "layoff",
         "other"
+      ],
+      "extras": {}
+    },
+    {
+      "id": "07eadb794003f4ce",
+      "ts": "2026-09-17T23:35:00Z",
+      "source": "news_layoffs",
+      "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOWDZUcjE2WjQwYUwyTXRFSGpRbHE5aWFWcW9mTnQxRHZiVm5tSnllNU9aQm5YVXR4N3BQbzg5ekh2N1laQjNiX1RCZW9qNjM4ckZwb19IUXNXenZEelQ4dEluVG14em5YdGhtZG91UHBDQWFKVk1rS1FETnMtWWZfZ3FrdnduSmpVWWVaNGFLLXhOYkZVejV6OXlPLTI5M19U?oc=5",
+      "type": "layoff",
+      "company": {
+        "name": "Uber",
+        "ticker": null,
+        "industry": null,
+        "sector": "Retail",
+        "hq_region": "CA",
+        "size_band": "unknown"
+      },
+      "magnitude": 250.0,
+      "unit": "people",
+      "raw_text": "Uber to cut over 250 jobs at San Francisco headquarters",
+      "tags": [
+        "layoff",
+        "retail",
+        "CA"
       ],
       "extras": {}
     },
@@ -536,7 +560,7 @@
     },
     {
       "id": "eb803539c074cf05",
-      "ts": "2026-09-02T07:00:00Z",
+      "ts": "2026-09-02T15:19:00Z",
       "source": "news_layoffs",
       "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5KSTVNNWdtTE5md3NJM2tXU2N6RmhuZXoxU1g2eHBKMks4Y1lVdFVSUjdhU3hJbEFJak14X0tPc3E1b0lVbnVxQVlYQ0NXeUhBYUpZSDJkN2ExcmdiUFdZ?oc=5",
       "type": "layoff",
@@ -2514,35 +2538,6 @@
       "extras": {
         "state": "TX",
         "city": "Harlingen",
-        "warn": true
-      }
-    },
-    {
-      "id": "29e89b9a8df39efe",
-      "ts": "2026-01-23T00:00:00Z",
-      "source": "state_warn",
-      "source_url": "https://data.texas.gov/d/8w53-c4f6",
-      "type": "layoff",
-      "company": {
-        "name": "Power Plug Inc. (Houston Manufacturing Company)",
-        "ticker": null,
-        "industry": null,
-        "sector": "Manufacturing",
-        "hq_region": "TX",
-        "size_band": "unknown"
-      },
-      "magnitude": 74.0,
-      "unit": "people",
-      "raw_text": "Power Plug Inc. (Houston Manufacturing Company) filed a WARN notice for 74 jobs in Houston, TX.",
-      "tags": [
-        "layoff",
-        "warn",
-        "tx",
-        "manufacturing"
-      ],
-      "extras": {
-        "state": "TX",
-        "city": "Houston",
         "warn": true
       }
     }
