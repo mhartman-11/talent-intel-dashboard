@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T03:51:46.504773+00:00",
+  "generated_at": "2026-09-23T11:01:42.388289+00:00",
   "sources": [
     {
       "source": "greenhouse",
@@ -7,9 +7,9 @@
       "url": "https://boards-api.greenhouse.io",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-09-23T03:50:52.164212Z",
-      "last_attempted": "2026-09-23T03:50:52.164212Z",
-      "record_count": 3447,
+      "last_ok": "2026-09-23T10:59:51.924655Z",
+      "last_attempted": "2026-09-23T10:59:51.924655Z",
+      "record_count": 3446,
       "ok": true,
       "errors": [
         "DoorDash (doordash): GET https://boards-api.greenhouse.io/v1/boards/doordash/jobs failed: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/doordash/jobs?content=true'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
@@ -29,9 +29,9 @@
       "url": "https://api.lever.co/v0/postings",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-09-23T03:51:19.520375Z",
-      "last_attempted": "2026-09-23T03:51:19.520375Z",
-      "record_count": 76,
+      "last_ok": "2026-09-23T11:00:28.634654Z",
+      "last_attempted": "2026-09-23T11:00:28.634654Z",
+      "record_count": 74,
       "ok": true,
       "errors": [
         "Scale AI (scaleai): GET https://api.lever.co/v0/postings/scaleai failed: Client error '404 Not Found' for url 'https://api.lever.co/v0/postings/scaleai?mode=json'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
@@ -46,9 +46,9 @@
       "url": "https://api.ashbyhq.com/posting-api",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-09-23T03:51:35.080848Z",
-      "last_attempted": "2026-09-23T03:51:35.080848Z",
-      "record_count": 275,
+      "last_ok": "2026-09-23T11:00:42.208275Z",
+      "last_attempted": "2026-09-23T11:00:42.208275Z",
+      "record_count": 276,
       "ok": true,
       "errors": [
         "Replicate (replicate): GET https://api.ashbyhq.com/posting-api/job-board/replicate failed: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/replicate'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
@@ -60,8 +60,8 @@
       "url": "https://techcrunch.com/tag/layoffs/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-09-23T03:51:37.735056Z",
-      "last_attempted": "2026-09-23T03:51:37.735056Z",
+      "last_ok": "2026-09-23T11:00:45.180583Z",
+      "last_attempted": "2026-09-23T11:00:45.180583Z",
       "record_count": 5,
       "ok": true,
       "errors": []
@@ -72,11 +72,19 @@
       "url": "https://news.google.com/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-09-23T03:51:38.009158Z",
-      "last_attempted": "2026-09-23T03:51:38.009158Z",
-      "record_count": 35,
-      "ok": true,
-      "errors": []
+      "last_ok": null,
+      "last_attempted": "2026-09-23T11:00:45.684365Z",
+      "record_count": 0,
+      "ok": false,
+      "errors": [
+        "'tech layoffs': Server error '503 Service Unavailable' for url 'https://news.google.com/rss/search?q=tech+layoffs+when%3A21d&hl=en-US&gl=US&ceid=US:en'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503",
+        "'bank layoffs': Server error '503 Service Unavailable' for url 'https://news.google.com/rss/search?q=bank+layoffs+when%3A21d&hl=en-US&gl=US&ceid=US:en'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503",
+        "'healthcare layoffs': Server error '503 Service Unavailable' for url 'https://news.google.com/rss/search?q=healthcare+layoffs+when%3A21d&hl=en-US&gl=US&ceid=US:en'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503",
+        "'retail layoffs': Server error '503 Service Unavailable' for url 'https://news.google.com/rss/search?q=retail+layoffs+when%3A21d&hl=en-US&gl=US&ceid=US:en'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503",
+        "'manufacturing layoffs': Server error '503 Service Unavailable' for url 'https://news.google.com/rss/search?q=manufacturing+layoffs+when%3A21d&hl=en-US&gl=US&ceid=US:en'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503",
+        "'media layoffs': Server error '503 Service Unavailable' for url 'https://news.google.com/rss/search?q=media+layoffs+when%3A21d&hl=en-US&gl=US&ceid=US:en'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503",
+        "'company layoffs announced': Server error '503 Service Unavailable' for url 'https://news.google.com/rss/search?q=company+layoffs+announced+when%3A21d&hl=en-US&gl=US&ceid=US:en'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503"
+      ]
     },
     {
       "source": "state_warn",
@@ -84,8 +92,8 @@
       "url": "https://data.texas.gov/d/8w53-c4f6",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-09-23T03:51:41.000906Z",
-      "last_attempted": "2026-09-23T03:51:41.000906Z",
+      "last_ok": "2026-09-23T11:01:37.663714Z",
+      "last_attempted": "2026-09-23T11:01:37.663714Z",
       "record_count": 62,
       "ok": true,
       "errors": []
@@ -96,8 +104,8 @@
       "url": "https://techcrunch.com/category/venture/feed/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-09-23T03:51:42.750886Z",
-      "last_attempted": "2026-09-23T03:51:42.750886Z",
+      "last_ok": "2026-09-23T11:01:39.020296Z",
+      "last_attempted": "2026-09-23T11:01:39.020296Z",
       "record_count": 7,
       "ok": true,
       "errors": []
@@ -108,9 +116,9 @@
       "url": "https://efts.sec.gov/LATEST/search-index",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-09-23T03:51:42.832566Z",
-      "last_attempted": "2026-09-23T03:51:42.832566Z",
-      "record_count": 112,
+      "last_ok": "2026-09-23T11:01:39.882408Z",
+      "last_attempted": "2026-09-23T11:01:39.882408Z",
+      "record_count": 103,
       "ok": true,
       "errors": []
     },
@@ -120,8 +128,8 @@
       "url": "https://www.bls.gov/oes/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-09-23T03:51:45.242614Z",
-      "last_attempted": "2026-09-23T03:51:45.242614Z",
+      "last_ok": "2026-09-23T11:01:40.897866Z",
+      "last_attempted": "2026-09-23T11:01:40.897866Z",
       "record_count": 24,
       "ok": true,
       "errors": []
@@ -132,8 +140,8 @@
       "url": "https://www.bls.gov/ces/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-09-23T03:51:45.784010Z",
-      "last_attempted": "2026-09-23T03:51:45.784010Z",
+      "last_ok": "2026-09-23T11:01:41.523984Z",
+      "last_attempted": "2026-09-23T11:01:41.523984Z",
       "record_count": 48,
       "ok": true,
       "errors": []
@@ -144,8 +152,8 @@
       "url": "https://www.bls.gov/developers/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-09-23T03:51:46.082518Z",
-      "last_attempted": "2026-09-23T03:51:46.082518Z",
+      "last_ok": "2026-09-23T11:01:42.072313Z",
+      "last_attempted": "2026-09-23T11:01:42.072313Z",
       "record_count": 30,
       "ok": true,
       "errors": []

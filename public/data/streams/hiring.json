@@ -1,21 +1,580 @@
 {
   "stream": "hiring",
-  "generated_at": "2026-09-23T03:51:46.477507+00:00",
-  "total": 3798,
+  "generated_at": "2026-09-23T11:01:42.366308+00:00",
+  "total": 3796,
   "showing": 500,
   "source_counts": {
-    "greenhouse": 3447,
-    "ashby": 275,
-    "lever": 76
+    "greenhouse": 3446,
+    "ashby": 276,
+    "lever": 74
   },
   "sector_counts": {
-    "Technology": 2812,
+    "Technology": 2813,
     "Finance": 443,
-    "Healthcare": 286,
-    "Media": 229,
+    "Healthcare": 285,
+    "Media": 227,
     "CPG": 28
   },
   "events": [
+    {
+      "id": "5d2088f492f7623e",
+      "ts": "2026-09-23T10:22:32.773000Z",
+      "source": "ashby",
+      "source_url": "https://jobs.ashbyhq.com/perplexity/1a3df802-9238-4827-ab1f-12a9d1e4b81c",
+      "type": "posting",
+      "company": {
+        "name": "Perplexity AI",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Perplexity AI | Member of Technical Staff (Machine Learning Research Engineer) | Berlin | Search",
+      "tags": [
+        "hiring",
+        "ashby",
+        "technology",
+        "Data / ML"
+      ],
+      "extras": {
+        "role": "Member of Technical Staff (Machine Learning Research Engineer)",
+        "location": "Berlin",
+        "department": "Search",
+        "employment_type": "FullTime",
+        "function": "Data / ML",
+        "soc": "15-2051",
+        "seniority": "staff",
+        "remote": "remote",
+        "stack": [
+          "pytorch",
+          "rag"
+        ]
+      }
+    },
+    {
+      "id": "ba3406f3eccd6e62",
+      "ts": "2026-09-23T06:13:53-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/anthropic/jobs/5425724008",
+      "type": "posting",
+      "company": {
+        "name": "Anthropic",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Anthropic | Associate Applied AI, Rotational Program, London | London, UK",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology"
+      ],
+      "extras": {
+        "role": "Associate Applied AI, Rotational Program, London",
+        "location": "London, UK",
+        "seniority": "junior",
+        "stack": [
+          "llm"
+        ]
+      }
+    },
+    {
+      "id": "ad7de0c9c039d7b0",
+      "ts": "2026-09-23T06:03:13-04:00",
+      "source": "greenhouse",
+      "source_url": "https://stripe.com/jobs/search?gh_jid=8209641",
+      "type": "posting",
+      "company": {
+        "name": "Stripe",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Stripe | Program Manager, Risk Operations GTM Enablement | Dublin, Ireland",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology"
+      ],
+      "extras": {
+        "role": "Program Manager, Risk Operations GTM Enablement",
+        "location": "Dublin, Ireland",
+        "seniority": "manager"
+      }
+    },
+    {
+      "id": "aac98ea31ac65c97",
+      "ts": "2026-09-23T06:02:25-04:00",
+      "source": "greenhouse",
+      "source_url": "https://stripe.com/jobs/search?gh_jid=6717520",
+      "type": "posting",
+      "company": {
+        "name": "Stripe",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Stripe | Software Engineer, Payments and Risk | Dublin, Ireland",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "Software Engineering"
+      ],
+      "extras": {
+        "role": "Software Engineer, Payments and Risk",
+        "location": "Dublin, Ireland",
+        "function": "Software Engineering",
+        "soc": "15-1252",
+        "seniority": "mid",
+        "remote": "onsite"
+      }
+    },
+    {
+      "id": "770fdaf553e373a5",
+      "ts": "2026-09-23T05:01:26-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/anthropic/jobs/5432575008",
+      "type": "posting",
+      "company": {
+        "name": "Anthropic",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Anthropic | Applied AI Engineer, Startups | London, UK",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "Data / ML"
+      ],
+      "extras": {
+        "role": "Applied AI Engineer, Startups",
+        "location": "London, UK",
+        "function": "Data / ML",
+        "soc": "15-2051",
+        "seniority": "mid"
+      }
+    },
+    {
+      "id": "ac4d1cfe1a9f8361",
+      "ts": "2026-09-23T04:59:40-04:00",
+      "source": "greenhouse",
+      "source_url": "https://www.coinbase.com/careers/positions/8212923?gh_jid=8212923",
+      "type": "posting",
+      "company": {
+        "name": "Coinbase",
+        "ticker": null,
+        "industry": null,
+        "sector": "Finance",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Coinbase | Associate General Counsel, Privacy | Remote - UK",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "finance",
+        "Legal / Compliance"
+      ],
+      "extras": {
+        "role": "Associate General Counsel, Privacy",
+        "location": "Remote - UK",
+        "function": "Legal / Compliance",
+        "soc": "23-1011",
+        "seniority": "junior",
+        "remote": "remote"
+      }
+    },
+    {
+      "id": "2aee451671ebb8b6",
+      "ts": "2026-09-23T04:57:05-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/anthropic/jobs/5432573008",
+      "type": "posting",
+      "company": {
+        "name": "Anthropic",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Anthropic | Applied AI Architect, Startups | London, UK",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology"
+      ],
+      "extras": {
+        "role": "Applied AI Architect, Startups",
+        "location": "London, UK",
+        "seniority": "mid",
+        "stack": [
+          "llm"
+        ]
+      }
+    },
+    {
+      "id": "8c4d3d3c2798e48b",
+      "ts": "2026-09-23T04:43:24-04:00",
+      "source": "greenhouse",
+      "source_url": "https://careers.airbnb.com/positions/8225785?gh_jid=8225785",
+      "type": "posting",
+      "company": {
+        "name": "Airbnb",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Airbnb | Senior Advanced Analyst, Fraud & Safety Investigations | Bangalore, India",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology"
+      ],
+      "extras": {
+        "role": "Senior Advanced Analyst, Fraud & Safety Investigations",
+        "location": "Bangalore, India",
+        "seniority": "senior"
+      }
+    },
+    {
+      "id": "ffb0c05578658c84",
+      "ts": "2026-09-23T03:09:25-04:00",
+      "source": "greenhouse",
+      "source_url": "https://stripe.com/jobs/search?gh_jid=7983076",
+      "type": "posting",
+      "company": {
+        "name": "Stripe",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Stripe | Product Designer, Design Systems | Spain",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "Design"
+      ],
+      "extras": {
+        "role": "Product Designer, Design Systems",
+        "location": "Spain",
+        "function": "Design",
+        "soc": "27-1024",
+        "seniority": "mid"
+      }
+    },
+    {
+      "id": "46087ac040812472",
+      "ts": "2026-09-23T02:38:15-04:00",
+      "source": "greenhouse",
+      "source_url": "https://boards.greenhouse.io/cloudflare/jobs/8097947?gh_jid=8097947",
+      "type": "posting",
+      "company": {
+        "name": "Cloudflare",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Cloudflare | Senior Customer Engineer, Hong Kong (Pre-sales) | Hybrid",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology"
+      ],
+      "extras": {
+        "role": "Senior Customer Engineer, Hong Kong (Pre-sales)",
+        "location": "Hybrid",
+        "seniority": "senior"
+      }
+    },
+    {
+      "id": "c8915345f548e5b1",
+      "ts": "2026-09-23T02:20:38-04:00",
+      "source": "greenhouse",
+      "source_url": "https://www.pinterestcareers.com/jobs/?gh_jid=7495016",
+      "type": "posting",
+      "company": {
+        "name": "Pinterest",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": "NY",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Pinterest | Partner Development Lead | New York, NY, US; Chicago, IL, US",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "NY"
+      ],
+      "extras": {
+        "role": "Partner Development Lead",
+        "location": "New York, NY, US; Chicago, IL, US",
+        "seniority": "lead"
+      }
+    },
+    {
+      "id": "663701a84ce307b1",
+      "ts": "2026-09-23T02:18:24-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/anthropic/jobs/5017202008",
+      "type": "posting",
+      "company": {
+        "name": "Anthropic",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": "CA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Anthropic | Software Engineer, Labs | San Francisco, CA | New York City, NY | Seattle, WA",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "CA",
+        "Software Engineering"
+      ],
+      "extras": {
+        "role": "Software Engineer, Labs",
+        "location": "San Francisco, CA | New York City, NY | Seattle, WA",
+        "function": "Software Engineering",
+        "soc": "15-1252",
+        "seniority": "mid"
+      }
+    },
+    {
+      "id": "56a705217541f979",
+      "ts": "2026-09-23T02:17:20-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/anthropic/jobs/5432558008",
+      "type": "posting",
+      "company": {
+        "name": "Anthropic",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": "CA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Anthropic | Staff Software Engineer: Compute | San Francisco, CA | New York City, NY",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "CA",
+        "Software Engineering"
+      ],
+      "extras": {
+        "role": "Staff Software Engineer: Compute",
+        "location": "San Francisco, CA | New York City, NY",
+        "function": "Software Engineering",
+        "soc": "15-1252",
+        "seniority": "staff"
+      }
+    },
+    {
+      "id": "a794be280d916df5",
+      "ts": "2026-09-23T01:57:46-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/oscar/jobs/8225613",
+      "type": "posting",
+      "company": {
+        "name": "Oscar Health",
+        "ticker": null,
+        "industry": null,
+        "sector": "Healthcare",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Oscar Health | Physician - Virtual Health Assessment (Part-Time) | Remote",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "healthcare"
+      ],
+      "extras": {
+        "role": "Physician - Virtual Health Assessment (Part-Time)",
+        "location": "Remote",
+        "seniority": "mid",
+        "remote": "remote"
+      }
+    },
+    {
+      "id": "e37fa000a431fd25",
+      "ts": "2026-09-23T01:32:31-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/oscar/jobs/8225598",
+      "type": "posting",
+      "company": {
+        "name": "Oscar Health",
+        "ticker": null,
+        "industry": null,
+        "sector": "Healthcare",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Oscar Health | Advanced Practice Provider - Virtual Health Assessment (Part Time) | Remote",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "healthcare"
+      ],
+      "extras": {
+        "role": "Advanced Practice Provider - Virtual Health Assessment (Part Time)",
+        "location": "Remote",
+        "seniority": "mid",
+        "remote": "remote"
+      }
+    },
+    {
+      "id": "268adff9d62f9394",
+      "ts": "2026-09-23T01:29:14-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/anthropic/jobs/5429202008",
+      "type": "posting",
+      "company": {
+        "name": "Anthropic",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": "CA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Anthropic | [DH] Engineering Manager, AI Observability | San Francisco, CA",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "CA",
+        "Engineering Management"
+      ],
+      "extras": {
+        "role": "[DH] Engineering Manager, AI Observability",
+        "location": "San Francisco, CA",
+        "function": "Engineering Management",
+        "soc": "11-9041",
+        "seniority": "manager",
+        "stack": [
+          "go"
+        ]
+      }
+    },
+    {
+      "id": "3f536ba518e687fa",
+      "ts": "2026-09-23T01:09:20-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/oscar/jobs/8225563",
+      "type": "posting",
+      "company": {
+        "name": "Oscar Health",
+        "ticker": null,
+        "industry": null,
+        "sector": "Healthcare",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Oscar Health | Physician Assistant - Virtual Health Assessment | Remote",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "healthcare"
+      ],
+      "extras": {
+        "role": "Physician Assistant - Virtual Health Assessment",
+        "location": "Remote",
+        "seniority": "mid",
+        "salary_min": 116400.0,
+        "salary_max": 140000.0,
+        "remote": "remote"
+      }
+    },
+    {
+      "id": "8820656d8623e7ae",
+      "ts": "2026-09-23T00:20:07-04:00",
+      "source": "greenhouse",
+      "source_url": "https://careers.airbnb.com/positions/7702714?gh_jid=7702714",
+      "type": "posting",
+      "company": {
+        "name": "Airbnb",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Airbnb | Staff Software Engineer, Infrastructure | United States",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "Software Engineering"
+      ],
+      "extras": {
+        "role": "Staff Software Engineer, Infrastructure",
+        "location": "United States",
+        "function": "Software Engineering",
+        "soc": "15-1252",
+        "seniority": "staff",
+        "remote": "remote"
+      }
+    },
     {
       "id": "0d7673e11405f433",
       "ts": "2026-09-22T23:28:48-04:00",
@@ -3725,38 +4284,6 @@
         "stack": [
           "go"
         ]
-      }
-    },
-    {
-      "id": "ac4d1cfe1a9f8361",
-      "ts": "2026-09-22T16:16:46-04:00",
-      "source": "greenhouse",
-      "source_url": "https://www.coinbase.com/careers/positions/8212923?gh_jid=8212923",
-      "type": "posting",
-      "company": {
-        "name": "Coinbase",
-        "ticker": null,
-        "industry": null,
-        "sector": "Finance",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Coinbase | Associate General Counsel, Privacy | Remote - UK",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "finance",
-        "Legal / Compliance"
-      ],
-      "extras": {
-        "role": "Associate General Counsel, Privacy",
-        "location": "Remote - UK",
-        "function": "Legal / Compliance",
-        "soc": "23-1011",
-        "seniority": "junior",
-        "remote": "remote"
       }
     },
     {
@@ -14991,525 +15518,6 @@
       "extras": {
         "role": "Staff Advanced Analytics, Community Blueprint & Quality",
         "location": "United States",
-        "seniority": "staff"
-      }
-    },
-    {
-      "id": "f5fdd3ecbb700cb8",
-      "ts": "2026-09-18T16:54:36-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/oscar/jobs/8193728",
-      "type": "posting",
-      "company": {
-        "name": "Oscar Health",
-        "ticker": null,
-        "industry": null,
-        "sector": "Healthcare",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Oscar Health | Associate Medical Director, Regulatory Management | Remote",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "healthcare",
-        "Engineering Management"
-      ],
-      "extras": {
-        "role": "Associate Medical Director, Regulatory Management",
-        "location": "Remote",
-        "function": "Engineering Management",
-        "soc": "11-9041",
-        "seniority": "director",
-        "salary_min": 216108.0,
-        "salary_max": 283642.0,
-        "remote": "remote"
-      }
-    },
-    {
-      "id": "cabd3748e9f2138c",
-      "ts": "2026-09-18T16:54:20-04:00",
-      "source": "greenhouse",
-      "source_url": "https://careers.airbnb.com/positions/8214444?gh_jid=8214444",
-      "type": "posting",
-      "company": {
-        "name": "Airbnb",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": "CA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Airbnb | Business Systems Engineer, Tech Foundations | San Francisco, CA",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "CA",
-        "Software Engineering"
-      ],
-      "extras": {
-        "role": "Business Systems Engineer, Tech Foundations",
-        "location": "San Francisco, CA",
-        "function": "Software Engineering",
-        "soc": "15-1252",
-        "seniority": "mid"
-      }
-    },
-    {
-      "id": "ba5aa4e5e595bcb3",
-      "ts": "2026-09-18T16:52:58-04:00",
-      "source": "greenhouse",
-      "source_url": "https://careers.airbnb.com/positions/8125981?gh_jid=8125981",
-      "type": "posting",
-      "company": {
-        "name": "Airbnb",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Airbnb | Lead, Advanced Analytics, Community Support | United States",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology"
-      ],
-      "extras": {
-        "role": "Lead, Advanced Analytics, Community Support",
-        "location": "United States",
-        "seniority": "lead"
-      }
-    },
-    {
-      "id": "966c157844f9bc23",
-      "ts": "2026-09-18T16:52:19-04:00",
-      "source": "greenhouse",
-      "source_url": "https://careers.airbnb.com/positions/7948314?gh_jid=7948314",
-      "type": "posting",
-      "company": {
-        "name": "Airbnb",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Airbnb | Lead, Advanced Analytics, Acquisition | United States",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology"
-      ],
-      "extras": {
-        "role": "Lead, Advanced Analytics, Acquisition",
-        "location": "United States",
-        "seniority": "lead"
-      }
-    },
-    {
-      "id": "81bf5500de07e878",
-      "ts": "2026-09-18T16:51:44-04:00",
-      "source": "greenhouse",
-      "source_url": "https://stripe.com/jobs/search?gh_jid=8201680",
-      "type": "posting",
-      "company": {
-        "name": "Stripe",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": "WA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Stripe | GTM Strategy & Operations Analyst | NYC, SF, Seattle, US",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "WA"
-      ],
-      "extras": {
-        "role": "GTM Strategy & Operations Analyst",
-        "location": "NYC, SF, Seattle, US",
-        "seniority": "mid"
-      }
-    },
-    {
-      "id": "fb33359391ec7be1",
-      "ts": "2026-09-18T20:51:13.326000Z",
-      "source": "ashby",
-      "source_url": "https://jobs.ashbyhq.com/perplexity/3b6ad2b6-4310-48f1-a71f-dc344c94f2b0",
-      "type": "posting",
-      "company": {
-        "name": "Perplexity AI",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": "CA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Perplexity AI | Sales Leader, Sales Development, Enterprise | San Francisco | Sales",
-      "tags": [
-        "hiring",
-        "ashby",
-        "technology",
-        "CA",
-        "Sales"
-      ],
-      "extras": {
-        "role": "Sales Leader, Sales Development, Enterprise",
-        "location": "San Francisco",
-        "department": "Sales",
-        "employment_type": "FullTime",
-        "function": "Sales",
-        "soc": "41-3091",
-        "seniority": "mid",
-        "remote": "remote"
-      }
-    },
-    {
-      "id": "7e37ad66990771a4",
-      "ts": "2026-09-18T16:49:46-04:00",
-      "source": "greenhouse",
-      "source_url": "https://careers.airbnb.com/positions/7967712?gh_jid=7967712",
-      "type": "posting",
-      "company": {
-        "name": "Airbnb",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Airbnb | Lead, Advanced Analytics, Payments | United States",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology"
-      ],
-      "extras": {
-        "role": "Lead, Advanced Analytics, Payments",
-        "location": "United States",
-        "seniority": "lead"
-      }
-    },
-    {
-      "id": "74b2e8dd3fb9c919",
-      "ts": "2026-09-18T16:49:13-04:00",
-      "source": "greenhouse",
-      "source_url": "https://careers.airbnb.com/positions/8080954?gh_jid=8080954",
-      "type": "posting",
-      "company": {
-        "name": "Airbnb",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Airbnb | Lead Advanced Analytics, Product | United States",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology"
-      ],
-      "extras": {
-        "role": "Lead Advanced Analytics, Product",
-        "location": "United States",
-        "seniority": "lead",
-        "remote": "onsite"
-      }
-    },
-    {
-      "id": "5a82e958ebf82447",
-      "ts": "2026-09-18T16:48:31-04:00",
-      "source": "greenhouse",
-      "source_url": "https://careers.airbnb.com/positions/8207084?gh_jid=8207084",
-      "type": "posting",
-      "company": {
-        "name": "Airbnb",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Airbnb | Lead Advanced Analyst, Integrated Marketing | United States",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology"
-      ],
-      "extras": {
-        "role": "Lead Advanced Analyst, Integrated Marketing",
-        "location": "United States",
-        "seniority": "lead"
-      }
-    },
-    {
-      "id": "54c2635752e05188",
-      "ts": "2026-09-18T16:47:33-04:00",
-      "source": "greenhouse",
-      "source_url": "https://boards.greenhouse.io/cloudflare/jobs/8186045?gh_jid=8186045",
-      "type": "posting",
-      "company": {
-        "name": "Cloudflare",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Cloudflare | Senior Solutions Engineer, Cloudflare One (SASE/SSE) | Distributed",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology"
-      ],
-      "extras": {
-        "role": "Senior Solutions Engineer, Cloudflare One (SASE/SSE)",
-        "location": "Distributed",
-        "seniority": "senior"
-      }
-    },
-    {
-      "id": "072df4bcef71ae30",
-      "ts": "2026-09-18T16:46:24-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/gitlab/jobs/8746461002",
-      "type": "posting",
-      "company": {
-        "name": "GitLab",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "GitLab | Senior Professional Services Engineer- PubSec - DC Metro | Remote, United States",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology"
-      ],
-      "extras": {
-        "role": "Senior Professional Services Engineer- PubSec - DC Metro",
-        "location": "Remote, United States",
-        "seniority": "senior"
-      }
-    },
-    {
-      "id": "db53534e2f898ea8",
-      "ts": "2026-09-18T16:45:55-04:00",
-      "source": "greenhouse",
-      "source_url": "https://boards.greenhouse.io/cloudflare/jobs/8158527?gh_jid=8158527",
-      "type": "posting",
-      "company": {
-        "name": "Cloudflare",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Cloudflare | Senior Product Manager, Enterprise | Hybrid",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "Product"
-      ],
-      "extras": {
-        "role": "Senior Product Manager, Enterprise",
-        "location": "Hybrid",
-        "function": "Product",
-        "soc": "11-2021",
-        "seniority": "senior"
-      }
-    },
-    {
-      "id": "2de76aaeb42b99b8",
-      "ts": "2026-09-18T16:42:22-04:00",
-      "source": "greenhouse",
-      "source_url": "https://stripe.com/jobs/search?gh_jid=8188326",
-      "type": "posting",
-      "company": {
-        "name": "Stripe",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Stripe | Crypto Controls and Compliance Advisor | Remote US",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology"
-      ],
-      "extras": {
-        "role": "Crypto Controls and Compliance Advisor",
-        "location": "Remote US",
-        "seniority": "mid"
-      }
-    },
-    {
-      "id": "5fc45f9cefef2442",
-      "ts": "2026-09-18T16:39:16-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/gitlab/jobs/8822279002",
-      "type": "posting",
-      "company": {
-        "name": "GitLab",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "GitLab | Staff Program Manager, CCO Programs | Remote, Canada; Remote, United States",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology"
-      ],
-      "extras": {
-        "role": "Staff Program Manager, CCO Programs",
-        "location": "Remote, Canada; Remote, United States",
-        "seniority": "staff",
-        "stack": [
-          "go"
-        ]
-      }
-    },
-    {
-      "id": "74ee8b5e9f7bd818",
-      "ts": "2026-09-18T16:38:54-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/anthropic/jobs/5428898008",
-      "type": "posting",
-      "company": {
-        "name": "Anthropic",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": "CA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Anthropic | Product Manager, Safe Access | San Francisco, CA | New York City, NY",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "CA",
-        "Product"
-      ],
-      "extras": {
-        "role": "Product Manager, Safe Access",
-        "location": "San Francisco, CA | New York City, NY",
-        "function": "Product",
-        "soc": "11-2021",
-        "seniority": "manager",
-        "stack": [
-          "rest"
-        ]
-      }
-    },
-    {
-      "id": "1c022218c51e9e25",
-      "ts": "2026-09-18T16:38:29-04:00",
-      "source": "greenhouse",
-      "source_url": "https://stripe.com/jobs/search?gh_jid=7942216",
-      "type": "posting",
-      "company": {
-        "name": "Stripe",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": "IL",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Stripe | GTM Recruiter, AMER (Fixed Term) | Chicago, US-Remote",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "IL",
-        "People / HR / Recruiting"
-      ],
-      "extras": {
-        "role": "GTM Recruiter, AMER (Fixed Term)",
-        "location": "Chicago, US-Remote",
-        "function": "People / HR / Recruiting",
-        "soc": "13-1071",
-        "seniority": "mid",
-        "stack": [
-          "go"
-        ]
-      }
-    },
-    {
-      "id": "96683fcc7c97c545",
-      "ts": "2026-09-18T16:28:43-04:00",
-      "source": "greenhouse",
-      "source_url": "https://boards.greenhouse.io/robinhood/jobs/8164459?t=gh_src=&gh_jid=8164459",
-      "type": "posting",
-      "company": {
-        "name": "Robinhood",
-        "ticker": null,
-        "industry": null,
-        "sector": "Finance",
-        "hq_region": "CA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Robinhood | Staff Product Manager - Prediction Markets | Menlo Park, CA; New York, NY",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "finance",
-        "CA",
-        "Product"
-      ],
-      "extras": {
-        "role": "Staff Product Manager - Prediction Markets",
-        "location": "Menlo Park, CA; New York, NY",
-        "function": "Product",
-        "soc": "11-2021",
         "seniority": "staff"
       }
     }
