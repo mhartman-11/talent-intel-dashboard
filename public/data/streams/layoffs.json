@@ -1,27 +1,50 @@
 {
   "stream": "layoffs",
-  "generated_at": "2026-09-24T03:43:57.005040+00:00",
-  "total": 100,
-  "showing": 100,
+  "generated_at": "2026-09-24T11:19:48.150740+00:00",
+  "total": 97,
+  "showing": 97,
   "source_counts": {
     "state_warn": 62,
-    "news_layoffs": 33,
+    "news_layoffs": 30,
     "layoffs_fyi": 5
   },
   "sector_counts": {
     "Other": 48,
     "Hospitality": 9,
-    "Technology": 8,
+    "Technology": 7,
     "Healthcare": 7,
-    "Manufacturing": 6,
     "Logistics": 6,
+    "Manufacturing": 5,
     "Finance": 4,
-    "Retail": 4,
     "CPG": 4,
+    "Retail": 3,
     "Education": 2,
     "Telecom": 2
   },
   "events": [
+    {
+      "id": "da97d1df6e150dd5",
+      "ts": "2026-09-24T10:07:00Z",
+      "source": "news_layoffs",
+      "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNVlJXNVVmX0hPZDRzMjFROGlaa1g3a2Iya3hULUliN1dmNmNMXzcwVWxSNDNldGY4alFNRXoybmYybHg2RDdjWmdWVWZhaHkzNFF1dWN1QnZ0UGpHakdPb2xsSGRfUmhvR2lyUm5wSzhvcmdDRWRwdVFVMWQtTUp3Z19OX3VNVHVKM0ltV2pMTVVKbXdsTHRDWkZNaFN4UQ?oc=5",
+      "type": "layoff",
+      "company": {
+        "name": "Bristol Myers Squibb",
+        "ticker": null,
+        "industry": null,
+        "sector": "Healthcare",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Bristol Myers Squibb Announces Another 265 Layoffs, Extending Cuts Into 2027",
+      "tags": [
+        "layoff",
+        "healthcare"
+      ],
+      "extras": {}
+    },
     {
       "id": "bb37de7ca99dcc31",
       "ts": "2026-09-23T18:00:17Z",
@@ -108,7 +131,7 @@
       },
       "magnitude": null,
       "unit": null,
-      "raw_text": "PeaceHealth to lay off less than 250 IT workers in restructuring",
+      "raw_text": "PeaceHealth to lay off less than 250 IT workers in restructuring - The Register-Guard",
       "tags": [
         "layoff",
         "healthcare"
@@ -201,29 +224,6 @@
       "magnitude": null,
       "unit": null,
       "raw_text": "Microsoft announced 3,200 Xbox job cuts in July. Now, it may cut hundreds more this week",
-      "tags": [
-        "layoff",
-        "technology"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "83c45a70cf14caa9",
-      "ts": "2026-09-22T12:04:39Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPb2Zqa29IWTVRbUpfakhsek84WnVieGczbEhWb1p3Sy1vTXRpQ0FpQk1Lc2JPaEk1OTFjNFFNU2dCam5KQk1QaTBMeGlNcnhnR1NMRkxSZnV2ZXduOTA3S0N3UEgyeFRidFdUYUxjRGdQdlU1Tkw4dS1ybkVFNUFaRWNmZElLcGFER3RiUTRST2FxQUJBTEhZbVhPaXRlcXppR2hSUW5aSXdxMGpNMWJDRndyNUZFNFlaWVR4elpyczJLYV9nWUJmaC1mN2N3ZVnSAcgBQVVfeXFMTi1aOWRiS1U0V0dJWWZyNDJWeGNiWUxaS3RkZGZJa3NVczI4ZVM1VDNjc2VxNS1MMjd4cWc2OEdqSFNvYzlkNVl3VVFwUzlMQ1U4UHFhWkFaaGxEY2Y2OERoZW5ZVXlhT3B0dDZJNXVlQzI1dEx0Vk9ZTWdCSDlxaWhjVkd6bUttZnNsTVBCWEJOU3E0WloxYnFkSjRsOGJ3eWI5ZGlTaU94NUpOaUd1Y3lZVzE3eU5FRUZ5bGo0LTRkYTBJT1J3c2M?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "Apple",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Apple trims Fitness+ team in second layoff in two months",
       "tags": [
         "layoff",
         "technology"
@@ -711,75 +711,6 @@
       "magnitude": 100000.0,
       "unit": "people",
       "raw_text": "Volkswagen to cut 100,000 jobs by end of decade",
-      "tags": [
-        "layoff",
-        "manufacturing"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "d5cc4e9644b962fb",
-      "ts": "2026-09-03T07:00:00Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQSUxMQkRLQ2h5VXRXSkxQQVdFaTJWTm9nNjJUSWVzaWNGYlZvS3djeEJwRWVYeTg5VURRMko2MXVockNmQmtUdVg1VFhJcDNmbk9hZjRFSVJuQWkycWpMY3c0MWd1TzlQb2o0NHZzSzVkNldmR0NRVVI0Z0xmaWZFekVzMGdvRmhrdmx0eGZyTWU0OEE5WFd0clM0R2ZsRXU4WVFNczJNOXM4LXB3TjJvdDdZeUotc3VnNWpjTTY3U0VYRzdSVHhVVElCQ0E2WFhCMENRekdB?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "Penobscot Community Health Care",
-        "ticker": null,
-        "industry": null,
-        "sector": "Healthcare",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Penobscot Community Health Care announces consolidation and layoffs amid financial challenges",
-      "tags": [
-        "layoff",
-        "healthcare"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "d09efc0ba448553b",
-      "ts": "2026-09-03T07:00:00Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBzN1BuSlBXb0xqMTE0QnNONkVXTTE2OU0zTHRkSzBMMU52UGJUZlFwN3YwZDRTTFVhLTFwV2hrQzNZV0hCbFRhUmhjQmVGMUljb015Z2UzT01jMFR3dXRwU3RDV2dtTTZ3MkxEZ2VmVDBZUGYwNVJ3SmJB0gGOAUFVX3lxTE83U1BMN1Q0SV91azNzeUZQUGdsQ3dZR2kyRUNpLTdUUGF0ZDlONW5DeUNrZ1JrQXRpdmFycTh5SldZYkFyUDRaLUlzTXpSdnRRaXNSaHZjdjdBVjcwZUtucVVfSS16TWxidEl0UnpJWWkxTWFTUXZkNm5wNFFTM19RTjAzSGxmRU1jcHNfLXc?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "Uber",
-        "ticker": null,
-        "industry": null,
-        "sector": "Retail",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Uber cuts 10% of staff in biggest layoffs since COVID to speed decisions - CHOSUNBIZ",
-      "tags": [
-        "layoff",
-        "retail"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "fa8fe06348a91da7",
-      "ts": "2026-09-03T07:00:00Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNQnI0bUxMVGZUZlE0UUtTb0hHSk95aF85cWhBTW1KeTFzS3NFRFI5WG5SRXhiZEZSSlFseXo3NGpTbFBtaWxCcUxXWThEWHpNZUREMVc0b3dRNXJlQm5uQnRObGxvSEtlZHM0VS02Zk5uN3hWQVVNYzVYdmQyQ3ZITnYwMnkxN2ZkRndrekVYWWtQVXpDVXc0?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "Volkswagen",
-        "ticker": null,
-        "industry": null,
-        "sector": "Manufacturing",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": 50000.0,
-      "unit": "people",
-      "raw_text": "Volkswagen to cut further 50,000 jobs as it ends row with union over revival plan | Volkswagen (VW)",
       "tags": [
         "layoff",
         "manufacturing"
