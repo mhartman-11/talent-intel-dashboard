@@ -1,11 +1,11 @@
 {
   "stream": "layoffs",
-  "generated_at": "2026-09-25T03:59:46.358216+00:00",
-  "total": 92,
-  "showing": 92,
+  "generated_at": "2026-09-25T11:25:00.145262+00:00",
+  "total": 91,
+  "showing": 91,
   "source_counts": {
     "state_warn": 59,
-    "news_layoffs": 28,
+    "news_layoffs": 27,
     "layoffs_fyi": 5
   },
   "sector_counts": {
@@ -17,9 +17,9 @@
     "Retail": 4,
     "Finance": 3,
     "CPG": 3,
-    "Manufacturing": 2,
     "Education": 2,
-    "Telecom": 2
+    "Telecom": 2,
+    "Manufacturing": 1
   },
   "events": [
     {
@@ -139,6 +139,29 @@
       "extras": {}
     },
     {
+      "id": "affa9c1380690276",
+      "ts": "2026-09-23T14:24:18Z",
+      "source": "news_layoffs",
+      "source_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPMGU4TWZNWUNnZ2VEckJFVTVnOE5EWVVXdkxqNEtJNy1yOVl0ODgxZXFTZWVSWnBOOUw4NEtxek9pMlN4RVVXSkF1d09hV3ROVEZPYXJyZjVmdU9GMXNmS1lVZ1hybUp5Q0c1N3VRZE5IcTJkQUJwaVY2bEQ1dEQtOWJSeS1vYzNPU0xIMV8xUQ?oc=5",
+      "type": "layoff",
+      "company": {
+        "name": "Microsoft",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": 500.0,
+      "unit": "people",
+      "raw_text": "Microsoft Announces New Round of Job Cuts, Affecting 500 Roles",
+      "tags": [
+        "layoff",
+        "technology"
+      ],
+      "extras": {}
+    },
+    {
       "id": "6d06af5d694fa104",
       "ts": "2026-09-23T11:02:00Z",
       "source": "news_layoffs",
@@ -247,29 +270,6 @@
       "magnitude": null,
       "unit": null,
       "raw_text": "Microsoft announced 3,200 Xbox job cuts in July. Now, it may cut hundreds more this week",
-      "tags": [
-        "layoff",
-        "technology"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "83c45a70cf14caa9",
-      "ts": "2026-09-22T12:04:39Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPb2Zqa29IWTVRbUpfakhsek84WnVieGczbEhWb1p3Sy1vTXRpQ0FpQk1Lc2JPaEk1OTFjNFFNU2dCam5KQk1QaTBMeGlNcnhnR1NMRkxSZnV2ZXduOTA3S0N3UEgyeFRidFdUYUxjRGdQdlU1Tkw4dS1ybkVFNUFaRWNmZElLcGFER3RiUTRST2FxQUJBTEhZbVhPaXRlcXppR2hSUW5aSXdxMGpNMWJDRndyNUZFNFlaWVR4elpyczJLYV9nWUJmaC1mN2N3ZVnSAcgBQVVfeXFMTi1aOWRiS1U0V0dJWWZyNDJWeGNiWUxaS3RkZGZJa3NVczI4ZVM1VDNjc2VxNS1MMjd4cWc2OEdqSFNvYzlkNVl3VVFwUzlMQ1U4UHFhWkFaaGxEY2Y2OERoZW5ZVXlhT3B0dDZJNXVlQzI1dEx0Vk9ZTWdCSDlxaWhjVkd6bUttZnNsTVBCWEJOU3E0WloxYnFkSjRsOGJ3eWI5ZGlTaU94NUpOaUd1Y3lZVzE3eU5FRUZ5bGo0LTRkYTBJT1J3c2M?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "Apple",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Apple trims Fitness+ team in second layoff in two months",
       "tags": [
         "layoff",
         "technology"
@@ -392,26 +392,73 @@
       "extras": {}
     },
     {
-      "id": "8ef35d3d3ae4c900",
+      "id": "c734df054db6a445",
       "ts": "2026-09-14T07:00:00Z",
       "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOM1ZvczR3VVZzWDV0LUJ5TGdXcFlhcE5IeVZIY3BEZEVCM0ZtWm9nb1Q1bm0tRzcxZnVtN0lNa0RwYm45WVQ0NWZsZ1d6dElyZE5lMThCaS0zWVk2VmtkNUdOaWF4QTBtZHRtMFdIdVhtWEJSZkRWT1psWWUxWFctaVJkRUZXaExDYnc?oc=5",
+      "source_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQbGZZdTdBQjhMZklKRGd6emtwMG1QNlk0akFISGl3OXJFcDJPUDN6QXVxT2l2RC1mdlAzc2g2RHI1QjljQW5BOEZ4dldhR2tjbEF4N2xfWnd5R3BtV190eG5zUFNGVjI1aldva1RhaVVFSFM1RGhIdDFIcWV3ODh4ZXpseDNVemNnZVE2TTlTdTJnbEU?oc=5",
+      "type": "layoff",
+      "company": {
+        "name": "Greg Cote",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": "FL",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Greg Cote laid off by Miami Herald after 54 years with paper",
+      "tags": [
+        "layoff",
+        "other",
+        "FL"
+      ],
+      "extras": {}
+    },
+    {
+      "id": "3419193293b5312c",
+      "ts": "2026-09-14T07:00:00Z",
+      "source": "news_layoffs",
+      "source_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPc0luVmJ2c2xxU1NKVlBJLW9scXNuUXdiQWtCeVBvYTVlMFJ6bUxpXzJQN05FTENsMGd1eXJHeHRUNlFKZEFLaU9ENW5uNktzdDdEMmctVnYzRUpUVEQtajFTOXJ2OXR1b1JMSUt6eDI1blpYRXc3eUMzREI5ZXJHb2ZKcWVtSnc2R21Bd01TaDQ5dTZQNFE?oc=5",
+      "type": "layoff",
+      "company": {
+        "name": "Rod Boone",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": "NC",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Rod Boone laid off by Charlotte Observer in latest round of McClatchy cuts",
+      "tags": [
+        "layoff",
+        "other",
+        "NC"
+      ],
+      "extras": {}
+    },
+    {
+      "id": "38e7f7a24eb2402d",
+      "ts": "2026-09-14T07:00:00Z",
+      "source": "news_layoffs",
+      "source_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQM1BZN05TOG4wLTFubjlNNDN1QmdnZlFYSEZZRDZSYkd4UVd0Zm1zUFZmRWhjMWtoSTZYOTFZOGxSTWFGYkI0U0FJOXNXUTFEdEExeUprb0JOU1pEaGhJUkJRRzZIa3c1elVkTk5EOUp5dngySDgwdWtRZnFQdzB3NzRRSjc3YVFmcmM5WWM5VF8?oc=5",
       "type": "layoff",
       "company": {
         "name": "Oracle",
         "ticker": null,
         "industry": null,
         "sector": "Technology",
-        "hq_region": "CA",
+        "hq_region": null,
         "size_band": "unknown"
       },
       "magnitude": null,
       "unit": null,
-      "raw_text": "Oracle announces new round of layoffs in early-morning email: \u2018Today is your last working day\u2019",
+      "raw_text": "Oracle announces new layoffs to offset AI spending",
       "tags": [
         "layoff",
-        "technology",
-        "CA"
+        "technology"
       ],
       "extras": {}
     },
@@ -598,75 +645,6 @@
         "layoff",
         "healthcare",
         "MI"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "daa00e6662ae7ec8",
-      "ts": "2026-09-04T07:00:00Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPM0c2eS05S1BzRmpEVzZlVG8tTjRJanFpRE9wYVU4MlNEdFpKanQ2bTNIWHo1TFJjZWVQUWJnWU0ySE5rcG1zTkNlTkdTd1lISk1Yd1J4RFN0Y1MzU3NxMG14VERBc2dPc2tURURRQmJuWGNyaldTai02Q0FhTXE2Nk5QZ0g1R0dNQW9sU2VoX1l5aVBzUVkyY190UEQ4ZUpLVzZXMDhDZmdQZjU2bW1Cc2xPSm1hZHFOTkhFbnBvTWRvWC04TTZ6NU53UjNSUUsyYmo2clp1QTkyNV92QkRwWGpsV3A0Z1duMzJpRUJn?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "PCHC",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "PCHC announces layoffs, Bangor office closure amid financial struggles",
-      "tags": [
-        "layoff",
-        "other"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "9f665c6f84fb73cc",
-      "ts": "2026-09-04T07:00:00Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQRDJLLXVtVGdNMUVaSmNzUEc5dlNCMGNKNmJGSkgwWmlHcGhidWctZW1LY0VmNVJzQmJnczhBUkJSWWZWV3ZPWm9NZi1hcExscHRPRkVZMThhWk0zYWlBY21UbU1oM2VBcmxzYjE1ZXpldVp3a3hySHRCOHBCbjhWNktMWGZ6UdIBiwFBVV95cUxQY25GTnJfYk9lS1RNUklwSmtuQXVvcEp2RDdvQS1wenpEY2RkbDZQQnBQS3hqZkk1QUZBSXB6VkVZUXVMM3NkckxrUUpxbkxXbXNjQ2Vta1NmZ210NmVBYjJtUkg5T1hmVkRsTng5Q1J6WmVsb1ZRVFVxYThJZS12Wk5vU1dXUllaTTFj?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "Automobile Giant To",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": 1.0,
-      "unit": "people",
-      "raw_text": "Automobile Giant To Cut 1 Lakh Jobs By 2030",
-      "tags": [
-        "layoff",
-        "other"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "0519e564ebc3b0ef",
-      "ts": "2026-09-04T07:00:00Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOMFhfNlpDanlJVVFiX2FlOWotdUFRNUdVQmk3eWlGbWRzeDNLNlBKSUdtNkphMHEtUk1nTkN2RWxRbVVtWjJaMWJfV0ZFS2dNVVRCVjlTUGkycUNvdWtTUTlYS3BqV3JtQk5DYTE2TU1sdF95WEEzd0FmUVNvT2ZDeFpfcC1Ld9IBhgFBVV95cUxNdjRJZjg0RkpZbzlGTHdPWEF6WHFVOU1pRUk4dE1rcXdIWHlGcGlacnRyWEctc2U4UTNqMUdUQ3ZIbldrYmdyeHFHQzFTMmFsWHluNUFVV1FJRUlsZTBIaU5qTDVoMUFUcEQ0TFppZE5lM25DTzMwc05YU0s0LVh6cmVLYm1GUQ?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "Volkswagen",
-        "ticker": null,
-        "industry": null,
-        "sector": "Manufacturing",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": 100000.0,
-      "unit": "people",
-      "raw_text": "Volkswagen to cut 100,000 jobs by end of decade",
-      "tags": [
-        "layoff",
-        "manufacturing"
       ],
       "extras": {}
     },
