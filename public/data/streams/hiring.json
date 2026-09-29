@@ -1,24 +1,941 @@
 {
   "stream": "hiring",
-  "generated_at": "2026-09-29T04:50:27.288096+00:00",
-  "total": 3803,
+  "generated_at": "2026-09-29T12:22:08.745456+00:00",
+  "total": 3806,
   "showing": 500,
   "source_counts": {
-    "greenhouse": 3441,
-    "ashby": 281,
-    "lever": 81
+    "greenhouse": 3440,
+    "ashby": 286,
+    "lever": 80
   },
   "sector_counts": {
-    "Technology": 2855,
-    "Finance": 433,
-    "Healthcare": 260,
-    "Media": 226,
+    "Technology": 2863,
+    "Finance": 432,
+    "Healthcare": 257,
+    "Media": 225,
     "CPG": 29
   },
   "events": [
     {
+      "id": "f0219e75060b57b7",
+      "ts": "2026-09-29T08:16:05-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8011163",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Senior Director, Product & Technology Finance | Remote - United States",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "Engineering Management"
+      ],
+      "extras": {
+        "role": "Senior Director, Product & Technology Finance",
+        "location": "Remote - United States",
+        "function": "Engineering Management",
+        "soc": "11-9041",
+        "seniority": "director"
+      }
+    },
+    {
+      "id": "d518f1762d84ef13",
+      "ts": "2026-09-29T08:15:48-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8114666",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": "NY",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Client Partner, Mid-Market Sales (B2B Services - Acquisitions) | New York City, NY",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "NY"
+      ],
+      "extras": {
+        "role": "Client Partner, Mid-Market Sales (B2B Services - Acquisitions)",
+        "location": "New York City, NY",
+        "seniority": "mid",
+        "remote": "onsite"
+      }
+    },
+    {
+      "id": "1aaa12613bb339c6",
+      "ts": "2026-09-29T08:15:48-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8202510",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Client Partner, Mid-Market Sales (Goods) | Toronto, Canada",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media"
+      ],
+      "extras": {
+        "role": "Client Partner, Mid-Market Sales (Goods)",
+        "location": "Toronto, Canada",
+        "seniority": "mid",
+        "remote": "onsite"
+      }
+    },
+    {
+      "id": "35b48beb2e00e2b5",
+      "ts": "2026-09-29T08:15:48-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8171546",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": "NY",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Senior Client Account Manager, App Dev Enterprise | New York City, NY",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "NY",
+        "Customer Success"
+      ],
+      "extras": {
+        "role": "Senior Client Account Manager, App Dev Enterprise",
+        "location": "New York City, NY",
+        "function": "Customer Success",
+        "soc": "13-1161",
+        "seniority": "senior"
+      }
+    },
+    {
+      "id": "901b9181a5303983",
+      "ts": "2026-09-29T08:15:48-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7420175",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Senior Client Partner, Acquisitions DACH | Amsterdam, Netherlands",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media"
+      ],
+      "extras": {
+        "role": "Senior Client Partner, Acquisitions DACH",
+        "location": "Amsterdam, Netherlands",
+        "seniority": "senior"
+      }
+    },
+    {
+      "id": "4a50b3c61105cba6",
+      "ts": "2026-09-29T08:15:48-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8196990",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": "NY",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Senior Client Partner, Mid-Market (B2C Services Acquisitions) | New York City, NY",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "NY"
+      ],
+      "extras": {
+        "role": "Senior Client Partner, Mid-Market (B2C Services Acquisitions)",
+        "location": "New York City, NY",
+        "seniority": "senior",
+        "remote": "onsite"
+      }
+    },
+    {
+      "id": "46997928fbea014f",
+      "ts": "2026-09-29T08:06:04-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8128860",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Senior Backend Engineer, Compliance Engineering | Remote - United States",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "Software Engineering"
+      ],
+      "extras": {
+        "role": "Senior Backend Engineer, Compliance Engineering",
+        "location": "Remote - United States",
+        "function": "Software Engineering",
+        "soc": "15-1252",
+        "seniority": "senior"
+      }
+    },
+    {
+      "id": "477473ef79d19204",
+      "ts": "2026-09-29T07:42:32-04:00",
+      "source": "greenhouse",
+      "source_url": "https://stripe.com/jobs/search?gh_jid=8221774",
+      "type": "posting",
+      "company": {
+        "name": "Stripe",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Stripe | Product Support Manager | Singapore ",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology"
+      ],
+      "extras": {
+        "role": "Product Support Manager",
+        "location": "Singapore ",
+        "seniority": "manager"
+      }
+    },
+    {
+      "id": "677a7b736b4c014d",
+      "ts": "2026-09-29T07:28:42-04:00",
+      "source": "greenhouse",
+      "source_url": "https://boards.greenhouse.io/cloudflare/jobs/8079117?gh_jid=8079117",
+      "type": "posting",
+      "company": {
+        "name": "Cloudflare",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Cloudflare | Senior Systems Engineer, Cloudflare Tunnel | Hybrid",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "Software Engineering"
+      ],
+      "extras": {
+        "role": "Senior Systems Engineer, Cloudflare Tunnel",
+        "location": "Hybrid",
+        "function": "Software Engineering",
+        "soc": "15-1252",
+        "seniority": "senior"
+      }
+    },
+    {
+      "id": "4dad1955cb894e4e",
+      "ts": "2026-09-29T07:14:22-04:00",
+      "source": "greenhouse",
+      "source_url": "https://stripe.com/jobs/search?gh_jid=8174141",
+      "type": "posting",
+      "company": {
+        "name": "Stripe",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Stripe | Account Executive Product - Global Selling | Sydney Or Melbourne",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "Sales"
+      ],
+      "extras": {
+        "role": "Account Executive Product - Global Selling",
+        "location": "Sydney Or Melbourne",
+        "function": "Sales",
+        "soc": "41-3091",
+        "seniority": "mid"
+      }
+    },
+    {
+      "id": "46d69cf4a878d7b1",
+      "ts": "2026-09-29T06:56:47-04:00",
+      "source": "greenhouse",
+      "source_url": "https://boards.greenhouse.io/robinhood/jobs/8232855?t=gh_src=&gh_jid=8232855",
+      "type": "posting",
+      "company": {
+        "name": "Robinhood",
+        "ticker": null,
+        "industry": null,
+        "sector": "Finance",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Robinhood | Senior Software Engineer, Prime | Ljubljana, Slovenia",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "finance",
+        "Software Engineering"
+      ],
+      "extras": {
+        "role": "Senior Software Engineer, Prime",
+        "location": "Ljubljana, Slovenia",
+        "function": "Software Engineering",
+        "soc": "15-1252",
+        "seniority": "senior"
+      }
+    },
+    {
+      "id": "45c928f25973f7ab",
+      "ts": "2026-09-29T06:53:40-04:00",
+      "source": "greenhouse",
+      "source_url": "https://boards.greenhouse.io/robinhood/jobs/8232853?t=gh_src=&gh_jid=8232853",
+      "type": "posting",
+      "company": {
+        "name": "Robinhood",
+        "ticker": null,
+        "industry": null,
+        "sector": "Finance",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Robinhood | Senior Software Engineer, Prime | London, UK",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "finance",
+        "Software Engineering"
+      ],
+      "extras": {
+        "role": "Senior Software Engineer, Prime",
+        "location": "London, UK",
+        "function": "Software Engineering",
+        "soc": "15-1252",
+        "seniority": "senior"
+      }
+    },
+    {
+      "id": "abadd04e9ac46e44",
+      "ts": "2026-09-29T06:41:56-04:00",
+      "source": "greenhouse",
+      "source_url": "https://boards.greenhouse.io/robinhood/jobs/7648454?t=gh_src=&gh_jid=7648454",
+      "type": "posting",
+      "company": {
+        "name": "Robinhood",
+        "ticker": null,
+        "industry": null,
+        "sector": "Finance",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Robinhood | Senior Software Engineer, Custody Services | Ljubljana, Slovenia",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "finance",
+        "Software Engineering"
+      ],
+      "extras": {
+        "role": "Senior Software Engineer, Custody Services",
+        "location": "Ljubljana, Slovenia",
+        "function": "Software Engineering",
+        "soc": "15-1252",
+        "seniority": "senior"
+      }
+    },
+    {
+      "id": "f7a3814c610e6de3",
+      "ts": "2026-09-29T06:26:40-04:00",
+      "source": "greenhouse",
+      "source_url": "https://stripe.com/jobs/search?gh_jid=8234252",
+      "type": "posting",
+      "company": {
+        "name": "Stripe",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Stripe | Engineering Manager, Accounting Products | Bengaluru, India",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "Engineering Management"
+      ],
+      "extras": {
+        "role": "Engineering Manager, Accounting Products",
+        "location": "Bengaluru, India",
+        "function": "Engineering Management",
+        "soc": "11-9041",
+        "seniority": "manager"
+      }
+    },
+    {
+      "id": "8774d71305463f53",
+      "ts": "2026-09-29T06:26:33-04:00",
+      "source": "greenhouse",
+      "source_url": "https://stripe.com/jobs/search?gh_jid=8076108",
+      "type": "posting",
+      "company": {
+        "name": "Stripe",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Stripe | Head of Risk Programs, APAC | Singapore",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology"
+      ],
+      "extras": {
+        "role": "Head of Risk Programs, APAC",
+        "location": "Singapore",
+        "seniority": "mid"
+      }
+    },
+    {
+      "id": "cc2bd991a2352be7",
+      "ts": "2026-09-29T06:21:03-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/anthropic/jobs/5435282008",
+      "type": "posting",
+      "company": {
+        "name": "Anthropic",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Anthropic | Applied AI Engineer, DNB | London, UK",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "Data / ML"
+      ],
+      "extras": {
+        "role": "Applied AI Engineer, DNB",
+        "location": "London, UK",
+        "function": "Data / ML",
+        "soc": "15-2051",
+        "seniority": "mid"
+      }
+    },
+    {
+      "id": "6a6fa253fde45f11",
+      "ts": "2026-09-29T06:18:27-04:00",
+      "source": "greenhouse",
+      "source_url": "https://stripe.com/jobs/search?gh_jid=8213481",
+      "type": "posting",
+      "company": {
+        "name": "Stripe",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Stripe | Account Executive, Product (Global Payouts - Hunter) | London",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "Sales"
+      ],
+      "extras": {
+        "role": "Account Executive, Product (Global Payouts - Hunter)",
+        "location": "London",
+        "function": "Sales",
+        "soc": "41-3091",
+        "seniority": "mid",
+        "stack": [
+          "go"
+        ]
+      }
+    },
+    {
+      "id": "e5a064539b607ed3",
+      "ts": "2026-09-29T06:17:24-04:00",
+      "source": "greenhouse",
+      "source_url": "https://boards.greenhouse.io/cloudflare/jobs/8179387?gh_jid=8179387",
+      "type": "posting",
+      "company": {
+        "name": "Cloudflare",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Cloudflare | Principal Solutions Architect, APJC (Developer Platform) - Mandarin Speaking | Hybrid",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology"
+      ],
+      "extras": {
+        "role": "Principal Solutions Architect, APJC (Developer Platform) - Mandarin Speaking",
+        "location": "Hybrid",
+        "seniority": "principal"
+      }
+    },
+    {
+      "id": "ce84044373f0428b",
+      "ts": "2026-09-29T06:16:34-04:00",
+      "source": "greenhouse",
+      "source_url": "https://boards.greenhouse.io/cloudflare/jobs/8169689?gh_jid=8169689",
+      "type": "posting",
+      "company": {
+        "name": "Cloudflare",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Cloudflare | Senior Solutions Architect, APJC (Developer Platform) - India Market | Hybrid",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology"
+      ],
+      "extras": {
+        "role": "Senior Solutions Architect, APJC (Developer Platform) - India Market",
+        "location": "Hybrid",
+        "seniority": "senior"
+      }
+    },
+    {
+      "id": "f4b3bcc1b7ebffd3",
+      "ts": "2026-09-29T06:00:37-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/anthropic/jobs/5248983008",
+      "type": "posting",
+      "company": {
+        "name": "Anthropic",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Anthropic | Applied AI Engineer | Sydney, Australia",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "Data / ML"
+      ],
+      "extras": {
+        "role": "Applied AI Engineer",
+        "location": "Sydney, Australia",
+        "function": "Data / ML",
+        "soc": "15-2051",
+        "seniority": "mid"
+      }
+    },
+    {
+      "id": "0177bd80dd523811",
+      "ts": "2026-09-29T05:58:02-04:00",
+      "source": "greenhouse",
+      "source_url": "https://boards.greenhouse.io/cloudflare/jobs/6629769?gh_jid=6629769",
+      "type": "posting",
+      "company": {
+        "name": "Cloudflare",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Cloudflare | Senior Customer Experience Manager - German Speaking | Hybrid",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "Customer Success"
+      ],
+      "extras": {
+        "role": "Senior Customer Experience Manager - German Speaking",
+        "location": "Hybrid",
+        "function": "Customer Success",
+        "soc": "13-1161",
+        "seniority": "senior"
+      }
+    },
+    {
+      "id": "71c70ccf3111e295",
+      "ts": "2026-09-29T05:28:26-04:00",
+      "source": "greenhouse",
+      "source_url": "https://boards.greenhouse.io/cloudflare/jobs/8158617?gh_jid=8158617",
+      "type": "posting",
+      "company": {
+        "name": "Cloudflare",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Cloudflare | Senior Customer Engineer, Digital Native Business, Indonesia | Hybrid",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology"
+      ],
+      "extras": {
+        "role": "Senior Customer Engineer, Digital Native Business, Indonesia",
+        "location": "Hybrid",
+        "seniority": "senior",
+        "stack": [
+          "go"
+        ]
+      }
+    },
+    {
+      "id": "bcb4b27a51fc8254",
+      "ts": "2026-09-29T05:25:32-04:00",
+      "source": "greenhouse",
+      "source_url": "https://boards.greenhouse.io/cloudflare/jobs/8158614?gh_jid=8158614",
+      "type": "posting",
+      "company": {
+        "name": "Cloudflare",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Cloudflare | Senior Customer Engineer, Digital Native Business (Singapore) | Hybrid",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology"
+      ],
+      "extras": {
+        "role": "Senior Customer Engineer, Digital Native Business (Singapore)",
+        "location": "Hybrid",
+        "seniority": "senior",
+        "stack": [
+          "go"
+        ]
+      }
+    },
+    {
+      "id": "654cfbe51cf05d2b",
+      "ts": "2026-09-29T05:20:22-04:00",
+      "source": "greenhouse",
+      "source_url": "https://boards.greenhouse.io/cloudflare/jobs/8152765?gh_jid=8152765",
+      "type": "posting",
+      "company": {
+        "name": "Cloudflare",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Cloudflare | Director of Product Management, Fintech | Hybrid",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "Engineering Management"
+      ],
+      "extras": {
+        "role": "Director of Product Management, Fintech",
+        "location": "Hybrid",
+        "function": "Engineering Management",
+        "soc": "11-9041",
+        "seniority": "director",
+        "remote": "hybrid"
+      }
+    },
+    {
+      "id": "7645a1c530a9b6f8",
+      "ts": "2026-09-29T05:18:28-04:00",
+      "source": "greenhouse",
+      "source_url": "https://boards.greenhouse.io/cloudflare/jobs/8237801?gh_jid=8237801",
+      "type": "posting",
+      "company": {
+        "name": "Cloudflare",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Cloudflare | Senior Software Engineer, KPI & Cryptographic Systems | Hybrid",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "Software Engineering"
+      ],
+      "extras": {
+        "role": "Senior Software Engineer, KPI & Cryptographic Systems",
+        "location": "Hybrid",
+        "function": "Software Engineering",
+        "soc": "15-1252",
+        "seniority": "senior",
+        "remote": "hybrid"
+      }
+    },
+    {
+      "id": "a5b2d1aa58d3fe6e",
+      "ts": "2026-09-29T05:03:28-04:00",
+      "source": "greenhouse",
+      "source_url": "https://stripe.com/jobs/search?gh_jid=8114402",
+      "type": "posting",
+      "company": {
+        "name": "Stripe",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Stripe | Account Executive, Nordics | Sweden",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "Sales"
+      ],
+      "extras": {
+        "role": "Account Executive, Nordics",
+        "location": "Sweden",
+        "function": "Sales",
+        "soc": "41-3091",
+        "seniority": "mid"
+      }
+    },
+    {
+      "id": "8391859458d3d100",
+      "ts": "2026-09-29T05:00:02-04:00",
+      "source": "greenhouse",
+      "source_url": "https://stripe.com/jobs/search?gh_jid=8227570",
+      "type": "posting",
+      "company": {
+        "name": "Stripe",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Stripe | Global People Operations - Systems Administrator | Bengaluru",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "People / HR / Recruiting"
+      ],
+      "extras": {
+        "role": "Global People Operations - Systems Administrator",
+        "location": "Bengaluru",
+        "function": "People / HR / Recruiting",
+        "soc": "13-1071",
+        "seniority": "mid"
+      }
+    },
+    {
+      "id": "6c5998976735262c",
+      "ts": "2026-09-29T04:52:47-04:00",
+      "source": "greenhouse",
+      "source_url": "https://boards.greenhouse.io/cloudflare/jobs/8222299?gh_jid=8222299",
+      "type": "posting",
+      "company": {
+        "name": "Cloudflare",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Cloudflare | Senior Account Executive, Strategic Pursuits - FSI, SAARC (Based in Bangalore) | Hybrid",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "Sales"
+      ],
+      "extras": {
+        "role": "Senior Account Executive, Strategic Pursuits - FSI, SAARC (Based in Bangalore)",
+        "location": "Hybrid",
+        "function": "Sales",
+        "soc": "41-3091",
+        "seniority": "senior"
+      }
+    },
+    {
+      "id": "713da2370988b58b",
+      "ts": "2026-09-29T04:52:41-04:00",
+      "source": "greenhouse",
+      "source_url": "https://boards.greenhouse.io/cloudflare/jobs/8220063?gh_jid=8220063",
+      "type": "posting",
+      "company": {
+        "name": "Cloudflare",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Cloudflare | Senior Account Executive, Strategic Pursuits - Banking / Social Services, Hong Kong (Based in Singapore) | Hybrid",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "Sales"
+      ],
+      "extras": {
+        "role": "Senior Account Executive, Strategic Pursuits - Banking / Social Services, Hong Kong (Based in Singapore)",
+        "location": "Hybrid",
+        "function": "Sales",
+        "soc": "41-3091",
+        "seniority": "senior"
+      }
+    },
+    {
+      "id": "41b8e2fc288eaa8b",
+      "ts": "2026-09-29T04:40:33-04:00",
+      "source": "greenhouse",
+      "source_url": "https://boards.greenhouse.io/cloudflare/jobs/8220060?gh_jid=8220060",
+      "type": "posting",
+      "company": {
+        "name": "Cloudflare",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Cloudflare | Senior Account Executive, Strategic Pursuits - Aviation APAC (Based in Singapore) | Hybrid",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "Sales"
+      ],
+      "extras": {
+        "role": "Senior Account Executive, Strategic Pursuits - Aviation APAC (Based in Singapore)",
+        "location": "Hybrid",
+        "function": "Sales",
+        "soc": "41-3091",
+        "seniority": "senior"
+      }
+    },
+    {
       "id": "79ff97f9c73d08b0",
-      "ts": "2026-09-29T00:28:05-04:00",
+      "ts": "2026-09-29T04:40:12-04:00",
       "source": "greenhouse",
       "source_url": "https://job-boards.greenhouse.io/anthropic/jobs/5431578008",
       "type": "posting",
@@ -32,16 +949,390 @@
       },
       "magnitude": null,
       "unit": "jobs",
-      "raw_text": "Anthropic | Finance & Strategy, Deal Desk - APAC | Tokyo, Japan",
+      "raw_text": "Anthropic | Finance & Strategy, Deal Strategy - APAC | Tokyo, Japan",
       "tags": [
         "hiring",
         "greenhouse",
         "technology"
       ],
       "extras": {
-        "role": "Finance & Strategy, Deal Desk - APAC",
+        "role": "Finance & Strategy, Deal Strategy - APAC",
         "location": "Tokyo, Japan",
         "seniority": "mid"
+      }
+    },
+    {
+      "id": "9a6aa78d43c81c59",
+      "ts": "2026-09-29T04:24:59-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/anthropic/jobs/5432554008",
+      "type": "posting",
+      "company": {
+        "name": "Anthropic",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Anthropic | Applied AI Architects, Partner | Seoul, South Korea",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology"
+      ],
+      "extras": {
+        "role": "Applied AI Architects, Partner",
+        "location": "Seoul, South Korea",
+        "seniority": "mid",
+        "stack": [
+          "aws",
+          "gcp"
+        ]
+      }
+    },
+    {
+      "id": "9b7358132aa0f191",
+      "ts": "2026-09-29T04:23:58-04:00",
+      "source": "greenhouse",
+      "source_url": "https://boards.greenhouse.io/robinhood/jobs/8202146?t=gh_src=&gh_jid=8202146",
+      "type": "posting",
+      "company": {
+        "name": "Robinhood",
+        "ticker": null,
+        "industry": null,
+        "sector": "Finance",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Robinhood | Internal Audit Senior Associate | Ljubljana, Slovenia",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "finance"
+      ],
+      "extras": {
+        "role": "Internal Audit Senior Associate",
+        "location": "Ljubljana, Slovenia",
+        "seniority": "senior"
+      }
+    },
+    {
+      "id": "ca942c8f5685cb26",
+      "ts": "2026-09-29T08:07:23.093000Z",
+      "source": "ashby",
+      "source_url": "https://jobs.ashbyhq.com/cursor/4bdc7a96-fa0c-4330-b4d8-c65333d09f7b",
+      "type": "posting",
+      "company": {
+        "name": "Cursor",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Cursor | Strategic Account Executive, Enterprise - Indonesia | Indonesia | Sales",
+      "tags": [
+        "hiring",
+        "ashby",
+        "technology",
+        "Sales"
+      ],
+      "extras": {
+        "role": "Strategic Account Executive, Enterprise - Indonesia",
+        "location": "Indonesia",
+        "department": "Sales",
+        "employment_type": "FullTime",
+        "function": "Sales",
+        "soc": "41-3091",
+        "seniority": "mid"
+      }
+    },
+    {
+      "id": "4fac9f5196709d9b",
+      "ts": "2026-09-29T03:59:07-04:00",
+      "source": "greenhouse",
+      "source_url": "https://stripe.com/jobs/search?gh_jid=8177634",
+      "type": "posting",
+      "company": {
+        "name": "Stripe",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Stripe | Account Executive, Platforms Grower (French fluency) | Paris",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "Sales"
+      ],
+      "extras": {
+        "role": "Account Executive, Platforms Grower (French fluency)",
+        "location": "Paris",
+        "function": "Sales",
+        "soc": "41-3091",
+        "seniority": "mid"
+      }
+    },
+    {
+      "id": "b4b54adaf0554529",
+      "ts": "2026-09-29T07:54:27.222000Z",
+      "source": "ashby",
+      "source_url": "https://jobs.ashbyhq.com/cursor/2e98f028-1b77-4537-aeee-e2962668c970",
+      "type": "posting",
+      "company": {
+        "name": "Cursor",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Cursor | Strategic Account Executive, Enterprise - Phillippines | Philippines | Sales",
+      "tags": [
+        "hiring",
+        "ashby",
+        "technology",
+        "Sales"
+      ],
+      "extras": {
+        "role": "Strategic Account Executive, Enterprise - Phillippines",
+        "location": "Philippines",
+        "department": "Sales",
+        "employment_type": "FullTime",
+        "function": "Sales",
+        "soc": "41-3091",
+        "seniority": "mid",
+        "remote": "remote"
+      }
+    },
+    {
+      "id": "087f29b5e284a3d1",
+      "ts": "2026-09-29T02:53:34-04:00",
+      "source": "greenhouse",
+      "source_url": "https://stripe.com/jobs/search?gh_jid=8102597",
+      "type": "posting",
+      "company": {
+        "name": "Stripe",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Stripe | Operations Associate, Financial Crimes EDD/PEP | Bangalore ",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "Operations"
+      ],
+      "extras": {
+        "role": "Operations Associate, Financial Crimes EDD/PEP",
+        "location": "Bangalore ",
+        "function": "Operations",
+        "soc": "11-1021",
+        "seniority": "junior"
+      }
+    },
+    {
+      "id": "97cda58fa24f2013",
+      "ts": "2026-09-29T06:37:17.408000Z",
+      "source": "ashby",
+      "source_url": "https://jobs.ashbyhq.com/cursor/2ca532ac-da2a-4f45-ba60-fe4de80ca821",
+      "type": "posting",
+      "company": {
+        "name": "Cursor",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Cursor | Strategic Account Executive, Enterprise - South Korea | South Korea | Sales",
+      "tags": [
+        "hiring",
+        "ashby",
+        "technology",
+        "Sales"
+      ],
+      "extras": {
+        "role": "Strategic Account Executive, Enterprise - South Korea",
+        "location": "South Korea",
+        "department": "Sales",
+        "employment_type": "FullTime",
+        "function": "Sales",
+        "soc": "41-3091",
+        "seniority": "mid",
+        "remote": "remote"
+      }
+    },
+    {
+      "id": "cb0476bf2e586133",
+      "ts": "2026-09-29T06:34:56.118000Z",
+      "source": "ashby",
+      "source_url": "https://jobs.ashbyhq.com/cursor/066afe7d-e580-4f13-88d9-828a50bea894",
+      "type": "posting",
+      "company": {
+        "name": "Cursor",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Cursor | Field Engineer - South Korea | South Korea | Solutions",
+      "tags": [
+        "hiring",
+        "ashby",
+        "technology"
+      ],
+      "extras": {
+        "role": "Field Engineer - South Korea",
+        "location": "South Korea",
+        "department": "Solutions",
+        "employment_type": "FullTime",
+        "seniority": "mid",
+        "remote": "remote"
+      }
+    },
+    {
+      "id": "df2eb571ba3eced2",
+      "ts": "2026-09-29T06:34:22.381000Z",
+      "source": "ashby",
+      "source_url": "https://jobs.ashbyhq.com/cursor/13517b5d-1c6c-4720-9650-b1d0db72c697",
+      "type": "posting",
+      "company": {
+        "name": "Cursor",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Cursor | AI Deployment Manager - Japan | Japan | Customer Success",
+      "tags": [
+        "hiring",
+        "ashby",
+        "technology"
+      ],
+      "extras": {
+        "role": "AI Deployment Manager - Japan",
+        "location": "Japan",
+        "department": "Customer Success",
+        "employment_type": "FullTime",
+        "seniority": "manager",
+        "remote": "remote"
+      }
+    },
+    {
+      "id": "d7b7070fa3b9923e",
+      "ts": "2026-09-29T01:29:23-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/oscar/jobs/8239025",
+      "type": "posting",
+      "company": {
+        "name": "Oscar Health",
+        "ticker": null,
+        "industry": null,
+        "sector": "Healthcare",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Oscar Health | Bilingual Physician (Spanish/English) - Virtual Health Assessment Team | Remote",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "healthcare"
+      ],
+      "extras": {
+        "role": "Bilingual Physician (Spanish/English) - Virtual Health Assessment Team",
+        "location": "Remote",
+        "seniority": "mid",
+        "salary_min": 216406.0,
+        "salary_max": 284032.0,
+        "remote": "remote"
+      }
+    },
+    {
+      "id": "8eb114accac0e911",
+      "ts": "2026-09-29T01:26:45-04:00",
+      "source": "greenhouse",
+      "source_url": "https://stripe.com/jobs/search?gh_jid=8239006",
+      "type": "posting",
+      "company": {
+        "name": "Stripe",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Stripe | Android BSP Engineer | Taipei, Taiwan",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology"
+      ],
+      "extras": {
+        "role": "Android BSP Engineer",
+        "location": "Taipei, Taiwan",
+        "seniority": "mid",
+        "remote": "onsite"
+      }
+    },
+    {
+      "id": "06fd48f44c02eed2",
+      "ts": "2026-09-29T01:09:02-04:00",
+      "source": "greenhouse",
+      "source_url": "https://stripe.com/jobs/search?gh_jid=8203653",
+      "type": "posting",
+      "company": {
+        "name": "Stripe",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Stripe | Operations Program Manager | Bengaluru",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology"
+      ],
+      "extras": {
+        "role": "Operations Program Manager",
+        "location": "Bengaluru",
+        "seniority": "manager",
+        "remote": "remote"
       }
     },
     {
@@ -73,37 +1364,6 @@
         "department": "University Recruiting",
         "employment_type": "FullTime",
         "seniority": "staff"
-      }
-    },
-    {
-      "id": "f7a3814c610e6de3",
-      "ts": "2026-09-28T23:52:29-04:00",
-      "source": "greenhouse",
-      "source_url": "https://stripe.com/jobs/search?gh_jid=8234252",
-      "type": "posting",
-      "company": {
-        "name": "Stripe",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Stripe | Engineering Manager, Accounting Products | Bengaluru, India",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "Engineering Management"
-      ],
-      "extras": {
-        "role": "Engineering Manager, Accounting Products",
-        "location": "Bengaluru, India",
-        "function": "Engineering Management",
-        "soc": "11-9041",
-        "seniority": "manager"
       }
     },
     {
@@ -295,68 +1555,6 @@
         "function": "Engineering Management",
         "soc": "11-9041",
         "seniority": "manager"
-      }
-    },
-    {
-      "id": "c4901240b951c675",
-      "ts": "2026-09-28T22:22:02-04:00",
-      "source": "greenhouse",
-      "source_url": "https://boards.greenhouse.io/cloudflare/jobs/8158609?gh_jid=8158609",
-      "type": "posting",
-      "company": {
-        "name": "Cloudflare",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Cloudflare | Senior Customer Engineer, Singapore | Hybrid",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology"
-      ],
-      "extras": {
-        "role": "Senior Customer Engineer, Singapore",
-        "location": "Hybrid",
-        "seniority": "senior",
-        "stack": [
-          "go"
-        ]
-      }
-    },
-    {
-      "id": "71c70ccf3111e295",
-      "ts": "2026-09-28T22:21:25-04:00",
-      "source": "greenhouse",
-      "source_url": "https://boards.greenhouse.io/cloudflare/jobs/8158617?gh_jid=8158617",
-      "type": "posting",
-      "company": {
-        "name": "Cloudflare",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Cloudflare | Senior Customer Engineer, Digital Native Business, Indonesia | Hybrid",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology"
-      ],
-      "extras": {
-        "role": "Senior Customer Engineer, Digital Native Business, Indonesia",
-        "location": "Hybrid",
-        "seniority": "senior",
-        "stack": [
-          "go"
-        ]
       }
     },
     {
@@ -861,34 +2059,6 @@
       }
     },
     {
-      "id": "0f48b6364f478667",
-      "ts": "2026-09-28T20:29:03-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8022260",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Senior Business Engineer - Ads | Remote - British Columbia, Canada",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media"
-      ],
-      "extras": {
-        "role": "Senior Business Engineer - Ads",
-        "location": "Remote - British Columbia, Canada",
-        "seniority": "senior"
-      }
-    },
-    {
       "id": "0f392636e4180731",
       "ts": "2026-09-28T20:29:03-04:00",
       "source": "greenhouse",
@@ -913,6 +2083,34 @@
       "extras": {
         "role": "Senior Business Engineer - Ads",
         "location": "Remote - United States",
+        "seniority": "senior"
+      }
+    },
+    {
+      "id": "0f48b6364f478667",
+      "ts": "2026-09-28T20:29:03-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8022260",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Senior Business Engineer - Ads | Remote - British Columbia, Canada",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media"
+      ],
+      "extras": {
+        "role": "Senior Business Engineer - Ads",
+        "location": "Remote - British Columbia, Canada",
         "seniority": "senior"
       }
     },
@@ -1038,65 +2236,6 @@
         "function": "Product",
         "soc": "11-2021",
         "seniority": "staff"
-      }
-    },
-    {
-      "id": "1aaa12613bb339c6",
-      "ts": "2026-09-28T20:29:02-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8202510",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Client Partner, Mid-Market Sales (Goods) | Toronto, Canada",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media"
-      ],
-      "extras": {
-        "role": "Client Partner, Mid-Market Sales (Goods)",
-        "location": "Toronto, Canada",
-        "seniority": "mid",
-        "remote": "onsite"
-      }
-    },
-    {
-      "id": "4a50b3c61105cba6",
-      "ts": "2026-09-28T20:29:02-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8196990",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": "NY",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Senior Client Partner, Mid-Market (B2C Services Acquisitions) | New York City, NY",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
-        "NY"
-      ],
-      "extras": {
-        "role": "Senior Client Partner, Mid-Market (B2C Services Acquisitions)",
-        "location": "New York City, NY",
-        "seniority": "senior",
-        "remote": "onsite"
       }
     },
     {
@@ -1290,32 +2429,32 @@
       }
     },
     {
-      "id": "5b3ae701690e5a88",
+      "id": "25890219aefb50f3",
       "ts": "2026-09-28T20:29:01-04:00",
       "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8195620",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8195627",
       "type": "posting",
       "company": {
         "name": "Reddit",
         "ticker": null,
         "industry": null,
         "sector": "Media",
-        "hq_region": "CA",
+        "hq_region": "IL",
         "size_band": "unknown"
       },
       "magnitude": null,
       "unit": "jobs",
-      "raw_text": "Reddit | Director, Revenue Strategy & Operations (Large Customer Sales) | San Francisco, CA",
+      "raw_text": "Reddit | Director, Revenue Strategy & Operations (Large Customer Sales) | Chicago, IL",
       "tags": [
         "hiring",
         "greenhouse",
         "media",
-        "CA",
+        "IL",
         "Engineering Management"
       ],
       "extras": {
         "role": "Director, Revenue Strategy & Operations (Large Customer Sales)",
-        "location": "San Francisco, CA",
+        "location": "Chicago, IL",
         "function": "Engineering Management",
         "soc": "11-9041",
         "seniority": "director"
@@ -1354,63 +2493,32 @@
       }
     },
     {
-      "id": "a37e0a522fd35acc",
+      "id": "5b3ae701690e5a88",
       "ts": "2026-09-28T20:29:01-04:00",
       "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8195634",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8195620",
       "type": "posting",
       "company": {
         "name": "Reddit",
         "ticker": null,
         "industry": null,
         "sector": "Media",
-        "hq_region": null,
+        "hq_region": "CA",
         "size_band": "unknown"
       },
       "magnitude": null,
       "unit": "jobs",
-      "raw_text": "Reddit | Director, Revenue Strategy & Operations (Large Customer Sales) | Toronto, Canada",
+      "raw_text": "Reddit | Director, Revenue Strategy & Operations (Large Customer Sales) | San Francisco, CA",
       "tags": [
         "hiring",
         "greenhouse",
         "media",
+        "CA",
         "Engineering Management"
       ],
       "extras": {
         "role": "Director, Revenue Strategy & Operations (Large Customer Sales)",
-        "location": "Toronto, Canada",
-        "function": "Engineering Management",
-        "soc": "11-9041",
-        "seniority": "director"
-      }
-    },
-    {
-      "id": "25890219aefb50f3",
-      "ts": "2026-09-28T20:29:01-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8195627",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": "IL",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Director, Revenue Strategy & Operations (Large Customer Sales) | Chicago, IL",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
-        "IL",
-        "Engineering Management"
-      ],
-      "extras": {
-        "role": "Director, Revenue Strategy & Operations (Large Customer Sales)",
-        "location": "Chicago, IL",
+        "location": "San Francisco, CA",
         "function": "Engineering Management",
         "soc": "11-9041",
         "seniority": "director"
@@ -1443,6 +2551,37 @@
       "extras": {
         "role": "Director, Revenue Strategy & Operations (Large Customer Sales)",
         "location": "Los Angeles, CA",
+        "function": "Engineering Management",
+        "soc": "11-9041",
+        "seniority": "director"
+      }
+    },
+    {
+      "id": "a37e0a522fd35acc",
+      "ts": "2026-09-28T20:29:01-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8195634",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Director, Revenue Strategy & Operations (Large Customer Sales) | Toronto, Canada",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "Engineering Management"
+      ],
+      "extras": {
+        "role": "Director, Revenue Strategy & Operations (Large Customer Sales)",
+        "location": "Toronto, Canada",
         "function": "Engineering Management",
         "soc": "11-9041",
         "seniority": "director"
@@ -1540,38 +2679,6 @@
         "stack": [
           "go"
         ]
-      }
-    },
-    {
-      "id": "35b48beb2e00e2b5",
-      "ts": "2026-09-28T20:29:00-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8171546",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": "NY",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Senior Client Account Manager, App Dev Enterprise | New York City, NY",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
-        "NY",
-        "Customer Success"
-      ],
-      "extras": {
-        "role": "Senior Client Account Manager, App Dev Enterprise",
-        "location": "New York City, NY",
-        "function": "Customer Success",
-        "soc": "13-1161",
-        "seniority": "senior"
       }
     },
     {
@@ -1725,36 +2832,6 @@
         "function": "Product",
         "soc": "11-2021",
         "seniority": "staff"
-      }
-    },
-    {
-      "id": "d518f1762d84ef13",
-      "ts": "2026-09-28T20:28:59-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8114666",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": "NY",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Client Partner, Mid-Market Sales (B2B Services - Acquisitions) | New York City, NY",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
-        "NY"
-      ],
-      "extras": {
-        "role": "Client Partner, Mid-Market Sales (B2B Services - Acquisitions)",
-        "location": "New York City, NY",
-        "seniority": "mid",
-        "remote": "onsite"
       }
     },
     {
@@ -1948,65 +3025,6 @@
       }
     },
     {
-      "id": "901b9181a5303983",
-      "ts": "2026-09-28T20:27:00-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7420175",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Senior Client Partner, Acquisitions DACH | Amsterdam, Netherlands",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media"
-      ],
-      "extras": {
-        "role": "Senior Client Partner, Acquisitions DACH",
-        "location": "Amsterdam, Netherlands",
-        "seniority": "senior"
-      }
-    },
-    {
-      "id": "f0219e75060b57b7",
-      "ts": "2026-09-28T20:26:56-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8011163",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Senior Director, Product & Technology Finance | Remote - United States",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
-        "Engineering Management"
-      ],
-      "extras": {
-        "role": "Senior Director, Product & Technology Finance",
-        "location": "Remote - United States",
-        "function": "Engineering Management",
-        "soc": "11-9041",
-        "seniority": "director"
-      }
-    },
-    {
       "id": "b0ffdc8e4037bbb8",
       "ts": "2026-09-28T20:22:20-04:00",
       "source": "greenhouse",
@@ -2127,38 +3145,6 @@
         "function": "Software Engineering",
         "soc": "15-1252",
         "seniority": "senior"
-      }
-    },
-    {
-      "id": "a92acbb31b61d95c",
-      "ts": "2026-09-28T19:31:58-04:00",
-      "source": "greenhouse",
-      "source_url": "https://www.coinbase.com/careers/positions/8238630?gh_jid=8238630",
-      "type": "posting",
-      "company": {
-        "name": "Coinbase",
-        "ticker": null,
-        "industry": null,
-        "sector": "Finance",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Coinbase | Senior Software Engineer, Backend - Overseer (Platform) | Remote - USA",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "finance",
-        "Software Engineering"
-      ],
-      "extras": {
-        "role": "Senior Software Engineer, Backend - Overseer (Platform)",
-        "location": "Remote - USA",
-        "function": "Software Engineering",
-        "soc": "15-1252",
-        "seniority": "senior",
-        "remote": "remote"
       }
     },
     {
@@ -2893,37 +3879,6 @@
         "location": "US-San Francisco, US- New York, US-Remote",
         "function": "Sales",
         "soc": "41-3091",
-        "seniority": "mid"
-      }
-    },
-    {
-      "id": "cc2bd991a2352be7",
-      "ts": "2026-09-28T17:13:27-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/anthropic/jobs/5435282008",
-      "type": "posting",
-      "company": {
-        "name": "Anthropic",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Anthropic | Applied AI Engineer, DNB | London, UK",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "Data / ML"
-      ],
-      "extras": {
-        "role": "Applied AI Engineer, DNB",
-        "location": "London, UK",
-        "function": "Data / ML",
-        "soc": "15-2051",
         "seniority": "mid"
       }
     },
@@ -7977,38 +8932,6 @@
       }
     },
     {
-      "id": "2e4222a01f3bc983",
-      "ts": "2026-09-28T11:38:53-04:00",
-      "source": "greenhouse",
-      "source_url": "https://www.pinterestcareers.com/jobs/?gh_jid=8081452",
-      "type": "posting",
-      "company": {
-        "name": "Pinterest",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": "NY",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Pinterest | Sr. Client Account Manager, Home Retail | New York, NY, US",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "NY",
-        "Customer Success"
-      ],
-      "extras": {
-        "role": "Sr. Client Account Manager, Home Retail",
-        "location": "New York, NY, US",
-        "function": "Customer Success",
-        "soc": "13-1161",
-        "seniority": "senior"
-      }
-    },
-    {
       "id": "ec0097b588836aa2",
       "ts": "2026-09-28T11:38:53-04:00",
       "source": "greenhouse",
@@ -8035,6 +8958,38 @@
       "extras": {
         "role": "Sr. Client Account Manager, Home Retail",
         "location": "San Francisco, CA, US; Los Angeles, CA, US",
+        "function": "Customer Success",
+        "soc": "13-1161",
+        "seniority": "senior"
+      }
+    },
+    {
+      "id": "2e4222a01f3bc983",
+      "ts": "2026-09-28T11:38:53-04:00",
+      "source": "greenhouse",
+      "source_url": "https://www.pinterestcareers.com/jobs/?gh_jid=8081452",
+      "type": "posting",
+      "company": {
+        "name": "Pinterest",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": "NY",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Pinterest | Sr. Client Account Manager, Home Retail | New York, NY, US",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "NY",
+        "Customer Success"
+      ],
+      "extras": {
+        "role": "Sr. Client Account Manager, Home Retail",
+        "location": "New York, NY, US",
         "function": "Customer Success",
         "soc": "13-1161",
         "seniority": "senior"
@@ -9009,35 +9964,6 @@
       }
     },
     {
-      "id": "2275d6e3849b800f",
-      "ts": "2026-09-28T11:38:53-04:00",
-      "source": "greenhouse",
-      "source_url": "https://www.pinterestcareers.com/jobs/?gh_jid=8230592",
-      "type": "posting",
-      "company": {
-        "name": "Pinterest",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": "IL",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Pinterest | Sr. Programmatic Tech Operations Specialist | Chicago, US",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "IL"
-      ],
-      "extras": {
-        "role": "Sr. Programmatic Tech Operations Specialist",
-        "location": "Chicago, US",
-        "seniority": "senior"
-      }
-    },
-    {
       "id": "8f6b967fdffbd14a",
       "ts": "2026-09-28T11:38:53-04:00",
       "source": "greenhouse",
@@ -9063,6 +9989,35 @@
       "extras": {
         "role": "Sr. Programmatic Tech Operations Specialist",
         "location": "New York, NY, US",
+        "seniority": "senior"
+      }
+    },
+    {
+      "id": "2275d6e3849b800f",
+      "ts": "2026-09-28T11:38:53-04:00",
+      "source": "greenhouse",
+      "source_url": "https://www.pinterestcareers.com/jobs/?gh_jid=8230592",
+      "type": "posting",
+      "company": {
+        "name": "Pinterest",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": "IL",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Pinterest | Sr. Programmatic Tech Operations Specialist | Chicago, US",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "IL"
+      ],
+      "extras": {
+        "role": "Sr. Programmatic Tech Operations Specialist",
+        "location": "Chicago, US",
         "seniority": "senior"
       }
     },
@@ -11164,38 +12119,6 @@
       }
     },
     {
-      "id": "c01847fe291f9801",
-      "ts": "2026-09-28T03:06:31-04:00",
-      "source": "greenhouse",
-      "source_url": "https://www.coinbase.com/careers/positions/7866674?gh_jid=7866674",
-      "type": "posting",
-      "company": {
-        "name": "Coinbase",
-        "ticker": null,
-        "industry": null,
-        "sector": "Finance",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Coinbase | Senior Software Engineer - Trading | Remote - Singapore",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "finance",
-        "Software Engineering"
-      ],
-      "extras": {
-        "role": "Senior Software Engineer - Trading",
-        "location": "Remote - Singapore",
-        "function": "Software Engineering",
-        "soc": "15-1252",
-        "seniority": "senior",
-        "remote": "remote"
-      }
-    },
-    {
       "id": "59940ff42ffab4cc",
       "ts": "2026-09-28T02:54:58-04:00",
       "source": "greenhouse",
@@ -12742,10 +13665,10 @@
       }
     },
     {
-      "id": "4167bc043c6615cf",
+      "id": "620e27265ff79b56",
       "ts": "2026-09-26T01:00:12-04:00",
       "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/oscar/jobs/8175148",
+      "source_url": "https://job-boards.greenhouse.io/oscar/jobs/8177159",
       "type": "posting",
       "company": {
         "name": "Oscar Health",
@@ -12757,7 +13680,7 @@
       },
       "magnitude": null,
       "unit": "jobs",
-      "raw_text": "Oscar Health | Senior Security Engineer I, Product Security | Los Angeles, California, United States",
+      "raw_text": "Oscar Health | Senior Security Engineer I, Product Security | San Francisco, California, United States",
       "tags": [
         "hiring",
         "greenhouse",
@@ -12767,11 +13690,11 @@
       ],
       "extras": {
         "role": "Senior Security Engineer I, Product Security",
-        "location": "Los Angeles, California, United States",
+        "location": "San Francisco, California, United States",
         "function": "Security",
         "soc": "15-1212",
         "seniority": "senior",
-        "remote": "hybrid"
+        "remote": "remote"
       }
     },
     {
@@ -12808,10 +13731,10 @@
       }
     },
     {
-      "id": "620e27265ff79b56",
+      "id": "4167bc043c6615cf",
       "ts": "2026-09-26T01:00:12-04:00",
       "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/oscar/jobs/8177159",
+      "source_url": "https://job-boards.greenhouse.io/oscar/jobs/8175148",
       "type": "posting",
       "company": {
         "name": "Oscar Health",
@@ -12823,7 +13746,7 @@
       },
       "magnitude": null,
       "unit": "jobs",
-      "raw_text": "Oscar Health | Senior Security Engineer I, Product Security | San Francisco, California, United States",
+      "raw_text": "Oscar Health | Senior Security Engineer I, Product Security | Los Angeles, California, United States",
       "tags": [
         "hiring",
         "greenhouse",
@@ -12833,11 +13756,11 @@
       ],
       "extras": {
         "role": "Senior Security Engineer I, Product Security",
-        "location": "San Francisco, California, United States",
+        "location": "Los Angeles, California, United States",
         "function": "Security",
         "soc": "15-1212",
         "seniority": "senior",
-        "remote": "remote"
+        "remote": "hybrid"
       }
     },
     {
@@ -13778,10 +14701,10 @@
       }
     },
     {
-      "id": "7765e861b3d088ca",
+      "id": "cdf866fd369d4884",
       "ts": "2026-09-25T16:45:09-04:00",
       "source": "greenhouse",
-      "source_url": "https://stripe.com/jobs/search?gh_jid=8232741",
+      "source_url": "https://stripe.com/jobs/search?gh_jid=8232743",
       "type": "posting",
       "company": {
         "name": "Stripe",
@@ -13813,10 +14736,10 @@
       }
     },
     {
-      "id": "cdf866fd369d4884",
+      "id": "7765e861b3d088ca",
       "ts": "2026-09-25T16:45:09-04:00",
       "source": "greenhouse",
-      "source_url": "https://stripe.com/jobs/search?gh_jid=8232743",
+      "source_url": "https://stripe.com/jobs/search?gh_jid=8232741",
       "type": "posting",
       "company": {
         "name": "Stripe",
@@ -14414,40 +15337,6 @@
       }
     },
     {
-      "id": "6a6fa253fde45f11",
-      "ts": "2026-09-25T16:45:07-04:00",
-      "source": "greenhouse",
-      "source_url": "https://stripe.com/jobs/search?gh_jid=8213481",
-      "type": "posting",
-      "company": {
-        "name": "Stripe",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Stripe | Account Executive, Product (Payouts) - Hunter | London, Dublin",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "Sales"
-      ],
-      "extras": {
-        "role": "Account Executive, Product (Payouts) - Hunter",
-        "location": "London, Dublin",
-        "function": "Sales",
-        "soc": "41-3091",
-        "seniority": "mid",
-        "stack": [
-          "go"
-        ]
-      }
-    },
-    {
       "id": "1ee982e74f4920bd",
       "ts": "2026-09-25T16:45:07-04:00",
       "source": "greenhouse",
@@ -14664,910 +15553,6 @@
         "role": "Strategic Accounts Sales Leader, AI GTM",
         "location": "San Francisco; New York",
         "seniority": "mid"
-      }
-    },
-    {
-      "id": "3da9b2d0576d35b1",
-      "ts": "2026-09-25T16:45:07-04:00",
-      "source": "greenhouse",
-      "source_url": "https://stripe.com/jobs/search?gh_jid=8220938",
-      "type": "posting",
-      "company": {
-        "name": "Stripe",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Stripe | Workday Analyst | US",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology"
-      ],
-      "extras": {
-        "role": "Workday Analyst",
-        "location": "US",
-        "seniority": "mid"
-      }
-    },
-    {
-      "id": "9772c0817920f50b",
-      "ts": "2026-09-25T16:45:06-04:00",
-      "source": "greenhouse",
-      "source_url": "https://stripe.com/jobs/search?gh_jid=8204645",
-      "type": "posting",
-      "company": {
-        "name": "Stripe",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": "NY",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Stripe | Account Executive, AI Startups - Grower | New York",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "NY",
-        "Sales"
-      ],
-      "extras": {
-        "role": "Account Executive, AI Startups - Grower",
-        "location": "New York",
-        "function": "Sales",
-        "soc": "41-3091",
-        "seniority": "mid",
-        "stack": [
-          "go"
-        ]
-      }
-    },
-    {
-      "id": "df940d53a279599e",
-      "ts": "2026-09-25T16:45:06-04:00",
-      "source": "greenhouse",
-      "source_url": "https://stripe.com/jobs/search?gh_jid=8203649",
-      "type": "posting",
-      "company": {
-        "name": "Stripe",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": "OR",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Stripe | Account Executive Product - Issuing & Treasury | London OR Paris OR Germany ",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "OR",
-        "Sales"
-      ],
-      "extras": {
-        "role": "Account Executive Product - Issuing & Treasury",
-        "location": "London OR Paris OR Germany ",
-        "function": "Sales",
-        "soc": "41-3091",
-        "seniority": "mid"
-      }
-    },
-    {
-      "id": "5c2385cb04bdbddf",
-      "ts": "2026-09-25T16:45:06-04:00",
-      "source": "greenhouse",
-      "source_url": "https://stripe.com/jobs/search?gh_jid=8207708",
-      "type": "posting",
-      "company": {
-        "name": "Stripe",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Stripe | Account Executive, Retail (Grower) | London",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "Sales"
-      ],
-      "extras": {
-        "role": "Account Executive, Retail (Grower)",
-        "location": "London",
-        "function": "Sales",
-        "soc": "41-3091",
-        "seniority": "mid"
-      }
-    },
-    {
-      "id": "5cb5c95151f121cb",
-      "ts": "2026-09-25T16:45:06-04:00",
-      "source": "greenhouse",
-      "source_url": "https://stripe.com/jobs/search?gh_jid=8209652",
-      "type": "posting",
-      "company": {
-        "name": "Stripe",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": "IL",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Stripe | Administrative Business Partner | Chicago",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "IL"
-      ],
-      "extras": {
-        "role": "Administrative Business Partner",
-        "location": "Chicago",
-        "seniority": "mid"
-      }
-    },
-    {
-      "id": "49c5a420bd7f03c5",
-      "ts": "2026-09-25T16:45:06-04:00",
-      "source": "greenhouse",
-      "source_url": "https://stripe.com/jobs/search?gh_jid=8209639",
-      "type": "posting",
-      "company": {
-        "name": "Stripe",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Stripe | Administrative Business Partner, Office of the President | NYC, SF",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology"
-      ],
-      "extras": {
-        "role": "Administrative Business Partner, Office of the President",
-        "location": "NYC, SF",
-        "seniority": "mid",
-        "remote": "onsite"
-      }
-    },
-    {
-      "id": "1275a36e264e7cf9",
-      "ts": "2026-09-25T16:45:06-04:00",
-      "source": "greenhouse",
-      "source_url": "https://stripe.com/jobs/search?gh_jid=8206733",
-      "type": "posting",
-      "company": {
-        "name": "Stripe",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": "NY",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Stripe | Capital Markets, FX Specialist | New York",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "NY"
-      ],
-      "extras": {
-        "role": "Capital Markets, FX Specialist",
-        "location": "New York",
-        "seniority": "mid"
-      }
-    },
-    {
-      "id": "a2a4785c617450f8",
-      "ts": "2026-09-25T16:45:06-04:00",
-      "source": "greenhouse",
-      "source_url": "https://stripe.com/jobs/search?gh_jid=8208521",
-      "type": "posting",
-      "company": {
-        "name": "Stripe",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": "IL",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Stripe | Customer Success Manager, Enterprise | Chicago, US",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "IL",
-        "Customer Success"
-      ],
-      "extras": {
-        "role": "Customer Success Manager, Enterprise",
-        "location": "Chicago, US",
-        "function": "Customer Success",
-        "soc": "13-1161",
-        "seniority": "manager"
-      }
-    },
-    {
-      "id": "48036d909689634d",
-      "ts": "2026-09-25T16:45:06-04:00",
-      "source": "greenhouse",
-      "source_url": "https://stripe.com/jobs/search?gh_jid=8203216",
-      "type": "posting",
-      "company": {
-        "name": "Stripe",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": "WA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Stripe | Editorial Director, Brand & Creative Partnerships | US: SF, NYC, Seattle and Remote",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "WA",
-        "Engineering Management"
-      ],
-      "extras": {
-        "role": "Editorial Director, Brand & Creative Partnerships",
-        "location": "US: SF, NYC, Seattle and Remote",
-        "function": "Engineering Management",
-        "soc": "11-9041",
-        "seniority": "director"
-      }
-    },
-    {
-      "id": "dcf408162e7a2269",
-      "ts": "2026-09-25T16:45:06-04:00",
-      "source": "greenhouse",
-      "source_url": "https://stripe.com/jobs/search?gh_jid=8209626",
-      "type": "posting",
-      "company": {
-        "name": "Stripe",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Stripe | EMEA Demand Generation, Platforms | London",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "Marketing"
-      ],
-      "extras": {
-        "role": "EMEA Demand Generation, Platforms",
-        "location": "London",
-        "function": "Marketing",
-        "soc": "11-2011",
-        "seniority": "mid"
-      }
-    },
-    {
-      "id": "13c4caa0dee90878",
-      "ts": "2026-09-25T16:45:06-04:00",
-      "source": "greenhouse",
-      "source_url": "https://stripe.com/jobs/search?gh_jid=8209649",
-      "type": "posting",
-      "company": {
-        "name": "Stripe",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Stripe | Engagement Manager, Professional Services | United States",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology"
-      ],
-      "extras": {
-        "role": "Engagement Manager, Professional Services",
-        "location": "United States",
-        "seniority": "manager"
-      }
-    },
-    {
-      "id": "d1fafda7d0125652",
-      "ts": "2026-09-25T16:45:06-04:00",
-      "source": "greenhouse",
-      "source_url": "https://stripe.com/jobs/search?gh_jid=8203977",
-      "type": "posting",
-      "company": {
-        "name": "Stripe",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": "IL",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Stripe | Implementation Consultant, Professional Services | Chicago, Toronto",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "IL"
-      ],
-      "extras": {
-        "role": "Implementation Consultant, Professional Services",
-        "location": "Chicago, Toronto",
-        "seniority": "mid"
-      }
-    },
-    {
-      "id": "1bccb7f7db38f8a8",
-      "ts": "2026-09-25T16:45:06-04:00",
-      "source": "greenhouse",
-      "source_url": "https://stripe.com/jobs/search?gh_jid=8203973",
-      "type": "posting",
-      "company": {
-        "name": "Stripe",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Stripe | Integration Engineer, Professional Services | United States",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology"
-      ],
-      "extras": {
-        "role": "Integration Engineer, Professional Services",
-        "location": "United States",
-        "seniority": "mid"
-      }
-    },
-    {
-      "id": "d7ba71ebc5d861a8",
-      "ts": "2026-09-25T16:45:06-04:00",
-      "source": "greenhouse",
-      "source_url": "https://stripe.com/jobs/search?gh_jid=8205278",
-      "type": "posting",
-      "company": {
-        "name": "Stripe",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Stripe | Internal Audit - Regulatory Lead, EMEA | London",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology"
-      ],
-      "extras": {
-        "role": "Internal Audit - Regulatory Lead, EMEA",
-        "location": "London",
-        "seniority": "lead"
-      }
-    },
-    {
-      "id": "642cebfe14723fe4",
-      "ts": "2026-09-25T16:45:06-04:00",
-      "source": "greenhouse",
-      "source_url": "https://stripe.com/jobs/search?gh_jid=8209647",
-      "type": "posting",
-      "company": {
-        "name": "Stripe",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": "CA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Stripe | Large User Sales Managers, Platform Partnerships | New York, NY; Chicago, IL or San Francisco, CA",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "CA",
-        "Sales"
-      ],
-      "extras": {
-        "role": "Large User Sales Managers, Platform Partnerships",
-        "location": "New York, NY; Chicago, IL or San Francisco, CA",
-        "function": "Sales",
-        "soc": "41-3091",
-        "seniority": "mid",
-        "stack": [
-          "go"
-        ]
-      }
-    },
-    {
-      "id": "50ed10e3170ea525",
-      "ts": "2026-09-25T16:45:06-04:00",
-      "source": "greenhouse",
-      "source_url": "https://stripe.com/jobs/search?gh_jid=8204227",
-      "type": "posting",
-      "company": {
-        "name": "Stripe",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": "CA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Stripe | Product Manager - Developer Experience, Bridge | San Francisco Or New York",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "CA",
-        "Product"
-      ],
-      "extras": {
-        "role": "Product Manager - Developer Experience, Bridge",
-        "location": "San Francisco Or New York",
-        "function": "Product",
-        "soc": "11-2021",
-        "seniority": "manager",
-        "stack": [
-          "go",
-          "swift",
-          "rails"
-        ]
-      }
-    },
-    {
-      "id": "ad7de0c9c039d7b0",
-      "ts": "2026-09-25T16:45:06-04:00",
-      "source": "greenhouse",
-      "source_url": "https://stripe.com/jobs/search?gh_jid=8209641",
-      "type": "posting",
-      "company": {
-        "name": "Stripe",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Stripe | Program Manager, Risk Operations GTM Enablement | Dublin, Ireland",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology"
-      ],
-      "extras": {
-        "role": "Program Manager, Risk Operations GTM Enablement",
-        "location": "Dublin, Ireland",
-        "seniority": "manager"
-      }
-    },
-    {
-      "id": "a55f99062d39346c",
-      "ts": "2026-09-25T16:45:06-04:00",
-      "source": "greenhouse",
-      "source_url": "https://stripe.com/jobs/search?gh_jid=8209970",
-      "type": "posting",
-      "company": {
-        "name": "Stripe",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Stripe | Software Engineer, Stripe Data Pipeline | Bangalore",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "Software Engineering"
-      ],
-      "extras": {
-        "role": "Software Engineer, Stripe Data Pipeline",
-        "location": "Bangalore",
-        "function": "Software Engineering",
-        "soc": "15-1252",
-        "seniority": "mid",
-        "remote": "remote"
-      }
-    },
-    {
-      "id": "c116d28156f82787",
-      "ts": "2026-09-25T16:45:06-04:00",
-      "source": "greenhouse",
-      "source_url": "https://stripe.com/jobs/search?gh_jid=8210226",
-      "type": "posting",
-      "company": {
-        "name": "Stripe",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": "CA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Stripe | Startups Sales Manager, Platform Partnerships | Chicago, IL; New York, NY; San Francisco, CA",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "CA",
-        "Sales"
-      ],
-      "extras": {
-        "role": "Startups Sales Manager, Platform Partnerships",
-        "location": "Chicago, IL; New York, NY; San Francisco, CA",
-        "function": "Sales",
-        "soc": "41-3091",
-        "seniority": "manager",
-        "stack": [
-          "go"
-        ]
-      }
-    },
-    {
-      "id": "66ee3db37c808fbb",
-      "ts": "2026-09-25T16:45:06-04:00",
-      "source": "greenhouse",
-      "source_url": "https://stripe.com/jobs/search?gh_jid=8209637",
-      "type": "posting",
-      "company": {
-        "name": "Stripe",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Stripe | Workplace Project Manager | United Kingdom",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology"
-      ],
-      "extras": {
-        "role": "Workplace Project Manager",
-        "location": "United Kingdom",
-        "seniority": "manager"
-      }
-    },
-    {
-      "id": "f0b2e9adbc1dc709",
-      "ts": "2026-09-25T16:45:05-04:00",
-      "source": "greenhouse",
-      "source_url": "https://stripe.com/jobs/search?gh_jid=8201690",
-      "type": "posting",
-      "company": {
-        "name": "Stripe",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Stripe | Account Executive, DACH, Commercial (Existing Business) | Dublin or Berlin",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "Sales"
-      ],
-      "extras": {
-        "role": "Account Executive, DACH, Commercial (Existing Business)",
-        "location": "Dublin or Berlin",
-        "function": "Sales",
-        "soc": "41-3091",
-        "seniority": "mid"
-      }
-    },
-    {
-      "id": "4c08943ac3523714",
-      "ts": "2026-09-25T16:45:05-04:00",
-      "source": "greenhouse",
-      "source_url": "https://stripe.com/jobs/search?gh_jid=8202836",
-      "type": "posting",
-      "company": {
-        "name": "Stripe",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Stripe | Account Executive, Enterprise Hunter (French-speaking) | Paris",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "Sales"
-      ],
-      "extras": {
-        "role": "Account Executive, Enterprise Hunter (French-speaking)",
-        "location": "Paris",
-        "function": "Sales",
-        "soc": "41-3091",
-        "seniority": "mid",
-        "stack": [
-          "go"
-        ]
-      }
-    },
-    {
-      "id": "0409e8033296ea2d",
-      "ts": "2026-09-25T16:45:05-04:00",
-      "source": "greenhouse",
-      "source_url": "https://stripe.com/jobs/search?gh_jid=8196269",
-      "type": "posting",
-      "company": {
-        "name": "Stripe",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": "NY",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Stripe | Account Executive, Product (Payouts) - Hunter | New York",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "NY",
-        "Sales"
-      ],
-      "extras": {
-        "role": "Account Executive, Product (Payouts) - Hunter",
-        "location": "New York",
-        "function": "Sales",
-        "soc": "41-3091",
-        "seniority": "mid",
-        "stack": [
-          "go"
-        ]
-      }
-    },
-    {
-      "id": "cfb0adf7d9703d36",
-      "ts": "2026-09-25T16:45:05-04:00",
-      "source": "greenhouse",
-      "source_url": "https://stripe.com/jobs/search?gh_jid=8196288",
-      "type": "posting",
-      "company": {
-        "name": "Stripe",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Stripe | Account Executive, Product - Tax | Dublin",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "Sales"
-      ],
-      "extras": {
-        "role": "Account Executive, Product - Tax",
-        "location": "Dublin",
-        "function": "Sales",
-        "soc": "41-3091",
-        "seniority": "mid",
-        "stack": [
-          "go"
-        ]
-      }
-    },
-    {
-      "id": "63a64a556c9219bf",
-      "ts": "2026-09-25T16:45:05-04:00",
-      "source": "greenhouse",
-      "source_url": "https://stripe.com/jobs/search?gh_jid=8202831",
-      "type": "posting",
-      "company": {
-        "name": "Stripe",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Stripe | Benefits Program Manager, EMEA | Dublin, London",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology"
-      ],
-      "extras": {
-        "role": "Benefits Program Manager, EMEA",
-        "location": "Dublin, London",
-        "seniority": "manager"
-      }
-    },
-    {
-      "id": "81bf5500de07e878",
-      "ts": "2026-09-25T16:45:05-04:00",
-      "source": "greenhouse",
-      "source_url": "https://stripe.com/jobs/search?gh_jid=8201680",
-      "type": "posting",
-      "company": {
-        "name": "Stripe",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": "WA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Stripe | GTM Strategy & Operations Analyst | NYC, SF, Seattle, US",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "WA"
-      ],
-      "extras": {
-        "role": "GTM Strategy & Operations Analyst",
-        "location": "NYC, SF, Seattle, US",
-        "seniority": "mid"
-      }
-    },
-    {
-      "id": "4586eb7673239f5e",
-      "ts": "2026-09-25T16:45:05-04:00",
-      "source": "greenhouse",
-      "source_url": "https://stripe.com/jobs/search?gh_jid=8197886",
-      "type": "posting",
-      "company": {
-        "name": "Stripe",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": "NY",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Stripe | Machine Learning Engineer, Link | New York City ",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "NY",
-        "Data / ML"
-      ],
-      "extras": {
-        "role": "Machine Learning Engineer, Link",
-        "location": "New York City ",
-        "function": "Data / ML",
-        "soc": "15-2051",
-        "seniority": "mid",
-        "stack": [
-          "rails"
-        ]
-      }
-    },
-    {
-      "id": "d95ee7a7bd53efb3",
-      "ts": "2026-09-25T16:45:05-04:00",
-      "source": "greenhouse",
-      "source_url": "https://stripe.com/jobs/search?gh_jid=8196283",
-      "type": "posting",
-      "company": {
-        "name": "Stripe",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Stripe | People Operations Team Lead, Centralized Operations | Mexico City",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "Engineering Management"
-      ],
-      "extras": {
-        "role": "People Operations Team Lead, Centralized Operations",
-        "location": "Mexico City",
-        "function": "Engineering Management",
-        "soc": "11-9041",
-        "seniority": "lead"
-      }
-    },
-    {
-      "id": "60f0c8ca4655f00c",
-      "ts": "2026-09-25T16:45:05-04:00",
-      "source": "greenhouse",
-      "source_url": "https://stripe.com/jobs/search?gh_jid=8203423",
-      "type": "posting",
-      "company": {
-        "name": "Stripe",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Stripe | Product Manager, Employee Experiences | N/A",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "Product"
-      ],
-      "extras": {
-        "role": "Product Manager, Employee Experiences",
-        "location": "N/A",
-        "function": "Product",
-        "soc": "11-2021",
-        "seniority": "manager"
       }
     }
   ]
