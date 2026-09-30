@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-30T12:06:26.736028Z",
+  "generated_at": "2026-09-30T15:31:36.814688Z",
   "next_ingest_at": null,
-  "total_events": 4132,
-  "events_7d": 2004,
+  "total_events": 4137,
+  "events_7d": 2006,
   "sources": [
     {
       "source": "greenhouse",
@@ -10,9 +10,9 @@
       "url": "https://boards-api.greenhouse.io",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-09-30T12:06:26.854515Z",
-      "last_attempted": "2026-09-30T12:06:26.854515Z",
-      "record_count": 3461,
+      "last_ok": "2026-09-30T15:31:36.918760Z",
+      "last_attempted": "2026-09-30T15:31:36.918760Z",
+      "record_count": 3465,
       "ok": true,
       "errors": [
         "DoorDash (doordash): GET https://boards-api.greenhouse.io/v1/boards/doordash/jobs failed: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/doordash/jobs?content=true'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
@@ -21,7 +21,7 @@
         "Snowflake (snowflake): GET https://boards-api.greenhouse.io/v1/boards/snowflake/jobs failed: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/snowflake/jobs?content=true'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
         "Databricks (databricks11): GET https://boards-api.greenhouse.io/v1/boards/databricks11/jobs failed: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/databricks11/jobs?content=true'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
         "Plaid (plaid): GET https://boards-api.greenhouse.io/v1/boards/plaid/jobs failed: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/plaid/jobs?content=true'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
-        "Hims & Hers (himsandhers): GET https://boards-api.greenhouse.io/v1/boards/himsandhers/jobs failed: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/himsandhers/jobs?content=true'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+        "Hims & Hers (himsandhers): GET https://boards-api.greenhouse.io/v1/boards/himsandhers/jobs failed: The read operation timed out",
         "Warby Parker (warbyparker): GET https://boards-api.greenhouse.io/v1/boards/warbyparker/jobs failed: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/warbyparker/jobs?content=true'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
         "Allbirds (allbirds): GET https://boards-api.greenhouse.io/v1/boards/allbirds/jobs failed: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/allbirds/jobs?content=true'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
       ]
@@ -32,9 +32,9 @@
       "url": "https://api.lever.co/v0/postings",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-09-30T12:07:09.822699Z",
-      "last_attempted": "2026-09-30T12:07:09.822699Z",
-      "record_count": 78,
+      "last_ok": "2026-09-30T15:32:35.801843Z",
+      "last_attempted": "2026-09-30T15:32:35.801843Z",
+      "record_count": 79,
       "ok": true,
       "errors": [
         "Scale AI (scaleai): GET https://api.lever.co/v0/postings/scaleai failed: Client error '404 Not Found' for url 'https://api.lever.co/v0/postings/scaleai?mode=json'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
@@ -49,8 +49,8 @@
       "url": "https://api.ashbyhq.com/posting-api",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-09-30T12:07:22.212522Z",
-      "last_attempted": "2026-09-30T12:07:22.212522Z",
+      "last_ok": "2026-09-30T15:32:46.932775Z",
+      "last_attempted": "2026-09-30T15:32:46.932775Z",
       "record_count": 286,
       "ok": true,
       "errors": [
@@ -63,8 +63,8 @@
       "url": "https://techcrunch.com/tag/layoffs/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-09-30T12:07:24.863446Z",
-      "last_attempted": "2026-09-30T12:07:24.863446Z",
+      "last_ok": "2026-09-30T15:32:49.828341Z",
+      "last_attempted": "2026-09-30T15:32:49.828341Z",
       "record_count": 5,
       "ok": true,
       "errors": []
@@ -75,8 +75,8 @@
       "url": "https://news.google.com/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-09-30T12:07:25.429070Z",
-      "last_attempted": "2026-09-30T12:07:25.429070Z",
+      "last_ok": "2026-09-30T15:32:50.222201Z",
+      "last_attempted": "2026-09-30T15:32:50.222201Z",
       "record_count": 30,
       "ok": true,
       "errors": []
@@ -87,8 +87,8 @@
       "url": "https://data.texas.gov/d/8w53-c4f6",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-09-30T12:07:28.653007Z",
-      "last_attempted": "2026-09-30T12:07:28.653007Z",
+      "last_ok": "2026-09-30T15:32:53.633539Z",
+      "last_attempted": "2026-09-30T15:32:53.633539Z",
       "record_count": 56,
       "ok": true,
       "errors": []
@@ -99,9 +99,9 @@
       "url": "https://techcrunch.com/category/venture/feed/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-09-30T12:07:29.822194Z",
-      "last_attempted": "2026-09-30T12:07:29.822194Z",
-      "record_count": 11,
+      "last_ok": "2026-09-30T15:32:55.319555Z",
+      "last_attempted": "2026-09-30T15:32:55.319555Z",
+      "record_count": 10,
       "ok": true,
       "errors": []
     },
@@ -111,9 +111,9 @@
       "url": "https://efts.sec.gov/LATEST/search-index",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-09-30T12:07:30.209598Z",
-      "last_attempted": "2026-09-30T12:07:30.209598Z",
-      "record_count": 105,
+      "last_ok": "2026-09-30T15:32:55.818390Z",
+      "last_attempted": "2026-09-30T15:32:55.818390Z",
+      "record_count": 106,
       "ok": true,
       "errors": []
     },
@@ -123,8 +123,8 @@
       "url": "https://www.bls.gov/oes/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-09-30T12:07:31.409862Z",
-      "last_attempted": "2026-09-30T12:07:31.409862Z",
+      "last_ok": "2026-09-30T15:32:56.980157Z",
+      "last_attempted": "2026-09-30T15:32:56.980157Z",
       "record_count": 24,
       "ok": true,
       "errors": []
@@ -135,8 +135,8 @@
       "url": "https://www.bls.gov/ces/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-09-30T12:07:32.045847Z",
-      "last_attempted": "2026-09-30T12:07:32.045847Z",
+      "last_ok": "2026-09-30T15:32:57.509379Z",
+      "last_attempted": "2026-09-30T15:32:57.509379Z",
       "record_count": 48,
       "ok": true,
       "errors": []
@@ -147,8 +147,8 @@
       "url": "https://www.bls.gov/developers/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-09-30T12:07:32.256494Z",
-      "last_attempted": "2026-09-30T12:07:32.256494Z",
+      "last_ok": "2026-09-30T15:32:57.736768Z",
+      "last_attempted": "2026-09-30T15:32:57.736768Z",
       "record_count": 30,
       "ok": true,
       "errors": []
@@ -156,260 +156,137 @@
   ],
   "recent_signals": [
     {
-      "id": "141226f13af38d21",
-      "ts": "2026-09-30T07:34:21-04:00",
+      "id": "1b71aca102692f14",
+      "ts": "2026-09-30T11:27:03-04:00",
       "source": "greenhouse",
-      "source_url": "https://stripe.com/jobs/search?gh_jid=8230274",
+      "source_url": "https://job-boards.greenhouse.io/oscar/jobs/8109966",
+      "type": "posting",
+      "company": {
+        "name": "Oscar Health",
+        "ticker": null,
+        "industry": null,
+        "sector": "Healthcare",
+        "hq_region": "AZ",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Oscar Health | Associate, Operational Forecasting | Tempe, Arizona, United States",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "healthcare",
+        "AZ"
+      ],
+      "extras": {
+        "role": "Associate, Operational Forecasting",
+        "location": "Tempe, Arizona, United States",
+        "seniority": "junior",
+        "salary_min": 91659.0,
+        "salary_max": 120303.0,
+        "remote": "hybrid"
+      }
+    },
+    {
+      "id": "0d0915bd1f1109c4",
+      "ts": "2026-09-30T11:27:02-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/oscar/jobs/8103001",
+      "type": "posting",
+      "company": {
+        "name": "Oscar Health",
+        "ticker": null,
+        "industry": null,
+        "sector": "Healthcare",
+        "hq_region": "NY",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Oscar Health | Associate, Operational Forecasting | New York, New York, United States",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "healthcare",
+        "NY"
+      ],
+      "extras": {
+        "role": "Associate, Operational Forecasting",
+        "location": "New York, New York, United States",
+        "seniority": "junior",
+        "salary_min": 101844.0,
+        "salary_max": 133670.0,
+        "remote": "hybrid"
+      }
+    },
+    {
+      "id": "4099484b509c893c",
+      "ts": "2026-09-30T11:07:14-04:00",
+      "source": "greenhouse",
+      "source_url": "https://stripe.com/jobs/search?gh_jid=8181032",
       "type": "posting",
       "company": {
         "name": "Stripe",
         "ticker": null,
         "industry": null,
         "sector": "Technology",
-        "hq_region": null,
+        "hq_region": "GA",
         "size_band": "unknown"
       },
       "magnitude": null,
       "unit": "jobs",
-      "raw_text": "Stripe | Legal/ Corporate Compliance Operations Associate | N/A",
+      "raw_text": "Stripe | Manager, Customer Success Enterprise | Atlanta",
       "tags": [
         "hiring",
         "greenhouse",
         "technology",
-        "Operations"
-      ],
-      "extras": {
-        "role": "Legal/ Corporate Compliance Operations Associate",
-        "location": "N/A",
-        "function": "Operations",
-        "soc": "11-1021",
-        "seniority": "junior"
-      }
-    },
-    {
-      "id": "6d9967aeec3500ab",
-      "ts": "2026-09-30T06:52:57-04:00",
-      "source": "greenhouse",
-      "source_url": "https://stripe.com/jobs/search?gh_jid=8190052",
-      "type": "posting",
-      "company": {
-        "name": "Stripe",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": "CA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Stripe | Sales Manager, Velocity SMB Grower (Canada) | CA-Toronto",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "CA",
-        "Sales"
-      ],
-      "extras": {
-        "role": "Sales Manager, Velocity SMB Grower (Canada)",
-        "location": "CA-Toronto",
-        "function": "Sales",
-        "soc": "41-3091",
-        "seniority": "manager"
-      }
-    },
-    {
-      "id": "58534c57e54be50c",
-      "ts": "2026-09-30T06:25:36-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/gitlab/jobs/8749950002",
-      "type": "posting",
-      "company": {
-        "name": "GitLab",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "GitLab | Intermediate-Senior Backend Engineer (Ruby), Plan: Spec-Driven Development | Remote, Poland",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "Software Engineering"
-      ],
-      "extras": {
-        "role": "Intermediate-Senior Backend Engineer (Ruby), Plan: Spec-Driven Development",
-        "location": "Remote, Poland",
-        "function": "Software Engineering",
-        "soc": "15-1252",
-        "seniority": "senior"
-      }
-    },
-    {
-      "id": "74390e10d2257b17",
-      "ts": "2026-09-30T06:25:20-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/gitlab/jobs/8682860002",
-      "type": "posting",
-      "company": {
-        "name": "GitLab",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "GitLab | Intermediate-Senior Backend Engineer (Ruby), Plan: Spec-Driven Development | Remote, United Kingdom",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "Software Engineering"
-      ],
-      "extras": {
-        "role": "Intermediate-Senior Backend Engineer (Ruby), Plan: Spec-Driven Development",
-        "location": "Remote, United Kingdom",
-        "function": "Software Engineering",
-        "soc": "15-1252",
-        "seniority": "senior"
-      }
-    },
-    {
-      "id": "050f0510f3ca4eab",
-      "ts": "2026-09-30T05:47:45-04:00",
-      "source": "greenhouse",
-      "source_url": "https://stripe.com/jobs/search?gh_jid=8222459",
-      "type": "posting",
-      "company": {
-        "name": "Stripe",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Stripe | Staff Engineer, Revenue Experiences | Bengaluru",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology"
-      ],
-      "extras": {
-        "role": "Staff Engineer, Revenue Experiences",
-        "location": "Bengaluru",
-        "seniority": "staff"
-      }
-    },
-    {
-      "id": "24ae9e36f6ce1014",
-      "ts": "2026-09-30T05:37:09-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/anthropic/jobs/5439499008",
-      "type": "posting",
-      "company": {
-        "name": "Anthropic",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Anthropic | Applied AI Architects, Partner | Tokyo, Japan",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology"
-      ],
-      "extras": {
-        "role": "Applied AI Architects, Partner",
-        "location": "Tokyo, Japan",
-        "seniority": "mid",
-        "stack": [
-          "aws",
-          "gcp"
-        ]
-      }
-    },
-    {
-      "id": "200b2efa83f8f4cd",
-      "ts": "2026-09-30T05:11:36-04:00",
-      "source": "greenhouse",
-      "source_url": "https://stripe.com/jobs/search?gh_jid=7978915",
-      "type": "posting",
-      "company": {
-        "name": "Stripe",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Stripe | Mobile Engineer, Treasury | United Kingdom",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "Software Engineering"
-      ],
-      "extras": {
-        "role": "Mobile Engineer, Treasury",
-        "location": "United Kingdom",
-        "function": "Software Engineering",
-        "soc": "15-1252",
-        "seniority": "mid"
-      }
-    },
-    {
-      "id": "3ccd34d9bfa1dc9f",
-      "ts": "2026-09-30T04:19:08-04:00",
-      "source": "greenhouse",
-      "source_url": "https://stripe.com/jobs/search?gh_jid=8230276",
-      "type": "posting",
-      "company": {
-        "name": "Stripe",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Stripe | Strategy and Operations Analyst, Customer Success | London",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
+        "GA",
         "Customer Success"
       ],
       "extras": {
-        "role": "Strategy and Operations Analyst, Customer Success",
-        "location": "London",
+        "role": "Manager, Customer Success Enterprise",
+        "location": "Atlanta",
         "function": "Customer Success",
         "soc": "13-1161",
+        "seniority": "manager"
+      }
+    },
+    {
+      "id": "fd9174b5c263faa4",
+      "ts": "2026-09-30T11:07:01-04:00",
+      "source": "greenhouse",
+      "source_url": "https://boards.greenhouse.io/robinhood/jobs/8238565?t=gh_src=&gh_jid=8238565",
+      "type": "posting",
+      "company": {
+        "name": "Robinhood",
+        "ticker": null,
+        "industry": null,
+        "sector": "Finance",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Robinhood | Brokerage Operations Specialist | London, UK",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "finance"
+      ],
+      "extras": {
+        "role": "Brokerage Operations Specialist",
+        "location": "London, UK",
         "seniority": "mid"
       }
     },
     {
-      "id": "e4086b78e9dfe74b",
-      "ts": "2026-09-30T04:17:06-04:00",
+      "id": "d8b4eba9571470cc",
+      "ts": "2026-09-30T10:51:12-04:00",
       "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/anthropic/jobs/5426631008",
+      "source_url": "https://stripe.com/jobs/search?gh_jid=8044686",
       "type": "posting",
       "company": {
-        "name": "Anthropic",
+        "name": "Stripe",
         "ticker": null,
         "industry": null,
         "sector": "Technology",
@@ -418,26 +295,26 @@
       },
       "magnitude": null,
       "unit": "jobs",
-      "raw_text": "Anthropic | Manager, Technical Deployment | London, UK",
+      "raw_text": "Stripe | Credit Risk Strategy and Analytics | Canada",
       "tags": [
         "hiring",
         "greenhouse",
         "technology"
       ],
       "extras": {
-        "role": "Manager, Technical Deployment",
-        "location": "London, UK",
-        "seniority": "manager"
+        "role": "Credit Risk Strategy and Analytics",
+        "location": "Canada",
+        "seniority": "mid"
       }
     },
     {
-      "id": "e4b45e7ffc3e3cb0",
-      "ts": "2026-09-30T03:39:26-04:00",
+      "id": "ba11796871a58077",
+      "ts": "2026-09-30T10:51:12-04:00",
       "source": "greenhouse",
-      "source_url": "https://boards.greenhouse.io/figma/jobs/5822886004?gh_jid=5822886004",
+      "source_url": "https://stripe.com/jobs/search?gh_jid=8052468",
       "type": "posting",
       "company": {
-        "name": "Figma",
+        "name": "Stripe",
         "ticker": null,
         "industry": null,
         "sector": "Technology",
@@ -446,26 +323,116 @@
       },
       "magnitude": null,
       "unit": "jobs",
-      "raw_text": "Figma | Account Executive, Strategic (London, United Kingdom) | London, England",
+      "raw_text": "Stripe | Credit Risk Strategy and Analytics | United States ",
       "tags": [
         "hiring",
         "greenhouse",
-        "technology",
-        "Sales"
+        "technology"
       ],
       "extras": {
-        "role": "Account Executive, Strategic (London, United Kingdom)",
-        "location": "London, England",
-        "function": "Sales",
-        "soc": "41-3091",
+        "role": "Credit Risk Strategy and Analytics",
+        "location": "United States ",
         "seniority": "mid"
       }
     },
     {
-      "id": "bc3521b7481554d0",
-      "ts": "2026-09-30T03:10:42-04:00",
+      "id": "ab5984658f2e2bf2",
+      "ts": "2026-09-30T10:46:18-04:00",
       "source": "greenhouse",
-      "source_url": "https://www.coinbase.com/careers/positions/8207236?gh_jid=8207236",
+      "source_url": "https://careers.airbnb.com/positions/6852954?gh_jid=6852954",
+      "type": "posting",
+      "company": {
+        "name": "Airbnb",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Airbnb | Support Specialist, Premium | Canada",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "Support"
+      ],
+      "extras": {
+        "role": "Support Specialist, Premium",
+        "location": "Canada",
+        "function": "Support",
+        "soc": "43-4051",
+        "seniority": "mid"
+      }
+    },
+    {
+      "id": "d95e4963136603e4",
+      "ts": "2026-09-30T10:45:50-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/gitlab/jobs/8853813002",
+      "type": "posting",
+      "company": {
+        "name": "GitLab",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "GitLab | Regional Sales Director, Financial Services | Remote, United States",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "Engineering Management"
+      ],
+      "extras": {
+        "role": "Regional Sales Director, Financial Services",
+        "location": "Remote, United States",
+        "function": "Engineering Management",
+        "soc": "11-9041",
+        "seniority": "director"
+      }
+    },
+    {
+      "id": "040b563be4a1d792",
+      "ts": "2026-09-30T10:45:18-04:00",
+      "source": "greenhouse",
+      "source_url": "https://careers.airbnb.com/positions/8080766?gh_jid=8080766",
+      "type": "posting",
+      "company": {
+        "name": "Airbnb",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Airbnb | Support Specialist, Premium | Canada",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "Support"
+      ],
+      "extras": {
+        "role": "Support Specialist, Premium",
+        "location": "Canada",
+        "function": "Support",
+        "soc": "43-4051",
+        "seniority": "mid"
+      }
+    },
+    {
+      "id": "6645ea5841362ba2",
+      "ts": "2026-09-30T10:43:41-04:00",
+      "source": "greenhouse",
+      "source_url": "https://www.coinbase.com/careers/positions/8207241?gh_jid=8207241",
       "type": "posting",
       "company": {
         "name": "Coinbase",
@@ -477,27 +444,90 @@
       },
       "magnitude": null,
       "unit": "jobs",
-      "raw_text": "Coinbase | Money Laundering Reporting Officer, ADGM | Remote - UAE",
+      "raw_text": "Coinbase | Operations Manager, ADGM | Remote - Abu Dhabi",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "finance",
+        "Operations"
+      ],
+      "extras": {
+        "role": "Operations Manager, ADGM",
+        "location": "Remote - Abu Dhabi",
+        "function": "Operations",
+        "soc": "11-1021",
+        "seniority": "manager",
+        "remote": "remote"
+      }
+    },
+    {
+      "id": "ddc249a127286d3f",
+      "ts": "2026-09-30T10:43:02-04:00",
+      "source": "greenhouse",
+      "source_url": "https://www.coinbase.com/careers/positions/8207217?gh_jid=8207217",
+      "type": "posting",
+      "company": {
+        "name": "Coinbase",
+        "ticker": null,
+        "industry": null,
+        "sector": "Finance",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Coinbase | Senior Executive Officer, ADGM | Remote - Abu Dhabi",
       "tags": [
         "hiring",
         "greenhouse",
         "finance"
       ],
       "extras": {
-        "role": "Money Laundering Reporting Officer, ADGM",
-        "location": "Remote - UAE",
-        "seniority": "mid",
+        "role": "Senior Executive Officer, ADGM",
+        "location": "Remote - Abu Dhabi",
+        "seniority": "senior",
         "remote": "remote"
       }
     },
     {
-      "id": "aac98ea31ac65c97",
-      "ts": "2026-09-30T02:58:46-04:00",
+      "id": "7e88f16e057fd9f1",
+      "ts": "2026-09-30T10:22:33-04:00",
       "source": "greenhouse",
-      "source_url": "https://stripe.com/jobs/search?gh_jid=6717520",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8243010",
       "type": "posting",
       "company": {
-        "name": "Stripe",
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Senior Staff Machine Learning Engineer, ML Understanding | Remote - United States",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "Data / ML"
+      ],
+      "extras": {
+        "role": "Senior Staff Machine Learning Engineer, ML Understanding",
+        "location": "Remote - United States",
+        "function": "Data / ML",
+        "soc": "15-2051",
+        "seniority": "staff"
+      }
+    },
+    {
+      "id": "86576c8240424b9a",
+      "ts": "2026-09-30T10:21:49-04:00",
+      "source": "greenhouse",
+      "source_url": "https://boards.greenhouse.io/cloudflare/jobs/8201957?gh_jid=8201957",
+      "type": "posting",
+      "company": {
+        "name": "Cloudflare",
         "ticker": null,
         "industry": null,
         "sector": "Technology",
@@ -506,84 +536,81 @@
       },
       "magnitude": null,
       "unit": "jobs",
-      "raw_text": "Stripe | Fullstack Engineer, Payments and Risk | Dublin, Ireland",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "Software Engineering"
-      ],
-      "extras": {
-        "role": "Fullstack Engineer, Payments and Risk",
-        "location": "Dublin, Ireland",
-        "function": "Software Engineering",
-        "soc": "15-1252",
-        "seniority": "mid",
-        "remote": "onsite"
-      }
-    },
-    {
-      "id": "fc1903caa2166249",
-      "ts": "2026-09-30T02:48:33-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/oscar/jobs/8242216",
-      "type": "posting",
-      "company": {
-        "name": "Oscar Health",
-        "ticker": null,
-        "industry": null,
-        "sector": "Healthcare",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Oscar Health | Bilingual (Spanish) Advanced Practice Provider - Virtual Urgent Care | Remote",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "healthcare"
-      ],
-      "extras": {
-        "role": "Bilingual (Spanish) Advanced Practice Provider - Virtual Urgent Care",
-        "location": "Remote",
-        "seniority": "mid",
-        "remote": "remote"
-      }
-    },
-    {
-      "id": "fb2da31379e89e1b",
-      "ts": "2026-09-30T02:16:00-04:00",
-      "source": "greenhouse",
-      "source_url": "https://www.pinterestcareers.com/jobs/?gh_jid=8242245",
-      "type": "posting",
-      "company": {
-        "name": "Pinterest",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Pinterest | Sr. Client Partner (Gaming/App) | Singapore",
+      "raw_text": "Cloudflare | Senior Solutions Architect, Cloudflare Developer Platform | Hybrid",
       "tags": [
         "hiring",
         "greenhouse",
         "technology"
       ],
       "extras": {
-        "role": "Sr. Client Partner (Gaming/App)",
-        "location": "Singapore",
+        "role": "Senior Solutions Architect, Cloudflare Developer Platform",
+        "location": "Hybrid",
         "seniority": "senior"
       }
     },
     {
-      "id": "12a9968b2e04d37c",
-      "ts": "2026-09-30T01:50:23-04:00",
+      "id": "2e7f0360028af457",
+      "ts": "2026-09-30T09:26:26-04:00",
       "source": "greenhouse",
-      "source_url": "https://stripe.com/jobs/search?gh_jid=8230294",
+      "source_url": "https://boards.greenhouse.io/cloudflare/jobs/8238015?gh_jid=8238015",
+      "type": "posting",
+      "company": {
+        "name": "Cloudflare",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Cloudflare | Senior Customer Engineer SLED TX (Austin, Dallas or Houston) | Hybrid",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology"
+      ],
+      "extras": {
+        "role": "Senior Customer Engineer SLED TX (Austin, Dallas or Houston)",
+        "location": "Hybrid",
+        "seniority": "senior",
+        "remote": "remote"
+      }
+    },
+    {
+      "id": "19d37a358346301a",
+      "ts": "2026-09-30T09:24:19-04:00",
+      "source": "greenhouse",
+      "source_url": "https://boards.greenhouse.io/cloudflare/jobs/8142219?gh_jid=8142219",
+      "type": "posting",
+      "company": {
+        "name": "Cloudflare",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Cloudflare | Senior Customer Engineer, SLED South West (Southern California or Arizona) | Hybrid",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology"
+      ],
+      "extras": {
+        "role": "Senior Customer Engineer, SLED South West (Southern California or Arizona)",
+        "location": "Hybrid",
+        "seniority": "senior",
+        "remote": "remote"
+      }
+    },
+    {
+      "id": "810802695c870792",
+      "ts": "2026-09-30T09:22:13-04:00",
+      "source": "greenhouse",
+      "source_url": "https://stripe.com/jobs/search?gh_jid=8240322",
       "type": "posting",
       "company": {
         "name": "Stripe",
@@ -595,7 +622,66 @@
       },
       "magnitude": null,
       "unit": "jobs",
-      "raw_text": "Stripe | Legal Operations Team Lead | Bengaluru",
+      "raw_text": "Stripe | Abuse Research Engineer | US - Remote",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology"
+      ],
+      "extras": {
+        "role": "Abuse Research Engineer",
+        "location": "US - Remote",
+        "seniority": "mid"
+      }
+    },
+    {
+      "id": "14d3bf3364796102",
+      "ts": "2026-09-30T09:18:35-04:00",
+      "source": "greenhouse",
+      "source_url": "https://careers.airbnb.com/positions/8242793?gh_jid=8242793",
+      "type": "posting",
+      "company": {
+        "name": "Airbnb",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Airbnb | Senior Program Operations Manager | Tokyo, Japan",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "Operations"
+      ],
+      "extras": {
+        "role": "Senior Program Operations Manager",
+        "location": "Tokyo, Japan",
+        "function": "Operations",
+        "soc": "11-1021",
+        "seniority": "senior"
+      }
+    },
+    {
+      "id": "205db30f68925c23",
+      "ts": "2026-09-30T09:02:17-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/gitlab/jobs/8845970002",
+      "type": "posting",
+      "company": {
+        "name": "GitLab",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "GitLab | Director, Strategic Finance | Remote, United States",
       "tags": [
         "hiring",
         "greenhouse",
@@ -603,174 +689,81 @@
         "Engineering Management"
       ],
       "extras": {
-        "role": "Legal Operations Team Lead",
-        "location": "Bengaluru",
+        "role": "Director, Strategic Finance",
+        "location": "Remote, United States",
         "function": "Engineering Management",
         "soc": "11-9041",
-        "seniority": "lead"
+        "seniority": "director"
       }
     },
     {
-      "id": "05712ee139771a98",
-      "ts": "2026-09-30T01:26:10-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/oscar/jobs/8242210",
+      "id": "c7ea84ab17ce86a4",
+      "ts": "2026-09-30T12:26:48.364000Z",
+      "source": "lever",
+      "source_url": "https://jobs.lever.co/spotify/a343f789-bb7f-41eb-bd85-d7c6b45bda67",
       "type": "posting",
       "company": {
-        "name": "Oscar Health",
+        "name": "Spotify",
         "ticker": null,
         "industry": null,
-        "sector": "Healthcare",
-        "hq_region": null,
+        "sector": "Media",
+        "hq_region": "NY",
         "size_band": "unknown"
       },
       "magnitude": null,
       "unit": "jobs",
-      "raw_text": "Oscar Health | Physician - Virtual Health Assessment Team | Remote",
+      "raw_text": "Spotify | Technical Program Manager | New York, NY | Personalization",
       "tags": [
         "hiring",
-        "greenhouse",
-        "healthcare"
+        "lever",
+        "media",
+        "NY"
       ],
       "extras": {
-        "role": "Physician - Virtual Health Assessment Team",
-        "location": "Remote",
-        "seniority": "mid",
-        "salary_min": 216406.0,
-        "salary_max": 284032.0,
-        "remote": "remote"
-      }
-    },
-    {
-      "id": "eacc8c4e689ea9a0",
-      "ts": "2026-09-30T01:02:07-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/mercury/jobs/6199479004",
-      "type": "posting",
-      "company": {
-        "name": "Mercury",
-        "ticker": null,
-        "industry": null,
-        "sector": "Finance",
-        "hq_region": "CA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Mercury | Account Executive - Technology | San Francisco, CA, New York, NY, Portland, OR, or Remote within United States",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "finance",
-        "CA",
-        "Sales"
-      ],
-      "extras": {
-        "role": "Account Executive - Technology",
-        "location": "San Francisco, CA, New York, NY, Portland, OR, or Remote within United States",
-        "function": "Sales",
-        "soc": "41-3091",
-        "seniority": "mid",
-        "stack": [
-          "go"
-        ]
-      }
-    },
-    {
-      "id": "2b3b0a44750e9886",
-      "ts": "2026-09-30T01:02:07-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/mercury/jobs/6200670004",
-      "type": "posting",
-      "company": {
-        "name": "Mercury",
-        "ticker": null,
-        "industry": null,
-        "sector": "Finance",
-        "hq_region": "CA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Mercury | Customer Support Specialist - Risk | San Francisco, CA, New York, NY, Portland, OR, or Remote within United States",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "finance",
-        "CA",
-        "Support"
-      ],
-      "extras": {
-        "role": "Customer Support Specialist - Risk",
-        "location": "San Francisco, CA, New York, NY, Portland, OR, or Remote within United States",
-        "function": "Support",
-        "soc": "43-4051",
-        "seniority": "mid"
-      }
-    },
-    {
-      "id": "11ba29f4cedc7916",
-      "ts": "2026-09-30T01:02:07-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/mercury/jobs/6210798004",
-      "type": "posting",
-      "company": {
-        "name": "Mercury",
-        "ticker": null,
-        "industry": null,
-        "sector": "Finance",
-        "hq_region": "CA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Mercury | Executive Business Partner - Manager | San Francisco, CA, New York, NY, Portland, OR, or Remote within Canada or United States",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "finance",
-        "CA"
-      ],
-      "extras": {
-        "role": "Executive Business Partner - Manager",
-        "location": "San Francisco, CA, New York, NY, Portland, OR, or Remote within Canada or United States",
+        "role": "Technical Program Manager",
+        "location": "New York, NY",
+        "team": "Personalization",
+        "commitment": "Permanent",
         "seniority": "manager"
       }
     },
     {
-      "id": "b9a8badb23f6b4fc",
-      "ts": "2026-09-30T01:02:07-04:00",
+      "id": "32fa16ab88732840",
+      "ts": "2026-09-30T08:21:48-04:00",
       "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/mercury/jobs/6199427004",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8049518",
       "type": "posting",
       "company": {
-        "name": "Mercury",
+        "name": "Reddit",
         "ticker": null,
         "industry": null,
-        "sector": "Finance",
+        "sector": "Media",
         "hq_region": "CA",
         "size_band": "unknown"
       },
       "magnitude": null,
       "unit": "jobs",
-      "raw_text": "Mercury | Head of Market & Liquidity Risk | San Francisco, CA, New York, NY, Portland, OR, or Remote within United States",
+      "raw_text": "Reddit | Client Account Manager, Large Customer Sales (Tech) | Los Angeles, CA; San Francisco, CA",
       "tags": [
         "hiring",
         "greenhouse",
-        "finance",
-        "CA"
+        "media",
+        "CA",
+        "Customer Success"
       ],
       "extras": {
-        "role": "Head of Market & Liquidity Risk",
-        "location": "San Francisco, CA, New York, NY, Portland, OR, or Remote within United States",
-        "seniority": "mid"
+        "role": "Client Account Manager, Large Customer Sales (Tech)",
+        "location": "Los Angeles, CA; San Francisco, CA",
+        "function": "Customer Success",
+        "soc": "13-1161",
+        "seniority": "manager"
       }
     },
     {
-      "id": "c5658a0c1d044f2b",
-      "ts": "2026-09-30T00:02:47Z",
+      "id": "d7c1ece6afe90be7",
+      "ts": "2026-09-30T04:44:56Z",
       "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPSGRRY0pWVU15cDhKZUV3emlvWS1uX0JjblZQbHZuMi05LWFUSlVkVDVTOGV0QS1SQjd5UWJDRklfbXVpQ1g4ZjVrQV9lMm1YMmx0WjJNeEVtNTJVaFZ2MGFHbFB4Skx4Nm05elBVZnVUR0RXTUhGTlN4RG0yWVd2MWNseEtiZS1WVDRyWmJVWFRGR3FuSWxXMDEwRmNyb0E?oc=5",
+      "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQM2pTMVRkSk5NREJ4bUpOcEZKelBSUlU2MnhsR2Mya0hkUUttLVdpeWxhZm9XbEJPV3hkWXh4ZXpSRmFSUVg0cld1QlNiU2tseE5ZbV90dDB0V2RlMHpMRldnN0g5RHphVElJeVJlQjVrNjh5MmdCY0VqcC1TaHh0Y1ZpVmNCaTUyMFJHcXRFQWp0QXNlcGVYSnJGbjZaOG92ZEQ1QVVFXzl1aTlIQ2NR?oc=5",
       "type": "layoff",
       "company": {
         "name": "Disney",
@@ -782,12 +775,40 @@
       },
       "magnitude": null,
       "unit": null,
-      "raw_text": "Disney Cuts Hundreds More Jobs in New Round of Layoffs as Corporate Streamlining Casualties Mount",
+      "raw_text": "Disney announces fresh layoffs across HR and IT functions - People Matters",
       "tags": [
         "layoff",
         "media"
       ],
       "extras": {}
+    },
+    {
+      "id": "b70c5066619e1773",
+      "ts": "2026-09-30T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1108134&type=&dateb=&owner=include&count=40",
+      "type": "exec_move",
+      "company": {
+        "name": "Beacon Financial Corp",
+        "ticker": null,
+        "industry": null,
+        "sector": "Finance",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Beacon Financial Corp reported an executive or board change in an 8-K filing on 2026-09-30.",
+      "tags": [
+        "exec_move",
+        "sec_8k",
+        "finance"
+      ],
+      "extras": {
+        "adsh": "0001171843-26-006308",
+        "cik": "0001108134",
+        "file_date": "2026-09-30"
+      }
     },
     {
       "id": "cebec23f6d5faf73",
@@ -814,6 +835,34 @@
       "extras": {
         "adsh": "0000874766-26-000067",
         "cik": "0000874766",
+        "file_date": "2026-09-30"
+      }
+    },
+    {
+      "id": "e5cc2890e3138578",
+      "ts": "2026-09-30T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2157875&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "Unlokd, INC",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Unlokd, INC filed a Form D securities offering with the SEC on 2026-09-30.",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002157875-26-000002",
+        "cik": "0002157875",
         "file_date": "2026-09-30"
       }
     },
@@ -902,6 +951,34 @@
       }
     },
     {
+      "id": "e96c77de5fcfde61",
+      "ts": "2026-09-30T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2157625&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "Bear Creek Products 2026-1",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Bear Creek Products 2026-1 filed a Form D securities offering with the SEC on 2026-09-30.",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002157625-26-000001",
+        "cik": "0002157625",
+        "file_date": "2026-09-30"
+      }
+    },
+    {
       "id": "4d5fe165d68dcc22",
       "ts": "2026-09-30T00:00:00Z",
       "source": "sec_edgar",
@@ -958,6 +1035,34 @@
       }
     },
     {
+      "id": "9bfda76c4d5a267e",
+      "ts": "2026-09-30T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2157297&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "CuriousBox AI Inc.",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "CuriousBox AI Inc. filed a Form D securities offering with the SEC on 2026-09-30.",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002157297-26-000001",
+        "cik": "0002157297",
+        "file_date": "2026-09-30"
+      }
+    },
+    {
       "id": "f10b4bba01ae8735",
       "ts": "2026-09-30T00:00:00Z",
       "source": "sec_edgar",
@@ -982,6 +1087,90 @@
       "extras": {
         "adsh": "0002156531-26-000001",
         "cik": "0002156531",
+        "file_date": "2026-09-30"
+      }
+    },
+    {
+      "id": "5261b5b8edf85d35",
+      "ts": "2026-09-30T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2155806&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "H.I.G. Supreme CV, SCSp SICAV-RAIF",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "H.I.G. Supreme CV, SCSp SICAV-RAIF filed a Form D securities offering with the SEC on 2026-09-30.",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002155806-26-000001",
+        "cik": "0002155806",
+        "file_date": "2026-09-30"
+      }
+    },
+    {
+      "id": "e4ecd0e375b08314",
+      "ts": "2026-09-30T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2155656&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "BZ Kitchens, PBC",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "BZ Kitchens, PBC filed a Form D securities offering with the SEC on 2026-09-30.",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002155656-26-000001",
+        "cik": "0002155656",
+        "file_date": "2026-09-30"
+      }
+    },
+    {
+      "id": "56a7f7e170a465e8",
+      "ts": "2026-09-30T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2154840&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "Autology, Inc.",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Autology, Inc. filed a Form D securities offering with the SEC on 2026-09-30.",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002154840-26-000001",
+        "cik": "0002154840",
         "file_date": "2026-09-30"
       }
     },
@@ -1154,13 +1343,13 @@
       }
     },
     {
-      "id": "38e4ac668444b1df",
+      "id": "0c62a7f5f3b56245",
       "ts": "2026-09-30T00:00:00Z",
       "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2131684&type=&dateb=&owner=include&count=40",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2133194&type=&dateb=&owner=include&count=40",
       "type": "funding",
       "company": {
-        "name": "F42 Corp",
+        "name": "Beyond DC Class A Investments",
         "ticker": null,
         "industry": null,
         "sector": "Other",
@@ -1169,26 +1358,26 @@
       },
       "magnitude": null,
       "unit": null,
-      "raw_text": "F42 Corp filed a Form D securities offering with the SEC on 2026-09-30.",
+      "raw_text": "Beyond DC Class A Investments filed a Form D securities offering with the SEC on 2026-09-30.",
       "tags": [
         "funding",
         "form_d",
         "other"
       ],
       "extras": {
-        "adsh": "0002131684-26-000003",
-        "cik": "0002131684",
+        "adsh": "0002133194-26-000001",
+        "cik": "0002133194",
         "file_date": "2026-09-30"
       }
     },
     {
-      "id": "0f4695c1be0b6177",
+      "id": "5d1c619c1aebe34b",
       "ts": "2026-09-30T00:00:00Z",
       "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2131684&type=&dateb=&owner=include&count=40",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2132759&type=&dateb=&owner=include&count=40",
       "type": "funding",
       "company": {
-        "name": "F42 Corp",
+        "name": "Emip 27, LLC",
         "ticker": null,
         "industry": null,
         "sector": "Other",
@@ -1197,183 +1386,15 @@
       },
       "magnitude": null,
       "unit": null,
-      "raw_text": "F42 Corp filed a Form D securities offering with the SEC on 2026-09-30.",
+      "raw_text": "Emip 27, LLC filed a Form D securities offering with the SEC on 2026-09-30.",
       "tags": [
         "funding",
         "form_d",
         "other"
       ],
       "extras": {
-        "adsh": "0002131684-26-000002",
-        "cik": "0002131684",
-        "file_date": "2026-09-30"
-      }
-    },
-    {
-      "id": "9f03e57389db45bf",
-      "ts": "2026-09-30T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2089832&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "New Age Financial Invest LLC",
-        "ticker": null,
-        "industry": null,
-        "sector": "Finance",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "New Age Financial Invest LLC filed a Form D securities offering with the SEC on 2026-09-30.",
-      "tags": [
-        "funding",
-        "form_d",
-        "finance"
-      ],
-      "extras": {
-        "adsh": "0002089832-26-000001",
-        "cik": "0002089832",
-        "file_date": "2026-09-30"
-      }
-    },
-    {
-      "id": "c541d3bbb2aa5a58",
-      "ts": "2026-09-30T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2088037&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "PWA Gateway Blocker, LLC",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "PWA Gateway Blocker, LLC filed a Form D securities offering with the SEC on 2026-09-30.",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0002088037-26-000001",
-        "cik": "0002088037",
-        "file_date": "2026-09-30"
-      }
-    },
-    {
-      "id": "349ab5041aee2991",
-      "ts": "2026-09-30T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2030364&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "VALT Investor Group Inc.",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "VALT Investor Group Inc. filed a Form D securities offering with the SEC on 2026-09-30.",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0002030364-26-000003",
-        "cik": "0002030364",
-        "file_date": "2026-09-30"
-      }
-    },
-    {
-      "id": "b1934de43a4c6f8b",
-      "ts": "2026-09-30T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1938088&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "Apogee Semiconductor, Inc.",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Apogee Semiconductor, Inc. filed a Form D securities offering with the SEC on 2026-09-30.",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0001938088-26-000002",
-        "cik": "0001938088",
-        "file_date": "2026-09-30"
-      }
-    },
-    {
-      "id": "958fa7b5eea280a9",
-      "ts": "2026-09-30T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1924727&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "ARTBnk Inc.",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "ARTBnk Inc. filed a Form D securities offering with the SEC on 2026-09-30.",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0001924727-26-000003",
-        "cik": "0001924727",
-        "file_date": "2026-09-30"
-      }
-    },
-    {
-      "id": "26fbaef296c84754",
-      "ts": "2026-09-30T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1595734&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "1World Online, Inc.",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "1World Online, Inc. filed a Form D securities offering with the SEC on 2026-09-30.",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0001595734-26-000005",
-        "cik": "0001595734",
+        "adsh": "0002132759-26-000001",
+        "cik": "0002132759",
         "file_date": "2026-09-30"
       }
     },
@@ -1993,34 +2014,6 @@
       "extras": {
         "adsh": "0001477932-26-005798",
         "cik": "0001425627",
-        "file_date": "2026-09-25"
-      }
-    },
-    {
-      "id": "935839d5a2dababe",
-      "ts": "2026-09-25T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1801170&type=&dateb=&owner=include&count=40",
-      "type": "exec_move",
-      "company": {
-        "name": "Clover Health Investments, Corp. /De",
-        "ticker": null,
-        "industry": null,
-        "sector": "Healthcare",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Clover Health Investments, Corp. /De reported an executive or board change in an 8-K filing on 2026-09-25.",
-      "tags": [
-        "exec_move",
-        "sec_8k",
-        "healthcare"
-      ],
-      "extras": {
-        "adsh": "0001801170-26-000232",
-        "cik": "0001801170",
         "file_date": "2026-09-25"
       }
     },
@@ -2794,7 +2787,7 @@
     }
   ],
   "sector_matrix": {
-    "generated_at": "2026-09-30T12:06:26.736028Z",
+    "generated_at": "2026-09-30T15:31:36.814688Z",
     "cells": [
       {
         "sector": "Technology",
@@ -2808,11 +2801,11 @@
       {
         "sector": "Technology",
         "signal_type": "posting",
-        "count_7d": 1477,
-        "count_30d": 2187,
+        "count_7d": 1474,
+        "count_30d": 2189,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 42.79
+        "z_score": 42.62
       },
       {
         "sector": "Technology",
@@ -2853,20 +2846,20 @@
       {
         "sector": "Finance",
         "signal_type": "posting",
-        "count_7d": 292,
-        "count_30d": 386,
+        "count_7d": 294,
+        "count_30d": 388,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 21.28
+        "z_score": 21.38
       },
       {
         "sector": "Finance",
         "signal_type": "exec_move",
-        "count_7d": 2,
-        "count_30d": 4,
+        "count_7d": 3,
+        "count_30d": 5,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 1.07
+        "z_score": 1.7
       },
       {
         "sector": "Finance",
@@ -2898,11 +2891,11 @@
       {
         "sector": "Healthcare",
         "signal_type": "posting",
-        "count_7d": 77,
+        "count_7d": 79,
         "count_30d": 260,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 2.1
+        "z_score": 2.35
       },
       {
         "sector": "Healthcare",
@@ -3079,10 +3072,10 @@
         "sector": "Media",
         "signal_type": "posting",
         "count_7d": 77,
-        "count_30d": 135,
+        "count_30d": 137,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 8.11
+        "z_score": 7.96
       },
       {
         "sector": "Media",
@@ -3510,10 +3503,10 @@
         "extras": {}
       },
       {
-        "id": "c5658a0c1d044f2b",
-        "ts": "2026-09-30T00:02:47Z",
+        "id": "d7c1ece6afe90be7",
+        "ts": "2026-09-30T04:44:56Z",
         "source": "news_layoffs",
-        "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPSGRRY0pWVU15cDhKZUV3emlvWS1uX0JjblZQbHZuMi05LWFUSlVkVDVTOGV0QS1SQjd5UWJDRklfbXVpQ1g4ZjVrQV9lMm1YMmx0WjJNeEVtNTJVaFZ2MGFHbFB4Skx4Nm05elBVZnVUR0RXTUhGTlN4RG0yWVd2MWNseEtiZS1WVDRyWmJVWFRGR3FuSWxXMDEwRmNyb0E?oc=5",
+        "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQM2pTMVRkSk5NREJ4bUpOcEZKelBSUlU2MnhsR2Mya0hkUUttLVdpeWxhZm9XbEJPV3hkWXh4ZXpSRmFSUVg0cld1QlNiU2tseE5ZbV90dDB0V2RlMHpMRldnN0g5RHphVElJeVJlQjVrNjh5MmdCY0VqcC1TaHh0Y1ZpVmNCaTUyMFJHcXRFQWp0QXNlcGVYSnJGbjZaOG92ZEQ1QVVFXzl1aTlIQ2NR?oc=5",
         "type": "layoff",
         "company": {
           "name": "Disney",
@@ -3525,7 +3518,7 @@
         },
         "magnitude": null,
         "unit": null,
-        "raw_text": "Disney Cuts Hundreds More Jobs in New Round of Layoffs as Corporate Streamlining Casualties Mount",
+        "raw_text": "Disney announces fresh layoffs across HR and IT functions - People Matters",
         "tags": [
           "layoff",
           "media"
