@@ -1,18 +1,18 @@
 {
   "stream": "layoffs",
-  "generated_at": "2026-10-01T22:27:28.893670+00:00",
-  "total": 86,
-  "showing": 86,
+  "generated_at": "2026-10-02T04:39:19.411577+00:00",
+  "total": 83,
+  "showing": 83,
   "source_counts": {
-    "state_warn": 55,
+    "state_warn": 52,
     "news_layoffs": 26,
     "layoffs_fyi": 5
   },
   "sector_counts": {
-    "Other": 40,
+    "Other": 39,
     "Hospitality": 8,
-    "Technology": 7,
-    "Healthcare": 7,
+    "Technology": 6,
+    "Healthcare": 6,
     "Logistics": 6,
     "Retail": 4,
     "Finance": 3,
@@ -23,6 +23,29 @@
     "Manufacturing": 1
   },
   "events": [
+    {
+      "id": "e8c4be636eac488d",
+      "ts": "2026-10-02T02:22:14Z",
+      "source": "news_layoffs",
+      "source_url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPcTlIUlBnd3JsakNubGozM1NwdzhkZGxra0lLbXA3bmtxXzFUWG14UnpqZWMteWM3ZXlwb1I3VVcyTmo3SWd6X1d0SDFSTjk3eHRWdGx1amdSY1pJY0JSR0VoVEpScXVOSVFXTXRSSkNod01COGo4aHN5UF9ORmE2UmVuczdMY2g5b2lpOXUxcWV3UlBtLUl1MGotWXpWbnoyZmEyRFNjei04WEV0WXVPTW5NVzI1Rmtnb1BCRlpFWWFid2VkWFhlcFRoc3VVRUxKNXZHeU5wR094UGJLMTN2V1Nn0gHnAUFVX3lxTE1LRFJhMVRIUmRUc1lNaTRNTmJ0akdfRlhkZTF5Ukp6QnBsb3YwNGtTcV9Idkc4UlJURVRlWk9aZDRBSVJTT19HOEF4YTZDMU1EeHFncWVYQ3dZR2NLM3ZFa2NJcTRHU2kwejZMS3pDR1M1Z19ZSmt1UWVfaG81X1dtbUxCbktxWjFTZ1RzcEVYb0dBdGIzWjcwUjJ0ZWxCR2VFZXZ6VnN5a3BraEJkT2Rxc0Qyc3FSU2ZZb0ZIREFzLVVyUThxeGxHa0VZMzRBLVlqNm11N25wZGlVd1Q4U0U4RGtqajk1Zw?oc=5",
+      "type": "layoff",
+      "company": {
+        "name": "NBCUniversal",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "NBCUniversal cuts hundreds of streaming tech jobs: What\u2019s behind Comcast\u2019s latest layoffs?",
+      "tags": [
+        "layoff",
+        "other"
+      ],
+      "extras": {}
+    },
     {
       "id": "38d7d99bb86f60b3",
       "ts": "2026-10-01T20:55:00Z",
@@ -112,29 +135,6 @@
       "tags": [
         "layoff",
         "media"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "3bd166f34bfe6632",
-      "ts": "2026-10-01T04:45:17Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPX3VuaUh1VmU4YUZ3NEoxaXdEZUpfQVB5QlZ0Nk9sWHdySThIU24zQ0dJLTllUUZZMzRnZVNHNjF1U3hGTko3TFFBX09iVy1fdW9tWEoyMGlDbDJ6M2lkSmJyanNJQ3NZLUpDQkxkMzdtNkk1T2lrNXBOM2ZvSFBPU2Z1bDBxc0FaMEtjY0dKUklRS2dwdDR0TkZuOG1wOHlDNng2bnpONm4tb0dOdFBFWHRDbW5RMUdFOVg1Q0QxY1ZWblN3cTN3?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "Workday",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": 500.0,
-      "unit": "people",
-      "raw_text": "Workday cuts 500 jobs as restructuring targets product and technology teams - People Matters",
-      "tags": [
-        "layoff",
-        "technology"
       ],
       "extras": {}
     },
@@ -2243,93 +2243,6 @@
       "extras": {
         "state": "TX",
         "city": "Houston",
-        "warn": true
-      }
-    },
-    {
-      "id": "db5415f283cdc5ec",
-      "ts": "2026-02-04T00:00:00Z",
-      "source": "state_warn",
-      "source_url": "https://data.texas.gov/d/8w53-c4f6",
-      "type": "layoff",
-      "company": {
-        "name": "Empower Clinic Services, LLC",
-        "ticker": null,
-        "industry": null,
-        "sector": "Healthcare",
-        "hq_region": "TX",
-        "size_band": "unknown"
-      },
-      "magnitude": 57.0,
-      "unit": "people",
-      "raw_text": "Empower Clinic Services, LLC filed a WARN notice for 57 jobs in Houston, TX.",
-      "tags": [
-        "layoff",
-        "warn",
-        "tx",
-        "healthcare"
-      ],
-      "extras": {
-        "state": "TX",
-        "city": "Houston",
-        "warn": true
-      }
-    },
-    {
-      "id": "a9a6e1da5fe4e95c",
-      "ts": "2026-02-04T00:00:00Z",
-      "source": "state_warn",
-      "source_url": "https://data.texas.gov/d/8w53-c4f6",
-      "type": "layoff",
-      "company": {
-        "name": "First Brands Group, LLC",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": "TX",
-        "size_band": "unknown"
-      },
-      "magnitude": 87.0,
-      "unit": "people",
-      "raw_text": "First Brands Group, LLC filed a WARN notice for 87 jobs in Arlington, TX.",
-      "tags": [
-        "layoff",
-        "warn",
-        "tx",
-        "other"
-      ],
-      "extras": {
-        "state": "TX",
-        "city": "Arlington",
-        "warn": true
-      }
-    },
-    {
-      "id": "c4a57b565336962e",
-      "ts": "2026-02-04T00:00:00Z",
-      "source": "state_warn",
-      "source_url": "https://data.texas.gov/d/8w53-c4f6",
-      "type": "layoff",
-      "company": {
-        "name": "HGS Solutions",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": "TX",
-        "size_band": "unknown"
-      },
-      "magnitude": 92.0,
-      "unit": "people",
-      "raw_text": "HGS Solutions filed a WARN notice for 92 jobs in El Paso, TX.",
-      "tags": [
-        "layoff",
-        "warn",
-        "tx",
-        "other"
-      ],
-      "extras": {
-        "state": "TX",
-        "city": "El Paso",
         "warn": true
       }
     }
