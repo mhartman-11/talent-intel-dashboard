@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-06T12:57:36.808149Z",
+  "generated_at": "2026-10-06T15:38:27.092524Z",
   "next_ingest_at": null,
-  "total_events": 4193,
-  "events_7d": 1769,
+  "total_events": 4212,
+  "events_7d": 1616,
   "sources": [
     {
       "source": "greenhouse",
@@ -10,9 +10,9 @@
       "url": "https://boards-api.greenhouse.io",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-10-06T12:57:36.938033Z",
-      "last_attempted": "2026-10-06T12:57:36.938033Z",
-      "record_count": 3523,
+      "last_ok": "2026-10-06T15:38:27.227530Z",
+      "last_attempted": "2026-10-06T15:38:27.227530Z",
+      "record_count": 3538,
       "ok": true,
       "errors": [
         "DoorDash (doordash): GET https://boards-api.greenhouse.io/v1/boards/doordash/jobs failed: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/doordash/jobs?content=true'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
@@ -32,9 +32,9 @@
       "url": "https://api.lever.co/v0/postings",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-10-06T12:58:06.932627Z",
-      "last_attempted": "2026-10-06T12:58:06.932627Z",
-      "record_count": 78,
+      "last_ok": "2026-10-06T15:38:55.519398Z",
+      "last_attempted": "2026-10-06T15:38:55.519398Z",
+      "record_count": 75,
       "ok": true,
       "errors": [
         "Scale AI (scaleai): GET https://api.lever.co/v0/postings/scaleai failed: Client error '404 Not Found' for url 'https://api.lever.co/v0/postings/scaleai?mode=json'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
@@ -49,9 +49,9 @@
       "url": "https://api.ashbyhq.com/posting-api",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-10-06T12:58:16.567310Z",
-      "last_attempted": "2026-10-06T12:58:16.567310Z",
-      "record_count": 292,
+      "last_ok": "2026-10-06T15:39:06.048884Z",
+      "last_attempted": "2026-10-06T15:39:06.048884Z",
+      "record_count": 293,
       "ok": true,
       "errors": [
         "Replicate (replicate): GET https://api.ashbyhq.com/posting-api/job-board/replicate failed: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/replicate'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
@@ -63,8 +63,8 @@
       "url": "https://techcrunch.com/tag/layoffs/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-10-06T12:58:19.585841Z",
-      "last_attempted": "2026-10-06T12:58:19.585841Z",
+      "last_ok": "2026-10-06T15:39:08.789625Z",
+      "last_attempted": "2026-10-06T15:39:08.789625Z",
       "record_count": 5,
       "ok": true,
       "errors": []
@@ -75,8 +75,8 @@
       "url": "https://news.google.com/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-10-06T12:58:20.161106Z",
-      "last_attempted": "2026-10-06T12:58:20.161106Z",
+      "last_ok": "2026-10-06T15:39:09.209686Z",
+      "last_attempted": "2026-10-06T15:39:09.209686Z",
       "record_count": 22,
       "ok": true,
       "errors": []
@@ -87,8 +87,8 @@
       "url": "https://data.texas.gov/d/8w53-c4f6",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-10-06T12:58:23.635124Z",
-      "last_attempted": "2026-10-06T12:58:23.635124Z",
+      "last_ok": "2026-10-06T15:39:12.467346Z",
+      "last_attempted": "2026-10-06T15:39:12.467346Z",
       "record_count": 52,
       "ok": true,
       "errors": []
@@ -99,8 +99,8 @@
       "url": "https://techcrunch.com/category/venture/feed/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-10-06T12:58:25.083519Z",
-      "last_attempted": "2026-10-06T12:58:25.083519Z",
+      "last_ok": "2026-10-06T15:39:15.259475Z",
+      "last_attempted": "2026-10-06T15:39:15.259475Z",
       "record_count": 11,
       "ok": true,
       "errors": []
@@ -111,9 +111,9 @@
       "url": "https://efts.sec.gov/LATEST/search-index",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-10-06T12:58:25.643942Z",
-      "last_attempted": "2026-10-06T12:58:25.643942Z",
-      "record_count": 111,
+      "last_ok": "2026-10-06T15:39:15.779209Z",
+      "last_attempted": "2026-10-06T15:39:15.779209Z",
+      "record_count": 117,
       "ok": true,
       "errors": []
     },
@@ -123,8 +123,8 @@
       "url": "https://www.bls.gov/oes/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-10-06T12:58:27.199078Z",
-      "last_attempted": "2026-10-06T12:58:27.199078Z",
+      "last_ok": "2026-10-06T15:39:17.793524Z",
+      "last_attempted": "2026-10-06T15:39:17.793524Z",
       "record_count": 24,
       "ok": true,
       "errors": []
@@ -135,8 +135,8 @@
       "url": "https://www.bls.gov/ces/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-10-06T12:58:27.859771Z",
-      "last_attempted": "2026-10-06T12:58:27.859771Z",
+      "last_ok": "2026-10-06T15:39:18.364699Z",
+      "last_attempted": "2026-10-06T15:39:18.364699Z",
       "record_count": 48,
       "ok": true,
       "errors": []
@@ -147,8 +147,8 @@
       "url": "https://www.bls.gov/developers/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-10-06T12:58:28.318043Z",
-      "last_attempted": "2026-10-06T12:58:28.318043Z",
+      "last_ok": "2026-10-06T15:39:18.852914Z",
+      "last_attempted": "2026-10-06T15:39:18.852914Z",
       "record_count": 30,
       "ok": true,
       "errors": []
@@ -156,10 +156,160 @@
   ],
   "recent_signals": [
     {
-      "id": "3573a83b976e9f3f",
-      "ts": "2026-10-06T08:45:46-04:00",
+      "id": "ed033f0e765ceed4",
+      "ts": "2026-10-06T11:28:01-04:00",
       "source": "greenhouse",
-      "source_url": "https://boards.greenhouse.io/cloudflare/jobs/8243552?gh_jid=8243552",
+      "source_url": "https://boards.greenhouse.io/robinhood/jobs/8214383?t=gh_src=&gh_jid=8214383",
+      "type": "posting",
+      "company": {
+        "name": "Robinhood",
+        "ticker": null,
+        "industry": null,
+        "sector": "Finance",
+        "hq_region": "CA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Robinhood | Staff Software Engineer, AI Security | Bellevue, WA; Menlo Park, CA",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "finance",
+        "CA",
+        "Software Engineering"
+      ],
+      "extras": {
+        "role": "Staff Software Engineer, AI Security",
+        "location": "Bellevue, WA; Menlo Park, CA",
+        "function": "Software Engineering",
+        "soc": "15-1252",
+        "seniority": "staff",
+        "remote": "remote"
+      }
+    },
+    {
+      "id": "ade9b39608fbbefc",
+      "ts": "2026-10-06T11:25:46-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8180636",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Staff Software Engineer, Developer Ecosystem | Remote - United States",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "Software Engineering"
+      ],
+      "extras": {
+        "role": "Staff Software Engineer, Developer Ecosystem",
+        "location": "Remote - United States",
+        "function": "Software Engineering",
+        "soc": "15-1252",
+        "seniority": "staff"
+      }
+    },
+    {
+      "id": "13bb1113bf11f830",
+      "ts": "2026-10-06T11:25:11-04:00",
+      "source": "greenhouse",
+      "source_url": "https://boards.greenhouse.io/robinhood/jobs/8082056?t=gh_src=&gh_jid=8082056",
+      "type": "posting",
+      "company": {
+        "name": "Robinhood",
+        "ticker": null,
+        "industry": null,
+        "sector": "Finance",
+        "hq_region": "CA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Robinhood | Staff Quality Engineer | Menlo Park, CA",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "finance",
+        "CA"
+      ],
+      "extras": {
+        "role": "Staff Quality Engineer",
+        "location": "Menlo Park, CA",
+        "seniority": "staff"
+      }
+    },
+    {
+      "id": "4ddd3ff64bcd7c49",
+      "ts": "2026-10-06T11:21:48-04:00",
+      "source": "greenhouse",
+      "source_url": "https://stripe.com/jobs/search?gh_jid=8238747",
+      "type": "posting",
+      "company": {
+        "name": "Stripe",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": "CA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Stripe | Partner Development Manager, Financial Partnership Capabilities | US-New York City; US-San Francisco; US-Seattle; US-Remote; US- Chicago; US-Atlanta; Canada-Toronto; Canada-Remote",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "CA"
+      ],
+      "extras": {
+        "role": "Partner Development Manager, Financial Partnership Capabilities",
+        "location": "US-New York City; US-San Francisco; US-Seattle; US-Remote; US- Chicago; US-Atlanta; Canada-Toronto; Canada-Remote",
+        "seniority": "manager"
+      }
+    },
+    {
+      "id": "e56e785a77fb299c",
+      "ts": "2026-10-06T11:20:33-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/gitlab/jobs/8864903002",
+      "type": "posting",
+      "company": {
+        "name": "GitLab",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "GitLab | Pipeline Programs Manager | Remote, Canada; Remote, United States",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology"
+      ],
+      "extras": {
+        "role": "Pipeline Programs Manager",
+        "location": "Remote, Canada; Remote, United States",
+        "seniority": "manager"
+      }
+    },
+    {
+      "id": "cc02bce597cd5994",
+      "ts": "2026-10-06T11:19:52-04:00",
+      "source": "greenhouse",
+      "source_url": "https://boards.greenhouse.io/cloudflare/jobs/8257533?gh_jid=8257533",
       "type": "posting",
       "company": {
         "name": "Cloudflare",
@@ -171,82 +321,82 @@
       },
       "magnitude": null,
       "unit": "jobs",
-      "raw_text": "Cloudflare | Senior Product Manager - Threat Intel | Hybrid; In-Office",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "Product"
-      ],
-      "extras": {
-        "role": "Senior Product Manager - Threat Intel",
-        "location": "Hybrid; In-Office",
-        "function": "Product",
-        "soc": "11-2021",
-        "seniority": "senior"
-      }
-    },
-    {
-      "id": "918d2865930a2777",
-      "ts": "2026-10-06T08:32:27-04:00",
-      "source": "greenhouse",
-      "source_url": "https://boards.greenhouse.io/glossier/jobs/8258416?gh_jid=8258416",
-      "type": "posting",
-      "company": {
-        "name": "Glossier",
-        "ticker": null,
-        "industry": null,
-        "sector": "CPG",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Glossier | Key Lead, London | London, UK",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "cpg"
-      ],
-      "extras": {
-        "role": "Key Lead, London",
-        "location": "London, UK",
-        "seniority": "lead"
-      }
-    },
-    {
-      "id": "6493c71d5cf6a8fd",
-      "ts": "2026-10-06T08:23:20-04:00",
-      "source": "greenhouse",
-      "source_url": "https://stripe.com/jobs/search?gh_jid=8231202",
-      "type": "posting",
-      "company": {
-        "name": "Stripe",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Stripe | Technical Program Manager | Bucharest, Romania",
+      "raw_text": "Cloudflare | Senior Principal Data Strategy & Governance Manager | Hybrid",
       "tags": [
         "hiring",
         "greenhouse",
         "technology"
       ],
       "extras": {
-        "role": "Technical Program Manager",
-        "location": "Bucharest, Romania",
+        "role": "Senior Principal Data Strategy & Governance Manager",
+        "location": "Hybrid",
+        "seniority": "principal"
+      }
+    },
+    {
+      "id": "ffa06b40caffa454",
+      "ts": "2026-10-06T11:19:09-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/gitlab/jobs/8638295002",
+      "type": "posting",
+      "company": {
+        "name": "GitLab",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "GitLab | Staff Engineer, People Technology | Remote, Canada; Remote, United States",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology"
+      ],
+      "extras": {
+        "role": "Staff Engineer, People Technology",
+        "location": "Remote, Canada; Remote, United States",
+        "seniority": "staff"
+      }
+    },
+    {
+      "id": "5a996769d7053684",
+      "ts": "2026-10-06T11:15:18-04:00",
+      "source": "greenhouse",
+      "source_url": "https://boards.greenhouse.io/cloudflare/jobs/8247492?gh_jid=8247492",
+      "type": "posting",
+      "company": {
+        "name": "Cloudflare",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Cloudflare | Technical Product Marketing Manager | In-Office",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "Product"
+      ],
+      "extras": {
+        "role": "Technical Product Marketing Manager",
+        "location": "In-Office",
+        "function": "Product",
+        "soc": "11-2021",
         "seniority": "manager"
       }
     },
     {
-      "id": "4e3c5d2a6fad6452",
-      "ts": "2026-10-06T08:17:01-04:00",
+      "id": "d5091d401f619faf",
+      "ts": "2026-10-06T11:14:25-04:00",
       "source": "greenhouse",
-      "source_url": "https://stripe.com/jobs/search?gh_jid=8176730",
+      "source_url": "https://stripe.com/jobs/search?gh_jid=8241292",
       "type": "posting",
       "company": {
         "name": "Stripe",
@@ -258,7 +408,7 @@
       },
       "magnitude": null,
       "unit": "jobs",
-      "raw_text": "Stripe | Sales Manager, SMB | Dublin, Ireland",
+      "raw_text": "Stripe | Account Executive - Platforms Hunter (French Fluency) | Dublin",
       "tags": [
         "hiring",
         "greenhouse",
@@ -266,21 +416,21 @@
         "Sales"
       ],
       "extras": {
-        "role": "Sales Manager, SMB",
-        "location": "Dublin, Ireland",
+        "role": "Account Executive - Platforms Hunter (French Fluency)",
+        "location": "Dublin",
         "function": "Sales",
         "soc": "41-3091",
-        "seniority": "manager"
+        "seniority": "mid"
       }
     },
     {
-      "id": "6bc86cf4b56ae559",
-      "ts": "2026-10-06T08:14:26-04:00",
+      "id": "31b4fce970579aff",
+      "ts": "2026-10-06T11:14:04-04:00",
       "source": "greenhouse",
-      "source_url": "https://www.pinterestcareers.com/jobs/?gh_jid=8135500",
+      "source_url": "https://boards.greenhouse.io/cloudflare/jobs/7428796?gh_jid=7428796",
       "type": "posting",
       "company": {
-        "name": "Pinterest",
+        "name": "Cloudflare",
         "ticker": null,
         "industry": null,
         "sector": "Technology",
@@ -289,477 +439,341 @@
       },
       "magnitude": null,
       "unit": "jobs",
-      "raw_text": "Pinterest | Client Account Manager, Enterprise Sales - Italian Market | Dublin, IE",
+      "raw_text": "Cloudflare | Head of GTM, AI Inference | Hybrid",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology"
+      ],
+      "extras": {
+        "role": "Head of GTM, AI Inference",
+        "location": "Hybrid",
+        "seniority": "mid"
+      }
+    },
+    {
+      "id": "7b88db0fd9533e6c",
+      "ts": "2026-10-06T11:13:17-04:00",
+      "source": "greenhouse",
+      "source_url": "https://stripe.com/jobs/search?gh_jid=8257354",
+      "type": "posting",
+      "company": {
+        "name": "Stripe",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": "CA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Stripe | Staff Software Engineer, Link - Consumer Preference | San Francisco, NYC, Seattle",
       "tags": [
         "hiring",
         "greenhouse",
         "technology",
-        "Sales"
-      ],
-      "extras": {
-        "role": "Client Account Manager, Enterprise Sales - Italian Market",
-        "location": "Dublin, IE",
-        "function": "Sales",
-        "soc": "41-3091",
-        "seniority": "manager"
-      }
-    },
-    {
-      "id": "7b313063111cecc4",
-      "ts": "2026-10-06T08:13:43-04:00",
-      "source": "greenhouse",
-      "source_url": "https://boards.greenhouse.io/glossier/jobs/8257431?gh_jid=8257431",
-      "type": "posting",
-      "company": {
-        "name": "Glossier",
-        "ticker": null,
-        "industry": null,
-        "sector": "CPG",
-        "hq_region": "NY",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Glossier | (Seasonal Sales Associate, Part-Time) Editor, Soho | New York, NY",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "cpg",
-        "NY"
-      ],
-      "extras": {
-        "role": "(Seasonal Sales Associate, Part-Time) Editor, Soho",
-        "location": "New York, NY",
-        "seniority": "junior"
-      }
-    },
-    {
-      "id": "9bfa8070d70f9fa3",
-      "ts": "2026-10-06T08:07:58-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8017242",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": "CA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Senior Client Account Manager, Global Strategic Accounts (Tech/AI) | San Francisco, CA",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
         "CA",
-        "Customer Success"
-      ],
-      "extras": {
-        "role": "Senior Client Account Manager, Global Strategic Accounts (Tech/AI)",
-        "location": "San Francisco, CA",
-        "function": "Customer Success",
-        "soc": "13-1161",
-        "seniority": "senior",
-        "remote": "onsite"
-      }
-    },
-    {
-      "id": "d745050c65459e50",
-      "ts": "2026-10-06T08:07:58-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8017263",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Senior Client Account Manager, Global Strategic Accounts (UK) | London, United Kingdom",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
-        "Customer Success"
-      ],
-      "extras": {
-        "role": "Senior Client Account Manager, Global Strategic Accounts (UK)",
-        "location": "London, United Kingdom",
-        "function": "Customer Success",
-        "soc": "13-1161",
-        "seniority": "senior",
-        "remote": "onsite"
-      }
-    },
-    {
-      "id": "488c9d7a62d973ed",
-      "ts": "2026-10-06T08:07:57-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8196302",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": "NY",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Lead Client Partner, Global Strategic Accounts (Tech) | New York City, NY",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
-        "NY"
-      ],
-      "extras": {
-        "role": "Lead Client Partner, Global Strategic Accounts (Tech)",
-        "location": "New York City, NY",
-        "seniority": "lead",
-        "remote": "onsite"
-      }
-    },
-    {
-      "id": "a4151d1a9dbfeac5",
-      "ts": "2026-10-06T08:07:57-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8249469",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": "CA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Lead Client Partner, Global Strategic Accounts (Tech) | Los Angeles, CA; New York City, NY",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
-        "CA"
-      ],
-      "extras": {
-        "role": "Lead Client Partner, Global Strategic Accounts (Tech)",
-        "location": "Los Angeles, CA; New York City, NY",
-        "seniority": "lead",
-        "remote": "onsite"
-      }
-    },
-    {
-      "id": "e1c66d832d1fbd9f",
-      "ts": "2026-10-06T08:07:57-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8017196",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Senior Client Partner, Global Strategic Accounts (UK) | London, United Kingdom",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media"
-      ],
-      "extras": {
-        "role": "Senior Client Partner, Global Strategic Accounts (UK)",
-        "location": "London, United Kingdom",
-        "seniority": "senior",
-        "remote": "onsite"
-      }
-    },
-    {
-      "id": "32fa16ab88732840",
-      "ts": "2026-10-06T08:07:04-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8049518",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": "CA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Client Account Manager, Large Customer Sales (Tech) | Los Angeles, CA; San Francisco, CA",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
-        "CA",
-        "Customer Success"
-      ],
-      "extras": {
-        "role": "Client Account Manager, Large Customer Sales (Tech)",
-        "location": "Los Angeles, CA; San Francisco, CA",
-        "function": "Customer Success",
-        "soc": "13-1161",
-        "seniority": "manager"
-      }
-    },
-    {
-      "id": "d07281b717b5fa93",
-      "ts": "2026-10-06T08:07:04-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8175520",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Senior Frontend Engineer, Ads Creative | Remote - United States",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
         "Software Engineering"
       ],
       "extras": {
-        "role": "Senior Frontend Engineer, Ads Creative",
-        "location": "Remote - United States",
+        "role": "Staff Software Engineer, Link - Consumer Preference",
+        "location": "San Francisco, NYC, Seattle",
         "function": "Software Engineering",
         "soc": "15-1252",
-        "seniority": "senior"
-      }
-    },
-    {
-      "id": "de42ad1ba3ed763b",
-      "ts": "2026-10-06T08:07:04-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8077785",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": "CA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Senior GTM Insights Automation Manager | Chicago, IL; Los Angeles, CA; New York City, NY; San Francisco, CA",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
-        "CA"
-      ],
-      "extras": {
-        "role": "Senior GTM Insights Automation Manager",
-        "location": "Chicago, IL; Los Angeles, CA; New York City, NY; San Francisco, CA",
-        "seniority": "senior",
+        "seniority": "staff",
         "stack": [
           "go"
         ]
       }
     },
     {
-      "id": "09f438dc3188e381",
-      "ts": "2026-10-06T08:07:04-04:00",
+      "id": "5a865b331ed477f0",
+      "ts": "2026-10-06T11:12:30-04:00",
       "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8103609",
+      "source_url": "https://stripe.com/jobs/search?gh_jid=8163193",
       "type": "posting",
       "company": {
-        "name": "Reddit",
+        "name": "Stripe",
         "ticker": null,
         "industry": null,
-        "sector": "Media",
+        "sector": "Technology",
         "hq_region": null,
         "size_band": "unknown"
       },
       "magnitude": null,
       "unit": "jobs",
-      "raw_text": "Reddit | Staff Data Scientist - Ads Measurement, Signals, Privacy | Toronto, Canada",
+      "raw_text": "Stripe | Design Recruiter | Remote",
       "tags": [
         "hiring",
         "greenhouse",
-        "media",
-        "Data / ML"
+        "technology",
+        "People / HR / Recruiting"
       ],
       "extras": {
-        "role": "Staff Data Scientist - Ads Measurement, Signals, Privacy",
-        "location": "Toronto, Canada",
-        "function": "Data / ML",
-        "soc": "15-2051",
-        "seniority": "staff"
+        "role": "Design Recruiter",
+        "location": "Remote",
+        "function": "People / HR / Recruiting",
+        "soc": "13-1071",
+        "seniority": "mid"
       }
     },
     {
-      "id": "82731a22ece270e6",
-      "ts": "2026-10-06T08:07:04-04:00",
+      "id": "86e151d9a3eedd0e",
+      "ts": "2026-10-06T11:09:17-04:00",
       "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8072076",
+      "source_url": "https://job-boards.greenhouse.io/oscar/jobs/8258852",
       "type": "posting",
       "company": {
-        "name": "Reddit",
+        "name": "Oscar Health",
         "ticker": null,
         "industry": null,
-        "sector": "Media",
-        "hq_region": null,
+        "sector": "Healthcare",
+        "hq_region": "GA",
         "size_band": "unknown"
       },
       "magnitude": null,
       "unit": "jobs",
-      "raw_text": "Reddit | Staff Data Scientist - Ads Measurement, Signals, Privacy | Remote - United States",
+      "raw_text": "Oscar Health | Senior Analyst, Data Analytics, SIU | Atlanta, Georgia, United States",
       "tags": [
         "hiring",
         "greenhouse",
-        "media",
-        "Data / ML"
+        "healthcare",
+        "GA"
       ],
       "extras": {
-        "role": "Staff Data Scientist - Ads Measurement, Signals, Privacy",
-        "location": "Remote - United States",
-        "function": "Data / ML",
-        "soc": "15-2051",
-        "seniority": "staff"
+        "role": "Senior Analyst, Data Analytics, SIU",
+        "location": "Atlanta, Georgia, United States",
+        "seniority": "senior",
+        "salary_min": 75265.0,
+        "salary_max": 98785.0,
+        "remote": "remote"
       }
     },
     {
-      "id": "64b5aa2b1d4b271c",
-      "ts": "2026-10-06T08:07:04-04:00",
+      "id": "96aa98f41c53910a",
+      "ts": "2026-10-06T11:09:01-04:00",
       "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8070669",
+      "source_url": "https://job-boards.greenhouse.io/oscar/jobs/8212035",
       "type": "posting",
       "company": {
-        "name": "Reddit",
+        "name": "Oscar Health",
         "ticker": null,
         "industry": null,
-        "sector": "Media",
+        "sector": "Healthcare",
+        "hq_region": "TX",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Oscar Health | Senior Analyst, Data Analytics, SIU | Dallas, Texas, United States",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "healthcare",
+        "TX"
+      ],
+      "extras": {
+        "role": "Senior Analyst, Data Analytics, SIU",
+        "location": "Dallas, Texas, United States",
+        "seniority": "senior",
+        "salary_min": 75265.0,
+        "salary_max": 98785.0,
+        "remote": "remote"
+      }
+    },
+    {
+      "id": "726a424bafaace58",
+      "ts": "2026-10-06T11:08:53-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/oscar/jobs/8212034",
+      "type": "posting",
+      "company": {
+        "name": "Oscar Health",
+        "ticker": null,
+        "industry": null,
+        "sector": "Healthcare",
+        "hq_region": "AZ",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Oscar Health | Senior Analyst, Data Analytics, SIU | Tempe, Arizona, United States",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "healthcare",
+        "AZ"
+      ],
+      "extras": {
+        "role": "Senior Analyst, Data Analytics, SIU",
+        "location": "Tempe, Arizona, United States",
+        "seniority": "senior",
+        "salary_min": 75265.0,
+        "salary_max": 98785.0,
+        "remote": "hybrid"
+      }
+    },
+    {
+      "id": "1d8f66e65c0c4986",
+      "ts": "2026-10-06T11:06:50-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/oscar/jobs/8193718",
+      "type": "posting",
+      "company": {
+        "name": "Oscar Health",
+        "ticker": null,
+        "industry": null,
+        "sector": "Healthcare",
+        "hq_region": "NY",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Oscar Health | Senior Analyst, Data Analytics, SIU | New York, New York, United States",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "healthcare",
+        "NY"
+      ],
+      "extras": {
+        "role": "Senior Analyst, Data Analytics, SIU",
+        "location": "New York, New York, United States",
+        "seniority": "senior",
+        "salary_min": 86628.0,
+        "salary_max": 109761.0,
+        "remote": "hybrid"
+      }
+    },
+    {
+      "id": "3e5f62f4e49266f2",
+      "ts": "2026-10-06T11:04:40-04:00",
+      "source": "greenhouse",
+      "source_url": "https://stripe.com/jobs/search?gh_jid=8040825",
+      "type": "posting",
+      "company": {
+        "name": "Stripe",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
         "hq_region": null,
         "size_band": "unknown"
       },
       "magnitude": null,
       "unit": "jobs",
-      "raw_text": "Reddit | Staff Product Manager, Ads Safety (Ads Review) | Remote - United States",
+      "raw_text": "Stripe | Firmware Engineer | Taipei City",
       "tags": [
         "hiring",
         "greenhouse",
-        "media",
+        "technology",
+        "Software Engineering"
+      ],
+      "extras": {
+        "role": "Firmware Engineer",
+        "location": "Taipei City",
+        "function": "Software Engineering",
+        "soc": "15-1252",
+        "seniority": "mid",
+        "remote": "onsite"
+      }
+    },
+    {
+      "id": "1cb5d7a75ec929a8",
+      "ts": "2026-10-06T10:58:09-04:00",
+      "source": "greenhouse",
+      "source_url": "https://stripe.com/jobs/search?gh_jid=8258815",
+      "type": "posting",
+      "company": {
+        "name": "Stripe",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": "CA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Stripe | Staff Product Manager, Radar - Fraud and Abuse Prevention | San Francisco, Seattle, New York, US-Remote",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "CA",
         "Product"
       ],
       "extras": {
-        "role": "Staff Product Manager, Ads Safety (Ads Review)",
-        "location": "Remote - United States",
+        "role": "Staff Product Manager, Radar - Fraud and Abuse Prevention",
+        "location": "San Francisco, Seattle, New York, US-Remote",
         "function": "Product",
         "soc": "11-2021",
         "seniority": "staff"
       }
     },
     {
-      "id": "929ddd744e87b232",
-      "ts": "2026-10-06T08:07:03-04:00",
+      "id": "3d4e0d652f962ddf",
+      "ts": "2026-10-06T10:56:05-04:00",
       "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8023563",
+      "source_url": "https://stripe.com/jobs/search?gh_jid=7983854",
       "type": "posting",
       "company": {
-        "name": "Reddit",
+        "name": "Stripe",
         "ticker": null,
         "industry": null,
-        "sector": "Media",
-        "hq_region": null,
+        "sector": "Technology",
+        "hq_region": "CA",
         "size_band": "unknown"
       },
       "magnitude": null,
       "unit": "jobs",
-      "raw_text": "Reddit | Senior Business Analyst, Revenue Analytics | Remote - United States",
+      "raw_text": "Stripe | Product Manager, Radar | San Francisco, Seattle, New York, US-Remote",
       "tags": [
         "hiring",
         "greenhouse",
-        "media"
+        "technology",
+        "CA",
+        "Product"
       ],
       "extras": {
-        "role": "Senior Business Analyst, Revenue Analytics",
-        "location": "Remote - United States",
-        "seniority": "senior",
+        "role": "Product Manager, Radar",
+        "location": "San Francisco, Seattle, New York, US-Remote",
+        "function": "Product",
+        "soc": "11-2021",
+        "seniority": "manager",
         "stack": [
-          "bigquery"
+          "go"
         ]
       }
     },
     {
-      "id": "0f48b6364f478667",
-      "ts": "2026-10-06T08:07:03-04:00",
+      "id": "46455f0a60909fe1",
+      "ts": "2026-10-06T10:48:57-04:00",
       "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8022260",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8089959",
       "type": "posting",
       "company": {
         "name": "Reddit",
         "ticker": null,
         "industry": null,
         "sector": "Media",
-        "hq_region": null,
+        "hq_region": "NY",
         "size_band": "unknown"
       },
       "magnitude": null,
       "unit": "jobs",
-      "raw_text": "Reddit | Senior Business Engineer - Ads | Remote - British Columbia, Canada",
+      "raw_text": "Reddit | 3rd Party Partnerships Manager - Signals | New York City, NY",
       "tags": [
         "hiring",
         "greenhouse",
-        "media"
+        "media",
+        "NY"
       ],
       "extras": {
-        "role": "Senior Business Engineer - Ads",
-        "location": "Remote - British Columbia, Canada",
-        "seniority": "senior"
-      }
-    },
-    {
-      "id": "0f392636e4180731",
-      "ts": "2026-10-06T08:07:03-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7954598",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Senior Business Engineer - Ads | Remote - United States",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media"
-      ],
-      "extras": {
-        "role": "Senior Business Engineer - Ads",
-        "location": "Remote - United States",
-        "seniority": "senior"
+        "role": "3rd Party Partnerships Manager - Signals",
+        "location": "New York City, NY",
+        "seniority": "manager",
+        "stack": [
+          "go"
+        ]
       }
     },
     {
@@ -815,6 +829,62 @@
       "extras": {
         "adsh": "0001193125-26-414956",
         "cik": "0000310764",
+        "file_date": "2026-10-06"
+      }
+    },
+    {
+      "id": "4c07a9ee2433f3b4",
+      "ts": "2026-10-06T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1437107&type=&dateb=&owner=include&count=40",
+      "type": "exec_move",
+      "company": {
+        "name": "Warner Bros. Discovery, Inc.",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Warner Bros. Discovery, Inc. reported an executive or board change in an 8-K filing on 2026-10-06.",
+      "tags": [
+        "exec_move",
+        "sec_8k",
+        "media"
+      ],
+      "extras": {
+        "adsh": "0001193125-26-415055",
+        "cik": "0001437107",
+        "file_date": "2026-10-06"
+      }
+    },
+    {
+      "id": "1a267a94aa7991c3",
+      "ts": "2026-10-06T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=834365&type=&dateb=&owner=include&count=40",
+      "type": "exec_move",
+      "company": {
+        "name": "Biolife Solutions INC",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Biolife Solutions INC reported an executive or board change in an 8-K filing on 2026-10-06.",
+      "tags": [
+        "exec_move",
+        "sec_8k",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0001193125-26-415012",
+        "cik": "0000834365",
         "file_date": "2026-10-06"
       }
     },
@@ -875,6 +945,174 @@
       }
     },
     {
+      "id": "16c783535e0ccb4b",
+      "ts": "2026-10-06T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2158695&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "Toggle Bio",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Toggle Bio filed a Form D securities offering with the SEC on 2026-10-06.",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002158695-26-000001",
+        "cik": "0002158695",
+        "file_date": "2026-10-06"
+      }
+    },
+    {
+      "id": "43437670a102544b",
+      "ts": "2026-10-06T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2158660&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "Espalier 26Z, LLC",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Espalier 26Z, LLC filed a Form D securities offering with the SEC on 2026-10-06.",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002158660-26-000001",
+        "cik": "0002158660",
+        "file_date": "2026-10-06"
+      }
+    },
+    {
+      "id": "444b0f4aca425262",
+      "ts": "2026-10-06T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2158659&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "Espalier 26Y, LLC",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Espalier 26Y, LLC filed a Form D securities offering with the SEC on 2026-10-06.",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002158659-26-000001",
+        "cik": "0002158659",
+        "file_date": "2026-10-06"
+      }
+    },
+    {
+      "id": "8f1fd30275877533",
+      "ts": "2026-10-06T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2158658&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "Espalier 26X, LLC",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Espalier 26X, LLC filed a Form D securities offering with the SEC on 2026-10-06.",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002158658-26-000001",
+        "cik": "0002158658",
+        "file_date": "2026-10-06"
+      }
+    },
+    {
+      "id": "d388f9acc7e1f539",
+      "ts": "2026-10-06T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2158654&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "Espalier 26B, LLC",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Espalier 26B, LLC filed a Form D securities offering with the SEC on 2026-10-06.",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002158654-26-000001",
+        "cik": "0002158654",
+        "file_date": "2026-10-06"
+      }
+    },
+    {
+      "id": "b2400ab5e5c18b91",
+      "ts": "2026-10-06T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2158607&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "Espalier 26A, LLC",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Espalier 26A, LLC filed a Form D securities offering with the SEC on 2026-10-06.",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002158607-26-000001",
+        "cik": "0002158607",
+        "file_date": "2026-10-06"
+      }
+    },
+    {
       "id": "36fbadb690dbc03a",
       "ts": "2026-10-06T00:00:00Z",
       "source": "sec_edgar",
@@ -931,6 +1169,258 @@
       }
     },
     {
+      "id": "d6f6485ecda51706",
+      "ts": "2026-10-06T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2158187&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "Timberland Linden Ridge LLC",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Timberland Linden Ridge LLC filed a Form D securities offering with the SEC on 2026-10-06.",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002158187-26-000001",
+        "cik": "0002158187",
+        "file_date": "2026-10-06"
+      }
+    },
+    {
+      "id": "af323dfe7162656c",
+      "ts": "2026-10-06T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2158103&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "Madelynn Meadows LBC, LLC",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Madelynn Meadows LBC, LLC filed a Form D securities offering with the SEC on 2026-10-06.",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002158103-26-000001",
+        "cik": "0002158103",
+        "file_date": "2026-10-06"
+      }
+    },
+    {
+      "id": "75791807e508705e",
+      "ts": "2026-10-06T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2158040&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "KEYM Capital Corp",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "KEYM Capital Corp filed a Form D securities offering with the SEC on 2026-10-06.",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002158040-26-000001",
+        "cik": "0002158040",
+        "file_date": "2026-10-06"
+      }
+    },
+    {
+      "id": "716b8d5deb56e0db",
+      "ts": "2026-10-06T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2157791&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "RunLoyal, Inc.",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "RunLoyal, Inc. filed a Form D securities offering with the SEC on 2026-10-06.",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002157791-26-000002",
+        "cik": "0002157791",
+        "file_date": "2026-10-06"
+      }
+    },
+    {
+      "id": "899a211bae6237d4",
+      "ts": "2026-10-06T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2157554&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "Adeptus USA Holdings, LLC",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Adeptus USA Holdings, LLC filed a Form D securities offering with the SEC on 2026-10-06.",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002157554-26-000001",
+        "cik": "0002157554",
+        "file_date": "2026-10-06"
+      }
+    },
+    {
+      "id": "30326263419a3b4b",
+      "ts": "2026-10-06T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2157498&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "Ephesian Legacy Court Limited Partnership",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Ephesian Legacy Court Limited Partnership filed a Form D securities offering with the SEC on 2026-10-06.",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002157498-26-000001",
+        "cik": "0002157498",
+        "file_date": "2026-10-06"
+      }
+    },
+    {
+      "id": "5f92c08d3fdc4039",
+      "ts": "2026-10-06T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2157276&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "Cerberus Supply Chain II Access Offshore SCSp",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Cerberus Supply Chain II Access Offshore SCSp filed a Form D securities offering with the SEC on 2026-10-06.",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002157276-26-000001",
+        "cik": "0002157276",
+        "file_date": "2026-10-06"
+      }
+    },
+    {
+      "id": "118ccaca4c4c7af0",
+      "ts": "2026-10-06T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2157198&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "Nativechips Inc",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Nativechips Inc filed a Form D securities offering with the SEC on 2026-10-06.",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002157198-26-000001",
+        "cik": "0002157198",
+        "file_date": "2026-10-06"
+      }
+    },
+    {
+      "id": "514b9834c79dd715",
+      "ts": "2026-10-06T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2156813&type=&dateb=&owner=include&count=40",
+      "type": "funding",
+      "company": {
+        "name": "Cerberus Supply Chain II Access LLC",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Cerberus Supply Chain II Access LLC filed a Form D securities offering with the SEC on 2026-10-06.",
+      "tags": [
+        "funding",
+        "form_d",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0002156813-26-000001",
+        "cik": "0002156813",
+        "file_date": "2026-10-06"
+      }
+    },
+    {
       "id": "cdb1230cd98c2233",
       "ts": "2026-10-06T00:00:00Z",
       "source": "sec_edgar",
@@ -955,426 +1445,6 @@
       "extras": {
         "adsh": "0002156327-26-000001",
         "cik": "0002156327",
-        "file_date": "2026-10-06"
-      }
-    },
-    {
-      "id": "766211acab07fe58",
-      "ts": "2026-10-06T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2156204&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "Darklight Collection LLC",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Darklight Collection LLC filed a Form D securities offering with the SEC on 2026-10-06.",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0002156204-26-000001",
-        "cik": "0002156204",
-        "file_date": "2026-10-06"
-      }
-    },
-    {
-      "id": "079407cb0491687c",
-      "ts": "2026-10-06T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2154436&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "NexPoint Marina II DST",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "NexPoint Marina II DST filed a Form D securities offering with the SEC on 2026-10-06.",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0002154436-26-000003",
-        "cik": "0002154436",
-        "file_date": "2026-10-06"
-      }
-    },
-    {
-      "id": "2148354eaa372d50",
-      "ts": "2026-10-06T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2153703&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "F.Inc Capital, LP - D4",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "F.Inc Capital, LP - D4 filed a Form D securities offering with the SEC on 2026-10-06.",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0002153703-26-000001",
-        "cik": "0002153703",
-        "file_date": "2026-10-06"
-      }
-    },
-    {
-      "id": "524daae199a29af4",
-      "ts": "2026-10-06T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2153434&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "BurklandSaaS.vc, LP - E4",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "BurklandSaaS.vc, LP - E4 filed a Form D securities offering with the SEC on 2026-10-06.",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0002153434-26-000001",
-        "cik": "0002153434",
-        "file_date": "2026-10-06"
-      }
-    },
-    {
-      "id": "2d77d919287ecd05",
-      "ts": "2026-10-06T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2153431&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "Paradox Capital, LP - F4",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Paradox Capital, LP - F4 filed a Form D securities offering with the SEC on 2026-10-06.",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0002153431-26-000001",
-        "cik": "0002153431",
-        "file_date": "2026-10-06"
-      }
-    },
-    {
-      "id": "d34aebc8c5b922cf",
-      "ts": "2026-10-06T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2153429&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "Masad Capital, LP - D4",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Masad Capital, LP - D4 filed a Form D securities offering with the SEC on 2026-10-06.",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0002153429-26-000001",
-        "cik": "0002153429",
-        "file_date": "2026-10-06"
-      }
-    },
-    {
-      "id": "c33c067ba8927147",
-      "ts": "2026-10-06T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2153408&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "Mystic Ventures, LP - F1",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Mystic Ventures, LP - F1 filed a Form D securities offering with the SEC on 2026-10-06.",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0002153408-26-000001",
-        "cik": "0002153408",
-        "file_date": "2026-10-06"
-      }
-    },
-    {
-      "id": "7e39ddf1555ebf5c",
-      "ts": "2026-10-06T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2150581&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "ProSentra, Inc.",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "ProSentra, Inc. filed a Form D securities offering with the SEC on 2026-10-06.",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0002150581-26-000002",
-        "cik": "0002150581",
-        "file_date": "2026-10-06"
-      }
-    },
-    {
-      "id": "5ef7d0eea7d0db31",
-      "ts": "2026-10-06T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2149946&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "HSR 129 LLC",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "HSR 129 LLC filed a Form D securities offering with the SEC on 2026-10-06.",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0002149946-26-000002",
-        "cik": "0002149946",
-        "file_date": "2026-10-06"
-      }
-    },
-    {
-      "id": "3d44d8c50f80d836",
-      "ts": "2026-10-06T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2149283&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "Acervas, Inc.",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Acervas, Inc. filed a Form D securities offering with the SEC on 2026-10-06.",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0002149283-26-000002",
-        "cik": "0002149283",
-        "file_date": "2026-10-06"
-      }
-    },
-    {
-      "id": "86b9a5e83c27d591",
-      "ts": "2026-10-06T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2141722&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "ORGN Technologies Inc.",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "ORGN Technologies Inc. filed a Form D securities offering with the SEC on 2026-10-06.",
-      "tags": [
-        "funding",
-        "form_d",
-        "technology"
-      ],
-      "extras": {
-        "adsh": "0002141722-26-000004",
-        "cik": "0002141722",
-        "file_date": "2026-10-06"
-      }
-    },
-    {
-      "id": "9dd03d2d035a7576",
-      "ts": "2026-10-06T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2158123&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "Larkspire, Inc.",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Larkspire, Inc. filed a Form D securities offering with the SEC on 2026-10-06.",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0002134718-26-000092",
-        "cik": "0002158123",
-        "file_date": "2026-10-06"
-      }
-    },
-    {
-      "id": "c73506a92a4e59b8",
-      "ts": "2026-10-06T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2102059&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "PrimoSure, LLC",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "PrimoSure, LLC filed a Form D securities offering with the SEC on 2026-10-06.",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0002102059-26-000001",
-        "cik": "0002102059",
-        "file_date": "2026-10-06"
-      }
-    },
-    {
-      "id": "55fd58c8e3db0a3a",
-      "ts": "2026-10-06T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2100839&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "NexPoint Outlook DST",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "NexPoint Outlook DST filed a Form D securities offering with the SEC on 2026-10-06.",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0002100839-26-000009",
-        "cik": "0002100839",
-        "file_date": "2026-10-06"
-      }
-    },
-    {
-      "id": "d9c8a4e5958276d2",
-      "ts": "2026-10-06T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2094145&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "NexPoint Small Bay III DST",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "NexPoint Small Bay III DST filed a Form D securities offering with the SEC on 2026-10-06.",
-      "tags": [
-        "funding",
-        "form_d",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0002094145-26-000015",
-        "cik": "0002094145",
         "file_date": "2026-10-06"
       }
     },
@@ -1985,62 +2055,6 @@
       "extras": {
         "adsh": "0001178913-26-004685",
         "cik": "0001607962",
-        "file_date": "2026-10-01"
-      }
-    },
-    {
-      "id": "6e1b0d4188d098ec",
-      "ts": "2026-10-01T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=712534&type=&dateb=&owner=include&count=40",
-      "type": "exec_move",
-      "company": {
-        "name": "First Merchants Corp",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "First Merchants Corp reported an executive or board change in an 8-K filing on 2026-10-01.",
-      "tags": [
-        "exec_move",
-        "sec_8k",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0000712534-26-000067",
-        "cik": "0000712534",
-        "file_date": "2026-10-01"
-      }
-    },
-    {
-      "id": "29590cfc3097a74f",
-      "ts": "2026-10-01T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1541157&type=&dateb=&owner=include&count=40",
-      "type": "exec_move",
-      "company": {
-        "name": "Akari Therapeutics Plc",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Akari Therapeutics Plc reported an executive or board change in an 8-K filing on 2026-10-01.",
-      "tags": [
-        "exec_move",
-        "sec_8k",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0001493152-26-045364",
-        "cik": "0001541157",
         "file_date": "2026-10-01"
       }
     },
@@ -2791,7 +2805,7 @@
     }
   ],
   "sector_matrix": {
-    "generated_at": "2026-10-06T12:57:36.808149Z",
+    "generated_at": "2026-10-06T15:38:27.092524Z",
     "cells": [
       {
         "sector": "Technology",
@@ -2805,11 +2819,11 @@
       {
         "sector": "Technology",
         "signal_type": "posting",
-        "count_7d": 1233,
-        "count_30d": 2215,
+        "count_7d": 1074,
+        "count_30d": 2221,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 31.5
+        "z_score": 24.41
       },
       {
         "sector": "Technology",
@@ -2823,11 +2837,11 @@
       {
         "sector": "Technology",
         "signal_type": "funding",
-        "count_7d": 4,
-        "count_30d": 4,
+        "count_7d": 1,
+        "count_30d": 1,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 3.07
+        "z_score": 0.77
       },
       {
         "sector": "Technology",
@@ -2850,11 +2864,11 @@
       {
         "sector": "Finance",
         "signal_type": "posting",
-        "count_7d": 229,
-        "count_30d": 384,
+        "count_7d": 226,
+        "count_30d": 386,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 14.73
+        "z_score": 14.32
       },
       {
         "sector": "Finance",
@@ -2895,11 +2909,11 @@
       {
         "sector": "Healthcare",
         "signal_type": "posting",
-        "count_7d": 66,
-        "count_30d": 255,
+        "count_7d": 70,
+        "count_30d": 262,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 0.84
+        "z_score": 1.13
       },
       {
         "sector": "Healthcare",
@@ -2913,11 +2927,11 @@
       {
         "sector": "Healthcare",
         "signal_type": "funding",
-        "count_7d": 1,
-        "count_30d": 1,
+        "count_7d": 0,
+        "count_30d": 0,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 0.77
+        "z_score": null
       },
       {
         "sector": "Healthcare",
@@ -3075,20 +3089,20 @@
       {
         "sector": "Media",
         "signal_type": "posting",
-        "count_7d": 159,
-        "count_30d": 185,
+        "count_7d": 160,
+        "count_30d": 183,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 17.63
+        "z_score": 17.95
       },
       {
         "sector": "Media",
         "signal_type": "exec_move",
-        "count_7d": 1,
-        "count_30d": 1,
+        "count_7d": 2,
+        "count_30d": 2,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 0.77
+        "z_score": 1.53
       },
       {
         "sector": "Media",
@@ -3336,7 +3350,7 @@
     ]
   },
   "layoff_pulse": {
-    "events_7d": 11,
+    "events_7d": 10,
     "events_30d": 19,
     "events_prev_30d": 0,
     "companies_30d": 16,
