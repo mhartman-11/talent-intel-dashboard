@@ -1,21 +1,941 @@
 {
   "stream": "hiring",
-  "generated_at": "2026-10-07T12:54:48.845005+00:00",
-  "total": 3894,
+  "generated_at": "2026-10-07T16:01:26.495066+00:00",
+  "total": 3898,
   "showing": 500,
   "source_counts": {
-    "greenhouse": 3526,
-    "ashby": 292,
+    "greenhouse": 3529,
+    "ashby": 293,
     "lever": 76
   },
   "sector_counts": {
-    "Technology": 2942,
-    "Finance": 451,
-    "Healthcare": 253,
-    "Media": 225,
-    "CPG": 23
+    "Technology": 2943,
+    "Finance": 453,
+    "Healthcare": 252,
+    "Media": 228,
+    "CPG": 22
   },
   "events": [
+    {
+      "id": "e52a2a54bbd007c6",
+      "ts": "2026-10-07T11:59:52-04:00",
+      "source": "greenhouse",
+      "source_url": "https://boards.greenhouse.io/cloudflare/jobs/8241822?gh_jid=8241822",
+      "type": "posting",
+      "company": {
+        "name": "Cloudflare",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Cloudflare | System Engineer, Behavioral Analysis | Hybrid",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology"
+      ],
+      "extras": {
+        "role": "System Engineer, Behavioral Analysis",
+        "location": "Hybrid",
+        "seniority": "mid"
+      }
+    },
+    {
+      "id": "523bc093638872e9",
+      "ts": "2026-10-07T15:54:42.577000Z",
+      "source": "ashby",
+      "source_url": "https://jobs.ashbyhq.com/cursor/6c80d6e2-5e59-418e-9ea6-15dface61698",
+      "type": "posting",
+      "company": {
+        "name": "Cursor",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": "CA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Cursor | Brand Designer | San Francisco | Design",
+      "tags": [
+        "hiring",
+        "ashby",
+        "technology",
+        "CA",
+        "Design"
+      ],
+      "extras": {
+        "role": "Brand Designer",
+        "location": "San Francisco",
+        "department": "Design",
+        "employment_type": "FullTime",
+        "function": "Design",
+        "soc": "27-1024",
+        "seniority": "mid"
+      }
+    },
+    {
+      "id": "f6ea26de15f96a41",
+      "ts": "2026-10-07T11:54:31-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8257083",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": "CA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Lead Client Partner, Large Customer Sales (Restaurants & Drinks) | Chicago, IL; Los Angeles, CA; New York City, NY; San Francisco, CA",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "CA"
+      ],
+      "extras": {
+        "role": "Lead Client Partner, Large Customer Sales (Restaurants & Drinks)",
+        "location": "Chicago, IL; Los Angeles, CA; New York City, NY; San Francisco, CA",
+        "seniority": "lead",
+        "remote": "onsite"
+      }
+    },
+    {
+      "id": "a23eb749d1e443ba",
+      "ts": "2026-10-07T11:53:55-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/anthropic/jobs/5082455008",
+      "type": "posting",
+      "company": {
+        "name": "Anthropic",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": "CA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Anthropic | AI Outcomes Manager | New York City, NY; San Francisco, CA; Seattle, WA",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "CA"
+      ],
+      "extras": {
+        "role": "AI Outcomes Manager",
+        "location": "New York City, NY; San Francisco, CA; Seattle, WA",
+        "seniority": "manager",
+        "stack": [
+          "llm"
+        ]
+      }
+    },
+    {
+      "id": "ef646b3355c26153",
+      "ts": "2026-10-07T11:50:10-04:00",
+      "source": "greenhouse",
+      "source_url": "https://careers.airbnb.com/positions/8233578?gh_jid=8233578",
+      "type": "posting",
+      "company": {
+        "name": "Airbnb",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Airbnb | Senior Guest Community Engagement Manager (Guest Advisory Board) | United States ",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology"
+      ],
+      "extras": {
+        "role": "Senior Guest Community Engagement Manager (Guest Advisory Board)",
+        "location": "United States ",
+        "seniority": "senior"
+      }
+    },
+    {
+      "id": "2da873ae60f23bfb",
+      "ts": "2026-10-07T11:39:36-04:00",
+      "source": "greenhouse",
+      "source_url": "https://stripe.com/jobs/search?gh_jid=8144196",
+      "type": "posting",
+      "company": {
+        "name": "Stripe",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": "IL",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Stripe | AI Engineer | Chicago",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "IL",
+        "Data / ML"
+      ],
+      "extras": {
+        "role": "AI Engineer",
+        "location": "Chicago",
+        "function": "Data / ML",
+        "soc": "15-2051",
+        "seniority": "mid"
+      }
+    },
+    {
+      "id": "9ec0aa7a021bbc71",
+      "ts": "2026-10-07T11:39:12-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/anthropic/jobs/5444769008",
+      "type": "posting",
+      "company": {
+        "name": "Anthropic",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": "CA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Anthropic | Growth Marketing Lead | San Francisco, CA | New York City, NY | Seattle, WA",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "CA",
+        "Marketing"
+      ],
+      "extras": {
+        "role": "Growth Marketing Lead",
+        "location": "San Francisco, CA | New York City, NY | Seattle, WA",
+        "function": "Marketing",
+        "soc": "11-2011",
+        "seniority": "lead"
+      }
+    },
+    {
+      "id": "b7dc9b5c477e5aa1",
+      "ts": "2026-10-07T11:27:54-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/discord/jobs/8856467002",
+      "type": "posting",
+      "company": {
+        "name": "Discord",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": "CA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Discord | Senior Full-Stack Software Engineer, Engagement | San Francisco Bay Area",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "CA",
+        "Software Engineering"
+      ],
+      "extras": {
+        "role": "Senior Full-Stack Software Engineer, Engagement",
+        "location": "San Francisco Bay Area",
+        "function": "Software Engineering",
+        "soc": "15-1252",
+        "seniority": "senior"
+      }
+    },
+    {
+      "id": "07dcfcd1d56d7379",
+      "ts": "2026-10-07T11:03:24-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7996994",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Staff Product Manager, Community Builders | Remote - United States",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "Product"
+      ],
+      "extras": {
+        "role": "Staff Product Manager, Community Builders",
+        "location": "Remote - United States",
+        "function": "Product",
+        "soc": "11-2021",
+        "seniority": "staff"
+      }
+    },
+    {
+      "id": "4648807b9f0ea0e1",
+      "ts": "2026-10-07T10:58:55-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8088710",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Staff Product Manager, Moderation | Remote - United States",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "Product"
+      ],
+      "extras": {
+        "role": "Staff Product Manager, Moderation",
+        "location": "Remote - United States",
+        "function": "Product",
+        "soc": "11-2021",
+        "seniority": "staff"
+      }
+    },
+    {
+      "id": "2f46758b5879df59",
+      "ts": "2026-10-07T10:57:55-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/anthropic/jobs/5445625008",
+      "type": "posting",
+      "company": {
+        "name": "Anthropic",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": "CA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Anthropic | IT Systems Engineer, Client Platform Engineer, macOS | Boston, MA; Remote-Friendly (Travel-Required) | San Francisco, CA | Seattle, WA | New York City, NY; Washington, DC",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "CA",
+        "Software Engineering"
+      ],
+      "extras": {
+        "role": "IT Systems Engineer, Client Platform Engineer, macOS",
+        "location": "Boston, MA; Remote-Friendly (Travel-Required) | San Francisco, CA | Seattle, WA | New York City, NY; Washington, DC",
+        "function": "Software Engineering",
+        "soc": "15-1252",
+        "seniority": "mid"
+      }
+    },
+    {
+      "id": "3cd35c6f8f2870c7",
+      "ts": "2026-10-07T10:54:44-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/mercury/jobs/6218803004",
+      "type": "posting",
+      "company": {
+        "name": "Mercury",
+        "ticker": null,
+        "industry": null,
+        "sector": "Finance",
+        "hq_region": "CA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Mercury | Senior Manager - Compliance Governance | San Francisco, CA, New York, NY, Portland, OR, or Remote within United States",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "finance",
+        "CA"
+      ],
+      "extras": {
+        "role": "Senior Manager - Compliance Governance",
+        "location": "San Francisco, CA, New York, NY, Portland, OR, or Remote within United States",
+        "seniority": "senior"
+      }
+    },
+    {
+      "id": "728c3640b0ada2bd",
+      "ts": "2026-10-07T10:47:27-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/anthropic/jobs/5025624008",
+      "type": "posting",
+      "company": {
+        "name": "Anthropic",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": "CA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Anthropic | Research Engineer, Cybersecurity RL (Reinforcement Learning) | San Francisco, CA | New York City, NY",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "CA"
+      ],
+      "extras": {
+        "role": "Research Engineer, Cybersecurity RL (Reinforcement Learning)",
+        "location": "San Francisco, CA | New York City, NY",
+        "seniority": "mid"
+      }
+    },
+    {
+      "id": "e56e785a77fb299c",
+      "ts": "2026-10-07T10:40:26-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/gitlab/jobs/8864903002",
+      "type": "posting",
+      "company": {
+        "name": "GitLab",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "GitLab | Pipeline Programs Manager | Remote, Canada; Remote, United States",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology"
+      ],
+      "extras": {
+        "role": "Pipeline Programs Manager",
+        "location": "Remote, Canada; Remote, United States",
+        "seniority": "manager",
+        "remote": "remote"
+      }
+    },
+    {
+      "id": "acfeddd7e3e88f6d",
+      "ts": "2026-10-07T10:39:01-04:00",
+      "source": "greenhouse",
+      "source_url": "https://boards.greenhouse.io/cloudflare/jobs/8256449?gh_jid=8256449",
+      "type": "posting",
+      "company": {
+        "name": "Cloudflare",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Cloudflare | Workplace Coordinator | In-Office",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "Operations"
+      ],
+      "extras": {
+        "role": "Workplace Coordinator",
+        "location": "In-Office",
+        "function": "Operations",
+        "soc": "11-1021",
+        "seniority": "mid",
+        "remote": "onsite"
+      }
+    },
+    {
+      "id": "67316c10b3ae8ba5",
+      "ts": "2026-10-07T10:38:24-04:00",
+      "source": "greenhouse",
+      "source_url": "https://boards.greenhouse.io/cloudflare/jobs/7817793?gh_jid=7817793",
+      "type": "posting",
+      "company": {
+        "name": "Cloudflare",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Cloudflare | Principal Oracle SCM Specialist | In-Office",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology"
+      ],
+      "extras": {
+        "role": "Principal Oracle SCM Specialist",
+        "location": "In-Office",
+        "seniority": "principal"
+      }
+    },
+    {
+      "id": "2c789c9059a77672",
+      "ts": "2026-10-07T10:34:40-04:00",
+      "source": "greenhouse",
+      "source_url": "https://stripe.com/jobs/search?gh_jid=8260985",
+      "type": "posting",
+      "company": {
+        "name": "Stripe",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Stripe | Backend Engineer, Payments & Risk | Toronto, Canada",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "Software Engineering"
+      ],
+      "extras": {
+        "role": "Backend Engineer, Payments & Risk",
+        "location": "Toronto, Canada",
+        "function": "Software Engineering",
+        "soc": "15-1252",
+        "seniority": "mid",
+        "remote": "onsite"
+      }
+    },
+    {
+      "id": "4b83df40601ffaec",
+      "ts": "2026-10-07T10:32:26-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/anthropic/jobs/5434361008",
+      "type": "posting",
+      "company": {
+        "name": "Anthropic",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": "CA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Anthropic | Product Manager, Billing | San Francisco, CA | New York City, NY",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "CA",
+        "Product"
+      ],
+      "extras": {
+        "role": "Product Manager, Billing",
+        "location": "San Francisco, CA | New York City, NY",
+        "function": "Product",
+        "soc": "11-2021",
+        "seniority": "manager"
+      }
+    },
+    {
+      "id": "ef4424f819c1e7dd",
+      "ts": "2026-10-07T10:24:16-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/anthropic/jobs/5282833008",
+      "type": "posting",
+      "company": {
+        "name": "Anthropic",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": "NY",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Anthropic | Manager, Account Executive - Hedge Funds | New York City, NY",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "NY",
+        "Sales"
+      ],
+      "extras": {
+        "role": "Manager, Account Executive - Hedge Funds",
+        "location": "New York City, NY",
+        "function": "Sales",
+        "soc": "41-3091",
+        "seniority": "manager"
+      }
+    },
+    {
+      "id": "119fa17e78a008cb",
+      "ts": "2026-10-07T10:18:48-04:00",
+      "source": "greenhouse",
+      "source_url": "https://boards.greenhouse.io/robinhood/jobs/8060600?t=gh_src=&gh_jid=8060600",
+      "type": "posting",
+      "company": {
+        "name": "Robinhood",
+        "ticker": null,
+        "industry": null,
+        "sector": "Finance",
+        "hq_region": "CA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Robinhood | Senior PM, International Trading | Menlo Park, CA; New York, NY",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "finance",
+        "CA",
+        "Product"
+      ],
+      "extras": {
+        "role": "Senior PM, International Trading",
+        "location": "Menlo Park, CA; New York, NY",
+        "function": "Product",
+        "soc": "11-2021",
+        "seniority": "senior"
+      }
+    },
+    {
+      "id": "e25a8415e73282d3",
+      "ts": "2026-10-07T10:14:09-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/anthropic/jobs/5138289008",
+      "type": "posting",
+      "company": {
+        "name": "Anthropic",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": "CA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Anthropic | Manager, Enterprise Sales - HCLS | Boston, MA; New York City, NY; San Francisco, CA",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "CA",
+        "Sales"
+      ],
+      "extras": {
+        "role": "Manager, Enterprise Sales - HCLS",
+        "location": "Boston, MA; New York City, NY; San Francisco, CA",
+        "function": "Sales",
+        "soc": "41-3091",
+        "seniority": "manager"
+      }
+    },
+    {
+      "id": "a2b0e0bc1dc1b432",
+      "ts": "2026-10-07T10:07:10-04:00",
+      "source": "greenhouse",
+      "source_url": "https://boards.greenhouse.io/robinhood/jobs/8051292?t=gh_src=&gh_jid=8051292",
+      "type": "posting",
+      "company": {
+        "name": "Robinhood",
+        "ticker": null,
+        "industry": null,
+        "sector": "Finance",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Robinhood | People Relations Business Partner | Toronto, Canada",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "finance"
+      ],
+      "extras": {
+        "role": "People Relations Business Partner",
+        "location": "Toronto, Canada",
+        "seniority": "mid"
+      }
+    },
+    {
+      "id": "4077dac0b4a330fa",
+      "ts": "2026-10-07T10:06:51-04:00",
+      "source": "greenhouse",
+      "source_url": "https://boards.greenhouse.io/robinhood/jobs/8051290?t=gh_src=&gh_jid=8051290",
+      "type": "posting",
+      "company": {
+        "name": "Robinhood",
+        "ticker": null,
+        "industry": null,
+        "sector": "Finance",
+        "hq_region": "IL",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Robinhood | Employee Relations Business Partner | Chicago, IL; Westlake, TX",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "finance",
+        "IL"
+      ],
+      "extras": {
+        "role": "Employee Relations Business Partner",
+        "location": "Chicago, IL; Westlake, TX",
+        "seniority": "mid"
+      }
+    },
+    {
+      "id": "f91cc86de255ae18",
+      "ts": "2026-10-07T10:02:51-04:00",
+      "source": "greenhouse",
+      "source_url": "https://boards.greenhouse.io/robinhood/jobs/8162169?t=gh_src=&gh_jid=8162169",
+      "type": "posting",
+      "company": {
+        "name": "Robinhood",
+        "ticker": null,
+        "industry": null,
+        "sector": "Finance",
+        "hq_region": "CO",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Robinhood | Customer Experience Manager, Robinhood Concierge | Denver, CO; Westlake, TX",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "finance",
+        "CO",
+        "Customer Success"
+      ],
+      "extras": {
+        "role": "Customer Experience Manager, Robinhood Concierge",
+        "location": "Denver, CO; Westlake, TX",
+        "function": "Customer Success",
+        "soc": "13-1161",
+        "seniority": "manager",
+        "remote": "onsite"
+      }
+    },
+    {
+      "id": "4f48d44b3d351cf4",
+      "ts": "2026-10-07T10:01:34-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/gitlab/jobs/8860193002",
+      "type": "posting",
+      "company": {
+        "name": "GitLab",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "GitLab | Senior Account Executive | Remote, Austria",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "Sales"
+      ],
+      "extras": {
+        "role": "Senior Account Executive",
+        "location": "Remote, Austria",
+        "function": "Sales",
+        "soc": "41-3091",
+        "seniority": "senior"
+      }
+    },
+    {
+      "id": "50336075e9153159",
+      "ts": "2026-10-07T10:01:17-04:00",
+      "source": "greenhouse",
+      "source_url": "https://stripe.com/jobs/search?gh_jid=7214197",
+      "type": "posting",
+      "company": {
+        "name": "Stripe",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Stripe | Program Manager, Risk Ops Enablement | US-Remote",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology"
+      ],
+      "extras": {
+        "role": "Program Manager, Risk Ops Enablement",
+        "location": "US-Remote",
+        "seniority": "manager"
+      }
+    },
+    {
+      "id": "e61ea537efb5d022",
+      "ts": "2026-10-07T09:52:23-04:00",
+      "source": "greenhouse",
+      "source_url": "https://stripe.com/jobs/search?gh_jid=8261213",
+      "type": "posting",
+      "company": {
+        "name": "Stripe",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Stripe | Payments Fraud Investigator | Remote - US",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology"
+      ],
+      "extras": {
+        "role": "Payments Fraud Investigator",
+        "location": "Remote - US",
+        "seniority": "mid"
+      }
+    },
+    {
+      "id": "98d916ff3e050f63",
+      "ts": "2026-10-07T09:40:01-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/anthropic/jobs/5391301008",
+      "type": "posting",
+      "company": {
+        "name": "Anthropic",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Anthropic | Enterprise Account Executive, Materials & Industrial | Munich, Germany",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "Sales"
+      ],
+      "extras": {
+        "role": "Enterprise Account Executive, Materials & Industrial",
+        "location": "Munich, Germany",
+        "function": "Sales",
+        "soc": "41-3091",
+        "seniority": "mid"
+      }
+    },
+    {
+      "id": "83c11616cddd96a4",
+      "ts": "2026-10-07T09:28:31-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/anthropic/jobs/5394780008",
+      "type": "posting",
+      "company": {
+        "name": "Anthropic",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Anthropic | Administrative Business Partner, GTM - London | London, UK",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology"
+      ],
+      "extras": {
+        "role": "Administrative Business Partner, GTM - London",
+        "location": "London, UK",
+        "seniority": "mid",
+        "remote": "onsite",
+        "stack": [
+          "go"
+        ]
+      }
+    },
+    {
+      "id": "99d7d2bb11e60c2c",
+      "ts": "2026-10-07T09:06:01-04:00",
+      "source": "greenhouse",
+      "source_url": "https://boards.greenhouse.io/cloudflare/jobs/8242904?gh_jid=8242904",
+      "type": "posting",
+      "company": {
+        "name": "Cloudflare",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Cloudflare | Product Manager, Safe Change & Control Plane | Hybrid",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "Product"
+      ],
+      "extras": {
+        "role": "Product Manager, Safe Change & Control Plane",
+        "location": "Hybrid",
+        "function": "Product",
+        "soc": "11-2021",
+        "seniority": "manager"
+      }
+    },
     {
       "id": "dc524d68bcb724ea",
       "ts": "2026-10-07T08:41:33-04:00",
@@ -48,36 +968,6 @@
       }
     },
     {
-      "id": "488c9d7a62d973ed",
-      "ts": "2026-10-07T08:30:37-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8196302",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": "NY",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Lead Client Partner, Global Strategic Accounts (Tech) | New York City, NY",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
-        "NY"
-      ],
-      "extras": {
-        "role": "Lead Client Partner, Global Strategic Accounts (Tech)",
-        "location": "New York City, NY",
-        "seniority": "lead",
-        "remote": "onsite"
-      }
-    },
-    {
       "id": "a4151d1a9dbfeac5",
       "ts": "2026-10-07T08:30:37-04:00",
       "source": "greenhouse",
@@ -103,6 +993,36 @@
       "extras": {
         "role": "Lead Client Partner, Global Strategic Accounts (Tech)",
         "location": "Los Angeles, CA; New York City, NY",
+        "seniority": "lead",
+        "remote": "onsite"
+      }
+    },
+    {
+      "id": "488c9d7a62d973ed",
+      "ts": "2026-10-07T08:30:37-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8196302",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": "NY",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Lead Client Partner, Global Strategic Accounts (Tech) | New York City, NY",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "NY"
+      ],
+      "extras": {
+        "role": "Lead Client Partner, Global Strategic Accounts (Tech)",
+        "location": "New York City, NY",
         "seniority": "lead",
         "remote": "onsite"
       }
@@ -356,34 +1276,6 @@
       }
     },
     {
-      "id": "7cc5b98a6253378c",
-      "ts": "2026-10-07T08:30:30-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8190630",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Trust and Safety Policy, Ads Policy,  Lead (Europe) | Remote - The Netherlands",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media"
-      ],
-      "extras": {
-        "role": "Trust and Safety Policy, Ads Policy,  Lead (Europe)",
-        "location": "Remote - The Netherlands",
-        "seniority": "lead"
-      }
-    },
-    {
       "id": "4a1288e74b713133",
       "ts": "2026-10-07T08:30:30-04:00",
       "source": "greenhouse",
@@ -408,6 +1300,34 @@
       "extras": {
         "role": "Trust and Safety Policy, Ads Policy,  Lead (Europe)",
         "location": "Remote - United Kingdom",
+        "seniority": "lead"
+      }
+    },
+    {
+      "id": "7cc5b98a6253378c",
+      "ts": "2026-10-07T08:30:30-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8190630",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Trust and Safety Policy, Ads Policy,  Lead (Europe) | Remote - The Netherlands",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media"
+      ],
+      "extras": {
+        "role": "Trust and Safety Policy, Ads Policy,  Lead (Europe)",
+        "location": "Remote - The Netherlands",
         "seniority": "lead"
       }
     },
@@ -531,34 +1451,6 @@
       }
     },
     {
-      "id": "e24538f9f67c7f31",
-      "ts": "2026-10-07T08:30:29-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8234154",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | International Payroll Analyst | Remote - United Kingdom",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media"
-      ],
-      "extras": {
-        "role": "International Payroll Analyst",
-        "location": "Remote - United Kingdom",
-        "seniority": "mid"
-      }
-    },
-    {
       "id": "52f05e90187b989d",
       "ts": "2026-10-07T08:30:29-04:00",
       "source": "greenhouse",
@@ -583,6 +1475,34 @@
       "extras": {
         "role": "International Payroll Analyst",
         "location": "Remote - United States",
+        "seniority": "mid"
+      }
+    },
+    {
+      "id": "e24538f9f67c7f31",
+      "ts": "2026-10-07T08:30:29-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8234154",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | International Payroll Analyst | Remote - United Kingdom",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media"
+      ],
+      "extras": {
+        "role": "International Payroll Analyst",
+        "location": "Remote - United Kingdom",
         "seniority": "mid"
       }
     },
@@ -737,37 +1657,6 @@
       }
     },
     {
-      "id": "09f438dc3188e381",
-      "ts": "2026-10-07T08:30:28-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8103609",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Staff Data Scientist - Ads Measurement, Signals, Privacy | Toronto, Canada",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
-        "Data / ML"
-      ],
-      "extras": {
-        "role": "Staff Data Scientist - Ads Measurement, Signals, Privacy",
-        "location": "Toronto, Canada",
-        "function": "Data / ML",
-        "soc": "15-2051",
-        "seniority": "staff"
-      }
-    },
-    {
       "id": "82731a22ece270e6",
       "ts": "2026-10-07T08:30:28-04:00",
       "source": "greenhouse",
@@ -793,6 +1682,37 @@
       "extras": {
         "role": "Staff Data Scientist - Ads Measurement, Signals, Privacy",
         "location": "Remote - United States",
+        "function": "Data / ML",
+        "soc": "15-2051",
+        "seniority": "staff"
+      }
+    },
+    {
+      "id": "09f438dc3188e381",
+      "ts": "2026-10-07T08:30:28-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8103609",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Staff Data Scientist - Ads Measurement, Signals, Privacy | Toronto, Canada",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "Data / ML"
+      ],
+      "extras": {
+        "role": "Staff Data Scientist - Ads Measurement, Signals, Privacy",
+        "location": "Toronto, Canada",
         "function": "Data / ML",
         "soc": "15-2051",
         "seniority": "staff"
@@ -1076,37 +1996,6 @@
       }
     },
     {
-      "id": "a4c0cbccc82081c9",
-      "ts": "2026-10-07T08:30:26-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7974507",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Senior Staff Data Scientist - Consumer Experimentation | Remote - Ontario, Canada",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
-        "Data / ML"
-      ],
-      "extras": {
-        "role": "Senior Staff Data Scientist - Consumer Experimentation",
-        "location": "Remote - Ontario, Canada",
-        "function": "Data / ML",
-        "soc": "15-2051",
-        "seniority": "staff"
-      }
-    },
-    {
       "id": "9f863285e7907bb1",
       "ts": "2026-10-07T08:30:26-04:00",
       "source": "greenhouse",
@@ -1132,6 +2021,37 @@
       "extras": {
         "role": "Senior Staff Data Scientist - Consumer Experimentation",
         "location": "Remote - United States",
+        "function": "Data / ML",
+        "soc": "15-2051",
+        "seniority": "staff"
+      }
+    },
+    {
+      "id": "a4c0cbccc82081c9",
+      "ts": "2026-10-07T08:30:26-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7974507",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Senior Staff Data Scientist - Consumer Experimentation | Remote - Ontario, Canada",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "Data / ML"
+      ],
+      "extras": {
+        "role": "Senior Staff Data Scientist - Consumer Experimentation",
+        "location": "Remote - Ontario, Canada",
         "function": "Data / ML",
         "soc": "15-2051",
         "seniority": "staff"
@@ -1233,6 +2153,37 @@
       }
     },
     {
+      "id": "1bd2a1fcae756e5f",
+      "ts": "2026-10-07T08:30:25-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8249259",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Chief of Staff, Global Sales | London, United Kingdom",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "Operations"
+      ],
+      "extras": {
+        "role": "Chief of Staff, Global Sales",
+        "location": "London, United Kingdom",
+        "function": "Operations",
+        "soc": "11-1021",
+        "seniority": "c_level"
+      }
+    },
+    {
       "id": "d2fe1bbf9bedf69d",
       "ts": "2026-10-07T08:30:25-04:00",
       "source": "greenhouse",
@@ -1259,37 +2210,6 @@
       "extras": {
         "role": "Chief of Staff, Global Sales",
         "location": "New York City, NY",
-        "function": "Operations",
-        "soc": "11-1021",
-        "seniority": "c_level"
-      }
-    },
-    {
-      "id": "1bd2a1fcae756e5f",
-      "ts": "2026-10-07T08:30:25-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8249259",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Chief of Staff, Global Sales | London, United Kingdom",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
-        "Operations"
-      ],
-      "extras": {
-        "role": "Chief of Staff, Global Sales",
-        "location": "London, United Kingdom",
         "function": "Operations",
         "soc": "11-1021",
         "seniority": "c_level"
@@ -1446,37 +2366,6 @@
       }
     },
     {
-      "id": "a37e0a522fd35acc",
-      "ts": "2026-10-07T08:30:24-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8195634",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Director, Revenue Strategy & Operations (Large Customer Sales) | Toronto, Canada",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
-        "Engineering Management"
-      ],
-      "extras": {
-        "role": "Director, Revenue Strategy & Operations (Large Customer Sales)",
-        "location": "Toronto, Canada",
-        "function": "Engineering Management",
-        "soc": "11-9041",
-        "seniority": "director"
-      }
-    },
-    {
       "id": "f78cab869bc39837",
       "ts": "2026-10-07T08:30:24-04:00",
       "source": "greenhouse",
@@ -1567,6 +2456,37 @@
       "extras": {
         "role": "Director, Revenue Strategy & Operations (Large Customer Sales)",
         "location": "New York City, NY",
+        "function": "Engineering Management",
+        "soc": "11-9041",
+        "seniority": "director"
+      }
+    },
+    {
+      "id": "a37e0a522fd35acc",
+      "ts": "2026-10-07T08:30:24-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8195634",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Director, Revenue Strategy & Operations (Large Customer Sales) | Toronto, Canada",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "Engineering Management"
+      ],
+      "extras": {
+        "role": "Director, Revenue Strategy & Operations (Large Customer Sales)",
+        "location": "Toronto, Canada",
         "function": "Engineering Management",
         "soc": "11-9041",
         "seniority": "director"
@@ -3257,10 +4177,10 @@
       }
     },
     {
-      "id": "703dc971062cc2cc",
+      "id": "3fb91e986a1cc055",
       "ts": "2026-10-07T07:03:30-04:00",
       "source": "greenhouse",
-      "source_url": "https://boards.greenhouse.io/robinhood/jobs/8074011?t=gh_src=&gh_jid=8074011",
+      "source_url": "https://boards.greenhouse.io/robinhood/jobs/8074057?t=gh_src=&gh_jid=8074057",
       "type": "posting",
       "company": {
         "name": "Robinhood",
@@ -3272,7 +4192,7 @@
       },
       "magnitude": null,
       "unit": "jobs",
-      "raw_text": "Robinhood | Product Marketing Manager, International | Luxembourg, Luxembourg",
+      "raw_text": "Robinhood | Product Marketing Manager, International | Ljubljana, Slovenia",
       "tags": [
         "hiring",
         "greenhouse",
@@ -3281,7 +4201,7 @@
       ],
       "extras": {
         "role": "Product Marketing Manager, International",
-        "location": "Luxembourg, Luxembourg",
+        "location": "Ljubljana, Slovenia",
         "function": "Marketing",
         "soc": "11-2011",
         "seniority": "manager",
@@ -3325,10 +4245,10 @@
       }
     },
     {
-      "id": "3fb91e986a1cc055",
+      "id": "703dc971062cc2cc",
       "ts": "2026-10-07T07:03:30-04:00",
       "source": "greenhouse",
-      "source_url": "https://boards.greenhouse.io/robinhood/jobs/8074057?t=gh_src=&gh_jid=8074057",
+      "source_url": "https://boards.greenhouse.io/robinhood/jobs/8074011?t=gh_src=&gh_jid=8074011",
       "type": "posting",
       "company": {
         "name": "Robinhood",
@@ -3340,7 +4260,7 @@
       },
       "magnitude": null,
       "unit": "jobs",
-      "raw_text": "Robinhood | Product Marketing Manager, International | Ljubljana, Slovenia",
+      "raw_text": "Robinhood | Product Marketing Manager, International | Luxembourg, Luxembourg",
       "tags": [
         "hiring",
         "greenhouse",
@@ -3349,7 +4269,7 @@
       ],
       "extras": {
         "role": "Product Marketing Manager, International",
-        "location": "Ljubljana, Slovenia",
+        "location": "Luxembourg, Luxembourg",
         "function": "Marketing",
         "soc": "11-2011",
         "seniority": "manager",
@@ -3451,37 +4371,6 @@
       }
     },
     {
-      "id": "f06545dc10f19caf",
-      "ts": "2026-10-07T05:38:27-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/gitlab/jobs/8860248002",
-      "type": "posting",
-      "company": {
-        "name": "GitLab",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "GitLab | Regional Sales Director - France | Remote, France",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "Engineering Management"
-      ],
-      "extras": {
-        "role": "Regional Sales Director - France",
-        "location": "Remote, France",
-        "function": "Engineering Management",
-        "soc": "11-9041",
-        "seniority": "director"
-      }
-    },
-    {
       "id": "f0d3c08b9bda805a",
       "ts": "2026-10-07T05:31:12-04:00",
       "source": "greenhouse",
@@ -3539,34 +4428,6 @@
         "role": "Sr. Client Partner [12-Month Fixed Term]",
         "location": "Hamburg, DE",
         "seniority": "senior"
-      }
-    },
-    {
-      "id": "5c61401768a6f5df",
-      "ts": "2026-10-07T05:14:02-04:00",
-      "source": "greenhouse",
-      "source_url": "https://stripe.com/jobs/search?gh_jid=7589400",
-      "type": "posting",
-      "company": {
-        "name": "Stripe",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Stripe | Indirect Tax Advisory Consultant | Dublin or London",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology"
-      ],
-      "extras": {
-        "role": "Indirect Tax Advisory Consultant",
-        "location": "Dublin or London",
-        "seniority": "mid"
       }
     },
     {
@@ -4572,38 +5433,6 @@
       }
     },
     {
-      "id": "acfeddd7e3e88f6d",
-      "ts": "2026-10-07T00:02:02-04:00",
-      "source": "greenhouse",
-      "source_url": "https://boards.greenhouse.io/cloudflare/jobs/8256449?gh_jid=8256449",
-      "type": "posting",
-      "company": {
-        "name": "Cloudflare",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Cloudflare | Workplace Coordinator | In-Office",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "Operations"
-      ],
-      "extras": {
-        "role": "Workplace Coordinator",
-        "location": "In-Office",
-        "function": "Operations",
-        "soc": "11-1021",
-        "seniority": "mid",
-        "remote": "onsite"
-      }
-    },
-    {
       "id": "7d1cff74262fc41c",
       "ts": "2026-10-06T23:49:52-04:00",
       "source": "greenhouse",
@@ -4861,37 +5690,6 @@
         "role": "Country Lead, Business Marketing, UK",
         "location": "London, United Kingdom",
         "seniority": "lead",
-        "stack": [
-          "go"
-        ]
-      }
-    },
-    {
-      "id": "f8e6f46868649959",
-      "ts": "2026-10-06T20:52:12-04:00",
-      "source": "greenhouse",
-      "source_url": "https://stripe.com/jobs/search?gh_jid=8225567",
-      "type": "posting",
-      "company": {
-        "name": "Stripe",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Stripe | Specialist Solutions Architect, Radar (APAC) | Singapore",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology"
-      ],
-      "extras": {
-        "role": "Specialist Solutions Architect, Radar (APAC)",
-        "location": "Singapore",
-        "seniority": "mid",
         "stack": [
           "go"
         ]
@@ -5327,31 +6125,32 @@
       }
     },
     {
-      "id": "84ca0219f3505f08",
+      "id": "f6d59bcf25f7e5ae",
       "ts": "2026-10-06T20:14:45-04:00",
       "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8022441",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8022446",
       "type": "posting",
       "company": {
         "name": "Reddit",
         "ticker": null,
         "industry": null,
         "sector": "Media",
-        "hq_region": null,
+        "hq_region": "CA",
         "size_band": "unknown"
       },
       "magnitude": null,
       "unit": "jobs",
-      "raw_text": "Reddit | Senior Software Engineer, Core Platform | Remote - United States",
+      "raw_text": "Reddit | Senior Software Engineer, Core Platform | San Francisco, CA",
       "tags": [
         "hiring",
         "greenhouse",
         "media",
+        "CA",
         "Software Engineering"
       ],
       "extras": {
         "role": "Senior Software Engineer, Core Platform",
-        "location": "Remote - United States",
+        "location": "San Francisco, CA",
         "function": "Software Engineering",
         "soc": "15-1252",
         "seniority": "senior"
@@ -5454,32 +6253,31 @@
       }
     },
     {
-      "id": "f6d59bcf25f7e5ae",
+      "id": "84ca0219f3505f08",
       "ts": "2026-10-06T20:14:45-04:00",
       "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8022446",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8022441",
       "type": "posting",
       "company": {
         "name": "Reddit",
         "ticker": null,
         "industry": null,
         "sector": "Media",
-        "hq_region": "CA",
+        "hq_region": null,
         "size_band": "unknown"
       },
       "magnitude": null,
       "unit": "jobs",
-      "raw_text": "Reddit | Senior Software Engineer, Core Platform | San Francisco, CA",
+      "raw_text": "Reddit | Senior Software Engineer, Core Platform | Remote - United States",
       "tags": [
         "hiring",
         "greenhouse",
         "media",
-        "CA",
         "Software Engineering"
       ],
       "extras": {
         "role": "Senior Software Engineer, Core Platform",
-        "location": "San Francisco, CA",
+        "location": "Remote - United States",
         "function": "Software Engineering",
         "soc": "15-1252",
         "seniority": "senior"
@@ -7639,38 +8437,6 @@
       }
     },
     {
-      "id": "b9aa5debe8d0f37b",
-      "ts": "2026-10-06T14:38:50-04:00",
-      "source": "greenhouse",
-      "source_url": "https://www.pinterestcareers.com/jobs/?gh_jid=8259517",
-      "type": "posting",
-      "company": {
-        "name": "Pinterest",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": "CA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Pinterest | Sr. Software Engineer, Data Analytics Engineering | San Francisco, CA, Seattle, WA, US; New York, NY,US; Remote;US",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "CA",
-        "Software Engineering"
-      ],
-      "extras": {
-        "role": "Sr. Software Engineer, Data Analytics Engineering",
-        "location": "San Francisco, CA, Seattle, WA, US; New York, NY,US; Remote;US",
-        "function": "Software Engineering",
-        "soc": "15-1252",
-        "seniority": "senior"
-      }
-    },
-    {
       "id": "123bbf29957f2400",
       "ts": "2026-10-06T14:31:39-04:00",
       "source": "greenhouse",
@@ -8355,37 +9121,6 @@
       }
     },
     {
-      "id": "13ef098108162306",
-      "ts": "2026-10-06T13:20:28-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/6960833",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Senior Machine Learning Engineer | Remote - Ontario, Canada",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
-        "Data / ML"
-      ],
-      "extras": {
-        "role": "Senior Machine Learning Engineer",
-        "location": "Remote - Ontario, Canada",
-        "function": "Data / ML",
-        "soc": "15-2051",
-        "seniority": "senior"
-      }
-    },
-    {
       "id": "0daf6808728a4c72",
       "ts": "2026-10-06T13:20:28-04:00",
       "source": "greenhouse",
@@ -8411,6 +9146,37 @@
       "extras": {
         "role": "Senior Machine Learning Engineer",
         "location": "Remote - United States",
+        "function": "Data / ML",
+        "soc": "15-2051",
+        "seniority": "senior"
+      }
+    },
+    {
+      "id": "13ef098108162306",
+      "ts": "2026-10-06T13:20:28-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/6960833",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Senior Machine Learning Engineer | Remote - Ontario, Canada",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "Data / ML"
+      ],
+      "extras": {
+        "role": "Senior Machine Learning Engineer",
+        "location": "Remote - Ontario, Canada",
         "function": "Data / ML",
         "soc": "15-2051",
         "seniority": "senior"
@@ -9707,34 +10473,6 @@
       "extras": {
         "role": "Partner Development Manager, Financial Partnership Capabilities",
         "location": "US-New York City; US-San Francisco; US-Seattle; US-Remote; US- Chicago; US-Atlanta; Canada-Toronto; Canada-Remote",
-        "seniority": "manager"
-      }
-    },
-    {
-      "id": "e56e785a77fb299c",
-      "ts": "2026-10-06T11:20:33-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/gitlab/jobs/8864903002",
-      "type": "posting",
-      "company": {
-        "name": "GitLab",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "GitLab | Pipeline Programs Manager | Remote, Canada; Remote, United States",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology"
-      ],
-      "extras": {
-        "role": "Pipeline Programs Manager",
-        "location": "Remote, Canada; Remote, United States",
         "seniority": "manager"
       }
     },
@@ -13804,39 +14542,6 @@
       }
     },
     {
-      "id": "f91cc86de255ae18",
-      "ts": "2026-10-05T14:39:26-04:00",
-      "source": "greenhouse",
-      "source_url": "https://boards.greenhouse.io/robinhood/jobs/8162169?t=gh_src=&gh_jid=8162169",
-      "type": "posting",
-      "company": {
-        "name": "Robinhood",
-        "ticker": null,
-        "industry": null,
-        "sector": "Finance",
-        "hq_region": "CO",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Robinhood | Customer Experience Manager, Robinhood Concierge | Denver, CO; Westlake, TX",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "finance",
-        "CO",
-        "Customer Success"
-      ],
-      "extras": {
-        "role": "Customer Experience Manager, Robinhood Concierge",
-        "location": "Denver, CO; Westlake, TX",
-        "function": "Customer Success",
-        "soc": "13-1161",
-        "seniority": "manager",
-        "remote": "onsite"
-      }
-    },
-    {
       "id": "ad1171ae7d0f9603",
       "ts": "2026-10-05T14:39:01-04:00",
       "source": "greenhouse",
@@ -14713,720 +15418,6 @@
         "function": "Data / ML",
         "soc": "15-2051",
         "seniority": "intern"
-      }
-    },
-    {
-      "id": "725fab843912f472",
-      "ts": "2026-10-05T13:24:35-04:00",
-      "source": "greenhouse",
-      "source_url": "https://www.pinterestcareers.com/jobs/?gh_jid=8011376",
-      "type": "posting",
-      "company": {
-        "name": "Pinterest",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": "CA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Pinterest | Sr. Data Scientist, Marketing | San Francisco, CA, US; Remote, US",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "CA",
-        "Data / ML"
-      ],
-      "extras": {
-        "role": "Sr. Data Scientist, Marketing",
-        "location": "San Francisco, CA, US; Remote, US",
-        "function": "Data / ML",
-        "soc": "15-2051",
-        "seniority": "senior"
-      }
-    },
-    {
-      "id": "108af25fc9af1de2",
-      "ts": "2026-10-05T13:13:23-04:00",
-      "source": "greenhouse",
-      "source_url": "https://boards.greenhouse.io/cloudflare/jobs/8188498?gh_jid=8188498",
-      "type": "posting",
-      "company": {
-        "name": "Cloudflare",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Cloudflare | Customer Solutions Strategy Lead | Hybrid",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology"
-      ],
-      "extras": {
-        "role": "Customer Solutions Strategy Lead",
-        "location": "Hybrid",
-        "seniority": "lead"
-      }
-    },
-    {
-      "id": "9e474d4dff917d4a",
-      "ts": "2026-10-05T13:10:36-04:00",
-      "source": "greenhouse",
-      "source_url": "https://boards.greenhouse.io/figma/jobs/5552580004?gh_jid=5552580004",
-      "type": "posting",
-      "company": {
-        "name": "Figma",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": "CA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Figma | Data Scientist | San Francisco, CA \u2022 New York, NY \u2022 United States",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "CA",
-        "Data / ML"
-      ],
-      "extras": {
-        "role": "Data Scientist",
-        "location": "San Francisco, CA \u2022 New York, NY \u2022 United States",
-        "function": "Data / ML",
-        "soc": "15-2051",
-        "seniority": "mid"
-      }
-    },
-    {
-      "id": "5a2eed4a87d98f24",
-      "ts": "2026-10-05T13:07:27-04:00",
-      "source": "greenhouse",
-      "source_url": "https://stripe.com/jobs/search?gh_jid=7982720",
-      "type": "posting",
-      "company": {
-        "name": "Stripe",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": "NY",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Stripe | Client Platform Security Engineer | New York, New York ",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "NY",
-        "Security"
-      ],
-      "extras": {
-        "role": "Client Platform Security Engineer",
-        "location": "New York, New York ",
-        "function": "Security",
-        "soc": "15-1212",
-        "seniority": "mid"
-      }
-    },
-    {
-      "id": "e6b76f17041fb441",
-      "ts": "2026-10-05T13:03:21-04:00",
-      "source": "greenhouse",
-      "source_url": "https://stripe.com/jobs/search?gh_jid=8178881",
-      "type": "posting",
-      "company": {
-        "name": "Stripe",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": "IL",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Stripe | Account Executive - Enterprise, Growth | Chicago, IL ",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "IL",
-        "Sales"
-      ],
-      "extras": {
-        "role": "Account Executive - Enterprise, Growth",
-        "location": "Chicago, IL ",
-        "function": "Sales",
-        "soc": "41-3091",
-        "seniority": "mid"
-      }
-    },
-    {
-      "id": "3fb8f45ed08c9138",
-      "ts": "2026-10-05T13:02:45-04:00",
-      "source": "greenhouse",
-      "source_url": "https://www.pinterestcareers.com/jobs/?gh_jid=8055266",
-      "type": "posting",
-      "company": {
-        "name": "Pinterest",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": "CA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Pinterest | Staff Software Engineer, Ads & Core Serving Platform | Palo Alto, CA, US; San Francisco, CA, US",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "CA",
-        "Software Engineering"
-      ],
-      "extras": {
-        "role": "Staff Software Engineer, Ads & Core Serving Platform",
-        "location": "Palo Alto, CA, US; San Francisco, CA, US",
-        "function": "Software Engineering",
-        "soc": "15-1252",
-        "seniority": "staff",
-        "remote": "remote"
-      }
-    },
-    {
-      "id": "7ae0035e56438ed0",
-      "ts": "2026-10-05T13:02:37-04:00",
-      "source": "greenhouse",
-      "source_url": "https://www.pinterestcareers.com/jobs/?gh_jid=7990090",
-      "type": "posting",
-      "company": {
-        "name": "Pinterest",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Pinterest | Staff Software Engineer, Edge | US; Remote, US",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "Software Engineering"
-      ],
-      "extras": {
-        "role": "Staff Software Engineer, Edge",
-        "location": "US; Remote, US",
-        "function": "Software Engineering",
-        "soc": "15-1252",
-        "seniority": "staff"
-      }
-    },
-    {
-      "id": "0a7143efa6a8a65b",
-      "ts": "2026-10-05T13:02:34-04:00",
-      "source": "greenhouse",
-      "source_url": "https://www.pinterestcareers.com/jobs/?gh_jid=7954753",
-      "type": "posting",
-      "company": {
-        "name": "Pinterest",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": "CA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Pinterest | Staff Software Engineer, Observability | San Francisco, CA, US; Remote, US",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "CA",
-        "Software Engineering"
-      ],
-      "extras": {
-        "role": "Staff Software Engineer, Observability",
-        "location": "San Francisco, CA, US; Remote, US",
-        "function": "Software Engineering",
-        "soc": "15-1252",
-        "seniority": "staff",
-        "remote": "remote"
-      }
-    },
-    {
-      "id": "854239292c547979",
-      "ts": "2026-10-05T12:58:30-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/anthropic/jobs/5422560008",
-      "type": "posting",
-      "company": {
-        "name": "Anthropic",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": "CA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Anthropic | Senior Manager, M&A Finance Integration | San Francisco, CA | Seattle, WA",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "CA"
-      ],
-      "extras": {
-        "role": "Senior Manager, M&A Finance Integration",
-        "location": "San Francisco, CA | Seattle, WA",
-        "seniority": "senior"
-      }
-    },
-    {
-      "id": "8f3214a87c0b9300",
-      "ts": "2026-10-05T16:54:33.687000Z",
-      "source": "ashby",
-      "source_url": "https://jobs.ashbyhq.com/perplexity/71abd198-5a69-4837-aa59-df8eeb9e02eb",
-      "type": "posting",
-      "company": {
-        "name": "Perplexity AI",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": "CA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Perplexity AI | Member of Data Staff (Analytics Engineer) | San Francisco | Data Science",
-      "tags": [
-        "hiring",
-        "ashby",
-        "technology",
-        "CA",
-        "Data / ML"
-      ],
-      "extras": {
-        "role": "Member of Data Staff (Analytics Engineer)",
-        "location": "San Francisco",
-        "department": "Data Science",
-        "employment_type": "FullTime",
-        "function": "Data / ML",
-        "soc": "15-2051",
-        "seniority": "staff",
-        "remote": "remote",
-        "stack": [
-          "dbt",
-          "rest"
-        ]
-      }
-    },
-    {
-      "id": "677a7b736b4c014d",
-      "ts": "2026-10-05T12:53:19-04:00",
-      "source": "greenhouse",
-      "source_url": "https://boards.greenhouse.io/cloudflare/jobs/8079117?gh_jid=8079117",
-      "type": "posting",
-      "company": {
-        "name": "Cloudflare",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Cloudflare | Senior Systems Engineer, Cloudflare Tunnel | Hybrid",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "Software Engineering"
-      ],
-      "extras": {
-        "role": "Senior Systems Engineer, Cloudflare Tunnel",
-        "location": "Hybrid",
-        "function": "Software Engineering",
-        "soc": "15-1252",
-        "seniority": "senior"
-      }
-    },
-    {
-      "id": "980a3a6a244c5ecc",
-      "ts": "2026-10-05T12:45:05-04:00",
-      "source": "greenhouse",
-      "source_url": "https://stripe.com/jobs/search?gh_jid=8237242",
-      "type": "posting",
-      "company": {
-        "name": "Stripe",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Stripe | State & Local Policy Manager | US-Remote",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology"
-      ],
-      "extras": {
-        "role": "State & Local Policy Manager",
-        "location": "US-Remote",
-        "seniority": "manager"
-      }
-    },
-    {
-      "id": "52b9e9e809e4da36",
-      "ts": "2026-10-05T12:37:35-04:00",
-      "source": "greenhouse",
-      "source_url": "https://stripe.com/jobs/search?gh_jid=8121419",
-      "type": "posting",
-      "company": {
-        "name": "Stripe",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": "OR",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Stripe | Account Executive, Funded Startups \u2014 Hunter, (Italian Speaker) | Milan OR Madrid ",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "OR",
-        "Sales"
-      ],
-      "extras": {
-        "role": "Account Executive, Funded Startups \u2014 Hunter, (Italian Speaker)",
-        "location": "Milan OR Madrid ",
-        "function": "Sales",
-        "soc": "41-3091",
-        "seniority": "mid"
-      }
-    },
-    {
-      "id": "b2a4a57c6555c383",
-      "ts": "2026-10-05T12:37:33-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/oscar/jobs/8241441",
-      "type": "posting",
-      "company": {
-        "name": "Oscar Health",
-        "ticker": null,
-        "industry": null,
-        "sector": "Healthcare",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Oscar Health | Contract Load Representative | Remote",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "healthcare"
-      ],
-      "extras": {
-        "role": "Contract Load Representative",
-        "location": "Remote",
-        "seniority": "mid",
-        "remote": "remote"
-      }
-    },
-    {
-      "id": "84899ae5583e9ea5",
-      "ts": "2026-10-05T12:37:13-04:00",
-      "source": "greenhouse",
-      "source_url": "https://careers.airbnb.com/positions/8241882?gh_jid=8241882",
-      "type": "posting",
-      "company": {
-        "name": "Airbnb",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Airbnb | Senior Fullstack Engineer, Tech Foundations | United States",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "Software Engineering"
-      ],
-      "extras": {
-        "role": "Senior Fullstack Engineer, Tech Foundations",
-        "location": "United States",
-        "function": "Software Engineering",
-        "soc": "15-1252",
-        "seniority": "senior"
-      }
-    },
-    {
-      "id": "a59da59d1038eb6a",
-      "ts": "2026-10-05T12:36:40-04:00",
-      "source": "greenhouse",
-      "source_url": "https://boards.greenhouse.io/figma/jobs/6214991004?gh_jid=6214991004",
-      "type": "posting",
-      "company": {
-        "name": "Figma",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": "CA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Figma | Payroll Program Manager | San Francisco, CA \u2022 New York, NY \u2022 United States",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "CA"
-      ],
-      "extras": {
-        "role": "Payroll Program Manager",
-        "location": "San Francisco, CA \u2022 New York, NY \u2022 United States",
-        "seniority": "manager"
-      }
-    },
-    {
-      "id": "f004bb1c2fe7e455",
-      "ts": "2026-10-05T12:34:11-04:00",
-      "source": "greenhouse",
-      "source_url": "https://careers.airbnb.com/positions/8249633?gh_jid=8249633",
-      "type": "posting",
-      "company": {
-        "name": "Airbnb",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Airbnb | Senior Analytics Engineer, Airbnb.org | United States",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "Data / ML"
-      ],
-      "extras": {
-        "role": "Senior Analytics Engineer, Airbnb.org",
-        "location": "United States",
-        "function": "Data / ML",
-        "soc": "15-2051",
-        "seniority": "senior"
-      }
-    },
-    {
-      "id": "5219e8f66e6e4758",
-      "ts": "2026-10-05T12:26:25-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/anthropic/jobs/5440752008",
-      "type": "posting",
-      "company": {
-        "name": "Anthropic",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Anthropic | Partner Success Lead | Munich, Germany",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology"
-      ],
-      "extras": {
-        "role": "Partner Success Lead",
-        "location": "Munich, Germany",
-        "seniority": "lead"
-      }
-    },
-    {
-      "id": "a9ff213a1af4cbdd",
-      "ts": "2026-10-05T12:24:23-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/anthropic/jobs/5309917008",
-      "type": "posting",
-      "company": {
-        "name": "Anthropic",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Anthropic | Staff Engineer, Datacenter Server Lifecycle | Sydney, Australia",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology"
-      ],
-      "extras": {
-        "role": "Staff Engineer, Datacenter Server Lifecycle",
-        "location": "Sydney, Australia",
-        "seniority": "staff"
-      }
-    },
-    {
-      "id": "4dde142ee5b9527a",
-      "ts": "2026-10-05T12:23:37-04:00",
-      "source": "greenhouse",
-      "source_url": "https://www.pinterestcareers.com/jobs/?gh_jid=8239954",
-      "type": "posting",
-      "company": {
-        "name": "Pinterest",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": "CA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Pinterest | Staff Product Manager, Measurement Partner Optimization | San Francisco, CA, US; Los Angeles CA, US; New York, NY, US",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "CA",
-        "Product"
-      ],
-      "extras": {
-        "role": "Staff Product Manager, Measurement Partner Optimization",
-        "location": "San Francisco, CA, US; Los Angeles CA, US; New York, NY, US",
-        "function": "Product",
-        "soc": "11-2021",
-        "seniority": "staff"
-      }
-    },
-    {
-      "id": "02ae83afec26e305",
-      "ts": "2026-10-05T12:19:53-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/anthropic/jobs/5410610008",
-      "type": "posting",
-      "company": {
-        "name": "Anthropic",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Anthropic | Engineering Manager, Safeguards | London, UK",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "Engineering Management"
-      ],
-      "extras": {
-        "role": "Engineering Manager, Safeguards",
-        "location": "London, UK",
-        "function": "Engineering Management",
-        "soc": "11-9041",
-        "seniority": "manager"
-      }
-    },
-    {
-      "id": "0a678121acf69646",
-      "ts": "2026-10-05T12:17:04-04:00",
-      "source": "greenhouse",
-      "source_url": "https://boards.greenhouse.io/cloudflare/jobs/8164694?gh_jid=8164694",
-      "type": "posting",
-      "company": {
-        "name": "Cloudflare",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Cloudflare | Senior Software Engineer - Addressing Team | Hybrid",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "Software Engineering"
-      ],
-      "extras": {
-        "role": "Senior Software Engineer - Addressing Team",
-        "location": "Hybrid",
-        "function": "Software Engineering",
-        "soc": "15-1252",
-        "seniority": "senior"
-      }
-    },
-    {
-      "id": "a17e816783c9f3e5",
-      "ts": "2026-10-05T12:10:17-04:00",
-      "source": "greenhouse",
-      "source_url": "https://boards.greenhouse.io/robinhood/jobs/8159896?t=gh_src=&gh_jid=8159896",
-      "type": "posting",
-      "company": {
-        "name": "Robinhood",
-        "ticker": null,
-        "industry": null,
-        "sector": "Finance",
-        "hq_region": "CA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Robinhood | Senior Product Designer, Sports | Menlo Park, CA; New York, NY",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "finance",
-        "CA",
-        "Design"
-      ],
-      "extras": {
-        "role": "Senior Product Designer, Sports",
-        "location": "Menlo Park, CA; New York, NY",
-        "function": "Design",
-        "soc": "27-1024",
-        "seniority": "senior"
       }
     }
   ]
