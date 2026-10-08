@@ -1,6 +1,6 @@
 {
   "stream": "layoffs",
-  "generated_at": "2026-10-07T22:53:07.712205+00:00",
+  "generated_at": "2026-10-08T05:06:25.617169+00:00",
   "total": 77,
   "showing": 77,
   "source_counts": {
@@ -9,11 +9,11 @@
     "layoffs_fyi": 5
   },
   "sector_counts": {
-    "Other": 35,
+    "Other": 34,
     "Hospitality": 8,
+    "Healthcare": 6,
     "Logistics": 6,
     "Technology": 5,
-    "Healthcare": 5,
     "Retail": 5,
     "Finance": 3,
     "Media": 3,
@@ -23,6 +23,29 @@
     "Manufacturing": 1
   },
   "events": [
+    {
+      "id": "1a1af7f884eab309",
+      "ts": "2026-10-07T14:28:31Z",
+      "source": "news_layoffs",
+      "source_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5wRG5nZkJFLXMxV213OHFVZVFRbWJNRVEzdDVXTEdOQjI2QktOcC1BUEpCdm9lOW0xd1l6bUIzeXZLZlltVU5hRFdzam1DZEVETnV0VXR3ZGJxUHZIejJfM2RmWXRTOUFpNkFIaXFuUUpDOVVHZU9kUlA5SWl5UQ?oc=5",
+      "type": "layoff",
+      "company": {
+        "name": "Pfizer",
+        "ticker": null,
+        "industry": null,
+        "sector": "Healthcare",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": 330.0,
+      "unit": "people",
+      "raw_text": "Pfizer to Cut 330 Jobs at Sicily Plant as Part of Italian Layoffs",
+      "tags": [
+        "layoff",
+        "healthcare"
+      ],
+      "extras": {}
+    },
     {
       "id": "dffe1a6b7c60b47d",
       "ts": "2026-10-07T11:13:24Z",
@@ -298,29 +321,6 @@
       "tags": [
         "layoff",
         "media"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "041d7d4a3c077678",
-      "ts": "2026-09-29T14:02:08Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPSGUyZ1ZIbnZuQ3FwRVNXYVU0N0dJeTk0a3dVN1lxUUhaSUxza1F4Rnc4ckdEbFk4Ym9zNllhejYwcTBDVmFVRmxsdGNIXzY4Um4yRmpUdngwc0x4THJNRmtXNlMySVlZc0htN1BTVEZPYUpGNnVlY0xRS3gyOVdjOW9YcS1lS09zRDNLVm5qOHV1M2dZMFFjM3lWWWRRRzllcFlvOXlUeXozS1pyZkM1UjF0X0lad3pHaFp5UmNKc2w0WTRvRldvZGRWQ3RfaVZJajg3Vlk2Ym1ySEd3elln?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "Stelco To",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": 500.0,
-      "unit": "people",
-      "raw_text": "Stelco To Lay Off Up To 500 Workers Amid Production Shift, Citing U.S. Tariffs",
-      "tags": [
-        "layoff",
-        "other"
       ],
       "extras": {}
     },
