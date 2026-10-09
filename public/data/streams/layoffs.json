@@ -1,21 +1,21 @@
 {
   "stream": "layoffs",
-  "generated_at": "2026-10-08T23:04:15.694807+00:00",
-  "total": 73,
-  "showing": 73,
+  "generated_at": "2026-10-09T05:09:20.299497+00:00",
+  "total": 72,
+  "showing": 72,
   "source_counts": {
-    "state_warn": 51,
+    "state_warn": 50,
     "news_layoffs": 17,
     "layoffs_fyi": 5
   },
   "sector_counts": {
-    "Other": 33,
+    "Other": 32,
     "Hospitality": 8,
-    "Retail": 6,
+    "Retail": 7,
     "Logistics": 6,
     "Technology": 4,
     "Healthcare": 4,
-    "Finance": 3,
+    "Finance": 2,
     "Media": 2,
     "CPG": 2,
     "Education": 2,
@@ -23,6 +23,29 @@
     "Manufacturing": 1
   },
   "events": [
+    {
+      "id": "479e4ef26cade92a",
+      "ts": "2026-10-09T00:42:10Z",
+      "source": "news_layoffs",
+      "source_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNaHg1RlVrWTRlUE8yRG9yUV90Ny15YW4tNWNSYlhsS1VqcVUtX01iUTgyQ0R1aktGR1plM1ZOaFo5SmJZOTd6OFplQVdiRmV0emZjdXIwYkxZalQxaEVtY05hb2Q5Q3JZWm5IeFF2amUta2doTC1rU1pNWG9KbGM5YWdTSFNmMzVq?oc=5",
+      "type": "layoff",
+      "company": {
+        "name": "Amazon",
+        "ticker": null,
+        "industry": null,
+        "sector": "Retail",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Amazon announces new round of job cuts in retail division",
+      "tags": [
+        "layoff",
+        "retail"
+      ],
+      "extras": {}
+    },
     {
       "id": "f561564f905b740f",
       "ts": "2026-10-08T12:02:49Z",
@@ -112,30 +135,6 @@
       "tags": [
         "layoff",
         "other"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "6c41e08870bc197c",
-      "ts": "2026-10-06T16:08:21Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQanFtLTlkZjgxMEY0aEJhZDJHRXhRQ2VNdDF2LVhUTEFjNnJmSEFkWGxvTDBQVVJuTVdWUHIzOWU1U19zZjlhaFBVMmJJMVBNTEN2UmdmSlFacEstWXllLTNVeEZfTDlNMERWdkVZa2dnYXVBakZNY3F6S1FNT0pSTmhldlBSMlFudC1BVENSRVVpZHoxTjlHZ3VIbE5MdU1ENUtTdm9IM1ZwaEwzUDVkMDdTOHNFc25QWmQ1OGpnVGJacjFRcE5CdDRGMmXSAeABQVVfeXFMTTAwcEI1WTZhTGhVZWRBZW1NRzlZcExwZkU2ODRzbS1oUTNCZllyc2lBYVh5NUZCMG5JWDRBR2Q1RHY4SEM3eDFPeDNGZUtNQS1mNGxsVV9YTDhQaVBXSVd6M1ltcXljcUdGNmNvWjNoWWNyQkZaZUtQT3dPVFQtRWlkdlk3aXJCM0czSzBkWGszWkpRUUQ4ZlFPeVF1VDkycFlKUVdPemFhSjJBQVl5cHBmZXVNM3ZiSGs1NDZhcnE5X2JGTkY4MGppVGRjT1cwWjZMcGtRdVh0LVl5LU9ja0I?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "Cambridge-based HubSpot",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": "MA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Cambridge-based HubSpot announces 660 layoffs amid restructuring",
-      "tags": [
-        "layoff",
-        "other",
-        "MA"
       ],
       "extras": {}
     },
@@ -1977,35 +1976,6 @@
       "extras": {
         "state": "TX",
         "city": "Houston",
-        "warn": true
-      }
-    },
-    {
-      "id": "801eef5f135ec7a4",
-      "ts": "2026-02-11T00:00:00Z",
-      "source": "state_warn",
-      "source_url": "https://data.texas.gov/d/8w53-c4f6",
-      "type": "layoff",
-      "company": {
-        "name": "Comerica Bank(Frisco Star Tower Facility)",
-        "ticker": null,
-        "industry": null,
-        "sector": "Finance",
-        "hq_region": "TX",
-        "size_band": "unknown"
-      },
-      "magnitude": 54.0,
-      "unit": "people",
-      "raw_text": "Comerica Bank(Frisco Star Tower Facility) filed a WARN notice for 54 jobs in Frisco, TX.",
-      "tags": [
-        "layoff",
-        "warn",
-        "tx",
-        "finance"
-      ],
-      "extras": {
-        "state": "TX",
-        "city": "Frisco",
         "warn": true
       }
     }
