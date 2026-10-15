@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-14T21:21:55.708981Z",
+  "generated_at": "2026-10-15T03:42:42.749171Z",
   "next_ingest_at": null,
-  "total_events": 4195,
-  "events_7d": 2010,
+  "total_events": 4179,
+  "events_7d": 1387,
   "sources": [
     {
       "source": "greenhouse",
@@ -10,9 +10,9 @@
       "url": "https://boards-api.greenhouse.io",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-10-14T21:21:55.814576Z",
-      "last_attempted": "2026-10-14T21:21:55.814576Z",
-      "record_count": 3514,
+      "last_ok": "2026-10-15T03:42:42.841265Z",
+      "last_attempted": "2026-10-15T03:42:42.841265Z",
+      "record_count": 3515,
       "ok": true,
       "errors": [
         "DoorDash (doordash): GET https://boards-api.greenhouse.io/v1/boards/doordash/jobs failed: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/doordash/jobs?content=true'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
@@ -32,8 +32,8 @@
       "url": "https://api.lever.co/v0/postings",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-10-14T21:22:23.693442Z",
-      "last_attempted": "2026-10-14T21:22:23.693442Z",
+      "last_ok": "2026-10-15T03:43:12.904682Z",
+      "last_attempted": "2026-10-15T03:43:12.904682Z",
       "record_count": 82,
       "ok": true,
       "errors": [
@@ -49,8 +49,8 @@
       "url": "https://api.ashbyhq.com/posting-api",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-10-14T21:22:34.187114Z",
-      "last_attempted": "2026-10-14T21:22:34.187114Z",
+      "last_ok": "2026-10-15T03:43:24.073643Z",
+      "last_attempted": "2026-10-15T03:43:24.073643Z",
       "record_count": 294,
       "ok": true,
       "errors": [
@@ -63,8 +63,8 @@
       "url": "https://techcrunch.com/tag/layoffs/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-10-14T21:22:36.889575Z",
-      "last_attempted": "2026-10-14T21:22:36.889575Z",
+      "last_ok": "2026-10-15T03:43:27.106589Z",
+      "last_attempted": "2026-10-15T03:43:27.106589Z",
       "record_count": 4,
       "ok": true,
       "errors": []
@@ -75,11 +75,19 @@
       "url": "https://news.google.com/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-10-14T21:22:37.272511Z",
-      "last_attempted": "2026-10-14T21:22:37.272511Z",
-      "record_count": 27,
-      "ok": true,
-      "errors": []
+      "last_ok": null,
+      "last_attempted": "2026-10-15T03:43:27.711167Z",
+      "record_count": 0,
+      "ok": false,
+      "errors": [
+        "'tech layoffs': Server error '503 Service Unavailable' for url 'https://news.google.com/rss/search?q=tech+layoffs+when%3A21d&hl=en-US&gl=US&ceid=US:en'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503",
+        "'bank layoffs': Server error '503 Service Unavailable' for url 'https://news.google.com/rss/search?q=bank+layoffs+when%3A21d&hl=en-US&gl=US&ceid=US:en'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503",
+        "'healthcare layoffs': Server error '503 Service Unavailable' for url 'https://news.google.com/rss/search?q=healthcare+layoffs+when%3A21d&hl=en-US&gl=US&ceid=US:en'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503",
+        "'retail layoffs': Server error '503 Service Unavailable' for url 'https://news.google.com/rss/search?q=retail+layoffs+when%3A21d&hl=en-US&gl=US&ceid=US:en'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503",
+        "'manufacturing layoffs': Server error '503 Service Unavailable' for url 'https://news.google.com/rss/search?q=manufacturing+layoffs+when%3A21d&hl=en-US&gl=US&ceid=US:en'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503",
+        "'media layoffs': Server error '503 Service Unavailable' for url 'https://news.google.com/rss/search?q=media+layoffs+when%3A21d&hl=en-US&gl=US&ceid=US:en'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503",
+        "'company layoffs announced': Server error '503 Service Unavailable' for url 'https://news.google.com/rss/search?q=company+layoffs+announced+when%3A21d&hl=en-US&gl=US&ceid=US:en'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503"
+      ]
     },
     {
       "source": "state_warn",
@@ -87,8 +95,8 @@
       "url": "https://data.texas.gov/d/8w53-c4f6",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-10-14T21:22:40.649125Z",
-      "last_attempted": "2026-10-14T21:22:40.649125Z",
+      "last_ok": "2026-10-15T03:44:15.942274Z",
+      "last_attempted": "2026-10-15T03:44:15.942274Z",
       "record_count": 50,
       "ok": true,
       "errors": []
@@ -99,8 +107,8 @@
       "url": "https://techcrunch.com/category/venture/feed/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-10-14T21:22:45.509954Z",
-      "last_attempted": "2026-10-14T21:22:45.509954Z",
+      "last_ok": "2026-10-15T03:44:17.170712Z",
+      "last_attempted": "2026-10-15T03:44:17.170712Z",
       "record_count": 8,
       "ok": true,
       "errors": []
@@ -111,9 +119,9 @@
       "url": "https://efts.sec.gov/LATEST/search-index",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-10-14T21:22:46.248184Z",
-      "last_attempted": "2026-10-14T21:22:46.248184Z",
-      "record_count": 126,
+      "last_ok": "2026-10-15T03:44:17.803687Z",
+      "last_attempted": "2026-10-15T03:44:17.803687Z",
+      "record_count": 124,
       "ok": true,
       "errors": []
     },
@@ -123,8 +131,8 @@
       "url": "https://www.bls.gov/oes/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-10-14T21:22:46.954920Z",
-      "last_attempted": "2026-10-14T21:22:46.954920Z",
+      "last_ok": "2026-10-15T03:44:22.288653Z",
+      "last_attempted": "2026-10-15T03:44:22.288653Z",
       "record_count": 24,
       "ok": true,
       "errors": []
@@ -135,8 +143,8 @@
       "url": "https://www.bls.gov/ces/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-10-14T21:22:47.441863Z",
-      "last_attempted": "2026-10-14T21:22:47.441863Z",
+      "last_ok": "2026-10-15T03:44:22.717693Z",
+      "last_attempted": "2026-10-15T03:44:22.717693Z",
       "record_count": 48,
       "ok": true,
       "errors": []
@@ -147,8 +155,8 @@
       "url": "https://www.bls.gov/developers/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-10-14T21:22:47.699969Z",
-      "last_attempted": "2026-10-14T21:22:47.699969Z",
+      "last_ok": "2026-10-15T03:44:23.159529Z",
+      "last_attempted": "2026-10-15T03:44:23.159529Z",
       "record_count": 30,
       "ok": true,
       "errors": []
@@ -156,42 +164,10 @@
   ],
   "recent_signals": [
     {
-      "id": "51ab392929e1617b",
-      "ts": "2026-10-14T17:19:57-04:00",
+      "id": "e3585ecbf4d8c1a3",
+      "ts": "2026-10-14T23:37:18-04:00",
       "source": "greenhouse",
-      "source_url": "https://www.pinterestcareers.com/jobs/?gh_jid=7488432",
-      "type": "posting",
-      "company": {
-        "name": "Pinterest",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": "CA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Pinterest | Chief of Staff to GM, Ads | San Francisco, CA, US; Remote, US",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "CA",
-        "Operations"
-      ],
-      "extras": {
-        "role": "Chief of Staff to GM, Ads",
-        "location": "San Francisco, CA, US; Remote, US",
-        "function": "Operations",
-        "soc": "11-1021",
-        "seniority": "c_level"
-      }
-    },
-    {
-      "id": "64f093c7fe1fd946",
-      "ts": "2026-10-14T17:18:59-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8237636",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8283770",
       "type": "posting",
       "company": {
         "name": "Reddit",
@@ -203,7 +179,7 @@
       },
       "magnitude": null,
       "unit": "jobs",
-      "raw_text": "Reddit | Staff Software Engineer, Android Design System | Remote - United States",
+      "raw_text": "Reddit | Senior Machine Learning Systems Engineer, ML Platform | Remote - United States",
       "tags": [
         "hiring",
         "greenhouse",
@@ -211,545 +187,18 @@
         "Software Engineering"
       ],
       "extras": {
-        "role": "Staff Software Engineer, Android Design System",
+        "role": "Senior Machine Learning Systems Engineer, ML Platform",
         "location": "Remote - United States",
         "function": "Software Engineering",
         "soc": "15-1252",
-        "seniority": "staff"
-      }
-    },
-    {
-      "id": "d99ae064cd90cddd",
-      "ts": "2026-10-14T17:18:07-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/oscar/jobs/8281722",
-      "type": "posting",
-      "company": {
-        "name": "Oscar Health",
-        "ticker": null,
-        "industry": null,
-        "sector": "Healthcare",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Oscar Health | Associate Director, Actuarial | Remote",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "healthcare",
-        "Engineering Management"
-      ],
-      "extras": {
-        "role": "Associate Director, Actuarial",
-        "location": "Remote",
-        "function": "Engineering Management",
-        "soc": "11-9041",
-        "seniority": "director",
-        "salary_min": 180504.0,
-        "salary_max": 236912.0,
-        "remote": "remote"
-      }
-    },
-    {
-      "id": "f3e07971ee138599",
-      "ts": "2026-10-14T17:15:24-04:00",
-      "source": "greenhouse",
-      "source_url": "https://boards.greenhouse.io/robinhood/jobs/8186689?t=gh_src=&gh_jid=8186689",
-      "type": "posting",
-      "company": {
-        "name": "Robinhood",
-        "ticker": null,
-        "industry": null,
-        "sector": "Finance",
-        "hq_region": "TX",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Robinhood | Customer Experience Manager, Trump Accounts | Westlake, TX",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "finance",
-        "TX",
-        "Customer Success"
-      ],
-      "extras": {
-        "role": "Customer Experience Manager, Trump Accounts",
-        "location": "Westlake, TX",
-        "function": "Customer Success",
-        "soc": "13-1161",
-        "seniority": "manager"
-      }
-    },
-    {
-      "id": "11ba29f4cedc7916",
-      "ts": "2026-10-14T17:13:20-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/mercury/jobs/6210798004",
-      "type": "posting",
-      "company": {
-        "name": "Mercury",
-        "ticker": null,
-        "industry": null,
-        "sector": "Finance",
-        "hq_region": "CA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Mercury | Executive Business Partner - Manager | San Francisco, CA, New York, NY, Portland, OR, or Remote within Canada or United States",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "finance",
-        "CA"
-      ],
-      "extras": {
-        "role": "Executive Business Partner - Manager",
-        "location": "San Francisco, CA, New York, NY, Portland, OR, or Remote within Canada or United States",
-        "seniority": "manager"
-      }
-    },
-    {
-      "id": "5682ab0631f49768",
-      "ts": "2026-10-14T17:11:27-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/mercury/jobs/6211401004",
-      "type": "posting",
-      "company": {
-        "name": "Mercury",
-        "ticker": null,
-        "industry": null,
-        "sector": "Finance",
-        "hq_region": "CA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Mercury | Senior Procurement Business Partner | San Francisco, CA, New York, NY, Portland, OR, or Remote within Canada or United States",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "finance",
-        "CA"
-      ],
-      "extras": {
-        "role": "Senior Procurement Business Partner",
-        "location": "San Francisco, CA, New York, NY, Portland, OR, or Remote within Canada or United States",
         "seniority": "senior"
       }
     },
     {
-      "id": "5912c872a07173c2",
-      "ts": "2026-10-14T17:10:58-04:00",
+      "id": "5a865b331ed477f0",
+      "ts": "2026-10-14T22:00:58-04:00",
       "source": "greenhouse",
-      "source_url": "https://careers.airbnb.com/positions/8125873?gh_jid=8125873",
-      "type": "posting",
-      "company": {
-        "name": "Airbnb",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Airbnb | Senior Manager, Sales Enablement | United States ",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology"
-      ],
-      "extras": {
-        "role": "Senior Manager, Sales Enablement",
-        "location": "United States ",
-        "seniority": "senior"
-      }
-    },
-    {
-      "id": "b1f47400185b740c",
-      "ts": "2026-10-14T17:09:17-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/discord/jobs/8771059002",
-      "type": "posting",
-      "company": {
-        "name": "Discord",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": "CA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Discord | Program Manager, Fraud and Payments Risk | San Francisco Bay Area",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "CA"
-      ],
-      "extras": {
-        "role": "Program Manager, Fraud and Payments Risk",
-        "location": "San Francisco Bay Area",
-        "seniority": "manager"
-      }
-    },
-    {
-      "id": "75c698a2da5f4d20",
-      "ts": "2026-10-14T16:59:43-04:00",
-      "source": "greenhouse",
-      "source_url": "https://www.pinterestcareers.com/jobs/?gh_jid=7770970",
-      "type": "posting",
-      "company": {
-        "name": "Pinterest",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": "CA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Pinterest | Sr. Product Manager, Ads Quality Delivery | Palo Alto, CA, US; Seattle, WA, US; Remote, CA, US",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "CA",
-        "Product"
-      ],
-      "extras": {
-        "role": "Sr. Product Manager, Ads Quality Delivery",
-        "location": "Palo Alto, CA, US; Seattle, WA, US; Remote, CA, US",
-        "function": "Product",
-        "soc": "11-2021",
-        "seniority": "senior"
-      }
-    },
-    {
-      "id": "31f95526b020def9",
-      "ts": "2026-10-14T16:58:35-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/gitlab/jobs/8645879002",
-      "type": "posting",
-      "company": {
-        "name": "GitLab",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "GitLab | Senior Renewals Operations Manager | Remote, Canada; Remote, United States",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "Operations"
-      ],
-      "extras": {
-        "role": "Senior Renewals Operations Manager",
-        "location": "Remote, Canada; Remote, United States",
-        "function": "Operations",
-        "soc": "11-1021",
-        "seniority": "senior",
-        "stack": [
-          "go"
-        ]
-      }
-    },
-    {
-      "id": "8f9324a9d6552b8e",
-      "ts": "2026-10-14T16:54:15-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/oscar/jobs/8281691",
-      "type": "posting",
-      "company": {
-        "name": "Oscar Health",
-        "ticker": null,
-        "industry": null,
-        "sector": "Healthcare",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Oscar Health | Director, Actuarial | Remote",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "healthcare",
-        "Engineering Management"
-      ],
-      "extras": {
-        "role": "Director, Actuarial",
-        "location": "Remote",
-        "function": "Engineering Management",
-        "soc": "11-9041",
-        "seniority": "director",
-        "salary_min": 198720.0,
-        "salary_max": 260820.0,
-        "remote": "remote"
-      }
-    },
-    {
-      "id": "f014cd16aefcfcb4",
-      "ts": "2026-10-14T16:48:20-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/6512458",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Software Engineer, Ads | Remote - Ontario, Canada",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
-        "Software Engineering"
-      ],
-      "extras": {
-        "role": "Software Engineer, Ads",
-        "location": "Remote - Ontario, Canada",
-        "function": "Software Engineering",
-        "soc": "15-1252",
-        "seniority": "mid"
-      }
-    },
-    {
-      "id": "992e2b24675c593c",
-      "ts": "2026-10-14T16:48:20-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/6469397",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Software Engineer, Ads | Remote - United States",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
-        "Software Engineering"
-      ],
-      "extras": {
-        "role": "Software Engineer, Ads",
-        "location": "Remote - United States",
-        "function": "Software Engineering",
-        "soc": "15-1252",
-        "seniority": "mid"
-      }
-    },
-    {
-      "id": "1822a10904a6bbd2",
-      "ts": "2026-10-14T16:47:50-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/anthropic/jobs/5369181008",
-      "type": "posting",
-      "company": {
-        "name": "Anthropic",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": "CA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Anthropic | Cloud Hyperscaler Enablement Programs Lead | San Francisco, CA | New York City, NY | Seattle, WA",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "CA"
-      ],
-      "extras": {
-        "role": "Cloud Hyperscaler Enablement Programs Lead",
-        "location": "San Francisco, CA | New York City, NY | Seattle, WA",
-        "seniority": "lead",
-        "stack": [
-          "aws",
-          "azure"
-        ]
-      }
-    },
-    {
-      "id": "94c396f6eaa675b0",
-      "ts": "2026-10-14T16:45:33-04:00",
-      "source": "greenhouse",
-      "source_url": "https://careers.airbnb.com/positions/8264827?gh_jid=8264827",
-      "type": "posting",
-      "company": {
-        "name": "Airbnb",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Airbnb | Gestionnaire, Excellence de la prestation de services | Ontario, Canada, Quebec, Canada",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology"
-      ],
-      "extras": {
-        "role": "Gestionnaire, Excellence de la prestation de services",
-        "location": "Ontario, Canada, Quebec, Canada",
-        "seniority": "mid"
-      }
-    },
-    {
-      "id": "de98632c6bd311b6",
-      "ts": "2026-10-14T16:45:25-04:00",
-      "source": "greenhouse",
-      "source_url": "https://careers.airbnb.com/positions/8264826?gh_jid=8264826",
-      "type": "posting",
-      "company": {
-        "name": "Airbnb",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Airbnb | Delivery Excellence Manager | Ontario, Canada, Quebec, Canada",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology"
-      ],
-      "extras": {
-        "role": "Delivery Excellence Manager",
-        "location": "Ontario, Canada, Quebec, Canada",
-        "seniority": "manager",
-        "remote": "remote"
-      }
-    },
-    {
-      "id": "13ef098108162306",
-      "ts": "2026-10-14T16:43:07-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/6960833",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Senior Machine Learning Engineer | Remote - Ontario, Canada",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
-        "Data / ML"
-      ],
-      "extras": {
-        "role": "Senior Machine Learning Engineer",
-        "location": "Remote - Ontario, Canada",
-        "function": "Data / ML",
-        "soc": "15-2051",
-        "seniority": "senior"
-      }
-    },
-    {
-      "id": "0daf6808728a4c72",
-      "ts": "2026-10-14T16:43:07-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/6960831",
-      "type": "posting",
-      "company": {
-        "name": "Reddit",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Reddit | Senior Machine Learning Engineer | Remote - United States",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "media",
-        "Data / ML"
-      ],
-      "extras": {
-        "role": "Senior Machine Learning Engineer",
-        "location": "Remote - United States",
-        "function": "Data / ML",
-        "soc": "15-2051",
-        "seniority": "senior"
-      }
-    },
-    {
-      "id": "56a705217541f979",
-      "ts": "2026-10-14T16:33:18-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/anthropic/jobs/5432558008",
-      "type": "posting",
-      "company": {
-        "name": "Anthropic",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": "CA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Anthropic | Staff Software Engineer: Compute | San Francisco, CA | New York City, NY",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "CA",
-        "Software Engineering"
-      ],
-      "extras": {
-        "role": "Staff Software Engineer: Compute",
-        "location": "San Francisco, CA | New York City, NY",
-        "function": "Software Engineering",
-        "soc": "15-1252",
-        "seniority": "staff"
-      }
-    },
-    {
-      "id": "d205cccff6f062f6",
-      "ts": "2026-10-14T16:32:10-04:00",
-      "source": "greenhouse",
-      "source_url": "https://stripe.com/jobs/search?gh_jid=8234243",
+      "source_url": "https://stripe.com/jobs/search?gh_jid=8163193",
       "type": "posting",
       "company": {
         "name": "Stripe",
@@ -761,43 +210,568 @@
       },
       "magnitude": null,
       "unit": "jobs",
-      "raw_text": "Stripe | Staff Product Manager, Accounting Products | SF, SEA, NYC",
+      "raw_text": "Stripe | Design Recruiter | Remote",
       "tags": [
         "hiring",
         "greenhouse",
         "technology",
-        "Product"
+        "People / HR / Recruiting"
       ],
       "extras": {
-        "role": "Staff Product Manager, Accounting Products",
-        "location": "SF, SEA, NYC",
-        "function": "Product",
-        "soc": "11-2021",
-        "seniority": "staff"
+        "role": "Design Recruiter",
+        "location": "Remote",
+        "function": "People / HR / Recruiting",
+        "soc": "13-1071",
+        "seniority": "mid"
       }
     },
     {
-      "id": "3d16b7e9ccaa72b9",
-      "ts": "2026-10-14T16:51:43Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9WQWZQRXVGU2FIdVJUekVfanFwRmVqaHJPNDdLTFk3bWhSWmJfc0VJNmF4REYwcUQzUkZCb0x1M0NEZVBfTXp4b0p6Yw?oc=5",
-      "type": "layoff",
+      "id": "74d7e12d0c683e00",
+      "ts": "2026-10-14T21:46:23-04:00",
+      "source": "greenhouse",
+      "source_url": "https://boards.greenhouse.io/cloudflare/jobs/8028403?gh_jid=8028403",
+      "type": "posting",
       "company": {
-        "name": "Funcom",
+        "name": "Cloudflare",
         "ticker": null,
         "industry": null,
-        "sector": "Other",
+        "sector": "Technology",
         "hq_region": null,
         "size_band": "unknown"
       },
       "magnitude": null,
-      "unit": null,
-      "raw_text": "Funcom announces staff layoffs as the company shifts its focus exclusively to Conan Exiles and Dune: Awakening",
+      "unit": "jobs",
+      "raw_text": "Cloudflare | Network Security Support Engineer | Hybrid",
       "tags": [
-        "layoff",
-        "other"
+        "hiring",
+        "greenhouse",
+        "technology",
+        "Support"
       ],
-      "extras": {}
+      "extras": {
+        "role": "Network Security Support Engineer",
+        "location": "Hybrid",
+        "function": "Support",
+        "soc": "43-4051",
+        "seniority": "mid"
+      }
+    },
+    {
+      "id": "9ecb06a10e6feb77",
+      "ts": "2026-10-15T01:25:48.788000Z",
+      "source": "ashby",
+      "source_url": "https://jobs.ashbyhq.com/cursor/a577902e-28e9-4e68-9ee9-91e34d1b59c4",
+      "type": "posting",
+      "company": {
+        "name": "Cursor",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": "NY",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Cursor | Software Engineer, Model Lifecycle and Signals | New York | Engineering",
+      "tags": [
+        "hiring",
+        "ashby",
+        "technology",
+        "NY",
+        "Software Engineering"
+      ],
+      "extras": {
+        "role": "Software Engineer, Model Lifecycle and Signals",
+        "location": "New York",
+        "department": "Engineering",
+        "employment_type": "FullTime",
+        "function": "Software Engineering",
+        "soc": "15-1252",
+        "seniority": "mid",
+        "stack": [
+          "go"
+        ]
+      }
+    },
+    {
+      "id": "50485d6052826925",
+      "ts": "2026-10-14T21:23:58-04:00",
+      "source": "greenhouse",
+      "source_url": "https://stripe.com/jobs/search?gh_jid=8175824",
+      "type": "posting",
+      "company": {
+        "name": "Stripe",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Stripe | Risk Operations Analyst - SSO | Remote ",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology"
+      ],
+      "extras": {
+        "role": "Risk Operations Analyst - SSO",
+        "location": "Remote ",
+        "seniority": "mid",
+        "stack": [
+          "go"
+        ]
+      }
+    },
+    {
+      "id": "5f9a53db255ff3a7",
+      "ts": "2026-10-14T21:23:10-04:00",
+      "source": "greenhouse",
+      "source_url": "https://stripe.com/jobs/search?gh_jid=7230921",
+      "type": "posting",
+      "company": {
+        "name": "Stripe",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Stripe | Risk Operations Analyst | Remote",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology"
+      ],
+      "extras": {
+        "role": "Risk Operations Analyst",
+        "location": "Remote",
+        "seniority": "mid"
+      }
+    },
+    {
+      "id": "400e136669b041c1",
+      "ts": "2026-10-14T21:07:21-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/anthropic/jobs/5453262008",
+      "type": "posting",
+      "company": {
+        "name": "Anthropic",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": "CA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Anthropic | Technical Program Manager, Inference | San Francisco, CA | New York City, NY",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "CA"
+      ],
+      "extras": {
+        "role": "Technical Program Manager, Inference",
+        "location": "San Francisco, CA | New York City, NY",
+        "seniority": "manager",
+        "remote": "remote"
+      }
+    },
+    {
+      "id": "0a05f0867409cd21",
+      "ts": "2026-10-14T20:34:09-04:00",
+      "source": "greenhouse",
+      "source_url": "https://boards.greenhouse.io/robinhood/jobs/8180757?t=gh_src=&gh_jid=8180757",
+      "type": "posting",
+      "company": {
+        "name": "Robinhood",
+        "ticker": null,
+        "industry": null,
+        "sector": "Finance",
+        "hq_region": "CA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Robinhood | Head of AI/Data Science, Finance & Strategy | Menlo Park, CA",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "finance",
+        "CA"
+      ],
+      "extras": {
+        "role": "Head of AI/Data Science, Finance & Strategy",
+        "location": "Menlo Park, CA",
+        "seniority": "mid"
+      }
+    },
+    {
+      "id": "b062bf3fc6c1d626",
+      "ts": "2026-10-14T20:32:24-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/anthropic/jobs/5310996008",
+      "type": "posting",
+      "company": {
+        "name": "Anthropic",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": "CA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Anthropic | Partner Manager, Global Health | San Francisco, CA | New York City, NY",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "CA"
+      ],
+      "extras": {
+        "role": "Partner Manager, Global Health",
+        "location": "San Francisco, CA | New York City, NY",
+        "seniority": "manager"
+      }
+    },
+    {
+      "id": "a4151d1a9dbfeac5",
+      "ts": "2026-10-14T20:23:24-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8249469",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": "CA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Lead Client Partner, Global Strategic Accounts (Tech) | Los Angeles, CA; New York City, NY",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "CA"
+      ],
+      "extras": {
+        "role": "Lead Client Partner, Global Strategic Accounts (Tech)",
+        "location": "Los Angeles, CA; New York City, NY",
+        "seniority": "lead",
+        "remote": "onsite"
+      }
+    },
+    {
+      "id": "488c9d7a62d973ed",
+      "ts": "2026-10-14T20:23:24-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8196302",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": "NY",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Lead Client Partner, Global Strategic Accounts (Tech) | New York City, NY",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "NY"
+      ],
+      "extras": {
+        "role": "Lead Client Partner, Global Strategic Accounts (Tech)",
+        "location": "New York City, NY",
+        "seniority": "lead",
+        "remote": "onsite"
+      }
+    },
+    {
+      "id": "9bfa8070d70f9fa3",
+      "ts": "2026-10-14T20:23:24-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8017242",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": "CA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Senior Client Account Manager, Global Strategic Accounts (Tech/AI) | San Francisco, CA",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "CA",
+        "Customer Success"
+      ],
+      "extras": {
+        "role": "Senior Client Account Manager, Global Strategic Accounts (Tech/AI)",
+        "location": "San Francisco, CA",
+        "function": "Customer Success",
+        "soc": "13-1161",
+        "seniority": "senior",
+        "remote": "onsite"
+      }
+    },
+    {
+      "id": "32fa16ab88732840",
+      "ts": "2026-10-14T20:22:00-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8049518",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": "CA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Client Account Manager, Large Customer Sales (Tech) | Los Angeles, CA; San Francisco, CA",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "CA",
+        "Customer Success"
+      ],
+      "extras": {
+        "role": "Client Account Manager, Large Customer Sales (Tech)",
+        "location": "Los Angeles, CA; San Francisco, CA",
+        "function": "Customer Success",
+        "soc": "13-1161",
+        "seniority": "manager"
+      }
+    },
+    {
+      "id": "f6ea26de15f96a41",
+      "ts": "2026-10-14T20:22:00-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8257083",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": "CA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Lead Client Partner, Large Customer Sales (Restaurants & Drinks) | Chicago, IL; Los Angeles, CA; New York City, NY; San Francisco, CA",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "CA"
+      ],
+      "extras": {
+        "role": "Lead Client Partner, Large Customer Sales (Restaurants & Drinks)",
+        "location": "Chicago, IL; Los Angeles, CA; New York City, NY; San Francisco, CA",
+        "seniority": "lead",
+        "remote": "onsite"
+      }
+    },
+    {
+      "id": "7d16a4479b51c8e2",
+      "ts": "2026-10-14T20:22:00-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8140121",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": "NY",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Senior Client Partner, Large Customer Sales (Big Box Retail) | Chicago, IL; New York City, NY",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "NY"
+      ],
+      "extras": {
+        "role": "Senior Client Partner, Large Customer Sales (Big Box Retail)",
+        "location": "Chicago, IL; New York City, NY",
+        "seniority": "senior",
+        "remote": "onsite"
+      }
+    },
+    {
+      "id": "c38803b664c1c7b0",
+      "ts": "2026-10-14T20:22:00-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8244090",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": "CA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Senior Client Partner, Large Customer Sales (Tech) | Los Angeles, CA; San Francisco, CA",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "CA"
+      ],
+      "extras": {
+        "role": "Senior Client Partner, Large Customer Sales (Tech)",
+        "location": "Los Angeles, CA; San Francisco, CA",
+        "seniority": "senior",
+        "remote": "onsite"
+      }
+    },
+    {
+      "id": "1b1bfa8ed026973b",
+      "ts": "2026-10-14T20:21:07-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8282760",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Analytics Engineer | Remote - United States",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "Data / ML"
+      ],
+      "extras": {
+        "role": "Analytics Engineer",
+        "location": "Remote - United States",
+        "function": "Data / ML",
+        "soc": "15-2051",
+        "seniority": "mid"
+      }
+    },
+    {
+      "id": "423a2a42d8d780ee",
+      "ts": "2026-10-14T20:21:07-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8244067",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Strategic Finance Senior Manager | Remote - United States",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media"
+      ],
+      "extras": {
+        "role": "Strategic Finance Senior Manager",
+        "location": "Remote - United States",
+        "seniority": "senior"
+      }
+    },
+    {
+      "id": "d3e79f4278dd5e5c",
+      "ts": "2026-10-14T20:21:06-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7792848",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Ads Conversion Modeling, Machine Learning Engineering Manager | Remote - United States",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "Data / ML"
+      ],
+      "extras": {
+        "role": "Ads Conversion Modeling, Machine Learning Engineering Manager",
+        "location": "Remote - United States",
+        "function": "Data / ML",
+        "soc": "15-2051",
+        "seniority": "manager"
+      }
+    },
+    {
+      "id": "4cf790e894a5c1a8",
+      "ts": "2026-10-14T20:21:06-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8130311",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Global Payroll Administrator | Remote - United States",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media"
+      ],
+      "extras": {
+        "role": "Global Payroll Administrator",
+        "location": "Remote - United States",
+        "seniority": "mid"
+      }
     },
     {
       "id": "bddecd5c2c2d9ba0",
@@ -819,29 +793,6 @@
       "tags": [
         "funding",
         "other"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "01341684a5e6985b",
-      "ts": "2026-10-14T13:27:41Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNTXZHNk9QM1AyajZuM0taT3dZRUxsVnBPTFowalVYa0hHUzRyMGlCR3hOendmNXVBNjQ1WGhjSUtDWUZSTWFySkdoWjh5X21wZmFrNTVjZV9wWUFVWWlZR2JXNmVLYVZkc3NsRkZBNHZldkR2Vko3dU9odDFER29JTFllV2RZUzVFX1c4ZVRmc01aRnJoYVlITTZrUkhpNnJtTXV6ekVWMElmWnVhVnE2MkZxYVRDcVdtbXhMeEtObFVUWjhBWHJKQXhqZENycWRhZ0pPdGVsTkx0VVhl0gHiAUFVX3lxTFBuWlFPNTZFWGNkdG9rbGptNi10VlQ2YUhYLW9wOVAzVFJuRDBieFAtN2dQQXc0NkllQTNqWVlkeWEtRDdIc0F6T09NMUk3V0ZBTjVjQUN0SDFmdVIwVDZjV2FVNkpZanRnUDVERW9JaE03bW9pdnZ2cnUwcTZyVVZ2akh0SHJwSDQyTG16U2FZdVpRSGxfcEVpN29pZnJLSTdieXFZcGxmamlaNnp6NGpIMWl4TllNRXQ2dmFnRkxpRWtTb0ZEeUJsNXJzRU5WT2tVLVdiRUNnbFM4SlNpY2pob0E?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "Netflix",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": 1000.0,
-      "unit": "people",
-      "raw_text": "Netflix cuts 1,000 jobs in biggest layoff round since 2022, targeting tech, legal and HR teams",
-      "tags": [
-        "layoff",
-        "media"
       ],
       "extras": {}
     },
@@ -1066,6 +1017,34 @@
       "extras": {
         "adsh": "0001493152-26-046969",
         "cik": "0001873722",
+        "file_date": "2026-10-14"
+      }
+    },
+    {
+      "id": "6c7c15fc007b1c91",
+      "ts": "2026-10-14T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1575515&type=&dateb=&owner=include&count=40",
+      "type": "exec_move",
+      "company": {
+        "name": "Sprouts Farmers Market, Inc.",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Sprouts Farmers Market, Inc. reported an executive or board change in an 8-K filing on 2026-10-14.",
+      "tags": [
+        "exec_move",
+        "sec_8k",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0001575515-26-000051",
+        "cik": "0001575515",
         "file_date": "2026-10-14"
       }
     },
@@ -1602,52 +1581,6 @@
       }
     },
     {
-      "id": "704de82342b6f02a",
-      "ts": "2026-10-13T03:23:07Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOYUFuWUZERFlnbGprNEo5eGF2cGhwTmxRSC1icU13MW9FeXczN05ERy1IU2Jtb05GQlo4NzVjazlHa2ZlWTBxZkF0SUdNY2k5R21XZXl3VXN6ODlnaThucjIyanNibEhkemRUOEtjOTJEWDZfYU1CX1FHa3NqTlFHVmt1R21IVWZ6QTkzbjhGcm9jQjRVSVE4a0tybUV6aEo1Y3BTdXU0VlVrb1otRllpd3hQZ1ZVNEN4cnI0ZkxVRVBqTVAtUXk5bW1HSEhIRU1XaVZF?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "Amazon",
-        "ticker": null,
-        "industry": null,
-        "sector": "Retail",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Amazon announces fresh job cuts affecting retail operations in the US, UK, and India",
-      "tags": [
-        "layoff",
-        "retail"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "2546466c0c8059c3",
-      "ts": "2026-10-13T01:55:46Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPcmtXYWUxY2lpcGpRNnFOS3JFMlpxQ3dGSXQ3SmxhREw0TkRTOUZYVkQ4V0VPRXd6ajU2amsyZE1VSzY3bGk4UmhyRE5reW9DTmUxaUpZZEFUN2dRSVNrRGJfTFZhN0NWUm1pemxqQVROVkZNNFUwOWowc1EwbGZIN0VsTTU3U2c?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "Kroger",
-        "ticker": null,
-        "industry": null,
-        "sector": "Retail",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": 3000.0,
-      "unit": "people",
-      "raw_text": "Kroger to cut 3K corporate jobs over the next 3 years",
-      "tags": [
-        "layoff",
-        "retail"
-      ],
-      "extras": {}
-    },
-    {
       "id": "8b2e4e803d7dfbc4",
       "ts": "2026-10-13T00:00:00Z",
       "source": "sec_edgar",
@@ -1786,75 +1719,6 @@
         "cik": "0001566826",
         "file_date": "2026-10-13"
       }
-    },
-    {
-      "id": "6c7855d39c1e3885",
-      "ts": "2026-10-11T23:00:03Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPc2RfZEJTaHd6UUg1c2Y4LUlsby02UWQxaGMyQ3l3NG5zMU5OeHpLajRMVWF0dUNhVXl0MGNVdnBoNTNWUlgyRThDWHRTUm41c0NjS3pwWEtUbDE1cEVEeGNmcFVKV1BtUkM3WkdGbW5ZYldjVTc2M2ZTUC1lenNCY1VfWExDVlJWeGpjMGdTbmcyekk3aVNLX0sxUDdob1k?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "Amazon",
-        "ticker": null,
-        "industry": null,
-        "sector": "Retail",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Amazon announces new job cuts in its retail division",
-      "tags": [
-        "layoff",
-        "retail"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "25d8bbf9d652e687",
-      "ts": "2026-10-09T17:56:00Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE00czZuWXZ4a2VwOVVTaXhCNHVCMk5WXzhFYlBGaEFxUUtpOHlTQmdRck5tTE41MzJJWFgyVDUxMFV2dHgzaXgxSFpTN1pBc1J4WEN2Z29xal9na2ZjUC11QUpDcGVTMlZ5Mk1pUGVLSVhsSjJH?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "Netflix Reportedly Set To",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Netflix Reportedly Set To Cut 5% From Workforce",
-      "tags": [
-        "layoff",
-        "media"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "0568844458971425",
-      "ts": "2026-10-09T14:30:13Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRko1djdTWmx4cmh6bVpqNlB2Rko4VHk1SkxWWDdCUkZlLW1Sb09FempKc0NHZl9EYUZpTHVKZ0pfdmlVLUluRE9jcjhzbFQxOHhNOEVCSmFxd211MFdUNnQzTElGWWNWc0ctTk9jNGZ5SU05dVp5Vlh0ZnJ6QnlnZEtpZVdQdFpwMWU0dzdFWDRHR0N2bjkwSXNSWQ?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "Amazon Reportedly",
-        "ticker": null,
-        "industry": null,
-        "sector": "Retail",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": 1000.0,
-      "unit": "people",
-      "raw_text": "Amazon Reportedly Cuts Fewer Than 1,000 Jobs Across US, India and UK As Fresh Layoffs Hit Retail, Customer Service and Engineering Teams",
-      "tags": [
-        "layoff",
-        "retail"
-      ],
-      "extras": {}
     },
     {
       "id": "c08bfed768283f67",
@@ -2023,219 +1887,6 @@
         "cik": "0001488501",
         "file_date": "2026-10-09"
       }
-    },
-    {
-      "id": "8e22f8901f972378",
-      "ts": "2026-10-09T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1739940&type=&dateb=&owner=include&count=40",
-      "type": "exec_move",
-      "company": {
-        "name": "Cigna Group",
-        "ticker": null,
-        "industry": null,
-        "sector": "Healthcare",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Cigna Group reported an executive or board change in an 8-K filing on 2026-10-09.",
-      "tags": [
-        "exec_move",
-        "sec_8k",
-        "healthcare"
-      ],
-      "extras": {
-        "adsh": "0001140361-26-039271",
-        "cik": "0001739940",
-        "file_date": "2026-10-09"
-      }
-    },
-    {
-      "id": "e8ba011666001414",
-      "ts": "2026-10-08T12:13:00Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFAyTk1tSnNuaEhKR0hvZVBleXZXajB2b2FONmh0cXZTd2hHS0ZJWmdpa3ZyT3l1M0tpWFNKX2t6UFlzempwVHpEeDVYVTdQbWp3bnVrcmJObnUtQ1ZNVEpGbkxMZ3d3WkV4?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "HoneyBook",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "HoneyBook lays off 14% of workforce in AI-driven restructuring",
-      "tags": [
-        "layoff",
-        "other"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "f561564f905b740f",
-      "ts": "2026-10-08T12:02:49Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxPRzd5MnBrWHFvelJqOWZaU2U2Q1AxUTVFNEpiYmhrOWtYOEVwc3hVU202MnhmYVJIb3AwQl9pWUVicjN1QkhLdUlXMHlVQmhmamZCNVVqZ0tPN3dlVUFEQTVKRFlWMFFtTVFlb1MxQVZ2bHRxOFBsQkk2dzFkSFZyU3FFUnlILVlaV2R4Q2hOOWcxY2pGNWZScWg5b3k2VTVRSVQzVl95VkFLVFFKaDB0NURuLVFFclZVOWpQNV82TjFLd29pZjc5Z0NXXzlpQ25OcFhmOW1CMVR1MHVEQWdjZ1B3WGdFLURTVHhUeXJlWjU2RzdiNXdzVHMxaDl6dVltZ2EwbW1DLTVwZTRZa05YY0lBc2o?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "Amazon Reportedly",
-        "ticker": null,
-        "industry": null,
-        "sector": "Retail",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": 1000.0,
-      "unit": "people",
-      "raw_text": "Amazon Reportedly Cuts Fewer Than 1,000 Jobs Across US, India and UK As Fresh Layoffs Hit Retail, Custome",
-      "tags": [
-        "layoff",
-        "retail"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "a8b74bfc67c395db",
-      "ts": "2026-10-08T08:54:00Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPMTItaTRTVWpOWHptYjlPLUp5U0UwRkZtazhFVUhSUzYxMVlfNkVmUUJRcVZUMHMyVWhNb0w4MEZPSjIwaUM0YjNjajVnYkVBbDI2cHpuZTNzRU9mLTR0YVd6Uy1nNTR4MnYwUEFCR0UtS28wUm45NlVCTmRFVTE0YkZxM1N2S1M3aG4yOXk3bTFwSDBkSEw2SDM0QnNaN0s5b3hnTERqU21RRDF4SmF3X1FDV3Q1TlBIenfSAb8BQVVfeXFMTjR3VDZkZmpYb19ReFpkMkhhVVZOVHh2UnR6cWNUQWpicDhmSUpSOVZ0bS1mMmt0RGEtS3hySlQ1ZTJGWW9FRXBUb212RnRKczZ3SWRmVEtpUEtNdVljWkhMRHVqN3JjVWVfNUtCQUJfbnhIblpsM1oySFNLZ05Pcks3ZnptUHV6ZDBqQk53a1ljRUV3NVlTaDF1NlJxRGo3NGNqaWh2ZXBXQURsQ0VHN1BsSWJNMXRiUnFOdjhmSmM?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "Amazon",
-        "ticker": null,
-        "industry": null,
-        "sector": "Retail",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": 1000.0,
-      "unit": "people",
-      "raw_text": "Amazon to cut nearly 1,000 white-collar jobs across stores division and other units: report",
-      "tags": [
-        "layoff",
-        "retail"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "623078606747c0f6",
-      "ts": "2026-10-07T14:45:42Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE51VUNUczVrd3dMS01ab3hoMEl3LVJmZEF4bTBuc0swMWZVRWFLdWhncUNjVVFpQjhNeE81M3NmWjJMVzM0TVpVVnlFLUtqQnN2V1Nta2hFeFFZWnZEdVhZMHdhRHQ3NlhDNDVBRmluSzlJZlJKbDB1Y2pZc2ludw?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "Northwell Health",
-        "ticker": null,
-        "industry": null,
-        "sector": "Healthcare",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Northwell Health Cuts Jobs a Third Time in Under a Year, Withholding How Many and Which Roles",
-      "tags": [
-        "layoff",
-        "healthcare"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "6a166028135170d1",
-      "ts": "2026-10-05T22:49:46Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE15OTFEN0VDTEQzeS1WR0pUdkxnVjRqQmYyaGU1NjlkYzlMVG5hZVZqOWNiUGRONVQ4MGdfYVR5ZE9yZk9FQW5WVkh2VF9JQi16d3pOWTh1NXBPRWhwa29qZDlSWnB1TXBn?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "Prudential",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": "NJ",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Prudential files WARN notice for 125 NJ job cuts (updated)",
-      "tags": [
-        "layoff",
-        "other",
-        "NJ"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "95841f8e47280f92",
-      "ts": "2026-10-05T07:00:00Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQckZmTFJIUlhwYXMzdDYwelA5UFd1U1RjTlVDLV9CbDlKUnpqTnQ1OVFKNHRXMGw2STc1aDZwYy1mYnhPOUc1cGctZVlFdERFRFJkYlEwUVZfUzFwN2FLZTcxNExpS256MmY0RHB5cGdvc0VDY0JQVlN6N3hOTjVLdW5BcWpmU1lwTUNGdU5uMFRhM2dhZmxuaG5yZk8zdlhBX1YzOGNPVDBzMjVDSDRwWjBZRU8wOXAyZlJGWQ?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "Northwell Health",
-        "ticker": null,
-        "industry": null,
-        "sector": "Healthcare",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Northwell Health Eliminating Limited Number Of Positions",
-      "tags": [
-        "layoff",
-        "healthcare"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "e8c4be636eac488d",
-      "ts": "2026-10-02T07:00:00Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPcTlIUlBnd3JsakNubGozM1NwdzhkZGxra0lLbXA3bmtxXzFUWG14UnpqZWMteWM3ZXlwb1I3VVcyTmo3SWd6X1d0SDFSTjk3eHRWdGx1amdSY1pJY0JSR0VoVEpScXVOSVFXTXRSSkNod01COGo4aHN5UF9ORmE2UmVuczdMY2g5b2lpOXUxcWV3UlBtLUl1MGotWXpWbnoyZmEyRFNjei04WEV0WXVPTW5NVzI1Rmtnb1BCRlpFWWFid2VkWFhlcFRoc3VVRUxKNXZHeU5wR094UGJLMTN2V1Nn0gHnAUFVX3lxTE1LRFJhMVRIUmRUc1lNaTRNTmJ0akdfRlhkZTF5Ukp6QnBsb3YwNGtTcV9Idkc4UlJURVRlWk9aZDRBSVJTT19HOEF4YTZDMU1EeHFncWVYQ3dZR2NLM3ZFa2NJcTRHU2kwejZMS3pDR1M1Z19ZSmt1UWVfaG81X1dtbUxCbktxWjFTZ1RzcEVYb0dBdGIzWjcwUjJ0ZWxCR2VFZXZ6VnN5a3BraEJkT2Rxc0Qyc3FSU2ZZb0ZIREFzLVVyUThxeGxHa0VZMzRBLVlqNm11N25wZGlVd1Q4U0U4RGtqajk1Zw?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "NBCUniversal",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "NBCUniversal cuts hundreds of streaming tech jobs: What\u2019s behind Comcast\u2019s latest layoffs?",
-      "tags": [
-        "layoff",
-        "other"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "9416c0ea25e8292a",
-      "ts": "2026-09-29T07:00:00Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNRjZFc0QwMjFjOHdyY2ZWbEcwSUN6Y3pkUHVTTEJSbTdPbENXbU9KbkJyRjJRMGRlekpYWWpPUzRmY0VubkFLd3FoX0NMNkFCWksxZ3lic2tfOVNZLTIzLTRwZ2xPZjZmeWpmMzZuSE84RjlsakUyT0pfRm1vQ1JhTzBrbHZlT3M?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "SAC Health",
-        "ticker": null,
-        "industry": null,
-        "sector": "Healthcare",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "SAC Health announces \u2018final\u2019 round of 52 layoffs",
-      "tags": [
-        "layoff",
-        "healthcare"
-      ],
-      "extras": {}
     },
     {
       "id": "14dbcac20686aa6f",
@@ -2787,10 +2438,375 @@
         "ces5500000003"
       ],
       "extras": {}
+    },
+    {
+      "id": "3fabcae3e828fb5d",
+      "ts": "2026-07-01T00:00:00Z",
+      "source": "comp",
+      "source_url": "https://data.bls.gov/timeseries/CES6000000003",
+      "type": "comp",
+      "company": {
+        "name": "Professional & Business Services",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": 45.68,
+      "unit": "USD/hr",
+      "raw_text": "Professional & Business Services: $45.68/hr avg earnings (Jul 2026)",
+      "tags": [
+        "comp",
+        "bls_ces",
+        "ces6000000003"
+      ],
+      "extras": {}
+    },
+    {
+      "id": "7341f9110c54249f",
+      "ts": "2026-07-01T00:00:00Z",
+      "source": "comp",
+      "source_url": "https://data.bls.gov/timeseries/CES6500000003",
+      "type": "comp",
+      "company": {
+        "name": "Education & Health Services",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": 36.3,
+      "unit": "USD/hr",
+      "raw_text": "Education & Health Services: $36.30/hr avg earnings (Jul 2026)",
+      "tags": [
+        "comp",
+        "bls_ces",
+        "ces6500000003"
+      ],
+      "extras": {}
+    },
+    {
+      "id": "3643d1d4b40fde52",
+      "ts": "2026-07-01T00:00:00Z",
+      "source": "fred",
+      "source_url": "https://fred.stlouisfed.org/series/LNS14000000",
+      "type": "macro",
+      "company": null,
+      "magnitude": 4.1,
+      "unit": "pp",
+      "raw_text": "US Unemployment Rate (%): 4.1",
+      "tags": [
+        "macro",
+        "fred",
+        "lns14000000"
+      ],
+      "extras": {}
+    },
+    {
+      "id": "6e91145280b63106",
+      "ts": "2026-07-01T00:00:00Z",
+      "source": "fred",
+      "source_url": "https://fred.stlouisfed.org/series/JTS000000000000000JOR",
+      "type": "macro",
+      "company": null,
+      "magnitude": 4.4,
+      "unit": "pp",
+      "raw_text": "JOLTS: Job Openings Rate (%): 4.4",
+      "tags": [
+        "macro",
+        "fred",
+        "jts000000000000000jor"
+      ],
+      "extras": {}
+    },
+    {
+      "id": "5c94f013dc272f8e",
+      "ts": "2026-07-01T00:00:00Z",
+      "source": "fred",
+      "source_url": "https://fred.stlouisfed.org/series/JTS000000000000000QUR",
+      "type": "macro",
+      "company": null,
+      "magnitude": 1.9,
+      "unit": "pp",
+      "raw_text": "JOLTS: Quits Rate (%): 1.9",
+      "tags": [
+        "macro",
+        "fred",
+        "jts000000000000000qur"
+      ],
+      "extras": {}
+    },
+    {
+      "id": "d9abc85817fb61a7",
+      "ts": "2026-07-01T00:00:00Z",
+      "source": "fred",
+      "source_url": "https://fred.stlouisfed.org/series/JTS000000000000000LDR",
+      "type": "macro",
+      "company": null,
+      "magnitude": 1.1,
+      "unit": "pp",
+      "raw_text": "JOLTS: Layoffs & Discharges Rate (%): 1.1",
+      "tags": [
+        "macro",
+        "fred",
+        "jts000000000000000ldr"
+      ],
+      "extras": {}
+    },
+    {
+      "id": "13b89a5732e317a6",
+      "ts": "2026-07-01T00:00:00Z",
+      "source": "fred",
+      "source_url": "https://fred.stlouisfed.org/series/CES0500000003",
+      "type": "macro",
+      "company": null,
+      "magnitude": 37.64,
+      "unit": "USD/hr",
+      "raw_text": "Private Sector Avg Hourly Earnings ($): 37.64",
+      "tags": [
+        "macro",
+        "fred",
+        "ces0500000003"
+      ],
+      "extras": {}
+    },
+    {
+      "id": "20a17f372e1e0bea",
+      "ts": "2026-06-23T00:00:00Z",
+      "source": "state_warn",
+      "source_url": "https://data.texas.gov/d/8w53-c4f6",
+      "type": "layoff",
+      "company": {
+        "name": "JPMorgan Chase & Co.",
+        "ticker": null,
+        "industry": null,
+        "sector": "Finance",
+        "hq_region": "TX",
+        "size_band": "unknown"
+      },
+      "magnitude": 244.0,
+      "unit": "people",
+      "raw_text": "JPMorgan Chase & Co. filed a WARN notice for 244 jobs in Plano, TX.",
+      "tags": [
+        "layoff",
+        "warn",
+        "tx",
+        "finance"
+      ],
+      "extras": {
+        "state": "TX",
+        "city": "Plano",
+        "warn": true
+      }
+    },
+    {
+      "id": "2ad1b9bb937ec626",
+      "ts": "2026-06-16T00:00:00Z",
+      "source": "state_warn",
+      "source_url": "https://data.texas.gov/d/8w53-c4f6",
+      "type": "layoff",
+      "company": {
+        "name": "KUEHNE + NAGEL (KN) 2026",
+        "ticker": null,
+        "industry": null,
+        "sector": "Logistics",
+        "hq_region": "TX",
+        "size_band": "unknown"
+      },
+      "magnitude": 90.0,
+      "unit": "people",
+      "raw_text": "KUEHNE + NAGEL (KN) 2026 filed a WARN notice for 90 jobs in Lewisville, TX.",
+      "tags": [
+        "layoff",
+        "warn",
+        "tx",
+        "logistics"
+      ],
+      "extras": {
+        "state": "TX",
+        "city": "Lewisville",
+        "warn": true
+      }
+    },
+    {
+      "id": "76ecc8494a648a5f",
+      "ts": "2026-06-12T00:00:00Z",
+      "source": "state_warn",
+      "source_url": "https://data.texas.gov/d/8w53-c4f6",
+      "type": "layoff",
+      "company": {
+        "name": "Fortrex (John Soules Foods, Inc.)",
+        "ticker": null,
+        "industry": null,
+        "sector": "CPG",
+        "hq_region": "TX",
+        "size_band": "unknown"
+      },
+      "magnitude": 85.0,
+      "unit": "people",
+      "raw_text": "Fortrex (John Soules Foods, Inc.) filed a WARN notice for 85 jobs in Tyler, TX.",
+      "tags": [
+        "layoff",
+        "warn",
+        "tx",
+        "cpg"
+      ],
+      "extras": {
+        "state": "TX",
+        "city": "Tyler",
+        "warn": true
+      }
+    },
+    {
+      "id": "ae0144ac270840ee",
+      "ts": "2026-06-12T00:00:00Z",
+      "source": "state_warn",
+      "source_url": "https://data.texas.gov/d/8w53-c4f6",
+      "type": "layoff",
+      "company": {
+        "name": "First Student (DeSoto I.S.D.)",
+        "ticker": null,
+        "industry": null,
+        "sector": "Logistics",
+        "hq_region": "TX",
+        "size_band": "unknown"
+      },
+      "magnitude": 74.0,
+      "unit": "people",
+      "raw_text": "First Student (DeSoto I.S.D.) filed a WARN notice for 74 jobs in De Soto, TX.",
+      "tags": [
+        "layoff",
+        "warn",
+        "tx",
+        "logistics"
+      ],
+      "extras": {
+        "state": "TX",
+        "city": "De Soto",
+        "warn": true
+      }
+    },
+    {
+      "id": "c734acc6a515ffe9",
+      "ts": "2026-06-12T00:00:00Z",
+      "source": "state_warn",
+      "source_url": "https://data.texas.gov/d/8w53-c4f6",
+      "type": "layoff",
+      "company": {
+        "name": "SAKS GLOBAL (Neiman Marcus)",
+        "ticker": null,
+        "industry": null,
+        "sector": "Retail",
+        "hq_region": "TX",
+        "size_band": "unknown"
+      },
+      "magnitude": 67.0,
+      "unit": "people",
+      "raw_text": "SAKS GLOBAL (Neiman Marcus) filed a WARN notice for 67 jobs in Dallas, TX.",
+      "tags": [
+        "layoff",
+        "warn",
+        "tx",
+        "retail"
+      ],
+      "extras": {
+        "state": "TX",
+        "city": "Dallas",
+        "warn": true
+      }
+    },
+    {
+      "id": "b0b0599906d6ecdd",
+      "ts": "2026-06-09T00:00:00Z",
+      "source": "state_warn",
+      "source_url": "https://data.texas.gov/d/8w53-c4f6",
+      "type": "layoff",
+      "company": {
+        "name": "Remington Lodging and Hospitality, LLC (Hilton Houston NASA Clear Lake)",
+        "ticker": null,
+        "industry": null,
+        "sector": "Hospitality",
+        "hq_region": "TX",
+        "size_band": "unknown"
+      },
+      "magnitude": 65.0,
+      "unit": "people",
+      "raw_text": "Remington Lodging and Hospitality, LLC (Hilton Houston NASA Clear Lake) filed a WARN notice for 65 jobs in Houston, TX.",
+      "tags": [
+        "layoff",
+        "warn",
+        "tx",
+        "hospitality"
+      ],
+      "extras": {
+        "state": "TX",
+        "city": "Houston",
+        "warn": true
+      }
+    },
+    {
+      "id": "b6ea984414388112",
+      "ts": "2026-06-08T00:00:00Z",
+      "source": "state_warn",
+      "source_url": "https://data.texas.gov/d/8w53-c4f6",
+      "type": "layoff",
+      "company": {
+        "name": "Alan Ritchey Incorporated",
+        "ticker": null,
+        "industry": null,
+        "sector": "Logistics",
+        "hq_region": "TX",
+        "size_band": "unknown"
+      },
+      "magnitude": 232.0,
+      "unit": "people",
+      "raw_text": "Alan Ritchey Incorporated filed a WARN notice for 232 jobs in Irving, TX.",
+      "tags": [
+        "layoff",
+        "warn",
+        "tx",
+        "logistics"
+      ],
+      "extras": {
+        "state": "TX",
+        "city": "Irving",
+        "warn": true
+      }
+    },
+    {
+      "id": "1fc5df7d591417dd",
+      "ts": "2026-06-08T00:00:00Z",
+      "source": "state_warn",
+      "source_url": "https://data.texas.gov/d/8w53-c4f6",
+      "type": "layoff",
+      "company": {
+        "name": "El Paso Independent School District",
+        "ticker": null,
+        "industry": null,
+        "sector": "Education",
+        "hq_region": "TX",
+        "size_band": "unknown"
+      },
+      "magnitude": 250.0,
+      "unit": "people",
+      "raw_text": "El Paso Independent School District filed a WARN notice for 250 jobs in El Paso, TX.",
+      "tags": [
+        "layoff",
+        "warn",
+        "tx",
+        "education"
+      ],
+      "extras": {
+        "state": "TX",
+        "city": "El Paso",
+        "warn": true
+      }
     }
   ],
   "sector_matrix": {
-    "generated_at": "2026-10-14T21:21:55.708981Z",
+    "generated_at": "2026-10-15T03:42:42.749171Z",
     "cells": [
       {
         "sector": "Technology",
@@ -2804,11 +2820,11 @@
       {
         "sector": "Technology",
         "signal_type": "posting",
-        "count_7d": 1407,
-        "count_30d": 2232,
+        "count_7d": 796,
+        "count_30d": 2228,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 38.83
+        "z_score": 12.11
       },
       {
         "sector": "Technology",
@@ -2849,20 +2865,20 @@
       {
         "sector": "Finance",
         "signal_type": "posting",
-        "count_7d": 326,
-        "count_30d": 442,
+        "count_7d": 328,
+        "count_30d": 443,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 21.95
+        "z_score": 22.09
       },
       {
         "sector": "Finance",
         "signal_type": "exec_move",
         "count_7d": 2,
-        "count_30d": 6,
+        "count_30d": 4,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 0.51
+        "z_score": 1.07
       },
       {
         "sector": "Finance",
@@ -2886,28 +2902,28 @@
         "sector": "Healthcare",
         "signal_type": "layoff",
         "count_7d": 0,
-        "count_30d": 3,
+        "count_30d": 0,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": -0.7
+        "z_score": null
       },
       {
         "sector": "Healthcare",
         "signal_type": "posting",
-        "count_7d": 28,
-        "count_30d": 134,
+        "count_7d": 29,
+        "count_30d": 135,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": -0.58
+        "z_score": -0.45
       },
       {
         "sector": "Healthcare",
         "signal_type": "exec_move",
         "count_7d": 2,
-        "count_30d": 3,
+        "count_30d": 4,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 1.3
+        "z_score": 1.07
       },
       {
         "sector": "Healthcare",
@@ -3020,11 +3036,11 @@
       {
         "sector": "Retail",
         "signal_type": "layoff",
-        "count_7d": 6,
-        "count_30d": 6,
-        "magnitude_7d": 6000.0,
+        "count_7d": 0,
+        "count_30d": 0,
+        "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 3.89
+        "z_score": null
       },
       {
         "sector": "Retail",
@@ -3065,20 +3081,20 @@
       {
         "sector": "Media",
         "signal_type": "layoff",
-        "count_7d": 2,
-        "count_30d": 2,
-        "magnitude_7d": 1000.0,
+        "count_7d": 0,
+        "count_30d": 0,
+        "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 1.53
+        "z_score": null
       },
       {
         "sector": "Media",
         "signal_type": "posting",
-        "count_7d": 158,
-        "count_30d": 186,
+        "count_7d": 160,
+        "count_30d": 188,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 17.4
+        "z_score": 17.53
       },
       {
         "sector": "Media",
@@ -3335,205 +3351,15 @@
     ]
   },
   "layoff_pulse": {
-    "events_7d": 10,
-    "events_30d": 15,
+    "events_7d": 0,
+    "events_30d": 0,
     "events_prev_30d": 0,
-    "companies_30d": 11,
-    "disclosed_jobs_30d": 7000,
-    "disclosed_events_30d": 5,
+    "companies_30d": 0,
+    "disclosed_jobs_30d": null,
+    "disclosed_events_30d": 0,
     "warn_events_30d": 0,
     "warn_events_total": 50,
-    "top_events": [
-      {
-        "id": "2546466c0c8059c3",
-        "ts": "2026-10-13T01:55:46Z",
-        "source": "news_layoffs",
-        "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPcmtXYWUxY2lpcGpRNnFOS3JFMlpxQ3dGSXQ3SmxhREw0TkRTOUZYVkQ4V0VPRXd6ajU2amsyZE1VSzY3bGk4UmhyRE5reW9DTmUxaUpZZEFUN2dRSVNrRGJfTFZhN0NWUm1pemxqQVROVkZNNFUwOWowc1EwbGZIN0VsTTU3U2c?oc=5",
-        "type": "layoff",
-        "company": {
-          "name": "Kroger",
-          "ticker": null,
-          "industry": null,
-          "sector": "Retail",
-          "hq_region": null,
-          "size_band": "unknown"
-        },
-        "magnitude": 3000.0,
-        "unit": "people",
-        "raw_text": "Kroger to cut 3K corporate jobs over the next 3 years",
-        "tags": [
-          "layoff",
-          "retail"
-        ],
-        "extras": {}
-      },
-      {
-        "id": "0568844458971425",
-        "ts": "2026-10-09T14:30:13Z",
-        "source": "news_layoffs",
-        "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRko1djdTWmx4cmh6bVpqNlB2Rko4VHk1SkxWWDdCUkZlLW1Sb09FempKc0NHZl9EYUZpTHVKZ0pfdmlVLUluRE9jcjhzbFQxOHhNOEVCSmFxd211MFdUNnQzTElGWWNWc0ctTk9jNGZ5SU05dVp5Vlh0ZnJ6QnlnZEtpZVdQdFpwMWU0dzdFWDRHR0N2bjkwSXNSWQ?oc=5",
-        "type": "layoff",
-        "company": {
-          "name": "Amazon Reportedly",
-          "ticker": null,
-          "industry": null,
-          "sector": "Retail",
-          "hq_region": null,
-          "size_band": "unknown"
-        },
-        "magnitude": 1000.0,
-        "unit": "people",
-        "raw_text": "Amazon Reportedly Cuts Fewer Than 1,000 Jobs Across US, India and UK As Fresh Layoffs Hit Retail, Customer Service and Engineering Teams",
-        "tags": [
-          "layoff",
-          "retail"
-        ],
-        "extras": {}
-      },
-      {
-        "id": "01341684a5e6985b",
-        "ts": "2026-10-14T13:27:41Z",
-        "source": "news_layoffs",
-        "source_url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNTXZHNk9QM1AyajZuM0taT3dZRUxsVnBPTFowalVYa0hHUzRyMGlCR3hOendmNXVBNjQ1WGhjSUtDWUZSTWFySkdoWjh5X21wZmFrNTVjZV9wWUFVWWlZR2JXNmVLYVZkc3NsRkZBNHZldkR2Vko3dU9odDFER29JTFllV2RZUzVFX1c4ZVRmc01aRnJoYVlITTZrUkhpNnJtTXV6ekVWMElmWnVhVnE2MkZxYVRDcVdtbXhMeEtObFVUWjhBWHJKQXhqZENycWRhZ0pPdGVsTkx0VVhl0gHiAUFVX3lxTFBuWlFPNTZFWGNkdG9rbGptNi10VlQ2YUhYLW9wOVAzVFJuRDBieFAtN2dQQXc0NkllQTNqWVlkeWEtRDdIc0F6T09NMUk3V0ZBTjVjQUN0SDFmdVIwVDZjV2FVNkpZanRnUDVERW9JaE03bW9pdnZ2cnUwcTZyVVZ2akh0SHJwSDQyTG16U2FZdVpRSGxfcEVpN29pZnJLSTdieXFZcGxmamlaNnp6NGpIMWl4TllNRXQ2dmFnRkxpRWtTb0ZEeUJsNXJzRU5WT2tVLVdiRUNnbFM4SlNpY2pob0E?oc=5",
-        "type": "layoff",
-        "company": {
-          "name": "Netflix",
-          "ticker": null,
-          "industry": null,
-          "sector": "Media",
-          "hq_region": null,
-          "size_band": "unknown"
-        },
-        "magnitude": 1000.0,
-        "unit": "people",
-        "raw_text": "Netflix cuts 1,000 jobs in biggest layoff round since 2022, targeting tech, legal and HR teams",
-        "tags": [
-          "layoff",
-          "media"
-        ],
-        "extras": {}
-      },
-      {
-        "id": "a8b74bfc67c395db",
-        "ts": "2026-10-08T08:54:00Z",
-        "source": "news_layoffs",
-        "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPMTItaTRTVWpOWHptYjlPLUp5U0UwRkZtazhFVUhSUzYxMVlfNkVmUUJRcVZUMHMyVWhNb0w4MEZPSjIwaUM0YjNjajVnYkVBbDI2cHpuZTNzRU9mLTR0YVd6Uy1nNTR4MnYwUEFCR0UtS28wUm45NlVCTmRFVTE0YkZxM1N2S1M3aG4yOXk3bTFwSDBkSEw2SDM0QnNaN0s5b3hnTERqU21RRDF4SmF3X1FDV3Q1TlBIenfSAb8BQVVfeXFMTjR3VDZkZmpYb19ReFpkMkhhVVZOVHh2UnR6cWNUQWpicDhmSUpSOVZ0bS1mMmt0RGEtS3hySlQ1ZTJGWW9FRXBUb212RnRKczZ3SWRmVEtpUEtNdVljWkhMRHVqN3JjVWVfNUtCQUJfbnhIblpsM1oySFNLZ05Pcks3ZnptUHV6ZDBqQk53a1ljRUV3NVlTaDF1NlJxRGo3NGNqaWh2ZXBXQURsQ0VHN1BsSWJNMXRiUnFOdjhmSmM?oc=5",
-        "type": "layoff",
-        "company": {
-          "name": "Amazon",
-          "ticker": null,
-          "industry": null,
-          "sector": "Retail",
-          "hq_region": null,
-          "size_band": "unknown"
-        },
-        "magnitude": 1000.0,
-        "unit": "people",
-        "raw_text": "Amazon to cut nearly 1,000 white-collar jobs across stores division and other units: report",
-        "tags": [
-          "layoff",
-          "retail"
-        ],
-        "extras": {}
-      },
-      {
-        "id": "f561564f905b740f",
-        "ts": "2026-10-08T12:02:49Z",
-        "source": "news_layoffs",
-        "source_url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxPRzd5MnBrWHFvelJqOWZaU2U2Q1AxUTVFNEpiYmhrOWtYOEVwc3hVU202MnhmYVJIb3AwQl9pWUVicjN1QkhLdUlXMHlVQmhmamZCNVVqZ0tPN3dlVUFEQTVKRFlWMFFtTVFlb1MxQVZ2bHRxOFBsQkk2dzFkSFZyU3FFUnlILVlaV2R4Q2hOOWcxY2pGNWZScWg5b3k2VTVRSVQzVl95VkFLVFFKaDB0NURuLVFFclZVOWpQNV82TjFLd29pZjc5Z0NXXzlpQ25OcFhmOW1CMVR1MHVEQWdjZ1B3WGdFLURTVHhUeXJlWjU2RzdiNXdzVHMxaDl6dVltZ2EwbW1DLTVwZTRZa05YY0lBc2o?oc=5",
-        "type": "layoff",
-        "company": {
-          "name": "Amazon Reportedly",
-          "ticker": null,
-          "industry": null,
-          "sector": "Retail",
-          "hq_region": null,
-          "size_band": "unknown"
-        },
-        "magnitude": 1000.0,
-        "unit": "people",
-        "raw_text": "Amazon Reportedly Cuts Fewer Than 1,000 Jobs Across US, India and UK As Fresh Layoffs Hit Retail, Custome",
-        "tags": [
-          "layoff",
-          "retail"
-        ],
-        "extras": {}
-      },
-      {
-        "id": "3d16b7e9ccaa72b9",
-        "ts": "2026-10-14T16:51:43Z",
-        "source": "news_layoffs",
-        "source_url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9WQWZQRXVGU2FIdVJUekVfanFwRmVqaHJPNDdLTFk3bWhSWmJfc0VJNmF4REYwcUQzUkZCb0x1M0NEZVBfTXp4b0p6Yw?oc=5",
-        "type": "layoff",
-        "company": {
-          "name": "Funcom",
-          "ticker": null,
-          "industry": null,
-          "sector": "Other",
-          "hq_region": null,
-          "size_band": "unknown"
-        },
-        "magnitude": null,
-        "unit": null,
-        "raw_text": "Funcom announces staff layoffs as the company shifts its focus exclusively to Conan Exiles and Dune: Awakening",
-        "tags": [
-          "layoff",
-          "other"
-        ],
-        "extras": {}
-      },
-      {
-        "id": "704de82342b6f02a",
-        "ts": "2026-10-13T03:23:07Z",
-        "source": "news_layoffs",
-        "source_url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOYUFuWUZERFlnbGprNEo5eGF2cGhwTmxRSC1icU13MW9FeXczN05ERy1IU2Jtb05GQlo4NzVjazlHa2ZlWTBxZkF0SUdNY2k5R21XZXl3VXN6ODlnaThucjIyanNibEhkemRUOEtjOTJEWDZfYU1CX1FHa3NqTlFHVmt1R21IVWZ6QTkzbjhGcm9jQjRVSVE4a0tybUV6aEo1Y3BTdXU0VlVrb1otRllpd3hQZ1ZVNEN4cnI0ZkxVRVBqTVAtUXk5bW1HSEhIRU1XaVZF?oc=5",
-        "type": "layoff",
-        "company": {
-          "name": "Amazon",
-          "ticker": null,
-          "industry": null,
-          "sector": "Retail",
-          "hq_region": null,
-          "size_band": "unknown"
-        },
-        "magnitude": null,
-        "unit": null,
-        "raw_text": "Amazon announces fresh job cuts affecting retail operations in the US, UK, and India",
-        "tags": [
-          "layoff",
-          "retail"
-        ],
-        "extras": {}
-      },
-      {
-        "id": "6c7855d39c1e3885",
-        "ts": "2026-10-11T23:00:03Z",
-        "source": "news_layoffs",
-        "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPc2RfZEJTaHd6UUg1c2Y4LUlsby02UWQxaGMyQ3l3NG5zMU5OeHpLajRMVWF0dUNhVXl0MGNVdnBoNTNWUlgyRThDWHRTUm41c0NjS3pwWEtUbDE1cEVEeGNmcFVKV1BtUkM3WkdGbW5ZYldjVTc2M2ZTUC1lenNCY1VfWExDVlJWeGpjMGdTbmcyekk3aVNLX0sxUDdob1k?oc=5",
-        "type": "layoff",
-        "company": {
-          "name": "Amazon",
-          "ticker": null,
-          "industry": null,
-          "sector": "Retail",
-          "hq_region": null,
-          "size_band": "unknown"
-        },
-        "magnitude": null,
-        "unit": null,
-        "raw_text": "Amazon announces new job cuts in its retail division",
-        "tags": [
-          "layoff",
-          "retail"
-        ],
-        "extras": {}
-      }
-    ],
-    "by_sector_30d": {
-      "Retail": 6,
-      "Other": 4,
-      "Healthcare": 3,
-      "Media": 2
-    }
+    "top_events": [],
+    "by_sector_30d": {}
   }
 }
