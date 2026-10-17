@@ -1,17 +1,17 @@
 {
   "stream": "layoffs",
-  "generated_at": "2026-10-16T20:39:05.533693+00:00",
-  "total": 73,
-  "showing": 73,
+  "generated_at": "2026-10-17T03:29:48.723580+00:00",
+  "total": 71,
+  "showing": 71,
   "source_counts": {
-    "state_warn": 49,
-    "news_layoffs": 20,
+    "state_warn": 46,
+    "news_layoffs": 21,
     "layoffs_fyi": 4
   },
   "sector_counts": {
-    "Other": 32,
-    "Retail": 8,
-    "Hospitality": 8,
+    "Other": 30,
+    "Retail": 9,
+    "Hospitality": 7,
     "Logistics": 6,
     "Media": 4,
     "Healthcare": 4,
@@ -23,6 +23,29 @@
     "Manufacturing": 1
   },
   "events": [
+    {
+      "id": "462dd0bdaeaf53ee",
+      "ts": "2026-10-16T23:48:54Z",
+      "source": "news_layoffs",
+      "source_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNZnZuSjVHRm8yWXhjbVdlSEtwTTQyZVl3a1JmVDFJZnpDSXVFcDd6WUxsbk1Oci03Rml2S2N0UHRZQS1nZHFvdXJuemFuY044QTVVU1dyZkdwR0g3dlI0ZWZKUlQzR0tLalFVRDl0RHRrQ25YVENXTC1TdTM2dUFHV3dVWVl6eGw5Umc?oc=5",
+      "type": "layoff",
+      "company": {
+        "name": "Kroger",
+        "ticker": null,
+        "industry": null,
+        "sector": "Retail",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Kroger announces layoffs of corporate workers",
+      "tags": [
+        "layoff",
+        "retail"
+      ],
+      "extras": {}
+    },
     {
       "id": "8821ca350d253ba8",
       "ts": "2026-10-16T19:54:00Z",
@@ -39,7 +62,7 @@
       },
       "magnitude": null,
       "unit": null,
-      "raw_text": "DispatchHealth reduces ER alternative offering, cuts jobs",
+      "raw_text": "DispatchHealth reduces ED alternative offering, cuts jobs",
       "tags": [
         "layoff",
         "healthcare"
@@ -136,29 +159,6 @@
       "tags": [
         "layoff",
         "other"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "462dd0bdaeaf53ee",
-      "ts": "2026-10-14T21:56:13Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNZnZuSjVHRm8yWXhjbVdlSEtwTTQyZVl3a1JmVDFJZnpDSXVFcDd6WUxsbk1Oci03Rml2S2N0UHRZQS1nZHFvdXJuemFuY044QTVVU1dyZkdwR0g3dlI0ZWZKUlQzR0tLalFVRDl0RHRrQ25YVENXTC1TdTM2dUFHV3dVWVl6eGw5Umc?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "Kroger",
-        "ticker": null,
-        "industry": null,
-        "sector": "Retail",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Kroger announces layoffs of corporate workers",
-      "tags": [
-        "layoff",
-        "retail"
       ],
       "extras": {}
     },
@@ -340,6 +340,29 @@
       "magnitude": 1000.0,
       "unit": "people",
       "raw_text": "Amazon to cut nearly 1,000 white-collar jobs across stores division and other units: report",
+      "tags": [
+        "layoff",
+        "retail"
+      ],
+      "extras": {}
+    },
+    {
+      "id": "f561564f905b740f",
+      "ts": "2026-10-08T07:00:00Z",
+      "source": "news_layoffs",
+      "source_url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxPRzd5MnBrWHFvelJqOWZaU2U2Q1AxUTVFNEpiYmhrOWtYOEVwc3hVU202MnhmYVJIb3AwQl9pWUVicjN1QkhLdUlXMHlVQmhmamZCNVVqZ0tPN3dlVUFEQTVKRFlWMFFtTVFlb1MxQVZ2bHRxOFBsQkk2dzFkSFZyU3FFUnlILVlaV2R4Q2hOOWcxY2pGNWZScWg5b3k2VTVRSVQzVl95VkFLVFFKaDB0NURuLVFFclZVOWpQNV82TjFLd29pZjc5Z0NXXzlpQ25OcFhmOW1CMVR1MHVEQWdjZ1B3WGdFLURTVHhUeXJlWjU2RzdiNXdzVHMxaDl6dVltZ2EwbW1DLTVwZTRZa05YY0lBc2o?oc=5",
+      "type": "layoff",
+      "company": {
+        "name": "Amazon Reportedly",
+        "ticker": null,
+        "industry": null,
+        "sector": "Retail",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": 1000.0,
+      "unit": "people",
+      "raw_text": "Amazon Reportedly Cuts Fewer Than 1,000 Jobs Across US, India and UK As Fresh Layoffs Hit Retail, Custome",
       "tags": [
         "layoff",
         "retail"
@@ -1908,93 +1931,6 @@
       "extras": {
         "state": "TX",
         "city": "Paris",
-        "warn": true
-      }
-    },
-    {
-      "id": "236c4938d199ad78",
-      "ts": "2026-02-19T00:00:00Z",
-      "source": "state_warn",
-      "source_url": "https://data.texas.gov/d/8w53-c4f6",
-      "type": "layoff",
-      "company": {
-        "name": "Main Street Sports Group, LLC.",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": "TX",
-        "size_band": "unknown"
-      },
-      "magnitude": 18.0,
-      "unit": "people",
-      "raw_text": "Main Street Sports Group, LLC. filed a WARN notice for 18 jobs in The Woodlands, TX.",
-      "tags": [
-        "layoff",
-        "warn",
-        "tx",
-        "other"
-      ],
-      "extras": {
-        "state": "TX",
-        "city": "The Woodlands",
-        "warn": true
-      }
-    },
-    {
-      "id": "7917eb0263548227",
-      "ts": "2026-02-19T00:00:00Z",
-      "source": "state_warn",
-      "source_url": "https://data.texas.gov/d/8w53-c4f6",
-      "type": "layoff",
-      "company": {
-        "name": "Bluum USA Inc.",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": "TX",
-        "size_band": "unknown"
-      },
-      "magnitude": 60.0,
-      "unit": "people",
-      "raw_text": "Bluum USA Inc. filed a WARN notice for 60 jobs in Irving, TX.",
-      "tags": [
-        "layoff",
-        "warn",
-        "tx",
-        "other"
-      ],
-      "extras": {
-        "state": "TX",
-        "city": "Irving",
-        "warn": true
-      }
-    },
-    {
-      "id": "9ff0c66c84126ca2",
-      "ts": "2026-02-19T00:00:00Z",
-      "source": "state_warn",
-      "source_url": "https://data.texas.gov/d/8w53-c4f6",
-      "type": "layoff",
-      "company": {
-        "name": "Stockyards Hotel and H3 Ranch",
-        "ticker": null,
-        "industry": null,
-        "sector": "Hospitality",
-        "hq_region": "TX",
-        "size_band": "unknown"
-      },
-      "magnitude": 120.0,
-      "unit": "people",
-      "raw_text": "Stockyards Hotel and H3 Ranch filed a WARN notice for 120 jobs in Fort Worth, TX.",
-      "tags": [
-        "layoff",
-        "warn",
-        "tx",
-        "hospitality"
-      ],
-      "extras": {
-        "state": "TX",
-        "city": "Fort Worth",
         "warn": true
       }
     }
