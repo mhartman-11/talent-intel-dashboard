@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T14:18:36.541113+00:00",
+  "generated_at": "2026-10-21T16:49:23.765858+00:00",
   "sources": [
     {
       "source": "greenhouse",
@@ -7,9 +7,9 @@
       "url": "https://boards-api.greenhouse.io",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-10-21T14:17:40.948602Z",
-      "last_attempted": "2026-10-21T14:17:40.948602Z",
-      "record_count": 3619,
+      "last_ok": "2026-10-21T16:48:29.516087Z",
+      "last_attempted": "2026-10-21T16:48:29.516087Z",
+      "record_count": 3613,
       "ok": true,
       "errors": [
         "DoorDash (doordash): GET https://boards-api.greenhouse.io/v1/boards/doordash/jobs failed: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/doordash/jobs?content=true'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
@@ -29,8 +29,8 @@
       "url": "https://api.lever.co/v0/postings",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-10-21T14:18:09.259103Z",
-      "last_attempted": "2026-10-21T14:18:09.259103Z",
+      "last_ok": "2026-10-21T16:48:57.210993Z",
+      "last_attempted": "2026-10-21T16:48:57.210993Z",
       "record_count": 79,
       "ok": true,
       "errors": [
@@ -46,9 +46,9 @@
       "url": "https://api.ashbyhq.com/posting-api",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-10-21T14:18:24.919231Z",
-      "last_attempted": "2026-10-21T14:18:24.919231Z",
-      "record_count": 297,
+      "last_ok": "2026-10-21T16:49:12.016565Z",
+      "last_attempted": "2026-10-21T16:49:12.016565Z",
+      "record_count": 296,
       "ok": true,
       "errors": [
         "Replicate (replicate): GET https://api.ashbyhq.com/posting-api/job-board/replicate failed: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/replicate'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
@@ -60,8 +60,8 @@
       "url": "https://techcrunch.com/tag/layoffs/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-10-21T14:18:27.570237Z",
-      "last_attempted": "2026-10-21T14:18:27.570237Z",
+      "last_ok": "2026-10-21T16:49:14.749377Z",
+      "last_attempted": "2026-10-21T16:49:14.749377Z",
       "record_count": 4,
       "ok": true,
       "errors": []
@@ -72,9 +72,9 @@
       "url": "https://news.google.com/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-10-21T14:18:27.974122Z",
-      "last_attempted": "2026-10-21T14:18:27.974122Z",
-      "record_count": 48,
+      "last_ok": "2026-10-21T16:49:15.084950Z",
+      "last_attempted": "2026-10-21T16:49:15.084950Z",
+      "record_count": 49,
       "ok": true,
       "errors": []
     },
@@ -84,8 +84,8 @@
       "url": "https://data.texas.gov/d/8w53-c4f6",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-10-21T14:18:32.120958Z",
-      "last_attempted": "2026-10-21T14:18:32.120958Z",
+      "last_ok": "2026-10-21T16:49:18.563917Z",
+      "last_attempted": "2026-10-21T16:49:18.563917Z",
       "record_count": 46,
       "ok": true,
       "errors": []
@@ -96,8 +96,8 @@
       "url": "https://techcrunch.com/category/venture/feed/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-10-21T14:18:33.472871Z",
-      "last_attempted": "2026-10-21T14:18:33.472871Z",
+      "last_ok": "2026-10-21T16:49:21.221647Z",
+      "last_attempted": "2026-10-21T16:49:21.221647Z",
       "record_count": 7,
       "ok": true,
       "errors": []
@@ -108,9 +108,9 @@
       "url": "https://efts.sec.gov/LATEST/search-index",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-10-21T14:18:34.189380Z",
-      "last_attempted": "2026-10-21T14:18:34.189380Z",
-      "record_count": 109,
+      "last_ok": "2026-10-21T16:49:21.732788Z",
+      "last_attempted": "2026-10-21T16:49:21.732788Z",
+      "record_count": 108,
       "ok": true,
       "errors": []
     },
@@ -120,13 +120,11 @@
       "url": "https://www.bls.gov/oes/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": null,
-      "last_attempted": "2026-10-21T14:18:34.971096Z",
-      "record_count": 0,
-      "ok": false,
-      "errors": [
-        "BLS API fetch: Server error '503 Service Unavailable' for url 'https://api.bls.gov/publicAPI/v2/timeseries/data/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503"
-      ]
+      "last_ok": "2026-10-21T16:49:22.804387Z",
+      "last_attempted": "2026-10-21T16:49:22.804387Z",
+      "record_count": 24,
+      "ok": true,
+      "errors": []
     },
     {
       "source": "comp",
@@ -134,13 +132,11 @@
       "url": "https://www.bls.gov/ces/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": null,
-      "last_attempted": "2026-10-21T14:18:35.396265Z",
-      "record_count": 0,
-      "ok": false,
-      "errors": [
-        "BLS comp API: Server error '503 Service Unavailable' for url 'https://api.bls.gov/publicAPI/v1/timeseries/data/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503"
-      ]
+      "last_ok": "2026-10-21T16:49:23.274343Z",
+      "last_attempted": "2026-10-21T16:49:23.274343Z",
+      "record_count": 48,
+      "ok": true,
+      "errors": []
     },
     {
       "source": "fred",
@@ -148,13 +144,11 @@
       "url": "https://www.bls.gov/developers/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": null,
-      "last_attempted": "2026-10-21T14:18:35.850711Z",
-      "record_count": 0,
-      "ok": false,
-      "errors": [
-        "BLS API: Server error '503 Service Unavailable' for url 'https://api.bls.gov/publicAPI/v1/timeseries/data/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503"
-      ]
+      "last_ok": "2026-10-21T16:49:23.511275Z",
+      "last_attempted": "2026-10-21T16:49:23.511275Z",
+      "record_count": 30,
+      "ok": true,
+      "errors": []
     }
   ]
 }
