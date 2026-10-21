@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T11:22:21.757992+00:00",
+  "generated_at": "2026-10-21T14:18:36.541113+00:00",
   "sources": [
     {
       "source": "greenhouse",
@@ -7,9 +7,9 @@
       "url": "https://boards-api.greenhouse.io",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-10-21T11:21:33.031368Z",
-      "last_attempted": "2026-10-21T11:21:33.031368Z",
-      "record_count": 3617,
+      "last_ok": "2026-10-21T14:17:40.948602Z",
+      "last_attempted": "2026-10-21T14:17:40.948602Z",
+      "record_count": 3619,
       "ok": true,
       "errors": [
         "DoorDash (doordash): GET https://boards-api.greenhouse.io/v1/boards/doordash/jobs failed: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/doordash/jobs?content=true'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
@@ -29,9 +29,9 @@
       "url": "https://api.lever.co/v0/postings",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-10-21T11:22:00.352889Z",
-      "last_attempted": "2026-10-21T11:22:00.352889Z",
-      "record_count": 78,
+      "last_ok": "2026-10-21T14:18:09.259103Z",
+      "last_attempted": "2026-10-21T14:18:09.259103Z",
+      "record_count": 79,
       "ok": true,
       "errors": [
         "Scale AI (scaleai): GET https://api.lever.co/v0/postings/scaleai failed: Client error '404 Not Found' for url 'https://api.lever.co/v0/postings/scaleai?mode=json'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
@@ -46,8 +46,8 @@
       "url": "https://api.ashbyhq.com/posting-api",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-10-21T11:22:11.903062Z",
-      "last_attempted": "2026-10-21T11:22:11.903062Z",
+      "last_ok": "2026-10-21T14:18:24.919231Z",
+      "last_attempted": "2026-10-21T14:18:24.919231Z",
       "record_count": 297,
       "ok": true,
       "errors": [
@@ -60,8 +60,8 @@
       "url": "https://techcrunch.com/tag/layoffs/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-10-21T11:22:14.537455Z",
-      "last_attempted": "2026-10-21T11:22:14.537455Z",
+      "last_ok": "2026-10-21T14:18:27.570237Z",
+      "last_attempted": "2026-10-21T14:18:27.570237Z",
       "record_count": 4,
       "ok": true,
       "errors": []
@@ -72,8 +72,8 @@
       "url": "https://news.google.com/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-10-21T11:22:14.992881Z",
-      "last_attempted": "2026-10-21T11:22:14.992881Z",
+      "last_ok": "2026-10-21T14:18:27.974122Z",
+      "last_attempted": "2026-10-21T14:18:27.974122Z",
       "record_count": 48,
       "ok": true,
       "errors": []
@@ -84,8 +84,8 @@
       "url": "https://data.texas.gov/d/8w53-c4f6",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-10-21T11:22:18.072098Z",
-      "last_attempted": "2026-10-21T11:22:18.072098Z",
+      "last_ok": "2026-10-21T14:18:32.120958Z",
+      "last_attempted": "2026-10-21T14:18:32.120958Z",
       "record_count": 46,
       "ok": true,
       "errors": []
@@ -96,8 +96,8 @@
       "url": "https://techcrunch.com/category/venture/feed/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-10-21T11:22:19.417157Z",
-      "last_attempted": "2026-10-21T11:22:19.417157Z",
+      "last_ok": "2026-10-21T14:18:33.472871Z",
+      "last_attempted": "2026-10-21T14:18:33.472871Z",
       "record_count": 7,
       "ok": true,
       "errors": []
@@ -108,9 +108,9 @@
       "url": "https://efts.sec.gov/LATEST/search-index",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-10-21T11:22:19.854693Z",
-      "last_attempted": "2026-10-21T11:22:19.854693Z",
-      "record_count": 107,
+      "last_ok": "2026-10-21T14:18:34.189380Z",
+      "last_attempted": "2026-10-21T14:18:34.189380Z",
+      "record_count": 109,
       "ok": true,
       "errors": []
     },
@@ -120,11 +120,13 @@
       "url": "https://www.bls.gov/oes/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-10-21T11:22:20.932199Z",
-      "last_attempted": "2026-10-21T11:22:20.932199Z",
-      "record_count": 24,
-      "ok": true,
-      "errors": []
+      "last_ok": null,
+      "last_attempted": "2026-10-21T14:18:34.971096Z",
+      "record_count": 0,
+      "ok": false,
+      "errors": [
+        "BLS API fetch: Server error '503 Service Unavailable' for url 'https://api.bls.gov/publicAPI/v2/timeseries/data/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503"
+      ]
     },
     {
       "source": "comp",
@@ -132,11 +134,13 @@
       "url": "https://www.bls.gov/ces/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-10-21T11:22:21.283049Z",
-      "last_attempted": "2026-10-21T11:22:21.283049Z",
-      "record_count": 48,
-      "ok": true,
-      "errors": []
+      "last_ok": null,
+      "last_attempted": "2026-10-21T14:18:35.396265Z",
+      "record_count": 0,
+      "ok": false,
+      "errors": [
+        "BLS comp API: Server error '503 Service Unavailable' for url 'https://api.bls.gov/publicAPI/v1/timeseries/data/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503"
+      ]
     },
     {
       "source": "fred",
@@ -144,11 +148,13 @@
       "url": "https://www.bls.gov/developers/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-10-21T11:22:21.518690Z",
-      "last_attempted": "2026-10-21T11:22:21.518690Z",
-      "record_count": 30,
-      "ok": true,
-      "errors": []
+      "last_ok": null,
+      "last_attempted": "2026-10-21T14:18:35.850711Z",
+      "record_count": 0,
+      "ok": false,
+      "errors": [
+        "BLS API: Server error '503 Service Unavailable' for url 'https://api.bls.gov/publicAPI/v1/timeseries/data/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503"
+      ]
     }
   ]
 }
