@@ -1,22 +1,22 @@
 {
   "stream": "layoffs",
-  "generated_at": "2026-10-23T16:41:14.572293+00:00",
-  "total": 80,
-  "showing": 80,
+  "generated_at": "2026-10-23T21:08:28.291487+00:00",
+  "total": 82,
+  "showing": 82,
   "source_counts": {
     "state_warn": 46,
-    "news_layoffs": 31,
+    "news_layoffs": 33,
     "layoffs_fyi": 3
   },
   "sector_counts": {
-    "Other": 34,
+    "Other": 35,
     "Retail": 11,
     "Hospitality": 7,
     "Logistics": 6,
-    "Finance": 5,
     "Technology": 4,
     "Media": 4,
-    "Healthcare": 2,
+    "Finance": 4,
+    "Healthcare": 4,
     "CPG": 2,
     "Education": 2,
     "Telecom": 2,
@@ -24,25 +24,49 @@
   },
   "events": [
     {
-      "id": "eb8aa2307058bbea",
-      "ts": "2026-10-23T08:01:19Z",
+      "id": "787006ef442e39bb",
+      "ts": "2026-10-23T14:27:03Z",
       "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNS1lJcEdfUUtlR0lFNzVpZWtrVzNfWWFQMWRrZ0VzZTRkUXhoWDUxRGZkN1NFRHNYY3BWYlo4MTFJb2FXSWxZRkk2bDVneGdSRHpxMkszbklwMzh2VEhiSGtlVFktUFN5RnJNd3lSTEo5dlc5UkJuYUp4Z0RLWUItUXhJb09JVmNET2t6SXlhODZneGtOUjZ3Y1dIbkRuVFVYVkhSRThrWmFob1pwdE5DZTdraEJMQUtzWFJ6bkd3MA?oc=5",
+      "source_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPcE1XNTJObTFFM28xRnE5M1BhMndoZmhVbjBkMzd0MFNWRW9zaEdCejh4OFFyM2d4TG5yWXlHRm9KbkU4Mk40R2dRRWZFUXBwalczYU9wVGpWX1h6eVhtU253ZTBySEY4NFRQT0JrSWcxNUdkVEJkWFBRQmx5V3EybmxmQ1VFazA1SlNicdIBlAFBVV95cUxQSng4b1VhT1RFbjNERFVTZC13d2lfLXg4bXNCYU8zcWlqak9wYzNSd3FaeFg1akNqU1Exc2h4czFnN3I5bndzTWNSX05adVdJUF9PdHBUeFhNUTJjcjUxVFdlMS0zNlBTNEFKVXh1a0lkSUx5UFk2MHJEZXMyYlA2VE5lUVBCeWcwVXkwY0lybWRBcGt2?oc=5",
       "type": "layoff",
       "company": {
-        "name": "Westpac",
+        "name": "Mass General Brigham",
         "ticker": null,
         "industry": null,
         "sector": "Other",
+        "hq_region": "MA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Mass General Brigham announces layoffs",
+      "tags": [
+        "layoff",
+        "other",
+        "MA"
+      ],
+      "extras": {}
+    },
+    {
+      "id": "7f6df96bd12700aa",
+      "ts": "2026-10-23T14:10:00Z",
+      "source": "news_layoffs",
+      "source_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQaHhhUWIxY3M0WFNFdzNpbjZWMEh0THVqWEJZT0VubmhBX1JfRWpQVWkyWVEzbmxHRGNBTWN1TUN1OC1ENkZIZFlsaWpKS0Z5WWZkN09lTEhNNkVwOGowckNxN19abVoyS3lwWnpvdGpnaTE4YnhVakQ1dXpwQW1RRUNn?oc=5",
+      "type": "layoff",
+      "company": {
+        "name": "American Express",
+        "ticker": null,
+        "industry": null,
+        "sector": "Finance",
         "hq_region": null,
         "size_band": "unknown"
       },
-      "magnitude": 140.0,
+      "magnitude": 3500.0,
       "unit": "people",
-      "raw_text": "Westpac cuts 140 jobs but insists AI is not behind the layoffs",
+      "raw_text": "American Express to Cut 3,500 Jobs",
       "tags": [
         "layoff",
-        "other"
+        "finance"
       ],
       "extras": {}
     },
@@ -63,29 +87,6 @@
       "magnitude": 1.0,
       "unit": "people",
       "raw_text": "Danske Bank announces third round of layoffs this year",
-      "tags": [
-        "layoff",
-        "finance"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "4a40f6b6a0b7c8f5",
-      "ts": "2026-10-22T18:06:47Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQNFJpVWw5SzRXdTB0RU1yN2J3Zk1KNjgxcTFYaWo3Tmp5ZEZ2d0lodGkxQU1fWktJaWJvNm9TTGU0U2xmQ1lJa3U3dlh3RDhFVWdOZFpBbVpNc2w3QzFtZ3FfRTZhR0oycXNQMkFNc3hRbzRKVEt1WmtRSEY5MGlOLXdjLXhSRklBWWNHcA?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "UK's Barclays",
-        "ticker": null,
-        "industry": null,
-        "sector": "Finance",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": 5000.0,
-      "unit": "people",
-      "raw_text": "UK's Barclays to Cut 5,000 Jobs by 2026 Despite Profit Rise",
       "tags": [
         "layoff",
         "finance"
@@ -116,10 +117,10 @@
       "extras": {}
     },
     {
-      "id": "456615b974740e31",
-      "ts": "2026-10-22T07:06:00Z",
+      "id": "b94b9092e63f9ee8",
+      "ts": "2026-10-22T08:51:41Z",
       "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOY0M5NjdCUG9YVkc4bHF6d3JVNFFHM0lDRHFMckE2UndYUG1pbXlxTS02MTkxamhZOW5uSVhuWWNhQUw3Q21ZUEoyM3NkSkROcUlJeVVkM2dndzBMWmpTakxYNmowdVhnTDdFTGUtb0R1U1Z2Z3lSLTc4dnlxNFF3RHNQbE90cVU2N1IxYUI0ekJmWjlncXlaeEJYTmJvVzV1akhOMmNEUmd3TGFhZE9OWFozOA?oc=5",
+      "source_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNLWpvc1N2TkZoa3VHS3RteE5YRW9Yc0R1UmpOWXNpV3MyMi02WjMyMTNiVWJoSi1jRjhFOUNEdm9Hcm10NkZCV3J4RllJUkZkU1Z2NHhlMEQxbUoyWlliaGR5a2ZvU0pPSFVKNzd2SWprODhndy00MzM0YnBEdWIySC16QVRhWW5sSjFrODVlWkVnWXNpZnZ2MnFGY3RfYkRpQm0yVGt0Umt6Z1pUejY2elMySDI5c0tTazZFX3lYdGdSV0R3TWxxYURGQ1BnSDDSAdQBQVVfeXFMTVFFTUwyMlYwRFdmRlI4ODYwcmhxVVB3ajBhS3JnZ2F0c3ZPMkNFOHhLYUQ2SlliU0ZFU21GRFluM1VvNERGRWNqQ3pPemJwbUJFbzlYbUFMM0pKbTBGVi1oNVZKbF9zQktrOFhCVUZoS1R4c0dJMlNwSVFUVktPUC1mSDVudDJvLWlWblY0eHNXMU5neThFTDUzNTNZNlAwOEpySXFoVkpRdkJha0xRUzhQNEROYTVPOV9qaW8zWnpGNXI2dHNxNjNMUTEyNzhRMHZYSG8?oc=5",
       "type": "layoff",
       "company": {
         "name": "Barclays",
@@ -131,7 +132,7 @@
       },
       "magnitude": 5000.0,
       "unit": "people",
-      "raw_text": "Barclays to cut 5,000 jobs as bank\u2019s bosses hail AI productivity advances",
+      "raw_text": "Barclays to cut 5,000 jobs as the bank expands AI use to reduce costs",
       "tags": [
         "layoff",
         "finance"
@@ -325,25 +326,26 @@
       "extras": {}
     },
     {
-      "id": "33888a1661ccef3f",
-      "ts": "2026-10-21T15:17:03Z",
+      "id": "90a287d2586c50fe",
+      "ts": "2026-10-21T16:40:29Z",
       "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5mamxmOG8yTklEZlJkTWRrbnB1UUMtdDJoSkVVTC1uWU54WFh0ZTk5QmlIdE11N2pMVjl6bzZMUk9VRW9qQXlYX055MTZpejRUT3RuVlVvU1A0VUtGeUk4bE1RZXNYNjgxWnBqMXpqS0lpZ9IBd0FVX3lxTE93TE9vNVVNZG9iUktxcEY3Z2dSc1VVbk43QVE5UFB1eFB2cGFWdEg3QmdoVUVROFVKbkdlcmlnMEFCbllBRjY1a0d1SWlJcU5SejZmOTVYNFBSSWtyTVZGSkl2TWtVRzlzTU9lbllGM2owU0RwMHVB?oc=5",
+      "source_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNX0dKaWw4MVRUYUIxc1prSUQ0Z3RqWXIweDAyVk5QODFUUWtjRXkyT3VLWEVmV2M4RzRXcXEwQUlqdnFwcGZBTmFoQkxYckVyT3k1amxiRGkzdnkxazdyeFJTQVVPWWNSZnNjS1VsV3BJU0I3eEVJY1p2c1c5Q0VsUw?oc=5",
       "type": "layoff",
       "company": {
         "name": "EBay",
         "ticker": null,
         "industry": null,
         "sector": "Retail",
-        "hq_region": null,
+        "hq_region": "CA",
         "size_band": "unknown"
       },
       "magnitude": null,
       "unit": null,
-      "raw_text": "EBay to lay off 9% of workforce in its second round of job cuts this year",
+      "raw_text": "EBay to cut 9% of its workforce in latest Bay Area tech layoffs",
       "tags": [
         "layoff",
-        "retail"
+        "retail",
+        "CA"
       ],
       "extras": {}
     },
@@ -371,6 +373,29 @@
       "extras": {}
     },
     {
+      "id": "23a2fdd3b03a01a8",
+      "ts": "2026-10-20T13:18:18Z",
+      "source": "news_layoffs",
+      "source_url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1QMy15UVhjX3o2Y0I5cFB5OXBIQlhBVzBRb29tekc4V2dRd0ZCV19xLWE5SFR4UGluOXYySW9mTmg0MTJkYmloM2dnSHRiZkY1T0RIVm8taTdqa0Y1dHF6WVlQYTZNeFozazY0T2JjTkdNZw?oc=5",
+      "type": "layoff",
+      "company": {
+        "name": "Lightspeed Commerce",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": 250.0,
+      "unit": "people",
+      "raw_text": "Lightspeed Commerce Cuts 250 Roles In October 2026 Restructuring",
+      "tags": [
+        "layoff",
+        "other"
+      ],
+      "extras": {}
+    },
+    {
       "id": "86d36b5593441e06",
       "ts": "2026-10-20T11:03:04Z",
       "source": "news_layoffs",
@@ -390,52 +415,6 @@
       "tags": [
         "layoff",
         "technology"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "dc01963ae19c9c85",
-      "ts": "2026-10-20T00:58:00Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOekgxUnJfZFhYcldoMTdpOGZ0Q1FtY3pUeXJ6ZEFQYjIwOF9SNlNrVENuTFBqZzBHamxqRmVzcXpoSG90STJ0UkQ5ZmFueUsxakJHWXFpNmptTGZVckU4N0dvbTdjcE53dEdUTDdBM2hqWnZUMzZ6S2oyanJ5cDJUQklEazNsUmZqcmdQSGNlR21DMTcz?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "NAB",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": 2500.0,
-      "unit": "people",
-      "raw_text": "NAB to cut 2,500 jobs in massive restructure",
-      "tags": [
-        "layoff",
-        "other"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "78b151322927a164",
-      "ts": "2026-10-19T21:39:00Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPV1NXdDBPdHE1QktYQVlGcFhraENxRlVHbEFSczlSS1RrLUtVcmJWOTZaN0Q3azVjbnowbzg3ZFpHTTZsY3hSNlRHQklyV2tfZldwMFJpVVNkdjRsYzRCV2FHQmo2WkdXOTVRTGI1NWlHaFcyeDdySUhIMGJveGtjY0JydWdNRThLaUFtOE1qdDlHV3RWNGgxYXdwWlkxTVY2anhJRHBzalB5VVhPYXZXMG1RYk5zVzZ0c0xnNQ?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "National Australia Bank",
-        "ticker": null,
-        "industry": null,
-        "sector": "Finance",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": 2500.0,
-      "unit": "people",
-      "raw_text": "National Australia Bank to cut 2,500 jobs in cost overhaul as credit growth slows",
-      "tags": [
-        "layoff",
-        "finance"
       ],
       "extras": {}
     },
@@ -482,6 +461,30 @@
       "tags": [
         "layoff",
         "healthcare"
+      ],
+      "extras": {}
+    },
+    {
+      "id": "18d3ba0e13f9def4",
+      "ts": "2026-10-16T17:18:04Z",
+      "source": "news_layoffs",
+      "source_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNSEhyWWpHUUc0ZmoyOXNnYS1sdHU4Z2RpbVcxdU45bkQ4RE11M0MtQVk2b29TSFFnV2NnSndMYmNpSmJNaGMzVTZwX0Vjc0hES3FQYlV2aDl3YU5FTnp2N2hRVFpWaXF3Z1A0RnJwVTNibF9QcER1QjBOOFlKTGdjZXpTVzZOYTBlY1ZGTl9GOEZyVS1KcUHSAacBQVVfeXFMT0RzcWpYRWRyWmh4SUlPVGpvMjRPR3Rnb1FVVExsX0dNUVdzN29xVDlXOTFsZ1FVSVRQX0E3VlJxMnlFN0x5MUtLRmE2TV9CaEQxbW0zZndZZFRpR0VtMWNUcVppU3Q3WHZ4Rno4ZzdkclRUTjlsb2xtS3dEMDMwQ0wycWJMNzlJd3dsdFROMWo4T2E4RmZ0QV9pdlFEX3lsSDVOWEVtaTQ?oc=5",
+      "type": "layoff",
+      "company": {
+        "name": "Metro Detroit Automotive Supplier",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": "MI",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Metro Detroit Automotive Supplier Announces Layoffs",
+      "tags": [
+        "layoff",
+        "other",
+        "MI"
       ],
       "extras": {}
     },
@@ -555,10 +558,10 @@
       "extras": {}
     },
     {
-      "id": "b2ac3db8d3d45711",
+      "id": "ab62d3c7d35ba1cf",
       "ts": "2026-10-14T07:00:00Z",
       "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPYlQzNlI5V295S2RKOC1ScFRLMTdLQUxwWVBLTVdGLWNnc1ZoN3FKa0I1RUpCTFdRVHN0Yk9tZ2FJQTRCSF82VU93WnNCTmRXamNVQnJtVDE3UmNzSnF5bWVrcEVYVFJuQ0NraGIwaUctc19Ba2V5bUkyRHA1WkRvRmZYaWdNWkZkNld3TlMwRzFIR1lMck9uRmRUeVFneDNYbFZzMg?oc=5",
+      "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbzByckpzbzdQSlowdE1Lb3drNkFxMDIwTFJLT19wLVlMRXV4N1cxX0phU2psVlBCc2lrbWQ0RmF5SlBzSjh2Mko1SzFPTWY0clZPV3Z2TmlsdTd1cE9CSmxQVzVIdGNTblFjb0xvSkRkY0JfZzdlQ1NfY2gzNllOdng2Zy04blNuU0hVYl9SM0pROFcxZUtYTFNhQmRRSU4ySlQwY2ZoZUNfQQ?oc=5",
       "type": "layoff",
       "company": {
         "name": "Netflix",
@@ -570,7 +573,7 @@
       },
       "magnitude": 1000.0,
       "unit": "people",
-      "raw_text": "Netflix to cut 1,000 jobs in biggest layoffs since 2022",
+      "raw_text": "Netflix Eliminates About 1,000 Jobs in Biggest Cuts Since 2022",
       "tags": [
         "layoff",
         "media"
@@ -670,10 +673,10 @@
       "extras": {}
     },
     {
-      "id": "a8b74bfc67c395db",
+      "id": "479e4ef26cade92a",
       "ts": "2026-10-08T07:00:00Z",
       "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPMTItaTRTVWpOWHptYjlPLUp5U0UwRkZtazhFVUhSUzYxMVlfNkVmUUJRcVZUMHMyVWhNb0w4MEZPSjIwaUM0YjNjajVnYkVBbDI2cHpuZTNzRU9mLTR0YVd6Uy1nNTR4MnYwUEFCR0UtS28wUm45NlVCTmRFVTE0YkZxM1N2S1M3aG4yOXk3bTFwSDBkSEw2SDM0QnNaN0s5b3hnTERqU21RRDF4SmF3X1FDV3Q1TlBIenfSAb8BQVVfeXFMTjR3VDZkZmpYb19ReFpkMkhhVVZOVHh2UnR6cWNUQWpicDhmSUpSOVZ0bS1mMmt0RGEtS3hySlQ1ZTJGWW9FRXBUb212RnRKczZ3SWRmVEtpUEtNdVljWkhMRHVqN3JjVWVfNUtCQUJfbnhIblpsM1oySFNLZ05Pcks3ZnptUHV6ZDBqQk53a1ljRUV3NVlTaDF1NlJxRGo3NGNqaWh2ZXBXQURsQ0VHN1BsSWJNMXRiUnFOdjhmSmM?oc=5",
+      "source_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNaHg1RlVrWTRlUE8yRG9yUV90Ny15YW4tNWNSYlhsS1VqcVUtX01iUTgyQ0R1aktGR1plM1ZOaFo5SmJZOTd6OFplQVdiRmV0emZjdXIwYkxZalQxaEVtY05hb2Q5Q3JZWm5IeFF2amUta2doTC1rU1pNWG9KbGM5YWdTSFNmMzVq?oc=5",
       "type": "layoff",
       "company": {
         "name": "Amazon",
@@ -683,9 +686,9 @@
         "hq_region": null,
         "size_band": "unknown"
       },
-      "magnitude": 1000.0,
-      "unit": "people",
-      "raw_text": "Amazon to cut nearly 1,000 white-collar jobs across stores division and other units: report",
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Amazon announces new round of job cuts in retail division",
       "tags": [
         "layoff",
         "retail"
@@ -716,6 +719,29 @@
       "extras": {}
     },
     {
+      "id": "623078606747c0f6",
+      "ts": "2026-10-07T07:00:00Z",
+      "source": "news_layoffs",
+      "source_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE51VUNUczVrd3dMS01ab3hoMEl3LVJmZEF4bTBuc0swMWZVRWFLdWhncUNjVVFpQjhNeE81M3NmWjJMVzM0TVpVVnlFLUtqQnN2V1Nta2hFeFFZWnZEdVhZMHdhRHQ3NlhDNDVBRmluSzlJZlJKbDB1Y2pZc2ludw?oc=5",
+      "type": "layoff",
+      "company": {
+        "name": "Northwell Health",
+        "ticker": null,
+        "industry": null,
+        "sector": "Healthcare",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Northwell Health Cuts Jobs a Third Time in Under a Year, Withholding How Many and Which Roles",
+      "tags": [
+        "layoff",
+        "healthcare"
+      ],
+      "extras": {}
+    },
+    {
       "id": "b1f64cd44836e289",
       "ts": "2026-10-07T07:00:00Z",
       "source": "news_layoffs",
@@ -735,6 +761,29 @@
       "tags": [
         "layoff",
         "retail"
+      ],
+      "extras": {}
+    },
+    {
+      "id": "95841f8e47280f92",
+      "ts": "2026-10-05T07:00:00Z",
+      "source": "news_layoffs",
+      "source_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQckZmTFJIUlhwYXMzdDYwelA5UFd1U1RjTlVDLV9CbDlKUnpqTnQ1OVFKNHRXMGw2STc1aDZwYy1mYnhPOUc1cGctZVlFdERFRFJkYlEwUVZfUzFwN2FLZTcxNExpS256MmY0RHB5cGdvc0VDY0JQVlN6N3hOTjVLdW5BcWpmU1lwTUNGdU5uMFRhM2dhZmxuaG5yZk8zdlhBX1YzOGNPVDBzMjVDSDRwWjBZRU8wOXAyZlJGWQ?oc=5",
+      "type": "layoff",
+      "company": {
+        "name": "Northwell Health",
+        "ticker": null,
+        "industry": null,
+        "sector": "Healthcare",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Northwell Health Eliminating Limited Number Of Positions",
+      "tags": [
+        "layoff",
+        "healthcare"
       ],
       "extras": {}
     },
