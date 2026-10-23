@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-22T21:18:12.596727Z",
+  "generated_at": "2026-10-23T03:50:57.629151Z",
   "next_ingest_at": null,
-  "total_events": 4282,
-  "events_7d": 1883,
+  "total_events": 4283,
+  "events_7d": 1874,
   "sources": [
     {
       "source": "greenhouse",
@@ -10,9 +10,9 @@
       "url": "https://boards-api.greenhouse.io",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-10-22T21:18:12.723656Z",
-      "last_attempted": "2026-10-22T21:18:12.723656Z",
-      "record_count": 3608,
+      "last_ok": "2026-10-23T03:50:57.763855Z",
+      "last_attempted": "2026-10-23T03:50:57.763855Z",
+      "record_count": 3613,
       "ok": true,
       "errors": [
         "DoorDash (doordash): GET https://boards-api.greenhouse.io/v1/boards/doordash/jobs failed: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/doordash/jobs?content=true'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
@@ -32,12 +32,12 @@
       "url": "https://api.lever.co/v0/postings",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-10-22T21:18:39.965581Z",
-      "last_attempted": "2026-10-22T21:18:39.965581Z",
+      "last_ok": "2026-10-23T03:51:25.679926Z",
+      "last_attempted": "2026-10-23T03:51:25.679926Z",
       "record_count": 80,
       "ok": true,
       "errors": [
-        "Scale AI (scaleai): GET https://api.lever.co/v0/postings/scaleai failed: The read operation timed out",
+        "Scale AI (scaleai): GET https://api.lever.co/v0/postings/scaleai failed: Client error '404 Not Found' for url 'https://api.lever.co/v0/postings/scaleai?mode=json'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
         "Notion (notion): GET https://api.lever.co/v0/postings/notion failed: Client error '404 Not Found' for url 'https://api.lever.co/v0/postings/notion?mode=json'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
         "Brex (brex): GET https://api.lever.co/v0/postings/brex failed: Client error '404 Not Found' for url 'https://api.lever.co/v0/postings/brex?mode=json'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
         "Ramp (ramp): GET https://api.lever.co/v0/postings/ramp failed: Client error '404 Not Found' for url 'https://api.lever.co/v0/postings/ramp?mode=json'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
@@ -49,9 +49,9 @@
       "url": "https://api.ashbyhq.com/posting-api",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-10-22T21:19:26.523313Z",
-      "last_attempted": "2026-10-22T21:19:26.523313Z",
-      "record_count": 291,
+      "last_ok": "2026-10-23T03:51:38.472050Z",
+      "last_attempted": "2026-10-23T03:51:38.472050Z",
+      "record_count": 288,
       "ok": true,
       "errors": [
         "Replicate (replicate): GET https://api.ashbyhq.com/posting-api/job-board/replicate failed: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/replicate'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
@@ -63,8 +63,8 @@
       "url": "https://techcrunch.com/tag/layoffs/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-10-22T21:19:29.222976Z",
-      "last_attempted": "2026-10-22T21:19:29.222976Z",
+      "last_ok": "2026-10-23T03:51:41.077067Z",
+      "last_attempted": "2026-10-23T03:51:41.077067Z",
       "record_count": 3,
       "ok": true,
       "errors": []
@@ -75,9 +75,9 @@
       "url": "https://news.google.com/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-10-22T21:19:29.740671Z",
-      "last_attempted": "2026-10-22T21:19:29.740671Z",
-      "record_count": 55,
+      "last_ok": "2026-10-23T03:51:41.451798Z",
+      "last_attempted": "2026-10-23T03:51:41.451798Z",
+      "record_count": 59,
       "ok": true,
       "errors": []
     },
@@ -87,8 +87,8 @@
       "url": "https://data.texas.gov/d/8w53-c4f6",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-10-22T21:19:32.764636Z",
-      "last_attempted": "2026-10-22T21:19:32.764636Z",
+      "last_ok": "2026-10-23T03:51:44.626676Z",
+      "last_attempted": "2026-10-23T03:51:44.626676Z",
       "record_count": 46,
       "ok": true,
       "errors": []
@@ -99,9 +99,9 @@
       "url": "https://techcrunch.com/category/venture/feed/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-10-22T21:19:33.922002Z",
-      "last_attempted": "2026-10-22T21:19:33.922002Z",
-      "record_count": 9,
+      "last_ok": "2026-10-23T03:51:50.936203Z",
+      "last_attempted": "2026-10-23T03:51:50.936203Z",
+      "record_count": 10,
       "ok": true,
       "errors": []
     },
@@ -111,9 +111,9 @@
       "url": "https://efts.sec.gov/LATEST/search-index",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-10-22T21:19:34.607090Z",
-      "last_attempted": "2026-10-22T21:19:34.607090Z",
-      "record_count": 113,
+      "last_ok": "2026-10-23T03:51:51.489472Z",
+      "last_attempted": "2026-10-23T03:51:51.489472Z",
+      "record_count": 111,
       "ok": true,
       "errors": []
     },
@@ -123,8 +123,8 @@
       "url": "https://www.bls.gov/oes/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-10-22T21:19:35.373197Z",
-      "last_attempted": "2026-10-22T21:19:35.373197Z",
+      "last_ok": "2026-10-23T03:51:52.460808Z",
+      "last_attempted": "2026-10-23T03:51:52.460808Z",
       "record_count": 24,
       "ok": true,
       "errors": []
@@ -135,8 +135,8 @@
       "url": "https://www.bls.gov/ces/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-10-22T21:19:35.818057Z",
-      "last_attempted": "2026-10-22T21:19:35.818057Z",
+      "last_ok": "2026-10-23T03:51:53.037844Z",
+      "last_attempted": "2026-10-23T03:51:53.037844Z",
       "record_count": 48,
       "ok": true,
       "errors": []
@@ -147,8 +147,8 @@
       "url": "https://www.bls.gov/developers/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-10-22T21:19:35.998929Z",
-      "last_attempted": "2026-10-22T21:19:35.998929Z",
+      "last_ok": "2026-10-23T03:51:53.273630Z",
+      "last_attempted": "2026-10-23T03:51:53.273630Z",
       "record_count": 30,
       "ok": true,
       "errors": []
@@ -156,159 +156,10 @@
   ],
   "recent_signals": [
     {
-      "id": "c36ce6d1e61228e4",
-      "ts": "2026-10-22T17:16:34-04:00",
+      "id": "db384a8612ae578d",
+      "ts": "2026-10-22T23:37:44-04:00",
       "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/oscar/jobs/8312400",
-      "type": "posting",
-      "company": {
-        "name": "Oscar Health",
-        "ticker": null,
-        "industry": null,
-        "sector": "Healthcare",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Oscar Health | Senior Specialist, Process improvement (SIU) | Remote",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "healthcare"
-      ],
-      "extras": {
-        "role": "Senior Specialist, Process improvement (SIU)",
-        "location": "Remote",
-        "seniority": "senior",
-        "salary_min": 75348.0,
-        "salary_max": 98894.0,
-        "remote": "remote"
-      }
-    },
-    {
-      "id": "29e9cddd164d013a",
-      "ts": "2026-10-22T17:14:59-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/anthropic/jobs/5456939008",
-      "type": "posting",
-      "company": {
-        "name": "Anthropic",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": "CA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Anthropic | Partner Enablement Lead, Beneficial Deployments | San Francisco, CA | New York City, NY",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "CA"
-      ],
-      "extras": {
-        "role": "Partner Enablement Lead, Beneficial Deployments",
-        "location": "San Francisco, CA | New York City, NY",
-        "seniority": "lead",
-        "stack": [
-          "go"
-        ]
-      }
-    },
-    {
-      "id": "cac25e7c4e3b171e",
-      "ts": "2026-10-22T17:06:49-04:00",
-      "source": "greenhouse",
-      "source_url": "https://www.coinbase.com/careers/positions/7254275?gh_jid=7254275",
-      "type": "posting",
-      "company": {
-        "name": "Coinbase",
-        "ticker": null,
-        "industry": null,
-        "sector": "Finance",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Coinbase | Complaints Analyst III | Remote - Australia",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "finance"
-      ],
-      "extras": {
-        "role": "Complaints Analyst III",
-        "location": "Remote - Australia",
-        "seniority": "mid",
-        "remote": "remote"
-      }
-    },
-    {
-      "id": "929a308c275223d1",
-      "ts": "2026-10-22T17:06:24-04:00",
-      "source": "greenhouse",
-      "source_url": "https://boards.greenhouse.io/robinhood/jobs/8246088?t=gh_src=&gh_jid=8246088",
-      "type": "posting",
-      "company": {
-        "name": "Robinhood",
-        "ticker": null,
-        "industry": null,
-        "sector": "Finance",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Robinhood | iOS Developer, International | Toronto, Canada",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "finance"
-      ],
-      "extras": {
-        "role": "iOS Developer, International",
-        "location": "Toronto, Canada",
-        "seniority": "mid"
-      }
-    },
-    {
-      "id": "c63e5e4b5d0fd546",
-      "ts": "2026-10-22T17:00:40-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/anthropic/jobs/5415864008",
-      "type": "posting",
-      "company": {
-        "name": "Anthropic",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": "CA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Anthropic | Head of Security Controls Assurance - SOX | San Francisco, CA | Seattle, WA | New York City, NY | Washington, DC",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "CA"
-      ],
-      "extras": {
-        "role": "Head of Security Controls Assurance - SOX",
-        "location": "San Francisco, CA | Seattle, WA | New York City, NY | Washington, DC",
-        "seniority": "mid"
-      }
-    },
-    {
-      "id": "061fa26061d7fddf",
-      "ts": "2026-10-22T16:53:12-04:00",
-      "source": "greenhouse",
-      "source_url": "https://stripe.com/jobs/search?gh_jid=7650177",
+      "source_url": "https://stripe.com/jobs/search?gh_jid=8287916",
       "type": "posting",
       "company": {
         "name": "Stripe",
@@ -320,90 +171,85 @@
       },
       "magnitude": null,
       "unit": "jobs",
-      "raw_text": "Stripe | Regulatory Reporting Program Manager, Stablecoin | SEA, SF, NYC, CHI",
+      "raw_text": "Stripe | Credit Risk Analyst Commercial Underwriter | Singapore",
       "tags": [
         "hiring",
         "greenhouse",
         "technology"
       ],
       "extras": {
-        "role": "Regulatory Reporting Program Manager, Stablecoin",
-        "location": "SEA, SF, NYC, CHI",
-        "seniority": "manager"
+        "role": "Credit Risk Analyst Commercial Underwriter",
+        "location": "Singapore",
+        "seniority": "mid"
       }
     },
     {
-      "id": "26fc60d0cb1bbbc9",
-      "ts": "2026-10-22T16:51:29-04:00",
+      "id": "1d280b23985df080",
+      "ts": "2026-10-22T23:22:57-04:00",
       "source": "greenhouse",
-      "source_url": "https://www.pinterestcareers.com/jobs/?gh_jid=8088867",
+      "source_url": "https://stripe.com/jobs/search?gh_jid=8202299",
       "type": "posting",
       "company": {
-        "name": "Pinterest",
+        "name": "Stripe",
         "ticker": null,
         "industry": null,
         "sector": "Technology",
-        "hq_region": "CA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Pinterest | Sr. Staff Software Engineer, Pinterest Assistant | San Francisco, CA, US; Remote, US",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "CA",
-        "Software Engineering"
-      ],
-      "extras": {
-        "role": "Sr. Staff Software Engineer, Pinterest Assistant",
-        "location": "San Francisco, CA, US; Remote, US",
-        "function": "Software Engineering",
-        "soc": "15-1252",
-        "seniority": "staff"
-      }
-    },
-    {
-      "id": "f173182918664999",
-      "ts": "2026-10-22T16:50:51-04:00",
-      "source": "greenhouse",
-      "source_url": "https://www.coinbase.com/careers/positions/8160557?gh_jid=8160557",
-      "type": "posting",
-      "company": {
-        "name": "Coinbase",
-        "ticker": null,
-        "industry": null,
-        "sector": "Finance",
         "hq_region": null,
         "size_band": "unknown"
       },
       "magnitude": null,
       "unit": "jobs",
-      "raw_text": "Coinbase | Staff Software Engineer, Compute Platform (Routing) | Remote - USA",
+      "raw_text": "Stripe | Software Engineer, New Grad | Taiwan",
       "tags": [
         "hiring",
         "greenhouse",
-        "finance",
+        "technology",
         "Software Engineering"
       ],
       "extras": {
-        "role": "Staff Software Engineer, Compute Platform (Routing)",
-        "location": "Remote - USA",
+        "role": "Software Engineer, New Grad",
+        "location": "Taiwan",
         "function": "Software Engineering",
         "soc": "15-1252",
-        "seniority": "staff",
-        "remote": "remote",
-        "stack": [
-          "kubernetes"
-        ]
+        "seniority": "mid"
       }
     },
     {
-      "id": "ab268a37a42aaf4c",
-      "ts": "2026-10-22T16:35:56-04:00",
+      "id": "6367aa65ec6f8f83",
+      "ts": "2026-10-22T23:20:50-04:00",
       "source": "greenhouse",
-      "source_url": "https://boards.greenhouse.io/cloudflare/jobs/7302931?gh_jid=7302931",
+      "source_url": "https://stripe.com/jobs/search?gh_jid=8160776",
+      "type": "posting",
+      "company": {
+        "name": "Stripe",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Stripe | Software Engineer, New Grad | Singapore",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "Software Engineering"
+      ],
+      "extras": {
+        "role": "Software Engineer, New Grad",
+        "location": "Singapore",
+        "function": "Software Engineering",
+        "soc": "15-1252",
+        "seniority": "mid"
+      }
+    },
+    {
+      "id": "988d691bd598aa9c",
+      "ts": "2026-10-22T22:55:24-04:00",
+      "source": "greenhouse",
+      "source_url": "https://boards.greenhouse.io/cloudflare/jobs/7309174?gh_jid=7309174",
       "type": "posting",
       "company": {
         "name": "Cloudflare",
@@ -415,7 +261,7 @@
       },
       "magnitude": null,
       "unit": "jobs",
-      "raw_text": "Cloudflare | Software Engineer, Deploy at Scale | Hybrid",
+      "raw_text": "Cloudflare | Software Engineer (Threat Intelligence), Cloudforce One | Hybrid",
       "tags": [
         "hiring",
         "greenhouse",
@@ -423,7 +269,7 @@
         "Software Engineering"
       ],
       "extras": {
-        "role": "Software Engineer, Deploy at Scale",
+        "role": "Software Engineer (Threat Intelligence), Cloudforce One",
         "location": "Hybrid",
         "function": "Software Engineering",
         "soc": "15-1252",
@@ -431,13 +277,13 @@
       }
     },
     {
-      "id": "6049e93786985793",
-      "ts": "2026-10-22T16:35:07-04:00",
+      "id": "dea0c34b33ed63a1",
+      "ts": "2026-10-22T22:20:06-04:00",
       "source": "greenhouse",
-      "source_url": "https://boards.greenhouse.io/cloudflare/jobs/8178593?gh_jid=8178593",
+      "source_url": "https://stripe.com/jobs/search?gh_jid=8231439",
       "type": "posting",
       "company": {
-        "name": "Cloudflare",
+        "name": "Stripe",
         "ticker": null,
         "industry": null,
         "sector": "Technology",
@@ -446,7 +292,7 @@
       },
       "magnitude": null,
       "unit": "jobs",
-      "raw_text": "Cloudflare | Senior Software Engineer, Deploy at Scale | Hybrid",
+      "raw_text": "Stripe | Software Engineer, Metronome Infrastructure | Toronto, Vancouver, Canada-Remote",
       "tags": [
         "hiring",
         "greenhouse",
@@ -454,21 +300,53 @@
         "Software Engineering"
       ],
       "extras": {
-        "role": "Senior Software Engineer, Deploy at Scale",
-        "location": "Hybrid",
+        "role": "Software Engineer, Metronome Infrastructure",
+        "location": "Toronto, Vancouver, Canada-Remote",
         "function": "Software Engineering",
         "soc": "15-1252",
-        "seniority": "senior"
+        "seniority": "mid"
       }
     },
     {
-      "id": "3f6cf7aba14edd0e",
-      "ts": "2026-10-22T16:29:55-04:00",
+      "id": "dcbd0f5ef14e27bc",
+      "ts": "2026-10-22T22:15:17-04:00",
       "source": "greenhouse",
-      "source_url": "https://stripe.com/jobs/search?gh_jid=8209967",
+      "source_url": "https://boards.greenhouse.io/robinhood/jobs/8072766?t=gh_src=&gh_jid=8072766",
       "type": "posting",
       "company": {
-        "name": "Stripe",
+        "name": "Robinhood",
+        "ticker": null,
+        "industry": null,
+        "sector": "Finance",
+        "hq_region": "CA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Robinhood | Staff Data Scientist (People Analytics & Insights) | Bellevue, WA; Chicago, IL; Menlo Park, CA; New York, NY",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "finance",
+        "CA",
+        "Data / ML"
+      ],
+      "extras": {
+        "role": "Staff Data Scientist (People Analytics & Insights)",
+        "location": "Bellevue, WA; Chicago, IL; Menlo Park, CA; New York, NY",
+        "function": "Data / ML",
+        "soc": "15-2051",
+        "seniority": "staff"
+      }
+    },
+    {
+      "id": "920abb4decca6ffc",
+      "ts": "2026-10-22T21:53:49-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/anthropic/jobs/5455627008",
+      "type": "posting",
+      "company": {
+        "name": "Anthropic",
         "ticker": null,
         "industry": null,
         "sector": "Technology",
@@ -477,60 +355,30 @@
       },
       "magnitude": null,
       "unit": "jobs",
-      "raw_text": "Stripe | Staff Software Engineer, High Availability and Disaster Recovery | Seattle, San Francisco, Seattle, New York, Toronto",
+      "raw_text": "Anthropic | Applied AI Architect, Public Sector (Federal Civilan) | San Francisco, CA | New York City, NY",
       "tags": [
         "hiring",
         "greenhouse",
         "technology",
         "CA",
-        "Software Engineering"
+        "Engineering Management"
       ],
       "extras": {
-        "role": "Staff Software Engineer, High Availability and Disaster Recovery",
-        "location": "Seattle, San Francisco, Seattle, New York, Toronto",
-        "function": "Software Engineering",
-        "soc": "15-1252",
-        "seniority": "staff",
-        "remote": "remote"
+        "role": "Applied AI Architect, Public Sector (Federal Civilan)",
+        "location": "San Francisco, CA | New York City, NY",
+        "function": "Engineering Management",
+        "soc": "11-9041",
+        "seniority": "mid",
+        "stack": [
+          "llm"
+        ]
       }
     },
     {
-      "id": "91b76e440cccbf83",
-      "ts": "2026-10-22T16:25:22-04:00",
+      "id": "789632efcd42206a",
+      "ts": "2026-10-22T21:53:09-04:00",
       "source": "greenhouse",
-      "source_url": "https://www.coinbase.com/careers/positions/8099099?gh_jid=8099099",
-      "type": "posting",
-      "company": {
-        "name": "Coinbase",
-        "ticker": null,
-        "industry": null,
-        "sector": "Finance",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Coinbase | Embedded Engineer, Compliance [Office of the CTO] | Remote - USA",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "finance",
-        "Software Engineering"
-      ],
-      "extras": {
-        "role": "Embedded Engineer, Compliance [Office of the CTO]",
-        "location": "Remote - USA",
-        "function": "Software Engineering",
-        "soc": "15-1252",
-        "seniority": "c_level",
-        "remote": "remote"
-      }
-    },
-    {
-      "id": "fc24b531fe9c8a5d",
-      "ts": "2026-10-22T16:21:22-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/anthropic/jobs/5461663008",
+      "source_url": "https://job-boards.greenhouse.io/anthropic/jobs/5460211008",
       "type": "posting",
       "company": {
         "name": "Anthropic",
@@ -542,234 +390,419 @@
       },
       "magnitude": null,
       "unit": "jobs",
-      "raw_text": "Anthropic | Enterprise Account Executive, Federal Civilian Sales - Federal Financials | Washington, DC",
+      "raw_text": "Anthropic | Applied AI Architect, Public Sector (GovTech) | Washington, DC",
       "tags": [
         "hiring",
         "greenhouse",
         "technology",
         "DC",
+        "Engineering Management"
+      ],
+      "extras": {
+        "role": "Applied AI Architect, Public Sector (GovTech)",
+        "location": "Washington, DC",
+        "function": "Engineering Management",
+        "soc": "11-9041",
+        "seniority": "mid",
+        "stack": [
+          "llm"
+        ]
+      }
+    },
+    {
+      "id": "4dad1955cb894e4e",
+      "ts": "2026-10-22T21:46:42-04:00",
+      "source": "greenhouse",
+      "source_url": "https://stripe.com/jobs/search?gh_jid=8174141",
+      "type": "posting",
+      "company": {
+        "name": "Stripe",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Stripe | Account Executive Product - Global Selling | Sydney Or Melbourne",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
         "Sales"
       ],
       "extras": {
-        "role": "Enterprise Account Executive, Federal Civilian Sales - Federal Financials",
-        "location": "Washington, DC",
+        "role": "Account Executive Product - Global Selling",
+        "location": "Sydney Or Melbourne",
+        "function": "Sales",
+        "soc": "41-3091",
+        "seniority": "mid",
+        "stack": [
+          "go"
+        ]
+      }
+    },
+    {
+      "id": "b706af39999d0b60",
+      "ts": "2026-10-22T21:41:31-04:00",
+      "source": "greenhouse",
+      "source_url": "https://stripe.com/jobs/search?gh_jid=8303082",
+      "type": "posting",
+      "company": {
+        "name": "Stripe",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Stripe | Sales Development Representative, India | Bengaluru",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "Sales"
+      ],
+      "extras": {
+        "role": "Sales Development Representative, India",
+        "location": "Bengaluru",
         "function": "Sales",
         "soc": "41-3091",
         "seniority": "mid"
       }
     },
     {
-      "id": "ff18a0abb4b90b21",
-      "ts": "2026-10-22T16:16:00-04:00",
+      "id": "6ba1441e97875c4d",
+      "ts": "2026-10-22T21:32:17-04:00",
       "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/oscar/jobs/8264943",
+      "source_url": "https://job-boards.greenhouse.io/anthropic/jobs/5106199008",
       "type": "posting",
       "company": {
-        "name": "Oscar Health",
-        "ticker": null,
-        "industry": null,
-        "sector": "Healthcare",
-        "hq_region": "NY",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Oscar Health | Lead APP - Virtual Health Assessment | New York, New York, United States",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "healthcare",
-        "NY"
-      ],
-      "extras": {
-        "role": "Lead APP - Virtual Health Assessment",
-        "location": "New York, New York, United States",
-        "seniority": "lead",
-        "remote": "remote"
-      }
-    },
-    {
-      "id": "1d842040e0363f1f",
-      "ts": "2026-10-22T16:15:57-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/oscar/jobs/8315887",
-      "type": "posting",
-      "company": {
-        "name": "Oscar Health",
-        "ticker": null,
-        "industry": null,
-        "sector": "Healthcare",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Oscar Health | Itemized Bill Reviewer | Remote",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "healthcare"
-      ],
-      "extras": {
-        "role": "Itemized Bill Reviewer",
-        "location": "Remote",
-        "seniority": "mid",
-        "salary_min": 91908.0,
-        "salary_max": 120629.0,
-        "remote": "remote"
-      }
-    },
-    {
-      "id": "f991bd2039546147",
-      "ts": "2026-10-22T16:12:57-04:00",
-      "source": "greenhouse",
-      "source_url": "https://boards.greenhouse.io/robinhood/jobs/8304315?t=gh_src=&gh_jid=8304315",
-      "type": "posting",
-      "company": {
-        "name": "Robinhood",
-        "ticker": null,
-        "industry": null,
-        "sector": "Finance",
-        "hq_region": "CO",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Robinhood | Customer Experience Associate | Denver, CO; Westlake, TX",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "finance",
-        "CO",
-        "Customer Success"
-      ],
-      "extras": {
-        "role": "Customer Experience Associate",
-        "location": "Denver, CO; Westlake, TX",
-        "function": "Customer Success",
-        "soc": "13-1161",
-        "seniority": "junior"
-      }
-    },
-    {
-      "id": "3f536ba518e687fa",
-      "ts": "2026-10-22T16:11:13-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/oscar/jobs/8225563",
-      "type": "posting",
-      "company": {
-        "name": "Oscar Health",
-        "ticker": null,
-        "industry": null,
-        "sector": "Healthcare",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Oscar Health | Physician Assistant - Virtual Health Assessment | Remote",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "healthcare"
-      ],
-      "extras": {
-        "role": "Physician Assistant - Virtual Health Assessment",
-        "location": "Remote",
-        "seniority": "mid",
-        "salary_min": 116400.0,
-        "salary_max": 145500.0,
-        "remote": "remote"
-      }
-    },
-    {
-      "id": "87483f583148463e",
-      "ts": "2026-10-22T16:04:43-04:00",
-      "source": "greenhouse",
-      "source_url": "https://boards.greenhouse.io/figma/jobs/6105673004?gh_jid=6105673004",
-      "type": "posting",
-      "company": {
-        "name": "Figma",
+        "name": "Anthropic",
         "ticker": null,
         "industry": null,
         "sector": "Technology",
-        "hq_region": null,
+        "hq_region": "CA",
         "size_band": "unknown"
       },
       "magnitude": null,
       "unit": "jobs",
-      "raw_text": "Figma | Product Marketing Manager - Figma Weave (Tel Aviv, Israel) | Tel Aviv, Israel",
+      "raw_text": "Anthropic | Real Estate Portfolio Manager | San Francisco, CA",
       "tags": [
         "hiring",
         "greenhouse",
         "technology",
-        "Marketing"
+        "CA"
       ],
       "extras": {
-        "role": "Product Marketing Manager - Figma Weave (Tel Aviv, Israel)",
-        "location": "Tel Aviv, Israel",
-        "function": "Marketing",
-        "soc": "11-2011",
+        "role": "Real Estate Portfolio Manager",
+        "location": "San Francisco, CA",
         "seniority": "manager"
       }
     },
     {
-      "id": "15a83304601f15d8",
-      "ts": "2026-10-22T16:02:33-04:00",
+      "id": "4be28173264c63c4",
+      "ts": "2026-10-22T20:46:30-04:00",
       "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/anthropic/jobs/5443997008",
+      "source_url": "https://stripe.com/jobs/search?gh_jid=8279867",
       "type": "posting",
       "company": {
-        "name": "Anthropic",
+        "name": "Stripe",
         "ticker": null,
         "industry": null,
         "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Stripe | Program Manager, Commercial Solutions | US-Remote",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology"
+      ],
+      "extras": {
+        "role": "Program Manager, Commercial Solutions",
+        "location": "US-Remote",
+        "seniority": "manager",
+        "stack": [
+          "go"
+        ]
+      }
+    },
+    {
+      "id": "3473701f9eeff90a",
+      "ts": "2026-10-22T20:12:36-04:00",
+      "source": "greenhouse",
+      "source_url": "https://instacart.careers/job/?gh_jid=7144697",
+      "type": "posting",
+      "company": {
+        "name": "Instacart",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Instacart | Activation Sales Development Representative II | United States - Remote",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "Sales"
+      ],
+      "extras": {
+        "role": "Activation Sales Development Representative II",
+        "location": "United States - Remote",
+        "function": "Sales",
+        "soc": "41-3091",
+        "seniority": "mid",
+        "remote": "remote"
+      }
+    },
+    {
+      "id": "9bfa8070d70f9fa3",
+      "ts": "2026-10-22T20:11:31-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8017242",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
         "hq_region": "CA",
         "size_band": "unknown"
       },
       "magnitude": null,
       "unit": "jobs",
-      "raw_text": "Anthropic | Technical Editor | San Francisco, CA | New York City, NY",
+      "raw_text": "Reddit | Senior Client Account Manager, Global Strategic Accounts (Tech/AI) | San Francisco, CA",
       "tags": [
         "hiring",
         "greenhouse",
-        "technology",
+        "media",
+        "CA",
+        "Customer Success"
+      ],
+      "extras": {
+        "role": "Senior Client Account Manager, Global Strategic Accounts (Tech/AI)",
+        "location": "San Francisco, CA",
+        "function": "Customer Success",
+        "soc": "13-1161",
+        "seniority": "senior",
+        "remote": "onsite"
+      }
+    },
+    {
+      "id": "a4151d1a9dbfeac5",
+      "ts": "2026-10-22T20:11:30-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8249469",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": "CA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Lead Client Partner, Global Strategic Accounts (Tech) | Los Angeles, CA; New York City, NY",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
         "CA"
       ],
       "extras": {
-        "role": "Technical Editor",
-        "location": "San Francisco, CA | New York City, NY",
+        "role": "Lead Client Partner, Global Strategic Accounts (Tech)",
+        "location": "Los Angeles, CA; New York City, NY",
+        "seniority": "lead",
+        "remote": "onsite"
+      }
+    },
+    {
+      "id": "1b1bfa8ed026973b",
+      "ts": "2026-10-22T20:10:32-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8282760",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Analytics Engineer | Remote - United States",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "Data / ML"
+      ],
+      "extras": {
+        "role": "Analytics Engineer",
+        "location": "Remote - United States",
+        "function": "Data / ML",
+        "soc": "15-2051",
         "seniority": "mid"
       }
     },
     {
-      "id": "6101d64b54ba3f2e",
-      "ts": "2026-10-22T15:54:51-04:00",
+      "id": "e012bb98d8713896",
+      "ts": "2026-10-22T20:10:32-04:00",
       "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/anthropic/jobs/5451768008",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8075185",
       "type": "posting",
       "company": {
-        "name": "Anthropic",
+        "name": "Reddit",
         "ticker": null,
         "industry": null,
-        "sector": "Technology",
-        "hq_region": "CA",
+        "sector": "Media",
+        "hq_region": null,
         "size_band": "unknown"
       },
       "magnitude": null,
       "unit": "jobs",
-      "raw_text": "Anthropic | Corporate Accounting | San Francisco, CA | Seattle, WA",
+      "raw_text": "Reddit | Group Product Manager, Finance Technology | Remote - United States",
       "tags": [
         "hiring",
         "greenhouse",
-        "technology",
-        "CA"
+        "media",
+        "Product"
       ],
       "extras": {
-        "role": "Corporate Accounting",
-        "location": "San Francisco, CA | Seattle, WA",
-        "seniority": "mid"
+        "role": "Group Product Manager, Finance Technology",
+        "location": "Remote - United States",
+        "function": "Product",
+        "soc": "11-2021",
+        "seniority": "manager"
       }
+    },
+    {
+      "id": "aaedefe3310b0e04",
+      "ts": "2026-10-22T20:10:32-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8301736",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Lead Forward Deployed Engineer (AI Enablement) | Remote - United States",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media"
+      ],
+      "extras": {
+        "role": "Lead Forward Deployed Engineer (AI Enablement)",
+        "location": "Remote - United States",
+        "seniority": "lead"
+      }
+    },
+    {
+      "id": "f2dc88fc86a08852",
+      "ts": "2026-10-22T20:10:32-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7330347",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Principal Data Scientist, Ads | Remote - United States",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "Data / ML"
+      ],
+      "extras": {
+        "role": "Principal Data Scientist, Ads",
+        "location": "Remote - United States",
+        "function": "Data / ML",
+        "soc": "15-2051",
+        "seniority": "principal"
+      }
+    },
+    {
+      "id": "980d3772e899f8fa",
+      "ts": "2026-10-22T20:10:32-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8289345",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Principal Data Scientist, User Ecosystem | Remote - United States",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "Data / ML"
+      ],
+      "extras": {
+        "role": "Principal Data Scientist, User Ecosystem",
+        "location": "Remote - United States",
+        "function": "Data / ML",
+        "soc": "15-2051",
+        "seniority": "principal"
+      }
+    },
+    {
+      "id": "8219d332aa8db276",
+      "ts": "2026-10-22T23:15:00Z",
+      "source": "org_moves",
+      "source_url": "https://techcrunch.com/2026/10/22/ben-lamm-raises-200m-for-warhound-to-engineer-war-dogs-and-arm-them-with-anduril-gear/",
+      "type": "funding",
+      "company": {
+        "name": "Warhound",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": 200000000.0,
+      "unit": "USD",
+      "raw_text": "Warhound raises $200M to engineer war dogs and arm them with Anduril gear",
+      "tags": [
+        "funding",
+        "other"
+      ],
+      "extras": {}
     },
     {
       "id": "f2ad7d370872d2b4",
@@ -818,33 +851,10 @@
       "extras": {}
     },
     {
-      "id": "824add8fb6d29964",
-      "ts": "2026-10-22T09:18:00Z",
+      "id": "21e8a23123f08f84",
+      "ts": "2026-10-22T06:32:41Z",
       "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNaWVMZEZvaTNNN1I3bDVqa0UzMUduT1ZhVjVQazFmLWo2a1M4Z1ZLMzVvOUNWb1FZWldTWlVBb3RNdDFwZFp1eW9DTmVTWEdpRzBJbHYweTk2WGRmSUpXZF9oN0REUE1DWFhwMkctUnFJcm9XWWwwTXhPdWVZQ3JuSDFZN2ZpQm1LbFVTNmYxRQ?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "Barclays To",
-        "ticker": null,
-        "industry": null,
-        "sector": "Finance",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": 5.0,
-      "unit": "people",
-      "raw_text": "Barclays To Cut 5K Jobs Because Of AI",
-      "tags": [
-        "layoff",
-        "finance"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "b94b9092e63f9ee8",
-      "ts": "2026-10-22T08:51:41Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNLWpvc1N2TkZoa3VHS3RteE5YRW9Yc0R1UmpOWXNpV3MyMi02WjMyMTNiVWJoSi1jRjhFOUNEdm9Hcm10NkZCV3J4RllJUkZkU1Z2NHhlMEQxbUoyWlliaGR5a2ZvU0pPSFVKNzd2SWprODhndy00MzM0YnBEdWIySC16QVRhWW5sSjFrODVlWkVnWXNpZnZ2MnFGY3RfYkRpQm0yVGt0Umt6Z1pUejY2elMySDI5c0tTazZFX3lYdGdSV0R3TWxxYURGQ1BnSDDSAdQBQVVfeXFMTVFFTUwyMlYwRFdmRlI4ODYwcmhxVVB3ajBhS3JnZ2F0c3ZPMkNFOHhLYUQ2SlliU0ZFU21GRFluM1VvNERGRWNqQ3pPemJwbUJFbzlYbUFMM0pKbTBGVi1oNVZKbF9zQktrOFhCVUZoS1R4c0dJMlNwSVFUVktPUC1mSDVudDJvLWlWblY0eHNXMU5neThFTDUzNTNZNlAwOEpySXFoVkpRdkJha0xRUzhQNEROYTVPOV9qaW8zWnpGNXI2dHNxNjNMUTEyNzhRMHZYSG8?oc=5",
+      "source_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNOUpjWjdiZXdqWFh6YlRvNm5MV094dmhlV0RXZ3M3M3ZwMFREZjNHbEY2Y1FzZENKdW4zeXFZOFFlR0VGcUZ6TGtYWWEzZWo5YlM2UUR6MXVKTkNpUEJONjVYTjVRVnJJS2xVRV9laXFJa1dHdTZfQnUwYUJmRzlPV294ZWE?oc=5",
       "type": "layoff",
       "company": {
         "name": "Barclays",
@@ -856,7 +866,7 @@
       },
       "magnitude": 5000.0,
       "unit": "people",
-      "raw_text": "Barclays to cut 5,000 jobs as the bank expands AI use to reduce costs",
+      "raw_text": "Barclays to cut 5,000 jobs as bank steps up AI adoption",
       "tags": [
         "layoff",
         "finance"
@@ -883,6 +893,29 @@
       "tags": [
         "layoff",
         "other"
+      ],
+      "extras": {}
+    },
+    {
+      "id": "0519e564ebc3b0ef",
+      "ts": "2026-10-22T01:13:54Z",
+      "source": "news_layoffs",
+      "source_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOMFhfNlpDanlJVVFiX2FlOWotdUFRNUdVQmk3eWlGbWRzeDNLNlBKSUdtNkphMHEtUk1nTkN2RWxRbVVtWjJaMWJfV0ZFS2dNVVRCVjlTUGkycUNvdWtTUTlYS3BqV3JtQk5DYTE2TU1sdF95WEEzd0FmUVNvT2ZDeFpfcC1Ld9IBhgFBVV95cUxNdjRJZjg0RkpZbzlGTHdPWEF6WHFVOU1pRUk4dE1rcXdIWHlGcGlacnRyWEctc2U4UTNqMUdUQ3ZIbldrYmdyeHFHQzFTMmFsWHluNUFVV1FJRUlsZTBIaU5qTDVoMUFUcEQ0TFppZE5lM25DTzMwc05YU0s0LVh6cmVLYm1GUQ?oc=5",
+      "type": "layoff",
+      "company": {
+        "name": "Volkswagen",
+        "ticker": null,
+        "industry": null,
+        "sector": "Manufacturing",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": 100000.0,
+      "unit": "people",
+      "raw_text": "Volkswagen to cut 100,000 jobs by end of decade",
+      "tags": [
+        "layoff",
+        "manufacturing"
       ],
       "extras": {}
     },
@@ -1107,6 +1140,34 @@
       "extras": {
         "adsh": "0001193125-26-429079",
         "cik": "0000079282",
+        "file_date": "2026-10-22"
+      }
+    },
+    {
+      "id": "794eb76bef8f2adc",
+      "ts": "2026-10-22T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2080126&type=&dateb=&owner=include&count=40",
+      "type": "exec_move",
+      "company": {
+        "name": "Forgent Power Solutions, Inc.",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Forgent Power Solutions, Inc. reported an executive or board change in an 8-K filing on 2026-10-22.",
+      "tags": [
+        "exec_move",
+        "sec_8k",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0001193125-26-428820",
+        "cik": "0002080126",
         "file_date": "2026-10-22"
       }
     },
@@ -1615,34 +1676,6 @@
       }
     },
     {
-      "id": "cb7b3b03d47bff11",
-      "ts": "2026-10-22T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2161171&type=&dateb=&owner=include&count=40",
-      "type": "funding",
-      "company": {
-        "name": "SpartanX Technologies, Inc.",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "SpartanX Technologies, Inc. filed a Form D securities offering with the SEC on 2026-10-22.",
-      "tags": [
-        "funding",
-        "form_d",
-        "technology"
-      ],
-      "extras": {
-        "adsh": "0002161171-26-000001",
-        "cik": "0002161171",
-        "file_date": "2026-10-22"
-      }
-    },
-    {
       "id": "73ad2ec3a4ff501e",
       "ts": "2026-10-21T23:51:22Z",
       "source": "news_layoffs",
@@ -1881,6 +1914,34 @@
       "extras": {
         "adsh": "0001193125-26-427316",
         "cik": "0001092796",
+        "file_date": "2026-10-21"
+      }
+    },
+    {
+      "id": "40718a6cad4a6c9f",
+      "ts": "2026-10-21T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1805526&type=&dateb=&owner=include&count=40",
+      "type": "exec_move",
+      "company": {
+        "name": "DeFi Development Corp.",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "DeFi Development Corp. reported an executive or board change in an 8-K filing on 2026-10-21.",
+      "tags": [
+        "exec_move",
+        "sec_8k",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0001805526-26-000140",
+        "cik": "0001805526",
         "file_date": "2026-10-21"
       }
     },
@@ -2201,62 +2262,6 @@
       }
     },
     {
-      "id": "ef1be093948b377c",
-      "ts": "2026-10-19T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1997652&type=&dateb=&owner=include&count=40",
-      "type": "exec_move",
-      "company": {
-        "name": "Tamboran Resources Corp",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Tamboran Resources Corp reported an executive or board change in an 8-K filing on 2026-10-19.",
-      "tags": [
-        "exec_move",
-        "sec_8k",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0001628280-26-066193",
-        "cik": "0001997652",
-        "file_date": "2026-10-19"
-      }
-    },
-    {
-      "id": "3f5f7e35152524e2",
-      "ts": "2026-10-19T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1175680&type=&dateb=&owner=include&count=40",
-      "type": "exec_move",
-      "company": {
-        "name": "CytoDyn Inc.",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "CytoDyn Inc. reported an executive or board change in an 8-K filing on 2026-10-19.",
-      "tags": [
-        "exec_move",
-        "sec_8k",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0001175680-26-000038",
-        "cik": "0001175680",
-        "file_date": "2026-10-19"
-      }
-    },
-    {
       "id": "ea08755d63d0a5f5",
       "ts": "2026-10-17T08:10:14Z",
       "source": "news_layoffs",
@@ -2326,13 +2331,13 @@
       "extras": {}
     },
     {
-      "id": "2653982d4237fb90",
-      "ts": "2026-10-15T07:57:36Z",
+      "id": "25f29009f5c6bfb0",
+      "ts": "2026-10-15T10:44:03Z",
       "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPSE5tM1R3MU1HdGFoZzNHRzhpb016OWxHaVRmS0VkOWxuYlJxTFhLaWwwN3d4YmlWNUtyQTI3TkdZSGt6X2ljMVZtUW9GaUVvLS16c0NQczNOMVFyWkszT0pEVk5ZVlRPb3F2TTNGd3BNRUd1YzRpRV9UdjNsR2JHU19MelliWE1yc01ubmF5VFZfcTlrbFRkcXRLbXpBV0s1NDR1ejJDRUsxVFRoeHJjLUNKV0JrS1NNQXRqampVdw?oc=5",
+      "source_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPY29yYWJMdEdNUkljaVlEZ0l2cXB0bzdVTGZFMVRzWGZkLVhOUy05bFNZSTFON2k0bzIwQVlVZlppVm0wLWZycUhXTDlkdWRtSWJxckQxWW1Xb2Y0Ti1tTUNkRThVT3kwQzd4cGl5empUeVFrWGJrQ0JTT0Q0RExiR3g4ZVlkUDgtRTV6YlpFX0liMmxYV3AyOGJwQzZaYnM3S0h2cXVYLUFzTjlYOEJfOTJhQU03Mk1kSEdkMQ?oc=5",
       "type": "layoff",
       "company": {
-        "name": "Universal Music Group",
+        "name": "Watch David Asman",
         "ticker": null,
         "industry": null,
         "sector": "Other",
@@ -2341,7 +2346,7 @@
       },
       "magnitude": null,
       "unit": null,
-      "raw_text": "Universal Music Group announces fresh layoffs amid $270 million cost-cutting programme",
+      "raw_text": "Watch David Asman reports on Bank of America penalties and Netflix layoffs - Fox Weather First",
       "tags": [
         "layoff",
         "other"
@@ -2802,7 +2807,7 @@
     }
   ],
   "sector_matrix": {
-    "generated_at": "2026-10-22T21:18:12.596727Z",
+    "generated_at": "2026-10-23T03:50:57.629151Z",
     "cells": [
       {
         "sector": "Technology",
@@ -2816,20 +2821,20 @@
       {
         "sector": "Technology",
         "signal_type": "posting",
-        "count_7d": 1565,
-        "count_30d": 2312,
+        "count_7d": 1563,
+        "count_30d": 2317,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 44.15
+        "z_score": 43.97
       },
       {
         "sector": "Technology",
         "signal_type": "exec_move",
-        "count_7d": 0,
-        "count_30d": 2,
+        "count_7d": 1,
+        "count_30d": 3,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": -0.47
+        "z_score": 0.3
       },
       {
         "sector": "Technology",
@@ -2852,29 +2857,29 @@
       {
         "sector": "Finance",
         "signal_type": "layoff",
-        "count_7d": 4,
-        "count_30d": 4,
-        "magnitude_7d": 7506.0,
+        "count_7d": 3,
+        "count_30d": 3,
+        "magnitude_7d": 7501.0,
         "magnitude_30d": null,
-        "z_score": 3.07
+        "z_score": 2.3
       },
       {
         "sector": "Finance",
         "signal_type": "posting",
         "count_7d": 95,
-        "count_30d": 445,
+        "count_30d": 448,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": -0.87
+        "z_score": -0.93
       },
       {
         "sector": "Finance",
         "signal_type": "exec_move",
         "count_7d": 2,
-        "count_30d": 4,
+        "count_30d": 5,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 1.07
+        "z_score": 0.77
       },
       {
         "sector": "Finance",
@@ -2898,28 +2903,28 @@
         "sector": "Healthcare",
         "signal_type": "layoff",
         "count_7d": 2,
-        "count_30d": 4,
+        "count_30d": 2,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 1.07
+        "z_score": 1.53
       },
       {
         "sector": "Healthcare",
         "signal_type": "posting",
-        "count_7d": 44,
+        "count_7d": 45,
         "count_30d": 158,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 1.17
+        "z_score": 1.34
       },
       {
         "sector": "Healthcare",
         "signal_type": "exec_move",
-        "count_7d": 3,
+        "count_7d": 0,
         "count_30d": 5,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 1.7
+        "z_score": -1.08
       },
       {
         "sector": "Healthcare",
@@ -2987,11 +2992,11 @@
       {
         "sector": "Manufacturing",
         "signal_type": "layoff",
-        "count_7d": 0,
-        "count_30d": 0,
-        "magnitude_7d": null,
+        "count_7d": 1,
+        "count_30d": 1,
+        "magnitude_7d": 100000.0,
         "magnitude_30d": null,
-        "z_score": null
+        "z_score": 0.77
       },
       {
         "sector": "Manufacturing",
@@ -3276,10 +3281,10 @@
         "sector": "Energy",
         "signal_type": "exec_move",
         "count_7d": 1,
-        "count_30d": 2,
+        "count_30d": 1,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": 0.53
+        "z_score": 0.77
       },
       {
         "sector": "Energy",
@@ -3350,17 +3355,40 @@
     "events_7d": 18,
     "events_30d": 30,
     "events_prev_30d": 0,
-    "companies_30d": 22,
-    "disclosed_jobs_30d": 22256,
+    "companies_30d": 23,
+    "disclosed_jobs_30d": 122251,
     "disclosed_events_30d": 14,
     "warn_events_30d": 0,
     "warn_events_total": 46,
     "top_events": [
       {
-        "id": "b94b9092e63f9ee8",
-        "ts": "2026-10-22T08:51:41Z",
+        "id": "0519e564ebc3b0ef",
+        "ts": "2026-10-22T01:13:54Z",
         "source": "news_layoffs",
-        "source_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNLWpvc1N2TkZoa3VHS3RteE5YRW9Yc0R1UmpOWXNpV3MyMi02WjMyMTNiVWJoSi1jRjhFOUNEdm9Hcm10NkZCV3J4RllJUkZkU1Z2NHhlMEQxbUoyWlliaGR5a2ZvU0pPSFVKNzd2SWprODhndy00MzM0YnBEdWIySC16QVRhWW5sSjFrODVlWkVnWXNpZnZ2MnFGY3RfYkRpQm0yVGt0Umt6Z1pUejY2elMySDI5c0tTazZFX3lYdGdSV0R3TWxxYURGQ1BnSDDSAdQBQVVfeXFMTVFFTUwyMlYwRFdmRlI4ODYwcmhxVVB3ajBhS3JnZ2F0c3ZPMkNFOHhLYUQ2SlliU0ZFU21GRFluM1VvNERGRWNqQ3pPemJwbUJFbzlYbUFMM0pKbTBGVi1oNVZKbF9zQktrOFhCVUZoS1R4c0dJMlNwSVFUVktPUC1mSDVudDJvLWlWblY0eHNXMU5neThFTDUzNTNZNlAwOEpySXFoVkpRdkJha0xRUzhQNEROYTVPOV9qaW8zWnpGNXI2dHNxNjNMUTEyNzhRMHZYSG8?oc=5",
+        "source_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOMFhfNlpDanlJVVFiX2FlOWotdUFRNUdVQmk3eWlGbWRzeDNLNlBKSUdtNkphMHEtUk1nTkN2RWxRbVVtWjJaMWJfV0ZFS2dNVVRCVjlTUGkycUNvdWtTUTlYS3BqV3JtQk5DYTE2TU1sdF95WEEzd0FmUVNvT2ZDeFpfcC1Ld9IBhgFBVV95cUxNdjRJZjg0RkpZbzlGTHdPWEF6WHFVOU1pRUk4dE1rcXdIWHlGcGlacnRyWEctc2U4UTNqMUdUQ3ZIbldrYmdyeHFHQzFTMmFsWHluNUFVV1FJRUlsZTBIaU5qTDVoMUFUcEQ0TFppZE5lM25DTzMwc05YU0s0LVh6cmVLYm1GUQ?oc=5",
+        "type": "layoff",
+        "company": {
+          "name": "Volkswagen",
+          "ticker": null,
+          "industry": null,
+          "sector": "Manufacturing",
+          "hq_region": null,
+          "size_band": "unknown"
+        },
+        "magnitude": 100000.0,
+        "unit": "people",
+        "raw_text": "Volkswagen to cut 100,000 jobs by end of decade",
+        "tags": [
+          "layoff",
+          "manufacturing"
+        ],
+        "extras": {}
+      },
+      {
+        "id": "21e8a23123f08f84",
+        "ts": "2026-10-22T06:32:41Z",
+        "source": "news_layoffs",
+        "source_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNOUpjWjdiZXdqWFh6YlRvNm5MV094dmhlV0RXZ3M3M3ZwMFREZjNHbEY2Y1FzZENKdW4zeXFZOFFlR0VGcUZ6TGtYWWEzZWo5YlM2UUR6MXVKTkNpUEJONjVYTjVRVnJJS2xVRV9laXFJa1dHdTZfQnUwYUJmRzlPV294ZWE?oc=5",
         "type": "layoff",
         "company": {
           "name": "Barclays",
@@ -3372,7 +3400,7 @@
         },
         "magnitude": 5000.0,
         "unit": "people",
-        "raw_text": "Barclays to cut 5,000 jobs as the bank expands AI use to reduce costs",
+        "raw_text": "Barclays to cut 5,000 jobs as bank steps up AI adoption",
         "tags": [
           "layoff",
           "finance"
@@ -3516,38 +3544,16 @@
           "media"
         ],
         "extras": {}
-      },
-      {
-        "id": "1e1dc10c22fa87c9",
-        "ts": "2026-10-15T12:20:47Z",
-        "source": "news_layoffs",
-        "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQeko5Q3pvQ1UwMlhmampuRWFsQ09kc0xaUGdoOTMyZ09Sc0dRT3AxT0s1dVNRQWJBSl9HOHR4UmViWDlHeGtSeDhWenpGNm9rcTRFNkhGQW52V1Q0X3RjSjNpbGVibHlQcGNveUlJRHZZYi1nTm1ORGd6ajZoZ1NDR2N3UWlKajVqQmpfajR4bVJGSkxJb1k3SjhNeWhvZTg?oc=5",
-        "type": "layoff",
-        "company": {
-          "name": "Netflix",
-          "ticker": null,
-          "industry": null,
-          "sector": "Media",
-          "hq_region": null,
-          "size_band": "unknown"
-        },
-        "magnitude": 1000.0,
-        "unit": "people",
-        "raw_text": "Netflix cuts nearly 1,000 jobs, its biggest layoff round since 2022",
-        "tags": [
-          "layoff",
-          "media"
-        ],
-        "extras": {}
       }
     ],
     "by_sector_30d": {
+      "Other": 10,
       "Retail": 8,
-      "Other": 8,
       "Media": 4,
-      "Finance": 4,
-      "Healthcare": 4,
-      "Technology": 2
+      "Finance": 3,
+      "Technology": 2,
+      "Healthcare": 2,
+      "Manufacturing": 1
     }
   }
 }
