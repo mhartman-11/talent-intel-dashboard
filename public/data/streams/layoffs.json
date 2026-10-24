@@ -1,6 +1,6 @@
 {
   "stream": "layoffs",
-  "generated_at": "2026-10-24T15:35:58.152559+00:00",
+  "generated_at": "2026-10-24T20:25:45.974829+00:00",
   "total": 81,
   "showing": 81,
   "source_counts": {
@@ -14,15 +14,38 @@
     "Hospitality": 7,
     "Logistics": 6,
     "Healthcare": 5,
-    "Technology": 4,
     "Finance": 4,
+    "Technology": 3,
     "Media": 3,
+    "Manufacturing": 2,
     "CPG": 2,
     "Education": 2,
-    "Telecom": 2,
-    "Manufacturing": 1
+    "Telecom": 2
   },
   "events": [
+    {
+      "id": "0519e564ebc3b0ef",
+      "ts": "2026-10-24T11:21:34Z",
+      "source": "news_layoffs",
+      "source_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOMFhfNlpDanlJVVFiX2FlOWotdUFRNUdVQmk3eWlGbWRzeDNLNlBKSUdtNkphMHEtUk1nTkN2RWxRbVVtWjJaMWJfV0ZFS2dNVVRCVjlTUGkycUNvdWtTUTlYS3BqV3JtQk5DYTE2TU1sdF95WEEzd0FmUVNvT2ZDeFpfcC1Ld9IBhgFBVV95cUxNdjRJZjg0RkpZbzlGTHdPWEF6WHFVOU1pRUk4dE1rcXdIWHlGcGlacnRyWEctc2U4UTNqMUdUQ3ZIbldrYmdyeHFHQzFTMmFsWHluNUFVV1FJRUlsZTBIaU5qTDVoMUFUcEQ0TFppZE5lM25DTzMwc05YU0s0LVh6cmVLYm1GUQ?oc=5",
+      "type": "layoff",
+      "company": {
+        "name": "Volkswagen",
+        "ticker": null,
+        "industry": null,
+        "sector": "Manufacturing",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": 100000.0,
+      "unit": "people",
+      "raw_text": "Volkswagen to cut 100,000 jobs by end of decade",
+      "tags": [
+        "layoff",
+        "manufacturing"
+      ],
+      "extras": {}
+    },
     {
       "id": "787006ef442e39bb",
       "ts": "2026-10-23T14:27:03Z",
@@ -350,29 +373,6 @@
       "extras": {}
     },
     {
-      "id": "e12ca5439160a6b7",
-      "ts": "2026-10-20T16:29:10Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNUndSd0N2Um9RWGtEUDU1MHBGUm1LU3RkT2RpRFVDbVNzRHdNTGVGYnk1MU1pSUFCQklWMnZERzc0bEJ0VDVUWUp5N3JHV3M0eVFMaGRFOEdwcjU0WlUxOG55enFWb09Id3AySlhLenVTT0k4Zk51WUhuQ05oVlBSWmg3d3NmLTFzOVBJTHVsc3RSN21WaGdwYjNCa19RSTRGWUhIXzQ1a25mSDhxQ0JwdzNJRUZiaHdXZTREOQ?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "Qualcomm",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "EXCLUSIVE: Qualcomm to cut jobs worldwide in performance-focused layoffs, internal memo shows",
-      "tags": [
-        "layoff",
-        "technology"
-      ],
-      "extras": {}
-    },
-    {
       "id": "dc01963ae19c9c85",
       "ts": "2026-10-20T00:58:00Z",
       "source": "news_layoffs",
@@ -489,8 +489,31 @@
       "extras": {}
     },
     {
-      "id": "ab62d3c7d35ba1cf",
+      "id": "2b8a57aa9c0c7f5b",
       "ts": "2026-10-15T07:00:00Z",
+      "source": "news_layoffs",
+      "source_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB6RDIxbnoyLVdvUmpHLWE3V3AyUV8weVBlRVhna1pqN216NVc5ZVQzWVNWb0cxZkp1cXZBcTRJVEdRcEtrZFhmdWJLeXd0c1hKcFdENTd1RmNmWmJRUjJSaHMyYXM0UQ?oc=5",
+      "type": "layoff",
+      "company": {
+        "name": "Netflix",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": 1000.0,
+      "unit": "people",
+      "raw_text": "Netflix cuts about 1,000 employees; CEOs announced layoffs on 14th",
+      "tags": [
+        "layoff",
+        "media"
+      ],
+      "extras": {}
+    },
+    {
+      "id": "ab62d3c7d35ba1cf",
+      "ts": "2026-10-14T07:00:00Z",
       "source": "news_layoffs",
       "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbzByckpzbzdQSlowdE1Lb3drNkFxMDIwTFJLT19wLVlMRXV4N1cxX0phU2psVlBCc2lrbWQ0RmF5SlBzSjh2Mko1SzFPTWY0clZPV3Z2TmlsdTd1cE9CSmxQVzVIdGNTblFjb0xvSkRkY0JfZzdlQ1NfY2gzNllOdng2Zy04blNuU0hVYl9SM0pROFcxZUtYTFNhQmRRSU4ySlQwY2ZoZUNfQQ?oc=5",
       "type": "layoff",
@@ -505,29 +528,6 @@
       "magnitude": 1000.0,
       "unit": "people",
       "raw_text": "Netflix Eliminates About 1,000 Jobs in Biggest Cuts Since 2022",
-      "tags": [
-        "layoff",
-        "media"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "52aa0ff6021ac3ac",
-      "ts": "2026-10-14T07:00:00Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPYlQzNlI5V295S2RKOC1ScFRLMTdLQUxwWVBLTVdGLWNnc1ZoN3FKa0I1RUpCTFdRVHN0Yk9tZ2FJQTRCSF82VU93WnNCTmRXamNVQnJtVDE3UmNzSnF5bWVrcEVYVFJuQ0NraGIwaUctc19Ba2V5bUkyRHA1WkRvRmZYaWdNWkZkNld3TlMwRzFIR1lMck9uRmRUeVFneDNYbFZzMtIBqgFBVV95cUxNeXVUNkt5ZlJRcDV2Qk5JeDRGdVE1VC1xNDJMWmcwaXZnM2VJcldLVkVxdkwyNUVHeVZhNVFpSmpSN1dMTzFpU3dpTzkwQzNkNWRPUVpLTVpVTzU1Wm1BTHFtVFVUQzh1NlZDenY1MW4zWHRxZnQybmxUQldnZjNUVl8yb0ZEYXI0ZHpDLTBPUmtSWkhBc2UwcC1IVWNvTWdKajB2Sm5TS1dzZw?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "Netflix",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": 1000.0,
-      "unit": "people",
-      "raw_text": "Netflix to cut 1,000 jobs in biggest layoffs since 2022",
       "tags": [
         "layoff",
         "media"
