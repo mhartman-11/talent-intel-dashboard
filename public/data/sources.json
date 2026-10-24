@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T10:30:53.466977+00:00",
+  "generated_at": "2026-10-24T13:04:13.306623+00:00",
   "sources": [
     {
       "source": "greenhouse",
@@ -7,8 +7,8 @@
       "url": "https://boards-api.greenhouse.io",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-10-24T10:30:04.302163Z",
-      "last_attempted": "2026-10-24T10:30:04.302163Z",
+      "last_ok": "2026-10-24T13:02:51.594077Z",
+      "last_attempted": "2026-10-24T13:02:51.594077Z",
       "record_count": 3614,
       "ok": true,
       "errors": [
@@ -29,8 +29,8 @@
       "url": "https://api.lever.co/v0/postings",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-10-24T10:30:33.399593Z",
-      "last_attempted": "2026-10-24T10:30:33.399593Z",
+      "last_ok": "2026-10-24T13:03:21.728477Z",
+      "last_attempted": "2026-10-24T13:03:21.728477Z",
       "record_count": 90,
       "ok": true,
       "errors": [
@@ -46,8 +46,8 @@
       "url": "https://api.ashbyhq.com/posting-api",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-10-24T10:30:42.576514Z",
-      "last_attempted": "2026-10-24T10:30:42.576514Z",
+      "last_ok": "2026-10-24T13:04:03.837909Z",
+      "last_attempted": "2026-10-24T13:04:03.837909Z",
       "record_count": 291,
       "ok": true,
       "errors": [
@@ -60,8 +60,8 @@
       "url": "https://techcrunch.com/tag/layoffs/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-10-24T10:30:45.338335Z",
-      "last_attempted": "2026-10-24T10:30:45.338335Z",
+      "last_ok": "2026-10-24T13:04:06.641764Z",
+      "last_attempted": "2026-10-24T13:04:06.641764Z",
       "record_count": 3,
       "ok": true,
       "errors": []
@@ -72,9 +72,9 @@
       "url": "https://news.google.com/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-10-24T10:30:45.962488Z",
-      "last_attempted": "2026-10-24T10:30:45.962488Z",
-      "record_count": 62,
+      "last_ok": "2026-10-24T13:04:07.056731Z",
+      "last_attempted": "2026-10-24T13:04:07.056731Z",
+      "record_count": 54,
       "ok": true,
       "errors": []
     },
@@ -84,8 +84,8 @@
       "url": "https://data.texas.gov/d/8w53-c4f6",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-10-24T10:30:49.108111Z",
-      "last_attempted": "2026-10-24T10:30:49.108111Z",
+      "last_ok": "2026-10-24T13:04:10.532028Z",
+      "last_attempted": "2026-10-24T13:04:10.532028Z",
       "record_count": 46,
       "ok": true,
       "errors": []
@@ -96,8 +96,8 @@
       "url": "https://techcrunch.com/category/venture/feed/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-10-24T10:30:51.117393Z",
-      "last_attempted": "2026-10-24T10:30:51.117393Z",
+      "last_ok": "2026-10-24T13:04:12.039888Z",
+      "last_attempted": "2026-10-24T13:04:12.039888Z",
       "record_count": 9,
       "ok": true,
       "errors": []
@@ -108,8 +108,8 @@
       "url": "https://efts.sec.gov/LATEST/search-index",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-10-24T10:30:51.769734Z",
-      "last_attempted": "2026-10-24T10:30:51.769734Z",
+      "last_ok": "2026-10-24T13:04:12.197995Z",
+      "last_attempted": "2026-10-24T13:04:12.197995Z",
       "record_count": 110,
       "ok": true,
       "errors": []
@@ -120,11 +120,13 @@
       "url": "https://www.bls.gov/oes/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-10-24T10:30:52.265541Z",
-      "last_attempted": "2026-10-24T10:30:52.265541Z",
-      "record_count": 24,
-      "ok": true,
-      "errors": []
+      "last_ok": null,
+      "last_attempted": "2026-10-24T13:04:12.636985Z",
+      "record_count": 0,
+      "ok": false,
+      "errors": [
+        "BLS API fetch: Server error '503 Service Unavailable' for url 'https://api.bls.gov/publicAPI/v2/timeseries/data/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503"
+      ]
     },
     {
       "source": "comp",
@@ -132,11 +134,13 @@
       "url": "https://www.bls.gov/ces/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-10-24T10:30:52.842629Z",
-      "last_attempted": "2026-10-24T10:30:52.842629Z",
-      "record_count": 48,
-      "ok": true,
-      "errors": []
+      "last_ok": null,
+      "last_attempted": "2026-10-24T13:04:12.873370Z",
+      "record_count": 0,
+      "ok": false,
+      "errors": [
+        "BLS comp API: Server error '503 Service Unavailable' for url 'https://api.bls.gov/publicAPI/v1/timeseries/data/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503"
+      ]
     },
     {
       "source": "fred",
@@ -144,11 +148,13 @@
       "url": "https://www.bls.gov/developers/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-10-24T10:30:53.079807Z",
-      "last_attempted": "2026-10-24T10:30:53.079807Z",
-      "record_count": 30,
-      "ok": true,
-      "errors": []
+      "last_ok": null,
+      "last_attempted": "2026-10-24T13:04:13.026257Z",
+      "record_count": 0,
+      "ok": false,
+      "errors": [
+        "BLS API: Server error '503 Service Unavailable' for url 'https://api.bls.gov/publicAPI/v1/timeseries/data/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503"
+      ]
     }
   ]
 }

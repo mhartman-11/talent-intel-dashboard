@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-24T10:30:04.056661Z",
+  "generated_at": "2026-10-24T13:02:51.446100Z",
   "next_ingest_at": null,
-  "total_events": 4300,
-  "events_7d": 1957,
+  "total_events": 4195,
+  "events_7d": 1954,
   "sources": [
     {
       "source": "greenhouse",
@@ -10,8 +10,8 @@
       "url": "https://boards-api.greenhouse.io",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-10-24T10:30:04.302163Z",
-      "last_attempted": "2026-10-24T10:30:04.302163Z",
+      "last_ok": "2026-10-24T13:02:51.594077Z",
+      "last_attempted": "2026-10-24T13:02:51.594077Z",
       "record_count": 3614,
       "ok": true,
       "errors": [
@@ -32,8 +32,8 @@
       "url": "https://api.lever.co/v0/postings",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-10-24T10:30:33.399593Z",
-      "last_attempted": "2026-10-24T10:30:33.399593Z",
+      "last_ok": "2026-10-24T13:03:21.728477Z",
+      "last_attempted": "2026-10-24T13:03:21.728477Z",
       "record_count": 90,
       "ok": true,
       "errors": [
@@ -49,8 +49,8 @@
       "url": "https://api.ashbyhq.com/posting-api",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-10-24T10:30:42.576514Z",
-      "last_attempted": "2026-10-24T10:30:42.576514Z",
+      "last_ok": "2026-10-24T13:04:03.837909Z",
+      "last_attempted": "2026-10-24T13:04:03.837909Z",
       "record_count": 291,
       "ok": true,
       "errors": [
@@ -63,8 +63,8 @@
       "url": "https://techcrunch.com/tag/layoffs/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-10-24T10:30:45.338335Z",
-      "last_attempted": "2026-10-24T10:30:45.338335Z",
+      "last_ok": "2026-10-24T13:04:06.641764Z",
+      "last_attempted": "2026-10-24T13:04:06.641764Z",
       "record_count": 3,
       "ok": true,
       "errors": []
@@ -75,9 +75,9 @@
       "url": "https://news.google.com/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-10-24T10:30:45.962488Z",
-      "last_attempted": "2026-10-24T10:30:45.962488Z",
-      "record_count": 62,
+      "last_ok": "2026-10-24T13:04:07.056731Z",
+      "last_attempted": "2026-10-24T13:04:07.056731Z",
+      "record_count": 54,
       "ok": true,
       "errors": []
     },
@@ -87,8 +87,8 @@
       "url": "https://data.texas.gov/d/8w53-c4f6",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-10-24T10:30:49.108111Z",
-      "last_attempted": "2026-10-24T10:30:49.108111Z",
+      "last_ok": "2026-10-24T13:04:10.532028Z",
+      "last_attempted": "2026-10-24T13:04:10.532028Z",
       "record_count": 46,
       "ok": true,
       "errors": []
@@ -99,8 +99,8 @@
       "url": "https://techcrunch.com/category/venture/feed/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-10-24T10:30:51.117393Z",
-      "last_attempted": "2026-10-24T10:30:51.117393Z",
+      "last_ok": "2026-10-24T13:04:12.039888Z",
+      "last_attempted": "2026-10-24T13:04:12.039888Z",
       "record_count": 9,
       "ok": true,
       "errors": []
@@ -111,8 +111,8 @@
       "url": "https://efts.sec.gov/LATEST/search-index",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-10-24T10:30:51.769734Z",
-      "last_attempted": "2026-10-24T10:30:51.769734Z",
+      "last_ok": "2026-10-24T13:04:12.197995Z",
+      "last_attempted": "2026-10-24T13:04:12.197995Z",
       "record_count": 110,
       "ok": true,
       "errors": []
@@ -123,11 +123,13 @@
       "url": "https://www.bls.gov/oes/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-10-24T10:30:52.265541Z",
-      "last_attempted": "2026-10-24T10:30:52.265541Z",
-      "record_count": 24,
-      "ok": true,
-      "errors": []
+      "last_ok": null,
+      "last_attempted": "2026-10-24T13:04:12.636985Z",
+      "record_count": 0,
+      "ok": false,
+      "errors": [
+        "BLS API fetch: Server error '503 Service Unavailable' for url 'https://api.bls.gov/publicAPI/v2/timeseries/data/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503"
+      ]
     },
     {
       "source": "comp",
@@ -135,11 +137,13 @@
       "url": "https://www.bls.gov/ces/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-10-24T10:30:52.842629Z",
-      "last_attempted": "2026-10-24T10:30:52.842629Z",
-      "record_count": 48,
-      "ok": true,
-      "errors": []
+      "last_ok": null,
+      "last_attempted": "2026-10-24T13:04:12.873370Z",
+      "record_count": 0,
+      "ok": false,
+      "errors": [
+        "BLS comp API: Server error '503 Service Unavailable' for url 'https://api.bls.gov/publicAPI/v1/timeseries/data/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503"
+      ]
     },
     {
       "source": "fred",
@@ -147,632 +151,617 @@
       "url": "https://www.bls.gov/developers/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-10-24T10:30:53.079807Z",
-      "last_attempted": "2026-10-24T10:30:53.079807Z",
-      "record_count": 30,
-      "ok": true,
-      "errors": []
+      "last_ok": null,
+      "last_attempted": "2026-10-24T13:04:13.026257Z",
+      "record_count": 0,
+      "ok": false,
+      "errors": [
+        "BLS API: Server error '503 Service Unavailable' for url 'https://api.bls.gov/publicAPI/v1/timeseries/data/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503"
+      ]
     }
   ],
   "recent_signals": [
     {
-      "id": "f5116b9f3aa9fb9c",
-      "ts": "2026-10-24T06:30:04-04:00",
+      "id": "1b1bfa8ed026973b",
+      "ts": "2026-10-24T08:18:58-04:00",
       "source": "greenhouse",
-      "source_url": "https://boards.greenhouse.io/cloudflare/jobs/8055320?gh_jid=8055320",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8282760",
       "type": "posting",
       "company": {
-        "name": "Cloudflare",
+        "name": "Reddit",
         "ticker": null,
         "industry": null,
-        "sector": "Technology",
+        "sector": "Media",
         "hq_region": null,
         "size_band": "unknown"
       },
       "magnitude": null,
       "unit": "jobs",
-      "raw_text": "Cloudflare | Principal Software Engineer, Workers Deploy & Config | In-Office",
+      "raw_text": "Reddit | Analytics Engineer | Remote - United States",
       "tags": [
         "hiring",
         "greenhouse",
-        "technology",
-        "Software Engineering"
+        "media",
+        "Data / ML"
       ],
       "extras": {
-        "role": "Principal Software Engineer, Workers Deploy & Config",
-        "location": "In-Office",
-        "function": "Software Engineering",
-        "soc": "15-1252",
+        "role": "Analytics Engineer",
+        "location": "Remote - United States",
+        "function": "Data / ML",
+        "soc": "15-2051",
+        "seniority": "mid"
+      }
+    },
+    {
+      "id": "415b1c1cee58f1f4",
+      "ts": "2026-10-24T08:18:58-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8293700",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": "CA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Senior Client Partner, Mid-Market Sales (Goods) | San Francisco, CA",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "CA"
+      ],
+      "extras": {
+        "role": "Senior Client Partner, Mid-Market Sales (Goods)",
+        "location": "San Francisco, CA",
+        "seniority": "senior",
+        "remote": "onsite"
+      }
+    },
+    {
+      "id": "e012bb98d8713896",
+      "ts": "2026-10-24T08:18:57-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8075185",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Group Product Manager, Finance Technology | Remote - United States",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "Product"
+      ],
+      "extras": {
+        "role": "Group Product Manager, Finance Technology",
+        "location": "Remote - United States",
+        "function": "Product",
+        "soc": "11-2021",
+        "seniority": "manager"
+      }
+    },
+    {
+      "id": "f2dc88fc86a08852",
+      "ts": "2026-10-24T08:18:57-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/7330347",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Principal Data Scientist, Ads | Remote - United States",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "Data / ML"
+      ],
+      "extras": {
+        "role": "Principal Data Scientist, Ads",
+        "location": "Remote - United States",
+        "function": "Data / ML",
+        "soc": "15-2051",
         "seniority": "principal"
       }
     },
     {
-      "id": "3baf7ebaa5f6648b",
-      "ts": "2026-10-24T06:27:44-04:00",
+      "id": "980d3772e899f8fa",
+      "ts": "2026-10-24T08:18:57-04:00",
       "source": "greenhouse",
-      "source_url": "https://boards.greenhouse.io/cloudflare/jobs/7377424?gh_jid=7377424",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8289345",
       "type": "posting",
       "company": {
-        "name": "Cloudflare",
+        "name": "Reddit",
         "ticker": null,
         "industry": null,
-        "sector": "Technology",
+        "sector": "Media",
         "hq_region": null,
         "size_band": "unknown"
       },
       "magnitude": null,
       "unit": "jobs",
-      "raw_text": "Cloudflare | Software Engineer, Workers Deploy & Config | In-Office",
+      "raw_text": "Reddit | Principal Data Scientist, User Ecosystem | Remote - United States",
       "tags": [
         "hiring",
         "greenhouse",
-        "technology",
-        "Software Engineering"
-      ],
-      "extras": {
-        "role": "Software Engineer, Workers Deploy & Config",
-        "location": "In-Office",
-        "function": "Software Engineering",
-        "soc": "15-1252",
-        "seniority": "mid"
-      }
-    },
-    {
-      "id": "b0f1d34cdde4e06a",
-      "ts": "2026-10-24T06:20:58-04:00",
-      "source": "greenhouse",
-      "source_url": "https://boards.greenhouse.io/cloudflare/jobs/7764827?gh_jid=7764827",
-      "type": "posting",
-      "company": {
-        "name": "Cloudflare",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Cloudflare | Senior Systems Engineer, Workers AI | In-Office",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "Software Engineering"
-      ],
-      "extras": {
-        "role": "Senior Systems Engineer, Workers AI",
-        "location": "In-Office",
-        "function": "Software Engineering",
-        "soc": "15-1252",
-        "seniority": "senior",
-        "remote": "hybrid"
-      }
-    },
-    {
-      "id": "ed9341b33f2f77eb",
-      "ts": "2026-10-24T06:18:21-04:00",
-      "source": "greenhouse",
-      "source_url": "https://boards.greenhouse.io/cloudflare/jobs/7093840?gh_jid=7093840",
-      "type": "posting",
-      "company": {
-        "name": "Cloudflare",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Cloudflare | Senior Systems Engineer, Basin Pipelines | In-Office",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "Software Engineering"
-      ],
-      "extras": {
-        "role": "Senior Systems Engineer, Basin Pipelines",
-        "location": "In-Office",
-        "function": "Software Engineering",
-        "soc": "15-1252",
-        "seniority": "senior"
-      }
-    },
-    {
-      "id": "14f406c9f35a6183",
-      "ts": "2026-10-24T06:15:08-04:00",
-      "source": "greenhouse",
-      "source_url": "https://boards.greenhouse.io/cloudflare/jobs/8030240?gh_jid=8030240",
-      "type": "posting",
-      "company": {
-        "name": "Cloudflare",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Cloudflare | Senior Systems Engineer, Basin Platform | In-Office",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "Software Engineering"
-      ],
-      "extras": {
-        "role": "Senior Systems Engineer, Basin Platform",
-        "location": "In-Office",
-        "function": "Software Engineering",
-        "soc": "15-1252",
-        "seniority": "senior"
-      }
-    },
-    {
-      "id": "724e104f03c56545",
-      "ts": "2026-10-24T06:12:10-04:00",
-      "source": "greenhouse",
-      "source_url": "https://boards.greenhouse.io/cloudflare/jobs/7560174?gh_jid=7560174",
-      "type": "posting",
-      "company": {
-        "name": "Cloudflare",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Cloudflare | Senior Systems Engineer, AI Gateway | In-Office",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "Software Engineering"
-      ],
-      "extras": {
-        "role": "Senior Systems Engineer, AI Gateway",
-        "location": "In-Office",
-        "function": "Software Engineering",
-        "soc": "15-1252",
-        "seniority": "senior"
-      }
-    },
-    {
-      "id": "5b5fdb2075f9277c",
-      "ts": "2026-10-24T06:09:24-04:00",
-      "source": "greenhouse",
-      "source_url": "https://boards.greenhouse.io/cloudflare/jobs/6578726?gh_jid=6578726",
-      "type": "posting",
-      "company": {
-        "name": "Cloudflare",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Cloudflare | Senior Software Engineer, Workers Runtime | In-Office",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "Software Engineering"
-      ],
-      "extras": {
-        "role": "Senior Software Engineer, Workers Runtime",
-        "location": "In-Office",
-        "function": "Software Engineering",
-        "soc": "15-1252",
-        "seniority": "senior"
-      }
-    },
-    {
-      "id": "80a9f9f6edde765c",
-      "ts": "2026-10-24T06:05:54-04:00",
-      "source": "greenhouse",
-      "source_url": "https://boards.greenhouse.io/cloudflare/jobs/7276690?gh_jid=7276690",
-      "type": "posting",
-      "company": {
-        "name": "Cloudflare",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Cloudflare | Senior Software Engineer, R2 Metadata | Hybrid",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "Software Engineering"
-      ],
-      "extras": {
-        "role": "Senior Software Engineer, R2 Metadata",
-        "location": "Hybrid",
-        "function": "Software Engineering",
-        "soc": "15-1252",
-        "seniority": "senior"
-      }
-    },
-    {
-      "id": "2ea8818155beb840",
-      "ts": "2026-10-24T06:02:02-04:00",
-      "source": "greenhouse",
-      "source_url": "https://boards.greenhouse.io/cloudflare/jobs/5390243?gh_jid=5390243",
-      "type": "posting",
-      "company": {
-        "name": "Cloudflare",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Cloudflare | Senior Software Engineer, Durable Objects (DO) | In-Office",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "Software Engineering"
-      ],
-      "extras": {
-        "role": "Senior Software Engineer, Durable Objects (DO)",
-        "location": "In-Office",
-        "function": "Software Engineering",
-        "soc": "15-1252",
-        "seniority": "senior"
-      }
-    },
-    {
-      "id": "732853cfa403cde0",
-      "ts": "2026-10-24T05:58:32-04:00",
-      "source": "greenhouse",
-      "source_url": "https://boards.greenhouse.io/cloudflare/jobs/8269100?gh_jid=8269100",
-      "type": "posting",
-      "company": {
-        "name": "Cloudflare",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Cloudflare | Senior Software Engineer, Distributed Databases | Hybrid",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "Software Engineering"
-      ],
-      "extras": {
-        "role": "Senior Software Engineer, Distributed Databases",
-        "location": "Hybrid",
-        "function": "Software Engineering",
-        "soc": "15-1252",
-        "seniority": "senior"
-      }
-    },
-    {
-      "id": "dcc52ccdd7d40de8",
-      "ts": "2026-10-24T05:55:35-04:00",
-      "source": "greenhouse",
-      "source_url": "https://boards.greenhouse.io/cloudflare/jobs/8080780?gh_jid=8080780",
-      "type": "posting",
-      "company": {
-        "name": "Cloudflare",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Cloudflare | Senior Software Engineer, Cloudflare Queues | In-Office",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "Software Engineering"
-      ],
-      "extras": {
-        "role": "Senior Software Engineer, Cloudflare Queues",
-        "location": "In-Office",
-        "function": "Software Engineering",
-        "soc": "15-1252",
-        "seniority": "senior"
-      }
-    },
-    {
-      "id": "b8287af7ba086b3c",
-      "ts": "2026-10-24T05:54:40-04:00",
-      "source": "greenhouse",
-      "source_url": "https://boards.greenhouse.io/cloudflare/jobs/8016162?gh_jid=8016162",
-      "type": "posting",
-      "company": {
-        "name": "Cloudflare",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Cloudflare | Senior Software Engineer, Cloudflare Hyperdrive | In-Office",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "Software Engineering"
-      ],
-      "extras": {
-        "role": "Senior Software Engineer, Cloudflare Hyperdrive",
-        "location": "In-Office",
-        "function": "Software Engineering",
-        "soc": "15-1252",
-        "seniority": "senior"
-      }
-    },
-    {
-      "id": "b9a1c41c92e42909",
-      "ts": "2026-10-24T05:53:29-04:00",
-      "source": "greenhouse",
-      "source_url": "https://boards.greenhouse.io/cloudflare/jobs/8043974?gh_jid=8043974",
-      "type": "posting",
-      "company": {
-        "name": "Cloudflare",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Cloudflare | Senior Machine Learning Engineer | Hybrid",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
+        "media",
         "Data / ML"
       ],
       "extras": {
-        "role": "Senior Machine Learning Engineer",
-        "location": "Hybrid",
+        "role": "Principal Data Scientist, User Ecosystem",
+        "location": "Remote - United States",
         "function": "Data / ML",
         "soc": "15-2051",
-        "seniority": "senior",
-        "remote": "hybrid"
+        "seniority": "principal"
       }
     },
     {
-      "id": "236a709f96aec04e",
-      "ts": "2026-10-24T05:51:47-04:00",
+      "id": "79e9e0eaaabbc86e",
+      "ts": "2026-10-24T08:18:57-04:00",
       "source": "greenhouse",
-      "source_url": "https://boards.greenhouse.io/cloudflare/jobs/7629805?gh_jid=7629805",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8288965",
       "type": "posting",
       "company": {
-        "name": "Cloudflare",
+        "name": "Reddit",
         "ticker": null,
         "industry": null,
-        "sector": "Technology",
+        "sector": "Media",
         "hq_region": null,
         "size_band": "unknown"
       },
       "magnitude": null,
       "unit": "jobs",
-      "raw_text": "Cloudflare | Senior Infrastructure Engineer, Storage Platform | In-Office",
+      "raw_text": "Reddit | Senior Client Account Manager, Large Customer Sales (Financial Services) | Toronto, Canada",
       "tags": [
         "hiring",
         "greenhouse",
-        "technology",
-        "DevOps / SRE"
+        "media",
+        "Customer Success"
       ],
       "extras": {
-        "role": "Senior Infrastructure Engineer, Storage Platform",
-        "location": "In-Office",
-        "function": "DevOps / SRE",
-        "soc": "15-1244",
+        "role": "Senior Client Account Manager, Large Customer Sales (Financial Services)",
+        "location": "Toronto, Canada",
+        "function": "Customer Success",
+        "soc": "13-1161",
         "seniority": "senior"
       }
     },
     {
-      "id": "c93fa5e7ec7488fe",
-      "ts": "2026-10-24T05:50:09-04:00",
+      "id": "1e7f6935ac87b7fc",
+      "ts": "2026-10-24T08:18:57-04:00",
       "source": "greenhouse",
-      "source_url": "https://boards.greenhouse.io/cloudflare/jobs/6998777?gh_jid=6998777",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8301784",
       "type": "posting",
       "company": {
-        "name": "Cloudflare",
+        "name": "Reddit",
         "ticker": null,
         "industry": null,
-        "sector": "Technology",
+        "sector": "Media",
         "hq_region": null,
         "size_band": "unknown"
       },
       "magnitude": null,
       "unit": "jobs",
-      "raw_text": "Cloudflare | Senior Design Engineer | Hybrid",
+      "raw_text": "Reddit | Senior Forward Deployed Engineer (AI Enablement) | Remote - United States",
       "tags": [
         "hiring",
         "greenhouse",
-        "technology"
+        "media"
       ],
       "extras": {
-        "role": "Senior Design Engineer",
-        "location": "Hybrid",
+        "role": "Senior Forward Deployed Engineer (AI Enablement)",
+        "location": "Remote - United States",
         "seniority": "senior"
       }
     },
     {
-      "id": "79cdeff7b5c53e28",
-      "ts": "2026-10-24T03:48:27-04:00",
+      "id": "de42ad1ba3ed763b",
+      "ts": "2026-10-24T08:18:57-04:00",
       "source": "greenhouse",
-      "source_url": "https://boards.greenhouse.io/robinhood/jobs/8312485?t=gh_src=&gh_jid=8312485",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8077785",
       "type": "posting",
       "company": {
-        "name": "Robinhood",
+        "name": "Reddit",
         "ticker": null,
         "industry": null,
-        "sector": "Finance",
-        "hq_region": "IL",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Robinhood | Fraud Operations Program Manager | Chicago, IL; Denver, CO; Lake Mary, FL; Westlake, TX",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "finance",
-        "IL"
-      ],
-      "extras": {
-        "role": "Fraud Operations Program Manager",
-        "location": "Chicago, IL; Denver, CO; Lake Mary, FL; Westlake, TX",
-        "seniority": "manager"
-      }
-    },
-    {
-      "id": "9582d8ef8021b766",
-      "ts": "2026-10-24T02:38:13-04:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/anthropic/jobs/5161402008",
-      "type": "posting",
-      "company": {
-        "name": "Anthropic",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
+        "sector": "Media",
         "hq_region": "CA",
         "size_band": "unknown"
       },
       "magnitude": null,
       "unit": "jobs",
-      "raw_text": "Anthropic | Data Scientist, Growth | New York City, NY | Seattle, WA; San Francisco, CA",
+      "raw_text": "Reddit | Senior GTM Insights Automation Manager | Chicago, IL; Los Angeles, CA; New York City, NY; San Francisco, CA",
       "tags": [
         "hiring",
         "greenhouse",
-        "technology",
+        "media",
+        "CA"
+      ],
+      "extras": {
+        "role": "Senior GTM Insights Automation Manager",
+        "location": "Chicago, IL; Los Angeles, CA; New York City, NY; San Francisco, CA",
+        "seniority": "senior",
+        "stack": [
+          "go"
+        ]
+      }
+    },
+    {
+      "id": "73d47ad28c2dfe86",
+      "ts": "2026-10-24T08:18:57-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8130697",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": "CA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Senior Litigation Paralegal | San Francisco, CA",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
         "CA",
-        "Data / ML"
+        "Legal / Compliance"
       ],
       "extras": {
-        "role": "Data Scientist, Growth",
-        "location": "New York City, NY | Seattle, WA; San Francisco, CA",
-        "function": "Data / ML",
-        "soc": "15-2051",
-        "seniority": "mid"
+        "role": "Senior Litigation Paralegal",
+        "location": "San Francisco, CA",
+        "function": "Legal / Compliance",
+        "soc": "23-1011",
+        "seniority": "senior",
+        "remote": "hybrid"
       }
     },
     {
-      "id": "418b993559e4a044",
-      "ts": "2026-10-24T01:45:33-04:00",
+      "id": "02353e9cfaf1a5f2",
+      "ts": "2026-10-24T08:18:57-04:00",
       "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/anthropic/jobs/5448366008",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8316086",
       "type": "posting",
       "company": {
-        "name": "Anthropic",
+        "name": "Reddit",
         "ticker": null,
         "industry": null,
-        "sector": "Technology",
+        "sector": "Media",
         "hq_region": null,
         "size_band": "unknown"
       },
       "magnitude": null,
       "unit": "jobs",
-      "raw_text": "Anthropic | Enterprise Account Executive - Manufacturing Industries, Taiwan | Singapore",
+      "raw_text": "Reddit | Staff Machine Learning Engineer, Retrieval & Targeting | Remote - United States",
       "tags": [
         "hiring",
         "greenhouse",
-        "technology",
-        "Sales"
+        "media",
+        "Data / ML"
       ],
       "extras": {
-        "role": "Enterprise Account Executive - Manufacturing Industries, Taiwan",
-        "location": "Singapore",
-        "function": "Sales",
-        "soc": "41-3091",
-        "seniority": "mid",
+        "role": "Staff Machine Learning Engineer, Retrieval & Targeting",
+        "location": "Remote - United States",
+        "function": "Data / ML",
+        "soc": "15-2051",
+        "seniority": "staff"
+      }
+    },
+    {
+      "id": "423a2a42d8d780ee",
+      "ts": "2026-10-24T08:18:57-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8244067",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Strategic Finance Senior Manager | Remote - United States",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media"
+      ],
+      "extras": {
+        "role": "Strategic Finance Senior Manager",
+        "location": "Remote - United States",
+        "seniority": "senior"
+      }
+    },
+    {
+      "id": "96772d1486c437b8",
+      "ts": "2026-10-24T08:18:57-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8282187",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": "NY",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Technical Solutions Manager, App Ads | Chicago, IL; New York City, NY",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "NY"
+      ],
+      "extras": {
+        "role": "Technical Solutions Manager, App Ads",
+        "location": "Chicago, IL; New York City, NY",
+        "seniority": "manager",
         "stack": [
           "go"
         ]
       }
     },
     {
-      "id": "f164fd75b9dfd1bc",
-      "ts": "2026-10-24T01:00:42-04:00",
+      "id": "7cc5b98a6253378c",
+      "ts": "2026-10-24T08:18:57-04:00",
       "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/anthropic/jobs/5462761008",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8190630",
       "type": "posting",
       "company": {
-        "name": "Anthropic",
+        "name": "Reddit",
         "ticker": null,
         "industry": null,
-        "sector": "Technology",
-        "hq_region": "CA",
+        "sector": "Media",
+        "hq_region": null,
         "size_band": "unknown"
       },
       "magnitude": null,
       "unit": "jobs",
-      "raw_text": "Anthropic | Product Counsel | San Francisco, CA",
+      "raw_text": "Reddit | Trust and Safety Policy, Ads Policy,  Lead (Europe) | Remote - The Netherlands",
       "tags": [
         "hiring",
         "greenhouse",
-        "technology",
-        "CA"
+        "media"
       ],
       "extras": {
-        "role": "Product Counsel",
-        "location": "San Francisco, CA",
-        "seniority": "mid",
-        "stack": [
-          "go"
-        ]
+        "role": "Trust and Safety Policy, Ads Policy,  Lead (Europe)",
+        "location": "Remote - The Netherlands",
+        "seniority": "lead"
       }
     },
     {
-      "id": "e74ed76b3016afe2",
-      "ts": "2026-10-24T00:26:19-04:00",
+      "id": "40a7a68f5455d4a6",
+      "ts": "2026-10-24T08:18:57-04:00",
       "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/anthropic/jobs/5462881008",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8188275",
       "type": "posting",
       "company": {
-        "name": "Anthropic",
+        "name": "Reddit",
         "ticker": null,
         "industry": null,
-        "sector": "Technology",
-        "hq_region": "CA",
+        "sector": "Media",
+        "hq_region": null,
         "size_band": "unknown"
       },
       "magnitude": null,
       "unit": "jobs",
-      "raw_text": "Anthropic | Incident Manager, Safeguards | San Francisco, CA | New York City, NY | Washington, DC",
+      "raw_text": "Reddit | Trust and Safety Policy, Ads Policy,  Lead (Europe) | Remote - Ireland",
       "tags": [
         "hiring",
         "greenhouse",
-        "technology",
-        "CA"
+        "media"
       ],
       "extras": {
-        "role": "Incident Manager, Safeguards",
-        "location": "San Francisco, CA | New York City, NY | Washington, DC",
+        "role": "Trust and Safety Policy, Ads Policy,  Lead (Europe)",
+        "location": "Remote - Ireland",
+        "seniority": "lead"
+      }
+    },
+    {
+      "id": "4a1288e74b713133",
+      "ts": "2026-10-24T08:18:57-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8190627",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Trust and Safety Policy, Ads Policy,  Lead (Europe) | Remote - United Kingdom",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media"
+      ],
+      "extras": {
+        "role": "Trust and Safety Policy, Ads Policy,  Lead (Europe)",
+        "location": "Remote - United Kingdom",
+        "seniority": "lead"
+      }
+    },
+    {
+      "id": "1bd2913d36e5f2cf",
+      "ts": "2026-10-24T08:18:56-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8303790",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Client Account Manager, Mid-Market Sales (Goods) | Toronto, Canada",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "Customer Success"
+      ],
+      "extras": {
+        "role": "Client Account Manager, Mid-Market Sales (Goods)",
+        "location": "Toronto, Canada",
+        "function": "Customer Success",
+        "soc": "13-1161",
+        "seniority": "manager",
+        "remote": "onsite"
+      }
+    },
+    {
+      "id": "cc5f333da3aa80c4",
+      "ts": "2026-10-24T08:18:56-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8142128",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Director, Intellectual Property | Remote - United States",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "Engineering Management"
+      ],
+      "extras": {
+        "role": "Director, Intellectual Property",
+        "location": "Remote - United States",
+        "function": "Engineering Management",
+        "soc": "11-9041",
+        "seniority": "director"
+      }
+    },
+    {
+      "id": "cea18d90d504b8e2",
+      "ts": "2026-10-24T08:18:56-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8256326",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Engineering Manager, Knowledge Graph Platform | Remote - United States",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "Engineering Management"
+      ],
+      "extras": {
+        "role": "Engineering Manager, Knowledge Graph Platform",
+        "location": "Remote - United States",
+        "function": "Engineering Management",
+        "soc": "11-9041",
         "seniority": "manager"
+      }
+    },
+    {
+      "id": "52f05e90187b989d",
+      "ts": "2026-10-24T08:18:56-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8192369",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | International Payroll Analyst | Remote - United States",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media"
+      ],
+      "extras": {
+        "role": "International Payroll Analyst",
+        "location": "Remote - United States",
+        "seniority": "mid"
+      }
+    },
+    {
+      "id": "e24538f9f67c7f31",
+      "ts": "2026-10-24T08:18:56-04:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8234154",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | International Payroll Analyst | Remote - United Kingdom",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media"
+      ],
+      "extras": {
+        "role": "International Payroll Analyst",
+        "location": "Remote - United Kingdom",
+        "seniority": "mid"
       }
     },
     {
@@ -1849,29 +1838,6 @@
       }
     },
     {
-      "id": "4a40f6b6a0b7c8f5",
-      "ts": "2026-10-22T18:06:47Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQNFJpVWw5SzRXdTB0RU1yN2J3Zk1KNjgxcTFYaWo3Tmp5ZEZ2d0lodGkxQU1fWktJaWJvNm9TTGU0U2xmQ1lJa3U3dlh3RDhFVWdOZFpBbVpNc2w3QzFtZ3FfRTZhR0oycXNQMkFNc3hRbzRKVEt1WmtRSEY5MGlOLXdjLXhSRklBWWNHcA?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "UK's Barclays",
-        "ticker": null,
-        "industry": null,
-        "sector": "Finance",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": 5000.0,
-      "unit": "people",
-      "raw_text": "UK's Barclays to Cut 5,000 Jobs by 2026 Despite Profit Rise",
-      "tags": [
-        "layoff",
-        "finance"
-      ],
-      "extras": {}
-    },
-    {
       "id": "1682598a24195da0",
       "ts": "2026-10-22T16:25:18Z",
       "source": "news_layoffs",
@@ -1895,10 +1861,10 @@
       "extras": {}
     },
     {
-      "id": "456615b974740e31",
-      "ts": "2026-10-22T07:06:00Z",
+      "id": "1aa247828d8173e8",
+      "ts": "2026-10-22T07:49:50Z",
       "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOY0M5NjdCUG9YVkc4bHF6d3JVNFFHM0lDRHFMckE2UndYUG1pbXlxTS02MTkxamhZOW5uSVhuWWNhQUw3Q21ZUEoyM3NkSkROcUlJeVVkM2dndzBMWmpTakxYNmowdVhnTDdFTGUtb0R1U1Z2Z3lSLTc4dnlxNFF3RHNQbE90cVU2N1IxYUI0ekJmWjlncXlaeEJYTmJvVzV1akhOMmNEUmd3TGFhZE9OWFozOA?oc=5",
+      "source_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNMFdmd2g5N1RIS2VaNlUtVDJ1WGdEeXdRQVBGZUtLR2tTTGFRLXNDWFZKTkxNU1VVRExKN0tkdjZvSmx3OGU0WDhrak1fQ2tUd0tJcEhzRXJKZkM1ODhCNmE1SjhhSFF5TmJjaHR6V2xoU3NrTTZuN3FhcG5WUm9OQ1RFQWVpRGZKdmtGU0FpT05TZFBVOUNKU29nTWFYUFlGOU81OGk3alRRdkJEcDFtN1VKQ3FDWmxiSUFTRjdUaERnNTdHM2psTlNKYkxnU3PSAdQBQVVfeXFMUGNtV0NISU1nRlYwYmVERV9fS3QzVEJDa3VTX0p2X05CcTBqNzNjbHpHZUk0MDYzT1dESWdEN3Q3NmI5VVVOWmJQQU94VV9qOWRyU3N3ODBJTHJFZnlZNjlEWVQxQWwzTW9VTVBiZXhzclRMVHVIYjdZbzFWZmxicWlnNm9xOVhtQTZzTXVyemsyWkZaTW5YbGRFTTRaZWhaNlZLeDA3Q2c1U2dTUlhjUllUelFuZ3R5ZEFNVFEzVGpieGg1WHFfd3FJM01RQVZ2bEZLOUE?oc=5",
       "type": "layoff",
       "company": {
         "name": "Barclays",
@@ -1910,7 +1876,7 @@
       },
       "magnitude": 5000.0,
       "unit": "people",
-      "raw_text": "Barclays to cut 5,000 jobs as bank\u2019s bosses hail AI productivity advances",
+      "raw_text": "Barclays to cut 5,000 jobs, nearly 5% of workforce, as AI drives efficiency push",
       "tags": [
         "layoff",
         "finance"
@@ -2105,29 +2071,6 @@
       "extras": {}
     },
     {
-      "id": "c48e5076dda79595",
-      "ts": "2026-10-21T23:17:47Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxObmE3OE5yTVc2NnpSek1ZekV3bmNmNmY4MWRYQXFiTGFsSk1RZHNLZEhQeEZVQWIyaG5BenZZUzRVLUNNdVItMkU4Z1JudmJVRFhMN3FudEgyT3A0QU52UnJHU0pSQUJCemc0R2lRLXV2Y3BBWldJaWc4QUtrcG5FRVln?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "Westpac",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Westpac axes 140 more roles as Australia bank job cuts intensify",
-      "tags": [
-        "layoff",
-        "other"
-      ],
-      "extras": {}
-    },
-    {
       "id": "570952b7bfbb9475",
       "ts": "2026-10-21T19:52:00Z",
       "source": "news_layoffs",
@@ -2313,29 +2256,6 @@
       "extras": {}
     },
     {
-      "id": "78b151322927a164",
-      "ts": "2026-10-19T21:39:00Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPV1NXdDBPdHE1QktYQVlGcFhraENxRlVHbEFSczlSS1RrLUtVcmJWOTZaN0Q3azVjbnowbzg3ZFpHTTZsY3hSNlRHQklyV2tfZldwMFJpVVNkdjRsYzRCV2FHQmo2WkdXOTVRTGI1NWlHaFcyeDdySUhIMGJveGtjY0JydWdNRThLaUFtOE1qdDlHV3RWNGgxYXdwWlkxTVY2anhJRHBzalB5VVhPYXZXMG1RYk5zVzZ0c0xnNQ?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "National Australia Bank",
-        "ticker": null,
-        "industry": null,
-        "sector": "Finance",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": 2500.0,
-      "unit": "people",
-      "raw_text": "National Australia Bank to cut 2,500 jobs in cost overhaul as credit growth slows",
-      "tags": [
-        "layoff",
-        "finance"
-      ],
-      "extras": {}
-    },
-    {
       "id": "8821ca350d253ba8",
       "ts": "2026-10-16T19:54:00Z",
       "source": "news_layoffs",
@@ -2359,460 +2279,78 @@
       "extras": {}
     },
     {
-      "id": "14dbcac20686aa6f",
-      "ts": "2026-09-01T00:00:00Z",
-      "source": "comp",
-      "source_url": "https://data.bls.gov/timeseries/CES5000000003",
-      "type": "comp",
+      "id": "22339b5d65ad15bb",
+      "ts": "2026-10-16T07:00:00Z",
+      "source": "news_layoffs",
+      "source_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNSEhyWWpHUUc0ZmoyOXNnYS1sdHU4Z2RpbVcxdU45bkQ4RE11M0MtQVk2b29TSFFnV2NnSndMYmNpSmJNaGMzVTZwX0Vjc0hES3FQYlV2aDl3YU5FTnp2N2hRVFpWaXF3Z1A0RnJwVTNibF9QcER1QjBOOFlKTGdjZXpTVzZOYTBlY1ZGTl9GOEZyVS1KcUE?oc=5",
+      "type": "layoff",
       "company": {
-        "name": "Information",
+        "name": "Metro Detroit Automotive Supplier",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": "MI",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Metro Detroit Automotive Supplier Announces Layoffs",
+      "tags": [
+        "layoff",
+        "other",
+        "MI"
+      ],
+      "extras": {}
+    },
+    {
+      "id": "25f29009f5c6bfb0",
+      "ts": "2026-10-15T10:44:03Z",
+      "source": "news_layoffs",
+      "source_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPY29yYWJMdEdNUkljaVlEZ0l2cXB0bzdVTGZFMVRzWGZkLVhOUy05bFNZSTFON2k0bzIwQVlVZlppVm0wLWZycUhXTDlkdWRtSWJxckQxWW1Xb2Y0Ti1tTUNkRThVT3kwQzd4cGl5empUeVFrWGJrQ0JTT0Q0RExiR3g4ZVlkUDgtRTV6YlpFX0liMmxYV3AyOGJwQzZaYnM3S0h2cXVYLUFzTjlYOEJfOTJhQU03Mk1kSEdkMQ?oc=5",
+      "type": "layoff",
+      "company": {
+        "name": "Watch David Asman",
         "ticker": null,
         "industry": null,
         "sector": "Other",
         "hq_region": null,
         "size_band": "unknown"
       },
-      "magnitude": 56.08,
-      "unit": "USD/hr",
-      "raw_text": "Information: $56.08/hr avg earnings (Sep 2026)",
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Watch David Asman reports on Bank of America penalties and Netflix layoffs - Fox Weather First",
       "tags": [
-        "comp",
-        "bls_ces",
-        "ces5000000003"
+        "layoff",
+        "other"
       ],
       "extras": {}
     },
     {
-      "id": "308a59a4215a181d",
-      "ts": "2026-09-01T00:00:00Z",
-      "source": "comp",
-      "source_url": "https://data.bls.gov/timeseries/CES5500000003",
-      "type": "comp",
+      "id": "2653982d4237fb90",
+      "ts": "2026-10-15T07:57:36Z",
+      "source": "news_layoffs",
+      "source_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPSE5tM1R3MU1HdGFoZzNHRzhpb016OWxHaVRmS0VkOWxuYlJxTFhLaWwwN3d4YmlWNUtyQTI3TkdZSGt6X2ljMVZtUW9GaUVvLS16c0NQczNOMVFyWkszT0pEVk5ZVlRPb3F2TTNGd3BNRUd1YzRpRV9UdjNsR2JHU19MelliWE1yc01ubmF5VFZfcTlrbFRkcXRLbXpBV0s1NDR1ejJDRUsxVFRoeHJjLUNKV0JrS1NNQXRqampVdw?oc=5",
+      "type": "layoff",
       "company": {
-        "name": "Financial Activities",
+        "name": "Universal Music Group",
         "ticker": null,
         "industry": null,
         "sector": "Other",
         "hq_region": null,
         "size_band": "unknown"
       },
-      "magnitude": 49.75,
-      "unit": "USD/hr",
-      "raw_text": "Financial Activities: $49.75/hr avg earnings (Sep 2026)",
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Universal Music Group announces fresh layoffs amid $270 million cost-cutting programme",
       "tags": [
-        "comp",
-        "bls_ces",
-        "ces5500000003"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "ff3e91b03d31d92c",
-      "ts": "2026-09-01T00:00:00Z",
-      "source": "comp",
-      "source_url": "https://data.bls.gov/timeseries/CES6000000003",
-      "type": "comp",
-      "company": {
-        "name": "Professional & Business Services",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": 46.03,
-      "unit": "USD/hr",
-      "raw_text": "Professional & Business Services: $46.03/hr avg earnings (Sep 2026)",
-      "tags": [
-        "comp",
-        "bls_ces",
-        "ces6000000003"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "cf5b3bb8bad4db8c",
-      "ts": "2026-09-01T00:00:00Z",
-      "source": "comp",
-      "source_url": "https://data.bls.gov/timeseries/CES6500000003",
-      "type": "comp",
-      "company": {
-        "name": "Education & Health Services",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": 36.44,
-      "unit": "USD/hr",
-      "raw_text": "Education & Health Services: $36.44/hr avg earnings (Sep 2026)",
-      "tags": [
-        "comp",
-        "bls_ces",
-        "ces6500000003"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "05046a5e59a22c6e",
-      "ts": "2026-09-01T00:00:00Z",
-      "source": "comp",
-      "source_url": "https://data.bls.gov/timeseries/CES3000000003",
-      "type": "comp",
-      "company": {
-        "name": "Manufacturing",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": 36.92,
-      "unit": "USD/hr",
-      "raw_text": "Manufacturing: $36.92/hr avg earnings (Sep 2026)",
-      "tags": [
-        "comp",
-        "bls_ces",
-        "ces3000000003"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "52ed510205ff3390",
-      "ts": "2026-09-01T00:00:00Z",
-      "source": "comp",
-      "source_url": "https://data.bls.gov/timeseries/CES4000000003",
-      "type": "comp",
-      "company": {
-        "name": "Trade, Transport & Utilities",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": 32.09,
-      "unit": "USD/hr",
-      "raw_text": "Trade, Transport & Utilities: $32.09/hr avg earnings (Sep 2026)",
-      "tags": [
-        "comp",
-        "bls_ces",
-        "ces4000000003"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "5bbdf420c4b89cff",
-      "ts": "2026-09-01T00:00:00Z",
-      "source": "comp",
-      "source_url": "https://data.bls.gov/timeseries/CES7000000003",
-      "type": "comp",
-      "company": {
-        "name": "Leisure & Hospitality",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": 23.9,
-      "unit": "USD/hr",
-      "raw_text": "Leisure & Hospitality: $23.90/hr avg earnings (Sep 2026)",
-      "tags": [
-        "comp",
-        "bls_ces",
-        "ces7000000003"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "0e78e520df1a6370",
-      "ts": "2026-09-01T00:00:00Z",
-      "source": "comp",
-      "source_url": "https://data.bls.gov/timeseries/CES0500000003",
-      "type": "comp",
-      "company": {
-        "name": "All Private (US avg)",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": 37.81,
-      "unit": "USD/hr",
-      "raw_text": "All Private (US avg): $37.81/hr avg earnings (Sep 2026)",
-      "tags": [
-        "comp",
-        "bls_ces",
-        "ces0500000003"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "f2713062ba382fed",
-      "ts": "2026-09-01T00:00:00Z",
-      "source": "fred",
-      "source_url": "https://fred.stlouisfed.org/series/LNS14000000",
-      "type": "macro",
-      "company": null,
-      "magnitude": 4.2,
-      "unit": "pp",
-      "raw_text": "US Unemployment Rate (%): 4.2",
-      "tags": [
-        "macro",
-        "fred",
-        "lns14000000"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "90984422b0de9cec",
-      "ts": "2026-09-01T00:00:00Z",
-      "source": "fred",
-      "source_url": "https://fred.stlouisfed.org/series/CES0500000003",
-      "type": "macro",
-      "company": null,
-      "magnitude": 37.81,
-      "unit": "USD/hr",
-      "raw_text": "Private Sector Avg Hourly Earnings ($): 37.81",
-      "tags": [
-        "macro",
-        "fred",
-        "ces0500000003"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "017ecc6bf639813d",
-      "ts": "2026-08-01T00:00:00Z",
-      "source": "comp",
-      "source_url": "https://data.bls.gov/timeseries/CES5000000003",
-      "type": "comp",
-      "company": {
-        "name": "Information",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": 55.58,
-      "unit": "USD/hr",
-      "raw_text": "Information: $55.58/hr avg earnings (Aug 2026)",
-      "tags": [
-        "comp",
-        "bls_ces",
-        "ces5000000003"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "286254ee9843bfae",
-      "ts": "2026-08-01T00:00:00Z",
-      "source": "comp",
-      "source_url": "https://data.bls.gov/timeseries/CES5500000003",
-      "type": "comp",
-      "company": {
-        "name": "Financial Activities",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": 49.81,
-      "unit": "USD/hr",
-      "raw_text": "Financial Activities: $49.81/hr avg earnings (Aug 2026)",
-      "tags": [
-        "comp",
-        "bls_ces",
-        "ces5500000003"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "e9c6d30c5e96f9f8",
-      "ts": "2026-08-01T00:00:00Z",
-      "source": "comp",
-      "source_url": "https://data.bls.gov/timeseries/CES6000000003",
-      "type": "comp",
-      "company": {
-        "name": "Professional & Business Services",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": 45.81,
-      "unit": "USD/hr",
-      "raw_text": "Professional & Business Services: $45.81/hr avg earnings (Aug 2026)",
-      "tags": [
-        "comp",
-        "bls_ces",
-        "ces6000000003"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "e5d53db299ed21a3",
-      "ts": "2026-08-01T00:00:00Z",
-      "source": "comp",
-      "source_url": "https://data.bls.gov/timeseries/CES6500000003",
-      "type": "comp",
-      "company": {
-        "name": "Education & Health Services",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": 36.39,
-      "unit": "USD/hr",
-      "raw_text": "Education & Health Services: $36.39/hr avg earnings (Aug 2026)",
-      "tags": [
-        "comp",
-        "bls_ces",
-        "ces6500000003"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "2073444d40f52b55",
-      "ts": "2026-08-01T00:00:00Z",
-      "source": "comp",
-      "source_url": "https://data.bls.gov/timeseries/CES3000000003",
-      "type": "comp",
-      "company": {
-        "name": "Manufacturing",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": 36.9,
-      "unit": "USD/hr",
-      "raw_text": "Manufacturing: $36.90/hr avg earnings (Aug 2026)",
-      "tags": [
-        "comp",
-        "bls_ces",
-        "ces3000000003"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "6c5e7b04640ae55a",
-      "ts": "2026-08-01T00:00:00Z",
-      "source": "comp",
-      "source_url": "https://data.bls.gov/timeseries/CES4000000003",
-      "type": "comp",
-      "company": {
-        "name": "Trade, Transport & Utilities",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": 32.07,
-      "unit": "USD/hr",
-      "raw_text": "Trade, Transport & Utilities: $32.07/hr avg earnings (Aug 2026)",
-      "tags": [
-        "comp",
-        "bls_ces",
-        "ces4000000003"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "51527e10dd8f8dad",
-      "ts": "2026-08-01T00:00:00Z",
-      "source": "comp",
-      "source_url": "https://data.bls.gov/timeseries/CES7000000003",
-      "type": "comp",
-      "company": {
-        "name": "Leisure & Hospitality",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": 23.76,
-      "unit": "USD/hr",
-      "raw_text": "Leisure & Hospitality: $23.76/hr avg earnings (Aug 2026)",
-      "tags": [
-        "comp",
-        "bls_ces",
-        "ces7000000003"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "8a01c52f405c1f25",
-      "ts": "2026-08-01T00:00:00Z",
-      "source": "comp",
-      "source_url": "https://data.bls.gov/timeseries/CES0500000003",
-      "type": "comp",
-      "company": {
-        "name": "All Private (US avg)",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": 37.76,
-      "unit": "USD/hr",
-      "raw_text": "All Private (US avg): $37.76/hr avg earnings (Aug 2026)",
-      "tags": [
-        "comp",
-        "bls_ces",
-        "ces0500000003"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "2794fc68fb174b8e",
-      "ts": "2026-08-01T00:00:00Z",
-      "source": "fred",
-      "source_url": "https://fred.stlouisfed.org/series/LNS14000000",
-      "type": "macro",
-      "company": null,
-      "magnitude": 4.1,
-      "unit": "pp",
-      "raw_text": "US Unemployment Rate (%): 4.1",
-      "tags": [
-        "macro",
-        "fred",
-        "lns14000000"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "7f8054791b32ca3a",
-      "ts": "2026-08-01T00:00:00Z",
-      "source": "fred",
-      "source_url": "https://fred.stlouisfed.org/series/JTS000000000000000JOR",
-      "type": "macro",
-      "company": null,
-      "magnitude": 4.3,
-      "unit": "pp",
-      "raw_text": "JOLTS: Job Openings Rate (%): 4.3",
-      "tags": [
-        "macro",
-        "fred",
-        "jts000000000000000jor"
+        "layoff",
+        "other"
       ],
       "extras": {}
     }
   ],
   "sector_matrix": {
-    "generated_at": "2026-10-24T10:30:04.056661Z",
+    "generated_at": "2026-10-24T13:02:51.446100Z",
     "cells": [
       {
         "sector": "Technology",
@@ -2826,8 +2364,8 @@
       {
         "sector": "Technology",
         "signal_type": "posting",
-        "count_7d": 1551,
-        "count_30d": 2319,
+        "count_7d": 1550,
+        "count_30d": 2317,
         "magnitude_7d": null,
         "magnitude_30d": null,
         "z_score": 43.41
@@ -2862,11 +2400,11 @@
       {
         "sector": "Finance",
         "signal_type": "layoff",
-        "count_7d": 5,
-        "count_30d": 5,
-        "magnitude_7d": 16001.0,
+        "count_7d": 3,
+        "count_30d": 3,
+        "magnitude_7d": 8501.0,
         "magnitude_30d": null,
-        "z_score": 3.55
+        "z_score": 2.3
       },
       {
         "sector": "Finance",
@@ -2961,11 +2499,11 @@
       {
         "sector": "CPG",
         "signal_type": "posting",
-        "count_7d": 2,
-        "count_30d": 9,
+        "count_7d": 3,
+        "count_30d": 10,
         "magnitude_7d": null,
         "magnitude_30d": null,
-        "z_score": -0.07
+        "z_score": 0.44
       },
       {
         "sector": "CPG",
@@ -3357,20 +2895,20 @@
     ]
   },
   "layoff_pulse": {
-    "events_7d": 19,
-    "events_30d": 35,
+    "events_7d": 16,
+    "events_30d": 32,
     "events_prev_30d": 0,
-    "companies_30d": 25,
-    "disclosed_jobs_30d": 29685,
-    "disclosed_events_30d": 16,
+    "companies_30d": 23,
+    "disclosed_jobs_30d": 22185,
+    "disclosed_events_30d": 14,
     "warn_events_30d": 0,
     "warn_events_total": 46,
     "top_events": [
       {
-        "id": "456615b974740e31",
-        "ts": "2026-10-22T07:06:00Z",
+        "id": "1aa247828d8173e8",
+        "ts": "2026-10-22T07:49:50Z",
         "source": "news_layoffs",
-        "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOY0M5NjdCUG9YVkc4bHF6d3JVNFFHM0lDRHFMckE2UndYUG1pbXlxTS02MTkxamhZOW5uSVhuWWNhQUw3Q21ZUEoyM3NkSkROcUlJeVVkM2dndzBMWmpTakxYNmowdVhnTDdFTGUtb0R1U1Z2Z3lSLTc4dnlxNFF3RHNQbE90cVU2N1IxYUI0ekJmWjlncXlaeEJYTmJvVzV1akhOMmNEUmd3TGFhZE9OWFozOA?oc=5",
+        "source_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNMFdmd2g5N1RIS2VaNlUtVDJ1WGdEeXdRQVBGZUtLR2tTTGFRLXNDWFZKTkxNU1VVRExKN0tkdjZvSmx3OGU0WDhrak1fQ2tUd0tJcEhzRXJKZkM1ODhCNmE1SjhhSFF5TmJjaHR6V2xoU3NrTTZuN3FhcG5WUm9OQ1RFQWVpRGZKdmtGU0FpT05TZFBVOUNKU29nTWFYUFlGOU81OGk3alRRdkJEcDFtN1VKQ3FDWmxiSUFTRjdUaERnNTdHM2psTlNKYkxnU3PSAdQBQVVfeXFMUGNtV0NISU1nRlYwYmVERV9fS3QzVEJDa3VTX0p2X05CcTBqNzNjbHpHZUk0MDYzT1dESWdEN3Q3NmI5VVVOWmJQQU94VV9qOWRyU3N3ODBJTHJFZnlZNjlEWVQxQWwzTW9VTVBiZXhzclRMVHVIYjdZbzFWZmxicWlnNm9xOVhtQTZzTXVyemsyWkZaTW5YbGRFTTRaZWhaNlZLeDA3Q2c1U2dTUlhjUllUelFuZ3R5ZEFNVFEzVGpieGg1WHFfd3FJM01RQVZ2bEZLOUE?oc=5",
         "type": "layoff",
         "company": {
           "name": "Barclays",
@@ -3382,30 +2920,7 @@
         },
         "magnitude": 5000.0,
         "unit": "people",
-        "raw_text": "Barclays to cut 5,000 jobs as bank\u2019s bosses hail AI productivity advances",
-        "tags": [
-          "layoff",
-          "finance"
-        ],
-        "extras": {}
-      },
-      {
-        "id": "4a40f6b6a0b7c8f5",
-        "ts": "2026-10-22T18:06:47Z",
-        "source": "news_layoffs",
-        "source_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQNFJpVWw5SzRXdTB0RU1yN2J3Zk1KNjgxcTFYaWo3Tmp5ZEZ2d0lodGkxQU1fWktJaWJvNm9TTGU0U2xmQ1lJa3U3dlh3RDhFVWdOZFpBbVpNc2w3QzFtZ3FfRTZhR0oycXNQMkFNc3hRbzRKVEt1WmtRSEY5MGlOLXdjLXhSRklBWWNHcA?oc=5",
-        "type": "layoff",
-        "company": {
-          "name": "UK's Barclays",
-          "ticker": null,
-          "industry": null,
-          "sector": "Finance",
-          "hq_region": null,
-          "size_band": "unknown"
-        },
-        "magnitude": 5000.0,
-        "unit": "people",
-        "raw_text": "UK's Barclays to Cut 5,000 Jobs by 2026 Despite Profit Rise",
+        "raw_text": "Barclays to cut 5,000 jobs, nearly 5% of workforce, as AI drives efficiency push",
         "tags": [
           "layoff",
           "finance"
@@ -3482,29 +2997,6 @@
         "extras": {}
       },
       {
-        "id": "78b151322927a164",
-        "ts": "2026-10-19T21:39:00Z",
-        "source": "news_layoffs",
-        "source_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPV1NXdDBPdHE1QktYQVlGcFhraENxRlVHbEFSczlSS1RrLUtVcmJWOTZaN0Q3azVjbnowbzg3ZFpHTTZsY3hSNlRHQklyV2tfZldwMFJpVVNkdjRsYzRCV2FHQmo2WkdXOTVRTGI1NWlHaFcyeDdySUhIMGJveGtjY0JydWdNRThLaUFtOE1qdDlHV3RWNGgxYXdwWlkxTVY2anhJRHBzalB5VVhPYXZXMG1RYk5zVzZ0c0xnNQ?oc=5",
-        "type": "layoff",
-        "company": {
-          "name": "National Australia Bank",
-          "ticker": null,
-          "industry": null,
-          "sector": "Finance",
-          "hq_region": null,
-          "size_band": "unknown"
-        },
-        "magnitude": 2500.0,
-        "unit": "people",
-        "raw_text": "National Australia Bank to cut 2,500 jobs in cost overhaul as credit growth slows",
-        "tags": [
-          "layoff",
-          "finance"
-        ],
-        "extras": {}
-      },
-      {
         "id": "dc01963ae19c9c85",
         "ts": "2026-10-20T00:58:00Z",
         "source": "news_layoffs",
@@ -3528,10 +3020,10 @@
         "extras": {}
       },
       {
-        "id": "ab62d3c7d35ba1cf",
+        "id": "52aa0ff6021ac3ac",
         "ts": "2026-10-14T07:00:00Z",
         "source": "news_layoffs",
-        "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbzByckpzbzdQSlowdE1Lb3drNkFxMDIwTFJLT19wLVlMRXV4N1cxX0phU2psVlBCc2lrbWQ0RmF5SlBzSjh2Mko1SzFPTWY0clZPV3Z2TmlsdTd1cE9CSmxQVzVIdGNTblFjb0xvSkRkY0JfZzdlQ1NfY2gzNllOdng2Zy04blNuU0hVYl9SM0pROFcxZUtYTFNhQmRRSU4ySlQwY2ZoZUNfQQ?oc=5",
+        "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPYlQzNlI5V295S2RKOC1ScFRLMTdLQUxwWVBLTVdGLWNnc1ZoN3FKa0I1RUpCTFdRVHN0Yk9tZ2FJQTRCSF82VU93WnNCTmRXamNVQnJtVDE3UmNzSnF5bWVrcEVYVFJuQ0NraGIwaUctc19Ba2V5bUkyRHA1WkRvRmZYaWdNWkZkNld3TlMwRzFIR1lMck9uRmRUeVFneDNYbFZzMtIBqgFBVV95cUxNeXVUNkt5ZlJRcDV2Qk5JeDRGdVE1VC1xNDJMWmcwaXZnM2VJcldLVkVxdkwyNUVHeVZhNVFpSmpSN1dMTzFpU3dpTzkwQzNkNWRPUVpLTVpVTzU1Wm1BTHFtVFVUQzh1NlZDenY1MW4zWHRxZnQybmxUQldnZjNUVl8yb0ZEYXI0ZHpDLTBPUmtSWkhBc2UwcC1IVWNvTWdKajB2Sm5TS1dzZw?oc=5",
         "type": "layoff",
         "company": {
           "name": "Netflix",
@@ -3543,20 +3035,66 @@
         },
         "magnitude": 1000.0,
         "unit": "people",
-        "raw_text": "Netflix Eliminates About 1,000 Jobs in Biggest Cuts Since 2022",
+        "raw_text": "Netflix to cut 1,000 jobs in biggest layoffs since 2022",
         "tags": [
           "layoff",
           "media"
         ],
         "extras": {}
+      },
+      {
+        "id": "0568844458971425",
+        "ts": "2026-10-09T07:00:00Z",
+        "source": "news_layoffs",
+        "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRko1djdTWmx4cmh6bVpqNlB2Rko4VHk1SkxWWDdCUkZlLW1Sb09FempKc0NHZl9EYUZpTHVKZ0pfdmlVLUluRE9jcjhzbFQxOHhNOEVCSmFxd211MFdUNnQzTElGWWNWc0ctTk9jNGZ5SU05dVp5Vlh0ZnJ6QnlnZEtpZVdQdFpwMWU0dzdFWDRHR0N2bjkwSXNSWQ?oc=5",
+        "type": "layoff",
+        "company": {
+          "name": "Amazon Reportedly",
+          "ticker": null,
+          "industry": null,
+          "sector": "Retail",
+          "hq_region": null,
+          "size_band": "unknown"
+        },
+        "magnitude": 1000.0,
+        "unit": "people",
+        "raw_text": "Amazon Reportedly Cuts Fewer Than 1,000 Jobs Across US, India and UK As Fresh Layoffs Hit Retail, Customer Service and Engineering Teams",
+        "tags": [
+          "layoff",
+          "retail"
+        ],
+        "extras": {}
+      },
+      {
+        "id": "a8b74bfc67c395db",
+        "ts": "2026-10-08T07:00:00Z",
+        "source": "news_layoffs",
+        "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPMTItaTRTVWpOWHptYjlPLUp5U0UwRkZtazhFVUhSUzYxMVlfNkVmUUJRcVZUMHMyVWhNb0w4MEZPSjIwaUM0YjNjajVnYkVBbDI2cHpuZTNzRU9mLTR0YVd6Uy1nNTR4MnYwUEFCR0UtS28wUm45NlVCTmRFVTE0YkZxM1N2S1M3aG4yOXk3bTFwSDBkSEw2SDM0QnNaN0s5b3hnTERqU21RRDF4SmF3X1FDV3Q1TlBIenfSAb8BQVVfeXFMTjR3VDZkZmpYb19ReFpkMkhhVVZOVHh2UnR6cWNUQWpicDhmSUpSOVZ0bS1mMmt0RGEtS3hySlQ1ZTJGWW9FRXBUb212RnRKczZ3SWRmVEtpUEtNdVljWkhMRHVqN3JjVWVfNUtCQUJfbnhIblpsM1oySFNLZ05Pcks3ZnptUHV6ZDBqQk53a1ljRUV3NVlTaDF1NlJxRGo3NGNqaWh2ZXBXQURsQ0VHN1BsSWJNMXRiUnFOdjhmSmM?oc=5",
+        "type": "layoff",
+        "company": {
+          "name": "Amazon",
+          "ticker": null,
+          "industry": null,
+          "sector": "Retail",
+          "hq_region": null,
+          "size_band": "unknown"
+        },
+        "magnitude": 1000.0,
+        "unit": "people",
+        "raw_text": "Amazon to cut nearly 1,000 white-collar jobs across stores division and other units: report",
+        "tags": [
+          "layoff",
+          "retail"
+        ],
+        "extras": {}
       }
     ],
     "by_sector_30d": {
-      "Other": 12,
+      "Other": 11,
       "Retail": 9,
-      "Finance": 5,
       "Healthcare": 4,
       "Media": 3,
+      "Finance": 3,
       "Technology": 2
     }
   }
