@@ -1,19 +1,19 @@
 {
   "stream": "layoffs",
-  "generated_at": "2026-10-25T20:32:44.736529+00:00",
-  "total": 79,
-  "showing": 79,
+  "generated_at": "2026-10-26T03:48:06.009652+00:00",
+  "total": 80,
+  "showing": 80,
   "source_counts": {
     "state_warn": 46,
-    "news_layoffs": 30,
+    "news_layoffs": 31,
     "layoffs_fyi": 3
   },
   "sector_counts": {
-    "Other": 32,
+    "Other": 33,
     "Retail": 11,
+    "Logistics": 7,
     "Hospitality": 7,
-    "Healthcare": 6,
-    "Logistics": 6,
+    "Healthcare": 5,
     "Finance": 4,
     "Technology": 3,
     "Media": 3,
@@ -23,6 +23,29 @@
     "Manufacturing": 1
   },
   "events": [
+    {
+      "id": "d2f60364efc5b4f9",
+      "ts": "2026-10-25T02:01:13Z",
+      "source": "news_layoffs",
+      "source_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOTm1pUUJfZGJhN0JweGhOZ2tHLXAyRXJwWTdsanpTNXNGSEdHQ21XUG9iYlRCbFdXaXloS0hNd09qdy1CQjhvb2VmeTE0Z1dEaC15blRTc0Y0QTJNUjdqQ3lkU0VBQ05memo3Q3ZKN1dZVzNPV0NBRmdXVmNuTm92al9hdFVvX0R0cWV2aFR2SQ?oc=5",
+      "type": "layoff",
+      "company": {
+        "name": "Freightliner",
+        "ticker": null,
+        "industry": null,
+        "sector": "Logistics",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Freightliner to Cut Output, Predicts 25% Drop in Sales",
+      "tags": [
+        "layoff",
+        "logistics"
+      ],
+      "extras": {}
+    },
     {
       "id": "e9619b28db2540f4",
       "ts": "2026-10-24T12:46:44Z",
@@ -211,30 +234,6 @@
       "extras": {}
     },
     {
-      "id": "78b51191bbafafed",
-      "ts": "2026-10-21T22:01:58Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPNVJGM3A1WXBjMF9rbFNYRTRYQmJsamRYcmc2Z2FLQXF4cEx5RUxGRXlWWW9Wd3h4Uy1ydk53VGVTWHNKQ3UzQVlvZndJX204MWhzQjJsUXRUTHA1amhzOXRFblp6c2hORzNPeXppZThndExodVdzTEZKNEpUc1NwSnpjUzNwakdhcXp1anh3Y09vc0M3N0loZ1FycDI2OGxk?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "Pfizer",
-        "ticker": null,
-        "industry": null,
-        "sector": "Healthcare",
-        "hq_region": "NC",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Pfizer announces layoffs at NC facilities, leaving workers and local leaders seeking answers",
-      "tags": [
-        "layoff",
-        "healthcare",
-        "NC"
-      ],
-      "extras": {}
-    },
-    {
       "id": "570952b7bfbb9475",
       "ts": "2026-10-21T19:52:00Z",
       "source": "news_layoffs",
@@ -373,6 +372,29 @@
       "extras": {}
     },
     {
+      "id": "dc01963ae19c9c85",
+      "ts": "2026-10-20T00:58:00Z",
+      "source": "news_layoffs",
+      "source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOekgxUnJfZFhYcldoMTdpOGZ0Q1FtY3pUeXJ6ZEFQYjIwOF9SNlNrVENuTFBqZzBHamxqRmVzcXpoSG90STJ0UkQ5ZmFueUsxakJHWXFpNmptTGZVckU4N0dvbTdjcE53dEdUTDdBM2hqWnZUMzZ6S2oyanJ5cDJUQklEazNsUmZqcmdQSGNlR21DMTcz?oc=5",
+      "type": "layoff",
+      "company": {
+        "name": "NAB",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": 2500.0,
+      "unit": "people",
+      "raw_text": "NAB to cut 2,500 jobs in massive restructure",
+      "tags": [
+        "layoff",
+        "other"
+      ],
+      "extras": {}
+    },
+    {
       "id": "8821ca350d253ba8",
       "ts": "2026-10-16T07:00:00Z",
       "source": "news_layoffs",
@@ -419,10 +441,10 @@
       "extras": {}
     },
     {
-      "id": "ab62d3c7d35ba1cf",
+      "id": "2b8a57aa9c0c7f5b",
       "ts": "2026-10-15T07:00:00Z",
       "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbzByckpzbzdQSlowdE1Lb3drNkFxMDIwTFJLT19wLVlMRXV4N1cxX0phU2psVlBCc2lrbWQ0RmF5SlBzSjh2Mko1SzFPTWY0clZPV3Z2TmlsdTd1cE9CSmxQVzVIdGNTblFjb0xvSkRkY0JfZzdlQ1NfY2gzNllOdng2Zy04blNuU0hVYl9SM0pROFcxZUtYTFNhQmRRSU4ySlQwY2ZoZUNfQQ?oc=5",
+      "source_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB6RDIxbnoyLVdvUmpHLWE3V3AyUV8weVBlRVhna1pqN216NVc5ZVQzWVNWb0cxZkp1cXZBcTRJVEdRcEtrZFhmdWJLeXd0c1hKcFdENTd1RmNmWmJRUjJSaHMyYXM0UQ?oc=5",
       "type": "layoff",
       "company": {
         "name": "Netflix",
@@ -434,7 +456,7 @@
       },
       "magnitude": 1000.0,
       "unit": "people",
-      "raw_text": "Netflix Eliminates About 1,000 Jobs in Biggest Cuts Since 2022",
+      "raw_text": "Netflix cuts about 1,000 employees; CEOs announced layoffs on 14th",
       "tags": [
         "layoff",
         "media"
