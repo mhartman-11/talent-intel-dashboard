@@ -1,21 +1,21 @@
 {
   "stream": "layoffs",
-  "generated_at": "2026-10-29T12:30:07.207726+00:00",
-  "total": 78,
-  "showing": 78,
+  "generated_at": "2026-10-29T15:48:00.866468+00:00",
+  "total": 85,
+  "showing": 85,
   "source_counts": {
     "state_warn": 45,
-    "news_layoffs": 30,
+    "news_layoffs": 37,
     "layoffs_fyi": 3
   },
   "sector_counts": {
-    "Other": 34,
-    "Retail": 10,
+    "Other": 38,
+    "Retail": 9,
     "Hospitality": 7,
+    "Technology": 6,
     "Logistics": 6,
+    "Media": 5,
     "Finance": 5,
-    "Technology": 4,
-    "Media": 3,
     "Healthcare": 3,
     "Education": 2,
     "Telecom": 2,
@@ -23,6 +23,29 @@
     "Manufacturing": 1
   },
   "events": [
+    {
+      "id": "0f8476852ec37792",
+      "ts": "2026-10-29T06:57:46Z",
+      "source": "news_layoffs",
+      "source_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxORlRVQ1RSUjRfQ3YzNG1WZHFvTnZfQi00YmxZZVZGNi1CSl9tRm80N3J0TW5PMnVRaWxla2lyX0RSSHh1a0NvbGRQdEV2bGc5Qnp3RkJxckdQQnBmNGt5Vm16MFM1TTQwaE1ERTJMVFBMaTUwWWFEU1FtM2xReFRfVmNRZE5fV1RkaXdDbA?oc=5",
+      "type": "layoff",
+      "company": {
+        "name": "Intel",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": 67.0,
+      "unit": "people",
+      "raw_text": "Intel Announces New Folsom Layoffs, 67 Jobs Being Eliminated",
+      "tags": [
+        "layoff",
+        "technology"
+      ],
+      "extras": {}
+    },
     {
       "id": "f01fa17c3957b24c",
       "ts": "2026-10-29T02:45:55Z",
@@ -185,22 +208,22 @@
       "extras": {}
     },
     {
-      "id": "4d95606c93d25aa6",
-      "ts": "2026-10-27T08:24:24Z",
+      "id": "698c57c4787c0556",
+      "ts": "2026-10-26T17:50:00Z",
       "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNTjFmeE1iS1EzSEJjUkNtWjVXazFBdWl2OTI4LXlrT2xVRk03V3liT3pQS2NTWWRBT1EwTHNLa21OZ0lhRTAwTnJTOVpybThWTEZUS1FYRG1qM3ZoWmlIaVlnaVVMWEpiZC1JT2lyY3BLOEh1YWsxZXFjSm15TXYzeUhYWVp0UWtKVnZDYzJkZjVpYUhRbjB4UzZPN3QzUkhib2d5elZaRjROams3aUVCRW1UQUlQYVAzZU8zcEtoazgzSW5QUmVBdEIyMC1jTk1TR1pF?oc=5",
+      "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1vWDdrYUNnbzF0Mm9TR2ExN0xNaXVVZDV3M2ZzRUNaektQN05jWnhFYkVia0tqUU15SlFlVk1GZ1R2OG5XRG1fQ3ptMW1YZFE5NjdQRDhLdHZGdDNXZ2ZtNzZZeGFSM00?oc=5",
       "type": "layoff",
       "company": {
-        "name": "InnoData",
+        "name": "SolarEdge",
         "ticker": null,
         "industry": null,
         "sector": "Other",
         "hq_region": null,
         "size_band": "unknown"
       },
-      "magnitude": 550.0,
+      "magnitude": 200.0,
       "unit": "people",
-      "raw_text": "InnoData lays off nearly 550 employees in India, job cuts reported in the Philippines - People Matters",
+      "raw_text": "SolarEdge to cut another 200 jobs as restructuring continues",
       "tags": [
         "layoff",
         "other"
@@ -251,6 +274,52 @@
       "tags": [
         "layoff",
         "finance"
+      ],
+      "extras": {}
+    },
+    {
+      "id": "eb8aa2307058bbea",
+      "ts": "2026-10-23T08:01:19Z",
+      "source": "news_layoffs",
+      "source_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNS1lJcEdfUUtlR0lFNzVpZWtrVzNfWWFQMWRrZ0VzZTRkUXhoWDUxRGZkN1NFRHNYY3BWYlo4MTFJb2FXSWxZRkk2bDVneGdSRHpxMkszbklwMzh2VEhiSGtlVFktUFN5RnJNd3lSTEo5dlc5UkJuYUp4Z0RLWUItUXhJb09JVmNET2t6SXlhODZneGtOUjZ3Y1dIbkRuVFVYVkhSRThrWmFob1pwdE5DZTdraEJMQUtzWFJ6bkd3MA?oc=5",
+      "type": "layoff",
+      "company": {
+        "name": "Westpac",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": 140.0,
+      "unit": "people",
+      "raw_text": "Westpac cuts 140 jobs but insists AI is not behind the layoffs",
+      "tags": [
+        "layoff",
+        "other"
+      ],
+      "extras": {}
+    },
+    {
+      "id": "b9fcb32ab0c25803",
+      "ts": "2026-10-22T19:02:00Z",
+      "source": "news_layoffs",
+      "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQWVp1aTh5cGtxR0gxa2Z3amhIOFlGSDZZNUNGYTI1WHJ0R2Vpc192RWIyRnY0eHpXa0lCSndHU2VvOFFzY3B4Q0FvUmd1dzIzMGc0MWFySU8yOWJRQ2pXdHlZQTVRejNDcFdNUUd4djBlczdjZHNaR0hqajRnZ0tKU0tQc1k1bWJlWUszMHJMRzl1UEJraW1rUDA0V0pRRUZ6bkM4?oc=5",
+      "type": "layoff",
+      "company": {
+        "name": "Comcast",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Comcast launches sweeping cost transformation as layoff reports emerge",
+      "tags": [
+        "layoff",
+        "media"
       ],
       "extras": {}
     },
@@ -371,50 +440,48 @@
       "extras": {}
     },
     {
-      "id": "78b51191bbafafed",
-      "ts": "2026-10-21T22:01:58Z",
+      "id": "910dd737b41a3bed",
+      "ts": "2026-10-21T17:57:59Z",
       "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPNVJGM3A1WXBjMF9rbFNYRTRYQmJsamRYcmc2Z2FLQXF4cEx5RUxGRXlWWW9Wd3h4Uy1ydk53VGVTWHNKQ3UzQVlvZndJX204MWhzQjJsUXRUTHA1amhzOXRFblp6c2hORzNPeXppZThndExodVdzTEZKNEpUc1NwSnpjUzNwakdhcXp1anh3Y09vc0M3N0loZ1FycDI2OGxk?oc=5",
+      "source_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFAxWjc4M3dncl9FNkVtNFZuQmhudG1tSnlGOE42MklBSGMyb2V1RHBjeVp3RFFITEROVW1uOTVuODd6VEdJSHczSmx1VDQzZ2Z2TkV3RzBmSHluMTRWZFZPdEc2RGZNVExfRXRyVE42bTY3WVF4WDl5bHJR?oc=5",
       "type": "layoff",
       "company": {
-        "name": "Pfizer",
+        "name": "EA",
         "ticker": null,
         "industry": null,
-        "sector": "Healthcare",
-        "hq_region": "NC",
+        "sector": "Other",
+        "hq_region": null,
         "size_band": "unknown"
       },
       "magnitude": null,
       "unit": null,
-      "raw_text": "Pfizer announces layoffs at NC facilities, leaving workers and local leaders seeking answers",
+      "raw_text": "EA announces 400 layoffs and shuts down BioWare",
       "tags": [
         "layoff",
-        "healthcare",
-        "NC"
+        "other"
       ],
       "extras": {}
     },
     {
-      "id": "90a287d2586c50fe",
-      "ts": "2026-10-21T16:40:29Z",
+      "id": "33888a1661ccef3f",
+      "ts": "2026-10-21T15:17:03Z",
       "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNX0dKaWw4MVRUYUIxc1prSUQ0Z3RqWXIweDAyVk5QODFUUWtjRXkyT3VLWEVmV2M4RzRXcXEwQUlqdnFwcGZBTmFoQkxYckVyT3k1amxiRGkzdnkxazdyeFJTQVVPWWNSZnNjS1VsV3BJU0I3eEVJY1p2c1c5Q0VsUw?oc=5",
+      "source_url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5mamxmOG8yTklEZlJkTWRrbnB1UUMtdDJoSkVVTC1uWU54WFh0ZTk5QmlIdE11N2pMVjl6bzZMUk9VRW9qQXlYX055MTZpejRUT3RuVlVvU1A0VUtGeUk4bE1RZXNYNjgxWnBqMXpqS0lpZ9IBd0FVX3lxTE93TE9vNVVNZG9iUktxcEY3Z2dSc1VVbk43QVE5UFB1eFB2cGFWdEg3QmdoVUVROFVKbkdlcmlnMEFCbllBRjY1a0d1SWlJcU5SejZmOTVYNFBSSWtyTVZGSkl2TWtVRzlzTU9lbllGM2owU0RwMHVB?oc=5",
       "type": "layoff",
       "company": {
         "name": "EBay",
         "ticker": null,
         "industry": null,
         "sector": "Retail",
-        "hq_region": "CA",
+        "hq_region": null,
         "size_band": "unknown"
       },
       "magnitude": null,
       "unit": null,
-      "raw_text": "EBay to cut 9% of its workforce in latest Bay Area tech layoffs",
+      "raw_text": "EBay to lay off 9% of workforce in its second round of job cuts this year",
       "tags": [
         "layoff",
-        "retail",
-        "CA"
+        "retail"
       ],
       "extras": {}
     },
@@ -442,6 +509,53 @@
       "extras": {}
     },
     {
+      "id": "570952b7bfbb9475",
+      "ts": "2026-10-21T07:00:00Z",
+      "source": "news_layoffs",
+      "source_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQMjFxWm9ybXFNVlhxekVDVFNVOVJLaFVOVTBUOXE4MkFNdXpfYTVrN1h4RWl6QV9ab3l6TXZWU1RDQzRoejNjaklrZHFrcjBiOXhlNUVuSFhVTS1qbkNyNTY3Q2ZoRHhPZEpLSUxmeDAwVU5RMVdmUmhWMHNPS1VaV25B0gGWAUFVX3lxTE52MW90Y2FYVTg3RDNWbVhCalVBSkE0NDRadF93My11S0NDQmdJRG42WmtvUkNnY3R6ZUZXYXdCVXRMVzZvc01IMXdNVGRkdGE0cHBmQVZfdml4SThObVhtRlNuS2xrTGVJVXJIaWtOM0JKV2VqVVF0ekptSXpLRk9QYU5XUkJLVnMwa3EwWG1oZVlrZ05fUQ?oc=5",
+      "type": "layoff",
+      "company": {
+        "name": "Dozens",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Dozens laid off from Colchester software company",
+      "tags": [
+        "layoff",
+        "other"
+      ],
+      "extras": {}
+    },
+    {
+      "id": "78b51191bbafafed",
+      "ts": "2026-10-21T07:00:00Z",
+      "source": "news_layoffs",
+      "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPNVJGM3A1WXBjMF9rbFNYRTRYQmJsamRYcmc2Z2FLQXF4cEx5RUxGRXlWWW9Wd3h4Uy1ydk53VGVTWHNKQ3UzQVlvZndJX204MWhzQjJsUXRUTHA1amhzOXRFblp6c2hORzNPeXppZThndExodVdzTEZKNEpUc1NwSnpjUzNwakdhcXp1anh3Y09vc0M3N0loZ1FycDI2OGxk?oc=5",
+      "type": "layoff",
+      "company": {
+        "name": "Pfizer",
+        "ticker": null,
+        "industry": null,
+        "sector": "Healthcare",
+        "hq_region": "NC",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Pfizer announces layoffs at NC facilities, leaving workers and local leaders seeking answers",
+      "tags": [
+        "layoff",
+        "healthcare",
+        "NC"
+      ],
+      "extras": {}
+    },
+    {
       "id": "473f71d3cdf968c0",
       "ts": "2026-10-21T07:00:00Z",
       "source": "news_layoffs",
@@ -461,6 +575,52 @@
       "tags": [
         "layoff",
         "media"
+      ],
+      "extras": {}
+    },
+    {
+      "id": "23a2fdd3b03a01a8",
+      "ts": "2026-10-20T13:18:18Z",
+      "source": "news_layoffs",
+      "source_url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1QMy15UVhjX3o2Y0I5cFB5OXBIQlhBVzBRb29tekc4V2dRd0ZCV19xLWE5SFR4UGluOXYySW9mTmg0MTJkYmloM2dnSHRiZkY1T0RIVm8taTdqa0Y1dHF6WVlQYTZNeFozazY0T2JjTkdNZw?oc=5",
+      "type": "layoff",
+      "company": {
+        "name": "Lightspeed Commerce",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": 250.0,
+      "unit": "people",
+      "raw_text": "Lightspeed Commerce Cuts 250 Roles In October 2026 Restructuring",
+      "tags": [
+        "layoff",
+        "other"
+      ],
+      "extras": {}
+    },
+    {
+      "id": "44a2e6a870a904d1",
+      "ts": "2026-10-20T07:00:00Z",
+      "source": "news_layoffs",
+      "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOLTdnc0h5T01pMEdxZEQyeGRwTmZGVU11RHpIakp2c0JvaUhNNHBUNE5JTkdyWWdpWWQ3N2QxTWlyMUF0eDZIaktMN1ZZUW9PdEFnUjVZdHNTT0VGOHpFWEFtLWlpLVNxY0h3WDFBTkRBRkhvaXlaT0g2MV9nN2NMaVZLbUVtTkdLeHpkeWN0QWlJaVU3N245M3dRVy1rMDQ?oc=5",
+      "type": "layoff",
+      "company": {
+        "name": "Qualcomm",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Exclusive-Qualcomm to cut jobs worldwide in performance-focused layoffs, internal memo shows",
+      "tags": [
+        "layoff",
+        "technology"
       ],
       "extras": {}
     },
@@ -580,33 +740,10 @@
       "extras": {}
     },
     {
-      "id": "25f29009f5c6bfb0",
-      "ts": "2026-10-15T10:44:03Z",
+      "id": "2b8a57aa9c0c7f5b",
+      "ts": "2026-10-15T07:00:00Z",
       "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPY29yYWJMdEdNUkljaVlEZ0l2cXB0bzdVTGZFMVRzWGZkLVhOUy05bFNZSTFON2k0bzIwQVlVZlppVm0wLWZycUhXTDlkdWRtSWJxckQxWW1Xb2Y0Ti1tTUNkRThVT3kwQzd4cGl5empUeVFrWGJrQ0JTT0Q0RExiR3g4ZVlkUDgtRTV6YlpFX0liMmxYV3AyOGJwQzZaYnM3S0h2cXVYLUFzTjlYOEJfOTJhQU03Mk1kSEdkMQ?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "Watch David Asman",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Watch David Asman reports on Bank of America penalties and Netflix layoffs - Fox Weather First",
-      "tags": [
-        "layoff",
-        "other"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "01341684a5e6985b",
-      "ts": "2026-10-14T07:00:00Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNTXZHNk9QM1AyajZuM0taT3dZRUxsVnBPTFowalVYa0hHUzRyMGlCR3hOendmNXVBNjQ1WGhjSUtDWUZSTWFySkdoWjh5X21wZmFrNTVjZV9wWUFVWWlZR2JXNmVLYVZkc3NsRkZBNHZldkR2Vko3dU9odDFER29JTFllV2RZUzVFX1c4ZVRmc01aRnJoYVlITTZrUkhpNnJtTXV6ekVWMElmWnVhVnE2MkZxYVRDcVdtbXhMeEtObFVUWjhBWHJKQXhqZENycWRhZ0pPdGVsTkx0VVhl0gHiAUFVX3lxTFBuWlFPNTZFWGNkdG9rbGptNi10VlQ2YUhYLW9wOVAzVFJuRDBieFAtN2dQQXc0NkllQTNqWVlkeWEtRDdIc0F6T09NMUk3V0ZBTjVjQUN0SDFmdVIwVDZjV2FVNkpZanRnUDVERW9JaE03bW9pdnZ2cnUwcTZyVVZ2akh0SHJwSDQyTG16U2FZdVpRSGxfcEVpN29pZnJLSTdieXFZcGxmamlaNnp6NGpIMWl4TllNRXQ2dmFnRkxpRWtTb0ZEeUJsNXJzRU5WT2tVLVdiRUNnbFM4SlNpY2pob0E?oc=5",
+      "source_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB6RDIxbnoyLVdvUmpHLWE3V3AyUV8weVBlRVhna1pqN216NVc5ZVQzWVNWb0cxZkp1cXZBcTRJVEdRcEtrZFhmdWJLeXd0c1hKcFdENTd1RmNmWmJRUjJSaHMyYXM0UQ?oc=5",
       "type": "layoff",
       "company": {
         "name": "Netflix",
@@ -618,7 +755,7 @@
       },
       "magnitude": 1000.0,
       "unit": "people",
-      "raw_text": "Netflix cuts 1,000 jobs in biggest layoff round since 2022, targeting tech, legal and HR teams",
+      "raw_text": "Netflix cuts about 1,000 employees; CEOs announced layoffs on 14th",
       "tags": [
         "layoff",
         "media"
@@ -626,22 +763,45 @@
       "extras": {}
     },
     {
-      "id": "b9fd89b1df17b79d",
-      "ts": "2026-10-13T07:00:00Z",
+      "id": "2653982d4237fb90",
+      "ts": "2026-10-15T07:00:00Z",
       "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQS3dpbURadzdoV01TUXNDU0o1ZFY2SHBJQ1JGcXdIWi1GTnVURkRreTNaaVJIaHdnMTJCdmxabWVLcHYzYjMwSElTSzVIWFg5UzBITnZOQkF4SW5DbFljQldtYm93NWdGRVV4S1UyakU2akJaRkVScmdYeXBkV3VWTTNIQzdzUi1KTHV6ZTlXdG82cTZ0d3RCQjkzcDBoZnBUclFSLU56NFQ?oc=5",
+      "source_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPSE5tM1R3MU1HdGFoZzNHRzhpb016OWxHaVRmS0VkOWxuYlJxTFhLaWwwN3d4YmlWNUtyQTI3TkdZSGt6X2ljMVZtUW9GaUVvLS16c0NQczNOMVFyWkszT0pEVk5ZVlRPb3F2TTNGd3BNRUd1YzRpRV9UdjNsR2JHU19MelliWE1yc01ubmF5VFZfcTlrbFRkcXRLbXpBV0s1NDR1ejJDRUsxVFRoeHJjLUNKV0JrS1NNQXRqampVdw?oc=5",
       "type": "layoff",
       "company": {
-        "name": "Ohio-Based Kroger",
+        "name": "Universal Music Group",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Universal Music Group announces fresh layoffs amid $270 million cost-cutting programme",
+      "tags": [
+        "layoff",
+        "other"
+      ],
+      "extras": {}
+    },
+    {
+      "id": "c8fab0c78dffc4f2",
+      "ts": "2026-10-14T07:00:00Z",
+      "source": "news_layoffs",
+      "source_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPT3RoMWplbTFMLXBiTlc0c1YtTjE4aVpoN2lzcURTUkxudS1EOS1DZTV5N0ZfSTVURzdDSDhnWU5sUXNSQVlZTTRneEZTOUowcWozZmczLS04Z29ELS1maXZBSXlOM3BWX2hxQXh1aEdLd25jRGd2ZUVwSU1WZnE5SU9SN0F0dnVCU0tN?oc=5",
+      "type": "layoff",
+      "company": {
+        "name": "Kroger",
         "ticker": null,
         "industry": null,
         "sector": "Retail",
         "hq_region": null,
         "size_band": "unknown"
       },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Ohio-Based Kroger Announces Mass Layoffs Weeks Before Crucial Elections",
+      "magnitude": 3000.0,
+      "unit": "people",
+      "raw_text": "Kroger to cut 3,000 jobs in devastating layoffs as store giant turns to AI",
       "tags": [
         "layoff",
         "retail"
@@ -649,25 +809,25 @@
       "extras": {}
     },
     {
-      "id": "38d7d99bb86f60b3",
-      "ts": "2026-10-11T07:00:00Z",
+      "id": "ab62d3c7d35ba1cf",
+      "ts": "2026-10-14T07:00:00Z",
       "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPR282eUpkb3U2Q0tvUW5BandGVWFMMldBenhfVHptSVZiMUFOSkVJbnhHdUY4OEYtbEtqRFdyMWI5Z3RDTHlUaHh6NGJaZUdyVW1VeGhndFFrbTdCakpldkg2UWJYYTBTaHg4TXJyVkNUaHhLSHVOVm1oNHY1RmdYV2xVbFFiWGtJLUdseEhCRTFNdkVZOUhUN0xzWEx0a3FIWnVTM0tOSjZJTkJzcnNNY0pIcURyYUdiQXNaMlRIcGVFam5VQXow0gHbAUFVX3lxTFBpdmQwdzY0YmhoX21pTjMtWmI5LWpEM0pRRDNTamo2TUdGTVR4ZnNQMTBlUmhIVUVjVWRzWU8wNHBjNVl4WThreTRsdEdwNlF1XzJfVTN4V1Y4b2c3bWhkSTQxc2xVakxLb2V1cWdKOXNReTF4aW1EUjFrczlWS2dqZTh0a2NXTDJScUd6aUd4VDF1TWNDdmRGQUxhUWt0T3Q1cnB1MWxUUDd4bXRIS2VCQkl0TXdPQUE5dXBIc2lCbDZxVUNSb3pFYzFOc1F2SVNVYkVvVVBfYUVFNA?oc=5",
+      "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbzByckpzbzdQSlowdE1Lb3drNkFxMDIwTFJLT19wLVlMRXV4N1cxX0phU2psVlBCc2lrbWQ0RmF5SlBzSjh2Mko1SzFPTWY0clZPV3Z2TmlsdTd1cE9CSmxQVzVIdGNTblFjb0xvSkRkY0JfZzdlQ1NfY2gzNllOdng2Zy04blNuU0hVYl9SM0pROFcxZUtYTFNhQmRRSU4ySlQwY2ZoZUNfQQ?oc=5",
       "type": "layoff",
       "company": {
-        "name": "Nike",
+        "name": "Netflix",
         "ticker": null,
         "industry": null,
-        "sector": "Retail",
+        "sector": "Media",
         "hq_region": null,
         "size_band": "unknown"
       },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Nike announces new restructuring, layoffs. Stock dips to lowest level in 13 years",
+      "magnitude": 1000.0,
+      "unit": "people",
+      "raw_text": "Netflix Eliminates About 1,000 Jobs in Biggest Cuts Since 2022",
       "tags": [
         "layoff",
-        "retail"
+        "media"
       ],
       "extras": {}
     },
