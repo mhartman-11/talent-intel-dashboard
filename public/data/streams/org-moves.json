@@ -1,6 +1,6 @@
 {
   "stream": "org-moves",
-  "generated_at": "2026-10-29T04:52:43.158274+00:00",
+  "generated_at": "2026-10-29T12:30:07.241658+00:00",
   "total": 115,
   "showing": 115,
   "source_counts": {
@@ -8,16 +8,73 @@
     "org_moves": 10
   },
   "sector_counts": {
-    "Other": 95,
+    "Other": 94,
     "Technology": 6,
     "Finance": 4,
     "Healthcare": 4,
     "Energy": 2,
     "Telecom": 2,
+    "Hospitality": 1,
     "CPG": 1,
     "Manufacturing": 1
   },
   "events": [
+    {
+      "id": "e748c4357bd9303f",
+      "ts": "2026-10-29T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1228454&type=&dateb=&owner=include&count=40",
+      "type": "exec_move",
+      "company": {
+        "name": "BCB Bancorp INC",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "BCB Bancorp INC reported an executive or board change in an 8-K filing on 2026-10-29.",
+      "tags": [
+        "exec_move",
+        "sec_8k",
+        "other"
+      ],
+      "extras": {
+        "adsh": "0001193125-26-437028",
+        "cik": "0001228454",
+        "file_date": "2026-10-29"
+      }
+    },
+    {
+      "id": "dda2f607bd3313f7",
+      "ts": "2026-10-29T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1674168&type=&dateb=&owner=include&count=40",
+      "type": "exec_move",
+      "company": {
+        "name": "Hilton Grand Vacations Inc.",
+        "ticker": null,
+        "industry": null,
+        "sector": "Hospitality",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Hilton Grand Vacations Inc. reported an executive or board change in an 8-K filing on 2026-10-29.",
+      "tags": [
+        "exec_move",
+        "sec_8k",
+        "hospitality"
+      ],
+      "extras": {
+        "adsh": "0001140361-26-041101",
+        "cik": "0001674168",
+        "file_date": "2026-10-29"
+      }
+    },
     {
       "id": "56b182ecedbe8071",
       "ts": "2026-10-28T01:15:28Z",
@@ -1773,34 +1830,6 @@
       }
     },
     {
-      "id": "17453c06c96fbc5e",
-      "ts": "2026-10-23T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1604191&type=&dateb=&owner=include&count=40",
-      "type": "exec_move",
-      "company": {
-        "name": "GridAI Technologies Corp.",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "GridAI Technologies Corp. reported an executive or board change in an 8-K filing on 2026-10-23.",
-      "tags": [
-        "exec_move",
-        "sec_8k",
-        "technology"
-      ],
-      "extras": {
-        "adsh": "0001104659-26-118506",
-        "cik": "0001604191",
-        "file_date": "2026-10-23"
-      }
-    },
-    {
       "id": "2edb231c1acbb564",
       "ts": "2026-10-23T00:00:00Z",
       "source": "sec_edgar",
@@ -1829,6 +1858,34 @@
       }
     },
     {
+      "id": "17453c06c96fbc5e",
+      "ts": "2026-10-23T00:00:00Z",
+      "source": "sec_edgar",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1604191&type=&dateb=&owner=include&count=40",
+      "type": "exec_move",
+      "company": {
+        "name": "GridAI Technologies Corp.",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "GridAI Technologies Corp. reported an executive or board change in an 8-K filing on 2026-10-23.",
+      "tags": [
+        "exec_move",
+        "sec_8k",
+        "technology"
+      ],
+      "extras": {
+        "adsh": "0001104659-26-118506",
+        "cik": "0001604191",
+        "file_date": "2026-10-23"
+      }
+    },
+    {
       "id": "d711f6ffff5403c9",
       "ts": "2026-10-23T00:00:00Z",
       "source": "sec_edgar",
@@ -1853,34 +1910,6 @@
       "extras": {
         "adsh": "0001493152-26-048237",
         "cik": "0001854445",
-        "file_date": "2026-10-23"
-      }
-    },
-    {
-      "id": "1c8c7c0962b728a5",
-      "ts": "2026-10-23T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1857475&type=&dateb=&owner=include&count=40",
-      "type": "exec_move",
-      "company": {
-        "name": "Dole plc",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Dole plc reported an executive or board change in an 8-K filing on 2026-10-23.",
-      "tags": [
-        "exec_move",
-        "sec_8k",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0001857475-26-000083",
-        "cik": "0001857475",
         "file_date": "2026-10-23"
       }
     },
@@ -2123,34 +2152,6 @@
       "extras": {
         "adsh": "0001171843-26-006778",
         "cik": "0000354963",
-        "file_date": "2026-10-22"
-      }
-    },
-    {
-      "id": "01c9f18b6280ca13",
-      "ts": "2026-10-22T00:00:00Z",
-      "source": "sec_edgar",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=79282&type=&dateb=&owner=include&count=40",
-      "type": "exec_move",
-      "company": {
-        "name": "Brown & Brown, Inc.",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Brown & Brown, Inc. reported an executive or board change in an 8-K filing on 2026-10-22.",
-      "tags": [
-        "exec_move",
-        "sec_8k",
-        "other"
-      ],
-      "extras": {
-        "adsh": "0001193125-26-429079",
-        "cik": "0000079282",
         "file_date": "2026-10-22"
       }
     },
