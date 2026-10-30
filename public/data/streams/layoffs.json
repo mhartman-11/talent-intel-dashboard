@@ -1,28 +1,74 @@
 {
   "stream": "layoffs",
-  "generated_at": "2026-10-30T15:29:19.598090+00:00",
-  "total": 84,
-  "showing": 84,
+  "generated_at": "2026-10-30T22:01:59.788834+00:00",
+  "total": 82,
+  "showing": 82,
   "source_counts": {
     "state_warn": 42,
-    "news_layoffs": 39,
+    "news_layoffs": 37,
     "layoffs_fyi": 3
   },
   "sector_counts": {
     "Other": 36,
-    "Retail": 7,
-    "Logistics": 7,
+    "Retail": 8,
+    "Finance": 7,
     "Hospitality": 7,
     "Technology": 6,
-    "Finance": 6,
+    "Logistics": 6,
     "Media": 5,
-    "Healthcare": 3,
-    "Manufacturing": 2,
     "Education": 2,
     "Telecom": 2,
-    "CPG": 1
+    "Healthcare": 1,
+    "CPG": 1,
+    "Manufacturing": 1
   },
   "events": [
+    {
+      "id": "90e45fe7b3c9ffe8",
+      "ts": "2026-10-30T21:11:06Z",
+      "source": "news_layoffs",
+      "source_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFA4c2U1MzBPdFBWQ0ZGOUc2MWE1aWMxNmtUTDJoRVgzbEZVMWtpdnRhejVqMnpwVGV2dWJraW5PUWpHOXozZjVBRmh2SC12dnhGLVNac2F0OWpkNWRqaUNSajVBeERERWFOZm16SEdRY1B2eXhHVzFTUXFpZw?oc=5",
+      "type": "layoff",
+      "company": {
+        "name": "Comcast",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Comcast announces mass layoffs amid company-wide restructuring",
+      "tags": [
+        "layoff",
+        "media"
+      ],
+      "extras": {}
+    },
+    {
+      "id": "dd9329a4d16cd1dd",
+      "ts": "2026-10-30T19:57:13Z",
+      "source": "news_layoffs",
+      "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQU2pPTW9ESmhkZ1ViYkpLR1g2NnYzV3dBNndwMUhqdWt1eWJoNHg3ZEZmZ1N1Z1RCY25rWGhPam4wNW1BVWhRdGdyN2k3XzE4NGZLVk9oMW9MRXd4NWxRNWxaR1g2S3hZejNpaXdjaHYxZGpxY0Ztck5TdzJvM3k4clNiU2cwb0llR2ozZjZKdl9VWkUwY3g1aDVpaEZWTWJiTDF6bkYxQ1h2d3Mw?oc=5",
+      "type": "layoff",
+      "company": {
+        "name": "Wells Fargo",
+        "ticker": null,
+        "industry": null,
+        "sector": "Finance",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": 86.0,
+      "unit": "people",
+      "raw_text": "Wells Fargo Cuts 86 Jobs at West Des Moines Campus, Its Biggest Layoff in Years",
+      "tags": [
+        "layoff",
+        "finance"
+      ],
+      "extras": {}
+    },
     {
       "id": "99466070f39f3571",
       "ts": "2026-10-29T23:51:00Z",
@@ -47,31 +93,8 @@
       "extras": {}
     },
     {
-      "id": "0519e564ebc3b0ef",
-      "ts": "2026-10-29T21:48:22Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOMFhfNlpDanlJVVFiX2FlOWotdUFRNUdVQmk3eWlGbWRzeDNLNlBKSUdtNkphMHEtUk1nTkN2RWxRbVVtWjJaMWJfV0ZFS2dNVVRCVjlTUGkycUNvdWtTUTlYS3BqV3JtQk5DYTE2TU1sdF95WEEzd0FmUVNvT2ZDeFpfcC1Ld9IBhgFBVV95cUxNdjRJZjg0RkpZbzlGTHdPWEF6WHFVOU1pRUk4dE1rcXdIWHlGcGlacnRyWEctc2U4UTNqMUdUQ3ZIbldrYmdyeHFHQzFTMmFsWHluNUFVV1FJRUlsZTBIaU5qTDVoMUFUcEQ0TFppZE5lM25DTzMwc05YU0s0LVh6cmVLYm1GUQ?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "Volkswagen",
-        "ticker": null,
-        "industry": null,
-        "sector": "Manufacturing",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": 100000.0,
-      "unit": "people",
-      "raw_text": "Volkswagen to cut 100,000 jobs by end of decade",
-      "tags": [
-        "layoff",
-        "manufacturing"
-      ],
-      "extras": {}
-    },
-    {
       "id": "b3507b9175324c1f",
-      "ts": "2026-10-29T20:43:00Z",
+      "ts": "2026-10-29T19:44:07Z",
       "source": "news_layoffs",
       "source_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOT182V2swcEhBUXBSQWlSY2VrNUh1aEZyVFEwSzdjaG9VRW5mN1RsdU1GQUs2TWFzVVRrc1YtM0NLSGcyYjFDdm95YVNvU3JjOUJRZ01SaWxNUnF0d0M0NWxWSjQ3OW1Fd2pnakc4ekxFaTdiNFl1SnJGU0pYVkZ6ZUlDU3dwVzFmeTdVQk4yYXY2RlNsQ1N1anoyNGFuWVlGYnl3TE1mWEkwUWpabGdLVzNMQ2FBLWpXRlVDOFZaY2dOTmpoTEE?oc=5",
       "type": "layoff",
@@ -300,25 +323,25 @@
       "extras": {}
     },
     {
-      "id": "d2f60364efc5b4f9",
-      "ts": "2026-10-25T02:01:13Z",
+      "id": "7f6df96bd12700aa",
+      "ts": "2026-10-23T15:12:58Z",
       "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOTm1pUUJfZGJhN0JweGhOZ2tHLXAyRXJwWTdsanpTNXNGSEdHQ21XUG9iYlRCbFdXaXloS0hNd09qdy1CQjhvb2VmeTE0Z1dEaC15blRTc0Y0QTJNUjdqQ3lkU0VBQ05memo3Q3ZKN1dZVzNPV0NBRmdXVmNuTm92al9hdFVvX0R0cWV2aFR2SQ?oc=5",
+      "source_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQaHhhUWIxY3M0WFNFdzNpbjZWMEh0THVqWEJZT0VubmhBX1JfRWpQVWkyWVEzbmxHRGNBTWN1TUN1OC1ENkZIZFlsaWpKS0Z5WWZkN09lTEhNNkVwOGowckNxN19abVoyS3lwWnpvdGpnaTE4YnhVakQ1dXpwQW1RRUNn?oc=5",
       "type": "layoff",
       "company": {
-        "name": "Freightliner",
+        "name": "American Express",
         "ticker": null,
         "industry": null,
-        "sector": "Logistics",
+        "sector": "Finance",
         "hq_region": null,
         "size_band": "unknown"
       },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Freightliner to Cut Output, Predicts 25% Drop in Sales",
+      "magnitude": 3500.0,
+      "unit": "people",
+      "raw_text": "American Express to Cut 3,500 Jobs",
       "tags": [
         "layoff",
-        "logistics"
+        "finance"
       ],
       "extras": {}
     },
@@ -347,29 +370,6 @@
       "extras": {}
     },
     {
-      "id": "7f6df96bd12700aa",
-      "ts": "2026-10-23T14:10:00Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQaHhhUWIxY3M0WFNFdzNpbjZWMEh0THVqWEJZT0VubmhBX1JfRWpQVWkyWVEzbmxHRGNBTWN1TUN1OC1ENkZIZFlsaWpKS0Z5WWZkN09lTEhNNkVwOGowckNxN19abVoyS3lwWnpvdGpnaTE4YnhVakQ1dXpwQW1RRUNn?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "American Express",
-        "ticker": null,
-        "industry": null,
-        "sector": "Finance",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": 3500.0,
-      "unit": "people",
-      "raw_text": "American Express to Cut 3,500 Jobs",
-      "tags": [
-        "layoff",
-        "finance"
-      ],
-      "extras": {}
-    },
-    {
       "id": "eb8aa2307058bbea",
       "ts": "2026-10-23T08:01:19Z",
       "source": "news_layoffs",
@@ -389,29 +389,6 @@
       "tags": [
         "layoff",
         "other"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "b9fcb32ab0c25803",
-      "ts": "2026-10-22T19:02:00Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQWVp1aTh5cGtxR0gxa2Z3amhIOFlGSDZZNUNGYTI1WHJ0R2Vpc192RWIyRnY0eHpXa0lCSndHU2VvOFFzY3B4Q0FvUmd1dzIzMGc0MWFySU8yOWJRQ2pXdHlZQTVRejNDcFdNUUd4djBlczdjZHNaR0hqajRnZ0tKU0tQc1k1bWJlWUszMHJMRzl1UEJraW1rUDA0V0pRRUZ6bkM4?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "Comcast",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Comcast launches sweeping cost transformation as layoff reports emerge",
-      "tags": [
-        "layoff",
-        "media"
       ],
       "extras": {}
     },
@@ -439,10 +416,33 @@
       "extras": {}
     },
     {
-      "id": "f9f69a51b0a2f662",
+      "id": "b9fcb32ab0c25803",
       "ts": "2026-10-22T07:00:00Z",
       "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQNzVKUnlWRy1uQU1wVUZRdVhDMUVIRFg3SkFONl9vRWVhMDRvcnNHa1hoUndweTNZSkU5ajBLUXNWNS1xWWlha0VVcmFaVTVrMXNTZ3FhZVpyZ0tXdTMzU2pxYlp3b0dsaVRqR3dzbGxfdXpwMEVHS0tFbnl3U3ozbEFfcXRkNHMxbkZIZHFiWDFNeGNKRHBLQlZiVE1WWG1Ud2s0Unh5Z293N2tMVmpNSlBKelg?oc=5",
+      "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQWVp1aTh5cGtxR0gxa2Z3amhIOFlGSDZZNUNGYTI1WHJ0R2Vpc192RWIyRnY0eHpXa0lCSndHU2VvOFFzY3B4Q0FvUmd1dzIzMGc0MWFySU8yOWJRQ2pXdHlZQTVRejNDcFdNUUd4djBlczdjZHNaR0hqajRnZ0tKU0tQc1k1bWJlWUszMHJMRzl1UEJraW1rUDA0V0pRRUZ6bkM4?oc=5",
+      "type": "layoff",
+      "company": {
+        "name": "Comcast",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Comcast launches sweeping cost transformation as layoff reports emerge",
+      "tags": [
+        "layoff",
+        "media"
+      ],
+      "extras": {}
+    },
+    {
+      "id": "456615b974740e31",
+      "ts": "2026-10-22T07:00:00Z",
+      "source": "news_layoffs",
+      "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOY0M5NjdCUG9YVkc4bHF6d3JVNFFHM0lDRHFMckE2UndYUG1pbXlxTS02MTkxamhZOW5uSVhuWWNhQUw3Q21ZUEoyM3NkSkROcUlJeVVkM2dndzBMWmpTakxYNmowdVhnTDdFTGUtb0R1U1Z2Z3lSLTc4dnlxNFF3RHNQbE90cVU2N1IxYUI0ekJmWjlncXlaeEJYTmJvVzV1akhOMmNEUmd3TGFhZE9OWFozOA?oc=5",
       "type": "layoff",
       "company": {
         "name": "Barclays",
@@ -454,7 +454,7 @@
       },
       "magnitude": 5000.0,
       "unit": "people",
-      "raw_text": "Barclays to cut 5,000 jobs in AI-driven push to lower costs",
+      "raw_text": "Barclays to cut 5,000 jobs as bank\u2019s bosses hail AI productivity advances",
       "tags": [
         "layoff",
         "finance"
@@ -556,6 +556,29 @@
       "extras": {}
     },
     {
+      "id": "b9217b5354417377",
+      "ts": "2026-10-21T07:00:00Z",
+      "source": "news_layoffs",
+      "source_url": "https://news.google.com/rss/articles/CBMivwJBVV95cUxQdkVYalhYeDBBb1A1cWtyNlR5c3hFTVplSzZnaDhqZmQ4MmNVSFRmZlFZWjh5eGhNbDEyandwRWYzbGJKY25RRDAxMlJza01WRExIUWdjZ0hFUjd2NVc4TEZrRzZiWTl2VjBIcDNmN1ZTUHBGblhwQmRveXNHTUQ2bUFHMDFHcU44d0ltcEw2SlpNMmZ4ZktxeENiTk83Y1ZHZmc3ckVSdXVyQWVzYkZzS2Nzc0lLa3ZvREwwVUxiLWdJbTVHUFNHYmR5T1lMRjNnb1Nhc0IzQzlJckxOZWw4RHNfNFdtN0x6MHJ5U1dHN2JlRjBoakFSQVlTYkQzbnhGYUNDLVlmMkZVbnFUYjZBbFFKa1ZYZS1PclkwdUlnS1ZWWXN2R3Qxd3JxOUtpaUJYOWlUOGVfMXlpYWlhZl9B?oc=5",
+      "type": "layoff",
+      "company": {
+        "name": "Qualcomm",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Qualcomm to cut jobs globally in 'performance-based' layoffs \u2014 CEO says move will build 'stronger performance culture' as company pivots to AI data center and edge products",
+      "tags": [
+        "layoff",
+        "technology"
+      ],
+      "extras": {}
+    },
+    {
       "id": "570952b7bfbb9475",
       "ts": "2026-10-21T07:00:00Z",
       "source": "news_layoffs",
@@ -602,30 +625,6 @@
       "extras": {}
     },
     {
-      "id": "78b51191bbafafed",
-      "ts": "2026-10-21T07:00:00Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPNVJGM3A1WXBjMF9rbFNYRTRYQmJsamRYcmc2Z2FLQXF4cEx5RUxGRXlWWW9Wd3h4Uy1ydk53VGVTWHNKQ3UzQVlvZndJX204MWhzQjJsUXRUTHA1amhzOXRFblp6c2hORzNPeXppZThndExodVdzTEZKNEpUc1NwSnpjUzNwakdhcXp1anh3Y09vc0M3N0loZ1FycDI2OGxk?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "Pfizer",
-        "ticker": null,
-        "industry": null,
-        "sector": "Healthcare",
-        "hq_region": "NC",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Pfizer announces layoffs at NC facilities, leaving workers and local leaders seeking answers",
-      "tags": [
-        "layoff",
-        "healthcare",
-        "NC"
-      ],
-      "extras": {}
-    },
-    {
       "id": "473f71d3cdf968c0",
       "ts": "2026-10-21T07:00:00Z",
       "source": "news_layoffs",
@@ -668,29 +667,6 @@
       "tags": [
         "layoff",
         "other"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "ab9617c22bab006d",
-      "ts": "2026-10-21T05:36:54Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNbG1VVmRURDE3b2t4RXUyTk11WDNZanBxWGxiaWNwV3dsZWxmMmdtTEltZDBrelJwUUlaeFdRbkNtUm1oU1M5S2RFaGc4LUt0ZjFhNUtGT1hvanJpbnB0RUQxTFF1RU5BTFBuLWp4NVdnSTZzQnBoQzVpVjRxWVk3SVdXb3ZXT1NyZE1uTlllZjFVY3NvZXJaOTgxemZIemlvV21XSjBWVVBtRG9FcjRheWVmNFgtSnpzVTZEaVBuazhHYnUxV05lemU1a3o4dkF3cU9WUlNxZFM0ZHd2VGZOWWxGY1BvbTdyLVhV0gHwAUFVX3lxTE5aSlJpN2d2UFFLemhDOWlKRHhwR0RHVXJZVzJOb2llOUhhRnNCd214RVVUMVQ0SmlrMXZOTTdzVVRIVkVfZm1KQ1lDY2F2Tkg5Tl9td1dybGZxdExIRi15cE1FaTloWnZzMHFISEMteUxZVG5vM2JCcXZwbnFwaWhCM0c0OWZWeE90Zm45TTNFcXBENEdzTThGUVhPRFFkTnRuSGNOaDRjVXU2X185LWlYLXcxX3RfU1U3WGpyV2JlbElqTkNqMU9wTjhObFlJQTQ1MF96dDZCd1pQRi03cTZxc0p1ZmtNeTd1enNRVkRVRA?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "Qualcomm",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Qualcomm to cut jobs worldwide in performance-focused layoffs, internal memo shows",
-      "tags": [
-        "layoff",
-        "technology"
       ],
       "extras": {}
     },
@@ -810,29 +786,6 @@
       "extras": {}
     },
     {
-      "id": "417d7948887a1f55",
-      "ts": "2026-10-18T14:36:30Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNUDRUcmNnYklGd3paLU5fX3F0NWJIbnZLeE40Tko1OXdocGhnX0tERXU2bjFVV0Q3eDNsRWJSVU02Z3p3MUljT1pnSXduUDQycDRmVk9uVks1dDJmb2c1MjNOM0lxUTF1YU5FYnhUR1VXbUFNaFRWUzNWbWd4c3BVcC1NTUlLdlBtWG44VmlCZlFXMmdDQ0FkRFlUeVQ1dW40YjRwMFgtdXllTzdhdjRCT1VUU1E3WFpvQWpOVEMzdzFLdk5BMll5Nnd4ektndmQ2ZUlHWFllZGtYb0l1NHVxczVJUzI2cWs2cXctaDFVX0o1b0xJUy03bTY3VUdjbDlJdUEzOE9R?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "Hospital",
-        "ticker": null,
-        "industry": null,
-        "sector": "Healthcare",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": 43.0,
-      "unit": "people",
-      "raw_text": "Hospital cuts staff, citing $25 million in as-yet unpaid insurance claims. 34 laid off Monday; additional 43 positions lost by attrition and left unfilled",
-      "tags": [
-        "layoff",
-        "healthcare"
-      ],
-      "extras": {}
-    },
-    {
       "id": "8821ca350d253ba8",
       "ts": "2026-10-16T07:00:00Z",
       "source": "news_layoffs",
@@ -852,29 +805,6 @@
       "tags": [
         "layoff",
         "healthcare"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "2b8a57aa9c0c7f5b",
-      "ts": "2026-10-15T07:00:00Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB6RDIxbnoyLVdvUmpHLWE3V3AyUV8weVBlRVhna1pqN216NVc5ZVQzWVNWb0cxZkp1cXZBcTRJVEdRcEtrZFhmdWJLeXd0c1hKcFdENTd1RmNmWmJRUjJSaHMyYXM0UQ?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "Netflix",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": 1000.0,
-      "unit": "people",
-      "raw_text": "Netflix cuts about 1,000 employees; CEOs announced layoffs on 14th",
-      "tags": [
-        "layoff",
-        "media"
       ],
       "extras": {}
     },
@@ -921,6 +851,29 @@
       "tags": [
         "layoff",
         "media"
+      ],
+      "extras": {}
+    },
+    {
+      "id": "6c7855d39c1e3885",
+      "ts": "2026-10-12T07:00:00Z",
+      "source": "news_layoffs",
+      "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPc2RfZEJTaHd6UUg1c2Y4LUlsby02UWQxaGMyQ3l3NG5zMU5OeHpLajRMVWF0dUNhVXl0MGNVdnBoNTNWUlgyRThDWHRTUm41c0NjS3pwWEtUbDE1cEVEeGNmcFVKV1BtUkM3WkdGbW5ZYldjVTc2M2ZTUC1lenNCY1VfWExDVlJWeGpjMGdTbmcyekk3aVNLX0sxUDdob1k?oc=5",
+      "type": "layoff",
+      "company": {
+        "name": "Amazon",
+        "ticker": null,
+        "industry": null,
+        "sector": "Retail",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Amazon announces new job cuts in its retail division",
+      "tags": [
+        "layoff",
+        "retail"
       ],
       "extras": {}
     },
