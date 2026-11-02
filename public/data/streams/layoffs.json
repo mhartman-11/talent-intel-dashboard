@@ -1,120 +1,27 @@
 {
   "stream": "layoffs",
-  "generated_at": "2026-11-01T21:48:54.561778+00:00",
-  "total": 83,
-  "showing": 83,
+  "generated_at": "2026-11-02T04:59:19.188700+00:00",
+  "total": 81,
+  "showing": 81,
   "source_counts": {
-    "news_layoffs": 40,
     "state_warn": 40,
+    "news_layoffs": 38,
     "layoffs_fyi": 3
   },
   "sector_counts": {
-    "Other": 36,
+    "Other": 35,
+    "Retail": 7,
     "Finance": 7,
     "Logistics": 7,
     "Hospitality": 7,
-    "Retail": 6,
-    "Media": 6,
-    "Technology": 5,
-    "Telecom": 3,
+    "Technology": 6,
+    "Media": 5,
     "Healthcare": 2,
     "Education": 2,
-    "Manufacturing": 1,
+    "Telecom": 2,
     "CPG": 1
   },
   "events": [
-    {
-      "id": "0519e564ebc3b0ef",
-      "ts": "2026-11-01T03:54:42Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOMFhfNlpDanlJVVFiX2FlOWotdUFRNUdVQmk3eWlGbWRzeDNLNlBKSUdtNkphMHEtUk1nTkN2RWxRbVVtWjJaMWJfV0ZFS2dNVVRCVjlTUGkycUNvdWtTUTlYS3BqV3JtQk5DYTE2TU1sdF95WEEzd0FmUVNvT2ZDeFpfcC1Ld9IBhgFBVV95cUxNdjRJZjg0RkpZbzlGTHdPWEF6WHFVOU1pRUk4dE1rcXdIWHlGcGlacnRyWEctc2U4UTNqMUdUQ3ZIbldrYmdyeHFHQzFTMmFsWHluNUFVV1FJRUlsZTBIaU5qTDVoMUFUcEQ0TFppZE5lM25DTzMwc05YU0s0LVh6cmVLYm1GUQ?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "Volkswagen",
-        "ticker": null,
-        "industry": null,
-        "sector": "Manufacturing",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": 100000.0,
-      "unit": "people",
-      "raw_text": "Volkswagen to cut 100,000 jobs by end of decade",
-      "tags": [
-        "layoff",
-        "manufacturing"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "f0674f782a635d90",
-      "ts": "2026-11-01T01:59:08Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOTm9vNFM5SnNyYjdISmVjSXhTZUhDSm5Vc3VYeWpSWkEtcTJYbXJSQjBaVlp4aE9ucjFMaFRwbnUzSTRGMXZNbjliT2dMdS1PcXRHaEtZdU13eWRrUy1uMm9WYlpvbzVJR0s2d2xZcXBpV3dOMTdmckRsQU9FV3RHS2tHMEpMRGp1WlY0MVVmMDJiejFpXzdTZFg3cU1lLU9KdXBv?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "Verizon",
-        "ticker": null,
-        "industry": null,
-        "sector": "Telecom",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": 3000.0,
-      "unit": "people",
-      "raw_text": "Verizon cuts 3,000 jobs and files WARN notice for 54 layoffs",
-      "tags": [
-        "layoff",
-        "telecom"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "049cd86cf6dc4580",
-      "ts": "2026-10-31T14:55:09Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNTjZIajJNQjNtOWFwdFlPRUhEcWc0cE1wQzBRbkplZkJnc1RPcFF2NWpSYnU2ZzdqYkRkeW5FbGtTM2Z4OE5DeTlGaVFQWm1NR0pWTXhRVzQtSGRXNmk4bjNxdFprblVJRFlpMm1DekRvR2RNQU1jUmYtdnFMQnZ2REVoRE00T0tuUWREMk1Lc1Q?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "Virgin Media O2",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Virgin Media O2 announces sweeping job cuts",
-      "tags": [
-        "layoff",
-        "media"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "41d55d6e36d60c51",
-      "ts": "2026-10-31T13:27:08Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNMUYzS0ZWVWtkM3V2WkdfVFh0cUs2T3ZqMlNFdlB6V2dRS0t6SkZTZmxKbVB5RkZZbm5VRWc2MDJ2c2dwck1SSEhnbmlaOHRTZTJkUDJWeTN5NGJIMUlnRUxucFN1Q2hLYmdSTnJORE9Rb3FaZkpWNEphSGV3V3lLUEZOSl92RVdCX0hybS1rMVM?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "PNJ",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": 1000.0,
-      "unit": "people",
-      "raw_text": "PNJ laid off more than 1,000 employees and closed down several stores.",
-      "tags": [
-        "layoff",
-        "other"
-      ],
-      "extras": {}
-    },
     {
       "id": "90e45fe7b3c9ffe8",
       "ts": "2026-10-30T21:11:06Z",
@@ -323,29 +230,6 @@
       "extras": {}
     },
     {
-      "id": "b38707e54d4d51a2",
-      "ts": "2026-10-28T07:31:00Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNmg2eGV4ZzRramJkQVFpdmxESHVkX2dncUxUTzVBc290RG1hQ1FIMnBVY0pXc21nSy1SRWVmbVdXZ0Z0dnczSGVZYjFaeHZDVkVkcHdqWHFwMHcwWEZtNXA1Qm5SX3lvbEdad2RDdVpZcnpUNXVnMFV5WWdYd0VFaWE5clBtSFNxLUhNZ3ZoU3RhZGtFc3NxZVhvZER6ZzZRdEI2aWNHcw?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "Swedbank",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": 500.0,
-      "unit": "people",
-      "raw_text": "Swedbank to cut 500 jobs, including 100 in Baltic states",
-      "tags": [
-        "layoff",
-        "other"
-      ],
-      "extras": {}
-    },
-    {
       "id": "7dee4757005a2e52",
       "ts": "2026-10-27T18:15:00Z",
       "source": "news_layoffs",
@@ -385,6 +269,29 @@
       "magnitude": null,
       "unit": null,
       "raw_text": "ConocoPhillips announces another round of layoffs",
+      "tags": [
+        "layoff",
+        "other"
+      ],
+      "extras": {}
+    },
+    {
+      "id": "698c57c4787c0556",
+      "ts": "2026-10-26T17:50:00Z",
+      "source": "news_layoffs",
+      "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1vWDdrYUNnbzF0Mm9TR2ExN0xNaXVVZDV3M2ZzRUNaektQN05jWnhFYkVia0tqUU15SlFlVk1GZ1R2OG5XRG1fQ3ptMW1YZFE5NjdQRDhLdHZGdDNXZ2ZtNzZZeGFSM00?oc=5",
+      "type": "layoff",
+      "company": {
+        "name": "SolarEdge",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": 200.0,
+      "unit": "people",
+      "raw_text": "SolarEdge to cut another 200 jobs as restructuring continues",
       "tags": [
         "layoff",
         "other"
@@ -462,29 +369,6 @@
       "extras": {}
     },
     {
-      "id": "eb8aa2307058bbea",
-      "ts": "2026-10-23T08:01:19Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNS1lJcEdfUUtlR0lFNzVpZWtrVzNfWWFQMWRrZ0VzZTRkUXhoWDUxRGZkN1NFRHNYY3BWYlo4MTFJb2FXSWxZRkk2bDVneGdSRHpxMkszbklwMzh2VEhiSGtlVFktUFN5RnJNd3lSTEo5dlc5UkJuYUp4Z0RLWUItUXhJb09JVmNET2t6SXlhODZneGtOUjZ3Y1dIbkRuVFVYVkhSRThrWmFob1pwdE5DZTdraEJMQUtzWFJ6bkd3MA?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "Westpac",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": 140.0,
-      "unit": "people",
-      "raw_text": "Westpac cuts 140 jobs but insists AI is not behind the layoffs",
-      "tags": [
-        "layoff",
-        "other"
-      ],
-      "extras": {}
-    },
-    {
       "id": "787006ef442e39bb",
       "ts": "2026-10-23T07:00:00Z",
       "source": "news_layoffs",
@@ -532,34 +416,56 @@
       "extras": {}
     },
     {
-      "id": "063e0e7fbc65016f",
+      "id": "b9fcb32ab0c25803",
       "ts": "2026-10-22T07:00:00Z",
       "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1qRTdaNEVEY1g0TW1sQ3Y4bVJjME9nY1BmekJFSEZSVW9oQU5iZjRnWWNIU1laX2FDdzRHVF95THhPNXBMU056LV9LVnBaQVJLYkpOeVVrT1UtbXU5bkVjZVF1U2s5UHpyR2EtVXBtLUlFZTNJc0ptRg?oc=5",
+      "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQWVp1aTh5cGtxR0gxa2Z3amhIOFlGSDZZNUNGYTI1WHJ0R2Vpc192RWIyRnY0eHpXa0lCSndHU2VvOFFzY3B4Q0FvUmd1dzIzMGc0MWFySU8yOWJRQ2pXdHlZQTVRejNDcFdNUUd4djBlczdjZHNaR0hqajRnZ0tKU0tQc1k1bWJlWUszMHJMRzl1UEJraW1rUDA0V0pRRUZ6bkM4?oc=5",
+      "type": "layoff",
+      "company": {
+        "name": "Comcast",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Comcast launches sweeping cost transformation as layoff reports emerge",
+      "tags": [
+        "layoff",
+        "media"
+      ],
+      "extras": {}
+    },
+    {
+      "id": "456615b974740e31",
+      "ts": "2026-10-22T07:00:00Z",
+      "source": "news_layoffs",
+      "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOY0M5NjdCUG9YVkc4bHF6d3JVNFFHM0lDRHFMckE2UndYUG1pbXlxTS02MTkxamhZOW5uSVhuWWNhQUw3Q21ZUEoyM3NkSkROcUlJeVVkM2dndzBMWmpTakxYNmowdVhnTDdFTGUtb0R1U1Z2Z3lSLTc4dnlxNFF3RHNQbE90cVU2N1IxYUI0ekJmWjlncXlaeEJYTmJvVzV1akhOMmNEUmd3TGFhZE9OWFozOA?oc=5",
       "type": "layoff",
       "company": {
         "name": "Barclays",
         "ticker": null,
         "industry": null,
         "sector": "Finance",
-        "hq_region": "NY",
+        "hq_region": null,
         "size_band": "unknown"
       },
       "magnitude": 5000.0,
       "unit": "people",
-      "raw_text": "Barclays to Cut 5,000 Jobs in A.I.-Driven Push to Lower Costs",
+      "raw_text": "Barclays to cut 5,000 jobs as bank\u2019s bosses hail AI productivity advances",
       "tags": [
         "layoff",
-        "finance",
-        "NY"
+        "finance"
       ],
       "extras": {}
     },
     {
-      "id": "f872bf6da025a188",
+      "id": "cbebfd42040e62dc",
       "ts": "2026-10-22T07:00:00Z",
       "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1VdW1sYXZQcFkwT0ZTblJPOXphdERqbS1wM1VDY3JOQmFLcktUTVAzUllLcGROLWphaG5YLVprSHBLY1U1cDZEb0RqdEdNZmQ4?oc=5",
+      "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQZndxdHFkOS1EajlwdWVGMTNJa3poamdDeXBlTXZjclo0b3RjTE1FZGR0bWlFLVd3U2NmR0l0b0pod2dDR1dFUF9JRjIxUWRMbi1WSk1GMExlNVp3S0x6VkRvSDBld1M4bmY0LUd3YTc0bURkVUh3SFVjd2c3ODZlU1pWWWNCQ2t6T2psbHBXSUU5blh5SXB3bVc1bVl3QQ?oc=5",
       "type": "layoff",
       "company": {
         "name": "Westpac",
@@ -571,7 +477,7 @@
       },
       "magnitude": null,
       "unit": null,
-      "raw_text": "Westpac axes 140 more roles as Australia bank job cuts intensify",
+      "raw_text": "Westpac cuts more roles as Australia bank layoffs intensify",
       "tags": [
         "layoff",
         "other"
@@ -622,6 +528,29 @@
         "layoff",
         "retail",
         "CA"
+      ],
+      "extras": {}
+    },
+    {
+      "id": "570952b7bfbb9475",
+      "ts": "2026-10-21T07:00:00Z",
+      "source": "news_layoffs",
+      "source_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQMjFxWm9ybXFNVlhxekVDVFNVOVJLaFVOVTBUOXE4MkFNdXpfYTVrN1h4RWl6QV9ab3l6TXZWU1RDQzRoejNjaklrZHFrcjBiOXhlNUVuSFhVTS1qbkNyNTY3Q2ZoRHhPZEpLSUxmeDAwVU5RMVdmUmhWMHNPS1VaV25B0gGWAUFVX3lxTE52MW90Y2FYVTg3RDNWbVhCalVBSkE0NDRadF93My11S0NDQmdJRG42WmtvUkNnY3R6ZUZXYXdCVXRMVzZvc01IMXdNVGRkdGE0cHBmQVZfdml4SThObVhtRlNuS2xrTGVJVXJIaWtOM0JKV2VqVVF0ekptSXpLRk9QYU5XUkJLVnMwa3EwWG1oZVlrZ05fUQ?oc=5",
+      "type": "layoff",
+      "company": {
+        "name": "Dozens",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Dozens laid off from Colchester software company",
+      "tags": [
+        "layoff",
+        "other"
       ],
       "extras": {}
     },
@@ -765,6 +694,29 @@
       "extras": {}
     },
     {
+      "id": "44a2e6a870a904d1",
+      "ts": "2026-10-20T07:00:00Z",
+      "source": "news_layoffs",
+      "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOLTdnc0h5T01pMEdxZEQyeGRwTmZGVU11RHpIakp2c0JvaUhNNHBUNE5JTkdyWWdpWWQ3N2QxTWlyMUF0eDZIaktMN1ZZUW9PdEFnUjVZdHNTT0VGOHpFWEFtLWlpLVNxY0h3WDFBTkRBRkhvaXlaT0g2MV9nN2NMaVZLbUVtTkdLeHpkeWN0QWlJaVU3N245M3dRVy1rMDQ?oc=5",
+      "type": "layoff",
+      "company": {
+        "name": "Qualcomm",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Exclusive-Qualcomm to cut jobs worldwide in performance-focused layoffs, internal memo shows",
+      "tags": [
+        "layoff",
+        "technology"
+      ],
+      "extras": {}
+    },
+    {
       "id": "23ec46c4fd5c04bf",
       "ts": "2026-10-20T07:00:00Z",
       "source": "news_layoffs",
@@ -880,29 +832,6 @@
       "extras": {}
     },
     {
-      "id": "ab62d3c7d35ba1cf",
-      "ts": "2026-10-15T07:00:00Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbzByckpzbzdQSlowdE1Lb3drNkFxMDIwTFJLT19wLVlMRXV4N1cxX0phU2psVlBCc2lrbWQ0RmF5SlBzSjh2Mko1SzFPTWY0clZPV3Z2TmlsdTd1cE9CSmxQVzVIdGNTblFjb0xvSkRkY0JfZzdlQ1NfY2gzNllOdng2Zy04blNuU0hVYl9SM0pROFcxZUtYTFNhQmRRSU4ySlQwY2ZoZUNfQQ?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "Netflix",
-        "ticker": null,
-        "industry": null,
-        "sector": "Media",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": 1000.0,
-      "unit": "people",
-      "raw_text": "Netflix Eliminates About 1,000 Jobs in Biggest Cuts Since 2022",
-      "tags": [
-        "layoff",
-        "media"
-      ],
-      "extras": {}
-    },
-    {
       "id": "c8fab0c78dffc4f2",
       "ts": "2026-10-14T07:00:00Z",
       "source": "news_layoffs",
@@ -926,10 +855,10 @@
       "extras": {}
     },
     {
-      "id": "f32c6ec26d859f16",
+      "id": "ab62d3c7d35ba1cf",
       "ts": "2026-10-14T07:00:00Z",
       "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNWnE0V3N4YnhTdXRGZEpUUC1hZzlIbXdLS0pPUDFDSi1PWEpBcjJmazJVTXhERVM1S1lTcEJZdExTLW1ham0tZWlUMTVocGZzVnZSQ0NoRW8tenpxTGZDWjFodzdhOEpUck1QbFZJWm5jdElvZFlNVVhPaE1xdjU3S010SndDaXUzcUgxTzIzeUpHanhRMVItVi0zZkcxc2tNMDdKY2FQUFVfcWlYaHl6d08yZFBkQXd1SGg5SXhTeEs3V2ZH?oc=5",
+      "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbzByckpzbzdQSlowdE1Lb3drNkFxMDIwTFJLT19wLVlMRXV4N1cxX0phU2psVlBCc2lrbWQ0RmF5SlBzSjh2Mko1SzFPTWY0clZPV3Z2TmlsdTd1cE9CSmxQVzVIdGNTblFjb0xvSkRkY0JfZzdlQ1NfY2gzNllOdng2Zy04blNuU0hVYl9SM0pROFcxZUtYTFNhQmRRSU4ySlQwY2ZoZUNfQQ?oc=5",
       "type": "layoff",
       "company": {
         "name": "Netflix",
@@ -939,12 +868,35 @@
         "hq_region": null,
         "size_band": "unknown"
       },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Netflix cuts about 6% of jobs in biggest layoff since 2022, WSJ reports",
+      "magnitude": 1000.0,
+      "unit": "people",
+      "raw_text": "Netflix Eliminates About 1,000 Jobs in Biggest Cuts Since 2022",
       "tags": [
         "layoff",
         "media"
+      ],
+      "extras": {}
+    },
+    {
+      "id": "2546466c0c8059c3",
+      "ts": "2026-10-12T07:00:00Z",
+      "source": "news_layoffs",
+      "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPcmtXYWUxY2lpcGpRNnFOS3JFMlpxQ3dGSXQ3SmxhREw0TkRTOUZYVkQ4V0VPRXd6ajU2amsyZE1VSzY3bGk4UmhyRE5reW9DTmUxaUpZZEFUN2dRSVNrRGJfTFZhN0NWUm1pemxqQVROVkZNNFUwOWowc1EwbGZIN0VsTTU3U2c?oc=5",
+      "type": "layoff",
+      "company": {
+        "name": "Kroger",
+        "ticker": null,
+        "industry": null,
+        "sector": "Retail",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": 3000.0,
+      "unit": "people",
+      "raw_text": "Kroger to cut 3K corporate jobs over the next 3 years",
+      "tags": [
+        "layoff",
+        "retail"
       ],
       "extras": {}
     },
