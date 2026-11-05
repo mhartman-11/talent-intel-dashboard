@@ -1,20 +1,20 @@
 {
   "stream": "layoffs",
-  "generated_at": "2026-11-04T23:21:46.039241+00:00",
-  "total": 69,
-  "showing": 69,
+  "generated_at": "2026-11-05T05:42:29.836423+00:00",
+  "total": 67,
+  "showing": 67,
   "source_counts": {
     "state_warn": 40,
-    "news_layoffs": 27,
+    "news_layoffs": 25,
     "layoffs_fyi": 2
   },
   "sector_counts": {
-    "Other": 32,
+    "Other": 31,
     "Logistics": 7,
     "Hospitality": 7,
     "Finance": 6,
-    "Retail": 4,
     "Technology": 3,
+    "Retail": 3,
     "Healthcare": 3,
     "Media": 2,
     "Education": 2,
@@ -22,6 +22,29 @@
     "CPG": 1
   },
   "events": [
+    {
+      "id": "271122a7f1f581fa",
+      "ts": "2026-11-05T05:30:30Z",
+      "source": "news_layoffs",
+      "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNVWszM1FlYk1Ld25CREJ1dmpBVWt5dVowQloxeEV0OEVEMlpwWEJaOFVUOU1INV93T2xCQWhMYWQ4TnZxajNkd3pFTDljU0o4bGpGM3pDUlA1TkdfUE0wZjA0dEVaOUJQcnJZUVR4RTNrbzJrZ0NtcTA0Ylc2S0FHZ3lfeTR2TUhlZ045OVVrbEd1bm9Eb3dKZWV6Z2daYU9XUzZKUVgtUXVKempVMWJlWlEyQnZwLXduT1HSAb8BQVVfeXFMT0d0X1FCZ294YzJKNndzdUtGVVYyVUZmZnF2aDJjZ0xiN1VDanV4VnJLMW90dHE5cVRESjFpcFh1TzhvM0ZJYlItNmdILVJvenFCZWtUS2ZVaTBLSFh1UnJrOGNLN2wtcVR4LTItZGR1T0I2d25ZS1ZhSlNKalBTQ2Q3d25ZbWt5elVXTnNURVBDdzlIMi1rWjM5WTVkc01wTDRFX1ZMbFVJck9fYURXcVhUYU1iT0t2bFliWDdwSHc?oc=5",
+      "type": "layoff",
+      "company": {
+        "name": "Sequoia",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Sequoia announces shut down of London office, layoffs expected",
+      "tags": [
+        "layoff",
+        "other"
+      ],
+      "extras": {}
+    },
     {
       "id": "21e0e04ef022e469",
       "ts": "2026-11-04T16:00:07Z",
@@ -92,29 +115,6 @@
       "extras": {}
     },
     {
-      "id": "810f52cf96560bcb",
-      "ts": "2026-11-03T23:21:36Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNVmkzakhwNUZHZTRRMm5rOHBZa1RNZUJRalg0emdoTW1hQmJudHNIa1ZtSjcwZW42bHR0M0NRMXhsajFjeU9ldUtEblRLcmxUaDFoSFMtdlI3T1FDd1JFUkM5YVBsaVR5LWp6T29CZXdBLVlYUnZJblpvcVBUcC1MNEd3eDBubElFTzdDTnZsejNkUjRoUlhUT9IBngFBVV95cUxQdjNGNC1YVDlucDBfRXE2MjFYc28yY0RqWVdIVklvNUh0NW5vRVNTMEVaZlZ4VWJRRDFEZlVpSTRxQ2dIanlZUW1OR3M2THlsd09wczNRLWYtdWRfNzloQVhwWVVmZHBUb04wTm9qRmJEcjVzUS1FQU9tYXV0bl9PeUN1M2RvdldMbkNEbWNXWXV5UkU3aHFGelR1dkVJZw?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "Target",
-        "ticker": null,
-        "industry": null,
-        "sector": "Retail",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": 1800.0,
-      "unit": "people",
-      "raw_text": "Target announces plan to eliminate 1,800 corporate jobs - ABC News",
-      "tags": [
-        "layoff",
-        "retail"
-      ],
-      "extras": {}
-    },
-    {
       "id": "d0fba5844d70198a",
       "ts": "2026-11-03T20:51:57Z",
       "source": "news_layoffs",
@@ -158,29 +158,6 @@
         "layoff",
         "finance",
         "NJ"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "da4a17fb97e83906",
-      "ts": "2026-11-02T06:00:55Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQV1dCOVU5YTFONW5PUndGTkJvVGpzS2o4aGdSWUd1ZzdRRG9qYUlER2diTGtvQ0hLV0poX2Q5bWM3d0pRZXM2Z2hzYU9Za3pYRE9VSGlKWU9NRFZ5LWRuXzloSVFVczF4MUdjVWgyTXczMWNJc2xJZ3hXQk1ZWnJKU0RzekE5YmY5cVJlU0t2ajdpR0dCZmh1M3MxeXVVeXB4VEN0emFmRjQ?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "Democrat-Gazette",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Democrat-Gazette Reports Error in Circulation Numbers Amid Layoffs",
-      "tags": [
-        "layoff",
-        "other"
       ],
       "extras": {}
     },
@@ -319,29 +296,6 @@
       "tags": [
         "layoff",
         "healthcare"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "82234486ff6a195c",
-      "ts": "2026-10-23T07:00:00Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNU3pQbXJrUlFFRDZybllPTF9pcWxRY0FIVzFWUVZNNlFUUzRtMVBWVWtjVWRwTVdFcTA1NlNmZF9TZkVoNHFHb2d3RWc1OHpTSUE2aFdjNDZ4VnVhV0REdG1HX2pUSUE3UzFYZ21kOXZVZ1FpbFBjWkZtcFdMSFdyUzdaVlFsYVBNZEZTbUJQNGFERkdUQ0Qxdlc4d0E4eUk3MWYw?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "Volvo Cars",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": 2500.0,
-      "unit": "people",
-      "raw_text": "Volvo Cars announces 2,500 job cuts as it swings to quarterly loss",
-      "tags": [
-        "layoff",
-        "other"
       ],
       "extras": {}
     },
