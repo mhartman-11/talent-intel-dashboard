@@ -1,21 +1,666 @@
 {
   "stream": "hiring",
-  "generated_at": "2026-11-06T22:49:50.868406+00:00",
-  "total": 4067,
+  "generated_at": "2026-11-07T05:08:05.479767+00:00",
+  "total": 4071,
   "showing": 500,
   "source_counts": {
-    "greenhouse": 3693,
-    "ashby": 289,
+    "greenhouse": 3696,
+    "ashby": 290,
     "lever": 85
   },
   "sector_counts": {
-    "Technology": 3073,
-    "Finance": 515,
+    "Technology": 3079,
+    "Finance": 513,
     "Media": 248,
     "Healthcare": 207,
     "CPG": 24
   },
   "events": [
+    {
+      "id": "6a95f1c564cccda5",
+      "ts": "2026-11-06T20:19:27-05:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/anthropic/jobs/5474559008",
+      "type": "posting",
+      "company": {
+        "name": "Anthropic",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": "CA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Anthropic | Legal Specialist, Law Enforcement | San Francisco, CA | New York City, NY",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "CA"
+      ],
+      "extras": {
+        "role": "Legal Specialist, Law Enforcement",
+        "location": "San Francisco, CA | New York City, NY",
+        "seniority": "mid"
+      }
+    },
+    {
+      "id": "5413180af54451a7",
+      "ts": "2026-11-06T20:17:46-05:00",
+      "source": "greenhouse",
+      "source_url": "https://www.coinbase.com/careers/positions/8224901?gh_jid=8224901",
+      "type": "posting",
+      "company": {
+        "name": "Coinbase",
+        "ticker": null,
+        "industry": null,
+        "sector": "Finance",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Coinbase | Senior Counsel, Business Legal | Remote - USA",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "finance"
+      ],
+      "extras": {
+        "role": "Senior Counsel, Business Legal",
+        "location": "Remote - USA",
+        "seniority": "senior",
+        "remote": "remote"
+      }
+    },
+    {
+      "id": "626c5a458a437952",
+      "ts": "2026-11-06T20:00:52-05:00",
+      "source": "greenhouse",
+      "source_url": "https://stripe.com/jobs/search?gh_jid=8351500",
+      "type": "posting",
+      "company": {
+        "name": "Stripe",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Stripe | Account Executive - Startups (Grower), Australia | Australia",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "Sales"
+      ],
+      "extras": {
+        "role": "Account Executive - Startups (Grower), Australia",
+        "location": "Australia",
+        "function": "Sales",
+        "soc": "41-3091",
+        "seniority": "mid"
+      }
+    },
+    {
+      "id": "eb796bea09f6fb95",
+      "ts": "2026-11-06T19:44:52-05:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/mercury/jobs/6248646004",
+      "type": "posting",
+      "company": {
+        "name": "Mercury",
+        "ticker": null,
+        "industry": null,
+        "sector": "Finance",
+        "hq_region": "CA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Mercury | Staff Data Scientist - Credit and Lending ML | San Francisco, CA, New York, NY, Portland, OR, or Remote within Canada or United States",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "finance",
+        "CA",
+        "Data / ML"
+      ],
+      "extras": {
+        "role": "Staff Data Scientist - Credit and Lending ML",
+        "location": "San Francisco, CA, New York, NY, Portland, OR, or Remote within Canada or United States",
+        "function": "Data / ML",
+        "soc": "15-2051",
+        "seniority": "staff"
+      }
+    },
+    {
+      "id": "ead34b387fc88163",
+      "ts": "2026-11-06T19:43:56-05:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/gitlab/jobs/8928552002",
+      "type": "posting",
+      "company": {
+        "name": "GitLab",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "GitLab | Executive Assistant, Office of the CFO | Remote, United States",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "Finance / Accounting"
+      ],
+      "extras": {
+        "role": "Executive Assistant, Office of the CFO",
+        "location": "Remote, United States",
+        "function": "Finance / Accounting",
+        "soc": "13-2011",
+        "seniority": "c_level"
+      }
+    },
+    {
+      "id": "76141be2864f4bc0",
+      "ts": "2026-11-06T19:39:33-05:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/mercury/jobs/6248613004",
+      "type": "posting",
+      "company": {
+        "name": "Mercury",
+        "ticker": null,
+        "industry": null,
+        "sector": "Finance",
+        "hq_region": "CA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Mercury | Senior Data Scientist - Credit and Lending ML | San Francisco, CA, New York, NY, Portland, OR, or Remote within Canada or United States",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "finance",
+        "CA",
+        "Data / ML"
+      ],
+      "extras": {
+        "role": "Senior Data Scientist - Credit and Lending ML",
+        "location": "San Francisco, CA, New York, NY, Portland, OR, or Remote within Canada or United States",
+        "function": "Data / ML",
+        "soc": "15-2051",
+        "seniority": "senior"
+      }
+    },
+    {
+      "id": "51ab392929e1617b",
+      "ts": "2026-11-06T19:32:23-05:00",
+      "source": "greenhouse",
+      "source_url": "https://www.pinterestcareers.com/jobs/?gh_jid=7488432",
+      "type": "posting",
+      "company": {
+        "name": "Pinterest",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": "CA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Pinterest | Chief of Staff to GM, Ads | San Francisco, CA, US",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "CA",
+        "Operations"
+      ],
+      "extras": {
+        "role": "Chief of Staff to GM, Ads",
+        "location": "San Francisco, CA, US",
+        "function": "Operations",
+        "soc": "11-1021",
+        "seniority": "c_level"
+      }
+    },
+    {
+      "id": "7d16a4479b51c8e2",
+      "ts": "2026-11-06T19:26:43-05:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reddit/jobs/8140121",
+      "type": "posting",
+      "company": {
+        "name": "Reddit",
+        "ticker": null,
+        "industry": null,
+        "sector": "Media",
+        "hq_region": "NY",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Reddit | Senior Client Partner, Large Customer Sales (Big Box Retail) | New York City, NY",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "media",
+        "NY"
+      ],
+      "extras": {
+        "role": "Senior Client Partner, Large Customer Sales (Big Box Retail)",
+        "location": "New York City, NY",
+        "seniority": "senior",
+        "remote": "onsite"
+      }
+    },
+    {
+      "id": "774116de9441771d",
+      "ts": "2026-11-06T19:11:08-05:00",
+      "source": "greenhouse",
+      "source_url": "https://www.pinterestcareers.com/jobs/?gh_jid=8249279",
+      "type": "posting",
+      "company": {
+        "name": "Pinterest",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": "CA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Pinterest | Sr. Product Designer - Measurement, Data, & AI | San Francisco, CA, US; Remote, US",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "CA",
+        "Design"
+      ],
+      "extras": {
+        "role": "Sr. Product Designer - Measurement, Data, & AI",
+        "location": "San Francisco, CA, US; Remote, US",
+        "function": "Design",
+        "soc": "27-1024",
+        "seniority": "senior"
+      }
+    },
+    {
+      "id": "046d500f68786a27",
+      "ts": "2026-11-06T19:04:03-05:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/anthropic/jobs/5468901008",
+      "type": "posting",
+      "company": {
+        "name": "Anthropic",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": "CA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Anthropic | Staff+ Software Engineer, STEM | San Francisco, CA | New York City, NY | Seattle, WA",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "CA",
+        "Software Engineering"
+      ],
+      "extras": {
+        "role": "Staff+ Software Engineer, STEM",
+        "location": "San Francisco, CA | New York City, NY | Seattle, WA",
+        "function": "Software Engineering",
+        "soc": "15-1252",
+        "seniority": "staff"
+      }
+    },
+    {
+      "id": "76473a190cdb4a61",
+      "ts": "2026-11-06T18:53:14-05:00",
+      "source": "greenhouse",
+      "source_url": "https://www.pinterestcareers.com/jobs/?gh_jid=8140217",
+      "type": "posting",
+      "company": {
+        "name": "Pinterest",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": "CA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Pinterest | UX Quantitative Research Intern (USA) | Remote, US; San Francisco, CA, US; Seattle, WA, US; New York, NY, US",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "CA"
+      ],
+      "extras": {
+        "role": "UX Quantitative Research Intern (USA)",
+        "location": "Remote, US; San Francisco, CA, US; Seattle, WA, US; New York, NY, US",
+        "seniority": "intern"
+      }
+    },
+    {
+      "id": "915bcd340fec6182",
+      "ts": "2026-11-06T18:53:08-05:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/anthropic/jobs/5475321008",
+      "type": "posting",
+      "company": {
+        "name": "Anthropic",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": "CA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Anthropic | Brand Strategy Lead, Brand Architecture & Naming | San Francisco, CA | New York City, NY",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "CA"
+      ],
+      "extras": {
+        "role": "Brand Strategy Lead, Brand Architecture & Naming",
+        "location": "San Francisco, CA | New York City, NY",
+        "seniority": "lead"
+      }
+    },
+    {
+      "id": "3f641696000bc0b4",
+      "ts": "2026-11-06T18:52:48-05:00",
+      "source": "greenhouse",
+      "source_url": "https://instacart.careers/job/?gh_jid=8359777",
+      "type": "posting",
+      "company": {
+        "name": "Instacart",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Instacart | Senior Global Mobility and Immigration Specialist | Canada - Remote (ON, AB, BC, or NS Only)",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology"
+      ],
+      "extras": {
+        "role": "Senior Global Mobility and Immigration Specialist",
+        "location": "Canada - Remote (ON, AB, BC, or NS Only)",
+        "seniority": "senior",
+        "remote": "remote"
+      }
+    },
+    {
+      "id": "ccdc8a80dcd1f973",
+      "ts": "2026-11-06T18:51:38-05:00",
+      "source": "greenhouse",
+      "source_url": "https://instacart.careers/job/?gh_jid=8359775",
+      "type": "posting",
+      "company": {
+        "name": "Instacart",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Instacart | Senior Global Mobility and Immigration Specialist | United States - Remote",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology"
+      ],
+      "extras": {
+        "role": "Senior Global Mobility and Immigration Specialist",
+        "location": "United States - Remote",
+        "seniority": "senior",
+        "remote": "remote"
+      }
+    },
+    {
+      "id": "1f8f86375f2343e8",
+      "ts": "2026-11-06T18:44:07-05:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/gitlab/jobs/8933640002",
+      "type": "posting",
+      "company": {
+        "name": "GitLab",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "GitLab | Principal Growth Marketing Strategist | Remote, Canada; Remote, United States",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "Marketing"
+      ],
+      "extras": {
+        "role": "Principal Growth Marketing Strategist",
+        "location": "Remote, Canada; Remote, United States",
+        "function": "Marketing",
+        "soc": "11-2011",
+        "seniority": "principal"
+      }
+    },
+    {
+      "id": "4361cf73b8ffd8a7",
+      "ts": "2026-11-06T18:35:42-05:00",
+      "source": "greenhouse",
+      "source_url": "https://boards.greenhouse.io/cloudflare/jobs/8360609?gh_jid=8360609",
+      "type": "posting",
+      "company": {
+        "name": "Cloudflare",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Cloudflare | Software Engineer - Load Balancing | Hybrid",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "Software Engineering"
+      ],
+      "extras": {
+        "role": "Software Engineer - Load Balancing",
+        "location": "Hybrid",
+        "function": "Software Engineering",
+        "soc": "15-1252",
+        "seniority": "mid"
+      }
+    },
+    {
+      "id": "2cdc6f09a7302df9",
+      "ts": "2026-11-06T18:35:41-05:00",
+      "source": "greenhouse",
+      "source_url": "https://boards.greenhouse.io/cloudflare/jobs/8327958?gh_jid=8327958",
+      "type": "posting",
+      "company": {
+        "name": "Cloudflare",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Cloudflare | Senior Majors Account Executive - Phoenix | Hybrid",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "Sales"
+      ],
+      "extras": {
+        "role": "Senior Majors Account Executive - Phoenix",
+        "location": "Hybrid",
+        "function": "Sales",
+        "soc": "41-3091",
+        "seniority": "senior"
+      }
+    },
+    {
+      "id": "bf8591160bd1f648",
+      "ts": "2026-11-06T18:20:16-05:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/gitlab/jobs/8931179002",
+      "type": "posting",
+      "company": {
+        "name": "GitLab",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "GitLab | Lead, Community Growth Marketing Manager | Remote, Canada; Remote, United States",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "Marketing"
+      ],
+      "extras": {
+        "role": "Lead, Community Growth Marketing Manager",
+        "location": "Remote, Canada; Remote, United States",
+        "function": "Marketing",
+        "soc": "11-2011",
+        "seniority": "manager"
+      }
+    },
+    {
+      "id": "05186f66bdae56ad",
+      "ts": "2026-11-06T18:07:34-05:00",
+      "source": "greenhouse",
+      "source_url": "https://www.coinbase.com/careers/positions/8348533?gh_jid=8348533",
+      "type": "posting",
+      "company": {
+        "name": "Coinbase",
+        "ticker": null,
+        "industry": null,
+        "sector": "Finance",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Coinbase | Inbound Specialist II, Premium & Wealth | Remote - Singapore",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "finance"
+      ],
+      "extras": {
+        "role": "Inbound Specialist II, Premium & Wealth",
+        "location": "Remote - Singapore",
+        "seniority": "mid",
+        "remote": "remote"
+      }
+    },
+    {
+      "id": "7953f2fc92954704",
+      "ts": "2026-11-06T22:59:09.141000Z",
+      "source": "ashby",
+      "source_url": "https://jobs.ashbyhq.com/Perplexity/5930b6bf-b4b1-4134-a183-832d69dd085f",
+      "type": "posting",
+      "company": {
+        "name": "Perplexity AI",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": "CA",
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Perplexity AI | Counsel, Product | San Francisco | Legal",
+      "tags": [
+        "hiring",
+        "ashby",
+        "technology",
+        "CA"
+      ],
+      "extras": {
+        "role": "Counsel, Product",
+        "location": "San Francisco",
+        "department": "Legal",
+        "employment_type": "FullTime",
+        "seniority": "mid",
+        "remote": "remote",
+        "stack": [
+          "spark"
+        ]
+      }
+    },
+    {
+      "id": "3b2f446d67b712a8",
+      "ts": "2026-11-06T17:55:25-05:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/gitlab/jobs/8931337002",
+      "type": "posting",
+      "company": {
+        "name": "GitLab",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "GitLab | Customer Success LATAM | Remote, United States",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "Customer Success"
+      ],
+      "extras": {
+        "role": "Customer Success LATAM",
+        "location": "Remote, United States",
+        "function": "Customer Success",
+        "soc": "13-1161",
+        "seniority": "mid"
+      }
+    },
     {
       "id": "a6b086a8e7d0f1fa",
       "ts": "2026-11-06T17:38:20-05:00",
@@ -3839,38 +4484,6 @@
       }
     },
     {
-      "id": "51ab392929e1617b",
-      "ts": "2026-11-06T16:55:08-05:00",
-      "source": "greenhouse",
-      "source_url": "https://www.pinterestcareers.com/jobs/?gh_jid=7488432",
-      "type": "posting",
-      "company": {
-        "name": "Pinterest",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": "CA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Pinterest | Chief of Staff to GM, Ads | San Francisco, CA, US",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "CA",
-        "Operations"
-      ],
-      "extras": {
-        "role": "Chief of Staff to GM, Ads",
-        "location": "San Francisco, CA, US",
-        "function": "Operations",
-        "soc": "11-1021",
-        "seniority": "c_level"
-      }
-    },
-    {
       "id": "a17c18f4a3ba1cd3",
       "ts": "2026-11-06T16:55:08-05:00",
       "source": "greenhouse",
@@ -5368,38 +5981,6 @@
       }
     },
     {
-      "id": "fe684775114473c1",
-      "ts": "2026-11-06T16:09:48-05:00",
-      "source": "greenhouse",
-      "source_url": "https://instacart.careers/job/?gh_jid=8356130",
-      "type": "posting",
-      "company": {
-        "name": "Instacart",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Instacart | Principal Product Manager, Ads Quality | Canada - Remote (ON, AB, BC, or NS Only)",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "Product"
-      ],
-      "extras": {
-        "role": "Principal Product Manager, Ads Quality",
-        "location": "Canada - Remote (ON, AB, BC, or NS Only)",
-        "function": "Product",
-        "soc": "11-2021",
-        "seniority": "principal",
-        "remote": "remote"
-      }
-    },
-    {
       "id": "38d456f5de216912",
       "ts": "2026-11-06T16:09:48-05:00",
       "source": "greenhouse",
@@ -5425,6 +6006,38 @@
       "extras": {
         "role": "Principal Product Manager, Ads Quality",
         "location": "United States - Remote",
+        "function": "Product",
+        "soc": "11-2021",
+        "seniority": "principal",
+        "remote": "remote"
+      }
+    },
+    {
+      "id": "fe684775114473c1",
+      "ts": "2026-11-06T16:09:48-05:00",
+      "source": "greenhouse",
+      "source_url": "https://instacart.careers/job/?gh_jid=8356130",
+      "type": "posting",
+      "company": {
+        "name": "Instacart",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "Instacart | Principal Product Manager, Ads Quality | Canada - Remote (ON, AB, BC, or NS Only)",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "Product"
+      ],
+      "extras": {
+        "role": "Principal Product Manager, Ads Quality",
+        "location": "Canada - Remote (ON, AB, BC, or NS Only)",
         "function": "Product",
         "soc": "11-2021",
         "seniority": "principal",
@@ -5948,37 +6561,6 @@
       }
     },
     {
-      "id": "74390e10d2257b17",
-      "ts": "2026-11-06T15:25:07-05:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/gitlab/jobs/8682860002",
-      "type": "posting",
-      "company": {
-        "name": "GitLab",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "GitLab | Backend Engineer (Ruby), Plan: Spec-Driven Development | Remote, United Kingdom",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "Software Engineering"
-      ],
-      "extras": {
-        "role": "Backend Engineer (Ruby), Plan: Spec-Driven Development",
-        "location": "Remote, United Kingdom",
-        "function": "Software Engineering",
-        "soc": "15-1252",
-        "seniority": "mid"
-      }
-    },
-    {
       "id": "58534c57e54be50c",
       "ts": "2026-11-06T15:25:07-05:00",
       "source": "greenhouse",
@@ -6004,6 +6586,37 @@
       "extras": {
         "role": "Backend Engineer (Ruby), Plan: Spec-Driven Development",
         "location": "Remote, Poland",
+        "function": "Software Engineering",
+        "soc": "15-1252",
+        "seniority": "mid"
+      }
+    },
+    {
+      "id": "74390e10d2257b17",
+      "ts": "2026-11-06T15:25:07-05:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/gitlab/jobs/8682860002",
+      "type": "posting",
+      "company": {
+        "name": "GitLab",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "GitLab | Backend Engineer (Ruby), Plan: Spec-Driven Development | Remote, United Kingdom",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "Software Engineering"
+      ],
+      "extras": {
+        "role": "Backend Engineer (Ruby), Plan: Spec-Driven Development",
+        "location": "Remote, United Kingdom",
         "function": "Software Engineering",
         "soc": "15-1252",
         "seniority": "mid"
@@ -6100,34 +6713,6 @@
       }
     },
     {
-      "id": "a63fa6ec72734734",
-      "ts": "2026-11-06T15:25:07-05:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/gitlab/jobs/8532272002",
-      "type": "posting",
-      "company": {
-        "name": "GitLab",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "GitLab | Business Development Representative | Remote, North America",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology"
-      ],
-      "extras": {
-        "role": "Business Development Representative",
-        "location": "Remote, North America",
-        "seniority": "mid"
-      }
-    },
-    {
       "id": "eea17ad79b38f1f3",
       "ts": "2026-11-06T15:25:07-05:00",
       "source": "greenhouse",
@@ -6152,6 +6737,34 @@
       "extras": {
         "role": "Business Development Representative",
         "location": "Remote, Ireland; Remote, Spain; Remote, United Kingdom",
+        "seniority": "mid"
+      }
+    },
+    {
+      "id": "a63fa6ec72734734",
+      "ts": "2026-11-06T15:25:07-05:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/gitlab/jobs/8532272002",
+      "type": "posting",
+      "company": {
+        "name": "GitLab",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "GitLab | Business Development Representative | Remote, North America",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology"
+      ],
+      "extras": {
+        "role": "Business Development Representative",
+        "location": "Remote, North America",
         "seniority": "mid"
       }
     },
@@ -7463,34 +8076,6 @@
       }
     },
     {
-      "id": "71c49548aaf277eb",
-      "ts": "2026-11-06T15:25:07-05:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/gitlab/jobs/8923121002",
-      "type": "posting",
-      "company": {
-        "name": "GitLab",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "GitLab | Incident & Escalation Lead- Enterprise Customers | Remote, Canada; Remote, United States",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology"
-      ],
-      "extras": {
-        "role": "Incident & Escalation Lead- Enterprise Customers",
-        "location": "Remote, Canada; Remote, United States",
-        "seniority": "lead"
-      }
-    },
-    {
       "id": "9c0ce73ce5feed95",
       "ts": "2026-11-06T15:25:07-05:00",
       "source": "greenhouse",
@@ -7515,6 +8100,34 @@
       "extras": {
         "role": "Incident & Escalation Lead- Enterprise Customers",
         "location": "Remote, United Kingdom",
+        "seniority": "lead"
+      }
+    },
+    {
+      "id": "71c49548aaf277eb",
+      "ts": "2026-11-06T15:25:07-05:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/gitlab/jobs/8923121002",
+      "type": "posting",
+      "company": {
+        "name": "GitLab",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "GitLab | Incident & Escalation Lead- Enterprise Customers | Remote, Canada; Remote, United States",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology"
+      ],
+      "extras": {
+        "role": "Incident & Escalation Lead- Enterprise Customers",
+        "location": "Remote, Canada; Remote, United States",
         "seniority": "lead"
       }
     },
@@ -8802,35 +9415,6 @@
       }
     },
     {
-      "id": "013db3e7f55b09d4",
-      "ts": "2026-11-06T15:25:07-05:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/gitlab/jobs/8784056002",
-      "type": "posting",
-      "company": {
-        "name": "GitLab",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "GitLab | Principal Technical Program Manager | Bangalore, India",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology"
-      ],
-      "extras": {
-        "role": "Principal Technical Program Manager",
-        "location": "Bangalore, India",
-        "seniority": "principal",
-        "remote": "remote"
-      }
-    },
-    {
       "id": "260f4046b7a2e284",
       "ts": "2026-11-06T15:25:07-05:00",
       "source": "greenhouse",
@@ -8855,6 +9439,35 @@
       "extras": {
         "role": "Principal Technical Program Manager",
         "location": "Remote, Canada; Remote, United States",
+        "seniority": "principal",
+        "remote": "remote"
+      }
+    },
+    {
+      "id": "013db3e7f55b09d4",
+      "ts": "2026-11-06T15:25:07-05:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/gitlab/jobs/8784056002",
+      "type": "posting",
+      "company": {
+        "name": "GitLab",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "GitLab | Principal Technical Program Manager | Bangalore, India",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology"
+      ],
+      "extras": {
+        "role": "Principal Technical Program Manager",
+        "location": "Bangalore, India",
         "seniority": "principal",
         "remote": "remote"
       }
@@ -9976,37 +10589,6 @@
       }
     },
     {
-      "id": "85652aa6ff888da8",
-      "ts": "2026-11-06T15:25:07-05:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/gitlab/jobs/8604996002",
-      "type": "posting",
-      "company": {
-        "name": "GitLab",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "GitLab | Senior Customer Success Operations Manager | Remote, US",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "Customer Success"
-      ],
-      "extras": {
-        "role": "Senior Customer Success Operations Manager",
-        "location": "Remote, US",
-        "function": "Customer Success",
-        "soc": "13-1161",
-        "seniority": "senior"
-      }
-    },
-    {
       "id": "c649ddca80b218b7",
       "ts": "2026-11-06T15:25:07-05:00",
       "source": "greenhouse",
@@ -11042,34 +11624,6 @@
       }
     },
     {
-      "id": "6eba1890ee60a580",
-      "ts": "2026-11-06T15:25:07-05:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/gitlab/jobs/8783485002",
-      "type": "posting",
-      "company": {
-        "name": "GitLab",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "GitLab | Senior Solutions Architect | Remote, South Korea",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology"
-      ],
-      "extras": {
-        "role": "Senior Solutions Architect",
-        "location": "Remote, South Korea",
-        "seniority": "senior"
-      }
-    },
-    {
       "id": "28cbd314eb50ea1e",
       "ts": "2026-11-06T15:25:07-05:00",
       "source": "greenhouse",
@@ -11094,6 +11648,34 @@
       "extras": {
         "role": "Senior Solutions Architect",
         "location": "Bangalore, India",
+        "seniority": "senior"
+      }
+    },
+    {
+      "id": "6eba1890ee60a580",
+      "ts": "2026-11-06T15:25:07-05:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/gitlab/jobs/8783485002",
+      "type": "posting",
+      "company": {
+        "name": "GitLab",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "GitLab | Senior Solutions Architect | Remote, South Korea",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology"
+      ],
+      "extras": {
+        "role": "Senior Solutions Architect",
+        "location": "Remote, South Korea",
         "seniority": "senior"
       }
     },
@@ -11331,37 +11913,6 @@
       }
     },
     {
-      "id": "52c99edce5f6c596",
-      "ts": "2026-11-06T15:25:07-05:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/gitlab/jobs/8692880002",
-      "type": "posting",
-      "company": {
-        "name": "GitLab",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "GitLab | Senior Support Engineer | Remote, South Korea",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "Support"
-      ],
-      "extras": {
-        "role": "Senior Support Engineer",
-        "location": "Remote, South Korea",
-        "function": "Support",
-        "soc": "43-4051",
-        "seniority": "senior"
-      }
-    },
-    {
       "id": "c83d85db1eb028a8",
       "ts": "2026-11-06T15:25:07-05:00",
       "source": "greenhouse",
@@ -11387,6 +11938,37 @@
       "extras": {
         "role": "Senior Support Engineer",
         "location": "Bangalore, India",
+        "function": "Support",
+        "soc": "43-4051",
+        "seniority": "senior"
+      }
+    },
+    {
+      "id": "52c99edce5f6c596",
+      "ts": "2026-11-06T15:25:07-05:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/gitlab/jobs/8692880002",
+      "type": "posting",
+      "company": {
+        "name": "GitLab",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "GitLab | Senior Support Engineer | Remote, South Korea",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "Support"
+      ],
+      "extras": {
+        "role": "Senior Support Engineer",
+        "location": "Remote, South Korea",
         "function": "Support",
         "soc": "43-4051",
         "seniority": "senior"
@@ -11879,37 +12461,6 @@
       }
     },
     {
-      "id": "9e81de18b6a74e10",
-      "ts": "2026-11-06T15:25:07-05:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/gitlab/jobs/8739391002",
-      "type": "posting",
-      "company": {
-        "name": "GitLab",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "GitLab | Staff Fullstack Engineer (Ruby/Vue.js) Monetization Engineering: Purchase | Remote, Canada; Remote, United States",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "Software Engineering"
-      ],
-      "extras": {
-        "role": "Staff Fullstack Engineer (Ruby/Vue.js) Monetization Engineering: Purchase",
-        "location": "Remote, Canada; Remote, United States",
-        "function": "Software Engineering",
-        "soc": "15-1252",
-        "seniority": "staff"
-      }
-    },
-    {
       "id": "7cc3de2285b31069",
       "ts": "2026-11-06T15:25:07-05:00",
       "source": "greenhouse",
@@ -12366,34 +12917,6 @@
       }
     },
     {
-      "id": "4b8bb496c575c1ca",
-      "ts": "2026-11-06T15:25:07-05:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/gitlab/jobs/8886426002",
-      "type": "posting",
-      "company": {
-        "name": "GitLab",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "GitLab | Staff Solutions Architect, AI Subject Matter Expert | Remote, United States",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology"
-      ],
-      "extras": {
-        "role": "Staff Solutions Architect, AI Subject Matter Expert",
-        "location": "Remote, United States",
-        "seniority": "staff"
-      }
-    },
-    {
       "id": "e4fddcde3e4f9012",
       "ts": "2026-11-06T15:25:07-05:00",
       "source": "greenhouse",
@@ -12422,10 +12945,38 @@
       }
     },
     {
-      "id": "b444d2a9dd9cfe0d",
+      "id": "4b8bb496c575c1ca",
       "ts": "2026-11-06T15:25:07-05:00",
       "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/gitlab/jobs/8860127002",
+      "source_url": "https://job-boards.greenhouse.io/gitlab/jobs/8886426002",
+      "type": "posting",
+      "company": {
+        "name": "GitLab",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "GitLab | Staff Solutions Architect, AI Subject Matter Expert | Remote, United States",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology"
+      ],
+      "extras": {
+        "role": "Staff Solutions Architect, AI Subject Matter Expert",
+        "location": "Remote, United States",
+        "seniority": "staff"
+      }
+    },
+    {
+      "id": "c51c1b8e7731b2e9",
+      "ts": "2026-11-06T15:25:07-05:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/gitlab/jobs/8860106002",
       "type": "posting",
       "company": {
         "name": "GitLab",
@@ -12453,10 +13004,10 @@
       }
     },
     {
-      "id": "c51c1b8e7731b2e9",
+      "id": "b444d2a9dd9cfe0d",
       "ts": "2026-11-06T15:25:07-05:00",
       "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/gitlab/jobs/8860106002",
+      "source_url": "https://job-boards.greenhouse.io/gitlab/jobs/8860127002",
       "type": "posting",
       "company": {
         "name": "GitLab",
@@ -12763,37 +13314,6 @@
       }
     },
     {
-      "id": "d0c57df42f02fbd1",
-      "ts": "2026-11-06T15:25:07-05:00",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/gitlab/jobs/8675560002",
-      "type": "posting",
-      "company": {
-        "name": "GitLab",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "GitLab | Strategic Account Executive, Poland | Remote",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology",
-        "Sales"
-      ],
-      "extras": {
-        "role": "Strategic Account Executive, Poland",
-        "location": "Remote",
-        "function": "Sales",
-        "soc": "41-3091",
-        "seniority": "mid"
-      }
-    },
-    {
       "id": "eed7bbcb67e18ffa",
       "ts": "2026-11-06T15:25:07-05:00",
       "source": "greenhouse",
@@ -12819,6 +13339,37 @@
       "extras": {
         "role": "Strategic Account Executive, Poland",
         "location": "Remote, Poland",
+        "function": "Sales",
+        "soc": "41-3091",
+        "seniority": "mid"
+      }
+    },
+    {
+      "id": "d0c57df42f02fbd1",
+      "ts": "2026-11-06T15:25:07-05:00",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/gitlab/jobs/8675560002",
+      "type": "posting",
+      "company": {
+        "name": "GitLab",
+        "ticker": null,
+        "industry": null,
+        "sector": "Technology",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": "jobs",
+      "raw_text": "GitLab | Strategic Account Executive, Poland | Remote",
+      "tags": [
+        "hiring",
+        "greenhouse",
+        "technology",
+        "Sales"
+      ],
+      "extras": {
+        "role": "Strategic Account Executive, Poland",
+        "location": "Remote",
         "function": "Sales",
         "soc": "41-3091",
         "seniority": "mid"
@@ -13810,64 +14361,6 @@
         "function": "Engineering Management",
         "soc": "11-9041",
         "seniority": "senior"
-      }
-    },
-    {
-      "id": "3f641696000bc0b4",
-      "ts": "2026-11-06T13:34:12-05:00",
-      "source": "greenhouse",
-      "source_url": "https://instacart.careers/job/?gh_jid=8359777",
-      "type": "posting",
-      "company": {
-        "name": "Instacart",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Instacart | Senior Global Mobility and Immigration Specialist | Canada - Remote (ON, AB, BC, or NS Only)",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology"
-      ],
-      "extras": {
-        "role": "Senior Global Mobility and Immigration Specialist",
-        "location": "Canada - Remote (ON, AB, BC, or NS Only)",
-        "seniority": "senior",
-        "remote": "remote"
-      }
-    },
-    {
-      "id": "ccdc8a80dcd1f973",
-      "ts": "2026-11-06T13:34:08-05:00",
-      "source": "greenhouse",
-      "source_url": "https://instacart.careers/job/?gh_jid=8359775",
-      "type": "posting",
-      "company": {
-        "name": "Instacart",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Instacart | Senior Global Mobility and Immigration Specialist | United States - Remote",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "technology"
-      ],
-      "extras": {
-        "role": "Senior Global Mobility and Immigration Specialist",
-        "location": "United States - Remote",
-        "seniority": "senior",
-        "remote": "remote"
       }
     },
     {
@@ -14877,512 +15370,6 @@
         "seniority": "junior",
         "salary_min": 87188.0,
         "salary_max": 114434.0,
-        "remote": "remote"
-      }
-    },
-    {
-      "id": "8df1a5b111f2d757",
-      "ts": "2026-11-06T12:23:13-05:00",
-      "source": "greenhouse",
-      "source_url": "https://oscarhealth.com/careers/jobs?gh_jid=8168192",
-      "type": "posting",
-      "company": {
-        "name": "Oscar Health",
-        "ticker": null,
-        "industry": null,
-        "sector": "Healthcare",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Oscar Health | Associate Manager, Credentialing Operations | Remote",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "healthcare"
-      ],
-      "extras": {
-        "role": "Associate Manager, Credentialing Operations",
-        "location": "Remote",
-        "seniority": "manager",
-        "salary_min": 72036.0,
-        "salary_max": 85000.0,
-        "remote": "remote"
-      }
-    },
-    {
-      "id": "f5fdd3ecbb700cb8",
-      "ts": "2026-11-06T12:23:13-05:00",
-      "source": "greenhouse",
-      "source_url": "https://oscarhealth.com/careers/jobs?gh_jid=8193728",
-      "type": "posting",
-      "company": {
-        "name": "Oscar Health",
-        "ticker": null,
-        "industry": null,
-        "sector": "Healthcare",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Oscar Health | Associate Medical Director, Regulatory Management | Remote",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "healthcare",
-        "Engineering Management"
-      ],
-      "extras": {
-        "role": "Associate Medical Director, Regulatory Management",
-        "location": "Remote",
-        "function": "Engineering Management",
-        "soc": "11-9041",
-        "seniority": "director",
-        "salary_min": 216108.0,
-        "salary_max": 283642.0,
-        "remote": "remote"
-      }
-    },
-    {
-      "id": "9eeec6a54c19ea86",
-      "ts": "2026-11-06T12:23:13-05:00",
-      "source": "greenhouse",
-      "source_url": "https://oscarhealth.com/careers/jobs?gh_jid=8023759",
-      "type": "posting",
-      "company": {
-        "name": "Oscar Health",
-        "ticker": null,
-        "industry": null,
-        "sector": "Healthcare",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Oscar Health | Associate, Medical Economics | Remote",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "healthcare"
-      ],
-      "extras": {
-        "role": "Associate, Medical Economics",
-        "location": "Remote",
-        "seniority": "junior",
-        "salary_min": 123372.0,
-        "salary_max": 161925.0,
-        "remote": "remote"
-      }
-    },
-    {
-      "id": "9a9f1fea554a98f3",
-      "ts": "2026-11-06T12:23:13-05:00",
-      "source": "greenhouse",
-      "source_url": "https://oscarhealth.com/careers/jobs?gh_jid=8330840",
-      "type": "posting",
-      "company": {
-        "name": "Oscar Health",
-        "ticker": null,
-        "industry": null,
-        "sector": "Healthcare",
-        "hq_region": "AZ",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Oscar Health | Associate, Member and Provider Programs | Tempe, Arizona, United States",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "healthcare",
-        "AZ"
-      ],
-      "extras": {
-        "role": "Associate, Member and Provider Programs",
-        "location": "Tempe, Arizona, United States",
-        "seniority": "junior",
-        "salary_min": 91659.0,
-        "salary_max": 120303.0,
-        "remote": "hybrid"
-      }
-    },
-    {
-      "id": "3334843687863991",
-      "ts": "2026-11-06T12:23:13-05:00",
-      "source": "greenhouse",
-      "source_url": "https://oscarhealth.com/careers/jobs?gh_jid=8303620",
-      "type": "posting",
-      "company": {
-        "name": "Oscar Health",
-        "ticker": null,
-        "industry": null,
-        "sector": "Healthcare",
-        "hq_region": "NY",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Oscar Health | Associate, Member and Provider Programs | New York, New York, United States",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "healthcare",
-        "NY"
-      ],
-      "extras": {
-        "role": "Associate, Member and Provider Programs",
-        "location": "New York, New York, United States",
-        "seniority": "junior",
-        "salary_min": 101844.0,
-        "salary_max": 133670.0,
-        "remote": "hybrid"
-      }
-    },
-    {
-      "id": "293de706004f8c41",
-      "ts": "2026-11-06T12:23:13-05:00",
-      "source": "greenhouse",
-      "source_url": "https://oscarhealth.com/careers/jobs?gh_jid=8301173",
-      "type": "posting",
-      "company": {
-        "name": "Oscar Health",
-        "ticker": null,
-        "industry": null,
-        "sector": "Healthcare",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Oscar Health | Associate, National Provider Contracting | Remote",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "healthcare"
-      ],
-      "extras": {
-        "role": "Associate, National Provider Contracting",
-        "location": "Remote",
-        "seniority": "junior",
-        "remote": "remote"
-      }
-    },
-    {
-      "id": "138121fb95f058ef",
-      "ts": "2026-11-06T12:23:13-05:00",
-      "source": "greenhouse",
-      "source_url": "https://oscarhealth.com/careers/jobs?gh_jid=8145032",
-      "type": "posting",
-      "company": {
-        "name": "Oscar Health",
-        "ticker": null,
-        "industry": null,
-        "sector": "Healthcare",
-        "hq_region": "NY",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Oscar Health | Associate, Network Contracting (Northeast Region) | New York, New York, United States",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "healthcare",
-        "NY"
-      ],
-      "extras": {
-        "role": "Associate, Network Contracting (Northeast Region)",
-        "location": "New York, New York, United States",
-        "seniority": "junior",
-        "salary_min": 96876.0,
-        "salary_max": 127149.0,
-        "remote": "remote"
-      }
-    },
-    {
-      "id": "33b3f7ab3e082bb6",
-      "ts": "2026-11-06T12:23:13-05:00",
-      "source": "greenhouse",
-      "source_url": "https://oscarhealth.com/careers/jobs?gh_jid=8329391",
-      "type": "posting",
-      "company": {
-        "name": "Oscar Health",
-        "ticker": null,
-        "industry": null,
-        "sector": "Healthcare",
-        "hq_region": "TX",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Oscar Health | Associate, Service Transformation | Dallas, Texas, United States",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "healthcare",
-        "TX"
-      ],
-      "extras": {
-        "role": "Associate, Service Transformation",
-        "location": "Dallas, Texas, United States",
-        "seniority": "junior",
-        "salary_min": 87188.0,
-        "salary_max": 87188.0,
-        "remote": "remote"
-      }
-    },
-    {
-      "id": "9ca7f752ee926316",
-      "ts": "2026-11-06T12:23:13-05:00",
-      "source": "greenhouse",
-      "source_url": "https://oscarhealth.com/careers/jobs?gh_jid=8319428",
-      "type": "posting",
-      "company": {
-        "name": "Oscar Health",
-        "ticker": null,
-        "industry": null,
-        "sector": "Healthcare",
-        "hq_region": "GA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Oscar Health | Associate, Service Transformation | Atlanta, Georgia, United States",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "healthcare",
-        "GA"
-      ],
-      "extras": {
-        "role": "Associate, Service Transformation",
-        "location": "Atlanta, Georgia, United States",
-        "seniority": "junior",
-        "salary_min": 87188.0,
-        "salary_max": 87188.0,
-        "remote": "remote"
-      }
-    },
-    {
-      "id": "77cbad3d43d2ecf8",
-      "ts": "2026-11-06T12:23:13-05:00",
-      "source": "greenhouse",
-      "source_url": "https://oscarhealth.com/careers/jobs?gh_jid=8349789",
-      "type": "posting",
-      "company": {
-        "name": "Oscar Health",
-        "ticker": null,
-        "industry": null,
-        "sector": "Healthcare",
-        "hq_region": "NY",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Oscar Health | Associate, Service Transformation | New York, New York, United States",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "healthcare",
-        "NY"
-      ],
-      "extras": {
-        "role": "Associate, Service Transformation",
-        "location": "New York, New York, United States",
-        "seniority": "junior",
-        "salary_min": 96876.0,
-        "salary_max": 96876.0,
-        "remote": "hybrid"
-      }
-    },
-    {
-      "id": "d629a5c39779eced",
-      "ts": "2026-11-06T12:23:13-05:00",
-      "source": "greenhouse",
-      "source_url": "https://oscarhealth.com/careers/jobs?gh_jid=8349798",
-      "type": "posting",
-      "company": {
-        "name": "Oscar Health",
-        "ticker": null,
-        "industry": null,
-        "sector": "Healthcare",
-        "hq_region": "AZ",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Oscar Health | Associate, Service Transformation | Tempe, Arizona, United States",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "healthcare",
-        "AZ"
-      ],
-      "extras": {
-        "role": "Associate, Service Transformation",
-        "location": "Tempe, Arizona, United States",
-        "seniority": "junior",
-        "salary_min": 87188.0,
-        "salary_max": 114434.0,
-        "remote": "hybrid"
-      }
-    },
-    {
-      "id": "ed0c84f4734ae85b",
-      "ts": "2026-11-06T12:23:13-05:00",
-      "source": "greenhouse",
-      "source_url": "https://oscarhealth.com/careers/jobs?gh_jid=8013107",
-      "type": "posting",
-      "company": {
-        "name": "Oscar Health",
-        "ticker": null,
-        "industry": null,
-        "sector": "Healthcare",
-        "hq_region": "TX",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Oscar Health | Associate, Strategic Finance | Dallas, Texas, United States",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "healthcare",
-        "TX"
-      ],
-      "extras": {
-        "role": "Associate, Strategic Finance",
-        "location": "Dallas, Texas, United States",
-        "seniority": "junior",
-        "salary_min": 96876.0,
-        "salary_max": 127149.0,
-        "remote": "remote"
-      }
-    },
-    {
-      "id": "ca1bbb4f6c8b4f23",
-      "ts": "2026-11-06T12:23:13-05:00",
-      "source": "greenhouse",
-      "source_url": "https://oscarhealth.com/careers/jobs?gh_jid=8011066",
-      "type": "posting",
-      "company": {
-        "name": "Oscar Health",
-        "ticker": null,
-        "industry": null,
-        "sector": "Healthcare",
-        "hq_region": "NY",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Oscar Health | Associate, Strategic Finance | New York, New York, United States",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "healthcare",
-        "NY"
-      ],
-      "extras": {
-        "role": "Associate, Strategic Finance",
-        "location": "New York, New York, United States",
-        "seniority": "junior",
-        "salary_min": 87188.0,
-        "salary_max": 114434.0,
-        "remote": "hybrid"
-      }
-    },
-    {
-      "id": "d28713cbf32cba3f",
-      "ts": "2026-11-06T12:23:13-05:00",
-      "source": "greenhouse",
-      "source_url": "https://oscarhealth.com/careers/jobs?gh_jid=8013106",
-      "type": "posting",
-      "company": {
-        "name": "Oscar Health",
-        "ticker": null,
-        "industry": null,
-        "sector": "Healthcare",
-        "hq_region": "AZ",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Oscar Health | Associate, Strategic Finance | Tempe, Arizona, United States",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "healthcare",
-        "AZ"
-      ],
-      "extras": {
-        "role": "Associate, Strategic Finance",
-        "location": "Tempe, Arizona, United States",
-        "seniority": "junior",
-        "salary_min": 96876.0,
-        "salary_max": 127149.0,
-        "remote": "hybrid"
-      }
-    },
-    {
-      "id": "c2a1a31ceee51b8b",
-      "ts": "2026-11-06T12:23:13-05:00",
-      "source": "greenhouse",
-      "source_url": "https://oscarhealth.com/careers/jobs?gh_jid=8013108",
-      "type": "posting",
-      "company": {
-        "name": "Oscar Health",
-        "ticker": null,
-        "industry": null,
-        "sector": "Healthcare",
-        "hq_region": "GA",
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Oscar Health | Associate, Strategic Finance | Atlanta, Georgia, United States",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "healthcare",
-        "GA"
-      ],
-      "extras": {
-        "role": "Associate, Strategic Finance",
-        "location": "Atlanta, Georgia, United States",
-        "seniority": "junior",
-        "salary_min": 96876.0,
-        "salary_max": 127149.0,
-        "remote": "remote"
-      }
-    },
-    {
-      "id": "fb1841c0ed2681f0",
-      "ts": "2026-11-06T12:23:13-05:00",
-      "source": "greenhouse",
-      "source_url": "https://oscarhealth.com/careers/jobs?gh_jid=8232510",
-      "type": "posting",
-      "company": {
-        "name": "Oscar Health",
-        "ticker": null,
-        "industry": null,
-        "sector": "Healthcare",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": "jobs",
-      "raw_text": "Oscar Health | Bilingual Medical Assistant (Part-Time) | Remote",
-      "tags": [
-        "hiring",
-        "greenhouse",
-        "healthcare"
-      ],
-      "extras": {
-        "role": "Bilingual Medical Assistant (Part-Time)",
-        "location": "Remote",
-        "seniority": "mid",
         "remote": "remote"
       }
     }
