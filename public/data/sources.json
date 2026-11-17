@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T01:43:14.021774+00:00",
+  "generated_at": "2026-11-17T15:41:05.579566+00:00",
   "sources": [
     {
       "source": "greenhouse",
@@ -7,9 +7,9 @@
       "url": "https://boards-api.greenhouse.io",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-11-17T01:42:18.196381Z",
-      "last_attempted": "2026-11-17T01:42:18.196381Z",
-      "record_count": 3648,
+      "last_ok": "2026-11-17T15:39:41.009235Z",
+      "last_attempted": "2026-11-17T15:39:41.009235Z",
+      "record_count": 3657,
       "ok": true,
       "errors": [
         "DoorDash (doordash): GET https://boards-api.greenhouse.io/v1/boards/doordash/jobs failed: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/doordash/jobs?content=true'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
@@ -29,9 +29,9 @@
       "url": "https://api.lever.co/v0/postings",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-11-17T01:42:43.925194Z",
-      "last_attempted": "2026-11-17T01:42:43.925194Z",
-      "record_count": 88,
+      "last_ok": "2026-11-17T15:40:08.993635Z",
+      "last_attempted": "2026-11-17T15:40:08.993635Z",
+      "record_count": 87,
       "ok": true,
       "errors": [
         "Scale AI (scaleai): GET https://api.lever.co/v0/postings/scaleai failed: Client error '404 Not Found' for url 'https://api.lever.co/v0/postings/scaleai?mode=json'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
@@ -46,9 +46,9 @@
       "url": "https://api.ashbyhq.com/posting-api",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-11-17T01:43:02.476444Z",
-      "last_attempted": "2026-11-17T01:43:02.476444Z",
-      "record_count": 275,
+      "last_ok": "2026-11-17T15:40:48.767351Z",
+      "last_attempted": "2026-11-17T15:40:48.767351Z",
+      "record_count": 276,
       "ok": true,
       "errors": [
         "Replicate (replicate): GET https://api.ashbyhq.com/posting-api/job-board/replicate failed: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/replicate'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
@@ -60,8 +60,8 @@
       "url": "https://techcrunch.com/tag/layoffs/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-11-17T01:43:04.940014Z",
-      "last_attempted": "2026-11-17T01:43:04.940014Z",
+      "last_ok": "2026-11-17T15:40:51.222334Z",
+      "last_attempted": "2026-11-17T15:40:51.222334Z",
       "record_count": 2,
       "ok": true,
       "errors": []
@@ -72,11 +72,13 @@
       "url": "https://news.google.com/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-11-17T01:43:05.514609Z",
-      "last_attempted": "2026-11-17T01:43:05.514609Z",
-      "record_count": 29,
+      "last_ok": "2026-11-17T15:40:51.614684Z",
+      "last_attempted": "2026-11-17T15:40:51.614684Z",
+      "record_count": 26,
       "ok": true,
-      "errors": []
+      "errors": [
+        "'tech layoffs': Client error '429 Too Many Requests' for url 'https://news.google.com/rss/search?q=tech+layoffs+when%3A21d&hl=en-US&gl=US&ceid=US:en'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+      ]
     },
     {
       "source": "state_warn",
@@ -84,8 +86,8 @@
       "url": "https://data.texas.gov/d/8w53-c4f6",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-11-17T01:43:08.565947Z",
-      "last_attempted": "2026-11-17T01:43:08.565947Z",
+      "last_ok": "2026-11-17T15:40:54.082650Z",
+      "last_attempted": "2026-11-17T15:40:54.082650Z",
       "record_count": 40,
       "ok": true,
       "errors": []
@@ -96,8 +98,8 @@
       "url": "https://techcrunch.com/category/venture/feed/",
       "tos_posture": "public_rss",
       "cadence_hours": 6,
-      "last_ok": "2026-11-17T01:43:10.211721Z",
-      "last_attempted": "2026-11-17T01:43:10.211721Z",
+      "last_ok": "2026-11-17T15:41:02.386113Z",
+      "last_attempted": "2026-11-17T15:41:02.386113Z",
       "record_count": 10,
       "ok": true,
       "errors": []
@@ -108,9 +110,9 @@
       "url": "https://efts.sec.gov/LATEST/search-index",
       "tos_posture": "public_api",
       "cadence_hours": 6,
-      "last_ok": "2026-11-17T01:43:10.781254Z",
-      "last_attempted": "2026-11-17T01:43:10.781254Z",
-      "record_count": 123,
+      "last_ok": "2026-11-17T15:41:03.253183Z",
+      "last_attempted": "2026-11-17T15:41:03.253183Z",
+      "record_count": 103,
       "ok": true,
       "errors": []
     },
@@ -120,8 +122,8 @@
       "url": "https://www.bls.gov/oes/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-11-17T01:43:13.009565Z",
-      "last_attempted": "2026-11-17T01:43:13.009565Z",
+      "last_ok": "2026-11-17T15:41:04.734953Z",
+      "last_attempted": "2026-11-17T15:41:04.734953Z",
       "record_count": 24,
       "ok": true,
       "errors": []
@@ -132,8 +134,8 @@
       "url": "https://www.bls.gov/ces/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-11-17T01:43:13.533212Z",
-      "last_attempted": "2026-11-17T01:43:13.533212Z",
+      "last_ok": "2026-11-17T15:41:05.081858Z",
+      "last_attempted": "2026-11-17T15:41:05.081858Z",
       "record_count": 48,
       "ok": true,
       "errors": []
@@ -144,8 +146,8 @@
       "url": "https://www.bls.gov/developers/",
       "tos_posture": "public_api",
       "cadence_hours": 24,
-      "last_ok": "2026-11-17T01:43:13.749722Z",
-      "last_attempted": "2026-11-17T01:43:13.749722Z",
+      "last_ok": "2026-11-17T15:41:05.275056Z",
+      "last_attempted": "2026-11-17T15:41:05.275056Z",
       "record_count": 30,
       "ok": true,
       "errors": []
