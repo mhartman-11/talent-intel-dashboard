@@ -1,27 +1,50 @@
 {
   "stream": "layoffs",
-  "generated_at": "2026-11-26T21:05:22.859873+00:00",
-  "total": 67,
-  "showing": 67,
+  "generated_at": "2026-11-27T07:18:47.995387+00:00",
+  "total": 54,
+  "showing": 54,
   "source_counts": {
     "state_warn": 33,
-    "news_layoffs": 32,
+    "news_layoffs": 19,
     "layoffs_fyi": 2
   },
   "sector_counts": {
-    "Other": 32,
+    "Other": 23,
     "Logistics": 7,
-    "Technology": 6,
     "Hospitality": 6,
-    "Finance": 5,
+    "Technology": 5,
+    "Finance": 4,
     "Telecom": 3,
-    "Healthcare": 2,
     "Manufacturing": 2,
-    "Retail": 2,
+    "Healthcare": 1,
     "CPG": 1,
+    "Retail": 1,
     "Education": 1
   },
   "events": [
+    {
+      "id": "0519e564ebc3b0ef",
+      "ts": "2026-11-26T15:06:48Z",
+      "source": "news_layoffs",
+      "source_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOMFhfNlpDanlJVVFiX2FlOWotdUFRNUdVQmk3eWlGbWRzeDNLNlBKSUdtNkphMHEtUk1nTkN2RWxRbVVtWjJaMWJfV0ZFS2dNVVRCVjlTUGkycUNvdWtTUTlYS3BqV3JtQk5DYTE2TU1sdF95WEEzd0FmUVNvT2ZDeFpfcC1Ld9IBhgFBVV95cUxNdjRJZjg0RkpZbzlGTHdPWEF6WHFVOU1pRUk4dE1rcXdIWHlGcGlacnRyWEctc2U4UTNqMUdUQ3ZIbldrYmdyeHFHQzFTMmFsWHluNUFVV1FJRUlsZTBIaU5qTDVoMUFUcEQ0TFppZE5lM25DTzMwc05YU0s0LVh6cmVLYm1GUQ?oc=5",
+      "type": "layoff",
+      "company": {
+        "name": "Volkswagen",
+        "ticker": null,
+        "industry": null,
+        "sector": "Manufacturing",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": 100000.0,
+      "unit": "people",
+      "raw_text": "Volkswagen to cut 100,000 jobs by end of decade",
+      "tags": [
+        "layoff",
+        "manufacturing"
+      ],
+      "extras": {}
+    },
     {
       "id": "f0674f782a635d90",
       "ts": "2026-11-25T18:26:54Z",
@@ -88,52 +111,6 @@
       "tags": [
         "layoff",
         "technology"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "6c0e9a3e06f15008",
-      "ts": "2026-11-20T19:40:10Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOLUxOUnFyVjgtUnRoTDA0VXVoMHJMVlZydUpkLXhrRW1fajlIQkxBejMyRU5kZkxUaFF3UlVzTTNFakVXVE0xU1p6QkVyUWtSdlFxNTV4M2pkV1I1em5hUk14U0VQOGRyR3pzOG5tNGMtaVkzMV9xdTlfZ1EtUVFvUGtFaWhPZHVKSWVRZXZPRUpBcVF0WkctRVJiTTFrengxVVhxRmtVOWY4NFA0dVpRNA?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "UCS",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "UCS announces leadership layoffs as restructuring continues",
-      "tags": [
-        "layoff",
-        "other"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "eac8222fe21f8b4d",
-      "ts": "2026-11-20T03:38:10Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOVzRaOTloNmU3NG9HVDJlT1Y5SUdTR3BlRW9nTmFRLXpodjdYVzdaNXdNQ2dPV19qUzBzdEVxdjVUb2xyMnhqWU5laWJZNHRtTkJaeWM2SUV3NlNHUWFLZmpUYWp5MjJ2QnRkcWhJaGN1anN3cUpwUzVzUE1PbFQzeUZZU2k3aVY3cWdUYjdhdUpHRmhKR21OS2gxVXlTMFN2M0lWTDBENXFqeXdMUFd3SA?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "Kuda",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": 7.0,
-      "unit": "people",
-      "raw_text": "Kuda to Cut 7.5 Percent Jobs in Another Round of Layoffs",
-      "tags": [
-        "layoff",
-        "other"
       ],
       "extras": {}
     },
@@ -207,102 +184,10 @@
       "extras": {}
     },
     {
-      "id": "29e9db1b01676139",
-      "ts": "2026-11-19T00:30:13Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE80VVU1Nmp0YVM4STE4VFVvWExhRXljVks5QlB3a2FabUx1Vks0d2JXdGo5a0RRUnoyelFqZEFTb1hYb3JVVkRQdUJXeDFYbVh1WlAtV2pCMFNuc3ZRZUN0eGNqanQtcDg3ZFE?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "Pahlisch Homes",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Pahlisch Homes Announces Layoffs Amid a Challenging Housing Market",
-      "tags": [
-        "layoff",
-        "other"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "492e1d4d29580fee",
+      "id": "89c9302de33729fe",
       "ts": "2026-11-18T08:00:00Z",
       "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1nd0JMRjhRT1RrdDZ6MlI5eEgyMWU0Q21fbGpGYTA1WXdHVEpYMlNHS21waG40Y3QtV1dlWTc2Z2tRbXF1ckFpQll0cGllMnp3UUtRM3NDZV9TbXlBN2t3OG1uTFJiVlJNQ0NJNVRqdExPa3dN?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "Athenahealth Is",
-        "ticker": null,
-        "industry": null,
-        "sector": "Healthcare",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": 4.0,
-      "unit": "people",
-      "raw_text": "Athenahealth Is Eliminating 4 Percent of Its Positions Worldwide",
-      "tags": [
-        "layoff",
-        "healthcare"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "226e13e2133b6b34",
-      "ts": "2026-11-18T08:00:00Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNeUREMnJqb3IweUVNa0JwQjRfYi04dkdyaDAtOVZRMmE0alRXNDNWTzdvXzRTOW5Yc2puTXJrX2NpM0xkX1Y4clBGbTcyaFZlRTRWUVJRR29NZ3VaV1dRTUh6NU95dHFDbEJadlJyeXJIcDRSTFo0dnJXWTZTdEtieHVMalZ4OF9FZS1qbS1uenNhb0p6TmJkSlE4bEM4bGhkY1JlaFduSFNFN1JlNDdWbGhvUWpXU1FrU2pEQnV4Vy1zdnJKc19VRTU2STg1ZldScG9xSGtLWlJsa09jX3BWbg?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "Pahlisch Homes",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Pahlisch Homes cuts jobs, warns no sign of when housing market will bounce back",
-      "tags": [
-        "layoff",
-        "other"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "92d81a5a55fdde04",
-      "ts": "2026-11-18T04:18:09Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPTzNtb0pQM2RfTkh4Nk1ER28zbkRHQ282ZjFUT2pmUDhQZTEtSVlqTEk4RTVaUXJTTXFUeUlmVWllMVc3V1ROemszcDMzWVZPbHRjbHlBVVRrXy1qMk1WTm9qdGdOTll0Z29lWmhsRGNHcTdOWVZUa1k1SnloUVNkSk9rTEVrQ1lpdm9jYVdoRUs0bEttM0Z3SFI0YThfTno5QzhRX3lVcw?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "Intel",
-        "ticker": null,
-        "industry": null,
-        "sector": "Technology",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Intel announces further layoffs amid CEO Lip-Bu Tan's ongoing efficiency drive",
-      "tags": [
-        "layoff",
-        "technology"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "b139d2f0c3bb2fd2",
-      "ts": "2026-11-18T01:30:14Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE52cFJHYnlFSXllYUNNeGd5M3dIZDUtdVV4elRaRHFSTVZJRXpwYTJxalpNNG1xLUNoRHdFRHNxQzlydXQ5Z1JDVFJZam5zMERxSkVaNUFuQzQyN0l6X1Q3NW80TDI4aXZNYWRLRWJ1R3kxWGdtMnB6cFdoR0Y?oc=5",
+      "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNOGRKSXV4TGZxanpXbVFNZ3NnN1ZmMEREYjFjRldhWTVXSThXaUdtd1NPSm8tMTdyQWthMWFYR1lEOEhWQkRlZ1BJbC1hdnJzNHJYRDJjT0RKNkJlaWJaUVhjT0VUcFRxbWNGcHBXOUNmVTlZOExXUk9FX3Bwb1d2VjlpWTRlVmNiVTlYZEEzSl85Y01sVHZSem14eHhNT0VhS29jUVJoa0NhYkdYRkg4?oc=5",
       "type": "layoff",
       "company": {
         "name": "Qualcomm",
@@ -314,33 +199,10 @@
       },
       "magnitude": null,
       "unit": null,
-      "raw_text": "Qualcomm Cuts 520 California Jobs Through State Layoff Notices",
+      "raw_text": "Qualcomm trims South Bay jobs as pace of Bay Area tech layoffs slows",
       "tags": [
         "layoff",
         "technology"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "37893044dbcb24d3",
-      "ts": "2026-11-17T00:30:15Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA2TnJCUXV4ZldqNVBueGpQSEFTejVrbkRLZnJ2YUVfdDVsMml4MzBVX2dXc25GNVFscWtxanZjVm8zd1l2bzY2ZzUwQVJkeDlQU0JNbG54b09iYUpDYnZhQjBKTUxxTUR4NmtmbThfdw?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "Renault Plans",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Renault Plans to Cut Up to 1,000 White-Collar Jobs Through Voluntary Departures",
-      "tags": [
-        "layoff",
-        "other"
       ],
       "extras": {}
     },
@@ -415,29 +277,6 @@
       "extras": {}
     },
     {
-      "id": "2c549dce4a46646a",
-      "ts": "2026-11-13T08:00:00Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOOUk2bkpiZk1WdFMyRUFXM1VpSVNlc3R5NEYtd1VjY1pkNkZYbGxqUFJ3RjBhVXJVc0tnUThlbFhzNklNTWROTUh5MEVVSjhJanQzVlNUWlM2Y3B4M3M1RDJRQ28xcjlpZnliSnFuWDY0YnFiYXU2aXBXV1RjaEZPVzN6NDlGNS1CenlFNko3WUFXOXRPNGc1R2dRa2M4dko4UG1xTzhuRTJSR1FLVXFCYjk1b1ZpWTFaTzU3NUpiM1V6VmpvMG5USFRvcnhyQldCN0hma2t30gHbAUFVX3lxTE1nNTZ2V1M4YXVQb0ZVMld3dFFIdzF0Y2pSRVFGWDVEbnJSWF9sMzlwcVNWYmdwcVFYR2hnb3g0d0xhZjN3WjBxNnF2VFRBRERDUUZXUTJvYm1ReUx2bXd4ZWctTE5iM0pmTFYwbGlOYUxSalFVRWRFSm4ydzlqX0lDT0xaaTJOc0Q3b1RodzdCU2xsQWdIZi1FRE1DZ0VYYmxTQkxIeEpwR2l5YUpsNk1fcEZmUTJZaEx4bzlDeG4xdTZvdGJHeUU2Ml80YS1GOVc1Y296T3JaTlEyVQ?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "Barclays",
-        "ticker": null,
-        "industry": null,
-        "sector": "Finance",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": 200.0,
-      "unit": "people",
-      "raw_text": "Barclays eliminates an additional 200 jobs in investment banking, on top of the 5,000 already announced",
-      "tags": [
-        "layoff",
-        "finance"
-      ],
-      "extras": {}
-    },
-    {
       "id": "5e37c3f0ea15b454",
       "ts": "2026-11-13T08:00:00Z",
       "source": "news_layoffs",
@@ -461,29 +300,6 @@
       "extras": {}
     },
     {
-      "id": "18c537fed56a8245",
-      "ts": "2026-11-12T08:00:00Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQSnNuSDJ4amNnbFdYcURkaHcwclMwTTVyUmJlTDZocGZ6YmdXQ1g1SDlNekplUjFZcXFQdU1BMDM5X3IxYjRNZEtYc25BOGJUQnA1UXA3TzFSNVo0NEtqRTY1dFVKZ1dfWUE4UXM5U1hWX28yd1drcnlFcXJkUUtwRld2dkpWaWZDcVh3NVhlSldMdEdtUk4wSHBpMV9RckhjajdSVUNDNlpVMkNoLUE?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "Presbyterian",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": 135.0,
-      "unit": "people",
-      "raw_text": "Presbyterian cuts 135 jobs in second round of layoffs",
-      "tags": [
-        "layoff",
-        "other"
-      ],
-      "extras": {}
-    },
-    {
       "id": "ae434a0486fe895c",
       "ts": "2026-11-12T08:00:00Z",
       "source": "news_layoffs",
@@ -500,6 +316,29 @@
       "magnitude": 118.0,
       "unit": "people",
       "raw_text": "Suunto Layoffs Could Cut 118 of 160 Finnish Jobs; Owner Liesheng Is Bound by China Intelligence Law",
+      "tags": [
+        "layoff",
+        "other"
+      ],
+      "extras": {}
+    },
+    {
+      "id": "18c537fed56a8245",
+      "ts": "2026-11-12T08:00:00Z",
+      "source": "news_layoffs",
+      "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQSnNuSDJ4amNnbFdYcURkaHcwclMwTTVyUmJlTDZocGZ6YmdXQ1g1SDlNekplUjFZcXFQdU1BMDM5X3IxYjRNZEtYc25BOGJUQnA1UXA3TzFSNVo0NEtqRTY1dFVKZ1dfWUE4UXM5U1hWX28yd1drcnlFcXJkUUtwRld2dkpWaWZDcVh3NVhlSldMdEdtUk4wSHBpMV9RckhjajdSVUNDNlpVMkNoLUE?oc=5",
+      "type": "layoff",
+      "company": {
+        "name": "Presbyterian",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": 135.0,
+      "unit": "people",
+      "raw_text": "Presbyterian cuts 135 jobs in second round of layoffs",
       "tags": [
         "layoff",
         "other"
@@ -530,29 +369,6 @@
       "extras": {}
     },
     {
-      "id": "ff17313e7b9d87d3",
-      "ts": "2026-11-11T13:30:13Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBiU3R2Zk94bHY1SFZscFZodk9WWmxWaDVwd1hlbHdGU3Ytbkk3STVscVZKaXhoSjBuUTYzLXBQcXM5ZjBKVXRXeXcwVWZMRVhPcHl0am5RRWc1RlVyRzZWN3cxbmVCVDBpM1Bj?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "Uber Freight",
-        "ticker": null,
-        "industry": null,
-        "sector": "Retail",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": 80.0,
-      "unit": "people",
-      "raw_text": "Uber Freight Cuts Roughly 80 Roles in Organizational Restructuring",
-      "tags": [
-        "layoff",
-        "retail"
-      ],
-      "extras": {}
-    },
-    {
       "id": "3470eba50bdf9526",
       "ts": "2026-11-10T08:00:00Z",
       "source": "news_layoffs",
@@ -577,56 +393,10 @@
       "extras": {}
     },
     {
-      "id": "4c37d860f0fee996",
-      "ts": "2026-11-10T08:00:00Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBMcEhwd2NfWmFaZEtVTXlVenMzQlJPLVFHMDdlVU9SUDNOU1duRmxrVEZXZW1Yd2l2ZVRFZ3ZGbVdwOTkxOG9tal8xYS1QbmxmSElhamdFeDR3eWpsQ3VyeTBaZnJORXo5blBv?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "Yuyu Pharma",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Yuyu Pharma Cuts Production Costs Without Layoffs at 20-Year-Old Plant",
-      "tags": [
-        "layoff",
-        "other"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "03d08e88d916c86d",
-      "ts": "2026-11-10T08:00:00Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPVm1PWHlHSVZIRktsSUxyVzZhQUhOR2xNMGxpVEtpN2JWb1ZINFZqUmY1YVFNcTBzLTlRSWV6MkRFVTEwa0lkRVFCV3BUZmQ2U251bXpqZTdISFVVbHdPZGdKMHhsT2pVNWtUWnp2Nk1TSG56b25uYUh3NWpfcnY3Q3hTR2ZOdmRHclJBNFBnWkZya0ZyQ2xmd2RxQ2Ywdw?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "Skydance",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Skydance announces layoffs to games division following $111bn merger",
-      "tags": [
-        "layoff",
-        "other"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "c1ac550a03f41233",
+      "id": "7f6fc891b17dd4ad",
       "ts": "2026-11-09T08:00:00Z",
       "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQSFhFZFZ4azdCajVoRjNwR256Wl9VV2ZnQXNSSU1KZFVIRXZvZW9uMFhyWFp1UUlFcGdyLVoxWjFONVJya1hXelpEdEhQbG1uN0RiTEJaa0FLaUQ0eWh3V2o4VGhtQWtBNzFGY1p1bnpHZ1dVMWpRLTBQaktPWV9TTEZIR2dXelBTM1FxeEdING82Z0dLRDZKYmNHWGhxQzEtYlNQcGJ0MlRIQ28?oc=5",
+      "source_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE04SmhLWm85WTdGX3dQRHVtQVRZQm9Zbjh0M0lWcGxVQWwtellyNTZ3V0I4eGlDNmVJTXZKckhlNlNXRmIybXJCMzcwSnhxQmFaVlY5TktfdXkxWTg3WXZ2YS0xNFpYSjdWQWprdzJROC1saERqWWZYVW9xNNIBgAFBVV95cUxObkRCVlNhMUN3MFZERVdZNGQwY0wwYlRfT0RJZ25Dc3luZmpLNm5CVGVXMEg5MV9GbmRjSjhhbDhNOTRHYjRmRFZZSl9RRUtxcXllNEZXbE93cEprNmYzMURwOERlaVRIcVk3ejhucWJmRllYQWJUNmp4cm9sdzJIMw?oc=5",
       "type": "layoff",
       "company": {
         "name": "Boeing",
@@ -638,102 +408,10 @@
       },
       "magnitude": null,
       "unit": null,
-      "raw_text": "Boeing to cut 5% of workforce in commercial airplane division through layoffs, attrition",
+      "raw_text": "Boeing to cut 5% of commercial airplane workers as production increase takes longer than expected",
       "tags": [
         "layoff",
         "manufacturing"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "780d04730831c25b",
-      "ts": "2026-11-09T08:00:00Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQdVpDdTQ4bmJiVUVKU2VTV1E5aDVib1hXa3cyVjVxTWduaFpFUmlkQmVVQWNjR1lXaDFoQml0Rlhzc3pBQ3VHa0xoanRnZm1TVDM3d3JYRkVSbVZkUm91aTdvR3NZVkRzaFY1MldsOG1WNnVFalNWY2F5WVJHalgyRGpjUDdyeEJ6X1RRUnJDcktyeDNmWW9KMm5kdW14bjVDMkpMZURjOA?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "Qantas",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": 850.0,
-      "unit": "people",
-      "raw_text": "Qantas to cut 850 Australian jobs and outsource work to India under AI-driven overhaul",
-      "tags": [
-        "layoff",
-        "other"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "4bd6e9939a2b64f3",
-      "ts": "2026-11-09T08:00:00Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNT2dVTHh0VFVQaHY2S1dZUEJzOEFlbjVPLU9sZ3J2eG1xajIwWHY0ay15aXJVWXRGREhjR0tMd0pBeTJnTkppcXFDUmhSM2hONEZYZm1PMEdCRktnMDJ2Skp4Qmx4WEdTd09pY2ZvMVotWjBBc2pxUnRzSFZPWGZONG80MGlfRjFaUi1Yc0ZoR0pHX1p4Y05waHJGRVRueEJvZXRjWm9fTm9DdDdtM3VENklB?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "Canada's Nova Steel",
-        "ticker": null,
-        "industry": null,
-        "sector": "Manufacturing",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Canada's Nova Steel announces layoffs, cites low-priced imports",
-      "tags": [
-        "layoff",
-        "manufacturing"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "832404274be49c51",
-      "ts": "2026-11-06T08:00:00Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9KQjBxWWlVY29hdHlfQzNRUzZYWUNsVG5kN2g2SkZDRUpVU09JX0pOVXIwbnhzWkFzN2w1TXpkeGtqdGJkUWdUUmpFUlFvZWtuOUVRU0dqZko5X19QbDUyYjdEbnBMUDhVRjRNcDJSYw?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "Canva",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "Canva raises the bar for layoff perks",
-      "tags": [
-        "layoff",
-        "other"
-      ],
-      "extras": {}
-    },
-    {
-      "id": "b8181f83d7049996",
-      "ts": "2026-11-06T08:00:00Z",
-      "source": "news_layoffs",
-      "source_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNQkZlVXB5TFJUdGxMM2lLcUdURG42QmRmT000SHV4bDN5NVV4amxCSFRoSXlZaGUxOWNEcXJlRmVNZWtfQjZWREgxVS1CVmNqaGtGQTFBcFg2VXVjQ0FuTGFRR2ZCdzlTTXlYTWliRGxWWEp0NC1uV3p1OWJ5UVBESGhjdEEzal9FV2ZFQld4bjgyb3JNT3ctaFNuWldXdVJTNVNtbGNjLXExYlV2eUpyNDFLUkpsQQ?oc=5",
-      "type": "layoff",
-      "company": {
-        "name": "U.S. Companies",
-        "ticker": null,
-        "industry": null,
-        "sector": "Other",
-        "hq_region": null,
-        "size_band": "unknown"
-      },
-      "magnitude": null,
-      "unit": null,
-      "raw_text": "U.S. Companies Announce Fewest October Job Cuts in Three Years",
-      "tags": [
-        "layoff",
-        "other"
       ],
       "extras": {}
     },
@@ -757,6 +435,29 @@
       "tags": [
         "layoff",
         "finance"
+      ],
+      "extras": {}
+    },
+    {
+      "id": "832404274be49c51",
+      "ts": "2026-11-06T08:00:00Z",
+      "source": "news_layoffs",
+      "source_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9KQjBxWWlVY29hdHlfQzNRUzZYWUNsVG5kN2g2SkZDRUpVU09JX0pOVXIwbnhzWkFzN2w1TXpkeGtqdGJkUWdUUmpFUlFvZWtuOUVRU0dqZko5X19QbDUyYjdEbnBMUDhVRjRNcDJSYw?oc=5",
+      "type": "layoff",
+      "company": {
+        "name": "Canva",
+        "ticker": null,
+        "industry": null,
+        "sector": "Other",
+        "hq_region": null,
+        "size_band": "unknown"
+      },
+      "magnitude": null,
+      "unit": null,
+      "raw_text": "Canva raises the bar for layoff perks",
+      "tags": [
+        "layoff",
+        "other"
       ],
       "extras": {}
     },
